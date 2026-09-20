@@ -1,6 +1,6 @@
 {
   "candidate_count": 26,
-  "catalog_part_count": 78,
+  "catalog_part_count": 85,
   "collectors": {
     "catalog_discovery": {
       "candidate_count": 26,
@@ -19,7 +19,8 @@
       "warnings": []
     },
     "curated": {
-      "count": 7,
+      "count": 17,
+      "files": 2,
       "warnings": []
     },
     "ebay": {
@@ -35,20 +36,22 @@
       ]
     },
     "seed_catalog": {
-      "count": 78,
-      "offer_count": 53,
-      "source_count": 67,
+      "count": 85,
+      "offer_count": 60,
+      "source_count": 74,
       "warnings": []
     },
     "web_product": {
       "enabled": true,
-      "fresh_pages_skipped": 0,
-      "offer_count": 17,
-      "pages_checked": 34,
+      "fresh_pages_skipped": 34,
+      "offer_count": 5,
+      "pages_checked": 5,
       "refresh_hours": 24,
       "robots_origins_checked": 3,
-      "source_count": 34,
+      "source_count": 5,
       "warnings": [
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
         "robots denied/unavailable: https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
         "robots denied/unavailable: https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
         "robots denied/unavailable: https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
@@ -84,10 +87,10 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T02:56:14Z",
-  "offer_count": 53,
+  "generated_at": "2026-09-20T02:58:56Z",
+  "offer_count": 60,
   "ok": true,
-  "price_history_count": 53,
+  "price_history_count": 60,
   "review_queue_count": 0,
-  "source_count": 147
+  "source_count": 164
 }

@@ -528,5 +528,75 @@
     "price": 165.73,
     "shipping": null,
     "vendor": "Turner Motorsport"
+  },
+  {
+    "captured_at": "2026-09-20T02:58:56Z",
+    "id": "9e3f9151757dcd4dbf45:2026-09-20",
+    "in_stock": true,
+    "offer_id": "9e3f9151757dcd4dbf45",
+    "part_id": "brz-perrin-oilcooler-full",
+    "price": 884.0,
+    "shipping": null,
+    "vendor": "PERRIN"
+  },
+  {
+    "captured_at": "2026-09-20T02:58:56Z",
+    "id": "8c7db1ab5ae4aaad7534:2026-09-20",
+    "in_stock": true,
+    "offer_id": "8c7db1ab5ae4aaad7534",
+    "part_id": "brz-perrin-oilcooler-tuner",
+    "price": 463.25,
+    "shipping": null,
+    "vendor": "PERRIN"
+  },
+  {
+    "captured_at": "2026-09-20T02:58:56Z",
+    "id": "4eaf9cf22ff09db6321c:2026-09-20",
+    "in_stock": true,
+    "offer_id": "4eaf9cf22ff09db6321c",
+    "part_id": "miata-koni-stage1",
+    "price": 1428.0,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:58:56Z",
+    "id": "ec9b91403212de530f59:2026-09-20",
+    "in_stock": true,
+    "offer_id": "ec9b91403212de530f59",
+    "part_id": "miata-koni-stage2",
+    "price": 1964.97,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:58:56Z",
+    "id": "8d7e634056b830237b6e:2026-09-20",
+    "in_stock": true,
+    "offer_id": "8d7e634056b830237b6e",
+    "part_id": "miata-vmaxx-xxtreme-track",
+    "price": 1129.0,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:58:56Z",
+    "id": "f02ff71e13e411693d1b:2026-09-20",
+    "in_stock": true,
+    "offer_id": "f02ff71e13e411693d1b",
+    "part_id": "z3-mahle-expansion-tank",
+    "price": 105.99,
+    "shipping": null,
+    "vendor": "Turner Motorsport"
+  },
+  {
+    "captured_at": "2026-09-20T02:58:56Z",
+    "id": "b52ee50e78970efc9490:2026-09-20",
+    "in_stock": true,
+    "offer_id": "b52ee50e78970efc9490",
+    "part_id": "z3-turner-cooling-overhaul",
+    "price": 749.55,
+    "shipping": null,
+    "vendor": "Turner Motorsport"
   }
 ]

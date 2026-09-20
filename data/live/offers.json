@@ -192,14 +192,13 @@
     "id": "f67089a6347c7ab5e2b3",
     "in_stock": true,
     "metadata": {
-      "name": "Engine Mount Kit for 2002-2026 WRX, STI, BRZ, FR-S, 86, Legacy, Forester, Impreza, Outback, Ascent",
-      "price_type": "structured_page",
-      "sku": "PSP-DRV-057",
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "brz-perrin-engine-mounts",
     "price": 339.15,
-    "retrieved_at": "2026-09-20T02:56:05Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://perrin.com/products/engine-mount-kit-for-2002-2026-wrx-sti-brz-fr-s-86-legacy-forester-outback-impreza-ascent",
     "vendor": "PERRIN"
@@ -210,14 +209,13 @@
     "id": "b09f4e5761542d8f86d7",
     "in_stock": true,
     "metadata": {
-      "name": "Front Endlinks with Urethane Bushings for 2013-2026 BRZ, FR-S, 86, GR86",
-      "price_type": "structured_page",
-      "sku": "PSP-SUS-115",
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "brz-perrin-front-endlinks",
     "price": 126.65,
-    "retrieved_at": "2026-09-20T02:56:06Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://perrin.com/products/frs-brz-front-endlinks",
     "vendor": "PERRIN"
@@ -260,16 +258,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "effd5339f24a9d88620c",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Intake, Cold Air CARB Approved for 2017-2020 BRZ, FR-S, 86 Manual",
-      "price_type": "structured_page",
-      "sku": "PSP-INT-333RD",
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "brz-perrin-intake",
     "price": 399.5,
-    "retrieved_at": "2026-09-20T02:55:55Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
     "vendor": "PERRIN"
@@ -278,18 +275,53 @@
     "condition": "new",
     "currency": "USD",
     "id": "c93aa68b5c1de6cab5b9",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Master Cylinder Brace for 2013-2026 BRZ, FR-S, 86, GR86",
-      "price_type": "structured_page",
-      "sku": "PSP-BRK-406BK",
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "brz-perrin-master-brace",
     "price": 79.05,
-    "retrieved_at": "2026-09-20T02:55:57Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://perrin.com/products/master-cylinder-brace-for-brz-fr-s-86-gr86",
+    "vendor": "PERRIN"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "9e3f9151757dcd4dbf45",
+    "in_stock": true,
+    "metadata": {
+      "name": "Oil Cooler Full Kit for 2013-2020 BRZ, FR-S, 86",
+      "price_type": "structured_page",
+      "sku": "PSP-OIL-113",
+      "source": "json-ld"
+    },
+    "part_id": "brz-perrin-oilcooler-full",
+    "price": 884.0,
+    "retrieved_at": "2026-09-20T02:58:51Z",
+    "shipping": null,
+    "url": "https://perrin.com/products/oil-cooler-full-kit-for-brz-fr-s-86-gr86",
+    "vendor": "PERRIN"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "8c7db1ab5ae4aaad7534",
+    "in_stock": true,
+    "metadata": {
+      "name": "Oil Cooler Tuner Kit for 2013-2020 BRZ, FR-S, 86",
+      "price_type": "structured_page",
+      "sku": "PSP-OIL-128",
+      "source": "json-ld"
+    },
+    "part_id": "brz-perrin-oilcooler-tuner",
+    "price": 463.25,
+    "retrieved_at": "2026-09-20T02:58:52Z",
+    "shipping": null,
+    "url": "https://perrin.com/products/oil-cooler-tuner-kit-for-brz-fr-s-86-gr86",
     "vendor": "PERRIN"
   },
   {
@@ -315,14 +347,13 @@
     "id": "ed696a16b5f37b6f627a",
     "in_stock": true,
     "metadata": {
-      "name": "Steering Rack Lockdown for 2013-2026 BRZ, FR-S, 86, GR86",
-      "price_type": "structured_page",
-      "sku": "PSP-SUS-563",
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "brz-perrin-steering-lockdown",
     "price": 94.35,
-    "retrieved_at": "2026-09-20T02:56:04Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://perrin.com/products/frs-brz-steering-rack-lockdown",
     "vendor": "PERRIN"
@@ -348,16 +379,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "aa3e8abbf0ff1e7f0a5a",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Rear Subframe Lockdown for 2013-2020 BRZ, FR-S, 86, GR86",
-      "price_type": "structured_page",
-      "sku": "PSP-SUS-532BK",
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "brz-perrin-subframe",
     "price": 119.85,
-    "retrieved_at": "2026-09-20T02:55:56Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://perrin.com/products/subframe-differential-lockdown",
     "vendor": "PERRIN"
@@ -366,16 +396,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "82672d99fe41a3ce5c52",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Transmission Mount Support for Manual 2013-2026 BRZ, FR-S, 86, GR86",
-      "price_type": "structured_page",
-      "sku": "PSP-DRV-160",
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "brz-perrin-trans-support",
     "price": 54.4,
-    "retrieved_at": "2026-09-20T02:55:56Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://perrin.com/products/transmission-mount-support-for-manual",
     "vendor": "PERRIN"
@@ -401,16 +430,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "1c3920a0f34173fa7f43",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Billet sway bar brackets (front) - NA/NB",
-      "price_type": "structured_page",
-      "sku": null,
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "miata-fm-billet-front-sway-brackets",
     "price": 94.99,
-    "retrieved_at": "2026-09-20T02:56:10Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/front-billet-sway-bar-brackets",
     "vendor": "Flyin' Miata"
@@ -419,16 +447,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "4c30c5f286109fbadc38",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Billet sway bar brackets (rear) - NA/NB",
-      "price_type": "structured_page",
-      "sku": null,
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "miata-fm-billet-rear-sway-brackets",
     "price": 77.98,
-    "retrieved_at": "2026-09-20T02:56:11Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/rear-billet-sway-bar-brackets",
     "vendor": "Flyin' Miata"
@@ -437,16 +464,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "dd60ac62da58cd4c9f63",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "FM door bushings, second generation",
-      "price_type": "structured_page",
-      "sku": null,
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "miata-fm-door-bushings",
     "price": 19.99,
-    "retrieved_at": "2026-09-20T02:56:08Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/door-bushings",
     "vendor": "Flyin' Miata"
@@ -455,16 +481,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "4285241d141b54c6ff7b",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Flyin' Miata sway bar end links (NB front or rear, NC front or rear, OR ND front)",
-      "price_type": "structured_page",
-      "sku": null,
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "miata-fm-endlinks",
     "price": 69.99,
-    "retrieved_at": "2026-09-20T02:56:09Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/nb-and-nc-end-link",
     "vendor": "Flyin' Miata"
@@ -490,16 +515,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "7baec8cff8b20dcb4ec2",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Flyin' Miata FOX suspension for NB",
-      "price_type": "structured_page",
-      "sku": null,
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "miata-fm-fox-suspension",
     "price": 2389.0,
-    "retrieved_at": "2026-09-20T02:56:11Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/fox-suspension-for-nb-chassis",
     "vendor": "Flyin' Miata"
@@ -525,16 +549,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "8cebb54908cfbc74415c",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Heavy duty sway bar mounts for NA/NB chassis",
-      "price_type": "structured_page",
-      "sku": null,
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "miata-fm-heavy-sway-mounts",
     "price": 189.0,
-    "retrieved_at": "2026-09-20T02:56:10Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/na-nb-heavy-duty-sway-bar-mounts",
     "vendor": "Flyin' Miata"
@@ -577,16 +600,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "28f6fb67d0a80af52287",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Flyin' Miata spring set (NB chassis)",
-      "price_type": "structured_page",
-      "sku": null,
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "miata-fm-springs",
     "price": 249.0,
-    "retrieved_at": "2026-09-20T02:56:09Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/nb-flyin-miata-springs",
     "vendor": "Flyin' Miata"
@@ -629,16 +651,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "9c88f1ea8f221cc21a1e",
-    "in_stock": true,
+    "in_stock": null,
     "metadata": {
-      "name": "Koni Special Active shock set with bump stops, 1999-2005",
-      "price_type": "structured_page",
-      "sku": null,
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "miata-koni-active",
     "price": 899.0,
-    "retrieved_at": "2026-09-20T02:55:58Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/koni-special-active-shock-set-1999-2005",
     "vendor": "Flyin' Miata"
@@ -646,17 +667,52 @@
   {
     "condition": "new",
     "currency": "USD",
-    "id": "a02e0275db14040cd730",
+    "id": "4eaf9cf22ff09db6321c",
     "in_stock": true,
     "metadata": {
-      "name": "Koni STR.T shock and bump stop set, 1999-05",
+      "name": "Flyin' Miata Koni Stage 1 suspension package (NB chassis)",
       "price_type": "structured_page",
       "sku": null,
       "source": "json-ld"
     },
+    "part_id": "miata-koni-stage1",
+    "price": 1428.0,
+    "retrieved_at": "2026-09-20T02:58:52Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/nb-stage-1-suspension-kit",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "ec9b91403212de530f59",
+    "in_stock": true,
+    "metadata": {
+      "name": "Flyin' Miata Koni Stage 2 suspension package (NB chassis)",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "miata-koni-stage2",
+    "price": 1964.97,
+    "retrieved_at": "2026-09-20T02:58:53Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/nb-koni-stage-2-suspension-kit",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "a02e0275db14040cd730",
+    "in_stock": null,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
+    },
     "part_id": "miata-koni-strt",
     "price": 589.0,
-    "retrieved_at": "2026-09-20T02:55:58Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/koni-str-t-shock-and-bump-stop-set-nb",
     "vendor": "Flyin' Miata"
@@ -716,16 +772,15 @@
     "condition": "new",
     "currency": "USD",
     "id": "e9d3a9d8bef919db77fa",
-    "in_stock": false,
+    "in_stock": null,
     "metadata": {
-      "name": "Flyin Miata Stage 1 turbo system for 1999-00",
-      "price_type": "structured_page",
-      "sku": null,
-      "source": "json-ld"
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
     },
     "part_id": "miata-stage1-turbo-9900",
     "price": 4757.99,
-    "retrieved_at": "2026-09-20T02:56:04Z",
+    "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/flyin-miata-stage-1-turbo-system-1999-00",
     "vendor": "Flyin' Miata"
@@ -745,6 +800,24 @@
     "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://flyinmiata.com/collections/nb-handling-coilovers",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "8d7e634056b830237b6e",
+    "in_stock": true,
+    "metadata": {
+      "name": "FM V-Maxx XXtreme coilovers for NB - Track Pack",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "miata-vmaxx-xxtreme-track",
+    "price": 1129.0,
+    "retrieved_at": "2026-09-20T02:58:53Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-coilovers-track-pack",
     "vendor": "Flyin' Miata"
   },
   {
@@ -852,6 +925,23 @@
   {
     "condition": "new",
     "currency": "USD",
+    "id": "f02ff71e13e411693d1b",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "z3-mahle-expansion-tank",
+    "price": 105.99,
+    "retrieved_at": "2026-09-20T12:00:00Z",
+    "shipping": null,
+    "url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+    "vendor": "Turner Motorsport"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
     "id": "183cda24b137b6a04cec",
     "in_stock": true,
     "metadata": {
@@ -881,6 +971,23 @@
     "retrieved_at": "2026-09-20T12:00:00Z",
     "shipping": null,
     "url": "https://www.turnermotorsport.com/BMW-Z3/c-664-bmw-clutch-pedal-parts",
+    "vendor": "Turner Motorsport"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "b52ee50e78970efc9490",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "z3-turner-cooling-overhaul",
+    "price": 749.55,
+    "retrieved_at": "2026-09-20T12:00:00Z",
+    "shipping": null,
+    "url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
     "vendor": "Turner Motorsport"
   },
   {

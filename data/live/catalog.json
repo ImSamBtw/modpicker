@@ -633,6 +633,301 @@
     "vehicle_query": "2013-2020 Subaru BRZ / FR-S / 86"
   },
   {
+    "brand": "PERRIN",
+    "category": "Cooling",
+    "description": "Complete thermostatic oil-cooler system for the first-generation BRZ/FR-S/86. PERRIN lists a 240-minute install and notes that 2017-2020 BRZ/86 manual cars with the OEM intake require slight air-box modification.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/oil-cooler-full-kit-for-brz-fr-s-86-gr86",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "track",
+      "power"
+    ],
+    "id": "brz-perrin-oilcooler-full",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 4
+    },
+    "manufacturer_part_number": "PSP-OIL-113",
+    "name": "Oil Cooler Full Kit for 2013-2020 BRZ / FR-S / 86",
+    "official_url": "https://perrin.com/products/oil-cooler-full-kit-for-brz-fr-s-86-gr86",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 884,
+      "url": "https://perrin.com/products/oil-cooler-full-kit-for-brz-fr-s-86-gr86",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 90,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.0,
+      "performance": 7.5,
+      "provisional": true,
+      "quality": 9.2,
+      "reliability": 9.2,
+      "value": 8.1
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2017 Subaru BRZ"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Cooling",
+    "description": "Core-and-bracket oil-cooler package for custom installations. It does not include the full kit's hoses, fittings, spacer, and thermostat adapter, so those supporting components must be engineered separately.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/oil-cooler-tuner-kit-for-brz-fr-s-86-gr86",
+    "fitment_status": "verified",
+    "goals": [
+      "track",
+      "power",
+      "budget"
+    ],
+    "id": "brz-perrin-oilcooler-tuner",
+    "install": {
+      "difficulty": "Professional",
+      "hours": 4
+    },
+    "manufacturer_part_number": "PSP-OIL-128",
+    "name": "Oil Cooler Tuner Kit for 2013-2020 BRZ / FR-S / 86",
+    "official_url": "https://perrin.com/products/oil-cooler-tuner-kit-for-brz-fr-s-86-gr86",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 463.25,
+      "url": "https://perrin.com/products/oil-cooler-tuner-kit-for-brz-fr-s-86-gr86",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 86,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.0,
+      "performance": 7.2,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 8.2,
+      "value": 8.4
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2017 Subaru BRZ"
+  },
+  {
+    "brand": "Flyin' Miata / Koni",
+    "category": "Suspension",
+    "description": "Matched Flyin' Miata springs, Koni Sport dampers, and bumpstops for 1999-2005 NB Miatas. A strong complete street/handling alternative to buying shocks and springs separately.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/nb-stage-1-suspension-kit",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "balanced",
+      "reliability"
+    ],
+    "id": "miata-koni-stage1",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 6
+    },
+    "manufacturer_part_number": "13-16310NB",
+    "name": "Koni Stage 1 Suspension Package - NB",
+    "official_url": "https://flyinmiata.com/products/nb-stage-1-suspension-kit",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 1428,
+      "url": "https://flyinmiata.com/products/nb-stage-1-suspension-kit",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 91,
+      "handling": 9.2,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.1,
+      "performance": 2,
+      "provisional": true,
+      "quality": 9.3,
+      "reliability": 9.2,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata / Koni",
+    "category": "Suspension",
+    "description": "Complete NB chassis suspension package built around Koni Sport dampers and Flyin' Miata components, with configurable upper bushings and end links. Current product page lists 1999-2005 fitment.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/nb-koni-stage-2-suspension-kit",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "miata-koni-stage2",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 7
+    },
+    "name": "Koni Stage 2 Suspension Package - NB",
+    "official_url": "https://flyinmiata.com/products/nb-koni-stage-2-suspension-kit",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": false,
+      "observed_at": "2026-09-20",
+      "price": 1964.97,
+      "url": "https://flyinmiata.com/products/nb-koni-stage-2-suspension-kit",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 91,
+      "handling": 9.5,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.2,
+      "performance": 2,
+      "provisional": true,
+      "quality": 9.3,
+      "reliability": 9.1,
+      "value": 8.2
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata / V-Maxx",
+    "category": "Suspension",
+    "description": "Damping-adjustable NB coilover package with track-oriented 504 lb/in front and 336 lb/in rear rates. Flyin' Miata explicitly describes it as primarily track focused and stiff for street use.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-coilovers-track-pack",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "budget"
+    ],
+    "id": "miata-vmaxx-xxtreme-track",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 6
+    },
+    "name": "V-Maxx XXtreme Coilovers - NB Track Pack",
+    "official_url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-coilovers-track-pack",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 1129,
+      "url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-coilovers-track-pack",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 88,
+      "handling": 9.4,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.7,
+      "performance": 2,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 8.5,
+      "value": 9.0
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Mahle-Behr",
+    "category": "Cooling",
+    "description": "OEM-supplier Mahle-Behr expansion tank explicitly listed for 1999-2002 Z3 2.8. This is an age-sensitive cooling-system maintenance component rather than a performance upgrade.",
+    "fitment_confidence": 1.0,
+    "fitment_source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "budget"
+    ],
+    "id": "z3-mahle-expansion-tank",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 1.5
+    },
+    "manufacturer_part_number": "17107514964",
+    "name": "Coolant Expansion Tank",
+    "official_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 105.99,
+      "url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 94,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.0,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 9.4,
+      "value": 9.2
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "1999-2002 BMW Z3 2.8"
+  },
+  {
+    "brand": "Turner Motorsport",
+    "category": "Cooling",
+    "description": "M52TU/M54-era Z3 cooling overhaul bundle explicitly listed for 1999-2002 Z3 2.8. Base package includes radiator, OE BMW water pump, thermostat/housing, radiator cap, expansion tank, and hoses, with an optional Stewart pump upgrade.",
+    "fitment_confidence": 1.0,
+    "fitment_source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "balanced"
+    ],
+    "id": "z3-turner-cooling-overhaul",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 7
+    },
+    "manufacturer_part_number": "TMS16427",
+    "name": "Complete Cooling System Overhaul Package - 1999-2002 Z3",
+    "official_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 749.55,
+      "url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 95,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.3,
+      "performance": 2,
+      "provisional": true,
+      "quality": 9.2,
+      "reliability": 9.7,
+      "value": 9.0
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "1999-2002 BMW Z3 2.8 M52TU"
+  },
+  {
     "brand": "Koni",
     "category": "Suspension",
     "description": "Adjustable-rebound Koni Sport dampers with polyurethane bumpstops; explicitly listed for 1999-2005 NB Miata.",
