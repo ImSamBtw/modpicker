@@ -6550,5 +6550,221 @@
     ],
     "trim": "Unspecified",
     "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-473-2072",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2072,
+      "retrieved_at": "2026-09-20T03:39:35.666567+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/1999?format=json"
+    },
+    "model": "MX-5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-473-2322",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2322,
+      "retrieved_at": "2026-09-20T03:39:35.666589+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/1999?format=json"
+    },
+    "model": "MPV",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-473-2741",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2741,
+      "retrieved_at": "2026-09-20T03:39:35.666591+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/1999?format=json"
+    },
+    "model": "B-Series",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-473-5410",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 5410,
+      "retrieved_at": "2026-09-20T03:39:35.666593+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/1999?format=json"
+    },
+    "model": "Protege",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-473-5470",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 5470,
+      "retrieved_at": "2026-09-20T03:39:35.666595+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/1999?format=json"
+    },
+    "model": "Millenia",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-473-5471",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 5471,
+      "retrieved_at": "2026-09-20T03:39:35.666597+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/1999?format=json"
+    },
+    "model": "626",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-473-2072",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2072,
+      "retrieved_at": "2026-09-20T03:39:35.845602+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2000?format=json"
+    },
+    "model": "MX-5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-473-2322",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2322,
+      "retrieved_at": "2026-09-20T03:39:35.845622+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2000?format=json"
+    },
+    "model": "MPV",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-473-2741",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2741,
+      "retrieved_at": "2026-09-20T03:39:35.845626+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2000?format=json"
+    },
+    "model": "B-Series",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-473-5410",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 5410,
+      "retrieved_at": "2026-09-20T03:39:35.845629+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2000?format=json"
+    },
+    "model": "Protege",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-473-5470",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 5470,
+      "retrieved_at": "2026-09-20T03:39:35.845631+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2000?format=json"
+    },
+    "model": "Millenia",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-473-5471",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 5471,
+      "retrieved_at": "2026-09-20T03:39:35.845633+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2000?format=json"
+    },
+    "model": "626",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
   }
 ]

@@ -24,13 +24,15 @@
     "id": "ed5a08de497afb523ced",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:37:34Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Replacement V-Maxx XXtreme shock (front)",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "auto-1a095b2e615f87e52cd0",
     "price": 249.0,
-    "retrieved_at": "2026-09-20T03:37:34Z",
+    "retrieved_at": "2026-09-20T03:39:31Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-shock-front",
     "vendor": "Flyin' Miata"
@@ -41,13 +43,15 @@
     "id": "0321c0d2871e19359c05",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:37:34Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Flyin' Miata rear sway bar (NA/NB chassis)",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "auto-27dd7bcd83e0b681c200",
     "price": 169.0,
-    "retrieved_at": "2026-09-20T03:37:34Z",
+    "retrieved_at": "2026-09-20T03:39:31Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/rear-fm-sway-bar-na-nb",
     "vendor": "Flyin' Miata"
@@ -77,13 +81,15 @@
     "id": "155804105388604c65fc",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:37:34Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Flyin' Miata front sway bar (NB chassis)",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "auto-6ac79d0c08c369675830",
     "price": 219.0,
-    "retrieved_at": "2026-09-20T03:37:34Z",
+    "retrieved_at": "2026-09-20T03:39:31Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/front-fm-sway-bar-nb",
     "vendor": "Flyin' Miata"
@@ -189,13 +195,15 @@
     "id": "eb3912f5038b8282511f",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:37:35Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Replacement V-Maxx XXtreme shock (right rear)",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "auto-fb1a11217b37d217ea8c",
     "price": 249.0,
-    "retrieved_at": "2026-09-20T03:37:35Z",
+    "retrieved_at": "2026-09-20T03:39:32Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/replacement-v-maxx-xxtreme-shock-right-rear",
     "vendor": "Flyin' Miata"
