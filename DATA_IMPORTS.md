@@ -37,5 +37,5 @@ For manual additions: add the product in `data/manual/parts.json`, add reviewed 
 - Add licensed/open manufacturer fitment feeds with production-month, market and equipment conditions.
 - Review existing legacy source-listed fitments that cite category pages rather than exact SKUs.
 - Establish primary-source engine mappings for imported Z3 variants before adding them to engine families.
-- The ingestion function is deployed as version 6 with one database row per expanded application. Verified after GitHub Actions run 35526811631: 23 additional rule-derived fitments persisted with probable status; the existing curated application retains its original fitment evidence. Bundled fitments remain authoritative for the published catalog.
-- Add source removal/retraction reconciliation; the existing database ingest is upsert-only.
+- The ingestion function is deployed as version 7 with one database row per expanded application. It clears the previous fitment rows for each published part before inserting the current expansion, so removed years and narrowed rules cannot linger in Supabase. Bundled fitments remain authoritative for the published catalog while synchronization completes.
+- Reconcile source removal/retraction for candidates and observations next; fitment rows are now reconciled on every ingest.

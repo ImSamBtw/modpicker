@@ -110,7 +110,7 @@ The importer writes normalized applications with stable family IDs. `pipeline.ap
 
 ### Verification targets
 
-The live refresh must show the Z3 range rows in `part_fitments` for every matching EPA application, retain probable status for broad category sources, and preserve exact application evidence for product pages. The next review should add production-month data for parts with known pre/post-09/1998 breaks and reconcile database rows removed from a source.
+The live refresh must show the Z3 range rows in `part_fitments` for every matching EPA application, retain probable status for broad category sources, and preserve exact application evidence for product pages. The next review should add production-month data for parts with known pre/post-09/1998 breaks and reconcile candidate/source observations removed from a source.
 
 Validation for this iteration: 32 unit tests passed, publication validation passed, browser smoke passed (search, hierarchical selection, persistence, quantities/costs, Unicode sharing, import/undo, fitment restriction details, routes and mobile overflow). Mobile screenshot inspected. Snapshot: 96 parts, 505 vehicle records, 94 reference applications (91 official EPA configurations plus 3 curated targets), 4 browsing families, 24 range matches for the single reviewed product rule. This is an offline rebuild using existing price/source observations; it does not claim those observations were refreshed.
 

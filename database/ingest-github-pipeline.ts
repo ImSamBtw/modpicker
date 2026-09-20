@@ -82,6 +82,14 @@ Deno.serve(async(req)=>{
           });
         }
       }
+      // The catalog snapshot is authoritative for every published part. Clear
+      // its previous application rows before inserting the current expansion so
+      // removed years, retired rules, and narrowed selectors cannot remain live
+      // in Supabase after a refresh.
+      const partIds=[...new Set(parts.map((p:any)=>String(p.id)).filter(Boolean))];
+      if(partIds.length){
+        await adminFetch(`part_fitments?part_id=in.(${partIds.join(',')})`,{method:'DELETE',headers:{Prefer:'return=minimal'}});
+      }
       if(fitRows.length)await adminFetch('part_fitments?on_conflict=part_id,vehicle_id',{method:'POST',headers:{Prefer:'resolution=merge-duplicates'},body:JSON.stringify(fitRows)});
       const scoreRows=catalog.filter((p:any)=>p.ranking?.methodology_version==='published_reviews_v2').map((p:any)=>({
         part_id:p.id,overall:p.ranking.overall??null,quality:p.ranking.quality??null,reliability:p.ranking.reliability??null,
