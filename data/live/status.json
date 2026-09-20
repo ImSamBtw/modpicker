@@ -1,5 +1,5 @@
 {
-  "candidate_count": 157,
+  "candidate_count": 26,
   "catalog_part_count": 78,
   "collectors": {
     "catalog_discovery": {
@@ -43,12 +43,22 @@
     "web_product": {
       "enabled": true,
       "fresh_pages_skipped": 0,
-      "offer_count": 0,
-      "pages_checked": 0,
+      "offer_count": 17,
+      "pages_checked": 34,
       "refresh_hours": 24,
-      "robots_origins_checked": 0,
-      "source_count": 0,
-      "warnings": []
+      "robots_origins_checked": 3,
+      "source_count": 34,
+      "warnings": [
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+        "robots denied/unavailable: https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "robots denied/unavailable: https://www.turnermotorsport.com/BMW-Z3/c-664-bmw-clutch-pedal-parts",
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/"
+      ]
     },
     "youtube": {
       "count": 0,
@@ -74,10 +84,10 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T02:50:57Z",
+  "generated_at": "2026-09-20T02:56:14Z",
   "offer_count": 53,
   "ok": true,
   "price_history_count": 53,
   "review_queue_count": 0,
-  "source_count": 146
+  "source_count": 147
 }
