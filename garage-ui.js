@@ -1,23 +1,24 @@
 (()=>{
 'use strict';
 if(document.querySelector('#garageView'))return;
-for(const href of ['garage.css','garage-v2.css'])if(!document.querySelector(`link[href="${href}"]`)){const link=document.createElement('link');link.rel='stylesheet';link.href=href;document.head.appendChild(link)}
+if(!document.querySelector('link[href="garage.css"]')){const link=document.createElement('link');link.rel='stylesheet';link.href='garage.css';document.head.appendChild(link)}
 const nav=document.querySelector('.main-nav');
 if(nav&&!nav.querySelector('[data-route="garage"]')){const button=document.createElement('button');button.className='nav-link';button.dataset.route='garage';button.textContent='Garage';const build=nav.querySelector('[data-route="build"]');nav.insertBefore(button,build||null)}
-const main=document.querySelector('main');if(!main)return;
+const main=document.querySelector('main');
+if(!main)return;
 const section=document.createElement('section');section.id='garageView';section.className='view shell garage-view';section.innerHTML=`
   <div class="page-head garage-page-head">
-    <div><span class="eyebrow">Virtual garage</span><h1>Your car, not just the catalog.</h1><p>Keep the real condition, modifications, maintenance and goals with the vehicle so recommendations can use what is actually on the car.</p></div>
-    <div class="garage-page-actions"><button id="copyMaintenanceReport" class="button secondary" type="button">Copy maintenance report</button><button id="importGarageButton" class="button secondary" type="button">Import Garage JSON</button><button id="exportGarageData" class="button secondary" type="button">Export Garage JSON</button><input id="importGarageInput" type="file" accept="application/json,.json" hidden></div>
+    <div><span class="eyebrow">Virtual garage</span><h1>Your car, not just the catalog.</h1><p>Record the actual condition, modifications, preferences, maintenance and history that should shape future recommendations.</p></div>
+    <div class="garage-page-actions"><button id="copyMaintenanceReport" class="button secondary" type="button">Copy maintenance report</button><button id="exportGarageData" class="button secondary" type="button">Export garage JSON</button></div>
   </div>
   <div class="garage-hero-card">
     <div class="garage-hero-main"><div class="garage-vehicle-icon">MY CAR</div><div class="garage-hero-copy"><span class="eyebrow">Current vehicle</span><h2 id="garageVehicleTitle">Selected vehicle</h2><p id="garageVehicleMeta"></p></div></div>
-    <div class="garage-profile-meter"><span class="eyebrow">Recommendation context</span><strong id="garageProfileCompleteness">0% context complete</strong><p id="garageProfileMissing">Add ownership context to improve planning.</p><p id="garageMaintenanceSummary">No maintenance items tracked yet.</p></div>
+    <div class="garage-profile-meter"><span class="eyebrow">Recommendation context</span><strong id="garageProfileCompleteness">0% context complete</strong><p>More context lets recommendations avoid parts that conflict with your real car, preferences or maintenance needs.</p></div>
   </div>
   <div class="garage-grid">
     <div class="garage-main-column">
       <section class="garage-card">
-        <div class="garage-card-head"><div><span class="eyebrow">Vehicle profile</span><h2>What is this car actually like?</h2><p>This profile is stored separately for each exact selected vehicle and can be exported/restored.</p></div></div>
+        <div class="garage-card-head"><div><span class="eyebrow">Vehicle profile</span><h2>What is this car actually like?</h2><p>This information stays separate for each selected vehicle.</p></div></div>
         <div class="garage-form-grid">
           <label><span>Nickname</span><input id="garageNickname" data-profile-field="nickname" placeholder="Weekend Z3"></label>
           <label><span>Current odometer (miles)</span><input id="garageOdometer" data-profile-field="odometer" type="number" min="0" placeholder="98500"></label>
@@ -32,24 +33,48 @@ const section=document.createElement('section');section.id='garageView';section.
           <label class="full"><span>What you do not like</span><textarea id="garageDislikes" data-profile-field="dislikes" rows="2" placeholder="Too soft, too loud, slow response, poor seats…"></textarea></label>
           <label class="full"><span>Build goal in your own words</span><textarea id="garageBuildGoals" data-profile-field="buildGoals" rows="3" placeholder="Example: I want about 100 more hp reliably and on a budget, while keeping it comfortable enough for road trips."></textarea></label>
         </div>
-        <div class="garage-preferences"><label><span>Reliability priority (1–5)</span><select id="garageReliabilityPriority" data-profile-field="reliabilityPriority"><option>1</option><option>2</option><option>3</option><option>4</option><option selected>5</option></select></label><label><span>Comfort priority (1–5)</span><select id="garageComfortPriority" data-profile-field="comfortPriority"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></label><label><span>Noise tolerance (1–5)</span><select id="garageNoiseTolerance" data-profile-field="noiseTolerance"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></label></div>
+        <div class="garage-preferences">
+          <label><span>Reliability priority (1–5)</span><select id="garageReliabilityPriority" data-profile-field="reliabilityPriority"><option>1</option><option>2</option><option>3</option><option>4</option><option selected>5</option></select></label>
+          <label><span>Comfort priority (1–5)</span><select id="garageComfortPriority" data-profile-field="comfortPriority"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></label>
+          <label><span>Noise tolerance (1–5)</span><select id="garageNoiseTolerance" data-profile-field="noiseTolerance"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></label>
+        </div>
       </section>
       <section class="garage-card">
-        <div class="garage-card-head"><div><span class="eyebrow">Draft build planner</span><h2>Turn the profile into a first-pass build</h2><p>Uses only compatible catalog records, available rating evidence and observed prices. It does not invent additive horsepower.</p></div><div class="garage-page-actions"><button id="generateGaragePlan" class="button secondary small" type="button">Generate draft</button><button id="addGaragePlanToBuild" class="button primary small" type="button">Add draft to build</button></div></div>
-        <div id="garageBuildPlan"></div>
-      </section>
-      <section class="garage-card">
-        <div class="garage-card-head"><div><span class="eyebrow">Maintenance tracker</span><h2>Service plan and history</h2><p>Intervals, fluids and capacities remain blank until sourced for the exact application. “Mark serviced” records today and the current odometer.</p></div><div class="garage-page-actions"><button id="seedMaintenanceButton" class="button secondary small" type="button">Add common checklist</button><button id="addMaintenanceButton" class="button primary small" type="button">Add item</button></div></div>
+        <div class="garage-card-head"><div><span class="eyebrow">Maintenance tracker</span><h2>Service plan and history</h2><p>Intervals, fluids and capacities are intentionally blank until sourced for the exact application.</p></div><div class="garage-page-actions"><button id="seedMaintenanceButton" class="button secondary small" type="button">Add common checklist</button><button id="addMaintenanceButton" class="button primary small" type="button">Add item</button></div></div>
         <div id="maintenanceList" class="maintenance-list"></div>
       </section>
-      <section class="garage-card"><div class="garage-card-head"><div><span class="eyebrow">Diagnostics</span><h2>Code history bank</h2><p>Keep recurring and resolved codes tied to mileage and repair history.</p></div></div><div class="garage-inline-form"><label><span>Code</span><input id="codeValue" placeholder="P0171"></label><label><span>Date</span><input id="codeDate" type="date"></label><label><span>Mileage</span><input id="codeMileage" type="number" min="0"></label><label class="wide"><span>Description</span><input id="codeDescription" placeholder="Lean condition bank 1"></label><label class="wide"><span>Resolution</span><input id="codeResolution" placeholder="Smoke test found intake leak"></label><button id="addCodeButton" class="button primary" type="button">Add code</button></div><div id="codeHistory" class="history-list"></div></section>
-      <section class="garage-card"><div class="garage-card-head"><div><span class="eyebrow">Receipts and purchases</span><h2>Maintenance purchase log</h2><p>Email and scanned receipt ingestion remain roadmap items; this stores normalized receipt metadata locally.</p></div></div><div class="garage-inline-form"><label><span>Vendor</span><input id="receiptVendor" placeholder="FCP Euro"></label><label><span>Date</span><input id="receiptDate" type="date"></label><label><span>Amount ($)</span><input id="receiptAmount" type="number" min="0" step="0.01"></label><label><span>Category</span><input id="receiptCategory" placeholder="Cooling service"></label><label class="wide"><span>Notes</span><input id="receiptNotes" placeholder="Water pump, thermostat, hoses…"></label><button id="addReceiptButton" class="button primary" type="button">Add receipt</button></div><div id="receiptHistory" class="history-list"></div></section>
+      <section class="garage-card">
+        <div class="garage-card-head"><div><span class="eyebrow">Diagnostics</span><h2>Code history bank</h2><p>Keep recurring and resolved codes tied to mileage and repair history.</p></div></div>
+        <div class="garage-inline-form">
+          <label><span>Code</span><input id="codeValue" placeholder="P0171"></label><label><span>Date</span><input id="codeDate" type="date"></label><label><span>Mileage</span><input id="codeMileage" type="number" min="0"></label><label class="wide"><span>Description</span><input id="codeDescription" placeholder="Lean condition bank 1"></label><label class="wide"><span>Resolution</span><input id="codeResolution" placeholder="Smoke test found intake leak"></label><button id="addCodeButton" class="button primary" type="button">Add code</button>
+        </div>
+        <div id="codeHistory" class="history-list"></div>
+      </section>
+      <section class="garage-card">
+        <div class="garage-card-head"><div><span class="eyebrow">Receipts and purchases</span><h2>Maintenance purchase log</h2><p>Email and scanned receipt ingestion are roadmap items; the first prototype stores normalized receipt metadata.</p></div></div>
+        <div class="garage-inline-form">
+          <label><span>Vendor</span><input id="receiptVendor" placeholder="FCP Euro"></label><label><span>Date</span><input id="receiptDate" type="date"></label><label><span>Amount ($)</span><input id="receiptAmount" type="number" min="0" step="0.01"></label><label><span>Category</span><input id="receiptCategory" placeholder="Cooling service"></label><label class="wide"><span>Notes</span><input id="receiptNotes" placeholder="Water pump, thermostat, hoses…"></label><button id="addReceiptButton" class="button primary" type="button">Add receipt</button>
+        </div>
+        <div id="receiptHistory" class="history-list"></div>
+      </section>
     </div>
     <aside class="garage-side-column">
-      <section class="garage-card"><div class="garage-card-head"><div><span class="eyebrow">Vehicle photos</span><h3>Actual car</h3></div></div><div id="garagePhotos" class="garage-photos"></div><label class="garage-upload"><input id="garagePhotoInput" type="file" accept="image/*" multiple></label><p class="garage-note">Prototype storage is browser-local, so images are compressed and limited to four. Account-backed media storage comes later.</p></section>
-      <section class="garage-card garage-context-card"><span class="eyebrow">Build planner input</span><h3>Recommendation context</h3><div id="garageRecommendationSummary" class="garage-context-summary"></div><div class="garage-context-actions"><button id="applyGarageContext" class="button primary" type="button">Apply goal to parts catalog</button></div><p class="garage-note">The structured context is available to future AI planning, but product facts, fitment, maintenance specs and prices still require source-backed records.</p><details><summary>Developer context preview</summary><pre id="garageContextPreview" class="garage-context-preview"></pre></details></section>
-      <section class="garage-card"><span class="eyebrow">Next garage stages</span><h3>Roadmap</h3><ul class="garage-roadmap-list"><li>sourced OEM intervals, fluids and capacities</li><li>receipt image/PDF + email imports</li><li>cross-make interchange groups</li><li>prerequisite/dependency-aware build sheets</li><li>community/forum consensus</li><li>used listings and local shops</li></ul></section>
+      <section class="garage-card">
+        <div class="garage-card-head"><div><span class="eyebrow">Vehicle photos</span><h3>Actual car</h3></div></div>
+        <div id="garagePhotos" class="garage-photos"></div>
+        <label class="garage-upload"><input id="garagePhotoInput" type="file" accept="image/*" multiple></label>
+        <p class="garage-note">Prototype storage is browser-local, so images are compressed and limited to four. Account-backed media storage comes later.</p>
+      </section>
+      <section class="garage-card garage-context-card">
+        <span class="eyebrow">Build planner input</span><h3>Recommendation context</h3><div id="garageRecommendationSummary" class="garage-context-summary"></div>
+        <div class="garage-context-actions"><button id="generateBuildPlan" class="button primary" type="button">Generate starter build</button><button id="applyGarageContext" class="button secondary" type="button">Apply goal to parts catalog</button></div>
+        <div id="garagePlanResult"></div>
+        <p class="garage-note">Starter builds use deterministic catalog rules: source-listed fitment, current observed prices, one part per category and the Garage budget/goal. Existing build items are kept. Power targets are not treated as additive horsepower claims.</p>
+        <details><summary>Developer context preview</summary><pre id="garageContextPreview" class="garage-context-preview"></pre></details>
+      </section>
+      <section class="garage-card"><span class="eyebrow">Next garage stages</span><h3>Already in the roadmap</h3><ul class="garage-roadmap-list"><li>sourced OEM intervals, fluids and capacities</li><li>receipt image/PDF + email imports</li><li>expanded cross-make interchange groups</li><li>prerequisite/conflict-aware build optimization</li><li>community/forum consensus</li><li>used listings and local shops</li></ul></section>
     </aside>
   </div>`;
-main.appendChild(section);const script=document.createElement('script');script.src='garage.js';script.async=false;document.body.appendChild(script);
+main.appendChild(section);
+const script=document.createElement('script');script.src='garage.js';script.async=false;document.body.appendChild(script);
 })();

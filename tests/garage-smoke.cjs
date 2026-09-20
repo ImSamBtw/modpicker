@@ -11,14 +11,17 @@ const server=spawn('python',['-m','http.server','8124'],{cwd:path.join(__dirname
   await page.route('https://pzxofwrdidvqhdlqbehk.supabase.co/**',r=>r.abort());
   await page.goto('http://localhost:8124',{waitUntil:'domcontentloaded'});
   await page.waitForSelector('[data-route="garage"]');
-  await page.evaluate(()=>{const p=part('brz-perrin-master-brace');if(p){switchVehicle(p.vehicles[0]);showPart(p.id)}});
-  await page.waitForSelector('.interchange-detail');
-  assert.match(await page.locator('.interchange-detail').textContent(),/Toyota GR86/);
+
+  await page.evaluate(()=>{state.browseMode='vehicle';switchVehicle('brz-2017');showPart('brz-perrin-master-brace')});
+  await page.waitForSelector('#interchangeSection');
+  const interchange=await page.locator('#interchangeSection').textContent();
+  assert.match(interchange,/Scion FR-S/);assert.match(interchange,/Toyota 86/);assert.match(interchange,/GR86/);
   await page.locator('#dialogClose').click();
+
+  await page.evaluate(()=>{state.browseMode='vehicle';switchVehicle('z3-2000-28')});
   await page.locator('[data-route="garage"]').click();
   await page.waitForSelector('#garageView.active-view');
   assert.equal(await page.locator('#garageProfileCompleteness').textContent(),'25% context complete');
-
   await page.locator('#garageOdometer').fill('100000');
   await page.locator('#garageBudget').fill('2500');
   await page.locator('#garageCurrentMods').fill('Stock suspension; replacement cooling system');
@@ -38,23 +41,15 @@ const server=spawn('python',['-m','http.server','8124'],{cwd:path.join(__dirname
   assert.equal(await first.locator('[data-maint-field="lastMileage"]').inputValue(),'100000');
   assert.match(await first.locator('[data-maint-field="lastDate"]').inputValue(),/^\d{4}-\d{2}-\d{2}$/);
 
-  await page.locator('#generateGaragePlan').click();
-  assert.ok(await page.locator('.plan-item').count()>0,'draft planner should return compatible catalog parts');
-  await page.locator('#addGaragePlanToBuild').click();
-  assert.ok(await page.evaluate(()=>state.build.length)>0,'draft plan should add parts to build state');
-
-  const payload={version:2,vehicleId:await page.evaluate(()=>state.vehicleId),profile:{nickname:'Imported Garage',odometer:'123456',condition:'Good',budget:'1000',targetPower:'',primaryGoal:'reliability',reliabilityPriority:'5',comfortPriority:'4',noiseTolerance:'2',currentMods:'OEM+',history:'Imported history',problems:'None recorded',likes:'Comfort',dislikes:'Body roll',buildGoals:'Keep it reliable',photos:[],maintenance:[],codes:[],receipts:[]}};
-  await page.locator('#importGarageInput').setInputFiles({name:'garage.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(payload))});
-  assert.equal(await page.locator('#garageNickname').inputValue(),'Imported Garage');
-  assert.equal(await page.locator('#garageOdometer').inputValue(),'123456');
+  await page.waitForFunction(()=>window.ModPickerPlanner&&window.ModPickerGarage);
+  const audit=await page.evaluate(()=>{const plan=window.ModPickerPlanner.choosePlan(),ids=new Set([...state.build,...plan.picks.map(p=>p.id)]);let missing=0,conflicts=0;for(const p of plan.picks){missing+=(p.requires||[]).filter(id=>!ids.has(id)).length;conflicts+=(p.conflicts||[]).filter(id=>ids.has(id)).length}return{missing,conflicts,count:plan.picks.length}});
+  assert.equal(audit.missing,0);assert.equal(audit.conflicts,0);
 
   await page.reload({waitUntil:'domcontentloaded'});
-  await page.waitForSelector('[data-route="garage"]');
-  await page.locator('[data-route="garage"]').click();
-  assert.equal(await page.locator('#garageNickname').inputValue(),'Imported Garage','Garage profile should persist across reloads');
-
+  await page.waitForSelector('[data-route="garage"]');await page.locator('[data-route="garage"]').click();
+  assert.equal(await page.locator('#garageOdometer').inputValue(),'100000','Garage profile should persist across reloads');
   await page.setViewportSize({width:390,height:844});
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Garage should not overflow on mobile');
   assert.deepEqual(errors,[]);
-  console.log('PASS: interchange details, Garage routing, context completeness, maintenance service logging, draft planning, import, persistence and mobile layout.');
+  console.log('PASS: interchange, Garage completeness, service logging, planner invariants, persistence and mobile layout.');
 }finally{await browser?.close();server.kill()}})().catch(e=>{console.error(e);process.exitCode=1});
