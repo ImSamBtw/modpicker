@@ -92,10 +92,10 @@ def validate():
         if not isinstance(a.get('year'),int) or not 1886<=a.get('year',0)<=2100: errors.append(f'applications[{i}].year outside supported range')
         # A single model year can legitimately have multiple applications for
         # the same trim/engine (for example, manual and automatic Mustang GT
-        # Performance Package cars).  Treat the transmission as part of the
-        # application scope so validation catches true duplicates without
-        # rejecting distinct, source-backed configurations.
-        key=(a.get('family_id'),a.get('year'),a.get('trim'),a.get('engine'),a.get('transmission'))
+        # Performance Package cars, or coupe/convertible variants). Treat the
+        # physical configuration as the scope so validation catches true
+        # duplicates without rejecting distinct, source-backed applications.
+        key=(a.get('family_id'),a.get('year'),a.get('trim'),a.get('engine'),a.get('body'),a.get('drivetrain'),a.get('transmission'))
         if key in app_keys: errors.append(f'applications: duplicate scope {key}')
         app_keys.add(key)
         source=(a.get('metadata') or {}).get('reference_source') or a.get('source') or {}
