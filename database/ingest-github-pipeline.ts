@@ -72,7 +72,10 @@ Deno.serve(async(req)=>{
       await adminFetch('parts?on_conflict=id',{method:'POST',headers:{Prefer:'resolution=merge-duplicates'},body:JSON.stringify(partRows)});
       const fitRows:any[]=[];
       for(const p of parts){
-        const fits=Array.isArray(p.fitments)&&p.fitments.length?p.fitments:[{vehicle_id:p.vehicle_id,fitment_status:p.fitment_status,confidence:p.fitment_confidence,source_url:p.fitment_source_url,source_kind:'legacy_part_record'}];
+        // An explicit empty array means the pipeline found no compatible
+        // application and must clear old rows. Only legacy payloads that omit
+        // `fitments` may use the single-record fallback.
+        const fits=Array.isArray(p.fitments)?p.fitments:[{vehicle_id:p.vehicle_id,fitment_status:p.fitment_status,confidence:p.fitment_confidence,source_url:p.fitment_source_url,source_kind:'legacy_part_record'}];
         for(const fit of fits){
           if(!fit?.vehicle_id)continue;
           fitRows.push({
