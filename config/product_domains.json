@@ -1,0 +1,5 @@
+[
+  {"domain":"flyinmiata.com","vendor":"Flyin' Miata","allow_scrape":true},
+  {"domain":"perrin.com","vendor":"PERRIN","allow_scrape":true},
+  {"domain":"turnermotorsport.com","vendor":"Turner Motorsport","allow_scrape":true}
+]
