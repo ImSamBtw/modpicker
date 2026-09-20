@@ -41,7 +41,8 @@ const server=spawn('python',['-m','http.server','8124'],{cwd:path.join(__dirname
  const report=await page.evaluate(()=>window.ModPickerGarage.getMaintenanceReport());
  assert.match(report,/SOURCED MAINTENANCE REFERENCES/);assert.match(report,/01 41 0 155 149/);assert.match(report,/fixed interval: not stated/);
 
- const oilCard=page.locator('.maintenance-card').filter({has:page.locator('.maintenance-name').filter({hasValue:'Engine oil & filter'})});
+ const oilCard=page.locator('.maintenance-card').filter({has:page.locator('input.maintenance-name[value="Engine oil & filter"]')});
+ assert.equal(await oilCard.count(),1);
  const capacity=oilCard.locator('[data-maint-field="capacity"]');await capacity.fill('Owner-entered override');await capacity.dispatchEvent('input');
  await page.evaluate(()=>window.ModPickerMaintenanceSpecs.apply());
  assert.equal(await capacity.inputValue(),'Owner-entered override','Source refresh must not overwrite a populated user field');
