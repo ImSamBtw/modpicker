@@ -181,7 +181,7 @@ Architecture goal: support ModPicker-hosted inference as an optional provider wh
 
 - [ ] simplify the home page and reduce simultaneous controls;
 - [x] elevate Garage and build planning into primary navigation/workflows;
-- [ ] move advanced filters behind secondary controls on small screens;
+- [x] move advanced filters behind a secondary control on small screens;
 - [ ] use vehicle graphics and opt-in community-submitted images;
 - [x] keep exact vehicle / platform / build context persistent and obvious;
 - [x] keep evidence and fitment warnings visible without allowing uncertainty to silently become compatibility;
@@ -192,9 +192,9 @@ Architecture goal: support ModPicker-hosted inference as an optional provider wh
 - [x] Keep deterministic Python catalog/unit tests.
 - [x] Add pull-request JavaScript syntax checks.
 - [x] Add pull-request Playwright smoke tests rather than relying only on manual browser checks.
-- [x] Cover Garage profile persistence, maintenance calculations, codes, receipts, starter planning, budget accounting, recorded dependencies/conflicts and interchange UI in browser smoke tests.
+- [x] Cover Garage profile persistence, maintenance calculations, codes, receipts, starter planning, budget accounting, recorded dependencies/conflicts, interchange UI and collapsible mobile filters in browser smoke tests.
 - [ ] Add accessibility checks and keyboard-only regression tests.
-- [ ] Add screenshot artifacts for failed browser checks.
+- [x] Retain desktop/mobile browser screenshots as CI artifacts for visual review.
 
 ## Naming track
 
