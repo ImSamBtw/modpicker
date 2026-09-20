@@ -8,7 +8,7 @@
       "make_id": 452,
       "model_id": 35528,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085481+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961262+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -29,7 +29,7 @@
       "make_id": 452,
       "model_id": 2170,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213902+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376936+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -50,7 +50,7 @@
       "make_id": 452,
       "model_id": 2170,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513004+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532684+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -71,7 +71,7 @@
       "make_id": 452,
       "model_id": 2170,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850232+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730621+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -92,7 +92,7 @@
       "make_id": 452,
       "model_id": 13825,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213979+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376997+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -113,7 +113,7 @@
       "make_id": 452,
       "model_id": 13825,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513048+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532720+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -134,7 +134,7 @@
       "make_id": 452,
       "model_id": 13825,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850264+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730656+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -155,7 +155,7 @@
       "make_id": 452,
       "model_id": 13825,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085423+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961202+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -176,7 +176,7 @@
       "make_id": 452,
       "model_id": 5217,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633429+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998493+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -197,7 +197,7 @@
       "make_id": 452,
       "model_id": 5217,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906576+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221499+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -218,7 +218,7 @@
       "make_id": 452,
       "model_id": 2172,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213906+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376941+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -239,7 +239,7 @@
       "make_id": 452,
       "model_id": 5253,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633445+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998510+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -260,7 +260,7 @@
       "make_id": 452,
       "model_id": 5253,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906595+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221518+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -281,7 +281,7 @@
       "make_id": 452,
       "model_id": 5255,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633452+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998518+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -302,7 +302,7 @@
       "make_id": 452,
       "model_id": 5255,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906606+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221529+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -323,7 +323,7 @@
       "make_id": 452,
       "model_id": 5254,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633448+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998514+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -344,7 +344,7 @@
       "make_id": 452,
       "model_id": 5254,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906601+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221523+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -365,7 +365,7 @@
       "make_id": 452,
       "model_id": 2762,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906566+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221489+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -386,7 +386,7 @@
       "make_id": 452,
       "model_id": 10587,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633464+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998530+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -407,7 +407,7 @@
       "make_id": 452,
       "model_id": 10587,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906616+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221538+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -428,7 +428,7 @@
       "make_id": 452,
       "model_id": 2173,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213909+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376946+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -449,7 +449,7 @@
       "make_id": 452,
       "model_id": 1709,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633393+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998455+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -470,7 +470,7 @@
       "make_id": 452,
       "model_id": 1709,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906526+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221443+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -491,7 +491,7 @@
       "make_id": 452,
       "model_id": 5237,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633433+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998497+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -512,7 +512,7 @@
       "make_id": 452,
       "model_id": 5237,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906581+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221504+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -533,7 +533,7 @@
       "make_id": 452,
       "model_id": 5238,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633437+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998501+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -554,7 +554,7 @@
       "make_id": 452,
       "model_id": 5238,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906586+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221509+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -575,7 +575,7 @@
       "make_id": 452,
       "model_id": 9569,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213962+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376987+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -596,7 +596,7 @@
       "make_id": 452,
       "model_id": 2777,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213925+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376966+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -617,7 +617,7 @@
       "make_id": 452,
       "model_id": 2777,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513029+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532704+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -638,7 +638,7 @@
       "make_id": 452,
       "model_id": 2777,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850242+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730632+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -659,7 +659,7 @@
       "make_id": 452,
       "model_id": 2777,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085399+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961177+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -680,7 +680,7 @@
       "make_id": 452,
       "model_id": 1711,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213870+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376893+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -701,7 +701,7 @@
       "make_id": 452,
       "model_id": 9568,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213953+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376981+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -722,7 +722,7 @@
       "make_id": 452,
       "model_id": 13827,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213995+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.377007+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -743,7 +743,7 @@
       "make_id": 452,
       "model_id": 13827,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513058+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532728+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -764,7 +764,7 @@
       "make_id": 452,
       "model_id": 13827,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850273+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730666+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -785,7 +785,7 @@
       "make_id": 452,
       "model_id": 13827,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085433+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961212+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -806,7 +806,7 @@
       "make_id": 452,
       "model_id": 13828,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.214000+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.377012+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -827,7 +827,7 @@
       "make_id": 452,
       "model_id": 13828,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513063+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532733+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -848,7 +848,7 @@
       "make_id": 452,
       "model_id": 1715,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633413+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998480+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -869,7 +869,7 @@
       "make_id": 452,
       "model_id": 1715,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906539+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221463+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -890,7 +890,7 @@
       "make_id": 452,
       "model_id": 20813,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513073+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532741+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -911,7 +911,7 @@
       "make_id": 452,
       "model_id": 2585,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213921+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376961+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -932,7 +932,7 @@
       "make_id": 452,
       "model_id": 2585,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513023+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532700+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -953,7 +953,7 @@
       "make_id": 452,
       "model_id": 2585,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850237+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730626+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -974,7 +974,7 @@
       "make_id": 452,
       "model_id": 2585,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085395+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961169+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -995,7 +995,7 @@
       "make_id": 452,
       "model_id": 1716,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213875+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376900+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1016,7 +1016,7 @@
       "make_id": 452,
       "model_id": 5195,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633424+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998489+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1037,7 +1037,7 @@
       "make_id": 452,
       "model_id": 5195,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906571+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221494+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1058,7 +1058,7 @@
       "make_id": 452,
       "model_id": 5195,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213937+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376971+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1079,7 +1079,7 @@
       "make_id": 452,
       "model_id": 5195,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513034+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532708+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1100,7 +1100,7 @@
       "make_id": 452,
       "model_id": 5195,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850251+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730641+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1121,7 +1121,7 @@
       "make_id": 452,
       "model_id": 5195,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085409+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961187+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1142,7 +1142,7 @@
       "make_id": 452,
       "model_id": 34628,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850323+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730720+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1163,7 +1163,7 @@
       "make_id": 452,
       "model_id": 34628,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085476+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961258+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1184,7 +1184,7 @@
       "make_id": 452,
       "model_id": 1718,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213880+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376905+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1205,7 +1205,7 @@
       "make_id": 452,
       "model_id": 1731,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213891+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376921+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1226,7 +1226,7 @@
       "make_id": 452,
       "model_id": 1732,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213895+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376926+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1247,7 +1247,7 @@
       "make_id": 452,
       "model_id": 21793,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.214015+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.377033+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1268,7 +1268,7 @@
       "make_id": 452,
       "model_id": 13835,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.214003+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.377017+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1289,7 +1289,7 @@
       "make_id": 452,
       "model_id": 1720,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633419+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998485+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1310,7 +1310,7 @@
       "make_id": 452,
       "model_id": 1720,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906551+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221475+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1331,7 +1331,7 @@
       "make_id": 452,
       "model_id": 1720,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213884+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376911+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1352,7 +1352,7 @@
       "make_id": 452,
       "model_id": 1720,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.512972+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532656+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1373,7 +1373,7 @@
       "make_id": 452,
       "model_id": 1720,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850215+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730603+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1394,7 +1394,7 @@
       "make_id": 452,
       "model_id": 1720,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085377+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961118+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1415,7 +1415,7 @@
       "make_id": 452,
       "model_id": 9452,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633456+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998522+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1436,7 +1436,7 @@
       "make_id": 452,
       "model_id": 9452,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906611+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221533+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1457,7 +1457,7 @@
       "make_id": 452,
       "model_id": 26482,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513089+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532757+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1478,7 +1478,7 @@
       "make_id": 452,
       "model_id": 32327,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850314+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730711+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1499,7 +1499,7 @@
       "make_id": 452,
       "model_id": 32327,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085467+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961248+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1520,7 +1520,7 @@
       "make_id": 452,
       "model_id": 1722,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.512986+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532670+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1541,7 +1541,7 @@
       "make_id": 452,
       "model_id": 21792,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.214011+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.377028+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1562,7 +1562,7 @@
       "make_id": 452,
       "model_id": 9453,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633460+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998526+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1583,7 +1583,7 @@
       "make_id": 452,
       "model_id": 1723,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906557+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221480+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1604,7 +1604,7 @@
       "make_id": 452,
       "model_id": 2804,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850246+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730637+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1625,7 +1625,7 @@
       "make_id": 452,
       "model_id": 2804,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085404+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961182+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1646,7 +1646,7 @@
       "make_id": 452,
       "model_id": 26483,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513092+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532761+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1667,7 +1667,7 @@
       "make_id": 452,
       "model_id": 26483,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850282+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730677+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1688,7 +1688,7 @@
       "make_id": 452,
       "model_id": 26483,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085443+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961222+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1709,7 +1709,7 @@
       "make_id": 452,
       "model_id": 31653,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850310+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730706+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1730,7 +1730,7 @@
       "make_id": 452,
       "model_id": 13834,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513069+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532737+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1751,7 +1751,7 @@
       "make_id": 452,
       "model_id": 2178,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213913+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376951+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1772,7 +1772,7 @@
       "make_id": 452,
       "model_id": 2178,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513013+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532692+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1793,7 +1793,7 @@
       "make_id": 452,
       "model_id": 29579,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850300+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730696+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1814,7 +1814,7 @@
       "make_id": 452,
       "model_id": 29579,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085457+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961237+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1835,7 +1835,7 @@
       "make_id": 452,
       "model_id": 32328,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850319+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730716+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1856,7 +1856,7 @@
       "make_id": 452,
       "model_id": 32328,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085472+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961253+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1877,7 +1877,7 @@
       "make_id": 452,
       "model_id": 30512,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850305+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730701+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1898,7 +1898,7 @@
       "make_id": 452,
       "model_id": 30512,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085462+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961242+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1919,7 +1919,7 @@
       "make_id": 452,
       "model_id": 2179,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213917+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376956+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1940,7 +1940,7 @@
       "make_id": 452,
       "model_id": 2179,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513018+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532696+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1961,7 +1961,7 @@
       "make_id": 452,
       "model_id": 9567,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213945+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376976+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -1982,7 +1982,7 @@
       "make_id": 452,
       "model_id": 9567,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513039+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532712+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2003,7 +2003,7 @@
       "make_id": 452,
       "model_id": 9567,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850255+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730646+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2024,7 +2024,7 @@
       "make_id": 452,
       "model_id": 9567,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085414+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961192+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2045,7 +2045,7 @@
       "make_id": 452,
       "model_id": 36379,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850328+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730725+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2066,7 +2066,7 @@
       "make_id": 452,
       "model_id": 36379,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085486+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961268+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2087,7 +2087,7 @@
       "make_id": 452,
       "model_id": 2171,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513009+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532688+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2108,7 +2108,7 @@
       "make_id": 452,
       "model_id": 13826,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213987+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.377003+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2129,7 +2129,7 @@
       "make_id": 452,
       "model_id": 13826,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513053+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532724+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2150,7 +2150,7 @@
       "make_id": 452,
       "model_id": 13826,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850269+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730661+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2171,7 +2171,7 @@
       "make_id": 452,
       "model_id": 13826,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085428+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961207+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2192,7 +2192,7 @@
       "make_id": 452,
       "model_id": 1710,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633406+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998474+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2213,7 +2213,7 @@
       "make_id": 452,
       "model_id": 1710,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213860+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376879+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2234,7 +2234,7 @@
       "make_id": 452,
       "model_id": 1710,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850203+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730587+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2255,7 +2255,7 @@
       "make_id": 452,
       "model_id": 1710,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085363+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961096+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2276,7 +2276,7 @@
       "make_id": 452,
       "model_id": 26481,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513085+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532753+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2297,7 +2297,7 @@
       "make_id": 452,
       "model_id": 26481,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850277+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730672+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2318,7 +2318,7 @@
       "make_id": 452,
       "model_id": 26481,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085438+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961217+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2339,7 +2339,7 @@
       "make_id": 452,
       "model_id": 9570,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213970+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376992+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2360,7 +2360,7 @@
       "make_id": 452,
       "model_id": 9570,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513044+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532716+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2381,7 +2381,7 @@
       "make_id": 452,
       "model_id": 9570,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850260+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730651+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2402,7 +2402,7 @@
       "make_id": 452,
       "model_id": 9570,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085418+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961197+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2423,7 +2423,7 @@
       "make_id": 452,
       "model_id": 28100,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850296+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730692+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2444,7 +2444,7 @@
       "make_id": 452,
       "model_id": 28100,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085452+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961232+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2465,7 +2465,7 @@
       "make_id": 452,
       "model_id": 2024,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906561+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221484+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2486,7 +2486,7 @@
       "make_id": 452,
       "model_id": 2024,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213899+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376931+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2507,7 +2507,7 @@
       "make_id": 452,
       "model_id": 2024,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.512999+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532680+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2528,7 +2528,7 @@
       "make_id": 452,
       "model_id": 2024,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850227+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730615+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2549,7 +2549,7 @@
       "make_id": 452,
       "model_id": 2024,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085390+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961131+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2570,7 +2570,7 @@
       "make_id": 452,
       "model_id": 20814,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513077+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532745+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2591,7 +2591,7 @@
       "make_id": 452,
       "model_id": 1729,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.213888+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.376916+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2612,7 +2612,7 @@
       "make_id": 452,
       "model_id": 20815,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.214007+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.377022+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2633,7 +2633,7 @@
       "make_id": 452,
       "model_id": 20815,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513081+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532749+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2654,7 +2654,7 @@
       "make_id": 452,
       "model_id": 26485,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513105+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532769+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2675,7 +2675,7 @@
       "make_id": 452,
       "model_id": 26485,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850291+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730686+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2696,7 +2696,7 @@
       "make_id": 452,
       "model_id": 26484,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.513096+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532765+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2717,7 +2717,7 @@
       "make_id": 452,
       "model_id": 26484,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850286+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730682+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2738,7 +2738,7 @@
       "make_id": 452,
       "model_id": 26484,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085448+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961227+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -2759,7 +2759,7 @@
       "make_id": 452,
       "model_id": 1717,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906546+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221469+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -3464,7 +3464,7 @@
       "make_id": 452,
       "model_id": 5239,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.633440+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.998505+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -3713,7 +3713,7 @@
       "make_id": 452,
       "model_id": 5239,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:31.906591+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.221514+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4220,7 +4220,7 @@
       "make_id": 452,
       "model_id": 1725,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.512993+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.532675+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4241,7 +4241,7 @@
       "make_id": 452,
       "model_id": 1725,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:32.850221+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.730610+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4262,7 +4262,7 @@
       "make_id": 452,
       "model_id": 1725,
       "requested_make": "BMW",
-      "retrieved_at": "2026-09-20T22:57:33.085384+00:00",
+      "retrieved_at": "2026-09-20T23:17:57.961125+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -10873,7 +10873,7 @@
       "make_id": 473,
       "model_id": 5471,
       "requested_make": "Mazda",
-      "retrieved_at": "2026-09-20T22:57:33.303962+00:00",
+      "retrieved_at": "2026-09-20T23:17:58.198426+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -10894,7 +10894,7 @@
       "make_id": 473,
       "model_id": 5471,
       "requested_make": "Mazda",
-      "retrieved_at": "2026-09-20T22:57:33.545545+00:00",
+      "retrieved_at": "2026-09-20T23:17:58.408732+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -11125,7 +11125,7 @@
       "make_id": 473,
       "model_id": 5470,
       "requested_make": "Mazda",
-      "retrieved_at": "2026-09-20T22:57:33.303956+00:00",
+      "retrieved_at": "2026-09-20T23:17:58.198420+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -11146,7 +11146,7 @@
       "make_id": 473,
       "model_id": 5470,
       "requested_make": "Mazda",
-      "retrieved_at": "2026-09-20T22:57:33.545540+00:00",
+      "retrieved_at": "2026-09-20T23:17:58.408726+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -11167,7 +11167,7 @@
       "make_id": 473,
       "model_id": 2072,
       "requested_make": "Mazda",
-      "retrieved_at": "2026-09-20T22:57:33.303936+00:00",
+      "retrieved_at": "2026-09-20T23:17:58.198394+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -11188,7 +11188,7 @@
       "make_id": 473,
       "model_id": 2072,
       "requested_make": "Mazda",
-      "retrieved_at": "2026-09-20T22:57:33.545519+00:00",
+      "retrieved_at": "2026-09-20T23:17:58.408697+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12220,7 +12220,7 @@
       "make_id": 473,
       "model_id": 5410,
       "requested_make": "Mazda",
-      "retrieved_at": "2026-09-20T22:57:33.303950+00:00",
+      "retrieved_at": "2026-09-20T23:17:58.198414+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12241,7 +12241,7 @@
       "make_id": 473,
       "model_id": 5410,
       "requested_make": "Mazda",
-      "retrieved_at": "2026-09-20T22:57:33.545533+00:00",
+      "retrieved_at": "2026-09-20T23:17:58.408719+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12304,7 +12304,7 @@
       "make_id": 478,
       "model_id": 1906,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.592493+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.021565+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12325,7 +12325,7 @@
       "make_id": 478,
       "model_id": 1906,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.862326+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.201075+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12388,7 +12388,7 @@
       "make_id": 478,
       "model_id": 1904,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.592485+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.021553+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12409,7 +12409,7 @@
       "make_id": 478,
       "model_id": 1904,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.862315+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.201066+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12430,7 +12430,7 @@
       "make_id": 478,
       "model_id": 1904,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:31.121501+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.493448+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12451,7 +12451,7 @@
       "make_id": 478,
       "model_id": 1904,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:31.385244+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.754473+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12514,7 +12514,7 @@
       "make_id": 478,
       "model_id": 1890,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.592461+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.021515+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12535,7 +12535,7 @@
       "make_id": 478,
       "model_id": 1890,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.862289+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.201036+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12556,7 +12556,7 @@
       "make_id": 478,
       "model_id": 22791,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.862346+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.201093+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12577,7 +12577,7 @@
       "make_id": 478,
       "model_id": 35324,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:31.121519+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.493472+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12598,7 +12598,7 @@
       "make_id": 478,
       "model_id": 1905,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.592489+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.021559+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12619,7 +12619,7 @@
       "make_id": 478,
       "model_id": 1905,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.862321+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.201071+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12640,7 +12640,7 @@
       "make_id": 478,
       "model_id": 1905,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:31.121507+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.493455+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12661,7 +12661,7 @@
       "make_id": 478,
       "model_id": 1905,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:31.385258+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.754490+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12724,7 +12724,7 @@
       "make_id": 478,
       "model_id": 2302,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.592501+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.021577+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12745,7 +12745,7 @@
       "make_id": 478,
       "model_id": 2302,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.862336+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.201084+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12766,7 +12766,7 @@
       "make_id": 478,
       "model_id": 30039,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:31.121515+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.493466+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12787,7 +12787,7 @@
       "make_id": 478,
       "model_id": 30039,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:31.385271+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.754500+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12808,7 +12808,7 @@
       "make_id": 478,
       "model_id": 17214,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.592505+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.021583+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12829,7 +12829,7 @@
       "make_id": 478,
       "model_id": 17214,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.862341+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.201089+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12892,7 +12892,7 @@
       "make_id": 478,
       "model_id": 1907,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.592497+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.021570+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12913,7 +12913,7 @@
       "make_id": 478,
       "model_id": 1907,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.862331+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.201079+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12934,7 +12934,7 @@
       "make_id": 478,
       "model_id": 1907,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:31.121511+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.493460+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12955,7 +12955,7 @@
       "make_id": 478,
       "model_id": 1907,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:31.385265+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.754495+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12976,7 +12976,7 @@
       "make_id": 478,
       "model_id": 1894,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.592474+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.021538+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12997,7 +12997,7 @@
       "make_id": 478,
       "model_id": 1894,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.862302+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.201054+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -13018,7 +13018,7 @@
       "make_id": 478,
       "model_id": 1894,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:31.121491+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.493427+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -13039,7 +13039,7 @@
       "make_id": 478,
       "model_id": 1898,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.592480+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.021546+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -13060,7 +13060,7 @@
       "make_id": 478,
       "model_id": 1898,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-20T22:57:30.862309+00:00",
+      "retrieved_at": "2026-09-20T23:17:56.201061+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"

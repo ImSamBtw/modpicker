@@ -674,5 +674,343 @@
       "vendor": "Flyin' Miata"
     },
     "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Flyin' Miata",
+    "category": "Brakes",
+    "description": "Need to feed some cooling air to the brakes on your 2001-05 Miata? This is an easy solution, assuming you still have a stock front bumper. These ducts bolt in where your fog lights are now, and are a direct replacement - no trimming or funniness necessary. They even include new hardware and caps for the fog light harness (note that the caps are for H1 connectors, which are only used on 2001-03 Miatas)! This kit does not include hose or backing plates to be used at the wheel, it is the inlet only.\nFits both Mazdaspeed and non-Mazdaspeed Miatas.\nThis is another part from our You Design program, which gives the DIY community an outlet for their designs and an opportunity to make money from their hard work and ingenuity. Do you have a polished design you think the Miata community could benefit from? Please reach out to us at printme@flyinmiata.com!",
+    "discovery_metadata": {
+      "candidate_id": "194a7fbafc12cbef6880",
+      "collection_url": "https://flyinmiata.com/collections/nb-brakes",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 2001,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/brake-duct-inlet-kit-2-5-nb-1999-2005",
+    "fitment_status": "probable",
+    "id": "auto-f71e0ac4e755a5b701ec",
+    "image_url": "https://flyinmiata.com/cdn/shop/files/14-76440_NB2_Brake_Duct_kit_061923--3_2000x.jpg?v=1687196497",
+    "manufacturer_part_number": "14-76440",
+    "name": "2.5\" brake duct inlet kit  for 2001-2005",
+    "official_url": "https://flyinmiata.com/products/brake-duct-inlet-kit-2-5-nb-1999-2005",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T23:17:42Z",
+      "price": 49.99,
+      "url": "https://flyinmiata.com/products/brake-duct-inlet-kit-2-5-nb-1999-2005",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Techna-Fit",
+    "category": "Brakes",
+    "description": "For maximum braking response! These teflon lines are wrapped in stainless steel so they cannot expand under pressure. This makes sure all of your hydraulic pressure gets to the brakes, meaning more braking power and more accurate pedal modulation. There's a clear sheath over the lines to protect the stainless braid. DOT-approved stainless steel lines complete with junction block and all hardware. Add our master cylinder brace if you want the ultimate in a stiff pedal!\u00a0\nFits NA/NB with stock brake calipers. Includes lines for all four corners. Not compatible with Wilwood calipers - they usually come with their own stainless lines.\nThese brake lines include our low-profile banjo bolts - these are necessary if you have the biggest stock calipers (2001-05 Sport brakes) over bulkier (at the barrel) wheels. Most wheels are fine with the stock hardware (including our wheels), but the included banjo bolts give you that extra little bit of clearance that's sometimes necessary. we haven't found a 15\" wheel that won't work with the lower profile banjo bolts.\nPlease note that the included distribution block is brass for the best sealing possible. There's only one mounting hole (the stock piece has two), but it still works great.",
+    "discovery_metadata": {
+      "candidate_id": "7e9e16fe76277ed9cfeb",
+      "collection_url": "https://flyinmiata.com/collections/nb-brakes",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 2001,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/braided-stainless-steel-brake-line-kit-na-nb",
+    "fitment_status": "probable",
+    "id": "auto-bc469402bb29ab0d29f8",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/14-66000_na_nb_ss_brake_lines_042219_1600x.jpg?v=1657920865",
+    "manufacturer_part_number": "14-66000 CLEAR",
+    "name": "Braided stainless steel brake line kit (NA/NB)",
+    "official_url": "https://flyinmiata.com/products/braided-stainless-steel-brake-line-kit-na-nb",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T23:17:44Z",
+      "price": 159.0,
+      "url": "https://flyinmiata.com/products/braided-stainless-steel-brake-line-kit-na-nb",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Turn 14 Distribution",
+    "category": "Brakes",
+    "description": "A high quality, high temp brake fluid at a great price. Higher wet and dry boiling points than any brake fluid we've ever sold!\nDry Boiling Point 604\u00b0F/318\u00b0CWet Boiling Point 400\u00b0F/\u00b0204C\nBecause it's a DOT 4, it'll mix with stock, DOT 3, DOT 4 and DOT 5.1 brake fluids. Included in many of our brake kits.\nWe recommend flushing your fluid at least once a year on a street car and more often for track use. As fluid gets older, it absorbs water and becomes more prone to boiling. Can also be used in the clutch hydraulics. 500 ml (16.9 oz).\nWe can only ship Redline inside the US, for international orders please see your local distributor.",
+    "discovery_metadata": {
+      "candidate_id": "04ce364be347e04a7580",
+      "collection_url": "https://flyinmiata.com/collections/nb-brakes",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/redline-rl-600-brake-fluid",
+    "fitment_status": "unknown",
+    "id": "auto-9c3414d8455cf474bc3b",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/M10-36020_Redline_90404_Brake_Fluid_111122-600_4000x.jpg?v=1668207127",
+    "manufacturer_part_number": "10-36020",
+    "name": "Redline RL-600 DOT 4 brake fluid",
+    "official_url": "https://flyinmiata.com/products/redline-rl-600-brake-fluid",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T23:17:44Z",
+      "price": 20.49,
+      "url": "https://flyinmiata.com/products/redline-rl-600-brake-fluid",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Flyin' Miata",
+    "category": "Brakes",
+    "description": "One of the best ways to get the most out of your brakes is to adjust the brake proportioning, or bias. The ideal brake bias depends on your ride height, the amount of traction you have (both due to your tires and the surface you're driving on) and the specification of your braking system. You always want the front brakes to lock up first for stability reasons, but Mazda was extremely conservative and so the rears never have a chance to make much of a contribution.\nThe proportioning valve drops the rear brake line pressure to a lower amount than the front. This adjustable proportioning valve replaces the fixed factory unit and allows you to adjust your brake bias for the perfect setup. We always have a way to adjust our brake bias in our competition cars. The valve allows to set the rear pressure anywhere from 43% to 100% of the front pressure, and it will approximate the proper curve required like the factory one does.\nWhat makes our kit different? Our exclusive 1/8 NPT to M10 inverted flare adapter. This looks like the common SAE version (a pair of those are included with the proportioning valve from Wilwood), but will allow you to install this valve without having to reflare your brake lines. These adapters are impossible to find, so we have them custom made.\nThe kit includes everything you need to make installation very easy. No flaring or line bending required! The fittings are made of brass to ensure a better seal both on the flare and the tapered pipe threads when compared to harder materials. Compatible with all 1990-05 except those with both factory-installed Sport brakes and ABS. If your car has ABS but not the Sport brakes, this proportioning valve kit will still work for you. This kit is for NA and NB Miatas. The NC and ND cars with ABS use electronic proportioning, and the non-ABS NC would need two of these to work properly so we don't recommend it.\nWill fit any car that uses metric brake lines and inverted flares, such as Honda or Toyota. Most Japanese imports should be able to use this proportioning kit. Note that we cannot confirm fitment in non-Miata applications, and we have had reports that some other brands have an unthreaded \"nose\" on the end of the flare nut that will prevent proper engagement with the threads on this part.\nIncludes:\nWilwood proportioning valve M10 inverted flare to NPT adapters - FM exclusive parts! M10 inverted flare union\nWarning - having too much rear bias can make your car very unstable. Please spend some time testing in a controlled environment.",
+    "discovery_metadata": {
+      "candidate_id": "1fae5e9fcbf1dfdddd5c",
+      "collection_url": "https://flyinmiata.com/collections/nb-brakes",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/complete-adjustable-brake-proportioning-kit",
+    "fitment_status": "probable",
+    "id": "auto-7d815ae8fee4b47bb7e2",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/14-76240_wilwood_brake_proportioning_kit_032320_1_1600x.jpg?v=1657920921",
+    "manufacturer_part_number": "14-76240",
+    "name": "Complete adjustable brake proportioning kit",
+    "official_url": "https://flyinmiata.com/products/complete-adjustable-brake-proportioning-kit",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T23:17:44Z",
+      "price": 74.99,
+      "url": "https://flyinmiata.com/products/complete-adjustable-brake-proportioning-kit",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Paco Motorsports",
+    "category": "Brakes",
+    "description": "Under hard braking, the firewall will actually deform, allowing the brake pedal, booster and master cylinder to move. This flex takes away some of your brake pedal stiffness and makes it more difficult to balance the car on the edge of lockup because there's essentially a big spring in the system. You'll find your braking will be more precise and will require less pedal travel.\nThis simple brace bolts into your Miata and keeps the master cylinder right where it's supposed to be. It's adjustable for a perfect fit. Exclusive to Flyin' Miata!\nFor left hand drive cars only! Fits 1990-05 Miatas except for cars with the big double-size brake booster (2001-02 without ABS, 2001-05 Sport non-Mazdaspeed with ABS). If your booster is 3\" thick measured from the firewall, it will fit. 4\" boosters will not. There may be interference with the factory NA airbox that will require modification.\nNot compatible with factory shock tower braces, although it is compatible with all Flyin' Miata braces. Does not fit with our Randall Cowl Intake on the 1990-97 cars, but it does fit on the 1999-05. Also, you must have at least 1/4\" of exposed threads above the nuts on your shock bolts.\n1990-93 cars with the original front upper mounts cannot fit both this brace and our shock tower brace due to the length of the studs on the upper shock mounts. Also, 1990-91 cars without the rear mounting hole will require a hole to be drilled and some reshaping of the fender with a hammer.\n1999-2005 cars with washer bottles over the exhaust manifold will require modification to the bottle / bracket / and/or brace.",
+    "discovery_metadata": {
+      "candidate_id": "cc17ff67f3bf97484ffd",
+      "collection_url": "https://flyinmiata.com/collections/nb-brakes",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/master-cylinder-brace",
+    "fitment_status": "probable",
+    "id": "auto-95ddcdba1583dd34c3b9",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/14-76190_powdercoated_90-05_mastercylinder_brace_010320-_1_1600x.jpg?v=1657921912",
+    "manufacturer_part_number": "14-76190",
+    "name": "Master cylinder brace",
+    "official_url": "https://flyinmiata.com/products/master-cylinder-brace",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T23:17:45Z",
+      "price": 88.99,
+      "url": "https://flyinmiata.com/products/master-cylinder-brace",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Techna-Fit",
+    "category": "Other",
+    "description": "A lot of aftermarket brake parts - such as Wilwood proportioning valves - come with NPT threads. They may come with easy-to-find NPT to SAE flare adapters - but the Miata uses metric flares. NPT to metric adapters are impossible to find so we've had these specially made. These allow you to install the Wilwood valve in your Miata without having to reflare the lines, making installation quick and easy.\nWhenever these are needed to install one of our products, they are included. We simply list them separately because they're almost impossible to find, and you might have some interesting custom work going on. Popular with non-Miata installs, such as Datsun Z cars, Hondas and Toyotas. Note that we cannot confirm fitment in non-Miata applications, and we have had reports that some other brands have an unthreaded \"nose\" on the end of the flare nut that will prevent proper engagement with the threads on this part.The fittings are made of brass. The soft material deforms slightly on installation, giving a better seal on the flare and the pipe threads than a harder material like steel. The current version has a thicker wall thickness than before for increased strength, although care should be taken to avoid over-torquing upon installation. Included in our complete adjustable brake proportioning kit, but they can be used in a wide variety of applications.\nAdapters have an M10x1.0 inverted flare female fitting and 1/8 NPT (1/8-27) male on the other.",
+    "discovery_metadata": {
+      "candidate_id": "229e3702102aceffac49",
+      "collection_url": "https://flyinmiata.com/collections/nb-brakes",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/npt-to-metric-flare-adapter",
+    "fitment_status": "unknown",
+    "id": "auto-ccdc741b850209ccbb7a",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/flare_459x.jpg?v=1657922001",
+    "manufacturer_part_number": "14-76255",
+    "name": "M10x1 inverted flare to NPT adapter",
+    "official_url": "https://flyinmiata.com/products/npt-to-metric-flare-adapter",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T23:17:46Z",
+      "price": 5.99,
+      "url": "https://flyinmiata.com/products/npt-to-metric-flare-adapter",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Porterfield Enterprises",
+    "category": "Brakes",
+    "description": "This is our favorite all-around pad. It'll work well on the street, the autocross course and even light track use. Quiet, slightly higher effort than stock pads. Not recommended for full on road race use in the front as they will likely overheat. Carbon Kevlar construction. Fits the rear brakes on all 1994-00 models, often called \"1.8 brakes\". They also fit the standard brakes on 2001-02 US Miatas. These do not fit the larger \"Sport\" brakes, which were found on 2001-05 cars that came with factory 16\" or larger wheels. Cars outside the US built after 2002 may use the 1.8 brakes.\nTo confirm you have the correct parts, you can call Flyin' Miata or measure your front rotor diameter. The rear rotor diameter for the 1.8 brakes is 9.9\", the Sport brakes are 10.9\".\nDoes not include replacement springs, clips and other hardware. One box (quantity 1) has enough pads for one axle or two calipers.",
+    "discovery_metadata": {
+      "candidate_id": "a9ffb6cf56ccc93635c2",
+      "collection_url": "https://flyinmiata.com/collections/nb-brakes",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/porterfield-r4s-sport-brake-pads-rear-1994-02",
+    "fitment_status": "probable",
+    "id": "auto-c9739231efb954e39045",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/ap_636_1_of_1_4281x.jpg?v=1657920901",
+    "manufacturer_part_number": "14-39200 1994-02",
+    "name": "Porterfield R4S performance street brake pads, rear, 1994-02 size",
+    "official_url": "https://flyinmiata.com/products/porterfield-r4s-sport-brake-pads-rear-1994-02",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T23:17:47Z",
+      "price": 105.0,
+      "url": "https://flyinmiata.com/products/porterfield-r4s-sport-brake-pads-rear-1994-02",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Porterfield Enterprises",
+    "category": "Brakes",
+    "description": "This is our favorite all-around pad. It'll work well on the street, the autocross course and even light track use. Quiet, slightly higher effort than stock pads. Not recommended for full on road race use in the front as they will likely overheat. Carbon Kevlar construction. Fits the front brakes on all 1994-00 models, often called \"1.8 brakes\". They also fit the standard brakes on 2001-02 US Miatas. These do not fit the larger \"Sport\" brakes, which were found on 2001-05 cars that came with factory 16\" or larger wheels. Cars outside the US built after 2002 may use the 1.8 brakes.\nTo confirm you have the correct parts, you can call Flyin' Miata or measure your front rotor diameter. The front rotor diameter for the 1.8 brakes is 10.0\", the Sport brakes are 10.6\".\nDoes not include replacement springs, clips and other hardware. One box (quantity 1) has enough pads for one axle or two calipers.",
+    "discovery_metadata": {
+      "candidate_id": "e0149152174b66ca498c",
+      "collection_url": "https://flyinmiata.com/collections/nb-brakes",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/porterfield-r4s-sport-brake-pads-front-1994-02",
+    "fitment_status": "probable",
+    "id": "auto-af5b08958b2bf47415c6",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/ap_635_1_of_1_3809x.jpg?v=1657920889",
+    "manufacturer_part_number": "14-39100 1994-02",
+    "name": "Porterfield R4S performance street brake pads, front, 1994-02 size",
+    "official_url": "https://flyinmiata.com/products/porterfield-r4s-sport-brake-pads-front-1994-02",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T23:17:48Z",
+      "price": 119.0,
+      "url": "https://flyinmiata.com/products/porterfield-r4s-sport-brake-pads-front-1994-02",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Turn 14 Distribution",
+    "category": "Cooling",
+    "description": "Quality replacement water pump. Not a bad idea to do when you're doing a timing belt. One year warranty. The brand may vary, but we only use quality products that we're willing to put in our own vehicles.\nWe've searched high and low for a water pump with a cast impeller and they no longer exist as far as we can tell. We have tried multiple different sheet metal impeller water pumps and only carry the best of those, as they're certainly not all created equal. We've also consulted with our friends at Meziere (water pump pros) about a CNC-machined impeller and they were of the opinion that we wouldn't do much better than this, regardless of how much we spent. So rest assured that this is an excellent water pump with great performance and long life.\u00a0\nIncludes gaskets and O-ring.Fits Miata engines only, not other BP applications.\nBe aware that you\u00a0might\u00a0have slightly limited travel on the tensioner with this water pump, resulting in a tight timing belt install (it's not overly tight during operation, just installation). It's inconsistent, but worth\u00a0the risk\u00a0for the improved performance. Easy clearancing (of the tensioner arm or water pump housing) can solve this problem if you're unable to get the timing belt into place easily. Ask us if you have any questions.",
+    "discovery_metadata": {
+      "candidate_id": "2649500cd2fbffeecfd9",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/water-pump",
+    "fitment_status": "unknown",
+    "id": "auto-9973c7dc220893d98661",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/09-26000_94-05_Gates_Water_Pump_101322--5_2500x.jpg?v=1666045557",
+    "manufacturer_part_number": "09-26000 1994-05",
+    "name": "Water pump (1.8 BP engine)",
+    "official_url": "https://flyinmiata.com/products/water-pump",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T23:17:48Z",
+      "price": 84.99,
+      "url": "https://flyinmiata.com/products/water-pump",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Flyin' Miata",
+    "category": "Cooling",
+    "description": "Slightly cooler than the stock thermostat, but still warm enough that your engine runs at a happy temperature and your heater works. Includes a gasket. Fits all NA and NB engines.\nSorry, Hot Wheels Miata is not included.",
+    "discovery_metadata": {
+      "candidate_id": "b719abbee50d32280a65",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/thermostat-with-gasket-180-degree",
+    "fitment_status": "unknown",
+    "id": "auto-0850be9f926876ab3d98",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/09-46109_180_thermostat_w_gasket_040220-2_2000x.jpg?v=1657922367",
+    "manufacturer_part_number": "09-46109",
+    "name": "Thermostat with gasket, 180 degree",
+    "official_url": "https://flyinmiata.com/products/thermostat-with-gasket-180-degree",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T23:17:49Z",
+      "price": 14.99,
+      "url": "https://flyinmiata.com/products/thermostat-with-gasket-180-degree",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Log 10 Co LTD",
+    "category": "Cooling",
+    "description": "We designed this hose for our turbo kits - it gives better flow, has fewer failure points than stock and gives more room for the compressor outlet hose. The first two attributes are also useful for any Miata.\nSilicone construction with approximately 9 layers. Fits any NA/NB Miata, and replaces a three-piece factory design on the NA cars. Included with all of our turbo kits shipped after August 2008. Please note that there could be some contact with this hose, but nothing that will cause premature failure. Check out the video below (fast-forwarded to the relevant section) for more details.\u00a0\nYour stock hose clamps won't fit with the thicker wall of this hose, so we include two new constant torque / tension hose clamps.\u00a0\nThis hose will likely need to be trimmed to fit on the block side of the engine. This is especially true for MSMs.",
+    "discovery_metadata": {
+      "candidate_id": "8b28af01c5539daf96ca",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/fm-lower-radiator-hose",
+    "fitment_status": "unknown",
+    "id": "auto-2599ef9feb5409b7b98c",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/img_1777_442x.jpg?v=1657921374",
+    "manufacturer_part_number": "22-51000",
+    "name": "FM lower radiator hose",
+    "official_url": "https://flyinmiata.com/products/fm-lower-radiator-hose",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": false,
+      "observed_at": "2026-09-20T23:17:50Z",
+      "price": 59.99,
+      "url": "https://flyinmiata.com/products/fm-lower-radiator-hose",
+      "vendor": "Flyin' Miata"
+    },
+    "status": "active"
   }
 ]

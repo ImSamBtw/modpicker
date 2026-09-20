@@ -1,6 +1,6 @@
 [
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "171b1550ade495a88919",
     "entity_type": "source",
     "id": "011aa4baea7d5f9a7423",
@@ -12,7 +12,19 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
+    "entity_id": "a2e94865a64d5cb5bec3",
+    "entity_type": "source",
+    "id": "0d839308708de7c737d8",
+    "payload": {
+      "confidence": 0,
+      "title": "Flyin' Miata Alignment bolt kit with eccentric lock fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "86a92d98825fbb2dd580",
     "entity_type": "source",
     "id": "0e452a0dd210fd190e6a",
@@ -24,7 +36,67 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
+    "entity_id": "e0c62b42b5abaa22edaf",
+    "entity_type": "source",
+    "id": "12c4e083c0d542235f23",
+    "payload": {
+      "confidence": 0,
+      "title": "Mazda North American Operation Hub nut, NA/NB Front & NA Rear fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T23:17:58Z",
+    "entity_id": "e26bc351f6e023d83d06",
+    "entity_type": "source",
+    "id": "2632993da81d26f010e0",
+    "payload": {
+      "confidence": 0,
+      "title": "Flyin' Miata Flyin' Miata steering rack bushing upgrade kit, NB fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T23:17:58Z",
+    "entity_id": "876876ec2ec46fc46b34",
+    "entity_type": "source",
+    "id": "26b83310d4f82cd23974",
+    "payload": {
+      "confidence": 0,
+      "title": "Time Zone Consulting Corp Extended lower ball joints for NA/NB fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T23:17:58Z",
+    "entity_id": "b2738d3dad09ca3b7c07",
+    "entity_type": "source",
+    "id": "2a274a435d4b1dfe4cc7",
+    "payload": {
+      "confidence": 0,
+      "title": "Mazda North American Operation Front hub dust cover, NA/NB fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T23:17:58Z",
+    "entity_id": "4178a1a54a4ddf383ca2",
+    "entity_type": "source",
+    "id": "4378d3c114e0e4e1c5af",
+    "payload": {
+      "confidence": 0,
+      "title": "Flyin' Miata FM V-Maxx Classic coilovers for NB fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "bc86434a78ceb268c2b7",
     "entity_type": "source",
     "id": "4ccd2e46519ac34ecb10",
@@ -36,7 +108,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "fe9e52b06eeefd76ccc7",
     "entity_type": "source",
     "id": "5c95aa368211ba613ace",
@@ -48,7 +120,19 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
+    "entity_id": "17818a77a70421c26fa8",
+    "entity_type": "source",
+    "id": "5d9419512bcaab338e9c",
+    "payload": {
+      "confidence": 0,
+      "title": "KING SWORD MFG CO. LTD Shock bushing set, NB fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "4c99c61a77963cba9dbf",
     "entity_type": "source",
     "id": "771835c926d4fb7a3af4",
@@ -60,7 +144,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "bfc56ea775e5b1979808",
     "entity_type": "source",
     "id": "7c19edbb35d530ceea8d",
@@ -72,7 +156,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "9deeb2f304c873d78cba",
     "entity_type": "source",
     "id": "7cb81ac51322460ff347",
@@ -84,7 +168,19 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
+    "entity_id": "09a8913a531145c011f1",
+    "entity_type": "source",
+    "id": "9bcdb5ef0a22b189e9ec",
+    "payload": {
+      "confidence": 0,
+      "title": "Flyin' Miata FM V-Maxx XXtreme coilovers - Sport package for NB fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "619baac6f9c135813ebc",
     "entity_type": "source",
     "id": "9c24b68f2b7ef775dd61",
@@ -96,7 +192,31 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
+    "entity_id": "1a1fe08aa6a64d52220c",
+    "entity_type": "source",
+    "id": "b14eb2f7a712e912e1e1",
+    "payload": {
+      "confidence": 0,
+      "title": "Mazda North American Operation Lower ball joint for NA/NB fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T23:17:58Z",
+    "entity_id": "fd3c10f2b1d54086f73a",
+    "entity_type": "source",
+    "id": "d73cd1dd44278a594b2b",
+    "payload": {
+      "confidence": 0,
+      "title": "Flyin' Miata FM V-Maxx Classic Stage 2 suspension kit for NB fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "969fa61c6099fb62e4bc",
     "entity_type": "source",
     "id": "dbc2dac2e74e95f4c755",
@@ -108,7 +228,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "2a7dfb31ea0ba6e626bc",
     "entity_type": "source",
     "id": "e24af67c8cecdf800c5b",
@@ -120,7 +240,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-20T22:57:43Z",
+    "created_at": "2026-09-20T23:17:58Z",
     "entity_id": "fd0ab8dbc9cd81926703",
     "entity_type": "source",
     "id": "ef5bd95d134682939d78",

@@ -1170,5 +1170,101 @@
     },
     "source_kind": "catalog_query_range",
     "source_url": "https://flyinmiata.com/products/rubber-boot-upper-ball-joint"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-f71e0ac4e755a5b701ec-2001-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-f71e0ac4e755a5b701ec"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 2001,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/brake-duct-inlet-kit-2-5-nb-1999-2005"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-bc469402bb29ab0d29f8-2001-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-bc469402bb29ab0d29f8"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 2001,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/braided-stainless-steel-brake-line-kit-na-nb"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-7d815ae8fee4b47bb7e2-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-7d815ae8fee4b47bb7e2"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/complete-adjustable-brake-proportioning-kit"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-95ddcdba1583dd34c3b9-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-95ddcdba1583dd34c3b9"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/master-cylinder-brace"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-c9739231efb954e39045-1999-2002",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-c9739231efb954e39045"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/porterfield-r4s-sport-brake-pads-rear-1994-02"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-af5b08958b2bf47415c6-1999-2002",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-af5b08958b2bf47415c6"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/porterfield-r4s-sport-brake-pads-front-1994-02"
   }
 ]

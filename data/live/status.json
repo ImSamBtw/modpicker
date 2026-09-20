@@ -1,12 +1,12 @@
 {
   "application_count": 227,
   "candidate_count": 199,
-  "catalog_part_count": 116,
+  "catalog_part_count": 127,
   "collectors": {
     "automatic_publication": {
       "attempted": 24,
       "enabled": true,
-      "promoted": 14,
+      "promoted": 11,
       "promotion_limit": 24,
       "warnings": []
     },
@@ -34,9 +34,9 @@
       ]
     },
     "fitment_expansion": {
-      "expanded_fitment_count": 1904,
-      "matched_rule_count": 67,
-      "rule_count": 67,
+      "expanded_fitment_count": 2012,
+      "matched_rule_count": 73,
+      "rule_count": 73,
       "warnings": []
     },
     "reddit": {
@@ -46,30 +46,40 @@
       ]
     },
     "seed_catalog": {
-      "count": 116,
-      "offer_count": 85,
-      "source_count": 106,
+      "count": 127,
+      "offer_count": 96,
+      "source_count": 117,
       "warnings": []
     },
     "vehicles": {
-      "bootstrap": true,
+      "bootstrap": false,
+      "configured_makes": [
+        "BMW",
+        "Mazda",
+        "Subaru",
+        "Toyota",
+        "Honda",
+        "Ford",
+        "Volkswagen",
+        "Nissan"
+      ],
       "enabled": true,
       "passenger_car_only": true,
-      "pruned_invalid_nhtsa": 1246,
-      "rejected_make_mismatch": 12,
-      "requests": 48,
-      "rows_seen": 382,
+      "pruned_invalid_nhtsa": 0,
+      "rejected_make_mismatch": 0,
+      "requests": 12,
+      "rows_seen": 174,
       "vehicle_count": 609,
       "warnings": []
     },
     "web_product": {
       "enabled": true,
-      "fresh_pages_skipped": 50,
-      "offer_count": 14,
-      "pages_checked": 14,
+      "fresh_pages_skipped": 64,
+      "offer_count": 11,
+      "pages_checked": 11,
       "refresh_hours": 24,
       "robots_origins_checked": 2,
-      "source_count": 14,
+      "source_count": 11,
       "warnings": [
         "robots denied/unavailable: https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
         "robots denied/unavailable: https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
@@ -108,17 +118,17 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "expanded_fitment_count": 1904,
-  "fitment_rule_count": 67,
+  "expanded_fitment_count": 2012,
+  "fitment_rule_count": 73,
   "fitment_warnings": [],
-  "generated_at": "2026-09-20T22:57:43Z",
-  "matched_fitment_rule_count": 67,
+  "generated_at": "2026-09-20T23:17:58Z",
+  "matched_fitment_rule_count": 73,
   "mode": "deterministic_no_ai",
-  "offer_count": 85,
+  "offer_count": 96,
   "ok": false,
   "platform_count": 7,
-  "price_history_count": 85,
-  "review_queue_count": 11,
-  "source_count": 386,
+  "price_history_count": 96,
+  "review_queue_count": 21,
+  "source_count": 397,
   "vehicle_count": 609
 }
