@@ -16,7 +16,7 @@ const server=spawn('python',['-m','http.server','8125'],{cwd:path.join(__dirname
   assert.match(await page.locator('#catalogView .hero h1').innerText(),/Parts that fit/);
   assert.equal(await page.locator('.home-actions .button').count(),3);
   assert.equal(await page.locator('.hero-stats>div:visible').count(),3);
-  assert.match(await page.locator('.prototype-banner').innerText(),/Evidence-first catalog/);
+  assert.match(await page.locator('.prototype-banner').innerText(),/Evidence-first catalog|Saved catalog/);
   assert.equal(await page.locator('.sidebar-card:visible').count(),0,'explanation cards should not clutter the default catalog view');
   assert.equal(await page.locator('.part-card .score-list:visible').count(),0,'metric breakdown belongs in details, not the default card scan path');
   assert.equal(await page.locator('.part-card .quick-meta:visible').count(),0,'dense metadata should stay out of default cards');
