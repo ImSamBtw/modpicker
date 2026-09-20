@@ -14,6 +14,8 @@ on:
       - 'curators/**'
       - 'config/**'
       - 'data/seed/**'
+      - 'data/manual/**'
+      - 'MANUAL_CATALOG.md'
       - 'requirements.txt'
       - '.github/workflows/data-pipeline.yml'
 permissions:
@@ -33,6 +35,8 @@ jobs:
           python-version: '3.12'
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Validate manual catalog inputs
+        run: python scripts/validate_catalog.py
       - name: Run tests
         run: python -m unittest discover -s tests -v
       - name: Collect and normalize data

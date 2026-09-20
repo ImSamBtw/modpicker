@@ -1,0 +1,41 @@
+[
+  {
+    "id": "bmw-m52tu",
+    "make": "BMW",
+    "name": "M52TU",
+    "display_name": "BMW M52TU",
+    "type": "engine",
+    "aliases": ["M52TU", "M52TU B28", "M52TUB28", "M52B28TU"],
+    "vehicle_ids": ["z3-2000-28"],
+    "categories": ["Cooling", "Maintenance", "Intake", "Exhaust", "Drivetrain", "Forced Induction"],
+    "status": "active",
+    "description": "Engine-family catalog for BMW M52TU applications represented by exact ModPicker fitment records. Platform results still require vehicle-specific confirmation.",
+    "source_urls": ["https://www.turnermotorsport.com/BMW-Z3"]
+  },
+  {
+    "id": "mazda-bp-4w",
+    "make": "Mazda",
+    "name": "BP-4W 1.8L",
+    "display_name": "Mazda BP-4W 1.8L",
+    "type": "engine",
+    "aliases": ["BP-4W", "BP4W", "BP 1.8", "BP engine"],
+    "vehicle_ids": ["miata-1999"],
+    "categories": ["Cooling", "Maintenance", "Intake", "Exhaust", "Drivetrain", "Forced Induction"],
+    "status": "active",
+    "description": "Engine-family catalog for Mazda BP-4W 1.8L applications represented by exact NB Miata records. Platform results still require vehicle-specific confirmation.",
+    "source_urls": ["https://flyinmiata.com/collections/nb-powertrain"]
+  },
+  {
+    "id": "subaru-fa20",
+    "make": "Subaru",
+    "name": "FA20 2.0L",
+    "display_name": "Subaru FA20 2.0L",
+    "type": "engine",
+    "aliases": ["FA20", "FA20D", "FA20 2.0", "Toyota 4U-GSE"],
+    "vehicle_ids": ["brz-2017"],
+    "categories": ["Cooling", "Maintenance", "Intake", "Exhaust", "Drivetrain", "Forced Induction"],
+    "status": "active",
+    "description": "Engine-family catalog for first-generation BRZ/86 FA20 applications represented by exact ModPicker fitment records. Platform results still require vehicle-specific confirmation.",
+    "source_urls": ["https://perrin.com/collections/engine"]
+  }
+]

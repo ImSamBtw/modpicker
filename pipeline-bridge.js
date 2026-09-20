@@ -5,7 +5,9 @@ const text=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'
 const url=s=>{try{const u=new URL(s);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}};
 window.MP_TEXT=text;window.MP_URL=url;
 const metrics=['overall','quality','reliability','power','handling','value'];
-function apply(rows,vehicles=[]){
+function normalizePlatform(p){return {...p,id:String(p.id||''),make:String(p.make||''),name:String(p.name||''),display_name:String(p.display_name||p.name||''),type:String(p.type||'platform'),aliases:Array.isArray(p.aliases)?p.aliases.map(String):[],vehicle_ids:Array.isArray(p.vehicle_ids)?p.vehicle_ids.map(String):[],categories:Array.isArray(p.categories)?p.categories.map(String):[],description:String(p.description||''),source_urls:Array.isArray(p.source_urls)?p.source_urls.map(url).filter(Boolean):[]}}
+function apply(rows,vehicles=[],platforms=[]){
+ data.platforms=(platforms.length?platforms:(data.platforms||[])).map(normalizePlatform).filter(p=>p.id);window.MODPICKER_PLATFORMS=data.platforms;
  for(const v of vehicles){if(!data.vehicles.some(x=>x.id===v.id))data.vehicles.push({...v,make:text(v.make),model:text(v.model),trim:text(v.trim||'Unspecified'),chassis:text(v.chassis||'Not specified'),engine:text(v.engine||'Not specified'),tags:(v.tags||['Model record · confirm exact trim']).map(text)});}
  for(const row of rows){
   let p=data.parts.find(x=>x.id===row.id);
@@ -32,5 +34,5 @@ function apply(rows,vehicles=[]){
 // Remove all demonstration ratings, offers, performance claims and install estimates before first paint.
 for(const p of data.parts){p.rating=Object.fromEntries(metrics.map(m=>[m,null]));p.confidence=0;p.offers=[];p.powerImpact=null;p.install=null;p.pros=[];p.cons=[];p.evidence=[];p.tags=[p.category];}
 window.MP_APPLY=apply;
-const snapshot=window.MODPICKER_PIPELINE_DATA||{};apply(snapshot.parts||[],snapshot.vehicles||[]);window.MODPICKER_PIPELINE_STATUS=snapshot.status||{};
+const snapshot=window.MODPICKER_PIPELINE_DATA||{};apply(snapshot.parts||[],snapshot.vehicles||[],snapshot.platforms||[]);window.MODPICKER_PIPELINE_STATUS=snapshot.status||{};
 })();

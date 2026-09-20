@@ -19,3 +19,8 @@ Edit permitted domains and collection URLs under `config/`; check terms and robo
 ## Recovery
 
 Inspect `/data-status.html` and the Actions run. A degraded source retains its old observations with their original dates. A failed validation blocks publication. After correcting a source/parser, run the workflow again. Restore a previous Git commit if necessary; avoid overwriting user local builds. No automated job needs a ChatGPT conversation.
+
+
+## Data addition runbook
+
+For a manual vehicle, platform, or part, follow `MANUAL_CATALOG.md`. Add the JSON, run `python scripts/validate_catalog.py`, run the unit tests, then inspect the pipeline output and review queue. For automated sources, update the allow-listed config and domain policy, verify robots and terms, and let the scheduled job collect structured records. The same publication gate handles both paths.

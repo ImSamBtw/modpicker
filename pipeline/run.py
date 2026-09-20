@@ -24,7 +24,7 @@ def load(path, default):
 
 def load_catalog():
     rows=[]
-    for path in [Path('data/seed/parts.json'),*sorted(Path('data/seed').glob('*_parts.json'))]:
+    for path in [Path('data/seed/parts.json'),*sorted(Path('data/seed').glob('*_parts.json')),Path('data/manual/parts.json')]:
         rows.extend(load(path,[]))
     rows.extend(load('data/live/auto_parts.json',[]))
     by_id={}
@@ -83,8 +83,8 @@ def validate_records(sources, offers):
         if o.price is not None and (not math.isfinite(o.price) or o.price <= 0 or o.price > 100000): reviews.append(ReviewItem.make('offer',o.id,'implausible price',{'price':o.price},'medium'))
     return reviews
 
-def build_status(results, sources, offers, reviews, history, candidates, parts):
-    return {'ok':not any(r.warnings for r in results if r.metadata.get('enabled',True)), 'mode':'deterministic_no_ai','generated_at':now_iso(),'catalog_part_count':len(parts),'candidate_count':len(candidates),'source_count':len(sources),'offer_count':len(offers),'price_history_count':len(history),'review_queue_count':len(reviews),'collectors':{r.name:{**r.metadata,'warnings':r.warnings} for r in results},'credentials':{k:bool(os.getenv(k)) for k in ['YOUTUBE_API_KEY','REDDIT_CLIENT_ID','REDDIT_CLIENT_SECRET','EBAY_CLIENT_ID','EBAY_CLIENT_SECRET','CLOUDFLARE_ACCOUNT_ID','CLOUDFLARE_API_TOKEN']}}
+def build_status(results, sources, offers, reviews, history, candidates, parts, platforms, vehicles):
+    return {'ok':not any(r.warnings for r in results if r.metadata.get('enabled',True)), 'mode':'deterministic_no_ai','generated_at':now_iso(),'catalog_part_count':len(parts),'platform_count':len(platforms),'vehicle_count':len(vehicles),'candidate_count':len(candidates),'source_count':len(sources),'offer_count':len(offers),'price_history_count':len(history),'review_queue_count':len(reviews),'collectors':{r.name:{**r.metadata,'warnings':r.warnings} for r in results},'credentials':{k:bool(os.getenv(k)) for k in ['YOUTUBE_API_KEY','REDDIT_CLIENT_ID','REDDIT_CLIENT_SECRET','EBAY_CLIENT_ID','EBAY_CLIENT_SECRET','CLOUDFLARE_ACCOUNT_ID','CLOUDFLARE_API_TOKEN']}}
 
 def collect_safely(collector, *args, **kwargs):
     from collectors.base import CollectorResult
@@ -93,7 +93,18 @@ def collect_safely(collector, *args, **kwargs):
         return CollectorResult(collector.name,[],[],[f'Collector failed: {type(exc).__name__}'],{'enabled':True,'failed':True})
 
 def main():
-    parts=load_catalog(); store=JsonStore(); existing_sources=store.read('sources.json',[]); youtube_state=store.read('youtube_search_state.json',{}); retailer_rows=product_page_rows(parts)
+    parts=load_catalog(); store=JsonStore()
+    platforms=[]
+    for path in [Path('config/platforms.json'),Path('data/manual/platforms.json')]:
+        platforms.extend(load(path,[]))
+    by_platform={p.get('id'):p for p in platforms if p.get('id')}
+    platforms=list(by_platform.values())
+    manual_vehicles=load('data/manual/vehicles.json',[])
+    existing_vehicles=store.read('vehicles.json',[])
+    vehicle_by_id={v.get('id'):v for v in existing_vehicles if v.get('id')}
+    for v in manual_vehicles: vehicle_by_id[v['id']]=v
+    existing_vehicles=list(vehicle_by_id.values())
+    existing_sources=store.read('sources.json',[]); youtube_state=store.read('youtube_search_state.json',{}); retailer_rows=product_page_rows(parts)
     youtube=YouTubeCollector(); youtube_result=youtube.run(parts,existing_sources=existing_sources,search_state=youtube_state)
     results=[CuratedCollector().run(),SeedCatalogCollector().run(parts),youtube_result,collect_safely(RedditCollector(),parts),collect_safely(EbayCollector(),parts),WebProductCollector().run(retailer_rows,existing_sources=existing_sources,refresh_hours=24)]
     candidates,candidate_warnings,candidate_meta=CatalogDiscoveryCollector(timeout=8).run()
@@ -107,7 +118,7 @@ def main():
         parts.extend(promoted)
         new_result=SeedCatalogCollector().run(promoted); sources.extend(new_result.sources); offers.extend(new_result.offers)
     results.append(type('Result',(),{'name':'automatic_publication','metadata':promotion_meta,'warnings':promotion_meta['warnings']})())
-    vehicles,vehicle_state,vehicle_meta=VehicleCollector(timeout=10).run(store.read('vehicles.json',[]),store.read('vehicle_state.json',{}))
+    vehicles,vehicle_state,vehicle_meta=VehicleCollector(timeout=10).run(existing_vehicles,store.read('vehicle_state.json',{}))
     store.write('vehicles.json',vehicles); store.write('vehicle_state.json',vehicle_state)
     results.append(type('Result',(),{'name':'vehicles','metadata':vehicle_meta,'warnings':vehicle_meta['warnings']})())
     reviews=validate_records(sources,offers)
@@ -129,8 +140,8 @@ def main():
             history.append({'id':f"{o['id']}:{captured_day}",'offer_id':o['id'],'part_id':o.get('part_id'),'vendor':o.get('vendor'),'price':o.get('price'),'shipping':o.get('shipping'),'in_stock':o.get('in_stock'),'captured_at':captured})
             existing.add((o.get('id'),captured_day))
     history=history[-20000:]; store.write('price_history.json',history); store.write('catalog.json',parts)
-    status=build_status(results,sources_json,offers_json,review_json,history,candidates_json,parts); store.write('status.json',status)
+    status=build_status(results,sources_json,offers_json,review_json,history,candidates_json,parts,platforms,vehicles); store.write('status.json',status)
     from pipeline.export_js import export_js
-    export_js(parts,sources_json,offers_json,status,vehicles=vehicles); print(json.dumps(status,indent=2))
+    export_js(parts,sources_json,offers_json,status,vehicles=vehicles,platforms=platforms); print(json.dumps(status,indent=2))
 
 if __name__=='__main__': main()

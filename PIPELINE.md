@@ -13,3 +13,10 @@ Runs every six hours through `.github/workflows/data-pipeline.yml`; no ChatGPT o
 Ratings require product-matched published review averages and counts. URLs or search results alone cannot create ratings. Review evidence expires after 90 days. Price comparisons show USD observations under seven days old and omit unavailable/unmatched marketplace listings. Unknown costs remain unknown.
 
 Sources are opt-in, robots-aware, bounded and cached. Failed fetches do not bypass source restrictions. Disabled APIs are reported separately from failed enabled sources. See the health page and GitHub Actions logs.
+
+
+## Platform and application scopes
+
+`config/platforms.json` and `data/manual/platforms.json` define engine or chassis groups, aliases, the exact vehicle application records they cover, and category allow-lists. The pipeline exports these records into `pipeline-data.js`. The browser uses them for platform browsing while continuing to display exact fitment status per selected application.
+
+Manual inputs are validated before collection. The workflow fails before publication when a manual record references an unknown vehicle, has an invalid URL, or includes a hand-entered ranking.

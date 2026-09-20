@@ -40,3 +40,32 @@ Run `python -m unittest discover -s tests -v`, `python -m pipeline.run`, and `py
 ## Database security review
 
 Supabase security advisors found no exposed-table/RLS errors. The pending candidate table is intentionally denied to public roles (RLS enabled without policies). An existing `pg_net` extension placement warning remains: [Supabase extension guidance](https://supabase.com/docs/guides/database/database-linter?lint=0014_extension_in_public). No extension relocation or schema change was performed in this release.
+
+## Iteration: hierarchical applications and platform scope — 2026-09-20
+
+### Problem addressed
+
+The previous vehicle control rendered one long list. That made a large NHTSA-derived catalog difficult to scan and made an engine-family request such as “M52TU” impossible unless the user already knew which car record carried it.
+
+### Changes executed
+
+- Replaced the long list with Make → Model → Year → Variant controls. The variant is the only exact application ID used for vehicle fitment.
+- Added a separate Engine / platform mode with Make → Engine/platform → Application controls.
+- Added explicit platform records, aliases, application IDs, category allow-lists, and source URLs. Platform results are discovery results and retain an exact-fitment confirmation label.
+- Exported platform records through the deterministic pipeline and browser fallback, and kept them available after Supabase hydration.
+- Added manual JSON inputs and a validator that rejects unstable IDs, missing applications, invalid URLs, and hand-entered rankings.
+- Added cross-path documentation in `PROJECT.md`, `MANUAL_CATALOG.md`, `PIPELINE.md`, `OPERATIONS.md`, and `data/manual/README.md`.
+- Added smoke coverage for car hierarchy, platform browsing, application switching, build persistence, detail evidence, sharing, routes, and mobile overflow.
+- Fixed inactive scope controls so hidden selectors do not occupy layout space on mobile or desktop.
+
+### Evidence and limits
+
+The initial platform families are intentionally scoped to exact curated applications already represented in the catalog. The platform view does not claim that every part fits every engine installation. More platforms should be added only with a reviewed application mapping and a documented category scope. Automated NHTSA discovery remains model coverage; it does not create engine or part fitment.
+
+### Next review loop
+
+1. Confirm the first scheduled pipeline refresh exports platform and vehicle counts in status.
+2. Add exact application records and platform mappings only when the source supports them.
+3. Expand structured product sources before expanding the platform list.
+4. Add a maintainer review-queue surface for ambiguous product candidates.
+5. Re-run this review after the next data refresh and record any source degradation or UI regression.

@@ -1,5 +1,68 @@
 [
   {
+    "chassis": "E36/7",
+    "drivetrain": "RWD",
+    "engine": "M52TU B28",
+    "id": "z3-2000-28",
+    "make": "BMW",
+    "metadata": {
+      "fitment_status": "curated",
+      "source": "manual_curated"
+    },
+    "model": "Z3",
+    "tags": [
+      "E36/7",
+      "M52TU",
+      "RWD",
+      "Manual"
+    ],
+    "transmission": "5-speed manual",
+    "trim": "2.8 Roadster",
+    "year": 2000
+  },
+  {
+    "chassis": "NB",
+    "drivetrain": "RWD",
+    "engine": "BP-4W 1.8L",
+    "id": "miata-1999",
+    "make": "Mazda",
+    "metadata": {
+      "fitment_status": "curated",
+      "source": "manual_curated"
+    },
+    "model": "MX-5 Miata",
+    "tags": [
+      "NB",
+      "1.8L",
+      "RWD",
+      "Manual"
+    ],
+    "transmission": "5-speed manual",
+    "trim": "Base",
+    "year": 1999
+  },
+  {
+    "chassis": "ZC6",
+    "drivetrain": "RWD",
+    "engine": "FA20 2.0L",
+    "id": "brz-2017",
+    "make": "Subaru",
+    "metadata": {
+      "fitment_status": "curated",
+      "source": "manual_curated"
+    },
+    "model": "BRZ",
+    "tags": [
+      "ZC6",
+      "FA20",
+      "RWD",
+      "Manual"
+    ],
+    "transmission": "6-speed manual",
+    "trim": "Limited",
+    "year": 2017
+  },
+  {
     "chassis": "Not specified",
     "engine": "Not specified",
     "id": "nhtsa-1999-452-1709",

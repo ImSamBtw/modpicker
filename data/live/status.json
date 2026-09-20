@@ -98,7 +98,9 @@
   "mode": "deterministic_no_ai",
   "offer_count": 71,
   "ok": false,
+  "platform_count": 3,
   "price_history_count": 71,
   "review_queue_count": 11,
-  "source_count": 186
+  "source_count": 186,
+  "vehicle_count": 379
 }

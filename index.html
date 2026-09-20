@@ -24,12 +24,21 @@
   <main>
     <section class="vehicle-strip">
       <div class="vehicle-strip-inner">
-        <div class="vehicle-title"><span class="eyebrow">Your garage</span><strong id="vehicleName">Select a vehicle</strong></div>
-        <div class="vehicle-selectors">
-          <label><span>Vehicle</span><select id="vehicleSelect"></select></label>
-          <label><span>Goal</span><select id="goalSelect"><option value="balanced">Balanced street</option><option value="reliability">Reliability</option><option value="power">Power</option><option value="handling">Handling</option><option value="track">Track</option><option value="budget">Budget</option></select></label>
+        <div class="vehicle-title"><span class="eyebrow">Your garage</span><strong id="vehicleName">Select a vehicle</strong><div class="browse-mode" role="tablist" aria-label="Catalog scope"><button id="vehicleModeButton" class="mode-button active" role="tab" aria-selected="true">Car</button><button id="platformModeButton" class="mode-button" role="tab" aria-selected="false">Engine / platform</button></div></div>
+        <div class="selection-controls">
+          <div id="vehicleSelectors" class="vehicle-selectors">
+            <label><span>Make</span><select id="makeSelect"></select></label>
+            <label><span>Model</span><select id="modelSelect"></select></label>
+            <label><span>Year</span><select id="yearSelect"></select></label>
+            <label><span>Variant</span><select id="variantSelect"></select></label>
+          </div>
+          <div id="platformSelectors" class="vehicle-selectors platform-selectors" hidden>
+            <label><span>Make</span><select id="platformMakeSelect"></select></label>
+            <label><span>Engine / platform</span><select id="platformSelect"></select></label>
+            <label><span>Application</span><select id="platformApplicationSelect"></select></label>
+          </div>
         </div>
-        <div id="vehicleBadges" class="vehicle-badges"></div>
+        <div class="vehicle-side"><label><span>Goal</span><select id="goalSelect"><option value="balanced">Balanced street</option><option value="reliability">Reliability</option><option value="power">Power</option><option value="handling">Handling</option><option value="track">Track</option><option value="budget">Budget</option></select></label><div id="vehicleBadges" class="vehicle-badges"></div></div>
       </div>
     </section>
 
