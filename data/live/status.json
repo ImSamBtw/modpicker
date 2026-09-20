@@ -41,9 +41,10 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": false
   },
-  "generated_at": "2026-09-20T00:59:03Z",
+  "generated_at": "2026-09-20T01:02:42Z",
   "offer_count": 0,
   "ok": true,
+  "price_history_count": 0,
   "review_queue_count": 0,
   "source_count": 7
 }
