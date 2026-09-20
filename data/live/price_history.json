@@ -328,5 +328,205 @@
     "price": 251.22,
     "shipping": null,
     "vendor": "Turner Motorsport"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "f1b699a9e3a448e339ef:2026-09-20",
+    "in_stock": true,
+    "offer_id": "f1b699a9e3a448e339ef",
+    "part_id": "brz-perrin-crank-pulley",
+    "price": 134.3,
+    "shipping": null,
+    "vendor": "PERRIN"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "f67089a6347c7ab5e2b3:2026-09-20",
+    "in_stock": true,
+    "offer_id": "f67089a6347c7ab5e2b3",
+    "part_id": "brz-perrin-engine-mounts",
+    "price": 339.15,
+    "shipping": null,
+    "vendor": "PERRIN"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "b09f4e5761542d8f86d7:2026-09-20",
+    "in_stock": true,
+    "offer_id": "b09f4e5761542d8f86d7",
+    "part_id": "brz-perrin-front-endlinks",
+    "price": 126.65,
+    "shipping": null,
+    "vendor": "PERRIN"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "fb967b5be2cbd59f6803:2026-09-20",
+    "in_stock": true,
+    "offer_id": "fb967b5be2cbd59f6803",
+    "part_id": "brz-perrin-front-swaybar",
+    "price": 290.7,
+    "shipping": null,
+    "vendor": "PERRIN"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "b927d322745c9ba4207b:2026-09-20",
+    "in_stock": true,
+    "offer_id": "b927d322745c9ba4207b",
+    "part_id": "brz-perrin-inlet-hose-manual",
+    "price": 133.45,
+    "shipping": null,
+    "vendor": "PERRIN"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "632df5ddca06ca4edf8c:2026-09-20",
+    "in_stock": true,
+    "offer_id": "632df5ddca06ca4edf8c",
+    "part_id": "brz-perrin-rear-swaybar",
+    "price": 245.65,
+    "shipping": null,
+    "vendor": "PERRIN"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "ed696a16b5f37b6f627a:2026-09-20",
+    "in_stock": true,
+    "offer_id": "ed696a16b5f37b6f627a",
+    "part_id": "brz-perrin-steering-lockdown",
+    "price": 94.35,
+    "shipping": null,
+    "vendor": "PERRIN"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "a010b3f9a4d25fccd949:2026-09-20",
+    "in_stock": true,
+    "offer_id": "a010b3f9a4d25fccd949",
+    "part_id": "brz-perrin-strut-brace",
+    "price": 183.6,
+    "shipping": null,
+    "vendor": "PERRIN"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "1c3920a0f34173fa7f43:2026-09-20",
+    "in_stock": null,
+    "offer_id": "1c3920a0f34173fa7f43",
+    "part_id": "miata-fm-billet-front-sway-brackets",
+    "price": 94.99,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "4c30c5f286109fbadc38:2026-09-20",
+    "in_stock": null,
+    "offer_id": "4c30c5f286109fbadc38",
+    "part_id": "miata-fm-billet-rear-sway-brackets",
+    "price": 77.98,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "dd60ac62da58cd4c9f63:2026-09-20",
+    "in_stock": null,
+    "offer_id": "dd60ac62da58cd4c9f63",
+    "part_id": "miata-fm-door-bushings",
+    "price": 19.99,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "4285241d141b54c6ff7b:2026-09-20",
+    "in_stock": null,
+    "offer_id": "4285241d141b54c6ff7b",
+    "part_id": "miata-fm-endlinks",
+    "price": 69.99,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "7baec8cff8b20dcb4ec2:2026-09-20",
+    "in_stock": null,
+    "offer_id": "7baec8cff8b20dcb4ec2",
+    "part_id": "miata-fm-fox-suspension",
+    "price": 2389.0,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "8cebb54908cfbc74415c:2026-09-20",
+    "in_stock": null,
+    "offer_id": "8cebb54908cfbc74415c",
+    "part_id": "miata-fm-heavy-sway-mounts",
+    "price": 189.0,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "28f6fb67d0a80af52287:2026-09-20",
+    "in_stock": null,
+    "offer_id": "28f6fb67d0a80af52287",
+    "part_id": "miata-fm-springs",
+    "price": 249.0,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "e411b950dbf82cbe8114:2026-09-20",
+    "in_stock": null,
+    "offer_id": "e411b950dbf82cbe8114",
+    "part_id": "miata-vmaxx-classic",
+    "price": 879.0,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "554dd135f4b99de7bab1:2026-09-20",
+    "in_stock": true,
+    "offer_id": "554dd135f4b99de7bab1",
+    "part_id": "z3-genuine-heater-inlet-pipe",
+    "price": 66.99,
+    "shipping": null,
+    "vendor": "Turner Motorsport"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "367743a47da706f0bd9c:2026-09-20",
+    "in_stock": true,
+    "offer_id": "367743a47da706f0bd9c",
+    "part_id": "z3-genuine-lower-rad-hose",
+    "price": 43.99,
+    "shipping": null,
+    "vendor": "Turner Motorsport"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "40c79d65df59755c8e12:2026-09-20",
+    "in_stock": true,
+    "offer_id": "40c79d65df59755c8e12",
+    "part_id": "z3-genuine-upper-rad-hose",
+    "price": 41.61,
+    "shipping": null,
+    "vendor": "Turner Motorsport"
+  },
+  {
+    "captured_at": "2026-09-20T02:45:25Z",
+    "id": "183cda24b137b6a04cec:2026-09-20",
+    "in_stock": true,
+    "offer_id": "183cda24b137b6a04cec",
+    "part_id": "z3-turner-brake-lines",
+    "price": 165.73,
+    "shipping": null,
+    "vendor": "Turner Motorsport"
   }
 ]

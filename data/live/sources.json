@@ -252,7 +252,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-brembo",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "CSG-listed Brembo GT four-piston front brake package for first-gen BRZ/86/FR-S track-oriented builds.",
     "title": "CSG Spec / Brembo Brembo GT 4-Piston 326x30mm Brake Kit fitment/product source",
@@ -273,7 +273,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-ecutek",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Custom EcuTek calibration service listed by CSG for FA20 first-generation BRZ/86 applications; final results depend on fuel and installed hardware.",
     "title": "CSG Spec / EcuTek Custom EcuTek Tune fitment/product source",
@@ -294,7 +294,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-exhaust",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "70mm CSG Spec/MXP cat-back exhaust listed for BRZ/FR-S/86 platforms.",
     "title": "CSG Spec / MXP TOURING 86 Competition Exhaust - 70mm Catback fitment/product source",
@@ -315,7 +315,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-pads",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "CSG Spec motorsport pad compounds with explicit 2013-2020 BRZ front/rear applications; compound and axle selection materially affect price and use case.",
     "title": "CSG Spec Brake Pad Set fitment/product source",
@@ -336,7 +336,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-rx1",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "CSG-tuned TEIN RX-1 V3 coilover package listed for the first-generation BRZ/FR-S/86 platform.",
     "title": "CSG Spec / TEIN RX-1 V3 Coilovers fitment/product source",
@@ -357,7 +357,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-single-clutch",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Complete CSG Spec single-plate OS Giken clutch system listed for BRZ/FR-S/86/GT86/GR86 applications.",
     "title": "CSG Spec / OS Giken Single Plate Clutch System fitment/product source",
@@ -378,7 +378,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-twin-clutch",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Complete CSG Spec twin-plate OS Giken clutch package for high-torque BRZ/FR-S/86 builds.",
     "title": "CSG Spec / OS Giken Twin Plate Clutch System fitment/product source",
@@ -399,7 +399,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-greddy-oilcooler",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "GReddy oil-cooler kit listed by CSG specifically for 2013-2020 BRZ/86/FR-S.",
     "title": "GReddy Oil Cooler Kit - 2013-2020 fitment/product source",
@@ -417,7 +417,7 @@
     "outlet": "FT86Club",
     "part_id": "brz-header",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "forum",
     "summary": "Community discussion focused on header layout and long-term concerns.",
     "title": "UEL vs EL and long-term use",
@@ -436,7 +436,7 @@
     "outlet": "FT86Club",
     "part_id": "brz-header",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "forum",
     "summary": "Owner discussion comparing header layouts and JDL options.",
     "title": "EL vs UEL header discussion",
@@ -564,7 +564,7 @@
     "outlet": "jacksonracing.com",
     "part_id": "brz-jr-dual-cooler",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Integrated all-aluminum radiator and liquid-to-oil cooler developed with CSF for street/track BRZ/86 applications.",
     "title": "Jackson Racing Dual Radiator / Oil Cooler fitment/product source",
@@ -585,11 +585,116 @@
     "outlet": "jacksonracing.com",
     "part_id": "brz-jr-oilcooler",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Track-focused thermostatic oil-cooler system for the FA20 platform. Jackson Racing states the kit is track/race tested and intended to maintain oil temperatures below 250\u00b0F in extreme conditions.",
     "title": "Jackson Racing Track Engine Oil Cooler Kit fitment/product source",
     "url": "https://jacksonracing.com/product/fr-sbrz-engine-oil-cooler-kit/"
+  },
+  {
+    "confidence": 0.98,
+    "id": "e8ea2b48d2e1af0f507a",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": null,
+      "vehicle_id": "brz-2017"
+    },
+    "outlet": "perrin.com",
+    "part_id": "brz-perrin-crank-pulley",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Lightweight crank pulley explicitly listed for 2015-2018 BRZ/FR-S/86 applications.",
+    "title": "PERRIN Lightweight Crank Pulley fitment/product source",
+    "url": "https://perrin.com/products/lightweight-crank-pulley-for-wrx-sti"
+  },
+  {
+    "confidence": 0.99,
+    "id": "5f5612cebb7cec6bd5cf",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "PSP-DRV-057",
+      "vehicle_id": "brz-2017"
+    },
+    "outlet": "perrin.com",
+    "part_id": "brz-perrin-engine-mounts",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Billet engine mounts with dedicated 2013-2020 BRZ/FR-S/86 instructions; increased NVH is expected.",
+    "title": "PERRIN Engine Mount Kit fitment/product source",
+    "url": "https://perrin.com/products/engine-mount-kit-for-2002-2026-wrx-sti-brz-fr-s-86-legacy-forester-outback-impreza-ascent"
+  },
+  {
+    "confidence": 0.99,
+    "id": "60e453e19fefd08d3885",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "PSP-SUS-115",
+      "vehicle_id": "brz-2017"
+    },
+    "outlet": "perrin.com",
+    "part_id": "brz-perrin-front-endlinks",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Aluminum front endlinks with 95A polyurethane bushings for BRZ/FR-S/86/GR86.",
+    "title": "PERRIN Front Endlinks with Urethane Bushings fitment/product source",
+    "url": "https://perrin.com/products/frs-brz-front-endlinks"
+  },
+  {
+    "confidence": 0.99,
+    "id": "c7e154f221c8249881ee",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "PSP-SUS-138",
+      "vehicle_id": "brz-2017"
+    },
+    "outlet": "perrin.com",
+    "part_id": "brz-perrin-front-swaybar",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Adjustable front sway bar family explicitly listed for 2013-2026 BRZ/FR-S/86/GR86.",
+    "title": "PERRIN Front Swaybar fitment/product source",
+    "url": "https://perrin.com/products/frs-brz-front-swaybar"
+  },
+  {
+    "confidence": 0.99,
+    "id": "f459cf2427f54ea59240",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "fitment"
+      ],
+      "manufacturer_part_number": "PSP-INT-431RD",
+      "vehicle_id": "brz-2017"
+    },
+    "outlet": "perrin.com",
+    "part_id": "brz-perrin-inlet-hose-manual",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "3-inch silicone inlet hose explicitly compatible with 2017-2020 BRZ/86 manual cars; no tune required per PERRIN.",
+    "title": "PERRIN Inlet Hose - Manual Transmission fitment/product source",
+    "url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86"
   },
   {
     "confidence": 0.99,
@@ -606,7 +711,7 @@
     "outlet": "perrin.com",
     "part_id": "brz-perrin-intake",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "CARB-approved PERRIN cold-air intake explicitly listed for 2017-2020 BRZ/FR-S/86 manual applications. PERRIN publishes a 120-minute DIY installation estimate.",
     "title": "PERRIN Cold Air Intake fitment/product source",
@@ -627,11 +732,74 @@
     "outlet": "perrin.com",
     "part_id": "brz-perrin-master-brace",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Master-cylinder brace designed to reduce firewall/master-cylinder movement and improve pedal response; explicitly listed for BRZ/FR-S/86/GR86.",
     "title": "PERRIN Master Cylinder Brace fitment/product source",
     "url": "https://perrin.com/products/master-cylinder-brace-for-brz-fr-s-86-gr86"
+  },
+  {
+    "confidence": 0.99,
+    "id": "b5f58667e840410f573d",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "PSP-SUS-245",
+      "vehicle_id": "brz-2017"
+    },
+    "outlet": "perrin.com",
+    "part_id": "brz-perrin-rear-swaybar",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Rear sway bar family explicitly listed for first-generation BRZ/FR-S/86, with multiple diameters.",
+    "title": "PERRIN Rear Swaybar fitment/product source",
+    "url": "https://perrin.com/products/swaybar-rear-for-2008-2021-wrx-sti-brz-fr-s-86-gr86"
+  },
+  {
+    "confidence": 0.99,
+    "id": "195ba95f6f85f64f7632",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "PSP-SUS-563",
+      "vehicle_id": "brz-2017"
+    },
+    "outlet": "perrin.com",
+    "part_id": "brz-perrin-steering-lockdown",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Steering rack lockdown explicitly listed for 2013-2026 BRZ/FR-S/86/GR86.",
+    "title": "PERRIN Steering Rack Lockdown fitment/product source",
+    "url": "https://perrin.com/products/frs-brz-steering-rack-lockdown"
+  },
+  {
+    "confidence": 0.99,
+    "id": "49f12870037ae1d0bc88",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "PSP-SUS-066RD",
+      "vehicle_id": "brz-2017"
+    },
+    "outlet": "perrin.com",
+    "part_id": "brz-perrin-strut-brace",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Front strut tower brace explicitly listed for 2013-2026 BRZ/FR-S/86/GR86.",
+    "title": "PERRIN Front Strut Brace fitment/product source",
+    "url": "https://perrin.com/products/strut-brace-for-brz-fr-s-86"
   },
   {
     "confidence": 0.99,
@@ -648,7 +816,7 @@
     "outlet": "perrin.com",
     "part_id": "brz-perrin-subframe",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Rear subframe lockdown inserts intended to reduce drivetrain/subframe movement; explicitly listed for 2013-2020 BRZ and published with a 60-minute DIY install estimate.",
     "title": "PERRIN Rear Subframe Lockdown fitment/product source",
@@ -669,7 +837,7 @@
     "outlet": "perrin.com",
     "part_id": "brz-perrin-trans-support",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "6061-T6 transmission mount support for manual BRZ/FR-S/86 applications. PERRIN publishes a 30-minute install estimate and notes increased NVH.",
     "title": "PERRIN Transmission Mount Support - Manual fitment/product source",
@@ -968,7 +1136,7 @@
     "outlet": "Koyorad",
     "part_id": "koyo-z3-rad",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Manufacturer radiator information hub.",
     "title": "Koyorad radiator information",
@@ -1133,7 +1301,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "mahle-z3-thermostat",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Mahle/Behr Thermostat & Housing Refresh cataloged for BMW Z3 2.8 M52TU. Verify exact configuration before purchase.",
     "title": "Mahle/Behr Thermostat & Housing Refresh fitment/product source",
@@ -1154,11 +1322,95 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-crossflow-rad",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Crossflow aluminum radiator designed for 1990-2005 Miatas; NB-specific brackets are required as documented by Flyin' Miata.",
     "title": "Flyin' Miata Crossflow Radiator fitment/product source",
     "url": "https://flyinmiata.com/products/flyin-miata-crossflow-radiator"
+  },
+  {
+    "confidence": 0.99,
+    "id": "7ec472b1d3bc625dadce",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "13-36535",
+      "vehicle_id": "miata-1999"
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "miata-fm-billet-front-sway-brackets",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Billet front sway-bar brackets explicitly listed for 1999-2005 NB.",
+    "title": "Flyin' Miata Billet Front Sway Bar Brackets fitment/product source",
+    "url": "https://flyinmiata.com/products/front-billet-sway-bar-brackets"
+  },
+  {
+    "confidence": 0.99,
+    "id": "4a11bb6ead02d2189572",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "13-36545",
+      "vehicle_id": "miata-1999"
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "miata-fm-billet-rear-sway-brackets",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Billet rear sway-bar brackets explicitly listed for 1999-2005 NB.",
+    "title": "Flyin' Miata Billet Rear Sway Bar Brackets fitment/product source",
+    "url": "https://flyinmiata.com/products/rear-billet-sway-bar-brackets"
+  },
+  {
+    "confidence": 0.99,
+    "id": "7ec9000d21d5c479a58a",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": null,
+      "vehicle_id": "miata-1999"
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "miata-fm-door-bushings",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Fiberglass-reinforced nylon door bushings explicitly listed for 1999-2005 Miata.",
+    "title": "Flyin' Miata Door Bushings, Second Generation fitment/product source",
+    "url": "https://flyinmiata.com/products/door-bushings"
+  },
+  {
+    "confidence": 0.99,
+    "id": "62c6e54cc282844d8db5",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "13-99050",
+      "vehicle_id": "miata-1999"
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "miata-fm-endlinks",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Turnbuckle-adjustable end links explicitly listed for 1999-2005 NB front or rear.",
+    "title": "Flyin' Miata Adjustable Sway Bar End Links fitment/product source",
+    "url": "https://flyinmiata.com/products/nb-and-nc-end-link"
   },
   {
     "confidence": 0.96,
@@ -1175,11 +1427,32 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-fm-exhaust",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Flyin' Miata exhaust option listed for the NB platform.",
     "title": "Flyin' Miata NB Exhaust fitment/product source",
     "url": "https://flyinmiata.com/collections/nb-powertrain"
+  },
+  {
+    "confidence": 0.99,
+    "id": "148ecc98f915e6384762",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": null,
+      "vehicle_id": "miata-1999"
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "miata-fm-fox-suspension",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "High-end FOX-based suspension system sold specifically for the NB chassis.",
+    "title": "Flyin' Miata / FOX FOX Suspension for NB fitment/product source",
+    "url": "https://flyinmiata.com/products/fox-suspension-for-nb-chassis"
   },
   {
     "confidence": 0.98,
@@ -1196,11 +1469,32 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-fm-front-sway",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Front anti-roll bar listed in Flyin' Miata's NB-specific handling catalog.",
     "title": "Flyin' Miata Front Sway Bar fitment/product source",
     "url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars"
+  },
+  {
+    "confidence": 0.99,
+    "id": "12b7a5648c2790af0814",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": null,
+      "vehicle_id": "miata-1999"
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "miata-fm-heavy-sway-mounts",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Reinforced front sway-bar mounts explicitly listed for NA/NB and intended for hard use with larger bars.",
+    "title": "Flyin' Miata Heavy Duty Sway Bar Mounts fitment/product source",
+    "url": "https://flyinmiata.com/products/na-nb-heavy-duty-sway-bar-mounts"
   },
   {
     "confidence": 0.94,
@@ -1217,7 +1511,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-fm-level1-clutch",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Performance clutch package offered for NA/NB applications as a street-oriented supporting upgrade.",
     "title": "Flyin' Miata Level 1 Performance Clutch fitment/product source",
@@ -1238,11 +1532,32 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-fm-rear-sway",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Rear anti-roll bar listed for NA/NB chassis in Flyin' Miata's NB handling catalog.",
     "title": "Flyin' Miata Rear Sway Bar fitment/product source",
     "url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars"
+  },
+  {
+    "confidence": 0.99,
+    "id": "4af6f730890be716e887",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": null,
+      "vehicle_id": "miata-1999"
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "miata-fm-springs",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Flyin' Miata lowering spring set dedicated to the NB chassis.",
+    "title": "Flyin' Miata Spring Set - NB Chassis fitment/product source",
+    "url": "https://flyinmiata.com/products/nb-flyin-miata-springs"
   },
   {
     "confidence": 0.98,
@@ -1259,7 +1574,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-fm-sway-set",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Matched front/rear Flyin' Miata sway-bar package for NB chassis.",
     "title": "Flyin' Miata Sway Bar Set - NB Chassis fitment/product source",
@@ -1280,7 +1595,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-frame-rails",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Underbody frame-rail reinforcement for NA/NB chassis, listed in Flyin' Miata's NB catalog.",
     "title": "Flyin' Miata Frame Rails v2.0 fitment/product source",
@@ -1301,7 +1616,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-koni-active",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Frequency-selective dampers for improved street body control without a large ride penalty; explicitly fits 1999-2005.",
     "title": "Koni Special Active Shock Set with Bump Stops fitment/product source",
@@ -1322,7 +1637,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-koni-sport",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Adjustable-rebound Koni Sport dampers with polyurethane bumpstops; explicitly listed for 1999-2005 NB Miata.",
     "title": "Koni Sport Shock & Bump Stop Set fitment/product source",
@@ -1343,7 +1658,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-koni-strt",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Non-adjustable Koni replacement dampers with Flyin' Miata bumpstops; explicitly fits 1999-2005.",
     "title": "Koni STR.T Shock & Bump Stop Set fitment/product source",
@@ -1364,7 +1679,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-rubber-bushings",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Complete high-performance rubber suspension bushing set listed for NA/NB Miata restoration and handling refresh.",
     "title": "Flyin' Miata Complete High Performance Rubber Bushing Set fitment/product source",
@@ -1385,7 +1700,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-shifter-rebuild",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Shifter wear-item refresh kit for NB manual transmissions.",
     "title": "Flyin' Miata Shifter Rebuild Kit fitment/product source",
@@ -1406,7 +1721,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-stage1-brakes",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Stage 1 performance brake package whose listed 1994-2002 application includes the 1999 NB.",
     "title": "Flyin' Miata 1994-02 Stage 1 Performance Brake Kit fitment/product source",
@@ -1427,11 +1742,32 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-stage1-turbo-9900",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "CARB-legal complete turbo system explicitly for 1999-2000; Flyin' Miata reports approximately 190 rear-wheel horsepower and documents clutch/cooling supporting requirements.",
     "title": "Flyin' Miata Stage 1 Turbo System 1999-00 fitment/product source",
     "url": "https://flyinmiata.com/products/flyin-miata-stage-1-turbo-system-1999-00"
+  },
+  {
+    "confidence": 0.99,
+    "id": "0023e958d53cdcd85838",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": null,
+      "vehicle_id": "miata-1999"
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "miata-vmaxx-classic",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "manufacturer",
+    "summary": "Height-adjustable V-Maxx Classic coilover package listed specifically for the NB chassis.",
+    "title": "Flyin' Miata / V-Maxx V-Maxx Classic Coilovers for NB fitment/product source",
+    "url": "https://flyinmiata.com/collections/nb-handling-coilovers"
   },
   {
     "confidence": 0.95,
@@ -1448,7 +1784,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-water-pump",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Replacement water pump listed in the NB catalog for cooling-system maintenance.",
     "title": "Flyin' Miata 1.8L Water Pump fitment/product source",
@@ -1466,7 +1802,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-xida",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "forum",
     "summary": "Detailed owner review covering street and autocross use.",
     "title": "949 Racing Xida coilover owner review",
@@ -1484,7 +1820,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-xida",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "forum",
     "summary": "Long-running product thread with configuration and owner discussion.",
     "title": "Xida Club Sport Coilovers discussion",
@@ -1502,7 +1838,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-xida",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "forum",
     "summary": "Community setup discussion covering Xida families, ride heights and intended use.",
     "title": "How to Xida",
@@ -1645,7 +1981,7 @@
     "outlet": "Mustang6G",
     "part_id": "mustang-steeda-intake",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "forum",
     "summary": "Owner review with installation photos and driving impressions.",
     "title": "Steeda ProFlow intake + tune review",
@@ -2228,7 +2564,7 @@
     "outlet": "apexwheels.com",
     "part_id": "z3-apex-wheels",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Lightweight ARC-8 wheel family commonly used on BMW fitments; width, diameter and offset must be selected for the specific Z3 setup.",
     "title": "APEX ARC-8 Wheel Set fitment/product source",
@@ -2249,7 +2585,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-bilstein-hr-package",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Matched H&R Sport spring and Bilstein Sport/B8 damper package explicitly listed for non-M Z3 applications including 2.8.",
     "title": "H&R / Bilstein H&R Sport Spring + Bilstein Sport/B8 Package fitment/product source",
@@ -2270,7 +2606,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-bosch-coils",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "OEM-style ignition coil refresh option for the M52TU. Exact coil design and connector application must be verified.",
     "title": "Bosch Ignition Coil Set fitment/product source",
@@ -2291,11 +2627,74 @@
     "outlet": "continentaltire.com",
     "part_id": "z3-conti-ecs02",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "manufacturer",
     "summary": "Max-performance summer tire option; exact tire size must be matched to the selected wheel package and Z3 clearance.",
     "title": "Continental ExtremeContact Sport 02 Tire Set fitment/product source",
     "url": "https://continentaltire.com/tires/extremecontact-sport-02"
+  },
+  {
+    "confidence": 0.99,
+    "id": "73e8229b8e8f300fe7e2",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": null,
+      "vehicle_id": "z3-2000-28"
+    },
+    "outlet": "turnermotorsport.com",
+    "part_id": "z3-genuine-heater-inlet-pipe",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "retailer",
+    "summary": "Genuine BMW heater inlet pipe listed for 1999-2002 Z3 2.8; an aging cooling-system hard part.",
+    "title": "Genuine BMW Heater Inlet Pipe fitment/product source",
+    "url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/"
+  },
+  {
+    "confidence": 1,
+    "id": "003351679787c362d8ec",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "11531716642",
+      "vehicle_id": "z3-2000-28"
+    },
+    "outlet": "turnermotorsport.com",
+    "part_id": "z3-genuine-lower-rad-hose",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "retailer",
+    "summary": "Genuine BMW lower radiator hose explicitly listed for 1999-2002 Z3 2.8.",
+    "title": "Genuine BMW Lower Radiator Hose - M52TU/M54 Z3 fitment/product source",
+    "url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/"
+  },
+  {
+    "confidence": 1,
+    "id": "a2bc240a6b36da134016",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": null,
+      "vehicle_id": "z3-2000-28"
+    },
+    "outlet": "turnermotorsport.com",
+    "part_id": "z3-genuine-upper-rad-hose",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "retailer",
+    "summary": "Genuine BMW upper radiator hose explicitly listed for 1999-2002 Z3 2.8.",
+    "title": "Genuine BMW Upper Radiator Hose - M52TU/M54 Z3 fitment/product source",
+    "url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/"
   },
   {
     "confidence": 0.74,
@@ -2312,7 +2711,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-goodridge-lines",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Stainless brake hose upgrade intended to improve pedal consistency. Exact hose count and chassis application must be verified.",
     "title": "Goodridge Stainless Brake Line Kit fitment/product source",
@@ -2333,7 +2732,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-hr-front-sway",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "28mm adjustable H&R front anti-roll bar listed by Turner for BMW Z3 applications including the 2.8.",
     "title": "H&R 28mm Adjustable Front Sway Bar fitment/product source",
@@ -2354,7 +2753,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-ie-subframe",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Rear subframe bushing option for reducing compliance and refreshing aging Z3 rear suspension mounting points.",
     "title": "Ireland Engineering Rear Subframe Bushing Kit fitment/product source",
@@ -2375,7 +2774,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-ngk-plugs",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Maintenance-oriented spark plug set for the M52TU catalog. Exact NGK part number should be checked against production date.",
     "title": "NGK Laser Platinum Spark Plug Set fitment/product source",
@@ -2396,7 +2795,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-short-shifter",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Short-shift solution for a more direct shift feel; exact transmission and selector-rod compatibility must be verified.",
     "title": "Rogue Engineering Short Shift Kit fitment/product source",
@@ -2417,7 +2816,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-silicone-hoses",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Mishimoto Silicone Coolant Hose Kit cataloged as a Z3 cooling-system option. Exact engine/application must be verified.",
     "title": "Mishimoto Silicone Coolant Hose Kit fitment/product source",
@@ -2438,7 +2837,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-stoptech-pads",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Street/track-oriented brake pad option for the Z3 catalog. Verify axle and caliper application before purchase.",
     "title": "StopTech Sport Brake Pads fitment/product source",
@@ -2459,11 +2858,32 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-strut-brace",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Bolt-on front strut tower brace included as a chassis-stiffening option for Z3 build comparisons.",
     "title": "Turner Motorsport Front Strut Tower Brace fitment/product source",
     "url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.99,
+    "id": "53cbad6ab7b75a1be763",
+    "metadata": {
+      "catalog_seed": true,
+      "fitment_status": "verified",
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "022749TMS09",
+      "vehicle_id": "z3-2000-28"
+    },
+    "outlet": "turnermotorsport.com",
+    "part_id": "z3-turner-brake-lines",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T02:45:22Z",
+    "source_type": "retailer",
+    "summary": "DOT-compliant stainless front/rear brake-line kit explicitly listed for Z3 2.8; excludes mid-lines.",
+    "title": "Turner Motorsport Stainless Steel Brake Lines - Front and Rear fitment/product source",
+    "url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/"
   },
   {
     "confidence": 0.91,
@@ -2480,7 +2900,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-turner-clutch-pedal",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Refresh kit aimed at worn clutch-pedal components in E36/Z3 applications.",
     "title": "Turner Motorsport Clutch Pedal Refresh Kit fitment/product source",
@@ -2501,7 +2921,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-turner-dssr",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Turner double-shear selector rod listed for six-cylinder Z3 applications including the 2.8.",
     "title": "Turner Motorsport DSSR 389mm Selector Rod fitment/product source",
@@ -2522,7 +2942,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-turner-monoball-fcab",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Turner centered monoball front control-arm bushing solution listed for 1997-2002 Z3 applications including the 2.8.",
     "title": "Turner Motorsport Centered Monoball Front Control Arm Bushings fitment/product source",
@@ -2543,7 +2963,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-uuc-sway",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Adjustable anti-roll bar option for handling-focused Z3 builds. Verify diameter and exact chassis fitment.",
     "title": "UUC Motorwerks Adjustable Sway Bar Set fitment/product source",
@@ -2564,7 +2984,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-zimmerman-rotors",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:23:45Z",
+    "retrieved_at": "2026-09-20T02:45:22Z",
     "source_type": "retailer",
     "summary": "Coated replacement rotor set for maintenance and braking refresh planning; exact front/rear SKU must be verified.",
     "title": "Zimmermann Coated Brake Rotor Set fitment/product source",

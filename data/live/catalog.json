@@ -1238,6 +1238,837 @@
     "vehicle_query": "1999-2000 NB Miata"
   },
   {
+    "brand": "PERRIN",
+    "category": "Steering",
+    "description": "Steering rack lockdown explicitly listed for 2013-2026 BRZ/FR-S/86/GR86.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/frs-brz-steering-rack-lockdown",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "brz-perrin-steering-lockdown",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 1
+    },
+    "manufacturer_part_number": "PSP-SUS-563",
+    "name": "Steering Rack Lockdown",
+    "official_url": "https://perrin.com/products/frs-brz-steering-rack-lockdown",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 94.35,
+      "url": "https://perrin.com/products/frs-brz-steering-rack-lockdown",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 84,
+      "handling": 8.5,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.2,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9,
+      "reliability": 9,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2017 Subaru BRZ"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Drivetrain",
+    "description": "Billet engine mounts with dedicated 2013-2020 BRZ/FR-S/86 instructions; increased NVH is expected.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/engine-mount-kit-for-2002-2026-wrx-sti-brz-fr-s-86-legacy-forester-outback-impreza-ascent",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "power"
+    ],
+    "id": "brz-perrin-engine-mounts",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 4
+    },
+    "manufacturer_part_number": "PSP-DRV-057",
+    "name": "Engine Mount Kit",
+    "official_url": "https://perrin.com/products/engine-mount-kit-for-2002-2026-wrx-sti-brz-fr-s-86-legacy-forester-outback-impreza-ascent",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 339.15,
+      "url": "https://perrin.com/products/engine-mount-kit-for-2002-2026-wrx-sti-brz-fr-s-86-legacy-forester-outback-impreza-ascent",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 85,
+      "handling": 7.5,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.1,
+      "performance": 4,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 8.9,
+      "value": 7.7
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2013-2020 Subaru BRZ"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Chassis",
+    "description": "Front strut tower brace explicitly listed for 2013-2026 BRZ/FR-S/86/GR86.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/strut-brace-for-brz-fr-s-86",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "balanced"
+    ],
+    "id": "brz-perrin-strut-brace",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 0.5
+    },
+    "manufacturer_part_number": "PSP-SUS-066RD",
+    "name": "Front Strut Brace",
+    "official_url": "https://perrin.com/products/strut-brace-for-brz-fr-s-86",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 183.6,
+      "url": "https://perrin.com/products/strut-brace-for-brz-fr-s-86",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 83,
+      "handling": 7.3,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.8,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9,
+      "reliability": 9.2,
+      "value": 7.8
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2017 Subaru BRZ"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Suspension",
+    "description": "Aluminum front endlinks with 95A polyurethane bushings for BRZ/FR-S/86/GR86.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/frs-brz-front-endlinks",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "brz-perrin-front-endlinks",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2
+    },
+    "manufacturer_part_number": "PSP-SUS-115",
+    "name": "Front Endlinks with Urethane Bushings",
+    "official_url": "https://perrin.com/products/frs-brz-front-endlinks",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 126.65,
+      "url": "https://perrin.com/products/frs-brz-front-endlinks",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 86,
+      "handling": 8.8,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.3,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 8.9,
+      "value": 8.3
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2017 Subaru BRZ"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Intake",
+    "description": "3-inch silicone inlet hose explicitly compatible with 2017-2020 BRZ/86 manual cars; no tune required per PERRIN.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+    "fitment_status": "verified",
+    "goals": [
+      "power",
+      "balanced"
+    ],
+    "id": "brz-perrin-inlet-hose-manual",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 0.25
+    },
+    "manufacturer_part_number": "PSP-INT-431RD",
+    "name": "Inlet Hose - Manual Transmission",
+    "official_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 133.45,
+      "url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 84,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.9,
+      "performance": 5.5,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 8.8,
+      "value": 8
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2017-2020 Subaru BRZ manual"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Suspension",
+    "description": "Adjustable front sway bar family explicitly listed for 2013-2026 BRZ/FR-S/86/GR86.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/frs-brz-front-swaybar",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "brz-perrin-front-swaybar",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2.5
+    },
+    "manufacturer_part_number": "PSP-SUS-138",
+    "name": "Front Swaybar",
+    "official_url": "https://perrin.com/products/frs-brz-front-swaybar",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 290.7,
+      "url": "https://perrin.com/products/frs-brz-front-swaybar",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 87,
+      "handling": 9.1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.5,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 8.9,
+      "value": 8.1
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2017 Subaru BRZ"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Suspension",
+    "description": "Rear sway bar family explicitly listed for first-generation BRZ/FR-S/86, with multiple diameters.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/swaybar-rear-for-2008-2021-wrx-sti-brz-fr-s-86-gr86",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "brz-perrin-rear-swaybar",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2
+    },
+    "manufacturer_part_number": "PSP-SUS-245",
+    "name": "Rear Swaybar",
+    "official_url": "https://perrin.com/products/swaybar-rear-for-2008-2021-wrx-sti-brz-fr-s-86-gr86",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 245.65,
+      "url": "https://perrin.com/products/swaybar-rear-for-2008-2021-wrx-sti-brz-fr-s-86-gr86",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 87,
+      "handling": 9.2,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.5,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 8.9,
+      "value": 8.2
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2017 Subaru BRZ"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Engine",
+    "description": "Lightweight crank pulley explicitly listed for 2015-2018 BRZ/FR-S/86 applications.",
+    "fitment_confidence": 0.98,
+    "fitment_source_url": "https://perrin.com/products/lightweight-crank-pulley-for-wrx-sti",
+    "fitment_status": "verified",
+    "goals": [
+      "power",
+      "balanced"
+    ],
+    "id": "brz-perrin-crank-pulley",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 1.5
+    },
+    "name": "Lightweight Crank Pulley",
+    "official_url": "https://perrin.com/products/lightweight-crank-pulley-for-wrx-sti",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 134.3,
+      "url": "https://perrin.com/products/lightweight-crank-pulley-for-wrx-sti",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 80,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.7,
+      "performance": 5.2,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 8.4,
+      "value": 8.1
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2017 Subaru BRZ"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Chassis",
+    "description": "Fiberglass-reinforced nylon door bushings explicitly listed for 1999-2005 Miata.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/door-bushings",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "balanced",
+      "budget"
+    ],
+    "id": "miata-fm-door-bushings",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 0.25
+    },
+    "name": "Door Bushings, Second Generation",
+    "official_url": "https://flyinmiata.com/products/door-bushings",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 19.99,
+      "url": "https://flyinmiata.com/products/door-bushings",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 84,
+      "handling": 6.2,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.4,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 9.1,
+      "value": 9.7
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Suspension",
+    "description": "Turnbuckle-adjustable end links explicitly listed for 1999-2005 NB front or rear.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/nb-and-nc-end-link",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "miata-fm-endlinks",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 1
+    },
+    "manufacturer_part_number": "13-99050",
+    "name": "Adjustable Sway Bar End Links",
+    "official_url": "https://flyinmiata.com/products/nb-and-nc-end-link",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 69.99,
+      "url": "https://flyinmiata.com/products/nb-and-nc-end-link",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 86,
+      "handling": 8.7,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.6,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9,
+      "reliability": 8.8,
+      "value": 9
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Suspension",
+    "description": "Flyin' Miata lowering spring set dedicated to the NB chassis.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/nb-flyin-miata-springs",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "balanced",
+      "budget"
+    ],
+    "id": "miata-fm-springs",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 5
+    },
+    "name": "Spring Set - NB Chassis",
+    "official_url": "https://flyinmiata.com/products/nb-flyin-miata-springs",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 249,
+      "url": "https://flyinmiata.com/products/nb-flyin-miata-springs",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 86,
+      "handling": 8.9,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.7,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9,
+      "reliability": 9,
+      "value": 9
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Chassis",
+    "description": "Reinforced front sway-bar mounts explicitly listed for NA/NB and intended for hard use with larger bars.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/na-nb-heavy-duty-sway-bar-mounts",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "reliability"
+    ],
+    "id": "miata-fm-heavy-sway-mounts",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 3
+    },
+    "name": "Heavy Duty Sway Bar Mounts",
+    "official_url": "https://flyinmiata.com/products/na-nb-heavy-duty-sway-bar-mounts",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 189,
+      "url": "https://flyinmiata.com/products/na-nb-heavy-duty-sway-bar-mounts",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 85,
+      "handling": 8.3,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.4,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 9.2,
+      "value": 8.3
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Suspension",
+    "description": "Billet front sway-bar brackets explicitly listed for 1999-2005 NB.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/front-billet-sway-bar-brackets",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "miata-fm-billet-front-sway-brackets",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 0.75
+    },
+    "manufacturer_part_number": "13-36535",
+    "name": "Billet Front Sway Bar Brackets",
+    "official_url": "https://flyinmiata.com/products/front-billet-sway-bar-brackets",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 94.99,
+      "url": "https://flyinmiata.com/products/front-billet-sway-bar-brackets",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 83,
+      "handling": 7.4,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.1,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 9.1,
+      "value": 8.1
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Suspension",
+    "description": "Billet rear sway-bar brackets explicitly listed for 1999-2005 NB.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/rear-billet-sway-bar-brackets",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "miata-fm-billet-rear-sway-brackets",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 0.75
+    },
+    "manufacturer_part_number": "13-36545",
+    "name": "Billet Rear Sway Bar Brackets",
+    "official_url": "https://flyinmiata.com/products/rear-billet-sway-bar-brackets",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 77.98,
+      "url": "https://flyinmiata.com/products/rear-billet-sway-bar-brackets",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 83,
+      "handling": 7.2,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9,
+      "reliability": 9.1,
+      "value": 8.3
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata / FOX",
+    "category": "Suspension",
+    "description": "High-end FOX-based suspension system sold specifically for the NB chassis.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/fox-suspension-for-nb-chassis",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "miata-fm-fox-suspension",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 6
+    },
+    "name": "FOX Suspension for NB",
+    "official_url": "https://flyinmiata.com/products/fox-suspension-for-nb-chassis",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 2389,
+      "url": "https://flyinmiata.com/products/fox-suspension-for-nb-chassis",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 88,
+      "handling": 9.6,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.2,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.5,
+      "reliability": 9.1,
+      "value": 7.6
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata / V-Maxx",
+    "category": "Suspension",
+    "description": "Height-adjustable V-Maxx Classic coilover package listed specifically for the NB chassis.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-handling-coilovers",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "budget",
+      "balanced"
+    ],
+    "id": "miata-vmaxx-classic",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 6
+    },
+    "name": "V-Maxx Classic Coilovers for NB",
+    "official_url": "https://flyinmiata.com/collections/nb-handling-coilovers",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 879,
+      "url": "https://flyinmiata.com/collections/nb-handling-coilovers",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 80,
+      "handling": 8.7,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.3,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.3,
+      "reliability": 8.2,
+      "value": 9
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Turner Motorsport",
+    "category": "Brakes",
+    "description": "DOT-compliant stainless front/rear brake-line kit explicitly listed for Z3 2.8; excludes mid-lines.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "reliability"
+    ],
+    "id": "z3-turner-brake-lines",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 3
+    },
+    "manufacturer_part_number": "022749TMS09",
+    "name": "Stainless Steel Brake Lines - Front and Rear",
+    "official_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 165.73,
+      "url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 88,
+      "handling": 7.7,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.5,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 9,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "2000 BMW Z3 2.8"
+  },
+  {
+    "brand": "Genuine BMW",
+    "category": "Cooling",
+    "description": "Genuine BMW lower radiator hose explicitly listed for 1999-2002 Z3 2.8.",
+    "fitment_confidence": 1,
+    "fitment_source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "budget"
+    ],
+    "id": "z3-genuine-lower-rad-hose",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 1.5
+    },
+    "manufacturer_part_number": "11531716642",
+    "name": "Lower Radiator Hose - M52TU/M54 Z3",
+    "official_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 43.99,
+      "url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 92,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.7,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.2,
+      "reliability": 9.3,
+      "value": 8.8
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "1999-2002 BMW Z3 2.8"
+  },
+  {
+    "brand": "Genuine BMW",
+    "category": "Cooling",
+    "description": "Genuine BMW upper radiator hose explicitly listed for 1999-2002 Z3 2.8.",
+    "fitment_confidence": 1,
+    "fitment_source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "budget"
+    ],
+    "id": "z3-genuine-upper-rad-hose",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 1
+    },
+    "name": "Upper Radiator Hose - M52TU/M54 Z3",
+    "official_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 41.61,
+      "url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 92,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.7,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.2,
+      "reliability": 9.3,
+      "value": 8.9
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "1999-2002 BMW Z3 2.8"
+  },
+  {
+    "brand": "Genuine BMW",
+    "category": "Cooling",
+    "description": "Genuine BMW heater inlet pipe listed for 1999-2002 Z3 2.8; an aging cooling-system hard part.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability"
+    ],
+    "id": "z3-genuine-heater-inlet-pipe",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 4
+    },
+    "name": "Heater Inlet Pipe",
+    "official_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20",
+      "price": 66.99,
+      "url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 88,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.5,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 9.2,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "1999-2002 BMW Z3 2.8"
+  },
+  {
     "brand": "Mahle/Behr",
     "category": "Maintenance",
     "description": "Mahle/Behr Thermostat & Housing Refresh cataloged for BMW Z3 2.8 M52TU. Verify exact configuration before purchase.",

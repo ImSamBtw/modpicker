@@ -1,6 +1,6 @@
 {
   "candidate_count": 157,
-  "catalog_part_count": 58,
+  "catalog_part_count": 78,
   "collectors": {
     "catalog_discovery": {
       "candidate_count": 157,
@@ -34,9 +34,9 @@
       ]
     },
     "seed_catalog": {
-      "count": 58,
-      "offer_count": 33,
-      "source_count": 47,
+      "count": 78,
+      "offer_count": 53,
+      "source_count": 67,
       "warnings": []
     },
     "web_product": {
@@ -46,17 +46,16 @@
     "youtube": {
       "count": 0,
       "enabled": true,
-      "fresh_parts_skipped": 11,
+      "fresh_parts_skipped": 0,
       "max_searches": 25,
       "quota_cooldown_active": true,
       "quota_cooldown_hours": 12,
+      "quota_cooldown_until": "2026-09-20T14:23:45Z",
       "quota_stopped": true,
       "refresh_days": 7,
-      "search_calls": 1,
+      "search_calls": 0,
       "search_state_entries": 0,
-      "warnings": [
-        "brz-perrin-intake: RuntimeError: 429 https://www.googleapis.com/youtube/v3/search"
-      ]
+      "warnings": []
     }
   },
   "credentials": {
@@ -68,10 +67,10 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T02:23:49Z",
-  "offer_count": 33,
+  "generated_at": "2026-09-20T02:45:25Z",
+  "offer_count": 53,
   "ok": true,
-  "price_history_count": 33,
+  "price_history_count": 53,
   "review_queue_count": 0,
-  "source_count": 126
+  "source_count": 146
 }
