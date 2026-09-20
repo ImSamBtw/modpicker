@@ -5,7 +5,7 @@ from pipeline.models import SourceRecord, OfferRecord
 from pipeline.curation import classify
 
 MANUFACTURER_DOMAINS={
-    'perrin.com','jacksonracing.com','flyinmiata.com','apexwheels.com','continentaltire.com','koyorad.com'
+    'perrin.com','jacksonracing.com','flyinmiata.com','apexwheels.com','continentaltire.com','koyorad.com','steeda.com'
 }
 
 def source_type(url:str)->str:

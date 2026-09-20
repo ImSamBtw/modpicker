@@ -134,36 +134,63 @@ def main():
     parts=load_catalog(); store=JsonStore()
     applications=load_applications()
     fitment_rules=load_fitment_rules()
-    fitment_rules.extend(derive_fitment_rules(parts, applications, fitment_rules))
-    store.write('fitment_rules.json', fitment_rules)
+
     platforms=[]
     for path in [Path('config/platforms.json'),Path('data/manual/platforms.json')]:
         platforms.extend(load(path,[]))
     by_platform={p.get('id'):p for p in platforms if p.get('id')}
     platforms=resolve_platforms(list(by_platform.values()), applications)
+
     manual_vehicles=load('data/manual/vehicles.json',[])
     existing_vehicles=store.read('vehicles.json',[])
     vehicle_by_id={v.get('id'):v for v in existing_vehicles if v.get('id')}
     for v in manual_vehicles: vehicle_by_id[v['id']]=v
     existing_vehicles=merge_reference_vehicles(list(vehicle_by_id.values()), applications)
-    existing_sources=store.read('sources.json',[]); youtube_state=store.read('youtube_search_state.json',{}); retailer_rows=product_page_rows(parts)
-    youtube=YouTubeCollector(); youtube_result=youtube.run(parts,existing_sources=existing_sources,search_state=youtube_state)
-    results=[CuratedCollector().run(),SeedCatalogCollector().run(parts),youtube_result,collect_safely(RedditCollector(),parts),collect_safely(EbayCollector(),parts),WebProductCollector().run(retailer_rows,existing_sources=existing_sources,refresh_hours=24)]
+
+    # Discover and identity-check new product pages before the enrichment passes.
+    # This means a newly promoted part can receive product-page, YouTube, Reddit
+    # and eBay evidence in the same pipeline run rather than waiting six hours.
+    results=[]
     candidates,candidate_warnings,candidate_meta=CatalogDiscoveryCollector(timeout=8).run()
     results.append(type('CatalogResult',(),{'name':'catalog_discovery','metadata':candidate_meta,'warnings':candidate_warnings})())
-    sources=dedupe_sources([x for r in results if hasattr(r,'sources') for x in r.sources]); offers=dedupe([x for r in results if hasattr(r,'offers') for x in r.offers])
-    promoted,promotion_state,promotion_meta=PromotionCollector(timeout=8).run(candidates,parts,store.read('promotion_state.json',{}))
+    promoted,promotion_state,promotion_meta=PromotionCollector(timeout=8).run(
+        candidates,parts,store.read('promotion_state.json',{}),max_promotions=24
+    )
     auto={p['id']:p for p in store.read('auto_parts.json',[])}
     for p in promoted: auto[p['id']]=p
     store.write('auto_parts.json',list(auto.values())); store.write('promotion_state.json',promotion_state)
     if promoted:
-        parts.extend(promoted)
-        new_result=SeedCatalogCollector().run(promoted); sources.extend(new_result.sources); offers.extend(new_result.offers)
+        known_part_ids={p['id'] for p in parts}
+        parts.extend(p for p in promoted if p['id'] not in known_part_ids)
     results.append(type('Result',(),{'name':'automatic_publication','metadata':promotion_meta,'warnings':promotion_meta['warnings']})())
+
+    # Derive source-backed year/family rules after promotion so newly published
+    # products immediately expand to every matching exact application.
+    fitment_rules.extend(derive_fitment_rules(parts, applications, fitment_rules))
+    store.write('fitment_rules.json', fitment_rules)
+
+    existing_sources=store.read('sources.json',[])
+    youtube_state=store.read('youtube_search_state.json',{})
+    retailer_rows=product_page_rows(parts)
+    youtube=YouTubeCollector()
+    youtube_result=youtube.run(parts,existing_sources=existing_sources,search_state=youtube_state)
+    enrichment=[
+        CuratedCollector().run(),
+        SeedCatalogCollector().run(parts),
+        youtube_result,
+        collect_safely(RedditCollector(),parts),
+        collect_safely(EbayCollector(),parts),
+        WebProductCollector().run(retailer_rows,existing_sources=existing_sources,refresh_hours=24),
+    ]
+    results.extend(enrichment)
+    sources=dedupe_sources([x for r in enrichment if hasattr(r,'sources') for x in r.sources])
+    offers=dedupe([x for r in enrichment if hasattr(r,'offers') for x in r.offers])
+
     vehicles,vehicle_state,vehicle_meta=VehicleCollector(timeout=10).run(existing_vehicles,store.read('vehicle_state.json',{}))
     vehicles=merge_reference_vehicles(vehicles, applications)
     store.write('vehicles.json',vehicles); store.write('vehicle_state.json',vehicle_state)
     results.append(type('Result',(),{'name':'vehicles','metadata':vehicle_meta,'warnings':vehicle_meta['warnings']})())
+
     parts,fitment_stats=expand_fitments(parts, applications, fitment_rules)
     results.append(type('Result',(),{'name':'fitment_expansion','metadata':fitment_stats,'warnings':fitment_stats['warnings']})())
     reviews=validate_records(sources,offers)
@@ -171,12 +198,14 @@ def main():
     bad={r.entity_id for r in reviews if r.severity in ('high','medium')}
     sources_json=store.upsert('sources.json',[s for s in sources if s.id not in bad]); offers_json=store.upsert('offers.json',[o for o in offers if o.id not in bad]); review_json=store.upsert('review_queue.json',reviews)
     for p in parts: p['ranking']=score_sources([s for s in sources_json if s.get('part_id')==p['id']])
+
     old_candidates={c['id']:c for c in store.read('catalog_candidates.json',[])}
     for c in candidates:
         old=old_candidates.get(c['id'],{})
         if old.get('status')=='published_unverified': c['status']=old['status'];c['metadata']={**c['metadata'],**old.get('metadata',{})}
         old_candidates[c['id']]=c
     candidates_json=list(old_candidates.values()); store.write('catalog_candidates.json',candidates_json); store.write('youtube_search_state.json',youtube.search_state)
+
     history=store.read('price_history.json',[])
     existing={(x.get('offer_id'),x.get('captured_at','')[:10]) for x in history}
     for o in offers_json:

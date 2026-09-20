@@ -1,1 +1,7 @@
-{"makes":["BMW","Mazda","Subaru","Toyota","Honda","Ford","Volkswagen","Nissan"],"years":[1999,2000,2017,2020,2025,2026],"requests_per_run":2}
+{
+  "makes": ["BMW", "Mazda", "Subaru", "Toyota", "Honda", "Ford", "Volkswagen", "Nissan"],
+  "years": [1999, 2000, 2017, 2020, 2025, 2026],
+  "vehicle_type": "Passenger Car",
+  "requests_per_run": 12,
+  "bootstrap_requests": 48
+}
