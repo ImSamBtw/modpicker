@@ -23,13 +23,14 @@ The output is a practical plan with fitment status, prerequisites, alternatives,
 - [x] Support a small local photo gallery for the current vehicle.
 - [x] Expose a structured recommendation-context object for future AI or deterministic recommendation engines.
 - [x] Add browser coverage for profile persistence and navigation.
+- [x] Correct profile-completeness reporting so it reflects the six actual recommendation-context fields rather than starting partially complete.
 - [ ] Move profiles and media to authenticated Supabase storage after account/privacy behavior is defined.
 - [ ] Add multiple owned vehicles independent of the catalog selector.
 - [ ] Add privacy controls for public/private build information.
 
 ## Priority 2 — Maintenance tracker and vehicle history
 
-**Status: active prototype.**
+**Status: source-backed pilot active.**
 
 - [x] Add maintenance-item records per vehicle.
 - [x] Add due mileage/date calculations when the user provides an interval and last-service information.
@@ -38,8 +39,10 @@ The output is a practical plan with fitment status, prerequisites, alternatives,
 - [x] Add diagnostic-code history records.
 - [x] Add receipt/purchase metadata records and a copyable maintenance-history report.
 - [x] Add browser tests for due-status calculations, codes, receipts and persistence.
-- [ ] Import OEM service intervals, fluid types and capacities from licensed/public authoritative sources.
-- [ ] Auto-create maintenance tasks from those sourced specifications.
+- [x] Add a reviewable source-backed maintenance data contract and a first BMW Z3 2.8 oil/coolant pilot from the BMW owner manual.
+- [x] Auto-create sourced maintenance items for supported pilot vehicles and attach source/document/page provenance to the Garage record and report.
+- [x] Leave intervals blank when the cited source does not state a fixed interval instead of converting condition-based service guidance into an invented schedule.
+- [ ] Expand licensed/public authoritative service-interval, fluid and capacity coverage to additional deep vehicle families.
 - [ ] Add notification delivery for due maintenance.
 - [ ] Add receipt-image/PDF storage and extraction.
 - [ ] Add email-receipt ingestion with explicit account permission and merchant/vehicle matching.
@@ -193,7 +196,8 @@ Architecture goal: support ModPicker-hosted inference as an optional provider wh
 - [x] Add pull-request JavaScript syntax checks.
 - [x] Add pull-request Playwright smoke tests rather than relying only on manual browser checks.
 - [x] Cover Garage profile persistence, maintenance calculations, codes, receipts, starter planning, budget accounting, recorded dependencies/conflicts, interchange UI and collapsible mobile filters in browser smoke tests.
-- [ ] Add accessibility checks and keyboard-only regression tests.
+- [x] Add keyboard-navigation regression coverage for primary navigation, expandable mobile filters and native dialog dismissal.
+- [ ] Add a broader automated accessibility audit (roles, labels, contrast and semantic checks).
 - [x] Retain desktop/mobile browser screenshots as CI artifacts for visual review.
 
 ## Naming track
@@ -221,7 +225,7 @@ Before a rename, run domain, app-store, search-confusion and trademark screening
 1. Finish Garage/profile and maintenance UX, tests and data export. **Prototype coverage substantially complete; account/media work remains.**
 2. Add a reviewed interchange-group schema and one small real-world pilot family. **First pilot complete; expand donor-price use cases next.**
 3. Add goal/build-plan input and deterministic prerequisite planning. **Starter planner now consumes current recorded dependency/conflict rules; broader rule coverage and multi-plan optimization remain.**
-4. Add sourced maintenance specifications for the first deep vehicle families.
+4. Add sourced maintenance specifications for the first deep vehicle families. **BMW Z3 2.8 oil/coolant pilot complete; expand authoritative coverage next.**
 5. Add forum/community evidence normalization and cached consensus summaries.
 6. Add eBay/used-listing adapter.
 7. Add accounts/media sync, local shops and community submissions.
