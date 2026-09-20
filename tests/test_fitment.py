@@ -66,6 +66,23 @@ class FitmentTests(unittest.TestCase):
         years={by_id[f['vehicle_id']]['year'] for f in expanded[0]['fitments']}
         self.assertEqual(years,set(range(2015,2024)))
         self.assertGreaterEqual(len(expanded[0]['fitments']),30)
+    def test_generated_ranges_cover_future_rows_in_every_configured_family(self):
+        apps=load_applications()
+        cases=[
+            ('future-z3','1997-2002 BMW Z3 2.8',{'family_id':'bmw-z3','year':2002,'trim':'Z3 Roadster · 2.8L','engine':'2.8L'}),
+            ('future-miata','1999-2005 Mazda MX-5 Miata',{'family_id':'mazda-nb','year':2005,'trim':'NB 1.8L','engine':'1.8L'}),
+            ('future-brz','2013-2020 Subaru BRZ',{'family_id':'subaru-brz-zc6','year':2020,'trim':'BRZ 2.0L','engine':'2.0L'}),
+            ('future-frs','2013-2016 Scion FR-S',{'family_id':'scion-frs','year':2016,'trim':'FR-S 2.0L','engine':'2.0L'}),
+            ('future-86','2017-2020 Toyota 86',{'family_id':'toyota-86','year':2020,'trim':'86 2.0L','engine':'2.0L'}),
+            ('future-mustang','2015-2023 Ford Mustang S550',{'family_id':'ford-mustang-s550','year':2023,'trim':'Mustang GT 5.0L','engine':'5.0L'}),
+        ]
+        for app_id,query,fields in cases:
+            future={'id':app_id,**fields}
+            part={'id':f'part-{app_id}','vehicle_query':query,'fitment_source_url':'https://example.com/range','fitment_status':'probable','fitment_confidence':.8}
+            rules=derive_fitment_rules([part],apps+[future],[])
+            expanded,_=expand_fitments([part],apps+[future],rules)
+            self.assertEqual(len(rules),1,app_id)
+            self.assertIn(app_id,{f['vehicle_id'] for f in expanded[0]['fitments']},app_id)
     def test_importer_normalizes_new_family_without_engine_code_claim(self):
         rows=[
             {'id':'mustang-test','year':'2015','make':'Ford','model':'Mustang','displ':'5.0','cylinders':'8','trany':'Manual 6-spd','drive':'Rear-Wheel Drive','tCharger':'','eng_dscr':''},
