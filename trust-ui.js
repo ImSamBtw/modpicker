@@ -11,3 +11,22 @@ const photoSource=(p.liveSources||[]).find(s=>s.metadata?.identity_matched&&s.me
 const source=p.officialUrl;if(source)root.querySelector('.dialog-hero')?.insertAdjacentHTML('beforeend',`<p><a href="${MP_TEXT(source)}" target="_blank" rel="noopener">Product source ↗</a>${p.mpn?` · Part number ${p.mpn}`:''}</p>`);
 };
 })();
+
+(()=>{
+if(document.querySelector('script[data-garage-ui]'))return;
+const script=document.createElement('script');
+script.src='garage-ui.js';
+script.async=false;
+script.dataset.garageUi='1';
+script.addEventListener('load',()=>{
+ const garageLink=document.querySelector('[data-route="garage"]');
+ if(garageLink&&!garageLink.dataset.routeBound){
+  garageLink.dataset.routeBound='1';
+  garageLink.addEventListener('click',event=>{
+   event.preventDefault();
+   if(typeof window.route==='function')window.route('garage');
+  });
+ }
+});
+document.body.appendChild(script);
+})();
