@@ -43,6 +43,7 @@ await page.waitForFunction(()=>window.ModPickerPlanner&&window.ModPickerGarage);
 await page.reload();await page.waitForSelector('[data-route="garage"]');await page.locator('[data-route="garage"]').click();assert.equal(await page.inputValue('#garageNickname'),'Smoke Test Z3');assert.match(await page.locator('#codeHistory').textContent(),/P0171/);assert.match(await page.locator('#receiptHistory').textContent(),/Test Parts/);
 
 await page.evaluate(()=>{state.browseMode='vehicle';switchVehicle('brz-2017');window.showPart('brz-perrin-master-brace')});await page.waitForSelector('#interchangeSection');assert.match(await page.locator('#interchangeSection').textContent(),/Scion FR-S/);assert.match(await page.locator('#interchangeSection').textContent(),/Toyota 86/);assert.match(await page.locator('#interchangeSection').textContent(),/GR86/);await page.locator('#dialogClose').click();
+await page.evaluate(()=>{state.browseMode='vehicle';switchVehicle('z3-2000-28')});
 
 await page.evaluate(()=>window.route('build',false));await page.screenshot({path:'/tmp/modpicker-desktop.png',fullPage:true});await page.setViewportSize({width:390,height:844});
 assert.ok(await page.locator('.build-item .button.danger').isVisible(),'Mobile removal control must remain visible');
