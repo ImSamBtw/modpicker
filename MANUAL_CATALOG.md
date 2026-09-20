@@ -120,4 +120,4 @@ Every source keeps its URL, source type, retrieval timestamp, and confidence. Pr
 
 See [DATA_IMPORTS.md](DATA_IMPORTS.md) for the EPA database import, source manifest, constrained compatibility rules, manual additions and remaining accuracy gates.
 
-The multi-application ingestion function is deployed as version 8. Each refresh replaces the published part's previous fitment rows with the current generated expansion, including clearing an explicitly empty list, so a new year is added and a removed or narrowed year disappears automatically. Selectors and evidence remain available from the bundled snapshot during synchronization.
+The multi-application ingestion function is deployed as version 9. Each refresh replaces the published part's previous fitment rows with the current generated expansion, including uncategorized parts and explicitly empty lists, so a new year is added and a removed or narrowed year disappears automatically. Selectors and evidence remain available from the bundled snapshot during synchronization.

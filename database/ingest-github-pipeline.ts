@@ -37,7 +37,10 @@ Deno.serve(async(req)=>{
     const claims=await verifyGithub(req);
     const body=await req.json();
     const catalog=Array.isArray(body.parts)?body.parts:[];
-    const parts=catalog.filter((p:any)=>p?.id&&p?.brand&&p?.name&&p?.category);
+    // Keep parts with an intentionally empty compatibility set in the sync
+    // scope. Their category may be unknown, but their old fitment rows still
+    // need to be removed when the generated snapshot says `fitments: []`.
+    const parts=catalog.filter((p:any)=>p?.id&&p?.brand&&p?.name);
     const candidates=Array.isArray(body.candidates)?body.candidates:[];
     const vehicles=Array.isArray(body.vehicles)?body.vehicles:[];
     const rawSources=Array.isArray(body.sources)?body.sources:[];
