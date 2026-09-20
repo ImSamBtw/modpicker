@@ -3,8 +3,9 @@
   "catalog_part_count": 78,
   "collectors": {
     "catalog_discovery": {
-      "candidate_count": 157,
+      "candidate_count": 122,
       "enabled": true,
+      "filtered_count": 35,
       "pages_checked": 5,
       "robots_origins_checked": 4,
       "timeout_seconds": 8,
@@ -67,7 +68,7 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T02:45:25Z",
+  "generated_at": "2026-09-20T02:49:18Z",
   "offer_count": 53,
   "ok": true,
   "price_history_count": 53,
