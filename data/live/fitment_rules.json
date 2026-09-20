@@ -366,6 +366,7 @@
     "selector": {
       "family_ids": [
         "bmw-z3",
+        "ford-mustang-s550",
         "mazda-nb",
         "subaru-brz-zc6"
       ],
@@ -405,6 +406,7 @@
     "selector": {
       "family_ids": [
         "bmw-z3",
+        "ford-mustang-s550",
         "mazda-nb",
         "subaru-brz-zc6"
       ],
@@ -930,6 +932,7 @@
     "selector": {
       "family_ids": [
         "bmw-z3",
+        "ford-mustang-s550",
         "mazda-nb",
         "subaru-brz-zc6"
       ],

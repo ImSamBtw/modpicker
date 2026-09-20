@@ -343,12 +343,12 @@
     "fitment_source_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 11,
+      "application_count": 17,
       "probable_count": 0,
       "rule_ids": [
         "auto-range-mustang-steeda-intake-2015-2017"
       ],
-      "verified_count": 11
+      "verified_count": 17
     },
     "fitments": [
       {
@@ -449,6 +449,60 @@
         "source_kind": "catalog_query_range",
         "source_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html",
         "vehicle_id": "epa-37585"
+      },
+      {
+        "confidence": 0.98,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-intake-2015-2017",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html",
+        "vehicle_id": "mustang-s550-2015-gt-pp-auto"
+      },
+      {
+        "confidence": 0.98,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-intake-2015-2017",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html",
+        "vehicle_id": "mustang-s550-2015-gt-pp-manual"
+      },
+      {
+        "confidence": 0.98,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-intake-2015-2017",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html",
+        "vehicle_id": "mustang-s550-2016-gt-pp-auto"
+      },
+      {
+        "confidence": 0.98,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-intake-2015-2017",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html",
+        "vehicle_id": "mustang-s550-2016-gt-pp-manual"
+      },
+      {
+        "confidence": 0.98,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-intake-2015-2017",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html",
+        "vehicle_id": "mustang-s550-2017-gt-pp-auto"
+      },
+      {
+        "confidence": 0.98,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-intake-2015-2017",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html",
+        "vehicle_id": "mustang-s550-2017-gt-pp-manual"
       }
     ],
     "goals": [
@@ -495,7 +549,13 @@
       "epa-37579",
       "epa-37580",
       "epa-37583",
-      "epa-37585"
+      "epa-37585",
+      "mustang-s550-2015-gt-pp-auto",
+      "mustang-s550-2015-gt-pp-manual",
+      "mustang-s550-2016-gt-pp-auto",
+      "mustang-s550-2016-gt-pp-manual",
+      "mustang-s550-2017-gt-pp-auto",
+      "mustang-s550-2017-gt-pp-manual"
     ]
   },
   {
@@ -506,12 +566,12 @@
     "fitment_source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 7,
+      "application_count": 37,
       "probable_count": 0,
       "rule_ids": [
         "auto-range-brz-perrin-intake-2017-2020"
       ],
-      "verified_count": 7
+      "verified_count": 37
     },
     "fitments": [
       {
@@ -530,7 +590,124 @@
         "rule_id": "auto-range-brz-perrin-intake-2017-2020",
         "source_kind": "catalog_query_range",
         "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37530"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37573"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37577"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37578"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37581"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37583"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37584"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37585"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
         "vehicle_id": "epa-37609"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-39642"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-39643"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-39644"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-39645"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-39646"
       },
       {
         "confidence": 0.99,
@@ -557,7 +734,61 @@
         "rule_id": "auto-range-brz-perrin-intake-2017-2020",
         "source_kind": "catalog_query_range",
         "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-40320"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-40321"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-40322"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-40327"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-40328"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
         "vehicle_id": "epa-40559"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-41224"
       },
       {
         "confidence": 0.99,
@@ -576,6 +807,105 @@
         "source_kind": "catalog_query_range",
         "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
         "vehicle_id": "epa-41545"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-41951"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-41953"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-41954"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-41960"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-41961"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-41994"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "epa-41995"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "mustang-s550-2017-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "mustang-s550-2018-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "mustang-s550-2019-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-intake-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+        "vehicle_id": "mustang-s550-2020-gt-pp-manual"
       }
     ],
     "goals": [
@@ -620,12 +950,42 @@
     "vehicle_query": "2017-2020 Subaru BRZ manual",
     "vehicles": [
       "brz-2017",
+      "epa-37530",
+      "epa-37573",
+      "epa-37577",
+      "epa-37578",
+      "epa-37581",
+      "epa-37583",
+      "epa-37584",
+      "epa-37585",
       "epa-37609",
+      "epa-39642",
+      "epa-39643",
+      "epa-39644",
+      "epa-39645",
+      "epa-39646",
       "epa-39705",
       "epa-39707",
+      "epa-40320",
+      "epa-40321",
+      "epa-40322",
+      "epa-40327",
+      "epa-40328",
       "epa-40559",
+      "epa-41224",
       "epa-41543",
-      "epa-41545"
+      "epa-41545",
+      "epa-41951",
+      "epa-41953",
+      "epa-41954",
+      "epa-41960",
+      "epa-41961",
+      "epa-41994",
+      "epa-41995",
+      "mustang-s550-2017-gt-pp-manual",
+      "mustang-s550-2018-gt-pp-manual",
+      "mustang-s550-2019-gt-pp-manual",
+      "mustang-s550-2020-gt-pp-manual"
     ]
   },
   {
@@ -887,12 +1247,12 @@
     "fitment_source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 11,
+      "application_count": 71,
       "probable_count": 0,
       "rule_ids": [
         "auto-range-brz-perrin-trans-support-2013-2026"
       ],
-      "verified_count": 11
+      "verified_count": 71
     },
     "fitments": [
       {
@@ -938,6 +1298,33 @@
         "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
         "source_kind": "catalog_query_range",
         "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-35659"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-35661"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-35662"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
         "vehicle_id": "epa-36150"
       },
       {
@@ -947,7 +1334,160 @@
         "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
         "source_kind": "catalog_query_range",
         "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-36877"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-36880"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-36884"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-36885"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-37530"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-37573"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-37577"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-37578"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-37581"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-37583"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-37584"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-37585"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
         "vehicle_id": "epa-37609"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-39642"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-39643"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-39644"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-39645"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-39646"
       },
       {
         "confidence": 0.99,
@@ -974,7 +1514,61 @@
         "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
         "source_kind": "catalog_query_range",
         "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-40320"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-40321"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-40322"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-40327"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-40328"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
         "vehicle_id": "epa-40559"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-41224"
       },
       {
         "confidence": 0.99,
@@ -993,6 +1587,312 @@
         "source_kind": "catalog_query_range",
         "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
         "vehicle_id": "epa-41545"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-41951"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-41953"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-41954"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-41960"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-41961"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-41994"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-41995"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-43667"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-43668"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-43671"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-43672"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-43676"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-43679"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-45045"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-45046"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-45049"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-45052"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-45053"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-45055"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-46335"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-46336"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-46338"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-46346"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-46347"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "epa-46348"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "mustang-s550-2015-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "mustang-s550-2016-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "mustang-s550-2017-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "mustang-s550-2018-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "mustang-s550-2019-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "mustang-s550-2020-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "mustang-s550-2021-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "mustang-s550-2022-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-trans-support-2013-2026",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+        "vehicle_id": "mustang-s550-2023-gt-pp-manual"
       }
     ],
     "goals": [
@@ -1040,13 +1940,73 @@
       "epa-32311",
       "epa-34152",
       "epa-34849",
+      "epa-35659",
+      "epa-35661",
+      "epa-35662",
       "epa-36150",
+      "epa-36877",
+      "epa-36880",
+      "epa-36884",
+      "epa-36885",
+      "epa-37530",
+      "epa-37573",
+      "epa-37577",
+      "epa-37578",
+      "epa-37581",
+      "epa-37583",
+      "epa-37584",
+      "epa-37585",
       "epa-37609",
+      "epa-39642",
+      "epa-39643",
+      "epa-39644",
+      "epa-39645",
+      "epa-39646",
       "epa-39705",
       "epa-39707",
+      "epa-40320",
+      "epa-40321",
+      "epa-40322",
+      "epa-40327",
+      "epa-40328",
       "epa-40559",
+      "epa-41224",
       "epa-41543",
-      "epa-41545"
+      "epa-41545",
+      "epa-41951",
+      "epa-41953",
+      "epa-41954",
+      "epa-41960",
+      "epa-41961",
+      "epa-41994",
+      "epa-41995",
+      "epa-43667",
+      "epa-43668",
+      "epa-43671",
+      "epa-43672",
+      "epa-43676",
+      "epa-43679",
+      "epa-45045",
+      "epa-45046",
+      "epa-45049",
+      "epa-45052",
+      "epa-45053",
+      "epa-45055",
+      "epa-46335",
+      "epa-46336",
+      "epa-46338",
+      "epa-46346",
+      "epa-46347",
+      "epa-46348",
+      "mustang-s550-2015-gt-pp-manual",
+      "mustang-s550-2016-gt-pp-manual",
+      "mustang-s550-2017-gt-pp-manual",
+      "mustang-s550-2018-gt-pp-manual",
+      "mustang-s550-2019-gt-pp-manual",
+      "mustang-s550-2020-gt-pp-manual",
+      "mustang-s550-2021-gt-pp-manual",
+      "mustang-s550-2022-gt-pp-manual",
+      "mustang-s550-2023-gt-pp-manual"
     ]
   },
   {
@@ -8945,12 +9905,12 @@
     "fitment_source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 37,
+      "application_count": 55,
       "probable_count": 0,
       "rule_ids": [
         "auto-range-mustang-steeda-brake-lines-2015-2023"
       ],
-      "verified_count": 37
+      "verified_count": 55
     },
     "fitments": [
       {
@@ -9285,6 +10245,168 @@
         "source_kind": "catalog_query_range",
         "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
         "vehicle_id": "epa-46341"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2015-gt-pp-auto"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2015-gt-pp-manual"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2016-gt-pp-auto"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2016-gt-pp-manual"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2017-gt-pp-auto"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2017-gt-pp-manual"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2018-gt-pp-auto"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2018-gt-pp-manual"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2019-gt-pp-auto"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2019-gt-pp-manual"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2020-gt-pp-auto"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2020-gt-pp-manual"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2021-gt-pp-auto"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2021-gt-pp-manual"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2022-gt-pp-auto"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2022-gt-pp-manual"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2023-gt-pp-auto"
+      },
+      {
+        "confidence": 0.97,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html",
+        "vehicle_id": "mustang-s550-2023-gt-pp-manual"
       }
     ],
     "goals": [
@@ -9358,7 +10480,25 @@
       "epa-46338",
       "epa-46339",
       "epa-46340",
-      "epa-46341"
+      "epa-46341",
+      "mustang-s550-2015-gt-pp-auto",
+      "mustang-s550-2015-gt-pp-manual",
+      "mustang-s550-2016-gt-pp-auto",
+      "mustang-s550-2016-gt-pp-manual",
+      "mustang-s550-2017-gt-pp-auto",
+      "mustang-s550-2017-gt-pp-manual",
+      "mustang-s550-2018-gt-pp-auto",
+      "mustang-s550-2018-gt-pp-manual",
+      "mustang-s550-2019-gt-pp-auto",
+      "mustang-s550-2019-gt-pp-manual",
+      "mustang-s550-2020-gt-pp-auto",
+      "mustang-s550-2020-gt-pp-manual",
+      "mustang-s550-2021-gt-pp-auto",
+      "mustang-s550-2021-gt-pp-manual",
+      "mustang-s550-2022-gt-pp-auto",
+      "mustang-s550-2022-gt-pp-manual",
+      "mustang-s550-2023-gt-pp-auto",
+      "mustang-s550-2023-gt-pp-manual"
     ]
   },
   {
@@ -9374,12 +10514,12 @@
     "fitment_source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 113,
+      "application_count": 131,
       "probable_count": 0,
       "rule_ids": [
         "auto-range-mustang-steeda-progressive-springs-2015-2023"
       ],
-      "verified_count": 113
+      "verified_count": 131
     },
     "fitments": [
       {
@@ -10398,6 +11538,168 @@
         "source_kind": "catalog_query_range",
         "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
         "vehicle_id": "epa-46349"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2015-gt-pp-auto"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2015-gt-pp-manual"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2016-gt-pp-auto"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2016-gt-pp-manual"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2017-gt-pp-auto"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2017-gt-pp-manual"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2018-gt-pp-auto"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2018-gt-pp-manual"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2019-gt-pp-auto"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2019-gt-pp-manual"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2020-gt-pp-auto"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2020-gt-pp-manual"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2021-gt-pp-auto"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2021-gt-pp-manual"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2022-gt-pp-auto"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2022-gt-pp-manual"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2023-gt-pp-auto"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210",
+        "vehicle_id": "mustang-s550-2023-gt-pp-manual"
       }
     ],
     "goals": [
@@ -10546,7 +11848,25 @@
       "epa-46346",
       "epa-46347",
       "epa-46348",
-      "epa-46349"
+      "epa-46349",
+      "mustang-s550-2015-gt-pp-auto",
+      "mustang-s550-2015-gt-pp-manual",
+      "mustang-s550-2016-gt-pp-auto",
+      "mustang-s550-2016-gt-pp-manual",
+      "mustang-s550-2017-gt-pp-auto",
+      "mustang-s550-2017-gt-pp-manual",
+      "mustang-s550-2018-gt-pp-auto",
+      "mustang-s550-2018-gt-pp-manual",
+      "mustang-s550-2019-gt-pp-auto",
+      "mustang-s550-2019-gt-pp-manual",
+      "mustang-s550-2020-gt-pp-auto",
+      "mustang-s550-2020-gt-pp-manual",
+      "mustang-s550-2021-gt-pp-auto",
+      "mustang-s550-2021-gt-pp-manual",
+      "mustang-s550-2022-gt-pp-auto",
+      "mustang-s550-2022-gt-pp-manual",
+      "mustang-s550-2023-gt-pp-auto",
+      "mustang-s550-2023-gt-pp-manual"
     ]
   },
   {
@@ -10562,8 +11882,8 @@
     "fitment_source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
     "fitment_status": "probable",
     "fitment_summary": {
-      "application_count": 113,
-      "probable_count": 113,
+      "application_count": 131,
+      "probable_count": 131,
       "rule_ids": [
         "auto-range-mustang-whiteline-sway-kit-2015-2023"
       ],
@@ -11586,6 +12906,168 @@
         "source_kind": "catalog_query_range",
         "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
         "vehicle_id": "epa-46349"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2015-gt-pp-auto"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2015-gt-pp-manual"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2016-gt-pp-auto"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2016-gt-pp-manual"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2017-gt-pp-auto"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2017-gt-pp-manual"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2018-gt-pp-auto"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2018-gt-pp-manual"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2019-gt-pp-auto"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2019-gt-pp-manual"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2020-gt-pp-auto"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2020-gt-pp-manual"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2021-gt-pp-auto"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2021-gt-pp-manual"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2022-gt-pp-auto"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2022-gt-pp-manual"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2023-gt-pp-auto"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html",
+        "vehicle_id": "mustang-s550-2023-gt-pp-manual"
       }
     ],
     "goals": [
@@ -11734,7 +13216,25 @@
       "epa-46346",
       "epa-46347",
       "epa-46348",
-      "epa-46349"
+      "epa-46349",
+      "mustang-s550-2015-gt-pp-auto",
+      "mustang-s550-2015-gt-pp-manual",
+      "mustang-s550-2016-gt-pp-auto",
+      "mustang-s550-2016-gt-pp-manual",
+      "mustang-s550-2017-gt-pp-auto",
+      "mustang-s550-2017-gt-pp-manual",
+      "mustang-s550-2018-gt-pp-auto",
+      "mustang-s550-2018-gt-pp-manual",
+      "mustang-s550-2019-gt-pp-auto",
+      "mustang-s550-2019-gt-pp-manual",
+      "mustang-s550-2020-gt-pp-auto",
+      "mustang-s550-2020-gt-pp-manual",
+      "mustang-s550-2021-gt-pp-auto",
+      "mustang-s550-2021-gt-pp-manual",
+      "mustang-s550-2022-gt-pp-auto",
+      "mustang-s550-2022-gt-pp-manual",
+      "mustang-s550-2023-gt-pp-auto",
+      "mustang-s550-2023-gt-pp-manual"
     ]
   },
   {
@@ -11750,8 +13250,8 @@
     "fitment_source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
     "fitment_status": "probable",
     "fitment_summary": {
-      "application_count": 113,
-      "probable_count": 113,
+      "application_count": 131,
+      "probable_count": 131,
       "rule_ids": [
         "auto-range-mustang-steeda-handling-package-2015-2023"
       ],
@@ -12774,6 +14274,168 @@
         "source_kind": "catalog_query_range",
         "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
         "vehicle_id": "epa-46349"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2015-gt-pp-auto"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2015-gt-pp-manual"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2016-gt-pp-auto"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2016-gt-pp-manual"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2017-gt-pp-auto"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2017-gt-pp-manual"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2018-gt-pp-auto"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2018-gt-pp-manual"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2019-gt-pp-auto"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2019-gt-pp-manual"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2020-gt-pp-auto"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2020-gt-pp-manual"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2021-gt-pp-auto"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2021-gt-pp-manual"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2022-gt-pp-auto"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2022-gt-pp-manual"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2023-gt-pp-auto"
+      },
+      {
+        "confidence": 0.86,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-handling-package-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408",
+        "vehicle_id": "mustang-s550-2023-gt-pp-manual"
       }
     ],
     "goals": [
@@ -12923,7 +14585,25 @@
       "epa-46346",
       "epa-46347",
       "epa-46348",
-      "epa-46349"
+      "epa-46349",
+      "mustang-s550-2015-gt-pp-auto",
+      "mustang-s550-2015-gt-pp-manual",
+      "mustang-s550-2016-gt-pp-auto",
+      "mustang-s550-2016-gt-pp-manual",
+      "mustang-s550-2017-gt-pp-auto",
+      "mustang-s550-2017-gt-pp-manual",
+      "mustang-s550-2018-gt-pp-auto",
+      "mustang-s550-2018-gt-pp-manual",
+      "mustang-s550-2019-gt-pp-auto",
+      "mustang-s550-2019-gt-pp-manual",
+      "mustang-s550-2020-gt-pp-auto",
+      "mustang-s550-2020-gt-pp-manual",
+      "mustang-s550-2021-gt-pp-auto",
+      "mustang-s550-2021-gt-pp-manual",
+      "mustang-s550-2022-gt-pp-auto",
+      "mustang-s550-2022-gt-pp-manual",
+      "mustang-s550-2023-gt-pp-auto",
+      "mustang-s550-2023-gt-pp-manual"
     ]
   },
   {
@@ -12941,12 +14621,12 @@
     "fitment_source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
+      "application_count": 19,
       "probable_count": 0,
       "rule_ids": [
         "auto-range-mustang-steeda-pp-rear-rotors-2015-2023"
       ],
-      "verified_count": 1
+      "verified_count": 19
     },
     "fitments": [
       {
@@ -12957,6 +14637,168 @@
         "source_kind": "catalog_query_range",
         "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
         "vehicle_id": "epa-37583"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2015-gt-pp-auto"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2015-gt-pp-manual"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2016-gt-pp-auto"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2016-gt-pp-manual"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2017-gt-pp-auto"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2017-gt-pp-manual"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2018-gt-pp-auto"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2018-gt-pp-manual"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2019-gt-pp-auto"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2019-gt-pp-manual"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2020-gt-pp-auto"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2020-gt-pp-manual"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2021-gt-pp-auto"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2021-gt-pp-manual"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2022-gt-pp-auto"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2022-gt-pp-manual"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2023-gt-pp-auto"
+      },
+      {
+        "confidence": 0.95,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033",
+        "vehicle_id": "mustang-s550-2023-gt-pp-manual"
       }
     ],
     "goals": [
@@ -12994,7 +14836,25 @@
     "vehicle_id": "epa-37583",
     "vehicle_query": "2015-2023 Ford Mustang GT Performance Package",
     "vehicles": [
-      "epa-37583"
+      "epa-37583",
+      "mustang-s550-2015-gt-pp-auto",
+      "mustang-s550-2015-gt-pp-manual",
+      "mustang-s550-2016-gt-pp-auto",
+      "mustang-s550-2016-gt-pp-manual",
+      "mustang-s550-2017-gt-pp-auto",
+      "mustang-s550-2017-gt-pp-manual",
+      "mustang-s550-2018-gt-pp-auto",
+      "mustang-s550-2018-gt-pp-manual",
+      "mustang-s550-2019-gt-pp-auto",
+      "mustang-s550-2019-gt-pp-manual",
+      "mustang-s550-2020-gt-pp-auto",
+      "mustang-s550-2020-gt-pp-manual",
+      "mustang-s550-2021-gt-pp-auto",
+      "mustang-s550-2021-gt-pp-manual",
+      "mustang-s550-2022-gt-pp-auto",
+      "mustang-s550-2022-gt-pp-manual",
+      "mustang-s550-2023-gt-pp-auto",
+      "mustang-s550-2023-gt-pp-manual"
     ]
   },
   {
@@ -13010,8 +14870,8 @@
     "fitment_source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
     "fitment_status": "probable",
     "fitment_summary": {
-      "application_count": 113,
-      "probable_count": 113,
+      "application_count": 131,
+      "probable_count": 131,
       "rule_ids": [
         "auto-range-mustang-airlift-s550-front-kit-2015-2023"
       ],
@@ -14034,6 +15894,168 @@
         "source_kind": "catalog_query_range",
         "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
         "vehicle_id": "epa-46349"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2015-gt-pp-auto"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2015-gt-pp-manual"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2016-gt-pp-auto"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2016-gt-pp-manual"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2017-gt-pp-auto"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2017-gt-pp-manual"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2018-gt-pp-auto"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2018-gt-pp-manual"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2019-gt-pp-auto"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2019-gt-pp-manual"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2020-gt-pp-auto"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2020-gt-pp-manual"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2021-gt-pp-auto"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2021-gt-pp-manual"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2022-gt-pp-auto"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2022-gt-pp-manual"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2023-gt-pp-auto"
+      },
+      {
+        "confidence": 0.84,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit",
+        "vehicle_id": "mustang-s550-2023-gt-pp-manual"
       }
     ],
     "goals": [
@@ -14182,7 +16204,25 @@
       "epa-46346",
       "epa-46347",
       "epa-46348",
-      "epa-46349"
+      "epa-46349",
+      "mustang-s550-2015-gt-pp-auto",
+      "mustang-s550-2015-gt-pp-manual",
+      "mustang-s550-2016-gt-pp-auto",
+      "mustang-s550-2016-gt-pp-manual",
+      "mustang-s550-2017-gt-pp-auto",
+      "mustang-s550-2017-gt-pp-manual",
+      "mustang-s550-2018-gt-pp-auto",
+      "mustang-s550-2018-gt-pp-manual",
+      "mustang-s550-2019-gt-pp-auto",
+      "mustang-s550-2019-gt-pp-manual",
+      "mustang-s550-2020-gt-pp-auto",
+      "mustang-s550-2020-gt-pp-manual",
+      "mustang-s550-2021-gt-pp-auto",
+      "mustang-s550-2021-gt-pp-manual",
+      "mustang-s550-2022-gt-pp-auto",
+      "mustang-s550-2022-gt-pp-manual",
+      "mustang-s550-2023-gt-pp-auto",
+      "mustang-s550-2023-gt-pp-manual"
     ]
   },
   {
@@ -14653,12 +16693,12 @@
     "fitment_source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 7,
+      "application_count": 37,
       "probable_count": 0,
       "rule_ids": [
         "auto-range-brz-perrin-inlet-hose-manual-2017-2020"
       ],
-      "verified_count": 7
+      "verified_count": 37
     },
     "fitments": [
       {
@@ -14677,7 +16717,124 @@
         "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
         "source_kind": "catalog_query_range",
         "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-37530"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-37573"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-37577"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-37578"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-37581"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-37583"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-37584"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-37585"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
         "vehicle_id": "epa-37609"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-39642"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-39643"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-39644"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-39645"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-39646"
       },
       {
         "confidence": 0.99,
@@ -14704,7 +16861,61 @@
         "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
         "source_kind": "catalog_query_range",
         "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-40320"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-40321"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-40322"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-40327"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-40328"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
         "vehicle_id": "epa-40559"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-41224"
       },
       {
         "confidence": 0.99,
@@ -14723,6 +16934,105 @@
         "source_kind": "catalog_query_range",
         "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
         "vehicle_id": "epa-41545"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-41951"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-41953"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-41954"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-41960"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-41961"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-41994"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "epa-41995"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "mustang-s550-2017-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "mustang-s550-2018-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "mustang-s550-2019-gt-pp-manual"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86",
+        "vehicle_id": "mustang-s550-2020-gt-pp-manual"
       }
     ],
     "goals": [
@@ -14768,12 +17078,42 @@
     "vehicle_query": "2017-2020 Subaru BRZ manual",
     "vehicles": [
       "brz-2017",
+      "epa-37530",
+      "epa-37573",
+      "epa-37577",
+      "epa-37578",
+      "epa-37581",
+      "epa-37583",
+      "epa-37584",
+      "epa-37585",
       "epa-37609",
+      "epa-39642",
+      "epa-39643",
+      "epa-39644",
+      "epa-39645",
+      "epa-39646",
       "epa-39705",
       "epa-39707",
+      "epa-40320",
+      "epa-40321",
+      "epa-40322",
+      "epa-40327",
+      "epa-40328",
       "epa-40559",
+      "epa-41224",
       "epa-41543",
-      "epa-41545"
+      "epa-41545",
+      "epa-41951",
+      "epa-41953",
+      "epa-41954",
+      "epa-41960",
+      "epa-41961",
+      "epa-41994",
+      "epa-41995",
+      "mustang-s550-2017-gt-pp-manual",
+      "mustang-s550-2018-gt-pp-manual",
+      "mustang-s550-2019-gt-pp-manual",
+      "mustang-s550-2020-gt-pp-manual"
     ]
   },
   {
