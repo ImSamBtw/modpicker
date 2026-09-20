@@ -52,7 +52,7 @@
     "vehicles": {
       "enabled": true,
       "requests": 2,
-      "vehicle_count": 520,
+      "vehicle_count": 539,
       "warnings": []
     },
     "web_product": {
@@ -78,9 +78,18 @@
       ]
     },
     "youtube": {
-      "enabled": false,
+      "count": 102,
+      "enabled": true,
+      "fresh_parts_skipped": 36,
+      "max_searches": 25,
+      "quota_cooldown_active": true,
+      "quota_cooldown_hours": 12,
+      "quota_stopped": true,
+      "refresh_days": 7,
+      "search_calls": 25,
+      "search_state_entries": 49,
       "warnings": [
-        "YOUTUBE_API_KEY not configured"
+        "miata-fm-billet-rear-sway-brackets: RuntimeError: 429 https://www.googleapis.com/youtube/v3/search"
       ]
     }
   },
@@ -91,12 +100,12 @@
     "EBAY_CLIENT_SECRET": false,
     "REDDIT_CLIENT_ID": false,
     "REDDIT_CLIENT_SECRET": false,
-    "YOUTUBE_API_KEY": false
+    "YOUTUBE_API_KEY": true
   },
   "expanded_fitment_count": 275,
   "fitment_rule_count": 18,
   "fitment_warnings": [],
-  "generated_at": "2026-09-20T18:01:42Z",
+  "generated_at": "2026-09-20T18:07:02Z",
   "matched_fitment_rule_count": 18,
   "mode": "deterministic_no_ai",
   "offer_count": 71,
@@ -104,6 +113,6 @@
   "platform_count": 4,
   "price_history_count": 71,
   "review_queue_count": 11,
-  "source_count": 257,
-  "vehicle_count": 520
+  "source_count": 359,
+  "vehicle_count": 539
 }
