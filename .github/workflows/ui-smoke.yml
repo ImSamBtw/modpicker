@@ -37,3 +37,5 @@ jobs:
         run: node tests/browser-smoke.cjs
       - name: Garage regression smoke test
         run: node tests/garage-smoke.cjs
+      - name: Site cleanup smoke test
+        run: node tests/ui-cleanup-smoke.cjs
