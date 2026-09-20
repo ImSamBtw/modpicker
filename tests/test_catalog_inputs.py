@@ -13,6 +13,7 @@ class CatalogInputTests(unittest.TestCase):
     def test_platforms_have_scoped_applications(self):
         rows=json.loads(Path('config/platforms.json').read_text())
         self.assertTrue(rows)
+        rows=resolve_platforms(rows,load_applications())
         for row in rows:
             self.assertTrue(row['vehicle_ids'])
             self.assertTrue(row['categories'])

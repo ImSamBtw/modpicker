@@ -9,6 +9,7 @@ show the same evidence.
 from __future__ import annotations
 
 import json
+import re
 from copy import deepcopy
 from pathlib import Path
 from typing import Any
@@ -68,6 +69,163 @@ def load_fitment_rules() -> list[dict[str, Any]]:
     return [deepcopy(x) for x in rows if isinstance(x, dict) and x.get("id")]
 
 
+_YEAR_RANGE = re.compile(r"(?<!\d)((?:19|20)\d{2})\s*(?:-|–|—|to)\s*((?:19|20)\d{2})(?!\d)")
+
+
+def _rule_part_ids(rule: dict[str, Any]) -> list[str]:
+    values = rule.get("part_ids") or ([rule.get("part_id")] if rule.get("part_id") else [])
+    return [str(value) for value in values if value]
+
+
+def _selector_key(selector: dict[str, Any]) -> str:
+    return json.dumps(selector or {}, sort_keys=True, separators=(",", ":"))
+
+
+def _contains_alias(query: str, alias: Any) -> bool:
+    value = _key(alias)
+    if len(value) < 2:
+        return False
+    return bool(re.search(rf"(?<![a-z0-9]){re.escape(value)}(?![a-z0-9])", query))
+
+
+def _family_aliases(applications: list[dict[str, Any]]) -> dict[str, set[str]]:
+    aliases: dict[str, set[str]] = {}
+    for app in applications:
+        family = str(app.get("family_id") or "").strip()
+        if not family:
+            continue
+        values = aliases.setdefault(family, set())
+        for value in (
+            app.get("make"),
+            app.get("model"),
+            app.get("chassis"),
+            family.replace("-", " "),
+        ):
+            if value and _key(value) not in {"not specified", "unspecified"}:
+                values.add(_key(value))
+        values.update(_key(value) for value in app.get("tags", []) if _key(value))
+    return aliases
+
+
+def _families_for_part(part: dict[str, Any], applications: list[dict[str, Any]]) -> set[str]:
+    by_id = {str(app.get("id")): app for app in applications if app.get("id")}
+    families: set[str] = set()
+    for key in ("fitment_family_id", "family_id"):
+        if part.get(key):
+            families.add(str(part[key]))
+    for value in part.get("fitment_family_ids", []) or []:
+        if value:
+            families.add(str(value))
+    vehicle_id = str(part.get("vehicle_id") or "")
+    if vehicle_id in by_id and by_id[vehicle_id].get("family_id"):
+        families.add(str(by_id[vehicle_id]["family_id"]))
+    query = _key(part.get("vehicle_query"))
+    if query:
+        for family, aliases in _family_aliases(applications).items():
+            if any(_contains_alias(query, alias) for alias in aliases):
+                families.add(family)
+    return families
+
+
+def _part_year_range(part: dict[str, Any]) -> tuple[int, int] | None:
+    hint = part.get("fitment_range")
+    if isinstance(hint, dict) and hint.get("year_from") is not None and hint.get("year_to") is not None:
+        return int(hint["year_from"]), int(hint["year_to"])
+    if part.get("fitment_year_from") is not None and part.get("fitment_year_to") is not None:
+        return int(part["fitment_year_from"]), int(part["fitment_year_to"])
+    matches = _YEAR_RANGE.findall(str(part.get("vehicle_query") or ""))
+    if not matches:
+        return None
+    starts = [int(start) for start, _ in matches]
+    ends = [int(end) for _, end in matches]
+    return min(starts), max(ends)
+
+
+def derive_fitment_rules(
+    parts: list[dict[str, Any]],
+    applications: list[dict[str, Any]],
+    existing_rules: list[dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
+    """Create deterministic rules from explicit source-backed range metadata.
+
+    Catalog rows commonly contain a product page and a query such as
+    ``2013-2020 Subaru BRZ``.  That range is a useful input, but it must be
+    joined to normalized applications before it can become fitment.  This
+    function creates reviewable rules for those rows; it never invents a year
+    range from a single-year query or from a model name alone.
+    """
+    existing_rules = existing_rules or []
+    seen = {
+        (part_id, _selector_key(rule.get("selector") or {}))
+        for rule in existing_rules
+        for part_id in _rule_part_ids(rule)
+    }
+    app_rows = [app for app in applications if isinstance(app, dict) and app.get("id")]
+    derived: list[dict[str, Any]] = []
+    for part in parts:
+        source_url = part.get("fitment_source_url") or part.get("official_url")
+        if not part.get("id") or not source_url:
+            continue
+        year_range = _part_year_range(part)
+        if not year_range or year_range[0] > year_range[1]:
+            continue
+        families = _families_for_part(part, app_rows)
+        if not families:
+            continue
+        selector = deepcopy(part.get("fitment_selector") or {})
+        if not isinstance(selector, dict):
+            selector = {}
+        if not selector.get("family_id") and not selector.get("family_ids"):
+            if len(families) == 1:
+                selector["family_id"] = sorted(families)[0]
+            else:
+                selector["family_ids"] = sorted(families)
+        selector.setdefault("year_from", year_range[0])
+        selector.setdefault("year_to", year_range[1])
+        query = _key(part.get("vehicle_query"))
+        if "manual" in query and not any(key in selector for key in ("transmission", "transmissions", "transmission_contains_any")):
+            selector["transmission_contains_any"] = ["manual"]
+
+        # Use normalized engine families when the source query names a
+        # displacement.  If no engine code was established, retain a trim
+        # token so the rule remains narrower than a whole chassis family.
+        displacement_tokens = re.findall(r"\b\d+\.\d+\s*[lL]?\b", query)
+        if displacement_tokens and not any(key in selector for key in ("engine_family_id", "engine_family_ids", "trim_contains", "trim_contains_any")):
+            for token in displacement_tokens:
+                token = token.replace("l", "").strip()
+                candidates = {
+                    str(app.get("engine_family_id"))
+                    for app in app_rows
+                    if str(app.get("family_id")) in families
+                    and token in _key(app.get("engine"))
+                    and app.get("engine_family_id")
+                }
+                if len(candidates) == 1:
+                    selector["engine_family_id"] = sorted(candidates)[0]
+                    break
+                if len(candidates) == 0:
+                    selector["trim_contains"] = token
+                    break
+        key = (str(part["id"]), _selector_key(selector))
+        if key in seen:
+            continue
+        seen.add(key)
+        slug = re.sub(r"[^a-z0-9]+", "-", f"{part['id']}-{year_range[0]}-{year_range[1]}".casefold()).strip("-")
+        derived.append(
+            {
+                "id": f"auto-range-{slug}",
+                "part_ids": [str(part["id"])],
+                "selector": selector,
+                "fitment_status": part.get("fitment_status") or "probable",
+                "confidence": float(part.get("fitment_confidence", 0.6) or 0.6),
+                "source_url": source_url,
+                "source_kind": "catalog_query_range",
+                "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+            }
+        )
+    return derived
+
+
 def merge_reference_vehicles(existing: list[dict[str, Any]], applications: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Merge exact reference applications into discovered/manual vehicles.
 
@@ -110,7 +268,7 @@ def _list_values(selector: dict[str, Any], key: str) -> list[str]:
 def application_matches(application: dict[str, Any], selector: dict[str, Any] | None) -> bool:
     """Return whether one exact application satisfies a rule selector."""
     selector = selector or {}
-    allowed = {"application_ids", "family_id", "family_ids", "engine_family_id", "engine_family_ids", "make", "model", "chassis", "body", "drivetrain", "transmission", "makes", "models", "chassiss", "bodys", "drivetrains", "transmissions", "year_from", "year_to", "trim_contains", "trim_contains_any", "trim_prefix", "trim_prefix_any", "tags_all", "exclude_application_ids"}
+    allowed = {"application_ids", "family_id", "family_ids", "engine_family_id", "engine_family_ids", "make", "model", "chassis", "body", "drivetrain", "transmission", "makes", "models", "chassiss", "bodys", "drivetrains", "transmissions", "transmission_contains_any", "year_from", "year_to", "trim_contains", "trim_contains_any", "trim_prefix", "trim_prefix_any", "tags_all", "exclude_application_ids"}
     if not selector or set(selector) - allowed:
         raise ValueError("Empty or unsupported application selector")
     app_id = str(application.get("id", ""))
@@ -137,6 +295,9 @@ def application_matches(application: dict[str, Any], selector: dict[str, Any] | 
         values = _list_values(selector, f"{field}s")
         if values and _key(application.get(field)) not in values:
             return False
+    transmission_contains_any = _list_values(selector, "transmission_contains_any")
+    if transmission_contains_any and not any(value in _key(application.get("transmission")) for value in transmission_contains_any):
+        return False
     year = int(application.get("year", 0) or 0)
     if selector.get("year_from") is not None and year < int(selector["year_from"]):
         return False

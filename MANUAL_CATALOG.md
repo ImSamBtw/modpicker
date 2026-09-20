@@ -41,7 +41,9 @@ Add an object to `config/platforms.json` or `data/manual/platforms.json`:
 }
 ```
 
-`vehicle_ids` are the applications represented in the catalog. `categories` is an explicit scope allow-list. A platform result is labeled as platform-related and still asks the user to confirm exact vehicle fitment.
+`vehicle_ids` are the applications represented in the catalog. They are resolved from `application_selector` during the pipeline run, so a new imported year appears automatically. `categories` is an explicit scope allow-list. A platform result is labeled as platform-related and still asks the user to confirm exact vehicle fitment.
+
+For an entirely new family, add its stable definition to `config/vehicle_families.json` with make/model aliases, year bounds, exclusions and any conservative configuration-family mappings. Add a platform record only after there is a source-backed catalog scope. This is the one-time mapping step; future imported applications in that family inherit matching rules automatically.
 
 ## Add a part
 
@@ -64,6 +66,18 @@ Add an object to `data/manual/parts.json`:
   "install": {"difficulty": "Moderate", "hours": 2},
   "status": "active",
   "price_hint": {"vendor": "Example Brand", "url": "https://example.com/product", "currency": "USD"}
+}
+```
+
+When the product source names a range, keep that range in the query or make it explicit:
+
+```json
+"vehicle_query": "2015-2023 Ford Mustang S550",
+"fitment_selector": {
+  "family_id": "ford-mustang-s550",
+  "engine_family_id": "ford-coyote-50",
+  "year_from": 2015,
+  "year_to": 2023
 }
 ```
 
@@ -92,7 +106,7 @@ The `vehicle_id` on a part is the anchor application used by the original seed. 
 }
 ```
 
-Use `trim_contains_any` when the product page names several engine/submodel labels. Selectors are fail-closed: an unknown key, an empty selector, or a range matching no applications stops validation. New EPA or reviewed manual rows with the same family and qualifying attributes receive the rule automatically. A broad category page is stored as `probable` and is labeled for confirmation; only an exact product application table can support `verified`.
+Use `trim_contains_any` when the product page names several engine/submodel labels. Selectors are fail-closed: an unknown key, an empty selector, or a range matching no applications stops validation. When a part has a source URL and an explicit year range, the pipeline creates a deterministic `auto-range-*` rule in `data/live/fitment_rules.json`; maintainers should not copy the generated fitment array into a seed file. New EPA or reviewed manual rows with the same family and qualifying attributes receive the rule automatically. A broad category page is stored as `probable` and is labeled for confirmation; only an exact product application table can support `verified`.
 
 ## Review and publish
 

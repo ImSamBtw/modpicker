@@ -50,7 +50,7 @@ flowchart TD
 
 - A model-year discovery result does not create engine, trim, or part fitment.
 - Platform membership does not create exact fitment.
-- A reviewed fitment rule is re-evaluated against every exact application on every refresh. Shared-platform parts therefore follow newly imported years automatically when the new application carries the same family/engine/body/transmission attributes; generated fitment arrays are never hand-maintained.
+- A reviewed fitment rule is re-evaluated against every exact application on every refresh. Shared-platform parts therefore follow newly imported years automatically when the new application carries the same family/engine/body/transmission attributes; generated fitment arrays are never hand-maintained. Source-backed catalog rows with explicit year ranges also receive deterministic generated rules, so this behavior is consistent across every configured family rather than being a Z3-only exception.
 - A product rating requires exact product identity, a current aggregate rating, a reported review count, source URL, and retrieval date.
 - Prices must be direct USD observations tied to an identified product. Search pages and unmatched marketplace results are excluded.
 - Safety-critical specifications and installation procedures need a primary manual or manufacturer source.
@@ -66,6 +66,8 @@ flowchart TD
 - Kept evidence-backed scoring and explicit unrated states throughout car and platform views.
 - Added browser coverage for multi-level selection, platform scope, build persistence, sharing, details, routes, and mobile layout.
 - Added evidence-backed multi-year Z3 rules, including engine/transmission constraints and automatic expansion for future imported applications.
+- Added data-driven family definitions and official EPA configuration coverage for Ford Mustang S550, including normalized 5.0L and 2.3L configuration families.
+- Added automatic source-range rule generation and auditable `data/live/fitment_rules.json` output; current catalog ranges now expand across all matching Miata, BRZ/FR-S/86, Z3 and Mustang applications.
 
 ### Next priorities
 

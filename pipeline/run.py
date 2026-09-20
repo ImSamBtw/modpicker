@@ -15,6 +15,7 @@ from collectors.promotion import PromotionCollector
 from collectors.vehicles import VehicleCollector
 from pipeline.scoring import score_sources
 from pipeline.applications import (
+    derive_fitment_rules,
     expand_fitments,
     load_applications,
     load_fitment_rules,
@@ -128,6 +129,8 @@ def main():
     parts=load_catalog(); store=JsonStore()
     applications=load_applications()
     fitment_rules=load_fitment_rules()
+    fitment_rules.extend(derive_fitment_rules(parts, applications, fitment_rules))
+    store.write('fitment_rules.json', fitment_rules)
     platforms=[]
     for path in [Path('config/platforms.json'),Path('data/manual/platforms.json')]:
         platforms.extend(load(path,[]))

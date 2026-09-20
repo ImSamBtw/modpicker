@@ -80,7 +80,7 @@
       "brz-2017"
     ],
     "application_selector": {
-      "family_id": "subaru-brz-zc6",
+      "family_ids": ["subaru-brz-zc6", "scion-frs", "toyota-86"],
       "engine_family_id": "subaru-fa20"
     },
     "categories": [
@@ -95,6 +95,101 @@
     "description": "Engine-family catalog for first-generation BRZ/86 FA20 applications represented by exact ModPicker fitment records. Platform results still require vehicle-specific confirmation.",
     "source_urls": [
       "https://perrin.com/collections/engine"
+    ]
+  },
+  {
+    "id": "ford-coyote-50",
+    "make": "Ford",
+    "name": "Coyote 5.0L V8",
+    "display_name": "Ford Coyote 5.0L V8",
+    "type": "engine",
+    "aliases": ["Coyote", "5.0 Coyote", "5.0L V8", "S550 GT"],
+    "vehicle_ids": [],
+    "application_selector": {
+      "family_id": "ford-mustang-s550",
+      "engine_family_id": "ford-coyote-50"
+    },
+    "categories": [
+      "Maintenance",
+      "Cooling",
+      "Brakes",
+      "Suspension",
+      "Chassis",
+      "Drivetrain",
+      "Wheels",
+      "Tires",
+      "Ignition",
+      "Intake",
+      "Exhaust",
+      "Forced Induction"
+    ],
+    "status": "active",
+    "description": "EPA-normalized 5.0L, eight-cylinder Mustang S550 applications. This is a configuration family, not a factory engine-code claim; confirm trim, options and production changes.",
+    "source_urls": [
+      "https://www.steeda.com/2015-2023-mustang-parts"
+    ]
+  },
+  {
+    "id": "ford-ecoboost-23",
+    "make": "Ford",
+    "name": "EcoBoost 2.3L",
+    "display_name": "Ford EcoBoost 2.3L",
+    "type": "engine",
+    "aliases": ["EcoBoost", "2.3 EcoBoost", "2.3L turbo", "S550 EcoBoost"],
+    "vehicle_ids": [],
+    "application_selector": {
+      "family_id": "ford-mustang-s550",
+      "engine_family_id": "ford-ecoboost-23"
+    },
+    "categories": [
+      "Maintenance",
+      "Cooling",
+      "Brakes",
+      "Suspension",
+      "Chassis",
+      "Drivetrain",
+      "Wheels",
+      "Tires",
+      "Ignition",
+      "Intake",
+      "Exhaust",
+      "Forced Induction"
+    ],
+    "status": "active",
+    "description": "EPA-normalized 2.3L turbocharged Mustang S550 applications. Confirm package, transmission and model-year restrictions before ordering.",
+    "source_urls": [
+      "https://www.steeda.com/2015-2023-mustang-parts"
+    ]
+  },
+  {
+    "id": "ford-mustang-s550",
+    "make": "Ford",
+    "name": "Mustang S550",
+    "display_name": "Ford Mustang S550 family",
+    "type": "chassis",
+    "aliases": ["Mustang", "S550", "2015-2023 Mustang"],
+    "vehicle_ids": [],
+    "application_selector": {
+      "family_id": "ford-mustang-s550"
+    },
+    "categories": [
+      "Maintenance",
+      "Cooling",
+      "Brakes",
+      "Suspension",
+      "Chassis",
+      "Drivetrain",
+      "Wheels",
+      "Tires",
+      "Ignition",
+      "Intake",
+      "Exhaust",
+      "Forced Induction"
+    ],
+    "status": "active",
+    "description": "2015–2023 gasoline Mustang S550 family. Engine, body, package and production-year restrictions remain part of each product's fitment rule.",
+    "source_urls": [
+      "https://www.steeda.com/s550-everything-you-need-to-know"
     ]
   },
   {

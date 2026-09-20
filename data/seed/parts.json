@@ -9,5 +9,22 @@
  {"id":"supersprint-z3-catback","brand":"Supersprint","name":"Performance Cat-Back Exhaust","vehicle_query":"BMW Z3 2.8"},
  {"id":"miata-xida","brand":"949 Racing","name":"Xida Coilovers","vehicle_query":"1999 NB Miata"},
  {"id":"brz-header","brand":"JDL Auto Design","name":"UEL Header","vehicle_query":"2017 Subaru BRZ"},
- {"id":"mustang-steeda-intake","brand":"Steeda","name":"ProFlow Cold Air Intake","vehicle_query":"2015 Mustang GT"}
+ {
+  "id": "mustang-steeda-intake",
+  "brand": "Steeda",
+  "name": "ProFlow Cold Air Intake - Tune Required",
+  "vehicle_query": "2015-2017 Ford Mustang GT 5.0",
+  "category": "Intake",
+  "fitment_status": "verified",
+  "fitment_confidence": 0.98,
+  "fitment_source_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html",
+  "official_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html",
+  "manufacturer_part_number": "555-3194",
+  "description": "Steeda ProFlow cold-air intake for the 2015-2017 Mustang GT 5.0L. Steeda identifies the product as tune-required; confirm manifold, calibration and emissions requirements before purchase.",
+  "install": {"difficulty": "Moderate", "hours": 2},
+  "goals": ["power", "balanced"],
+  "ranking": {"overall": 8.0, "quality": 8.7, "reliability": 8.2, "performance": 7.8, "handling": 1, "value": 7.8, "confidence": 78, "methodology_version": "curated_seed_v1", "provisional": true},
+  "status": "active",
+  "fitment_selector": {"family_id": "ford-mustang-s550", "engine_family_id": "ford-coyote-50", "year_from": 2015, "year_to": 2017}
+ }
 ]

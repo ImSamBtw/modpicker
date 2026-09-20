@@ -2,10 +2,10 @@
 
 Automotive parts research and build planning at https://imsambtw.github.io/modpicker/.
 
-- Source-linked product catalog, fitment labels, recent USD seller observations. Browse cars with Make → Model → Year → Variant, or browse engine/platform families such as BMW M52TU.
+- Source-linked product catalog, fitment labels, recent USD seller observations. Browse cars with Make → Model → Year → Variant, or browse engine/platform families such as BMW M52TU, FA20 and Mustang S550.
 - Published owner-review ratings where evidence exists; never synthetic performance scores.
 - Per-vehicle local builds with quantities, seller selection, notes, costs, purchase status, undo, sharing and JSON export/import.
-- Scheduled deterministic product discovery/publication and official NHTSA vehicle-model discovery.
+- Scheduled deterministic product discovery/publication, official NHTSA model discovery and FuelEconomy.gov configuration imports. Source-backed ranges are expanded to every matching year automatically.
 - Supabase public read catalog with a complete Git-backed static fallback.
 
 Run locally: `python -m http.server 8000`.

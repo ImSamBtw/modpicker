@@ -1,5 +1,5 @@
 import unittest
-from pipeline.applications import application_matches, expand_fitments, load_applications, load_fitment_rules
+from pipeline.applications import application_matches, derive_fitment_rules, expand_fitments, load_applications, load_fitment_rules
 from scripts.import_vehicle_database import normalize
 
 class FitmentTests(unittest.TestCase):
@@ -47,6 +47,35 @@ class FitmentTests(unittest.TestCase):
         parts,_=expand_fitments([{'id':'z3-ngk-plugs'},{'id':'z3-bosch-coils'}],apps,load_fitment_rules())
         self.assertEqual([f['vehicle_id'] for f in parts[0]['fitments']],['z3-2000-28'])
         self.assertEqual([f['vehicle_id'] for f in parts[1]['fitments']],['z3-2000-28'])
+    def test_explicit_catalog_range_generates_rules_for_every_matching_year(self):
+        apps=load_applications()
+        part={
+            'id':'future-mustang-intake',
+            'vehicle_query':'2015-2023 Ford Mustang GT 5.0',
+            'fitment_source_url':'https://example.com/mustang-intake',
+            'fitment_status':'verified',
+            'fitment_confidence':.9,
+            'fitment_selector':{'family_id':'ford-mustang-s550','engine_family_id':'ford-coyote-50'},
+        }
+        rules=derive_fitment_rules([part],apps,[])
+        self.assertEqual(len(rules),1)
+        self.assertEqual(rules[0]['selector']['year_from'],2015)
+        self.assertEqual(rules[0]['selector']['year_to'],2023)
+        expanded,_=expand_fitments([part],apps,rules)
+        by_id={a['id']:a for a in apps}
+        years={by_id[f['vehicle_id']]['year'] for f in expanded[0]['fitments']}
+        self.assertEqual(years,set(range(2015,2024)))
+        self.assertGreaterEqual(len(expanded[0]['fitments']),30)
+    def test_importer_normalizes_new_family_without_engine_code_claim(self):
+        rows=[
+            {'id':'mustang-test','year':'2015','make':'Ford','model':'Mustang','displ':'5.0','cylinders':'8','trany':'Manual 6-spd','drive':'Rear-Wheel Drive','tCharger':'','eng_dscr':''},
+            {'id':'mach-e-test','year':'2021','make':'Ford','model':'Mustang Mach-E AWD','displ':'','cylinders':'','trany':'Automatic (A1)','drive':'All-Wheel Drive','tCharger':'','eng_dscr':''},
+        ]
+        normalized=normalize(rows)
+        self.assertEqual(len(normalized),1)
+        self.assertEqual(normalized[0]['family_id'],'ford-mustang-s550')
+        self.assertEqual(normalized[0]['engine_family_id'],'ford-coyote-50')
+        self.assertIn('Engine code not established',normalized[0]['tags'])
     def test_fitments_deduplicated_without_confidence_inflation(self):
         p={'id':'x','fitments':[{'vehicle_id':'v','fitment_status':'verified','confidence':.7,'source_url':'https://a.test'},{'vehicle_id':'v','fitment_status':'probable','confidence':.99,'source_url':'https://b.test'}]}
         parts,_=expand_fitments([p],[],[])

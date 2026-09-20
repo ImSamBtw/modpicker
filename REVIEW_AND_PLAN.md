@@ -119,3 +119,23 @@ Deployment verification: GitHub Actions run 35526811631 completed every stage, i
 ### Follow-up verification
 
 The follow-up refresh from commit `1fbc4cd` completed successfully as Actions run `35528710326`. It published 96 parts, 94 normalized exact applications, 18 fitment rules, 275 rule expansions and 342 total catalog fitment rows. The live Pages deployment `35528728897` served the same status and catalog snapshot. Supabase ingestion version 9 now replaces fitment rows for all published parts, including uncategorized parts and explicit empty arrays; the database total is 342 rows with 85 parts having at least one compatible application. Z3 checks remain: brake lines span 1997–2002, the 2.8 control-arm range spans 1997–2000, and the six-cylinder cooling rows span 1999–2002.
+
+## Iteration: all-family range expansion and Mustang coverage — 2026-09-20
+
+### Problem addressed
+
+The previous rules were durable for Z3/Miata examples but did not generalize to every catalog family. The 2015 Mustang seed part had no normalized application family or rule, so it remained detached from the imported year records instead of following the S550 range.
+
+### Changes executed
+
+- Added data-driven family definitions for BMW Z3, NB Miata, BRZ/FR-S/86 and Ford Mustang S550 in `config/vehicle_families.json`.
+- Expanded the official FuelEconomy.gov import to 2015–2023 gasoline Mustang configurations, excluding Mustang Mach-E records and adding conservative EPA configuration families for 2.3L turbo, 3.7L V6, 5.0L V8 and 5.2L V8 rows.
+- Added Mustang S550 chassis, Coyote 5.0L and EcoBoost 2.3L browsing platforms.
+- Added six source-linked Mustang products and upgraded the existing Steeda intake record with its 2015–2017 5.0L application selector.
+- Added deterministic `derive_fitment_rules()` logic. A source-backed explicit range in a catalog row generates one auditable rule, which is evaluated against every normalized application on every refresh. Single-year rows and unscoped model names do not expand.
+- Added `data/live/fitment_rules.json` so generated rules can be reviewed alongside the catalog and Supabase payload.
+- Added regression tests for future Mustang applications, family normalization, range expansion and dynamic platform resolution.
+
+### Verification
+
+Local refresh produced 102 catalog parts, 209 normalized applications, 7 platforms, 63 total rules (18 reviewed plus 45 generated range rules), 1,577 rule expansions and no fitment warnings. The Steeda 2015–2017 5.0L intake expands to 11 EPA configurations across all three years; the S550 catalog ranges expand across every matching 2015–2023 application. Unit, catalog, publication and browser checks must pass before the refresh is published.

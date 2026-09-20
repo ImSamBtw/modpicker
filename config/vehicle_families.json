@@ -1,0 +1,116 @@
+[
+  {
+    "id": "bmw-z3",
+    "make": "BMW",
+    "model_aliases": ["Z3", "Z3 Roadster", "Z3 Coupe"],
+    "aliases": ["BMW Z3", "Z3", "E36/7", "E36/8"],
+    "year_from": 1996,
+    "year_to": 2002,
+    "display_model": "Z3"
+  },
+  {
+    "id": "mazda-nb",
+    "make": "Mazda",
+    "model_aliases": ["MX-5 Miata", "MX-5", "Miata"],
+    "aliases": ["Mazda MX-5", "MX-5 Miata", "NB Miata", "NB"],
+    "year_from": 1999,
+    "year_to": 2005,
+    "display_model": "MX-5 Miata",
+    "engine_rules": [
+      {
+        "id": "mazda-bp-4w",
+        "displacement_l": ["1.8"],
+        "cylinders": ["4"]
+      }
+    ]
+  },
+  {
+    "id": "subaru-brz-zc6",
+    "make": "Subaru",
+    "model_aliases": ["BRZ"],
+    "aliases": ["Subaru BRZ", "BRZ", "ZC6"],
+    "year_from": 2013,
+    "year_to": 2020,
+    "display_model": "BRZ",
+    "engine_rules": [
+      {
+        "id": "subaru-fa20",
+        "displacement_l": ["2.0"],
+        "cylinders": ["4"]
+      }
+    ]
+  },
+  {
+    "id": "scion-frs",
+    "make": "Scion",
+    "model_aliases": ["FR-S"],
+    "aliases": ["Scion FR-S", "FR-S", "ZC6"],
+    "year_from": 2013,
+    "year_to": 2016,
+    "display_model": "FR-S",
+    "engine_rules": [
+      {
+        "id": "subaru-fa20",
+        "displacement_l": ["2.0"],
+        "cylinders": ["4"]
+      }
+    ]
+  },
+  {
+    "id": "toyota-86",
+    "make": "Toyota",
+    "model_aliases": ["86"],
+    "aliases": ["Toyota 86", "86", "GT86", "ZC6"],
+    "year_from": 2017,
+    "year_to": 2020,
+    "display_model": "86",
+    "engine_rules": [
+      {
+        "id": "subaru-fa20",
+        "displacement_l": ["2.0"],
+        "cylinders": ["4"]
+      }
+    ]
+  },
+  {
+    "id": "ford-mustang-s550",
+    "make": "Ford",
+    "model_aliases": [
+      "Mustang",
+      "Mustang Convertible",
+      "Mustang Performance Package",
+      "Mustang Bullitt",
+      "Mustang Mach 1",
+      "Shelby GT350 Mustang",
+      "Shelby GT500 Mustang"
+    ],
+    "exclude_model_aliases": ["Mustang Mach-E"],
+    "aliases": ["Ford Mustang", "Mustang", "S550", "S550 Mustang"],
+    "year_from": 2015,
+    "year_to": 2023,
+    "display_model": "Mustang",
+    "engine_rules": [
+      {
+        "id": "ford-ecoboost-23",
+        "displacement_l": ["2.3"],
+        "cylinders": ["4"],
+        "turbo": ["T"]
+      },
+      {
+        "id": "ford-cyclone-37",
+        "displacement_l": ["3.7"],
+        "cylinders": ["6"]
+      },
+      {
+        "id": "ford-coyote-50",
+        "displacement_l": ["5.0"],
+        "cylinders": ["8"]
+      },
+      {
+        "id": "ford-mustang-52-v8",
+        "displacement_l": ["5.2"],
+        "cylinders": ["8"]
+      }
+    ]
+  }
+]

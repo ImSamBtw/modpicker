@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 MANUAL = ROOT / 'data' / 'manual'
 sys.path.insert(0, str(ROOT))
-from pipeline.applications import application_matches, load_applications, load_fitment_rules
+from pipeline.applications import application_matches, load_applications, load_fitment_rules, resolve_platforms
 
 def read(path, default):
     p = ROOT / path
@@ -23,9 +23,10 @@ def require_url(value, field, errors, allow_empty=False):
 def validate():
     errors=[]
     vehicles=read('data/manual/vehicles.json',[])
-    platforms=read('config/platforms.json',[])+read('data/manual/platforms.json',[])
+    platform_inputs=read('config/platforms.json',[])+read('data/manual/platforms.json',[])
     parts=read('data/manual/parts.json',[])
     applications=load_applications()
+    platforms=resolve_platforms(platform_inputs,applications)
     fitment_rules=load_fitment_rules()
     def unique(rows,label):
         seen=set()
