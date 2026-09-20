@@ -1,30 +1,93 @@
+from __future__ import annotations
 import json, urllib.robotparser
+from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from .base import BaseCollector, CollectorResult
 from pipeline.models import OfferRecord, SourceRecord
+
 class WebProductCollector(BaseCollector):
     name='web_product'
+    def __init__(self,timeout=10):
+        super().__init__(timeout=timeout)
+        self._robots_cache={}
+
     def allowed(self,url):
-        u=urlparse(url); robots=f'{u.scheme}://{u.netloc}/robots.txt'
+        u=urlparse(url); origin=f'{u.scheme}://{u.netloc}'; robots=f'{origin}/robots.txt'
+        if origin in self._robots_cache:
+            rp=self._robots_cache[origin]
+            return bool(rp and rp.can_fetch('ModPickerBot',url))
         try:
-            rp=urllib.robotparser.RobotFileParser(); rp.set_url(robots); rp.read(); return rp.can_fetch(self.session.headers['User-Agent'],url)
-        except Exception: return False
-    def run(self, rows):
-        offers=[]; sources=[]; warnings=[]
+            r=self.session.get(robots,timeout=min(self.timeout,5))
+            if r.status_code>=400:
+                self._robots_cache[origin]=None; return False
+            rp=urllib.robotparser.RobotFileParser(); rp.set_url(robots); rp.parse(r.text.splitlines())
+            self._robots_cache[origin]=rp
+            return rp.can_fetch('ModPickerBot',url)
+        except Exception:
+            self._robots_cache[origin]=None; return False
+
+    def products(self,data):
+        if isinstance(data,list):
+            for x in data: yield from self.products(x)
+        elif isinstance(data,dict):
+            typ=data.get('@type')
+            if typ=='Product' or (isinstance(typ,list) and 'Product' in typ): yield data
+            for key in ('@graph','mainEntity','itemListElement'):
+                if key in data: yield from self.products(data[key])
+
+    def offer_data(self,obj):
+        raw=obj.get('offers') or {}
+        offers=raw if isinstance(raw,list) else [raw]
+        for off in offers:
+            if not isinstance(off,dict): continue
+            price=off.get('price') or off.get('lowPrice')
+            if price is None and isinstance(off.get('priceSpecification'),dict):
+                price=off['priceSpecification'].get('price')
+            try: price=float(str(price).replace(',','')) if price is not None else None
+            except (TypeError,ValueError): price=None
+            if price is not None:
+                return price,off.get('priceCurrency','USD'),('InStock' in str(off.get('availability','')))
+        return None,'USD',None
+
+    def run(self, rows, existing_sources=None, refresh_hours=24):
+        offers=[]; sources=[]; warnings=[]; checked=0; skipped=0
+        cutoff=datetime.now(timezone.utc)-timedelta(hours=refresh_hours)
+        fresh=set()
+        for s in existing_sources or []:
+            if s.get('metadata',{}).get('collector')!='web_product': continue
+            try: dt=datetime.fromisoformat(str(s.get('retrieved_at','')).replace('Z','+00:00'))
+            except Exception: continue
+            if dt>=cutoff: fresh.add(s.get('url'))
         for x in rows:
             if not x.get('allow_scrape'): continue
             url=x['url']
-            if not self.allowed(url): warnings.append(f'robots denied/unavailable: {url}'); continue
+            if url in fresh:
+                skipped+=1; continue
+            if not self.allowed(url):
+                warnings.append(f'robots denied/unavailable: {url}'); continue
             try:
-                soup=BeautifulSoup(self.get(url).text,'html.parser'); found=False
+                soup=BeautifulSoup(self.get(url).text,'html.parser'); checked+=1; found=False
                 for node in soup.find_all('script',attrs={'type':'application/ld+json'}):
                     try: data=json.loads(node.string or '{}')
                     except Exception: continue
-                    for obj in (data if isinstance(data,list) else [data]):
-                        if not isinstance(obj,dict) or obj.get('@type')!='Product': continue
-                        off=obj.get('offers') or {}; off=off[0] if isinstance(off,list) and off else off; price=off.get('price') or off.get('lowPrice')
-                        offers.append(OfferRecord.make(part_id=x['part_id'],vendor=x.get('vendor') or urlparse(url).netloc,url=url,price=float(price) if price else None,currency=off.get('priceCurrency','USD'),in_stock='InStock' in str(off.get('availability','')),metadata={'sku':obj.get('sku'),'name':obj.get('name'),'source':'json-ld'})); found=True
-                sources.append(SourceRecord.make(part_id=x['part_id'],source_type='retailer',url=url,title=x.get('title',url),outlet=x.get('vendor',''),summary='Allowed product page checked by ModPicker.',confidence=.78,metadata={'json_ld_product_found':found}))
-            except Exception as e: warnings.append(f'{url}: {type(e).__name__}: {e}')
-        return CollectorResult(self.name,sources,offers,warnings,{'count':len(sources)})
+                    for obj in self.products(data):
+                        price,currency,in_stock=self.offer_data(obj)
+                        if price is None: continue
+                        offers.append(OfferRecord.make(
+                            part_id=x['part_id'],vendor=x.get('vendor') or urlparse(url).netloc,url=url,
+                            price=price,currency=currency,in_stock=in_stock,
+                            metadata={'sku':obj.get('sku') or obj.get('mpn'),'name':obj.get('name'),'source':'json-ld','price_type':'structured_page'}
+                        )); found=True; break
+                    if found: break
+                sources.append(SourceRecord.make(
+                    part_id=x['part_id'],source_type='retailer',url=url,title=x.get('title',url),outlet=x.get('vendor',''),
+                    summary='Permitted product page checked for structured product and offer data.',confidence=.82,
+                    metadata={'json_ld_product_found':found,'collector':'web_product'}
+                ))
+            except Exception as e:
+                warnings.append(f'{url}: {type(e).__name__}: {e}')
+        return CollectorResult(self.name,sources,offers,warnings,{
+            'enabled':True,'pages_checked':checked,'fresh_pages_skipped':skipped,'source_count':len(sources),
+            'offer_count':len(offers),'refresh_hours':refresh_hours,'robots_origins_checked':len(self._robots_cache)
+        })
