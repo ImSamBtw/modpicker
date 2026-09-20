@@ -5,15 +5,51 @@
     "id": "6e1ab93f913783158a2e",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:33:09Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Grease packet for FM sway bars",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "auto-144258cfa1bf80baaa84",
     "price": 1.19,
-    "retrieved_at": "2026-09-20T03:33:09Z",
+    "retrieved_at": "2026-09-20T03:37:30Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/grease-packet-for-fm-sway-bars",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "ed5a08de497afb523ced",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:37:34Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-1a095b2e615f87e52cd0",
+    "price": 249.0,
+    "retrieved_at": "2026-09-20T03:37:34Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-shock-front",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "0321c0d2871e19359c05",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:37:34Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-27dd7bcd83e0b681c200",
+    "price": 169.0,
+    "retrieved_at": "2026-09-20T03:37:34Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/rear-fm-sway-bar-na-nb",
     "vendor": "Flyin' Miata"
   },
   {
@@ -22,15 +58,34 @@
     "id": "9c71e5583c91aa674f1c",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:33:09Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Bushings and brackets for NA8 and NB front sway bar",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "auto-69898cd15a88e5d1ee59",
     "price": 33.99,
-    "retrieved_at": "2026-09-20T03:33:09Z",
+    "retrieved_at": "2026-09-20T03:37:30Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/bushings-brackets-for-na8-and-nb-front-sway-bars",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "155804105388604c65fc",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:37:34Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-6ac79d0c08c369675830",
+    "price": 219.0,
+    "retrieved_at": "2026-09-20T03:37:34Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/front-fm-sway-bar-nb",
     "vendor": "Flyin' Miata"
   },
   {
@@ -39,13 +94,15 @@
     "id": "efe9fce1560cd4cb9466",
     "in_stock": false,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:33:02Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "The Little Enchilada",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "auto-73ca2473ad360a5c9ea9",
     "price": 3080.98,
-    "retrieved_at": "2026-09-20T03:33:02Z",
+    "retrieved_at": "2026-09-20T03:37:28Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/enchilada",
     "vendor": "Flyin' Miata"
@@ -56,13 +113,15 @@
     "id": "a9b2c055985c67fc38ff",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:33:08Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Rear Subframe Lockdown for 2015-2026 WRX, STI, BRZ",
+      "price_type": "structured_page",
+      "sku": "PSP-SUS-531BK",
+      "source": "json-ld"
     },
     "part_id": "auto-b574fdfa24c87933a1ed",
     "price": 119.85,
-    "retrieved_at": "2026-09-20T03:33:08Z",
+    "retrieved_at": "2026-09-20T03:37:29Z",
     "shipping": null,
     "url": "https://perrin.com/products/rear-subframe-lockdown-for-2015-2026-wrx-sti-brz",
     "vendor": "PERRIN"
@@ -73,13 +132,15 @@
     "id": "ceb29b176d916a809344",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:33:10Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Rear sway bar bushings for NA/NB",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "auto-df07069285481c0d0ead",
     "price": 34.99,
-    "retrieved_at": "2026-09-20T03:33:10Z",
+    "retrieved_at": "2026-09-20T03:37:31Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/rear-na-nb-sway-bar-bushings",
     "vendor": "Flyin' Miata"
@@ -90,13 +151,15 @@
     "id": "2bb3ea4848c773154c70",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:33:01Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Complete high performance rubber bushing set for NA and NB",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "auto-edaae02f417c30e388eb",
     "price": 629.0,
-    "retrieved_at": "2026-09-20T03:33:01Z",
+    "retrieved_at": "2026-09-20T03:37:28Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/performance-rubber-bushing-kit",
     "vendor": "Flyin' Miata"
@@ -107,15 +170,34 @@
     "id": "f4e8836bf566768c330c",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20T03:33:08Z",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Flyin' Miata sway bars (NB chassis)",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "auto-f886875cb64e0baa6ed7",
     "price": 369.0,
-    "retrieved_at": "2026-09-20T03:33:08Z",
+    "retrieved_at": "2026-09-20T03:37:29Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/flyin-miata-sway-bars",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "eb3912f5038b8282511f",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:37:35Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-fb1a11217b37d217ea8c",
+    "price": 249.0,
+    "retrieved_at": "2026-09-20T03:37:35Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/replacement-v-maxx-xxtreme-shock-right-rear",
     "vendor": "Flyin' Miata"
   },
   {
@@ -814,15 +896,17 @@
     "condition": "new",
     "currency": "USD",
     "id": "4eaf9cf22ff09db6321c",
-    "in_stock": null,
+    "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Flyin' Miata Koni Stage 1 suspension package (NB chassis)",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "miata-koni-stage1",
     "price": 1428.0,
-    "retrieved_at": "2026-09-20T00:00:00Z",
+    "retrieved_at": "2026-09-20T03:37:27Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/nb-stage-1-suspension-kit",
     "vendor": "Flyin' Miata"
@@ -953,15 +1037,17 @@
     "condition": "new",
     "currency": "USD",
     "id": "8d7e634056b830237b6e",
-    "in_stock": null,
+    "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "FM V-Maxx XXtreme coilovers for NB - Track Pack",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
     },
     "part_id": "miata-vmaxx-xxtreme-track",
     "price": 1129.0,
-    "retrieved_at": "2026-09-20T00:00:00Z",
+    "retrieved_at": "2026-09-20T03:37:28Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-coilovers-track-pack",
     "vendor": "Flyin' Miata"

@@ -668,5 +668,45 @@
     "price": 369.0,
     "shipping": null,
     "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T03:37:34Z",
+    "id": "ed5a08de497afb523ced:2026-09-20",
+    "in_stock": true,
+    "offer_id": "ed5a08de497afb523ced",
+    "part_id": "auto-1a095b2e615f87e52cd0",
+    "price": 249.0,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T03:37:34Z",
+    "id": "0321c0d2871e19359c05:2026-09-20",
+    "in_stock": true,
+    "offer_id": "0321c0d2871e19359c05",
+    "part_id": "auto-27dd7bcd83e0b681c200",
+    "price": 169.0,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T03:37:34Z",
+    "id": "155804105388604c65fc:2026-09-20",
+    "in_stock": true,
+    "offer_id": "155804105388604c65fc",
+    "part_id": "auto-6ac79d0c08c369675830",
+    "price": 219.0,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "captured_at": "2026-09-20T03:37:35Z",
+    "id": "eb3912f5038b8282511f:2026-09-20",
+    "in_stock": true,
+    "offer_id": "eb3912f5038b8282511f",
+    "part_id": "auto-fb1a11217b37d217ea8c",
+    "price": 249.0,
+    "shipping": null,
+    "vendor": "Flyin' Miata"
   }
 ]

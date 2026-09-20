@@ -1,11 +1,11 @@
 {
   "candidate_count": 26,
-  "catalog_part_count": 92,
+  "catalog_part_count": 96,
   "collectors": {
     "automatic_publication": {
-      "attempted": 8,
+      "attempted": 5,
       "enabled": true,
-      "promoted": 7,
+      "promoted": 4,
       "warnings": []
     },
     "catalog_discovery": {
@@ -37,25 +37,25 @@
       ]
     },
     "seed_catalog": {
-      "count": 85,
-      "offer_count": 60,
-      "source_count": 74,
+      "count": 92,
+      "offer_count": 67,
+      "source_count": 81,
       "warnings": []
     },
     "vehicles": {
       "enabled": true,
       "requests": 2,
-      "vehicle_count": 244,
+      "vehicle_count": 364,
       "warnings": []
     },
     "web_product": {
       "enabled": true,
-      "fresh_pages_skipped": 3,
-      "offer_count": 13,
-      "pages_checked": 36,
+      "fresh_pages_skipped": 36,
+      "offer_count": 9,
+      "pages_checked": 10,
       "refresh_hours": 24,
       "robots_origins_checked": 3,
-      "source_count": 36,
+      "source_count": 10,
       "warnings": [
         "robots denied/unavailable: https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
         "robots denied/unavailable: https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
@@ -71,10 +71,18 @@
       ]
     },
     "youtube": {
-      "enabled": false,
-      "warnings": [
-        "YOUTUBE_API_KEY not configured"
-      ]
+      "count": 0,
+      "enabled": true,
+      "fresh_parts_skipped": 0,
+      "max_searches": 25,
+      "quota_cooldown_active": true,
+      "quota_cooldown_hours": 12,
+      "quota_cooldown_until": "2026-09-20T14:23:45Z",
+      "quota_stopped": true,
+      "refresh_days": 7,
+      "search_calls": 0,
+      "search_state_entries": 0,
+      "warnings": []
     }
   },
   "credentials": {
@@ -84,13 +92,13 @@
     "EBAY_CLIENT_SECRET": false,
     "REDDIT_CLIENT_ID": false,
     "REDDIT_CLIENT_SECRET": false,
-    "YOUTUBE_API_KEY": false
+    "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T03:33:16Z",
+  "generated_at": "2026-09-20T03:37:36Z",
   "mode": "deterministic_no_ai",
-  "offer_count": 67,
+  "offer_count": 71,
   "ok": false,
-  "price_history_count": 67,
-  "review_queue_count": 7,
-  "source_count": 171
+  "price_history_count": 71,
+  "review_queue_count": 11,
+  "source_count": 182
 }

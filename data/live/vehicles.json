@@ -4390,5 +4390,2165 @@
     ],
     "trim": "Unspecified",
     "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1710",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1710,
+      "retrieved_at": "2026-09-20T03:37:36.213860+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M3",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1714",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1714,
+      "retrieved_at": "2026-09-20T03:37:36.213880+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "X6",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1717",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1717,
+      "retrieved_at": "2026-09-20T03:37:36.213883+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "X5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1719",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1719,
+      "retrieved_at": "2026-09-20T03:37:36.213886+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "X3",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1720",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1720,
+      "retrieved_at": "2026-09-20T03:37:36.213888+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "740i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1725",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1725,
+      "retrieved_at": "2026-09-20T03:37:36.213889+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "Z4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1739",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1739,
+      "retrieved_at": "2026-09-20T03:37:36.213891+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "F 800 GS",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1742",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1742,
+      "retrieved_at": "2026-09-20T03:37:36.213892+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "S 1000 RR",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1752",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1752,
+      "retrieved_at": "2026-09-20T03:37:36.213894+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "K 1600 GT",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1753",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1753,
+      "retrieved_at": "2026-09-20T03:37:36.213896+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "K 1600 GTL",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-1759",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1759,
+      "retrieved_at": "2026-09-20T03:37:36.213898+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "S 1000 R",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-2024",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2024,
+      "retrieved_at": "2026-09-20T03:37:36.213900+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-2170",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2170,
+      "retrieved_at": "2026-09-20T03:37:36.213903+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "228i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-2300",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2300,
+      "retrieved_at": "2026-09-20T03:37:36.213905+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "X1",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-2585",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2585,
+      "retrieved_at": "2026-09-20T03:37:36.213906+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "530i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-2777",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2777,
+      "retrieved_at": "2026-09-20T03:37:36.213908+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "330i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-2804",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2804,
+      "retrieved_at": "2026-09-20T03:37:36.213909+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "760i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-5195",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 5195,
+      "retrieved_at": "2026-09-20T03:37:36.213911+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "540i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-5992",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 5992,
+      "retrieved_at": "2026-09-20T03:37:36.213913+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "X4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-9567",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 9567,
+      "retrieved_at": "2026-09-20T03:37:36.213915+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M2",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-9570",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 9570,
+      "retrieved_at": "2026-09-20T03:37:36.213917+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-10045",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 10045,
+      "retrieved_at": "2026-09-20T03:37:36.213919+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "S 1000 XR",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-13825",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 13825,
+      "retrieved_at": "2026-09-20T03:37:36.213921+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "230i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-13826",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 13826,
+      "retrieved_at": "2026-09-20T03:37:36.213923+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M240i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-13827",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 13827,
+      "retrieved_at": "2026-09-20T03:37:36.213924+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "430i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-24940",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 24940,
+      "retrieved_at": "2026-09-20T03:37:36.213926+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "X2",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-25884",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 25884,
+      "retrieved_at": "2026-09-20T03:37:36.213928+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "X7",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-26481",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26481,
+      "retrieved_at": "2026-09-20T03:37:36.213930+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M340i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-26483",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26483,
+      "retrieved_at": "2026-09-20T03:37:36.213932+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "840i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-26484",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26484,
+      "retrieved_at": "2026-09-20T03:37:36.213933+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M850i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-26485",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26485,
+      "retrieved_at": "2026-09-20T03:37:36.213935+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M8",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-26611",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26611,
+      "retrieved_at": "2026-09-20T03:37:36.213937+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "G 310 R",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-26612",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26612,
+      "retrieved_at": "2026-09-20T03:37:36.213938+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "G 310 GS",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-26613",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26613,
+      "retrieved_at": "2026-09-20T03:37:36.213940+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "C 400 GT",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-26636",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26636,
+      "retrieved_at": "2026-09-20T03:37:36.213941+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "K 1600 B",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-28092",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 28092,
+      "retrieved_at": "2026-09-20T03:37:36.213943+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "R 18 Classic",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-28093",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 28093,
+      "retrieved_at": "2026-09-20T03:37:36.213945+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "R 18",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-28100",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 28100,
+      "retrieved_at": "2026-09-20T03:37:36.213946+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M440i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-29435",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 29435,
+      "retrieved_at": "2026-09-20T03:37:36.213949+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "CE 04",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-29578",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 29578,
+      "retrieved_at": "2026-09-20T03:37:36.213950+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "iX",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-29579",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 29579,
+      "retrieved_at": "2026-09-20T03:37:36.213952+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "i4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-30512",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 30512,
+      "retrieved_at": "2026-09-20T03:37:36.213954+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "i7",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-30516",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 30516,
+      "retrieved_at": "2026-09-20T03:37:36.213955+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "XM",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-31653",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 31653,
+      "retrieved_at": "2026-09-20T03:37:36.213957+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "Alpina B8",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-32327",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 32327,
+      "retrieved_at": "2026-09-20T03:37:36.213958+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "750e",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-32328",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 32328,
+      "retrieved_at": "2026-09-20T03:37:36.213960+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "i5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33564",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33564,
+      "retrieved_at": "2026-09-20T03:37:36.213962+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "CE 02",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33565",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33565,
+      "retrieved_at": "2026-09-20T03:37:36.213963+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "R 18 Roctane",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33566",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33566,
+      "retrieved_at": "2026-09-20T03:37:36.213965+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "R 18 B",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33567",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33567,
+      "retrieved_at": "2026-09-20T03:37:36.213967+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "R 18 Transcontinental",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33568",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33568,
+      "retrieved_at": "2026-09-20T03:37:36.213969+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "F 900 GS",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33569",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33569,
+      "retrieved_at": "2026-09-20T03:37:36.213971+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "F 900 GS Adventure",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33570",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33570,
+      "retrieved_at": "2026-09-20T03:37:36.213973+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "F 900 R",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33571",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33571,
+      "retrieved_at": "2026-09-20T03:37:36.213975+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "F 900 XR",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33572",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33572,
+      "retrieved_at": "2026-09-20T03:37:36.213977+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M 1000 XR",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33573",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33573,
+      "retrieved_at": "2026-09-20T03:37:36.213979+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M 1000 R",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33576",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33576,
+      "retrieved_at": "2026-09-20T03:37:36.213981+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "R 1300 GS",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33577",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33577,
+      "retrieved_at": "2026-09-20T03:37:36.213983+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "R 12",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-33578",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33578,
+      "retrieved_at": "2026-09-20T03:37:36.213985+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "R 12 nineT",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-34628",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 34628,
+      "retrieved_at": "2026-09-20T03:37:36.213986+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "550e",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-35419",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 35419,
+      "retrieved_at": "2026-09-20T03:37:36.213988+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "F 900 GS-P",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-35420",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 35420,
+      "retrieved_at": "2026-09-20T03:37:36.213989+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "R 1300 GS Adventure",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-452-36379",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 36379,
+      "retrieved_at": "2026-09-20T03:37:36.213991+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2025?format=json"
+    },
+    "model": "M235",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1710",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1710,
+      "retrieved_at": "2026-09-20T03:37:36.545755+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M3",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1714",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1714,
+      "retrieved_at": "2026-09-20T03:37:36.545773+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "X6",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1717",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1717,
+      "retrieved_at": "2026-09-20T03:37:36.545778+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "X5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1719",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1719,
+      "retrieved_at": "2026-09-20T03:37:36.545780+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "X3",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1720",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1720,
+      "retrieved_at": "2026-09-20T03:37:36.545782+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "740i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1725",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1725,
+      "retrieved_at": "2026-09-20T03:37:36.545784+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "Z4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1739",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1739,
+      "retrieved_at": "2026-09-20T03:37:36.545785+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "F 800 GS",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1742",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1742,
+      "retrieved_at": "2026-09-20T03:37:36.545788+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "S 1000 RR",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1752",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1752,
+      "retrieved_at": "2026-09-20T03:37:36.545790+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "K 1600 GT",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1753",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1753,
+      "retrieved_at": "2026-09-20T03:37:36.545791+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "K 1600 GTL",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-1759",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 1759,
+      "retrieved_at": "2026-09-20T03:37:36.545793+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "S 1000 R",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-2024",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2024,
+      "retrieved_at": "2026-09-20T03:37:36.545795+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-2300",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2300,
+      "retrieved_at": "2026-09-20T03:37:36.545797+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "X1",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-2585",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2585,
+      "retrieved_at": "2026-09-20T03:37:36.545799+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "530i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-2777",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2777,
+      "retrieved_at": "2026-09-20T03:37:36.545801+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "330i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-2804",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 2804,
+      "retrieved_at": "2026-09-20T03:37:36.545802+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "760i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-5195",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 5195,
+      "retrieved_at": "2026-09-20T03:37:36.545804+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "540i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-9567",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 9567,
+      "retrieved_at": "2026-09-20T03:37:36.545806+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M2",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-9570",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 9570,
+      "retrieved_at": "2026-09-20T03:37:36.545808+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-10045",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 10045,
+      "retrieved_at": "2026-09-20T03:37:36.545810+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "S 1000 XR",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-13825",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 13825,
+      "retrieved_at": "2026-09-20T03:37:36.545812+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "230i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-13826",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 13826,
+      "retrieved_at": "2026-09-20T03:37:36.545814+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M240i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-13827",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 13827,
+      "retrieved_at": "2026-09-20T03:37:36.545816+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "430i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-24940",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 24940,
+      "retrieved_at": "2026-09-20T03:37:36.545817+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "X2",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-25884",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 25884,
+      "retrieved_at": "2026-09-20T03:37:36.545819+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "X7",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-26481",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26481,
+      "retrieved_at": "2026-09-20T03:37:36.545821+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M340i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-26483",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26483,
+      "retrieved_at": "2026-09-20T03:37:36.545823+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "840i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-26484",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26484,
+      "retrieved_at": "2026-09-20T03:37:36.545824+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M850i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-26613",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26613,
+      "retrieved_at": "2026-09-20T03:37:36.545826+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "C 400 GT",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-26636",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 26636,
+      "retrieved_at": "2026-09-20T03:37:36.545827+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "K 1600 B",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-28100",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 28100,
+      "retrieved_at": "2026-09-20T03:37:36.545829+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M440i",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-29435",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 29435,
+      "retrieved_at": "2026-09-20T03:37:36.545831+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "CE 04",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-29578",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 29578,
+      "retrieved_at": "2026-09-20T03:37:36.545832+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "iX",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-29579",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 29579,
+      "retrieved_at": "2026-09-20T03:37:36.545834+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "i4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-30512",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 30512,
+      "retrieved_at": "2026-09-20T03:37:36.545836+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "i7",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-30516",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 30516,
+      "retrieved_at": "2026-09-20T03:37:36.545843+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "XM",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-32327",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 32327,
+      "retrieved_at": "2026-09-20T03:37:36.545844+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "750e",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-32328",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 32328,
+      "retrieved_at": "2026-09-20T03:37:36.545846+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "i5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33564",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33564,
+      "retrieved_at": "2026-09-20T03:37:36.545848+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "CE 02",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33568",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33568,
+      "retrieved_at": "2026-09-20T03:37:36.545850+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "F 900 GS",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33569",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33569,
+      "retrieved_at": "2026-09-20T03:37:36.545852+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "F 900 GS Adventure",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33570",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33570,
+      "retrieved_at": "2026-09-20T03:37:36.545854+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "F 900 R",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33571",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33571,
+      "retrieved_at": "2026-09-20T03:37:36.545855+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "F 900 XR",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33572",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33572,
+      "retrieved_at": "2026-09-20T03:37:36.545857+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M 1000 XR",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33573",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33573,
+      "retrieved_at": "2026-09-20T03:37:36.545859+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M 1000 R",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33574",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33574,
+      "retrieved_at": "2026-09-20T03:37:36.545861+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M 1000 RR",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33576",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33576,
+      "retrieved_at": "2026-09-20T03:37:36.545863+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "R 1300 GS",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33577",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33577,
+      "retrieved_at": "2026-09-20T03:37:36.545864+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "R 12",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-33578",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 33578,
+      "retrieved_at": "2026-09-20T03:37:36.545866+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "R 12 nineT",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-34628",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 34628,
+      "retrieved_at": "2026-09-20T03:37:36.545868+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "550e",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-35420",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 35420,
+      "retrieved_at": "2026-09-20T03:37:36.545869+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "R 1300 GS Adventure",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-35528",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 35528,
+      "retrieved_at": "2026-09-20T03:37:36.545871+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "228",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-36379",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 36379,
+      "retrieved_at": "2026-09-20T03:37:36.545873+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "M235",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-36591",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 36591,
+      "retrieved_at": "2026-09-20T03:37:36.545875+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "R 1300 RT",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-36592",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 36592,
+      "retrieved_at": "2026-09-20T03:37:36.545876+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "R 1300 R",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-36593",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 36593,
+      "retrieved_at": "2026-09-20T03:37:36.545878+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "R 1300 RS",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-452-36594",
+    "make": "BMW",
+    "metadata": {
+      "model_id": 36594,
+      "retrieved_at": "2026-09-20T03:37:36.545880+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2026?format=json"
+    },
+    "model": "R 12 G/S",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
   }
 ]

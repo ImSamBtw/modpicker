@@ -4009,5 +4009,173 @@
     "status": "active",
     "vehicle_id": "miata-1999",
     "vehicle_query": "miata-1999"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Hellwig",
+    "category": "Suspension",
+    "description": "For those who don't want (or aren't allowed) to run a rear bar. Keep in mind that installing a larger front sway bar without making any other changes will make the car more biased towards understeer.Includes brackets and polyurethane bushings. The bars have two holes for adjusting. 1\" solid. Note that the geometry of the 1990-93 and 1994-05 bars are different.",
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars",
+    "fitment_status": "unknown",
+    "id": "auto-6ac79d0c08c369675830",
+    "manufacturer_part_number": "13-36510 1999-05",
+    "name": "Flyin' Miata front sway bar (NB chassis)",
+    "official_url": "https://flyinmiata.com/products/front-fm-sway-bar-nb",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T03:37:34Z",
+      "price": 219.0,
+      "url": "https://flyinmiata.com/products/front-fm-sway-bar-nb",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "miata-1999"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Hellwig",
+    "category": "Suspension",
+    "description": "If for some reason, you only want to replace your rear bar - here it is. Keep in mind that installing a larger rear sway bar without making any other changes will make the car more biased towards oversteer.Includes new polyurethane bushings. You will reuse your stock brackets. 5/8\" (15.9mm) solid with three different stiffness settings. Fits all NA and NB Miatas.",
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars",
+    "fitment_status": "unknown",
+    "id": "auto-27dd7bcd83e0b681c200",
+    "manufacturer_part_number": "13-36520 1990-05",
+    "name": "Flyin' Miata rear sway bar (NA/NB chassis)",
+    "official_url": "https://flyinmiata.com/products/rear-fm-sway-bar-na-nb",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T03:37:34Z",
+      "price": 169.0,
+      "url": "https://flyinmiata.com/products/rear-fm-sway-bar-na-nb",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "miata-1999"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "V-Maxx",
+    "category": "Suspension",
+    "description": "Single replacement shock for V-Maxx XXtreme coilovers. The XXtreme shock has adjustable damping and a knob at the bottom, if yours doesn't have that you need the V-Maxx Classic. Shock and perch only, does not include the springs. This will be the latest design, so it may be slightly different than older production but it is fully compatible. These may be refurbished parts.\nFor owners of FM V-Maxx only. We cannot guarantee compatibility with V-Maxx suspension from overseas.\nMay or may not include spring slider, upper spring locator, bump stop, vent washer or top washer.",
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars",
+    "fitment_status": "unknown",
+    "id": "auto-1a095b2e615f87e52cd0",
+    "manufacturer_part_number": "W13-16910 NB FRONT",
+    "name": "Replacement V-Maxx XXtreme shock (front)",
+    "official_url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-shock-front",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T03:37:34Z",
+      "price": 249.0,
+      "url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-shock-front",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "miata-1999"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "V-Maxx",
+    "category": "Suspension",
+    "description": "Single replacement shock for V-Maxx XXtreme coilovers. The XXtreme shock has adjustable damping and a knob at the bottom, if yours doesn't have that you need the V-Maxx Classic. Shock and perch only, does not include the springs. This will be the latest design, so it may be slightly different than older production but it is fully compatible. These may be refurbished parts.\nFor owners of FM V-Maxx only. We cannot guarantee compatibility with V-Maxx suspension from overseas.\nMay or may not include spring slider, upper spring locator, bump stop, vent washer or top washer.",
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars",
+    "fitment_status": "unknown",
+    "id": "auto-fb1a11217b37d217ea8c",
+    "manufacturer_part_number": "W13-16910 NB REAR-R",
+    "name": "Replacement V-Maxx XXtreme shock (right rear)",
+    "official_url": "https://flyinmiata.com/products/replacement-v-maxx-xxtreme-shock-right-rear",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-20T03:37:35Z",
+      "price": 249.0,
+      "url": "https://flyinmiata.com/products/replacement-v-maxx-xxtreme-shock-right-rear",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "miata-1999"
   }
 ]
