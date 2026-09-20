@@ -101,10 +101,13 @@ def main():
     reviews=validate_records(sources,offers)
     sources_json=store.upsert('sources.json',sources); offers_json=store.upsert('offers.json',offers); review_json=store.upsert('review_queue.json',reviews)
     candidates_json=candidates; store.write('catalog_candidates.json',candidates_json); store.write('youtube_search_state.json',youtube.search_state)
-    history=store.read('price_history.json',[]); day=now_iso()[:10]; existing={(x.get('offer_id'),x.get('captured_at','')[:10]) for x in history}
+    history=store.read('price_history.json',[])
+    existing={(x.get('offer_id'),x.get('captured_at','')[:10]) for x in history}
     for o in offers_json:
-        if o.get('price') is not None and (o.get('id'),day) not in existing:
-            history.append({'id':f"{o['id']}:{day}",'offer_id':o['id'],'part_id':o.get('part_id'),'vendor':o.get('vendor'),'price':o.get('price'),'shipping':o.get('shipping'),'in_stock':o.get('in_stock'),'captured_at':now_iso()})
+        captured=o.get('retrieved_at') or now_iso(); captured_day=str(captured)[:10]
+        if o.get('price') is not None and (o.get('id'),captured_day) not in existing:
+            history.append({'id':f"{o['id']}:{captured_day}",'offer_id':o['id'],'part_id':o.get('part_id'),'vendor':o.get('vendor'),'price':o.get('price'),'shipping':o.get('shipping'),'in_stock':o.get('in_stock'),'captured_at':captured})
+            existing.add((o.get('id'),captured_day))
     history=history[-20000:]; store.write('price_history.json',history); store.write('catalog.json',parts)
     status=build_status(results,sources_json,offers_json,review_json,history,candidates_json,parts); store.write('status.json',status)
     from pipeline.export_js import export_js

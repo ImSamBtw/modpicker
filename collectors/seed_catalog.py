@@ -17,7 +17,7 @@ def observed_timestamp(value):
         return None
     text=str(value).strip()
     if len(text)==10:
-        return f'{text}T12:00:00Z'
+        return f'{text}T00:00:00Z'
     return text
 
 class SeedCatalogCollector(BaseCollector):
