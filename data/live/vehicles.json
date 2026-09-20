@@ -6829,5 +6829,275 @@
     ],
     "trim": "Unspecified",
     "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2017-473-2072",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2072,
+      "retrieved_at": "2026-09-20T04:10:10.152099+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2017?format=json"
+    },
+    "model": "MX-5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2017
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2017-473-2074",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2074,
+      "retrieved_at": "2026-09-20T04:10:10.152126+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2017?format=json"
+    },
+    "model": "Mazda3",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2017
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2017-473-2077",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2077,
+      "retrieved_at": "2026-09-20T04:10:10.152129+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2017?format=json"
+    },
+    "model": "CX-9",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2017
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2017-473-2078",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2078,
+      "retrieved_at": "2026-09-20T04:10:10.152132+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2017?format=json"
+    },
+    "model": "Mazda6",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2017
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2017-473-2153",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2153,
+      "retrieved_at": "2026-09-20T04:10:10.152135+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2017?format=json"
+    },
+    "model": "Mazda2",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2017
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2017-473-2369",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2369,
+      "retrieved_at": "2026-09-20T04:10:10.152137+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2017?format=json"
+    },
+    "model": "CX-5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2017
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2017-473-10202",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 10202,
+      "retrieved_at": "2026-09-20T04:10:10.152140+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2017?format=json"
+    },
+    "model": "CX-3",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2017
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2020-473-2072",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2072,
+      "retrieved_at": "2026-09-20T04:10:10.458006+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2020?format=json"
+    },
+    "model": "MX-5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2020-473-2074",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2074,
+      "retrieved_at": "2026-09-20T04:10:10.458032+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2020?format=json"
+    },
+    "model": "Mazda3",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2020-473-2077",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2077,
+      "retrieved_at": "2026-09-20T04:10:10.458035+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2020?format=json"
+    },
+    "model": "CX-9",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2020-473-2078",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2078,
+      "retrieved_at": "2026-09-20T04:10:10.458038+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2020?format=json"
+    },
+    "model": "Mazda6",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2020-473-2153",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2153,
+      "retrieved_at": "2026-09-20T04:10:10.458040+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2020?format=json"
+    },
+    "model": "Mazda2",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2020-473-2369",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2369,
+      "retrieved_at": "2026-09-20T04:10:10.458043+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2020?format=json"
+    },
+    "model": "CX-5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2020-473-10202",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 10202,
+      "retrieved_at": "2026-09-20T04:10:10.458045+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2020?format=json"
+    },
+    "model": "CX-3",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2020-473-26914",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 26914,
+      "retrieved_at": "2026-09-20T04:10:10.458048+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2020?format=json"
+    },
+    "model": "CX-30",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2020
   }
 ]
