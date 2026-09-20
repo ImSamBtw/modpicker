@@ -26,6 +26,8 @@
       <div class="vehicle-strip-inner">
         <div class="vehicle-title"><span class="eyebrow">Your garage</span><strong id="vehicleName">Select a vehicle</strong><div class="browse-mode" role="tablist" aria-label="Catalog scope"><button id="vehicleModeButton" class="mode-button active" role="tab" aria-selected="true">Car</button><button id="platformModeButton" class="mode-button" role="tab" aria-selected="false">Engine / platform</button></div></div>
         <div class="selection-controls">
+          <label class="application-search"><span>Find a car or engine</span><input id="applicationSearch" type="search" placeholder="e.g. Z3 2000, M52TU, Miata" autocomplete="off" aria-controls="applicationResults"></label>
+          <div id="applicationResults" class="application-results" hidden aria-live="polite"></div>
           <div id="vehicleSelectors" class="vehicle-selectors">
             <label><span>Make</span><select id="makeSelect"></select></label>
             <label><span>Model</span><select id="modelSelect"></select></label>

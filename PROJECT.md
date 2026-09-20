@@ -87,3 +87,7 @@ python -m pipeline.validate
 ```
 
 For UI changes, also run the browser smoke test described in `tests/browser-smoke.cjs` and inspect the mobile screenshot. GitHub Actions repeats the manual validation, unit tests, collection, publication gate, Supabase sync, and static-data commit.
+
+## Official configuration import
+
+See [DATA_IMPORTS.md](DATA_IMPORTS.md) for the EPA database import, source manifest, constrained compatibility rules, manual additions and remaining accuracy gates.

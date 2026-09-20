@@ -71,3 +71,22 @@ The initial platform families are intentionally scoped to exact curated applicat
 5. Re-run this review after the next data refresh and record any source degradation or UI regression.
 
 The refresh was published by GitHub Actions in commit `7bce626` on 2026-09-20. Its generated export contains `bmw-m52tu`, `mazda-bp-4w`, and `subaru-fa20`; the manual application IDs are present in the live vehicle file.
+
+## Iteration: official configurations and constrained compatibility
+
+| Finding | Action/status |
+|---|---|
+| Draft year/engine tables inferred engine codes and mixed model years with production years | Replaced draft expansion with imported official EPA configurations; only existing curated targets retain engine codes. |
+| Draft rules grouped different SKUs under one unrelated source URL | Removed; retained one checked product-specific range with its spring restriction. |
+| Manual-only products could match unspecified/automatic applications | Exact transmission constraints and negative regression coverage. |
+| Duplicate EPA configurations had identical selector labels | Keep source IDs, add distinguishing labels; do not collapse potentially different configurations. |
+| No direct car/engine search | Added keyboard-accessible search with bounded results and year narrowing. |
+| Platform parts vanished during build import if not mapped to selected vehicle | Preserve known part selections; fitment checks remain visible. |
+| Empty fitment update retained stale compatible vehicle IDs | Empty arrays now clear prior membership. |
+| Future-dated offers passed freshness filtering | Require nonnegative observation age. |
+| Fitment confidence could be increased by weaker evidence | Preserve the winning record's confidence. |
+| Database hydration could erase newer bundled fitment rules | Prefer explicit bundled fitments pending deployed ingestion parity. |
+
+See DATA_IMPORTS.md for source provenance, automated/manual workflows and remaining review items. No comprehensive fitment coverage or database deployment is claimed by this change.
+
+Validation for this iteration: 32 unit tests passed, publication validation passed, browser smoke passed (search, hierarchical selection, persistence, quantities/costs, Unicode sharing, import/undo, fitment restriction details, routes and mobile overflow). Mobile screenshot inspected. Snapshot: 96 parts, 505 vehicle records, 94 reference applications (91 official EPA configurations plus 3 curated targets), 4 browsing families, 24 range matches for the single reviewed product rule. This is an offline rebuild using existing price/source observations; it does not claim those observations were refreshed.

@@ -5,12 +5,31 @@
     "name": "M52TU",
     "display_name": "BMW M52TU",
     "type": "engine",
-    "aliases": ["M52TU", "M52TU B28", "M52TUB28", "M52B28TU"],
-    "vehicle_ids": ["z3-2000-28"],
-    "categories": ["Cooling", "Maintenance", "Intake", "Exhaust", "Drivetrain", "Forced Induction"],
+    "aliases": [
+      "M52TU",
+      "M52TU B28",
+      "M52TUB28",
+      "M52B28TU"
+    ],
+    "vehicle_ids": [
+      "z3-2000-28"
+    ],
+    "application_selector": {
+      "engine_family_id": "bmw-m52tu"
+    },
+    "categories": [
+      "Cooling",
+      "Maintenance",
+      "Intake",
+      "Exhaust",
+      "Drivetrain",
+      "Forced Induction"
+    ],
     "status": "active",
     "description": "Engine-family catalog for BMW M52TU applications represented by exact ModPicker fitment records. Platform results still require vehicle-specific confirmation.",
-    "source_urls": ["https://www.turnermotorsport.com/BMW-Z3"]
+    "source_urls": [
+      "https://www.turnermotorsport.com/BMW-Z3"
+    ]
   },
   {
     "id": "mazda-bp-4w",
@@ -18,12 +37,32 @@
     "name": "BP-4W 1.8L",
     "display_name": "Mazda BP-4W 1.8L",
     "type": "engine",
-    "aliases": ["BP-4W", "BP4W", "BP 1.8", "BP engine"],
-    "vehicle_ids": ["miata-1999"],
-    "categories": ["Cooling", "Maintenance", "Intake", "Exhaust", "Drivetrain", "Forced Induction"],
+    "aliases": [
+      "BP-4W",
+      "BP4W",
+      "BP 1.8",
+      "BP engine"
+    ],
+    "vehicle_ids": [
+      "miata-1999"
+    ],
+    "application_selector": {
+      "family_id": "mazda-nb",
+      "engine_family_id": "mazda-bp-4w"
+    },
+    "categories": [
+      "Cooling",
+      "Maintenance",
+      "Intake",
+      "Exhaust",
+      "Drivetrain",
+      "Forced Induction"
+    ],
     "status": "active",
     "description": "Engine-family catalog for Mazda BP-4W 1.8L applications represented by exact NB Miata records. Platform results still require vehicle-specific confirmation.",
-    "source_urls": ["https://flyinmiata.com/collections/nb-powertrain"]
+    "source_urls": [
+      "https://flyinmiata.com/collections/nb-powertrain"
+    ]
   },
   {
     "id": "subaru-fa20",
@@ -31,11 +70,68 @@
     "name": "FA20 2.0L",
     "display_name": "Subaru FA20 2.0L",
     "type": "engine",
-    "aliases": ["FA20", "FA20D", "FA20 2.0", "Toyota 4U-GSE"],
-    "vehicle_ids": ["brz-2017"],
-    "categories": ["Cooling", "Maintenance", "Intake", "Exhaust", "Drivetrain", "Forced Induction"],
+    "aliases": [
+      "FA20",
+      "FA20D",
+      "FA20 2.0",
+      "Toyota 4U-GSE"
+    ],
+    "vehicle_ids": [
+      "brz-2017"
+    ],
+    "application_selector": {
+      "family_id": "subaru-brz-zc6",
+      "engine_family_id": "subaru-fa20"
+    },
+    "categories": [
+      "Cooling",
+      "Maintenance",
+      "Intake",
+      "Exhaust",
+      "Drivetrain",
+      "Forced Induction"
+    ],
     "status": "active",
     "description": "Engine-family catalog for first-generation BRZ/86 FA20 applications represented by exact ModPicker fitment records. Platform results still require vehicle-specific confirmation.",
-    "source_urls": ["https://perrin.com/collections/engine"]
+    "source_urls": [
+      "https://perrin.com/collections/engine"
+    ]
+  },
+  {
+    "id": "bmw-z3",
+    "make": "BMW",
+    "name": "Z3",
+    "display_name": "BMW Z3 family",
+    "type": "chassis",
+    "aliases": [
+      "Z3",
+      "Z3 Roadster",
+      "Z3 Coupe"
+    ],
+    "vehicle_ids": [
+      "z3-2000-28"
+    ],
+    "application_selector": {
+      "family_id": "bmw-z3"
+    },
+    "categories": [
+      "Maintenance",
+      "Cooling",
+      "Brakes",
+      "Suspension",
+      "Chassis",
+      "Drivetrain",
+      "Wheels",
+      "Tires",
+      "Ignition",
+      "Intake",
+      "Exhaust",
+      "Forced Induction"
+    ],
+    "status": "active",
+    "description": "Z3 model family. Roadster, coupe, engine and production-date differences require individual fitment evidence.",
+    "source_urls": [
+      "https://www.realoem.com/bmw/enUS/options?code=L830A&series=Z3"
+    ]
   }
 ]

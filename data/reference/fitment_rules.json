@@ -1,0 +1,18 @@
+[
+  {
+    "id": "miata-koni-active-1999-2005",
+    "part_ids": [
+      "miata-koni-active"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "fitment_status": "probable",
+    "confidence": 0.8,
+    "source_url": "https://flyinmiata.com/products/koni-special-active-shock-set-1999-2005",
+    "source_kind": "product_fitment_range",
+    "notes": "Product lists 1999\u20132005. Incompatible with stock 2004\u201305 Mazdaspeed springs; EPA records do not establish spring configuration. Confirm springs and SKU 13-57220."
+  }
+]

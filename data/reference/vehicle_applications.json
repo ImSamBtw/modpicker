@@ -1,0 +1,71 @@
+[
+  {
+    "id": "z3-2000-28",
+    "year": 2000,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "2.8 Roadster",
+    "chassis": "E36/7",
+    "engine": "M52TU B28",
+    "drivetrain": "RWD",
+    "transmission": "5-speed manual",
+    "tags": [
+      "E36/7",
+      "M52TU",
+      "RWD",
+      "Manual"
+    ],
+    "metadata": {
+      "source": "manual_curated",
+      "fitment_status": "curated"
+    },
+    "family_id": "bmw-z3",
+    "engine_family_id": "bmw-m52tu"
+  },
+  {
+    "id": "miata-1999",
+    "year": 1999,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Base",
+    "chassis": "NB",
+    "engine": "BP-4W 1.8L",
+    "drivetrain": "RWD",
+    "transmission": "5-speed manual",
+    "tags": [
+      "NB",
+      "1.8L",
+      "RWD",
+      "Manual"
+    ],
+    "metadata": {
+      "source": "manual_curated",
+      "fitment_status": "curated"
+    },
+    "family_id": "mazda-nb",
+    "engine_family_id": "mazda-bp-4w"
+  },
+  {
+    "id": "brz-2017",
+    "year": 2017,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Limited",
+    "chassis": "ZC6",
+    "engine": "FA20 2.0L",
+    "drivetrain": "RWD",
+    "transmission": "6-speed manual",
+    "tags": [
+      "ZC6",
+      "FA20",
+      "RWD",
+      "Manual"
+    ],
+    "metadata": {
+      "source": "manual_curated",
+      "fitment_status": "curated"
+    },
+    "family_id": "subaru-brz-zc6",
+    "engine_family_id": "subaru-fa20"
+  }
+]

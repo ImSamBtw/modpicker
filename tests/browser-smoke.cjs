@@ -26,6 +26,8 @@ await page.locator('#platformModeButton').click();assert.equal(await page.locato
 await page.evaluate(async p=>{await importBuild(new File([JSON.stringify(p)],'build.json',{type:'application/json'}))},payload);assert.equal(await page.locator('#buildPartsTotal').textContent(),'$250');
 await page.evaluate(()=>{const p=part(state.build[0]);state.compare=[p.id];renderCompare()});
 for(const route of ['catalog','prices','rankings','compare','build'])await page.evaluate(r=>window.route(r,false),route);
+await page.locator('#applicationSearch').fill('M52TU');assert.ok(await page.locator('#applicationResults button').count()>0);await page.locator('#applicationSearch').fill('Z3 2000');assert.ok(await page.locator('#applicationResults button').count()>1);await page.locator('#applicationSearch').fill('');
+await page.evaluate(()=>{const p=part('miata-koni-active');const f=p.fitments.find(f=>f.vehicle_id.startsWith('epa-'));state.browseMode='vehicle';switchVehicle(f.vehicle_id);window.showPart(p.id)});assert.ok(await page.getByText(/Incompatible with stock|Incompatible|incompatible|Mazdaspeed/, {exact:false}).count()>0);await page.locator('#dialogClose').click();await page.evaluate(async p=>importBuild(new File([JSON.stringify(p)],'build.json',{type:'application/json'})),payload);
 await page.screenshot({path:'/tmp/modpicker-desktop.png',fullPage:true});await page.setViewportSize({width:390,height:844});
 assert.ok(await page.locator('.build-item .button.danger').isVisible(),'Mobile removal control must remain visible');
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);

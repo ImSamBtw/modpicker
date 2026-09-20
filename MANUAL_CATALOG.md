@@ -89,3 +89,7 @@ The vehicle collector rotates a bounded list in `config/vehicle_discovery.json`.
 ## Evidence rules
 
 Every source keeps its URL, source type, retrieval timestamp, and confidence. Product prices retain their observation date. A rating requires a matched product identity, a current aggregate rating, and a reported review count. A platform association helps discovery but cannot create exact fitment. Safety-critical specifications, torque values, and installation procedures need a primary manual or manufacturer source.
+
+## Official configuration import
+
+See [DATA_IMPORTS.md](DATA_IMPORTS.md) for the EPA database import, source manifest, constrained compatibility rules, manual additions and remaining accuracy gates.

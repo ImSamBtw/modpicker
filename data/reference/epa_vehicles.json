@@ -1,0 +1,2550 @@
+[
+  {
+    "id": "epa-12509",
+    "family_id": "bmw-z3",
+    "year": 1996,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 1.9L \u00b7 Automatic 4-spd",
+    "engine": "1.9L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/12509",
+      "source_id": "12509",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "1.9",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "(FFS)",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-12510",
+    "family_id": "bmw-z3",
+    "year": 1996,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 1.9L \u00b7 Manual 5-spd",
+    "engine": "1.9L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/12510",
+      "source_id": "12510",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "1.9",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "(FFS)",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-13257",
+    "family_id": "bmw-z3",
+    "year": 1997,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 1.9L \u00b7 Automatic 4-spd \u00b7 Engine configuration (EPA 13257)",
+    "engine": "1.9L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/13257",
+      "source_id": "13257",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "1.9",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "(FFS)",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-13258",
+    "family_id": "bmw-z3",
+    "year": 1997,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 1.9L \u00b7 Manual 5-spd \u00b7 Engine configuration (EPA 13258)",
+    "engine": "1.9L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/13258",
+      "source_id": "13258",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "1.9",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "(FFS)",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-29135",
+    "family_id": "bmw-z3",
+    "year": 1997,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 1.9L \u00b7 Automatic 4-spd \u00b7 Engine configuration (EPA 29135)",
+    "engine": "1.9L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/29135",
+      "source_id": "29135",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "1.9",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "(FFS)",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-29136",
+    "family_id": "bmw-z3",
+    "year": 1997,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 1.9L \u00b7 Manual 5-spd \u00b7 Engine configuration (EPA 29136)",
+    "engine": "1.9L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/29136",
+      "source_id": "29136",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "1.9",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "(FFS)",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-29137",
+    "family_id": "bmw-z3",
+    "year": 1997,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.8L \u00b7 Automatic 4-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/29137",
+      "source_id": "29137",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "(FFS)",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-29138",
+    "family_id": "bmw-z3",
+    "year": 1997,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.8L \u00b7 Manual 5-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/29138",
+      "source_id": "29138",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "(FFS)",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-13991",
+    "family_id": "bmw-z3",
+    "year": 1998,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 1.9L \u00b7 Automatic 4-spd",
+    "engine": "1.9L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/13991",
+      "source_id": "13991",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "1.9",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-13992",
+    "family_id": "bmw-z3",
+    "year": 1998,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 1.9L \u00b7 Manual 5-spd",
+    "engine": "1.9L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/13992",
+      "source_id": "13992",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "1.9",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-13993",
+    "family_id": "bmw-z3",
+    "year": 1998,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.8L \u00b7 Automatic 4-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/13993",
+      "source_id": "13993",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-13994",
+    "family_id": "bmw-z3",
+    "year": 1998,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.8L \u00b7 Manual 5-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/13994",
+      "source_id": "13994",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-14794",
+    "family_id": "bmw-z3",
+    "year": 1999,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Coupe \u00b7 2.8L \u00b7 Automatic 4-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/14794",
+      "source_id": "14794",
+      "source_model": "Z3 Coupe",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-14795",
+    "family_id": "bmw-z3",
+    "year": 1999,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Coupe \u00b7 2.8L \u00b7 Manual 5-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/14795",
+      "source_id": "14795",
+      "source_model": "Z3 Coupe",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-14796",
+    "family_id": "bmw-z3",
+    "year": 1999,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.5L \u00b7 Automatic 4-spd",
+    "engine": "2.5L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/14796",
+      "source_id": "14796",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.5",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-14797",
+    "family_id": "bmw-z3",
+    "year": 1999,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.5L \u00b7 Manual 5-spd",
+    "engine": "2.5L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/14797",
+      "source_id": "14797",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.5",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-14798",
+    "family_id": "bmw-z3",
+    "year": 1999,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.8L \u00b7 Automatic 4-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/14798",
+      "source_id": "14798",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-29160",
+    "family_id": "bmw-z3",
+    "year": 1999,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.8L \u00b7 Manual 5-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/29160",
+      "source_id": "29160",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "FFS",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-15592",
+    "family_id": "bmw-z3",
+    "year": 2000,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Coupe \u00b7 2.8L \u00b7 Automatic 4-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/15592",
+      "source_id": "15592",
+      "source_model": "Z3 Coupe",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-15593",
+    "family_id": "bmw-z3",
+    "year": 2000,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Coupe \u00b7 2.8L \u00b7 Manual 5-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/15593",
+      "source_id": "15593",
+      "source_model": "Z3 Coupe",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-15594",
+    "family_id": "bmw-z3",
+    "year": 2000,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.5L \u00b7 Automatic 4-spd",
+    "engine": "2.5L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/15594",
+      "source_id": "15594",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.5",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-15595",
+    "family_id": "bmw-z3",
+    "year": 2000,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.5L \u00b7 Manual 5-spd",
+    "engine": "2.5L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/15595",
+      "source_id": "15595",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.5",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-15596",
+    "family_id": "bmw-z3",
+    "year": 2000,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.8L \u00b7 Automatic 4-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/15596",
+      "source_id": "15596",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-15597",
+    "family_id": "bmw-z3",
+    "year": 2000,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.8L \u00b7 Manual 5-spd",
+    "engine": "2.8L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/15597",
+      "source_id": "15597",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.8",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-16431",
+    "family_id": "bmw-z3",
+    "year": 2001,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Coupe \u00b7 3.0L \u00b7 Manual 5-spd",
+    "engine": "3.0L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/16431",
+      "source_id": "16431",
+      "source_model": "Z3 Coupe",
+      "displacement_l": "3.0",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-16432",
+    "family_id": "bmw-z3",
+    "year": 2001,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Coupe \u00b7 3.0L \u00b7 Automatic (S5)",
+    "engine": "3.0L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S5)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/16432",
+      "source_id": "16432",
+      "source_model": "Z3 Coupe",
+      "displacement_l": "3.0",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-16433",
+    "family_id": "bmw-z3",
+    "year": 2001,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.5L \u00b7 Automatic 5-spd",
+    "engine": "2.5L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/16433",
+      "source_id": "16433",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.5",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-16434",
+    "family_id": "bmw-z3",
+    "year": 2001,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.5L \u00b7 Manual 5-spd",
+    "engine": "2.5L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/16434",
+      "source_id": "16434",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.5",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-16435",
+    "family_id": "bmw-z3",
+    "year": 2001,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 3.0L \u00b7 Manual 5-spd",
+    "engine": "3.0L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/16435",
+      "source_id": "16435",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "3.0",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-16436",
+    "family_id": "bmw-z3",
+    "year": 2001,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 3.0L \u00b7 Automatic (S5)",
+    "engine": "3.0L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S5)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/16436",
+      "source_id": "16436",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "3.0",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-17337",
+    "family_id": "bmw-z3",
+    "year": 2002,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Coupe \u00b7 3.0L \u00b7 Automatic 5-spd",
+    "engine": "3.0L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/17337",
+      "source_id": "17337",
+      "source_model": "Z3 Coupe",
+      "displacement_l": "3.0",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-17338",
+    "family_id": "bmw-z3",
+    "year": 2002,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Coupe \u00b7 3.0L \u00b7 Manual 5-spd",
+    "engine": "3.0L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/17338",
+      "source_id": "17338",
+      "source_model": "Z3 Coupe",
+      "displacement_l": "3.0",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-17339",
+    "family_id": "bmw-z3",
+    "year": 2002,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.5L \u00b7 Manual 5-spd",
+    "engine": "2.5L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/17339",
+      "source_id": "17339",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.5",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-17340",
+    "family_id": "bmw-z3",
+    "year": 2002,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 2.5L \u00b7 Automatic (S5)",
+    "engine": "2.5L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S5)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/17340",
+      "source_id": "17340",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "2.5",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-17341",
+    "family_id": "bmw-z3",
+    "year": 2002,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 3.0L \u00b7 Automatic 5-spd",
+    "engine": "3.0L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/17341",
+      "source_id": "17341",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "3.0",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-17342",
+    "family_id": "bmw-z3",
+    "year": 2002,
+    "make": "BMW",
+    "model": "Z3",
+    "trim": "Z3 Roadster \u00b7 3.0L \u00b7 Manual 5-spd",
+    "engine": "3.0L / 6 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/17342",
+      "source_id": "17342",
+      "source_model": "Z3 Roadster",
+      "displacement_l": "3.0",
+      "cylinders": "6",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-14805",
+    "family_id": "mazda-nb",
+    "year": 1999,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Automatic 4-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/14805",
+      "source_id": "14805",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-14806",
+    "family_id": "mazda-nb",
+    "year": 1999,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 5-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/14806",
+      "source_id": "14806",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-29166",
+    "family_id": "mazda-nb",
+    "year": 1999,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 6-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/29166",
+      "source_id": "29166",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "FFS",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-15609",
+    "family_id": "mazda-nb",
+    "year": 2000,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Automatic 4-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/15609",
+      "source_id": "15609",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-15610",
+    "family_id": "mazda-nb",
+    "year": 2000,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 5-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/15610",
+      "source_id": "15610",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-15611",
+    "family_id": "mazda-nb",
+    "year": 2000,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 6-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/15611",
+      "source_id": "15611",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-16451",
+    "family_id": "mazda-nb",
+    "year": 2001,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Automatic 4-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/16451",
+      "source_id": "16451",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-16452",
+    "family_id": "mazda-nb",
+    "year": 2001,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 5-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/16452",
+      "source_id": "16452",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-16453",
+    "family_id": "mazda-nb",
+    "year": 2001,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 6-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/16453",
+      "source_id": "16453",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-17361",
+    "family_id": "mazda-nb",
+    "year": 2002,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Automatic 4-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/17361",
+      "source_id": "17361",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-17362",
+    "family_id": "mazda-nb",
+    "year": 2002,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 5-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/17362",
+      "source_id": "17362",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-17363",
+    "family_id": "mazda-nb",
+    "year": 2002,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 6-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/17363",
+      "source_id": "17363",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-18320",
+    "family_id": "mazda-nb",
+    "year": 2003,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Automatic 4-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/18320",
+      "source_id": "18320",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-18321",
+    "family_id": "mazda-nb",
+    "year": 2003,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 5-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/18321",
+      "source_id": "18321",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-18322",
+    "family_id": "mazda-nb",
+    "year": 2003,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 6-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/18322",
+      "source_id": "18322",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-19366",
+    "family_id": "mazda-nb",
+    "year": 2004,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Automatic 4-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/19366",
+      "source_id": "19366",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-19367",
+    "family_id": "mazda-nb",
+    "year": 2004,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 5-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/19367",
+      "source_id": "19367",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-19368",
+    "family_id": "mazda-nb",
+    "year": 2004,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 6-spd \u00b7 Engine configuration (EPA 19368)",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/19368",
+      "source_id": "19368",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-19369",
+    "family_id": "mazda-nb",
+    "year": 2004,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 6-spd \u00b7 Turbo (EPA 19369)",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/19369",
+      "source_id": "19369",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "T",
+      "engine_descriptor": "MIATA T/C",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-20488",
+    "family_id": "mazda-nb",
+    "year": 2005,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Automatic 4-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic 4-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/20488",
+      "source_id": "20488",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-20489",
+    "family_id": "mazda-nb",
+    "year": 2005,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 5-spd",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 5-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/20489",
+      "source_id": "20489",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-20490",
+    "family_id": "mazda-nb",
+    "year": 2005,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 6-spd \u00b7 Engine configuration (EPA 20490)",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/20490",
+      "source_id": "20490",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-20491",
+    "family_id": "mazda-nb",
+    "year": 2005,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "MX-5 Miata \u00b7 1.8L \u00b7 Manual 6-spd \u00b7 Turbo (EPA 20491)",
+    "engine": "1.8L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/20491",
+      "source_id": "20491",
+      "source_model": "MX-5 Miata",
+      "displacement_l": "1.8",
+      "cylinders": "4",
+      "turbo": "T",
+      "engine_descriptor": "MIATA T/C",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-32308",
+    "family_id": "scion-frs",
+    "year": 2013,
+    "make": "Scion",
+    "model": "FR-S",
+    "trim": "FR-S \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/32308",
+      "source_id": "32308",
+      "source_model": "FR-S",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-32309",
+    "family_id": "scion-frs",
+    "year": 2013,
+    "make": "Scion",
+    "model": "FR-S",
+    "trim": "FR-S \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/32309",
+      "source_id": "32309",
+      "source_model": "FR-S",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-34262",
+    "family_id": "scion-frs",
+    "year": 2014,
+    "make": "Scion",
+    "model": "FR-S",
+    "trim": "FR-S \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/34262",
+      "source_id": "34262",
+      "source_model": "FR-S",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-34263",
+    "family_id": "scion-frs",
+    "year": 2014,
+    "make": "Scion",
+    "model": "FR-S",
+    "trim": "FR-S \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/34263",
+      "source_id": "34263",
+      "source_model": "FR-S",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-34940",
+    "family_id": "scion-frs",
+    "year": 2015,
+    "make": "Scion",
+    "model": "FR-S",
+    "trim": "FR-S \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/34940",
+      "source_id": "34940",
+      "source_model": "FR-S",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-34941",
+    "family_id": "scion-frs",
+    "year": 2015,
+    "make": "Scion",
+    "model": "FR-S",
+    "trim": "FR-S \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/34941",
+      "source_id": "34941",
+      "source_model": "FR-S",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-36194",
+    "family_id": "scion-frs",
+    "year": 2016,
+    "make": "Scion",
+    "model": "FR-S",
+    "trim": "FR-S \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/36194",
+      "source_id": "36194",
+      "source_model": "FR-S",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-36195",
+    "family_id": "scion-frs",
+    "year": 2016,
+    "make": "Scion",
+    "model": "FR-S",
+    "trim": "FR-S \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/36195",
+      "source_id": "36195",
+      "source_model": "FR-S",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-32310",
+    "family_id": "subaru-brz-zc6",
+    "year": 2013,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/32310",
+      "source_id": "32310",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-32311",
+    "family_id": "subaru-brz-zc6",
+    "year": 2013,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/32311",
+      "source_id": "32311",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-34152",
+    "family_id": "subaru-brz-zc6",
+    "year": 2014,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/34152",
+      "source_id": "34152",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-34153",
+    "family_id": "subaru-brz-zc6",
+    "year": 2014,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/34153",
+      "source_id": "34153",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-34849",
+    "family_id": "subaru-brz-zc6",
+    "year": 2015,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/34849",
+      "source_id": "34849",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-34850",
+    "family_id": "subaru-brz-zc6",
+    "year": 2015,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/34850",
+      "source_id": "34850",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-36150",
+    "family_id": "subaru-brz-zc6",
+    "year": 2016,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/36150",
+      "source_id": "36150",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-36151",
+    "family_id": "subaru-brz-zc6",
+    "year": 2016,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/36151",
+      "source_id": "36151",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-37609",
+    "family_id": "subaru-brz-zc6",
+    "year": 2017,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/37609",
+      "source_id": "37609",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-37610",
+    "family_id": "subaru-brz-zc6",
+    "year": 2017,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/37610",
+      "source_id": "37610",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-39705",
+    "family_id": "subaru-brz-zc6",
+    "year": 2018,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/39705",
+      "source_id": "39705",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-39706",
+    "family_id": "subaru-brz-zc6",
+    "year": 2018,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/39706",
+      "source_id": "39706",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-40559",
+    "family_id": "subaru-brz-zc6",
+    "year": 2019,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/40559",
+      "source_id": "40559",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-40560",
+    "family_id": "subaru-brz-zc6",
+    "year": 2019,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/40560",
+      "source_id": "40560",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-41543",
+    "family_id": "subaru-brz-zc6",
+    "year": 2020,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/41543",
+      "source_id": "41543",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-41544",
+    "family_id": "subaru-brz-zc6",
+    "year": 2020,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "BRZ \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/41544",
+      "source_id": "41544",
+      "source_model": "BRZ",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-37478",
+    "family_id": "toyota-86",
+    "year": 2017,
+    "make": "Toyota",
+    "model": "86",
+    "trim": "86 \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/37478",
+      "source_id": "37478",
+      "source_model": "86",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-37529",
+    "family_id": "toyota-86",
+    "year": 2017,
+    "make": "Toyota",
+    "model": "86",
+    "trim": "86 \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/37529",
+      "source_id": "37529",
+      "source_model": "86",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-39813",
+    "family_id": "toyota-86",
+    "year": 2018,
+    "make": "Toyota",
+    "model": "86",
+    "trim": "86 \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/39813",
+      "source_id": "39813",
+      "source_model": "86",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-39814",
+    "family_id": "toyota-86",
+    "year": 2018,
+    "make": "Toyota",
+    "model": "86",
+    "trim": "86 \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/39814",
+      "source_id": "39814",
+      "source_model": "86",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-40525",
+    "family_id": "toyota-86",
+    "year": 2019,
+    "make": "Toyota",
+    "model": "86",
+    "trim": "86 \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/40525",
+      "source_id": "40525",
+      "source_model": "86",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-40526",
+    "family_id": "toyota-86",
+    "year": 2019,
+    "make": "Toyota",
+    "model": "86",
+    "trim": "86 \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/40526",
+      "source_id": "40526",
+      "source_model": "86",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-41949",
+    "family_id": "toyota-86",
+    "year": 2020,
+    "make": "Toyota",
+    "model": "86",
+    "trim": "86 \u00b7 2.0L \u00b7 Automatic (S6)",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Automatic (S6)",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/41949",
+      "source_id": "41949",
+      "source_model": "86",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  },
+  {
+    "id": "epa-41950",
+    "family_id": "toyota-86",
+    "year": 2020,
+    "make": "Toyota",
+    "model": "86",
+    "trim": "86 \u00b7 2.0L \u00b7 Manual 6-spd",
+    "engine": "2.0L / 4 cylinders",
+    "chassis": "Not specified",
+    "transmission": "Manual 6-spd",
+    "drivetrain": "Rear-Wheel Drive",
+    "market": "US",
+    "tags": [
+      "EPA configuration",
+      "Engine code not established"
+    ],
+    "metadata": {
+      "source": "FuelEconomy.gov",
+      "source_url": "https://www.fueleconomy.gov/ws/rest/vehicle/41950",
+      "source_id": "41950",
+      "source_model": "86",
+      "displacement_l": "2.0",
+      "cylinders": "4",
+      "turbo": "",
+      "engine_descriptor": "SIDI & PFI",
+      "fitment_status": "not_established"
+    }
+  }
+]

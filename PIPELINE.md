@@ -20,3 +20,7 @@ Sources are opt-in, robots-aware, bounded and cached. Failed fetches do not bypa
 `config/platforms.json` and `data/manual/platforms.json` define engine or chassis groups, aliases, the exact vehicle application records they cover, and category allow-lists. The pipeline exports these records into `pipeline-data.js`. The browser uses them for platform browsing while continuing to display exact fitment status per selected application.
 
 Manual inputs are validated before collection. The workflow fails before publication when a manual record references an unknown vehicle, has an invalid URL, or includes a hand-entered ranking.
+
+## Official configuration import
+
+See [DATA_IMPORTS.md](DATA_IMPORTS.md) for the EPA database import, source manifest, constrained compatibility rules, manual additions and remaining accuracy gates.

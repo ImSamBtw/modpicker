@@ -15,9 +15,12 @@ function apply(rows,vehicles=[],platforms=[]){
   if(!p){p={id:row.id,vehicles:[],requires:[],conflicts:[],recommended:[],tags:[],goalTags:[],evidence:[]};data.parts.push(p)}
   for(const [target,key] of [['brand','brand'],['name','name'],['category','category'],['summary','description']])if(row[key])p[target]=text(row[key]);
   p.brand||='Unknown brand';p.category||='Other';p.summary||='Product information awaiting verification.';
-  if(row.vehicle_id&&!p.vehicles.includes(row.vehicle_id))p.vehicles.push(row.vehicle_id);
-  if(row.fitments)p.vehicles=[...new Set(row.fitments.map(x=>x.vehicle_id))];
-  p.fitments=row.fitments||[{vehicle_id:row.vehicle_id,fitment_status:row.fitment_status||'unknown',source_url:row.fitment_source_url}];
+  const fitments=Array.isArray(row.fitments)?row.fitments.filter(x=>x&&x.vehicle_id).map(x=>({...x,vehicle_id:String(x.vehicle_id),source_url:url(x.source_url||x.fitment_source_url)})):[];
+  if(row.vehicle_id&&!p.vehicles.includes(String(row.vehicle_id)))p.vehicles.push(String(row.vehicle_id));
+  if(Array.isArray(row.fitments))p.vehicles=[...new Set(fitments.map(x=>x.vehicle_id))];
+  p.fitments=fitments.length?fitments:(row.vehicle_id?[{vehicle_id:String(row.vehicle_id),fitment_status:row.fitment_status||'unknown',source_url:url(row.fitment_source_url),confidence:Number(row.fitment_confidence??0.5),source_kind:'legacy_part_record'}]:[]);
+  p.fitmentSummary=row.fitment_summary||null;
+  p.platform_ids=Array.isArray(row.platform_ids)?row.platform_ids.map(String):[];
   p.fitment='Confirm exact vehicle, trim, engine and part number with the linked source.';
   p.officialUrl=url(row.official_url);p.mpn=text(row.manufacturer_part_number||'');
   p.install=row.install||null;p.powerImpact=null;p.pros=[];p.cons=[];

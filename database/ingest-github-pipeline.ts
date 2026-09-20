@@ -37,7 +37,7 @@ Deno.serve(async(req)=>{
     const claims=await verifyGithub(req);
     const body=await req.json();
     const catalog=Array.isArray(body.parts)?body.parts:[];
-    const parts=catalog.filter((p:any)=>p?.id&&p?.brand&&p?.name&&p?.vehicle_id&&p?.category);
+    const parts=catalog.filter((p:any)=>p?.id&&p?.brand&&p?.name&&p?.category);
     const candidates=Array.isArray(body.candidates)?body.candidates:[];
     const vehicles=Array.isArray(body.vehicles)?body.vehicles:[];
     const rawSources=Array.isArray(body.sources)?body.sources:[];
@@ -70,12 +70,19 @@ Deno.serve(async(req)=>{
         metadata:{catalog_seed:!p.auto_discovered,auto_discovered:!!p.auto_discovered,install:p.install??null,goals:p.goals??[],vehicle_query:p.vehicle_query??null,fitment_status:p.fitment_status??'unknown'}
       }));
       await adminFetch('parts?on_conflict=id',{method:'POST',headers:{Prefer:'resolution=merge-duplicates'},body:JSON.stringify(partRows)});
-      const fitRows=parts.map((p:any)=>({
-        part_id:p.id,vehicle_id:p.vehicle_id,fitment_status:p.fitment_status||'unknown',
-        confidence:Number(p.fitment_confidence??0.5),notes:p.description??null,source_url:p.fitment_source_url??p.official_url??null,
-        metadata:{catalog_seed:true,vehicle_query:p.vehicle_query??null},updated_at:now
-      }));
-      await adminFetch('part_fitments?on_conflict=part_id,vehicle_id',{method:'POST',headers:{Prefer:'resolution=merge-duplicates'},body:JSON.stringify(fitRows)});
+      const fitRows:any[]=[];
+      for(const p of parts){
+        const fits=Array.isArray(p.fitments)&&p.fitments.length?p.fitments:[{vehicle_id:p.vehicle_id,fitment_status:p.fitment_status,confidence:p.fitment_confidence,source_url:p.fitment_source_url,source_kind:'legacy_part_record'}];
+        for(const fit of fits){
+          if(!fit?.vehicle_id)continue;
+          fitRows.push({
+            part_id:p.id,vehicle_id:fit.vehicle_id,fitment_status:fit.fitment_status||'unknown',
+            confidence:Number(fit.confidence??p.fitment_confidence??0.5),notes:fit.notes??p.description??null,source_url:fit.source_url??p.fitment_source_url??p.official_url??null,
+            metadata:{catalog_seed:!p.auto_discovered,vehicle_query:p.vehicle_query??null,rule_id:fit.rule_id??null,source_kind:fit.source_kind??null},updated_at:now
+          });
+        }
+      }
+      if(fitRows.length)await adminFetch('part_fitments?on_conflict=part_id,vehicle_id',{method:'POST',headers:{Prefer:'resolution=merge-duplicates'},body:JSON.stringify(fitRows)});
       const scoreRows=catalog.filter((p:any)=>p.ranking?.methodology_version==='published_reviews_v2').map((p:any)=>({
         part_id:p.id,overall:p.ranking.overall??null,quality:p.ranking.quality??null,reliability:p.ranking.reliability??null,
         performance:p.ranking.performance??null,handling:p.ranking.handling??null,value:p.ranking.value??null,
@@ -111,4 +118,3 @@ Deno.serve(async(req)=>{
     return reply({ok:true,parts:parts.length,candidates:candidates.length,sources:sources.length,offers:offers.length,run_id:claims.run_id});
   }catch(e){console.error(String(e));return reply({ok:false,error:'Authentication or ingestion failed; inspect function logs.'},400)}
 });
-
