@@ -48,6 +48,8 @@
       "enabled": true,
       "fresh_parts_skipped": 11,
       "max_searches": 25,
+      "quota_cooldown_active": true,
+      "quota_cooldown_hours": 12,
       "quota_stopped": true,
       "refresh_days": 7,
       "search_calls": 1,
@@ -66,7 +68,7 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T02:18:27Z",
+  "generated_at": "2026-09-20T02:23:49Z",
   "offer_count": 33,
   "ok": true,
   "price_history_count": 33,
