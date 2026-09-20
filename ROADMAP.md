@@ -14,7 +14,7 @@ The output is a practical plan with fitment status, prerequisites, alternatives,
 
 ## Priority 1 — Garage profile and ownership context
 
-**Status: implementation started.**
+**Status: active prototype.**
 
 - [x] Add a first Garage route to the static application.
 - [x] Store a separate profile for each selected vehicle in the browser prototype.
@@ -22,13 +22,14 @@ The output is a practical plan with fitment status, prerequisites, alternatives,
 - [x] Capture recommendation preferences such as reliability priority, comfort priority, noise tolerance, budget and target power increase.
 - [x] Support a small local photo gallery for the current vehicle.
 - [x] Expose a structured recommendation-context object for future AI or deterministic recommendation engines.
+- [x] Add browser coverage for profile persistence and navigation.
 - [ ] Move profiles and media to authenticated Supabase storage after account/privacy behavior is defined.
 - [ ] Add multiple owned vehicles independent of the catalog selector.
 - [ ] Add privacy controls for public/private build information.
 
 ## Priority 2 — Maintenance tracker and vehicle history
 
-**Status: implementation started.**
+**Status: active prototype.**
 
 - [x] Add maintenance-item records per vehicle.
 - [x] Add due mileage/date calculations when the user provides an interval and last-service information.
@@ -36,6 +37,7 @@ The output is a practical plan with fitment status, prerequisites, alternatives,
 - [x] Add a common-service starter checklist that leaves vehicle-specific intervals/specifications unverified.
 - [x] Add diagnostic-code history records.
 - [x] Add receipt/purchase metadata records and a copyable maintenance-history report.
+- [x] Add browser tests for due-status calculations, codes, receipts and persistence.
 - [ ] Import OEM service intervals, fluid types and capacities from licensed/public authoritative sources.
 - [ ] Auto-create maintenance tasks from those sourced specifications.
 - [ ] Add notification delivery for due maintenance.
@@ -45,9 +47,20 @@ The output is a practical plan with fitment status, prerequisites, alternatives,
 
 ## Priority 3 — Interchangeable parts across makes and models
 
+**Status: first reviewed pilot implemented.**
+
 Create a first-class **interchange group** separate from ordinary fitment. A shared steering wheel, brake caliper, sensor, transmission, engine accessory or OEM component can therefore be discovered on a different make/model without pretending every member has identical installation requirements.
 
-Planned data contract:
+- [x] Add a reviewable interchange-group data contract separate from fitment rules.
+- [x] Add automated validation that interchange part IDs and evidence are reviewable.
+- [x] Add the first cross-make pilot for PERRIN PSP-BRK-406BK across documented BRZ / FR-S / 86 / GR86 applications.
+- [x] Show reviewed shared applications and constraints in part details without mutating exact fitment.
+- [ ] Expand to OEM/shared components where donor pricing can materially differ by make/model listing.
+- [ ] Add normalized donor listing price comparison and a “cheaper donor application” view.
+- [ ] Add modification-required and adapter-required examples.
+- [ ] Add community submission flow with moderator/evidence review.
+
+Data contract includes:
 
 - canonical component/interchange group ID
 - manufacturer/OE part numbers and supersessions
@@ -58,13 +71,6 @@ Planned data contract:
 - required adapters or supporting parts
 - evidence source and retrieval date
 - community-confirmed examples kept separate from manufacturer/catalog evidence
-
-UI goals:
-
-- “Also found on” and “Cheaper donor application” sections on part details
-- price comparison across donor applications
-- clear warnings when interchange requires modification
-- community submission flow with moderator/evidence review
 
 The normal exact-fitment engine must never infer interchange merely because two applications share a platform or engine family.
 
@@ -82,6 +88,8 @@ Extend the existing Engine / platform mode into a real swap/build workspace.
 
 ## Priority 5 — Goal-driven build generation
 
+**Status: deterministic starter planner implemented; evidence-aware optimizer remains future work.**
+
 Examples:
 
 - “I want about 100 more horsepower, reliably, on a budget.”
@@ -93,11 +101,13 @@ Planner constraints should include budget, target output, reliability, emissions
 
 Implementation stages:
 
-1. deterministic category/constraint planning using current catalog fields;
-2. evidence-backed performance ranges from dyno/manufacturer/test sources;
-3. prerequisite/conflict graph;
-4. optimizer that proposes multiple complete build sheets rather than one opaque answer;
-5. AI explanation layer that cites the underlying records and user preferences.
+1. [x] deterministic category/constraint planning using current catalog fields, exact source-listed fitment and observed price;
+2. [ ] evidence-backed performance ranges from dyno/manufacturer/test sources;
+3. [ ] prerequisite/conflict graph;
+4. [ ] optimizer that proposes multiple complete build sheets rather than one opaque answer;
+5. [ ] AI explanation layer that cites the underlying records and user preferences.
+
+The current starter planner preserves existing build items, uses the Garage budget and goal, selects at most one new part per category, and does not interpret the target-horsepower field as an additive power calculation.
 
 Do not resurrect unsupported additive horsepower totals. Power targets require measured or otherwise sourced configuration evidence.
 
@@ -168,13 +178,22 @@ Architecture goal: support ModPicker-hosted inference as an optional provider wh
 
 **Ongoing.**
 
-- simplify the home page and reduce simultaneous controls;
-- elevate “Garage”, “Find parts”, “Plan a build” and “Maintenance” as the primary jobs;
-- move advanced filters behind secondary controls on small screens;
-- use vehicle graphics and opt-in community-submitted images;
-- make exact vehicle / platform / build context persistent and obvious;
-- keep evidence and fitment warnings visible but less repetitive;
-- continue mobile-first overflow and keyboard checks.
+- [ ] simplify the home page and reduce simultaneous controls;
+- [x] elevate Garage and build planning into primary navigation/workflows;
+- [ ] move advanced filters behind secondary controls on small screens;
+- [ ] use vehicle graphics and opt-in community-submitted images;
+- [x] keep exact vehicle / platform / build context persistent and obvious;
+- [x] keep evidence and fitment warnings visible without allowing uncertainty to silently become compatibility;
+- [x] continue mobile overflow checks in automated browser testing.
+
+## Testing and release quality
+
+- [x] Keep deterministic Python catalog/unit tests.
+- [x] Add pull-request JavaScript syntax checks.
+- [x] Add pull-request Playwright smoke tests rather than relying only on manual browser checks.
+- [x] Cover Garage profile persistence, maintenance calculations, codes, receipts, starter planning and interchange UI in browser smoke tests.
+- [ ] Add accessibility checks and keyboard-only regression tests.
+- [ ] Add screenshot artifacts for failed browser checks.
 
 ## Naming track
 
@@ -198,9 +217,9 @@ Before a rename, run domain, app-store, search-confusion and trademark screening
 
 ## Implementation order
 
-1. Finish Garage/profile and maintenance UX, tests and data export.
-2. Add a reviewed interchange-group schema and one small real-world pilot family.
-3. Add goal/build-plan input and deterministic prerequisite planning.
+1. Finish Garage/profile and maintenance UX, tests and data export. **Prototype coverage substantially complete; account/media work remains.**
+2. Add a reviewed interchange-group schema and one small real-world pilot family. **First pilot complete; expand donor-price use cases next.**
+3. Add goal/build-plan input and deterministic prerequisite planning. **Starter planner complete; prerequisite/conflict graph is next.**
 4. Add sourced maintenance specifications for the first deep vehicle families.
 5. Add forum/community evidence normalization and cached consensus summaries.
 6. Add eBay/used-listing adapter.
