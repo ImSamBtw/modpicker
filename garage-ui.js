@@ -13,7 +13,7 @@ const section=document.createElement('section');section.id='garageView';section.
   </div>
   <div class="garage-hero-card">
     <div class="garage-hero-main"><div class="garage-vehicle-icon">MY CAR</div><div class="garage-hero-copy"><span class="eyebrow">Current vehicle</span><h2 id="garageVehicleTitle">Selected vehicle</h2><p id="garageVehicleMeta"></p></div></div>
-    <div class="garage-profile-meter"><span class="eyebrow">Recommendation context</span><strong id="garageProfileCompleteness">0% context complete</strong><p>More context lets future recommendations avoid parts that conflict with your real car, preferences or maintenance needs.</p></div>
+    <div class="garage-profile-meter"><span class="eyebrow">Recommendation context</span><strong id="garageProfileCompleteness">0% context complete</strong><p>More context lets recommendations avoid parts that conflict with your real car, preferences or maintenance needs.</p></div>
   </div>
   <div class="garage-grid">
     <div class="garage-main-column">
@@ -67,11 +67,12 @@ const section=document.createElement('section');section.id='garageView';section.
       </section>
       <section class="garage-card garage-context-card">
         <span class="eyebrow">Build planner input</span><h3>Recommendation context</h3><div id="garageRecommendationSummary" class="garage-context-summary"></div>
-        <div class="garage-context-actions"><button id="applyGarageContext" class="button primary" type="button">Apply goal to parts catalog</button></div>
-        <p class="garage-note">The current button only applies the structured goal to deterministic catalog sorting. Full AI build generation will consume the complete context after performance/prerequisite evidence is added.</p>
+        <div class="garage-context-actions"><button id="generateBuildPlan" class="button primary" type="button">Generate starter build</button><button id="applyGarageContext" class="button secondary" type="button">Apply goal to parts catalog</button></div>
+        <div id="garagePlanResult"></div>
+        <p class="garage-note">Starter builds use deterministic catalog rules: source-listed fitment, current observed prices, one part per category and the Garage budget/goal. Existing build items are kept. Power targets are not treated as additive horsepower claims.</p>
         <details><summary>Developer context preview</summary><pre id="garageContextPreview" class="garage-context-preview"></pre></details>
       </section>
-      <section class="garage-card"><span class="eyebrow">Next garage stages</span><h3>Already in the roadmap</h3><ul class="garage-roadmap-list"><li>sourced OEM intervals, fluids and capacities</li><li>receipt image/PDF + email imports</li><li>cross-make interchange groups</li><li>goal-generated build sheets</li><li>community/forum consensus</li><li>used listings and local shops</li></ul></section>
+      <section class="garage-card"><span class="eyebrow">Next garage stages</span><h3>Already in the roadmap</h3><ul class="garage-roadmap-list"><li>sourced OEM intervals, fluids and capacities</li><li>receipt image/PDF + email imports</li><li>expanded cross-make interchange groups</li><li>prerequisite/conflict-aware build optimization</li><li>community/forum consensus</li><li>used listings and local shops</li></ul></section>
     </aside>
   </div>`;
 main.appendChild(section);
