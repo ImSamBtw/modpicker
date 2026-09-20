@@ -50,6 +50,7 @@ flowchart TD
 
 - A model-year discovery result does not create engine, trim, or part fitment.
 - Platform membership does not create exact fitment.
+- A reviewed fitment rule is re-evaluated against every exact application on every refresh. Shared-platform parts therefore follow newly imported years automatically when the new application carries the same family/engine/body/transmission attributes; generated fitment arrays are never hand-maintained.
 - A product rating requires exact product identity, a current aggregate rating, a reported review count, source URL, and retrieval date.
 - Prices must be direct USD observations tied to an identified product. Search pages and unmatched marketplace results are excluded.
 - Safety-critical specifications and installation procedures need a primary manual or manufacturer source.
@@ -64,6 +65,7 @@ flowchart TD
 - Added manual catalog validation and documented automated/manual contribution paths.
 - Kept evidence-backed scoring and explicit unrated states throughout car and platform views.
 - Added browser coverage for multi-level selection, platform scope, build persistence, sharing, details, routes, and mobile layout.
+- Added evidence-backed multi-year Z3 rules, including engine/transmission constraints and automatic expansion for future imported applications.
 
 ### Next priorities
 

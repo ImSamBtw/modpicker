@@ -1650,12 +1650,230 @@
     "fitment_source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
+      "application_count": 25,
       "probable_count": 0,
-      "rule_ids": [],
-      "verified_count": 1
+      "rule_ids": [
+        "z3-mahle-expansion-tank-1999-2002-six-cylinder"
+      ],
+      "verified_count": 25
     },
     "fitments": [
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-14796"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-14797"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-15594"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-15595"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-16431"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-16432"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-16433"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-16434"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-16435"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-16436"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-17337"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-17338"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-17339"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-17340"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-17341"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-17342"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+        "rule_id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 1,
         "fitment_status": "verified",
@@ -1708,6 +1926,30 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "1999-2002 BMW Z3 2.8",
     "vehicles": [
+      "epa-14794",
+      "epa-14795",
+      "epa-14796",
+      "epa-14797",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15594",
+      "epa-15595",
+      "epa-15596",
+      "epa-15597",
+      "epa-16431",
+      "epa-16432",
+      "epa-16433",
+      "epa-16434",
+      "epa-16435",
+      "epa-16436",
+      "epa-17337",
+      "epa-17338",
+      "epa-17339",
+      "epa-17340",
+      "epa-17341",
+      "epa-17342",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -1719,12 +1961,230 @@
     "fitment_source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
+      "application_count": 25,
       "probable_count": 0,
-      "rule_ids": [],
-      "verified_count": 1
+      "rule_ids": [
+        "z3-cooling-overhaul-1999-2002-six-cylinder"
+      ],
+      "verified_count": 25
     },
     "fitments": [
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-14796"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-14797"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-15594"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-15595"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-16431"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-16432"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-16433"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-16434"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-16435"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-16436"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-17337"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-17338"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-17339"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-17340"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-17341"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-17342"
+      },
+      {
+        "confidence": 1,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+        "rule_id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 1,
         "fitment_status": "verified",
@@ -1777,6 +2237,30 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "1999-2002 BMW Z3 2.8 M52TU",
     "vehicles": [
+      "epa-14794",
+      "epa-14795",
+      "epa-14796",
+      "epa-14797",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15594",
+      "epa-15595",
+      "epa-15596",
+      "epa-15597",
+      "epa-16431",
+      "epa-16432",
+      "epa-16433",
+      "epa-16434",
+      "epa-16435",
+      "epa-16436",
+      "epa-17337",
+      "epa-17338",
+      "epa-17339",
+      "epa-17340",
+      "epa-17341",
+      "epa-17342",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -4127,12 +4611,320 @@
     "fitment_source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
+      "application_count": 35,
       "probable_count": 0,
-      "rule_ids": [],
-      "verified_count": 1
+      "rule_ids": [
+        "z3-turner-brake-lines-1997-2002"
+      ],
+      "verified_count": 35
     },
     "fitments": [
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-13257"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-13258"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-13991"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-13992"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-13993"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-13994"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-14796"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-14797"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-15594"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-15595"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-16431"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-16432"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-16433"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-16434"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-16435"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-16436"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-17337"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-17338"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-17339"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-17340"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-17341"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-17342"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-29135"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-29136"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-29137"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-29138"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+        "rule_id": "z3-turner-brake-lines-1997-2002",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.99,
         "fitment_status": "verified",
@@ -4186,6 +4978,40 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "2000 BMW Z3 2.8",
     "vehicles": [
+      "epa-13257",
+      "epa-13258",
+      "epa-13991",
+      "epa-13992",
+      "epa-13993",
+      "epa-13994",
+      "epa-14794",
+      "epa-14795",
+      "epa-14796",
+      "epa-14797",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15594",
+      "epa-15595",
+      "epa-15596",
+      "epa-15597",
+      "epa-16431",
+      "epa-16432",
+      "epa-16433",
+      "epa-16434",
+      "epa-16435",
+      "epa-16436",
+      "epa-17337",
+      "epa-17338",
+      "epa-17339",
+      "epa-17340",
+      "epa-17341",
+      "epa-17342",
+      "epa-29135",
+      "epa-29136",
+      "epa-29137",
+      "epa-29138",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -4197,12 +5023,230 @@
     "fitment_source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
+      "application_count": 25,
       "probable_count": 0,
-      "rule_ids": [],
-      "verified_count": 1
+      "rule_ids": [
+        "z3-lower-radiator-hose-1999-2002-six-cylinder"
+      ],
+      "verified_count": 25
     },
     "fitments": [
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-14796"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-14797"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-15594"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-15595"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-16431"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-16432"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-16433"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-16434"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-16435"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-16436"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-17337"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-17338"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-17339"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-17340"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-17341"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-17342"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 1,
         "fitment_status": "verified",
@@ -4255,6 +5299,30 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "1999-2002 BMW Z3 2.8",
     "vehicles": [
+      "epa-14794",
+      "epa-14795",
+      "epa-14796",
+      "epa-14797",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15594",
+      "epa-15595",
+      "epa-15596",
+      "epa-15597",
+      "epa-16431",
+      "epa-16432",
+      "epa-16433",
+      "epa-16434",
+      "epa-16435",
+      "epa-16436",
+      "epa-17337",
+      "epa-17338",
+      "epa-17339",
+      "epa-17340",
+      "epa-17341",
+      "epa-17342",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -4266,12 +5334,230 @@
     "fitment_source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
+      "application_count": 25,
       "probable_count": 0,
-      "rule_ids": [],
-      "verified_count": 1
+      "rule_ids": [
+        "z3-upper-radiator-hose-1999-2002-six-cylinder"
+      ],
+      "verified_count": 25
     },
     "fitments": [
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-14796"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-14797"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-15594"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-15595"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-16431"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-16432"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-16433"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-16434"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-16435"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-16436"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-17337"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-17338"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-17339"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-17340"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-17341"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-17342"
+      },
+      {
+        "confidence": 0.99,
+        "fitment_status": "verified",
+        "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+        "rule_id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 1,
         "fitment_status": "verified",
@@ -4323,6 +5609,30 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "1999-2002 BMW Z3 2.8",
     "vehicles": [
+      "epa-14794",
+      "epa-14795",
+      "epa-14796",
+      "epa-14797",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15594",
+      "epa-15595",
+      "epa-15596",
+      "epa-15597",
+      "epa-16431",
+      "epa-16432",
+      "epa-16433",
+      "epa-16434",
+      "epa-16435",
+      "epa-16436",
+      "epa-17337",
+      "epa-17338",
+      "epa-17339",
+      "epa-17340",
+      "epa-17341",
+      "epa-17342",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -4334,12 +5644,86 @@
     "fitment_source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
-      "probable_count": 0,
-      "rule_ids": [],
+      "application_count": 9,
+      "probable_count": 8,
+      "rule_ids": [
+        "z3-heater-inlet-pipe-1999-2002-2-8"
+      ],
       "verified_count": 1
     },
     "fitments": [
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Curated record identifies the M52TU/M54-era Z3 2.8 application. The shared product page spans several BMW chassis; confirm the current vehicle selector and production date.",
+        "rule_id": "z3-heater-inlet-pipe-1999-2002-2-8",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Curated record identifies the M52TU/M54-era Z3 2.8 application. The shared product page spans several BMW chassis; confirm the current vehicle selector and production date.",
+        "rule_id": "z3-heater-inlet-pipe-1999-2002-2-8",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Curated record identifies the M52TU/M54-era Z3 2.8 application. The shared product page spans several BMW chassis; confirm the current vehicle selector and production date.",
+        "rule_id": "z3-heater-inlet-pipe-1999-2002-2-8",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Curated record identifies the M52TU/M54-era Z3 2.8 application. The shared product page spans several BMW chassis; confirm the current vehicle selector and production date.",
+        "rule_id": "z3-heater-inlet-pipe-1999-2002-2-8",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Curated record identifies the M52TU/M54-era Z3 2.8 application. The shared product page spans several BMW chassis; confirm the current vehicle selector and production date.",
+        "rule_id": "z3-heater-inlet-pipe-1999-2002-2-8",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Curated record identifies the M52TU/M54-era Z3 2.8 application. The shared product page spans several BMW chassis; confirm the current vehicle selector and production date.",
+        "rule_id": "z3-heater-inlet-pipe-1999-2002-2-8",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Curated record identifies the M52TU/M54-era Z3 2.8 application. The shared product page spans several BMW chassis; confirm the current vehicle selector and production date.",
+        "rule_id": "z3-heater-inlet-pipe-1999-2002-2-8",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.88,
+        "fitment_status": "probable",
+        "notes": "Curated record identifies the M52TU/M54-era Z3 2.8 application. The shared product page spans several BMW chassis; confirm the current vehicle selector and production date.",
+        "rule_id": "z3-heater-inlet-pipe-1999-2002-2-8",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.99,
         "fitment_status": "verified",
@@ -4390,6 +5774,14 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "1999-2002 BMW Z3 2.8",
     "vehicles": [
+      "epa-14794",
+      "epa-14795",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15596",
+      "epa-15597",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -4462,12 +5854,122 @@
     "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
     "fitment_status": "probable",
     "fitment_summary": {
-      "application_count": 1,
-      "probable_count": 1,
-      "rule_ids": [],
+      "application_count": 13,
+      "probable_count": 13,
+      "rule_ids": [
+        "z3-turner-2-8-catalog-silicone-hoses"
+      ],
       "verified_count": 0
     },
     "fitments": [
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-13993"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-13994"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29137"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29138"
+      },
+      {
+        "confidence": 0.66,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+        "rule_id": "z3-turner-2-8-catalog-silicone-hoses",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.66,
         "fitment_status": "probable",
@@ -4511,6 +6013,18 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "BMW Z3 2.8",
     "vehicles": [
+      "epa-13993",
+      "epa-13994",
+      "epa-14794",
+      "epa-14795",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15596",
+      "epa-15597",
+      "epa-29137",
+      "epa-29138",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -4522,12 +6036,122 @@
     "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
     "fitment_status": "probable",
     "fitment_summary": {
-      "application_count": 1,
-      "probable_count": 1,
-      "rule_ids": [],
+      "application_count": 13,
+      "probable_count": 13,
+      "rule_ids": [
+        "z3-turner-2-8-catalog-stoptech-pads"
+      ],
       "verified_count": 0
     },
     "fitments": [
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-13993"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-13994"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29137"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29138"
+      },
+      {
+        "confidence": 0.77,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-stoptech-pads",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.77,
         "fitment_status": "probable",
@@ -4572,6 +6196,18 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "BMW Z3 2.8",
     "vehicles": [
+      "epa-13993",
+      "epa-13994",
+      "epa-14794",
+      "epa-14795",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15596",
+      "epa-15597",
+      "epa-29137",
+      "epa-29138",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -4583,12 +6219,122 @@
     "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
     "fitment_status": "probable",
     "fitment_summary": {
-      "application_count": 1,
-      "probable_count": 1,
-      "rule_ids": [],
+      "application_count": 13,
+      "probable_count": 13,
+      "rule_ids": [
+        "z3-turner-2-8-catalog-zimmerman-rotors"
+      ],
       "verified_count": 0
     },
     "fitments": [
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-13993"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-13994"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29137"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29138"
+      },
+      {
+        "confidence": 0.8,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-zimmerman-rotors",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.8,
         "fitment_status": "probable",
@@ -4633,6 +6379,18 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "BMW Z3 2.8",
     "vehicles": [
+      "epa-13993",
+      "epa-13994",
+      "epa-14794",
+      "epa-14795",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15596",
+      "epa-15597",
+      "epa-29137",
+      "epa-29138",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -4644,12 +6402,122 @@
     "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
     "fitment_status": "probable",
     "fitment_summary": {
-      "application_count": 1,
-      "probable_count": 1,
-      "rule_ids": [],
+      "application_count": 13,
+      "probable_count": 13,
+      "rule_ids": [
+        "z3-turner-2-8-catalog-goodridge-lines"
+      ],
       "verified_count": 0
     },
     "fitments": [
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-13993"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-13994"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29137"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29138"
+      },
+      {
+        "confidence": 0.74,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+        "rule_id": "z3-turner-2-8-catalog-goodridge-lines",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.74,
         "fitment_status": "probable",
@@ -4693,6 +6561,18 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "BMW Z3 2.8",
     "vehicles": [
+      "epa-13993",
+      "epa-13994",
+      "epa-14794",
+      "epa-14795",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15596",
+      "epa-15597",
+      "epa-29137",
+      "epa-29138",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -4885,12 +6765,68 @@
     "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
     "fitment_status": "probable",
     "fitment_summary": {
-      "application_count": 1,
-      "probable_count": 1,
-      "rule_ids": [],
+      "application_count": 7,
+      "probable_count": 7,
+      "rule_ids": [
+        "z3-turner-short-shifter-2-8-manual"
+      ],
       "verified_count": 0
     },
     "fitments": [
+      {
+        "confidence": 0.68,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Short-shift parts require a manual gearbox and exact selector-rod/SKU confirmation; automatic applications are excluded.",
+        "rule_id": "z3-turner-short-shifter-2-8-manual",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-13994"
+      },
+      {
+        "confidence": 0.68,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Short-shift parts require a manual gearbox and exact selector-rod/SKU confirmation; automatic applications are excluded.",
+        "rule_id": "z3-turner-short-shifter-2-8-manual",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.68,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Short-shift parts require a manual gearbox and exact selector-rod/SKU confirmation; automatic applications are excluded.",
+        "rule_id": "z3-turner-short-shifter-2-8-manual",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.68,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Short-shift parts require a manual gearbox and exact selector-rod/SKU confirmation; automatic applications are excluded.",
+        "rule_id": "z3-turner-short-shifter-2-8-manual",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.68,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Short-shift parts require a manual gearbox and exact selector-rod/SKU confirmation; automatic applications are excluded.",
+        "rule_id": "z3-turner-short-shifter-2-8-manual",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29138"
+      },
+      {
+        "confidence": 0.68,
+        "fitment_status": "probable",
+        "notes": "Catalog record is labeled BMW Z3 2.8. Short-shift parts require a manual gearbox and exact selector-rod/SKU confirmation; automatic applications are excluded.",
+        "rule_id": "z3-turner-short-shifter-2-8-manual",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.68,
         "fitment_status": "probable",
@@ -4934,6 +6870,12 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "BMW Z3 2.8",
     "vehicles": [
+      "epa-13994",
+      "epa-14795",
+      "epa-15593",
+      "epa-15597",
+      "epa-29138",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -5188,12 +7130,122 @@
     "fitment_source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
+      "application_count": 13,
       "probable_count": 0,
-      "rule_ids": [],
-      "verified_count": 1
+      "rule_ids": [
+        "z3-hr-front-sway-2-8"
+      ],
+      "verified_count": 13
     },
     "fitments": [
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-13993"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-13994"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-29137"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-29138"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "verified",
+        "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+        "rule_id": "z3-hr-front-sway-2-8",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.94,
         "fitment_status": "verified",
@@ -5244,6 +7296,18 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "BMW Z3 2.8",
     "vehicles": [
+      "epa-13993",
+      "epa-13994",
+      "epa-14794",
+      "epa-14795",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15596",
+      "epa-15597",
+      "epa-29137",
+      "epa-29138",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -5255,12 +7319,68 @@
     "fitment_source_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
+      "application_count": 7,
       "probable_count": 0,
-      "rule_ids": [],
-      "verified_count": 1
+      "rule_ids": [
+        "z3-turner-dssr-2-8-manual"
+      ],
+      "verified_count": 7
     },
     "fitments": [
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "The 389 mm DSSR is a six-cylinder Z3 selector-rod application and requires the manual five-speed configuration. Confirm the current SKU and gearbox before purchase.",
+        "rule_id": "z3-turner-dssr-2-8-manual",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+        "vehicle_id": "epa-13994"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "The 389 mm DSSR is a six-cylinder Z3 selector-rod application and requires the manual five-speed configuration. Confirm the current SKU and gearbox before purchase.",
+        "rule_id": "z3-turner-dssr-2-8-manual",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "The 389 mm DSSR is a six-cylinder Z3 selector-rod application and requires the manual five-speed configuration. Confirm the current SKU and gearbox before purchase.",
+        "rule_id": "z3-turner-dssr-2-8-manual",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "The 389 mm DSSR is a six-cylinder Z3 selector-rod application and requires the manual five-speed configuration. Confirm the current SKU and gearbox before purchase.",
+        "rule_id": "z3-turner-dssr-2-8-manual",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "The 389 mm DSSR is a six-cylinder Z3 selector-rod application and requires the manual five-speed configuration. Confirm the current SKU and gearbox before purchase.",
+        "rule_id": "z3-turner-dssr-2-8-manual",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+        "vehicle_id": "epa-29138"
+      },
+      {
+        "confidence": 0.93,
+        "fitment_status": "verified",
+        "notes": "The 389 mm DSSR is a six-cylinder Z3 selector-rod application and requires the manual five-speed configuration. Confirm the current SKU and gearbox before purchase.",
+        "rule_id": "z3-turner-dssr-2-8-manual",
+        "source_kind": "product_application_table",
+        "source_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.93,
         "fitment_status": "verified",
@@ -5311,6 +7431,12 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "BMW Z3 2.8 six cylinder",
     "vehicles": [
+      "epa-13994",
+      "epa-14795",
+      "epa-15593",
+      "epa-15597",
+      "epa-29138",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -5322,12 +7448,122 @@
     "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
-      "probable_count": 1,
-      "rule_ids": [],
+      "application_count": 13,
+      "probable_count": 13,
+      "rule_ids": [
+        "z3-turner-monoball-2-8-1997-2002"
+      ],
       "verified_count": 0
     },
     "fitments": [
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-13993"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-13994"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-29137"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-29138"
+      },
+      {
+        "confidence": 0.94,
+        "fitment_status": "probable",
+        "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+        "rule_id": "z3-turner-monoball-2-8-1997-2002",
+        "source_kind": "category_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.94,
         "fitment_status": "probable",
@@ -5378,6 +7614,18 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "1997-2002 BMW Z3 2.8",
     "vehicles": [
+      "epa-13993",
+      "epa-13994",
+      "epa-14794",
+      "epa-14795",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15596",
+      "epa-15597",
+      "epa-29137",
+      "epa-29138",
+      "epa-29160",
       "z3-2000-28"
     ]
   },
@@ -5456,12 +7704,122 @@
     "fitment_source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
     "fitment_status": "verified",
     "fitment_summary": {
-      "application_count": 1,
+      "application_count": 13,
       "probable_count": 0,
-      "rule_ids": [],
-      "verified_count": 1
+      "rule_ids": [
+        "z3-bilstein-hr-2-8-1997-2002"
+      ],
+      "verified_count": 13
     },
     "fitments": [
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-13993"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-13994"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-14794"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-14795"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-14798"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-15592"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-15593"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-15596"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-15597"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-29137"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-29138"
+      },
+      {
+        "confidence": 0.96,
+        "fitment_status": "verified",
+        "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+        "rule_id": "z3-bilstein-hr-2-8-1997-2002",
+        "source_kind": "product_fitment_range",
+        "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "vehicle_id": "epa-29160"
+      },
       {
         "confidence": 0.96,
         "fitment_status": "verified",
@@ -5513,6 +7871,18 @@
     "vehicle_id": "z3-2000-28",
     "vehicle_query": "1997-2002 BMW Z3 2.8",
     "vehicles": [
+      "epa-13993",
+      "epa-13994",
+      "epa-14794",
+      "epa-14795",
+      "epa-14798",
+      "epa-15592",
+      "epa-15593",
+      "epa-15596",
+      "epa-15597",
+      "epa-29137",
+      "epa-29138",
+      "epa-29160",
       "z3-2000-28"
     ]
   },

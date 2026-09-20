@@ -110,7 +110,7 @@ def _list_values(selector: dict[str, Any], key: str) -> list[str]:
 def application_matches(application: dict[str, Any], selector: dict[str, Any] | None) -> bool:
     """Return whether one exact application satisfies a rule selector."""
     selector = selector or {}
-    allowed = {"application_ids", "family_id", "family_ids", "engine_family_id", "engine_family_ids", "make", "model", "chassis", "body", "drivetrain", "transmission", "makes", "models", "chassiss", "bodys", "drivetrains", "transmissions", "year_from", "year_to", "trim_contains", "trim_prefix", "tags_all", "exclude_application_ids"}
+    allowed = {"application_ids", "family_id", "family_ids", "engine_family_id", "engine_family_ids", "make", "model", "chassis", "body", "drivetrain", "transmission", "makes", "models", "chassiss", "bodys", "drivetrains", "transmissions", "year_from", "year_to", "trim_contains", "trim_contains_any", "trim_prefix", "trim_prefix_any", "tags_all", "exclude_application_ids"}
     if not selector or set(selector) - allowed:
         raise ValueError("Empty or unsupported application selector")
     app_id = str(application.get("id", ""))
@@ -145,7 +145,13 @@ def application_matches(application: dict[str, Any], selector: dict[str, Any] | 
     trim = _key(application.get("trim"))
     if selector.get("trim_contains") and _key(selector["trim_contains"]) not in trim:
         return False
+    trim_contains_any = _list_values(selector, "trim_contains_any")
+    if trim_contains_any and not any(value in trim for value in trim_contains_any):
+        return False
     if selector.get("trim_prefix") and not trim.startswith(_key(selector["trim_prefix"])):
+        return False
+    trim_prefix_any = _list_values(selector, "trim_prefix_any")
+    if trim_prefix_any and not any(trim.startswith(value) for value in trim_prefix_any):
         return False
     tags = {_key(x) for x in application.get("tags", [])}
     required_tags = {_key(x) for x in selector.get("tags_all", [])}

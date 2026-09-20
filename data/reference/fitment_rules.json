@@ -1,18 +1,182 @@
 [
   {
     "id": "miata-koni-active-1999-2005",
-    "part_ids": [
-      "miata-koni-active"
-    ],
-    "selector": {
-      "family_id": "mazda-nb",
-      "year_from": 1999,
-      "year_to": 2005
-    },
+    "part_ids": ["miata-koni-active"],
+    "selector": {"family_id": "mazda-nb", "year_from": 1999, "year_to": 2005},
     "fitment_status": "probable",
     "confidence": 0.8,
     "source_url": "https://flyinmiata.com/products/koni-special-active-shock-set-1999-2005",
     "source_kind": "product_fitment_range",
-    "notes": "Product lists 1999\u20132005. Incompatible with stock 2004\u201305 Mazdaspeed springs; EPA records do not establish spring configuration. Confirm springs and SKU 13-57220."
+    "notes": "Product lists 1999–2005. Incompatible with stock 2004–05 Mazdaspeed springs; EPA records do not establish spring configuration. Confirm springs and SKU 13-57220."
+  },
+  {
+    "id": "z3-turner-brake-lines-1997-2002",
+    "part_ids": ["z3-turner-brake-lines"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1997, "year_to": 2002, "trim_contains_any": ["1.9", "2.3", "2.5", "2.8", "3.0"]},
+    "fitment_status": "verified",
+    "confidence": 0.99,
+    "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/",
+    "source_kind": "product_application_table",
+    "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering."
+  },
+  {
+    "id": "z3-turner-2-8-catalog-silicone-hoses",
+    "part_ids": ["z3-silicone-hoses"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1997, "year_to": 2000, "trim_contains": "2.8"},
+    "fitment_status": "probable",
+    "confidence": 0.66,
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "source_kind": "category_fitment_range",
+    "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit."
+  },
+  {
+    "id": "z3-turner-2-8-catalog-stoptech-pads",
+    "part_ids": ["z3-stoptech-pads"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1997, "year_to": 2000, "trim_contains": "2.8"},
+    "fitment_status": "probable",
+    "confidence": 0.77,
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "source_kind": "category_fitment_range",
+    "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle."
+  },
+  {
+    "id": "z3-turner-2-8-catalog-zimmerman-rotors",
+    "part_ids": ["z3-zimmerman-rotors"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1997, "year_to": 2000, "trim_contains": "2.8"},
+    "fitment_status": "probable",
+    "confidence": 0.8,
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "source_kind": "category_fitment_range",
+    "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle."
+  },
+  {
+    "id": "z3-turner-2-8-catalog-goodridge-lines",
+    "part_ids": ["z3-goodridge-lines"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1997, "year_to": 2000, "trim_contains": "2.8"},
+    "fitment_status": "probable",
+    "confidence": 0.74,
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "source_kind": "category_fitment_range",
+    "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle."
+  },
+  {
+    "id": "z3-turner-short-shifter-2-8-manual",
+    "part_ids": ["z3-short-shifter"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1997, "year_to": 2000, "trim_contains": "2.8", "transmissions": ["Manual 5-spd", "5-speed manual"]},
+    "fitment_status": "probable",
+    "confidence": 0.68,
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "source_kind": "category_fitment_range",
+    "notes": "Catalog record is labeled BMW Z3 2.8. Short-shift parts require a manual gearbox and exact selector-rod/SKU confirmation; automatic applications are excluded."
+  },
+  {
+    "id": "z3-hr-front-sway-2-8",
+    "part_ids": ["z3-hr-front-sway"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1997, "year_to": 2000, "trim_contains": "2.8"},
+    "fitment_status": "verified",
+    "confidence": 0.94,
+    "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+    "source_kind": "product_application_table",
+    "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering."
+  },
+  {
+    "id": "z3-turner-dssr-2-8-manual",
+    "part_ids": ["z3-turner-dssr"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1997, "year_to": 2000, "trim_contains": "2.8", "transmissions": ["Manual 5-spd", "5-speed manual"]},
+    "fitment_status": "verified",
+    "confidence": 0.93,
+    "source_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+    "source_kind": "product_application_table",
+    "notes": "The 389 mm DSSR is a six-cylinder Z3 selector-rod application and requires the manual five-speed configuration. Confirm the current SKU and gearbox before purchase."
+  },
+  {
+    "id": "z3-turner-monoball-2-8-1997-2002",
+    "part_ids": ["z3-turner-monoball-fcab"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1997, "year_to": 2002, "trim_contains": "2.8"},
+    "fitment_status": "probable",
+    "confidence": 0.94,
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+    "source_kind": "category_fitment_range",
+    "notes": "Turner catalog labels the centered monoball for 1997–2002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry."
+  },
+  {
+    "id": "z3-bilstein-hr-2-8-1997-2002",
+    "part_ids": ["z3-bilstein-hr-package"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1997, "year_to": 2002, "trim_contains": "2.8"},
+    "fitment_status": "verified",
+    "confidence": 0.96,
+    "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+    "source_kind": "product_fitment_range",
+    "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering."
+  },
+  {
+    "id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+    "part_ids": ["z3-turner-cooling-overhaul"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1999, "year_to": 2002, "trim_contains_any": ["2.3", "2.5", "2.8", "3.0"]},
+    "fitment_status": "verified",
+    "confidence": 1.0,
+    "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
+    "source_kind": "product_application_table",
+    "notes": "Turner's application table lists 1999–2002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine."
+  },
+  {
+    "id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+    "part_ids": ["z3-genuine-lower-rad-hose"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1999, "year_to": 2002, "trim_contains_any": ["2.3", "2.5", "2.8", "3.0"]},
+    "fitment_status": "verified",
+    "confidence": 0.99,
+    "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/",
+    "source_kind": "product_application_table",
+    "notes": "Turner's product application lists the lower hose for 1999–2002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering."
+  },
+  {
+    "id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+    "part_ids": ["z3-genuine-upper-rad-hose"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1999, "year_to": 2002, "trim_contains_any": ["2.3", "2.5", "2.8", "3.0"]},
+    "fitment_status": "verified",
+    "confidence": 0.99,
+    "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/",
+    "source_kind": "product_application_table",
+    "notes": "Turner's product title and application identify the 1999–2002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering."
+  },
+  {
+    "id": "z3-heater-inlet-pipe-1999-2002-2-8",
+    "part_ids": ["z3-genuine-heater-inlet-pipe"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1999, "year_to": 2002, "trim_contains": "2.8"},
+    "fitment_status": "probable",
+    "confidence": 0.88,
+    "source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/",
+    "source_kind": "product_fitment_range",
+    "notes": "Curated record identifies the M52TU/M54-era Z3 2.8 application. The shared product page spans several BMW chassis; confirm the current vehicle selector and production date."
+  },
+  {
+    "id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+    "part_ids": ["z3-mahle-expansion-tank"],
+    "selector": {"family_id": "bmw-z3", "year_from": 1999, "year_to": 2002, "trim_contains_any": ["2.3", "2.5", "2.8", "3.0"]},
+    "fitment_status": "verified",
+    "confidence": 1.0,
+    "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
+    "source_kind": "product_application_table",
+    "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999–2002. Confirm the current vehicle selector and production-date break before ordering."
+  },
+  {
+    "id": "z3-m52tu-ngk-plugs",
+    "part_ids": ["z3-ngk-plugs"],
+    "selector": {"family_id": "bmw-z3", "engine_family_id": "bmw-m52tu", "year_from": 1999, "year_to": 2000},
+    "fitment_status": "probable",
+    "confidence": 0.85,
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "source_kind": "engine_family_reference",
+    "notes": "Only manually reviewed applications with an explicit BMW M52TU engine-family ID match this rule; official EPA rows intentionally do not inherit engine codes. Confirm the exact NGK part number and production date."
+  },
+  {
+    "id": "z3-m52tu-bosch-coils",
+    "part_ids": ["z3-bosch-coils"],
+    "selector": {"family_id": "bmw-z3", "engine_family_id": "bmw-m52tu", "year_from": 1999, "year_to": 2000},
+    "fitment_status": "probable",
+    "confidence": 0.82,
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "source_kind": "engine_family_reference",
+    "notes": "Only manually reviewed applications with an explicit BMW M52TU engine-family ID match this rule; official EPA rows intentionally do not inherit engine codes. Confirm the exact Bosch coil design and connector."
   }
 ]

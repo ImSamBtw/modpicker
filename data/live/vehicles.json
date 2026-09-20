@@ -10588,7 +10588,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2232,
-      "retrieved_at": "2026-09-20T17:42:57.447939+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.050684+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2017?format=json"
     },
@@ -10606,7 +10606,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2233,
-      "retrieved_at": "2026-09-20T17:42:57.447955+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.050705+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2017?format=json"
     },
@@ -10624,7 +10624,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2234,
-      "retrieved_at": "2026-09-20T17:42:57.447958+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.050710+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2017?format=json"
     },
@@ -10642,7 +10642,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2235,
-      "retrieved_at": "2026-09-20T17:42:57.447960+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.050712+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2017?format=json"
     },
@@ -10660,7 +10660,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2237,
-      "retrieved_at": "2026-09-20T17:42:57.447962+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.050715+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2017?format=json"
     },
@@ -10678,7 +10678,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2238,
-      "retrieved_at": "2026-09-20T17:42:57.447965+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.050717+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2017?format=json"
     },
@@ -10696,7 +10696,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 13580,
-      "retrieved_at": "2026-09-20T17:42:57.447966+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.050719+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2017?format=json"
     },
@@ -10714,7 +10714,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2232,
-      "retrieved_at": "2026-09-20T17:42:57.716713+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.370538+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2020?format=json"
     },
@@ -10732,7 +10732,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2233,
-      "retrieved_at": "2026-09-20T17:42:57.716727+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.370605+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2020?format=json"
     },
@@ -10750,7 +10750,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2234,
-      "retrieved_at": "2026-09-20T17:42:57.716730+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.370608+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2020?format=json"
     },
@@ -10768,7 +10768,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2235,
-      "retrieved_at": "2026-09-20T17:42:57.716732+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.370611+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2020?format=json"
     },
@@ -10786,7 +10786,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2237,
-      "retrieved_at": "2026-09-20T17:42:57.716733+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.370615+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2020?format=json"
     },
@@ -10804,7 +10804,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 2238,
-      "retrieved_at": "2026-09-20T17:42:57.716736+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.370617+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2020?format=json"
     },
@@ -10822,7 +10822,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 13580,
-      "retrieved_at": "2026-09-20T17:42:57.716739+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.370619+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2020?format=json"
     },
@@ -10840,7 +10840,7 @@
     "make": "SUBARU",
     "metadata": {
       "model_id": 24836,
-      "retrieved_at": "2026-09-20T17:42:57.716742+00:00",
+      "retrieved_at": "2026-09-20T18:01:42.370622+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2020?format=json"
     },
@@ -10850,347 +10850,5 @@
     ],
     "trim": "Unspecified",
     "year": 2020
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2025-523-2232",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2232,
-      "retrieved_at": "2026-09-20T17:44:44.212946+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2025?format=json"
-    },
-    "model": "Legacy",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2025
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2025-523-2233",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2233,
-      "retrieved_at": "2026-09-20T17:44:44.212964+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2025?format=json"
-    },
-    "model": "Outback",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2025
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2025-523-2234",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2234,
-      "retrieved_at": "2026-09-20T17:44:44.212967+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2025?format=json"
-    },
-    "model": "Forester",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2025
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2025-523-2235",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2235,
-      "retrieved_at": "2026-09-20T17:44:44.212971+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2025?format=json"
-    },
-    "model": "Impreza",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2025
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2025-523-2237",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2237,
-      "retrieved_at": "2026-09-20T17:44:44.212973+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2025?format=json"
-    },
-    "model": "WRX",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2025
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2025-523-2238",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2238,
-      "retrieved_at": "2026-09-20T17:44:44.212975+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2025?format=json"
-    },
-    "model": "BRZ",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2025
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2025-523-13580",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 13580,
-      "retrieved_at": "2026-09-20T17:44:44.212978+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2025?format=json"
-    },
-    "model": "Crosstrek",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2025
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2025-523-24836",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 24836,
-      "retrieved_at": "2026-09-20T17:44:44.212980+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2025?format=json"
-    },
-    "model": "Ascent",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2025
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2025-523-30191",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 30191,
-      "retrieved_at": "2026-09-20T17:44:44.212983+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2025?format=json"
-    },
-    "model": "Solterra",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2025
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2026-523-2233",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2233,
-      "retrieved_at": "2026-09-20T17:44:46.205986+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2026?format=json"
-    },
-    "model": "Outback",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2026
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2026-523-2234",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2234,
-      "retrieved_at": "2026-09-20T17:44:46.206002+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2026?format=json"
-    },
-    "model": "Forester",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2026
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2026-523-2235",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2235,
-      "retrieved_at": "2026-09-20T17:44:46.206006+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2026?format=json"
-    },
-    "model": "Impreza",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2026
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2026-523-2237",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2237,
-      "retrieved_at": "2026-09-20T17:44:46.206008+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2026?format=json"
-    },
-    "model": "WRX",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2026
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2026-523-2238",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 2238,
-      "retrieved_at": "2026-09-20T17:44:46.206010+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2026?format=json"
-    },
-    "model": "BRZ",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2026
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2026-523-13580",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 13580,
-      "retrieved_at": "2026-09-20T17:44:46.206013+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2026?format=json"
-    },
-    "model": "Crosstrek",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2026
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2026-523-24836",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 24836,
-      "retrieved_at": "2026-09-20T17:44:46.206015+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2026?format=json"
-    },
-    "model": "Ascent",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2026
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2026-523-30191",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 30191,
-      "retrieved_at": "2026-09-20T17:44:46.206018+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2026?format=json"
-    },
-    "model": "Solterra",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2026
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2026-523-37354",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 37354,
-      "retrieved_at": "2026-09-20T17:44:46.206021+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2026?format=json"
-    },
-    "model": "Trailseeker",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2026
-  },
-  {
-    "chassis": "Not specified",
-    "engine": "Not specified",
-    "id": "nhtsa-2026-523-37418",
-    "make": "SUBARU",
-    "metadata": {
-      "model_id": 37418,
-      "retrieved_at": "2026-09-20T17:44:46.206023+00:00",
-      "source": "NHTSA vPIC",
-      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2026?format=json"
-    },
-    "model": "Uncharted",
-    "tags": [
-      "Model record \u00b7 fitment not established"
-    ],
-    "trim": "Unspecified",
-    "year": 2026
   }
 ]

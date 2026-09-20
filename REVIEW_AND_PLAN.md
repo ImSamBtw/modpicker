@@ -89,4 +89,29 @@ The refresh was published by GitHub Actions in commit `7bce626` on 2026-09-20. I
 
 See DATA_IMPORTS.md for source provenance, automated/manual workflows and remaining review items. No comprehensive fitment coverage or database deployment is claimed by this change.
 
+## Iteration: durable multi-year fitment expansion — 2026-09-20
+
+### Problem addressed
+
+The first constrained refresh proved that rule-derived rows could reach Supabase, but most Z3 seed parts still pointed only at the curated `z3-2000-28` record. A Z3 owner selecting another imported year therefore saw an incomplete catalog even when the product source named the shared 2.8, six-cylinder or model-year range.
+
+### Changes executed
+
+- Added selector support for `trim_contains_any` and `trim_prefix_any`, while keeping unknown selectors fail-closed.
+- Added product-specific Z3 rules for the 1997–2000 2.8 range, manual 389 mm DSSR, H&R bar, 1997–2002 brake-line range, 1997–2002 control-arm bushing/suspension ranges, and the 1999–2002 six-cylinder cooling ranges.
+- Preserved restrictions in each rule: manual transmission for shifter parts, engine labels for six-cylinder cooling parts, non-M application notes, category-page uncertainty, and production-date confirmation.
+- Kept M52TU spark plug/coil expansion limited to explicit `engine_family_id=bmw-m52tu` applications. Official EPA configurations do not inherit engine codes.
+- Added regression coverage that proves imported Z3 years expand and that a future application with the same family/trim attributes matches without editing generated data.
+- Documented the rule contract and contribution steps in `DATA_IMPORTS.md` and `MANUAL_CATALOG.md`.
+
+### Durable future-addition behavior
+
+The importer writes normalized applications with stable family IDs. `pipeline.applications.expand_fitments()` evaluates every rule against that table on every run, then exports one fitment per matching application to the browser snapshot and Supabase. A new year only needs to be present in the normalized reference database; it does not need a new part record or a hand-edited compatibility list. A selector that cannot match any application fails validation before publication.
+
+### Verification targets
+
+The live refresh must show the Z3 range rows in `part_fitments` for every matching EPA application, retain probable status for broad category sources, and preserve exact application evidence for product pages. The next review should add production-month data for parts with known pre/post-09/1998 breaks and reconcile database rows removed from a source.
+
 Validation for this iteration: 32 unit tests passed, publication validation passed, browser smoke passed (search, hierarchical selection, persistence, quantities/costs, Unicode sharing, import/undo, fitment restriction details, routes and mobile overflow). Mobile screenshot inspected. Snapshot: 96 parts, 505 vehicle records, 94 reference applications (91 official EPA configurations plus 3 curated targets), 4 browsing families, 24 range matches for the single reviewed product rule. This is an offline rebuild using existing price/source observations; it does not claim those observations were refreshed.
+
+Deployment verification: GitHub Actions run 35526811631 completed every stage, including the official import, validation and Supabase synchronization. Ingestion version 6 persisted 23 additional rule-derived fitments with probable status. The reviewed rule matches 24 applications in total, including the pre-existing curated target. Public website assets were fetched and confirmed to contain the new search and import manifest. Local browser coverage passed; a separate remote-browser navigation was blocked by the runtime network, so live interactive browser QA is not claimed.
