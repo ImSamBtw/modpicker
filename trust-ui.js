@@ -32,7 +32,7 @@ document.body.appendChild(script);
 })();
 
 (()=>{
-for(const src of ['garage-planner.js','interchange.js']){
+for(const src of ['garage-planner.js','interchange.js','ui-polish.js']){
  if(document.querySelector(`script[src="${src}"]`))continue;
  const script=document.createElement('script');script.src=src;script.async=false;document.body.appendChild(script);
 }
