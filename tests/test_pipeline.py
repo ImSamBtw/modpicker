@@ -1,6 +1,7 @@
 import unittest
 from pipeline.models import stable_id, SourceRecord
 from pipeline.curation import classify, source_weight
+from pipeline.run import dedupe_sources
 from collectors.catalog_discovery import CatalogDiscoveryCollector
 
 class PipelineTests(unittest.TestCase):
@@ -18,6 +19,16 @@ class PipelineTests(unittest.TestCase):
         s=SourceRecord.make(part_id='x',source_type='forum',url='https://example.com',title='test')
         self.assertTrue(s.id)
         self.assertEqual(s.part_id,'x')
+
+    def test_source_url_canonicalization(self):
+        primary=SourceRecord.make(part_id='p',source_type='manufacturer',url='https://example.com/product',title='Primary',confidence=.95,metadata={'catalog_seed':True})
+        live=SourceRecord.make(part_id='p',source_type='retailer',url='https://example.com/product',title='Live check',confidence=.82,metadata={'collector':'web_product','json_ld_product_found':True})
+        result=dedupe_sources([primary,live])
+        self.assertEqual(len(result),1)
+        self.assertEqual(result[0].source_type,'manufacturer')
+        self.assertEqual(result[0].id,primary.id)
+        self.assertTrue(result[0].metadata['json_ld_product_found'])
+        self.assertEqual(result[0].metadata['merged_source_types'],['manufacturer','retailer'])
 
     def test_discovery_rejects_generic_navigation(self):
         c=CatalogDiscoveryCollector()
