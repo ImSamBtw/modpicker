@@ -8,3 +8,4 @@
 .vehicle-selectors[hidden]{display:none!important}
 
 .application-search{display:flex;flex-direction:column;gap:.35rem;margin-bottom:.65rem}.application-search input{width:100%;min-width:0;font-size:1rem;padding:.65rem;border:1px solid #64748b;border-radius:8px}.application-results{display:flex;flex-direction:column;gap:.4rem;max-height:320px;overflow:auto;margin-bottom:.7rem}.application-results[hidden]{display:none}.application-results button{text-align:left;white-space:normal}.application-results p{margin:.3rem 0}
+.filter-advanced-toggle{display:none}@media(max-width:720px){.filter-panel .filter-advanced-toggle{display:block;width:100%;grid-column:1/-1}.filter-panel .advanced-filter{display:none}.filter-panel.show-advanced .advanced-filter{display:flex;flex-direction:column}}
