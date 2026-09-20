@@ -76,7 +76,7 @@ Deno.serve(async(req)=>{
         metadata:{catalog_seed:true,vehicle_query:p.vehicle_query??null},updated_at:now
       }));
       await adminFetch('part_fitments?on_conflict=part_id,vehicle_id',{method:'POST',headers:{Prefer:'resolution=merge-duplicates'},body:JSON.stringify(fitRows)});
-      const scoreRows=parts.filter((p:any)=>p.ranking?.methodology_version==='published_reviews_v2').map((p:any)=>({
+      const scoreRows=catalog.filter((p:any)=>p.ranking?.methodology_version==='published_reviews_v2').map((p:any)=>({
         part_id:p.id,overall:p.ranking.overall??null,quality:p.ranking.quality??null,reliability:p.ranking.reliability??null,
         performance:p.ranking.performance??null,handling:p.ranking.handling??null,value:p.ranking.value??null,
         confidence:p.ranking.confidence??null,source_count:p.ranking.source_count||0,methodology_version:p.ranking.methodology_version||'curated_seed_v1',

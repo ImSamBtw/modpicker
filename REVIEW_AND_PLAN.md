@@ -36,3 +36,7 @@ Only an identified product's published aggregate review rating is eligible. Norm
 ## Validation
 
 Run `python -m unittest discover -s tests -v`, `python -m pipeline.run`, and `python -m pipeline.validate`. Browser smoke testing covers build editing, switching vehicles, reload persistence, detail dialogs, routes, sharing, missing prices, and mobile layout.
+
+## Database security review
+
+Supabase security advisors found no exposed-table/RLS errors. The pending candidate table is intentionally denied to public roles (RLS enabled without policies). An existing `pg_net` extension placement warning remains: [Supabase extension guidance](https://supabase.com/docs/guides/database/database-linter?lint=0014_extension_in_public). No extension relocation or schema change was performed in this release.
