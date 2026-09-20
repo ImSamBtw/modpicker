@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "created_at": "2026-09-20T03:33:16Z",
+    "entity_id": "171b1550ade495a88919",
+    "entity_type": "source",
+    "id": "011aa4baea7d5f9a7423",
+    "payload": {
+      "confidence": 0,
+      "title": "PERRIN Rear Subframe Lockdown for 2015-2026 WRX, STI, BRZ fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T03:33:16Z",
+    "entity_id": "fe9e52b06eeefd76ccc7",
+    "entity_type": "source",
+    "id": "5c95aa368211ba613ace",
+    "payload": {
+      "confidence": 0,
+      "title": "Flyin' Miata The Little Enchilada fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T03:33:16Z",
+    "entity_id": "4c99c61a77963cba9dbf",
+    "entity_type": "source",
+    "id": "771835c926d4fb7a3af4",
+    "payload": {
+      "confidence": 0,
+      "title": "IL Motorsports Complete high performance rubber bushing set for NA and NB fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T03:33:16Z",
+    "entity_id": "bfc56ea775e5b1979808",
+    "entity_type": "source",
+    "id": "7c19edbb35d530ceea8d",
+    "payload": {
+      "confidence": 0,
+      "title": "Hellwig Bushings and brackets for NA8 and NB front sway bar fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T03:33:16Z",
+    "entity_id": "9deeb2f304c873d78cba",
+    "entity_type": "source",
+    "id": "7cb81ac51322460ff347",
+    "payload": {
+      "confidence": 0,
+      "title": "Hellwig Grease packet for FM sway bars fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T03:33:16Z",
+    "entity_id": "969fa61c6099fb62e4bc",
+    "entity_type": "source",
+    "id": "dbc2dac2e74e95f4c755",
+    "payload": {
+      "confidence": 0,
+      "title": "Hellwig Flyin' Miata sway bars (NB chassis) fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-20T03:33:16Z",
+    "entity_id": "2a7dfb31ea0ba6e626bc",
+    "entity_type": "source",
+    "id": "e24af67c8cecdf800c5b",
+    "payload": {
+      "confidence": 0,
+      "title": "Hellwig Rear sway bar bushings for NA/NB fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  }
+]

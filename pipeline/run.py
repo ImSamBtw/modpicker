@@ -1,5 +1,5 @@
 from __future__ import annotations
-import json, os
+import json, os, math
 from pathlib import Path
 from urllib.parse import urlparse
 from pipeline.store import JsonStore
@@ -11,7 +11,9 @@ from collectors.reddit import RedditCollector
 from collectors.ebay import EbayCollector
 from collectors.web_product import WebProductCollector
 from collectors.catalog_discovery import CatalogDiscoveryCollector
-from curators.cloudflare_ai import CloudflareCurator
+from collectors.promotion import PromotionCollector
+from collectors.vehicles import VehicleCollector
+from pipeline.scoring import score_sources
 
 ROOT=Path(__file__).resolve().parents[1]
 os.chdir(ROOT)
@@ -24,6 +26,7 @@ def load_catalog():
     rows=[]
     for path in [Path('data/seed/parts.json'),*sorted(Path('data/seed').glob('*_parts.json'))]:
         rows.extend(load(path,[]))
+    rows.extend(load('data/live/auto_parts.json',[]))
     by_id={}
     for row in rows:
         if isinstance(row,dict) and row.get('id'): by_id[row['id']]=row
@@ -38,7 +41,7 @@ def product_page_rows(parts):
         if not url: continue
         host=urlparse(url).netloc.lower().removeprefix('www.'); policy=by_domain.get(host)
         if not policy or not policy.get('allow_scrape'): continue
-        rows.append({'part_id':p['id'],'url':url,'vendor':ph.get('vendor') or policy.get('vendor') or host,'title':f"{p.get('brand','')} {p.get('name','')} product page".strip(),'allow_scrape':True})
+        rows.append({'part_id':p['id'],'url':url,'vendor':ph.get('vendor') or policy.get('vendor') or host,'title':f"{p.get('brand','')} {p.get('name','')} product page".strip(),'allow_scrape':True,'mpn':p.get('manufacturer_part_number')})
     dedup={}
     for row in rows:
         if row.get('part_id') and row.get('url'): dedup[(row['part_id'],row['url'])]=row
@@ -77,30 +80,47 @@ def validate_records(sources, offers):
         if r.confidence < .45: reviews.append(ReviewItem.make('source',r.id,'low source confidence',{'title':r.title,'confidence':r.confidence},'low'))
     for o in offers:
         if not o.url.startswith(('http://','https://')): reviews.append(ReviewItem.make('offer',o.id,'invalid URL',{'url':o.url},'high'))
-        if o.price is not None and (o.price <= 0 or o.price > 100000): reviews.append(ReviewItem.make('offer',o.id,'implausible price',{'price':o.price},'medium'))
+        if o.price is not None and (not math.isfinite(o.price) or o.price <= 0 or o.price > 100000): reviews.append(ReviewItem.make('offer',o.id,'implausible price',{'price':o.price},'medium'))
     return reviews
 
 def build_status(results, sources, offers, reviews, history, candidates, parts):
-    return {'ok':True,'generated_at':now_iso(),'catalog_part_count':len(parts),'candidate_count':len(candidates),'source_count':len(sources),'offer_count':len(offers),'price_history_count':len(history),'review_queue_count':len(reviews),'collectors':{r.name:{**r.metadata,'warnings':r.warnings} for r in results},'credentials':{k:bool(os.getenv(k)) for k in ['YOUTUBE_API_KEY','REDDIT_CLIENT_ID','REDDIT_CLIENT_SECRET','EBAY_CLIENT_ID','EBAY_CLIENT_SECRET','CLOUDFLARE_ACCOUNT_ID','CLOUDFLARE_API_TOKEN']}}
+    return {'ok':not any(r.warnings for r in results if r.metadata.get('enabled',True)), 'mode':'deterministic_no_ai','generated_at':now_iso(),'catalog_part_count':len(parts),'candidate_count':len(candidates),'source_count':len(sources),'offer_count':len(offers),'price_history_count':len(history),'review_queue_count':len(reviews),'collectors':{r.name:{**r.metadata,'warnings':r.warnings} for r in results},'credentials':{k:bool(os.getenv(k)) for k in ['YOUTUBE_API_KEY','REDDIT_CLIENT_ID','REDDIT_CLIENT_SECRET','EBAY_CLIENT_ID','EBAY_CLIENT_SECRET','CLOUDFLARE_ACCOUNT_ID','CLOUDFLARE_API_TOKEN']}}
+
+def collect_safely(collector, *args, **kwargs):
+    from collectors.base import CollectorResult
+    try: return collector.run(*args, **kwargs)
+    except Exception as exc:
+        return CollectorResult(collector.name,[],[],[f'Collector failed: {type(exc).__name__}'],{'enabled':True,'failed':True})
 
 def main():
     parts=load_catalog(); store=JsonStore(); existing_sources=store.read('sources.json',[]); youtube_state=store.read('youtube_search_state.json',{}); retailer_rows=product_page_rows(parts)
     youtube=YouTubeCollector(); youtube_result=youtube.run(parts,existing_sources=existing_sources,search_state=youtube_state)
-    results=[CuratedCollector().run(),SeedCatalogCollector().run(parts),youtube_result,RedditCollector().run(parts),EbayCollector().run(parts),WebProductCollector().run(retailer_rows,existing_sources=existing_sources,refresh_hours=24)]
+    results=[CuratedCollector().run(),SeedCatalogCollector().run(parts),youtube_result,collect_safely(RedditCollector(),parts),collect_safely(EbayCollector(),parts),WebProductCollector().run(retailer_rows,existing_sources=existing_sources,refresh_hours=24)]
     candidates,candidate_warnings,candidate_meta=CatalogDiscoveryCollector(timeout=8).run()
     results.append(type('CatalogResult',(),{'name':'catalog_discovery','metadata':candidate_meta,'warnings':candidate_warnings})())
     sources=dedupe_sources([x for r in results if hasattr(r,'sources') for x in r.sources]); offers=dedupe([x for r in results if hasattr(r,'offers') for x in r.offers])
-    ai=CloudflareCurator(); ai_warnings=[]; ai_count=0
-    if ai.enabled:
-        for record in sources[:50]:
-            try:
-                annotation=ai.curate(record)
-                if annotation: record.metadata['ai']=annotation; ai_count+=1
-            except Exception as e: ai_warnings.append(f'{record.id}: {type(e).__name__}: {e}')
-    results.append(type('AIResult',(),{'name':'cloudflare_ai','metadata':{'enabled':ai.enabled,'count':ai_count},'warnings':ai_warnings})())
+    promoted,promotion_state,promotion_meta=PromotionCollector(timeout=8).run(candidates,parts,store.read('promotion_state.json',{}))
+    auto={p['id']:p for p in store.read('auto_parts.json',[])}
+    for p in promoted: auto[p['id']]=p
+    store.write('auto_parts.json',list(auto.values())); store.write('promotion_state.json',promotion_state)
+    if promoted:
+        parts.extend(promoted)
+        new_result=SeedCatalogCollector().run(promoted); sources.extend(new_result.sources); offers.extend(new_result.offers)
+    results.append(type('Result',(),{'name':'automatic_publication','metadata':promotion_meta,'warnings':promotion_meta['warnings']})())
+    vehicles,vehicle_state,vehicle_meta=VehicleCollector(timeout=10).run(store.read('vehicles.json',[]),store.read('vehicle_state.json',{}))
+    store.write('vehicles.json',vehicles); store.write('vehicle_state.json',vehicle_state)
+    results.append(type('Result',(),{'name':'vehicles','metadata':vehicle_meta,'warnings':vehicle_meta['warnings']})())
     reviews=validate_records(sources,offers)
-    sources_json=store.upsert('sources.json',sources); offers_json=store.upsert('offers.json',offers); review_json=store.upsert('review_queue.json',reviews)
-    candidates_json=candidates; store.write('catalog_candidates.json',candidates_json); store.write('youtube_search_state.json',youtube.search_state)
+    # Quarantine invalid records instead of merely logging them.
+    bad={r.entity_id for r in reviews if r.severity in ('high','medium')}
+    sources_json=store.upsert('sources.json',[s for s in sources if s.id not in bad]); offers_json=store.upsert('offers.json',[o for o in offers if o.id not in bad]); review_json=store.upsert('review_queue.json',reviews)
+    for p in parts: p['ranking']=score_sources([s for s in sources_json if s.get('part_id')==p['id']])
+    old_candidates={c['id']:c for c in store.read('catalog_candidates.json',[])}
+    for c in candidates:
+        old=old_candidates.get(c['id'],{})
+        if old.get('status')=='published_unverified': c['status']=old['status'];c['metadata']={**c['metadata'],**old.get('metadata',{})}
+        old_candidates[c['id']]=c
+    candidates_json=list(old_candidates.values()); store.write('catalog_candidates.json',candidates_json); store.write('youtube_search_state.json',youtube.search_state)
     history=store.read('price_history.json',[])
     existing={(x.get('offer_id'),x.get('captured_at','')[:10]) for x in history}
     for o in offers_json:
@@ -111,6 +131,6 @@ def main():
     history=history[-20000:]; store.write('price_history.json',history); store.write('catalog.json',parts)
     status=build_status(results,sources_json,offers_json,review_json,history,candidates_json,parts); store.write('status.json',status)
     from pipeline.export_js import export_js
-    export_js(parts,sources_json,offers_json,status); print(json.dumps(status,indent=2))
+    export_js(parts,sources_json,offers_json,status,vehicles=vehicles); print(json.dumps(status,indent=2))
 
 if __name__=='__main__': main()

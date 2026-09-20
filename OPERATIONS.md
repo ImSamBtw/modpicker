@@ -1,53 +1,21 @@
-# ModPicker operations
+# Operations
 
-## Current production prototype
+GitHub Pages publishes `main` root. GitHub Actions refreshes every six hours. Supabase ingestion function source is `database/ingest-github-pipeline.ts`; deployed function changes must be deployed separately from GitHub commits. Its custom GitHub OIDC validation requires this repository, main branch and workflow; no service secret is shipped to browsers.
 
-- Static application: GitHub Pages from `main`.
-- Data refresh: `.github/workflows/data-pipeline.yml` every six hours.
-- Free backing store: normalized JSON under `data/live/`.
-- Browser export: `pipeline-data.js`.
-- Health page: `/data-status.html`.
-- Automated writes are committed by `modpicker-data-bot`.
+Public data tables are read-only under RLS. Build edits are local to the browser; export JSON for a portable backup.
 
-## Required GitHub Actions secrets for live collectors
+## Credentials
 
-Add these in **Repository Settings → Secrets and variables → Actions**. Never paste credentials into source code or commit them.
+- YouTube: `YOUTUBE_API_KEY` (configured in repository; quota cooldown respected).
+- Optional Reddit: `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USER_AGENT`.
+- Optional eBay: `EBAY_CLIENT_ID`, `EBAY_CLIENT_SECRET`. Search matches are not accepted as exact-SKU price quotes.
 
-### YouTube
-- `YOUTUBE_API_KEY`
+No AI API or additional paid service is needed for the scheduled pipeline. Work remains on the existing free services; platform free quotas still apply.
 
-### Reddit
-- `REDDIT_CLIENT_ID`
-- `REDDIT_CLIENT_SECRET`
-- `REDDIT_USER_AGENT`
+## Adding sources
 
-### eBay
-- `EBAY_CLIENT_ID`
-- `EBAY_CLIENT_SECRET`
+Edit permitted domains and collection URLs under `config/`; check terms and robots policies first. Unknown/denied robots blocks crawling. Product promotion requires structured identity, not title sentiment. Add more make/year jobs to `vehicle_discovery.json` to expand official model coverage. A model record alone never creates a part fitment.
 
-### Optional AI curation
-- `CLOUDFLARE_ACCOUNT_ID`
-- `CLOUDFLARE_API_TOKEN`
-- `CLOUDFLARE_AI_MODEL`
+## Recovery
 
-The pipeline is intentionally functional when none of these exist. Missing credentials disable only that collector.
-
-## Crawler policy
-
-- Prefer official APIs, feeds, sitemaps and structured Product JSON-LD.
-- HTML crawling is opt-in per URL in `config/product_pages.json`.
-- The web collector checks `robots.txt`, identifies itself and uses retry/backoff.
-- Do not enable a retailer/forum for HTML crawling until its current terms and robots policy have been reviewed.
-- Reddit ingestion stores thread metadata and links rather than retaining discussion bodies.
-
-## Data trust model
-
-Every discovered source keeps its original URL, type, retrieval time and confidence. AI is allowed to classify/summarize source metadata, but deterministic code owns deduplication, validation, pricing history and publication rules. Fitment or safety-critical specifications should not become verified facts solely from model output.
-
-## Review queue
-
-`data/live/review_queue.json` receives records that fail validation or fall below confidence thresholds. A later admin surface can approve/reject them before they affect production rankings.
-
-## Database migration
-
-`database/schema.sql` contains the first Postgres model. Supabase is the intended next backing store once provisioned. Public catalog tables should be read-only to browser roles with RLS enabled; user garages/builds/watchlists should use owner-based RLS; ingestion/review data should remain server-only.
+Inspect `/data-status.html` and the Actions run. A degraded source retains its old observations with their original dates. A failed validation blocks publication. After correcting a source/parser, run the workflow again. Restore a previous Git commit if necessary; avoid overwriting user local builds. No automated job needs a ChatGPT conversation.

@@ -1,24 +1,15 @@
-# ModPicker automated data pipeline
+# Automated data pipeline
 
-The production-data prototype runs every six hours with GitHub Actions and stores normalized, provenance-first records under `data/live/`.
+Runs every six hours through `.github/workflows/data-pipeline.yml`; no ChatGPT or other LLM is needed.
 
-## Works without credentials
-- Curated source ingestion
-- Deduplication and validation
-- Review queue generation
-- Static JSON database
-- `pipeline-data.js` export consumed by the website
-- Unit tests and data-health page
+1. Load curated and previously auto-published products.
+2. Refresh permitted structured product data, YouTube metadata, and configured optional APIs.
+3. Discover candidate URLs from `config/catalog_sources.json`.
+4. Check up to eight candidates for an unambiguous product SKU/brand. Publish qualified products with **unverified fitment**; keep ambiguous products pending.
+5. Rotate two official NHTSA make/year requests from `config/vehicle_discovery.json`. Do not infer trims, engines or fitments.
+6. Quarantine invalid records; retain original timestamps on prior observations; calculate published-review ratings.
+7. Validate, sync to Supabase with GitHub OIDC, commit canonical JSON and `pipeline-data.js`.
 
-## Optional live collectors
-Add these as GitHub repository secrets. Never commit credentials.
-- `YOUTUBE_API_KEY`
-- `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USER_AGENT`
-- `EBAY_CLIENT_ID`, `EBAY_CLIENT_SECRET`
-- `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_AI_MODEL`
+Ratings require product-matched published review averages and counts. URLs or search results alone cannot create ratings. Review evidence expires after 90 days. Price comparisons show USD observations under seven days old and omit unavailable/unmatched marketplace listings. Unknown costs remain unknown.
 
-## Scraping policy
-`WebProductCollector` only crawls explicitly allow-listed product URLs, checks `robots.txt`, identifies itself, and prefers Product JSON-LD. `allow_scrape` is false by default. Review each site's terms and robots policy before enabling it.
-
-## Production migration
-`database/schema.sql` contains a Postgres/Supabase-ready schema. The Git-backed JSON store is the default while traffic is low because it is free, inspectable and easy to roll back.
+Sources are opt-in, robots-aware, bounded and cached. Failed fetches do not bypass source restrictions. Disabled APIs are reported separately from failed enabled sources. See the health page and GitHub Actions logs.

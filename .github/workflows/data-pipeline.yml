@@ -7,6 +7,9 @@ on:
     branches: [main]
     paths:
       - 'pipeline/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'database/**'
       - 'collectors/**'
       - 'curators/**'
       - 'config/**'
@@ -18,7 +21,7 @@ permissions:
   id-token: write
 concurrency:
   group: modpicker-data-pipeline
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -40,10 +43,9 @@ jobs:
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_AI_MODEL: ${{ secrets.CLOUDFLARE_AI_MODEL }}
         run: python -m pipeline.run
+      - name: Validate published catalog
+        run: python -m pipeline.validate
       - name: Sync normalized data to Supabase with GitHub OIDC
         shell: bash
         run: |
@@ -57,6 +59,7 @@ jobs:
           token=json.loads(Path('/tmp/oidc.json').read_text())['value']
           Path('/tmp/oidc-token').write_text(token)
           payload={
+              'vehicles': json.loads(Path('data/live/vehicles.json').read_text()),
               'parts': json.loads(Path('data/live/catalog.json').read_text()),
               'candidates': json.loads(Path('data/live/catalog_candidates.json').read_text()),
               'sources': json.loads(Path('data/live/sources.json').read_text()),

@@ -29,7 +29,7 @@ class CatalogDiscoveryCollector(BaseCollector):
             rp=self._robots_cache[origin]
             return bool(rp and rp.can_fetch('ModPickerBot',url))
         try:
-            r=self.session.get(robots,timeout=min(self.timeout,5))
+            r=self.session.get(robots,timeout=15)
             if r.status_code >= 400:
                 self._robots_cache[origin]=None
                 return False

@@ -17,6 +17,6 @@ class EbayCollector(BaseCollector):
                 r=self.get('https://api.ebay.com/buy/browse/v1/item_summary/search',headers=h,params={'q':f"{p['brand']} {p['name']}",'limit':'5','filter':'buyingOptions:{FIXED_PRICE}'})
                 for item in r.json().get('itemSummaries',[]):
                     price=item.get('price',{}).get('value')
-                    offers.append(OfferRecord.make(part_id=p['id'],vendor='eBay',url=item.get('itemWebUrl','https://www.ebay.com'),price=float(price) if price else None,currency=item.get('price',{}).get('currency','USD'),condition=item.get('condition','unknown').lower(),metadata={'title':item.get('title'),'item_id':item.get('itemId'),'source':'Browse API'}))
+                    offers.append(OfferRecord.make(part_id=p['id'],vendor='eBay',url=item.get('itemWebUrl','https://www.ebay.com'),price=float(price) if price else None,currency=item.get('price',{}).get('currency','USD'),condition=item.get('condition','unknown').lower(),metadata={'title':item.get('title'),'item_id':item.get('itemId'),'source':'Browse API','identity_matched':False}))
             except Exception as e: warnings.append(f"{p['id']}: {type(e).__name__}: {e}")
         return CollectorResult(self.name,[],offers,warnings,{'enabled':True,'count':len(offers)})

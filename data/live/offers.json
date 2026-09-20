@@ -2,6 +2,125 @@
   {
     "condition": "new",
     "currency": "USD",
+    "id": "6e1ab93f913783158a2e",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:33:09Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-144258cfa1bf80baaa84",
+    "price": 1.19,
+    "retrieved_at": "2026-09-20T03:33:09Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/grease-packet-for-fm-sway-bars",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "9c71e5583c91aa674f1c",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:33:09Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-69898cd15a88e5d1ee59",
+    "price": 33.99,
+    "retrieved_at": "2026-09-20T03:33:09Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/bushings-brackets-for-na8-and-nb-front-sway-bars",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "efe9fce1560cd4cb9466",
+    "in_stock": false,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:33:02Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-73ca2473ad360a5c9ea9",
+    "price": 3080.98,
+    "retrieved_at": "2026-09-20T03:33:02Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/enchilada",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "a9b2c055985c67fc38ff",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:33:08Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-b574fdfa24c87933a1ed",
+    "price": 119.85,
+    "retrieved_at": "2026-09-20T03:33:08Z",
+    "shipping": null,
+    "url": "https://perrin.com/products/rear-subframe-lockdown-for-2015-2026-wrx-sti-brz",
+    "vendor": "PERRIN"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "ceb29b176d916a809344",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:33:10Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-df07069285481c0d0ead",
+    "price": 34.99,
+    "retrieved_at": "2026-09-20T03:33:10Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/rear-na-nb-sway-bar-bushings",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "2bb3ea4848c773154c70",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:33:01Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-edaae02f417c30e388eb",
+    "price": 629.0,
+    "retrieved_at": "2026-09-20T03:33:01Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/performance-rubber-bushing-kit",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "f4e8836bf566768c330c",
+    "in_stock": true,
+    "metadata": {
+      "catalog_seed": true,
+      "observed_at": "2026-09-20T03:33:08Z",
+      "price_type": "observed_snapshot"
+    },
+    "part_id": "auto-f886875cb64e0baa6ed7",
+    "price": 369.0,
+    "retrieved_at": "2026-09-20T03:33:08Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/flyin-miata-sway-bars",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
     "id": "d7ba28c2f1a6642caef4",
     "in_stock": null,
     "metadata": {
@@ -192,6 +311,7 @@
     "id": "f67089a6347c7ab5e2b3",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Engine Mount Kit for 2002-2026 WRX, STI, BRZ, FR-S, 86, Legacy, Forester, Impreza, Outback, Ascent",
       "price_type": "structured_page",
       "sku": "PSP-DRV-057",
@@ -199,7 +319,7 @@
     },
     "part_id": "brz-perrin-engine-mounts",
     "price": 339.15,
-    "retrieved_at": "2026-09-20T03:02:28Z",
+    "retrieved_at": "2026-09-20T03:32:29Z",
     "shipping": null,
     "url": "https://perrin.com/products/engine-mount-kit-for-2002-2026-wrx-sti-brz-fr-s-86-legacy-forester-outback-impreza-ascent",
     "vendor": "PERRIN"
@@ -210,6 +330,7 @@
     "id": "b09f4e5761542d8f86d7",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Front Endlinks with Urethane Bushings for 2013-2026 BRZ, FR-S, 86, GR86",
       "price_type": "structured_page",
       "sku": "PSP-SUS-115",
@@ -217,7 +338,7 @@
     },
     "part_id": "brz-perrin-front-endlinks",
     "price": 126.65,
-    "retrieved_at": "2026-09-20T03:02:30Z",
+    "retrieved_at": "2026-09-20T03:32:30Z",
     "shipping": null,
     "url": "https://perrin.com/products/frs-brz-front-endlinks",
     "vendor": "PERRIN"
@@ -262,6 +383,7 @@
     "id": "effd5339f24a9d88620c",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Intake, Cold Air CARB Approved for 2017-2020 BRZ, FR-S, 86 Manual",
       "price_type": "structured_page",
       "sku": "PSP-INT-333RD",
@@ -269,7 +391,7 @@
     },
     "part_id": "brz-perrin-intake",
     "price": 399.5,
-    "retrieved_at": "2026-09-20T03:02:19Z",
+    "retrieved_at": "2026-09-20T03:32:11Z",
     "shipping": null,
     "url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
     "vendor": "PERRIN"
@@ -280,6 +402,7 @@
     "id": "c93aa68b5c1de6cab5b9",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Master Cylinder Brace for 2013-2026 BRZ, FR-S, 86, GR86",
       "price_type": "structured_page",
       "sku": "PSP-BRK-406BK",
@@ -287,7 +410,7 @@
     },
     "part_id": "brz-perrin-master-brace",
     "price": 79.05,
-    "retrieved_at": "2026-09-20T03:02:22Z",
+    "retrieved_at": "2026-09-20T03:32:12Z",
     "shipping": null,
     "url": "https://perrin.com/products/master-cylinder-brace-for-brz-fr-s-86-gr86",
     "vendor": "PERRIN"
@@ -298,13 +421,15 @@
     "id": "9e3f9151757dcd4dbf45",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Oil Cooler Full Kit for 2013-2020 BRZ, FR-S, 86",
+      "price_type": "structured_page",
+      "sku": "PSP-OIL-113",
+      "source": "json-ld"
     },
     "part_id": "brz-perrin-oilcooler-full",
     "price": 884.0,
-    "retrieved_at": "2026-09-20T00:00:00Z",
+    "retrieved_at": "2026-09-20T03:32:13Z",
     "shipping": null,
     "url": "https://perrin.com/products/oil-cooler-full-kit-for-brz-fr-s-86-gr86",
     "vendor": "PERRIN"
@@ -315,13 +440,15 @@
     "id": "8c7db1ab5ae4aaad7534",
     "in_stock": true,
     "metadata": {
-      "catalog_seed": true,
-      "observed_at": "2026-09-20",
-      "price_type": "observed_snapshot"
+      "identity_matched": true,
+      "name": "Oil Cooler Tuner Kit for 2013-2020 BRZ, FR-S, 86",
+      "price_type": "structured_page",
+      "sku": "PSP-OIL-128",
+      "source": "json-ld"
     },
     "part_id": "brz-perrin-oilcooler-tuner",
     "price": 463.25,
-    "retrieved_at": "2026-09-20T00:00:00Z",
+    "retrieved_at": "2026-09-20T03:32:13Z",
     "shipping": null,
     "url": "https://perrin.com/products/oil-cooler-tuner-kit-for-brz-fr-s-86-gr86",
     "vendor": "PERRIN"
@@ -349,6 +476,7 @@
     "id": "ed696a16b5f37b6f627a",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Steering Rack Lockdown for 2013-2026 BRZ, FR-S, 86, GR86",
       "price_type": "structured_page",
       "sku": "PSP-SUS-563",
@@ -356,7 +484,7 @@
     },
     "part_id": "brz-perrin-steering-lockdown",
     "price": 94.35,
-    "retrieved_at": "2026-09-20T03:02:27Z",
+    "retrieved_at": "2026-09-20T03:32:28Z",
     "shipping": null,
     "url": "https://perrin.com/products/frs-brz-steering-rack-lockdown",
     "vendor": "PERRIN"
@@ -384,6 +512,7 @@
     "id": "aa3e8abbf0ff1e7f0a5a",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Rear Subframe Lockdown for 2013-2020 BRZ, FR-S, 86, GR86",
       "price_type": "structured_page",
       "sku": "PSP-SUS-532BK",
@@ -391,7 +520,7 @@
     },
     "part_id": "brz-perrin-subframe",
     "price": 119.85,
-    "retrieved_at": "2026-09-20T03:02:20Z",
+    "retrieved_at": "2026-09-20T03:32:11Z",
     "shipping": null,
     "url": "https://perrin.com/products/subframe-differential-lockdown",
     "vendor": "PERRIN"
@@ -402,6 +531,7 @@
     "id": "82672d99fe41a3ce5c52",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Transmission Mount Support for Manual 2013-2026 BRZ, FR-S, 86, GR86",
       "price_type": "structured_page",
       "sku": "PSP-DRV-160",
@@ -409,7 +539,7 @@
     },
     "part_id": "brz-perrin-trans-support",
     "price": 54.4,
-    "retrieved_at": "2026-09-20T03:02:20Z",
+    "retrieved_at": "2026-09-20T03:32:12Z",
     "shipping": null,
     "url": "https://perrin.com/products/transmission-mount-support-for-manual",
     "vendor": "PERRIN"
@@ -561,6 +691,7 @@
     "id": "8cebb54908cfbc74415c",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Heavy duty sway bar mounts for NA/NB chassis",
       "price_type": "structured_page",
       "sku": null,
@@ -568,7 +699,7 @@
     },
     "part_id": "miata-fm-heavy-sway-mounts",
     "price": 189.0,
-    "retrieved_at": "2026-09-20T03:02:35Z",
+    "retrieved_at": "2026-09-20T03:32:33Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/na-nb-heavy-duty-sway-bar-mounts",
     "vendor": "Flyin' Miata"
@@ -613,6 +744,7 @@
     "id": "28f6fb67d0a80af52287",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Flyin' Miata spring set (NB chassis)",
       "price_type": "structured_page",
       "sku": null,
@@ -620,7 +752,7 @@
     },
     "part_id": "miata-fm-springs",
     "price": 249.0,
-    "retrieved_at": "2026-09-20T03:02:35Z",
+    "retrieved_at": "2026-09-20T03:32:32Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/nb-flyin-miata-springs",
     "vendor": "Flyin' Miata"
@@ -665,6 +797,7 @@
     "id": "9c88f1ea8f221cc21a1e",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Koni Special Active shock set with bump stops, 1999-2005",
       "price_type": "structured_page",
       "sku": null,
@@ -672,7 +805,7 @@
     },
     "part_id": "miata-koni-active",
     "price": 899.0,
-    "retrieved_at": "2026-09-20T03:02:24Z",
+    "retrieved_at": "2026-09-20T03:32:23Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/koni-special-active-shock-set-1999-2005",
     "vendor": "Flyin' Miata"
@@ -717,6 +850,7 @@
     "id": "a02e0275db14040cd730",
     "in_stock": true,
     "metadata": {
+      "identity_matched": true,
       "name": "Koni STR.T shock and bump stop set, 1999-05",
       "price_type": "structured_page",
       "sku": null,
@@ -724,7 +858,7 @@
     },
     "part_id": "miata-koni-strt",
     "price": 589.0,
-    "retrieved_at": "2026-09-20T03:02:23Z",
+    "retrieved_at": "2026-09-20T03:32:23Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/koni-str-t-shock-and-bump-stop-set-nb",
     "vendor": "Flyin' Miata"

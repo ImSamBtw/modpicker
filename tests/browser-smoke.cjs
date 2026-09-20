@@ -1,0 +1,34 @@
+/* Run with Playwright installed; CHROME_PATH optionally selects a local Chromium. */
+const assert=require('node:assert/strict');
+const {spawn}=require('node:child_process');
+const path=require('node:path');
+const {chromium}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES?path.join(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES,'playwright'):'playwright');
+const server=spawn('python',['-m','http.server','8123'],{cwd:path.join(__dirname,'..'),stdio:'ignore'});
+(async()=>{let browser;try{
+await new Promise(r=>setTimeout(r,400));
+browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{}),args:['--no-sandbox']});
+const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
+page.on('pageerror',e=>errors.push(e.message));
+await page.route('https://pzxofwrdidvqhdlqbehk.supabase.co/**',r=>r.abort());
+await page.goto('http://localhost:8123');assert.ok(await page.locator('.part-card').count()>0);
+await page.locator('.part-card .button.primary').first().click();await page.locator('[data-route="build"]').click();
+await page.locator('.item-note input').fill('Manual torque spec — α <test>');await page.locator('.item-note input').dispatchEvent('change');
+await page.locator('[aria-label^="Quantity"]').fill('2');await page.locator('[aria-label^="Quantity"]').dispatchEvent('change');
+await page.locator('.item-fields input[step="0.01"]').fill('125');await page.locator('.item-fields input[step="0.01"]').dispatchEvent('change');
+assert.equal(await page.locator('#buildPartsTotal').textContent(),'$250');
+await page.selectOption('#vehicleSelect','miata-1999');assert.equal(await page.locator('.item-note').count(),0);await page.selectOption('#vehicleSelect','z3-2000-28');
+assert.equal(await page.locator('.item-note input').inputValue(),'Manual torque spec — α <test>');assert.equal(await page.locator('[aria-label^="Quantity"]').inputValue(),'2');
+await page.reload();assert.equal(await page.locator('#buildPartsTotal').textContent(),'$250');
+const payload=await page.evaluate(()=>buildPayload());const shared=Buffer.from(JSON.stringify(payload),'utf8').toString('base64');
+await page.goto('http://localhost:8123/?build='+encodeURIComponent(shared));assert.equal(await page.locator('.item-note input').inputValue(),payload.buildMeta[payload.build[0]].note);
+await page.locator('.build-item .button.danger').click();assert.equal(await page.locator('.build-item.polished').count(),0);await page.getByRole('button',{name:'Undo last change'}).click();assert.equal(await page.locator('.build-item.polished').count(),1);
+await page.locator('.text-button').first().click();assert.ok(await page.locator('#partDialog').isVisible());assert.ok(await page.getByText('Where the rating comes from').isVisible());await page.locator('#dialogClose').click();
+await page.evaluate(async p=>{await importBuild(new File([JSON.stringify(p)],'build.json',{type:'application/json'}))},payload);assert.equal(await page.locator('#buildPartsTotal').textContent(),'$250');
+await page.evaluate(()=>{const p=part(state.build[0]);state.compare=[p.id];renderCompare()});
+for(const route of ['catalog','prices','rankings','compare','build'])await page.evaluate(r=>window.route(r,false),route);
+await page.screenshot({path:'/tmp/modpicker-desktop.png',fullPage:true});await page.setViewportSize({width:390,height:844});
+assert.ok(await page.locator('.build-item .button.danger').isVisible(),'Mobile removal control must remain visible');
+assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+await page.screenshot({path:'/tmp/modpicker-mobile.png',fullPage:true});
+assert.deepEqual(errors,[]);console.log('PASS: browser persistence, multi-vehicle builds, quantities/costs, Unicode sharing, undo, import, details, all routes and mobile layout.');
+}finally{await browser?.close();server.kill()}})().catch(e=>{console.error(e);process.exitCode=1});
