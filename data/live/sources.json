@@ -114,59 +114,65 @@
     "url": "https://www.youtube.com/watch?v=zofnaV5Bi_Q"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "13ff02605c180edb3f55",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "Bilstein B8 Performance Plus Dampers BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/8NDWFYTMBXw/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "8NDWFYTMBXw"
     },
     "outlet": "karstgeo72",
     "part_id": "bilstein-b8-z3",
     "published_at": "2022-08-24T01:08:01Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
     "summary": "YouTube result discovered by the ModPicker collector.",
     "title": "Bump travel testing Bilstein B8s and H&amp;R Sport springs",
     "url": "https://www.youtube.com/watch?v=8NDWFYTMBXw"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "1d6f4f10f1bba283b2fb",
     "metadata": {
       "labels": [
         "comparison"
       ],
+      "query": "Bilstein B8 Performance Plus Dampers BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/ZEU0m-HHwB8/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "ZEU0m-HHwB8"
     },
     "outlet": "OEMplusResto",
     "part_id": "bilstein-b8-z3",
     "published_at": "2023-05-25T16:56:34Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Testing the differences between the Bilstein B4 Mtech version vs Bilstein B8 shocks. Both using the same eibach springs that ...",
     "title": "The SHOCKING Truth - Bilstein B4 vs B8 (B12) E46 330ci",
     "url": "https://www.youtube.com/watch?v=ZEU0m-HHwB8"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "31f5f84d82743e414025",
     "metadata": {
       "labels": [
-        "discussion"
+        "review"
       ],
+      "query": "Bilstein B8 Performance Plus Dampers BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/IlppKcxGWzA/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "IlppKcxGWzA"
     },
     "outlet": "FaRKle0079",
     "part_id": "bilstein-b8-z3",
     "published_at": "2020-02-15T21:03:45Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Some other BMW F2x/F3x owners and myself noticed that our ride heights increased when going from OE to Bilstein B6/B8 struts.",
     "title": "Why Bilstein B6/B8s Change Your Ride Height",
     "url": "https://www.youtube.com/watch?v=IlppKcxGWzA"
   },
@@ -190,40 +196,44 @@
     "url": "https://www.youtube.com/watch?v=e8wVq8X6oLs"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "b2508ed9ff2883d14b9e",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "Bilstein B8 Performance Plus Dampers BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/EagyXDXtb4s/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "EagyXDXtb4s"
     },
     "outlet": "Moxy Lee",
     "part_id": "bilstein-b8-z3",
     "published_at": "2022-01-08T16:44:03Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
     "summary": "YouTube result discovered by the ModPicker collector.",
     "title": "BMW Z3  roadster Bilstein H8 Suspension job done",
     "url": "https://www.youtube.com/watch?v=EagyXDXtb4s"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "b2c4e43fd84ab0705f59",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "Bilstein B8 Performance Plus Dampers BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/tsF5iAtid0I/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "tsF5iAtid0I"
     },
     "outlet": "FCP Euro",
     "part_id": "bilstein-b8-z3",
     "published_at": "2023-02-10T17:00:46Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Bilstein has been at the forefront of damper technology since it introduced the first monotube gas pressure shock absorber on a ...",
     "title": "Bilstein Struts &amp; Shocks Explained - Which Bilstein Model Is Right For You?",
     "url": "https://www.youtube.com/watch?v=tsF5iAtid0I"
   },
@@ -239,7 +249,7 @@
     "outlet": "FT86Club",
     "part_id": "brz-header",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "forum",
     "summary": "Community discussion focused on header layout and long-term concerns.",
     "title": "UEL vs EL and long-term use",
@@ -258,125 +268,137 @@
     "outlet": "FT86Club",
     "part_id": "brz-header",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "forum",
     "summary": "Owner discussion comparing header layouts and JDL options.",
     "title": "EL vs UEL header discussion",
     "url": "https://www.ft86club.com/forums/showthread.php?t=49638"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.7100000000000001,
     "id": "0d86694d4fbfe59e284d",
     "metadata": {
       "labels": [
-        "discussion"
+        "install"
       ],
+      "query": "JDL Auto Design UEL Header 2017 Subaru BRZ install review",
       "thumbnail": "https://i.ytimg.com/vi/nL7RjlbzpoQ/mqdefault.jpg",
+      "token_overlap": 3,
       "video_id": "nL7RjlbzpoQ"
     },
     "outlet": "Saiyan Visuals",
     "part_id": "brz-header",
     "published_at": "2018-02-15T17:54:26Z",
-    "retrieved_at": "2026-09-20T02:01:06Z",
+    "retrieved_at": "2026-09-20T02:01:48Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Today we installed the JDL UEL headers for this 15 frs. not that hard tbh ! like comment subscribe and share!",
     "title": "FRS JDL UEL HEADERS!",
     "url": "https://www.youtube.com/watch?v=nL7RjlbzpoQ"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "23d65dec3dbe18e24151",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "JDL Auto Design UEL Header 2017 Subaru BRZ install review",
       "thumbnail": "https://i.ytimg.com/vi/mQMbvMy4x3M/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "mQMbvMy4x3M"
     },
     "outlet": "Oren Holzman",
     "part_id": "brz-header",
     "published_at": "2017-06-28T19:30:00Z",
-    "retrieved_at": "2026-09-20T02:01:06Z",
+    "retrieved_at": "2026-09-20T02:01:48Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Subscribe to follow my GT86 track build! For up to date updates on the build: \u2022 Follow me on Snapchat: neroman98 \u2022 Follow me on ...",
     "title": "How to install JDL Headers on the FRS/BRZ! (LOUD)",
     "url": "https://www.youtube.com/watch?v=mQMbvMy4x3M"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "669297bbd46c65741507",
     "metadata": {
       "labels": [
         "install",
         "dyno"
       ],
+      "query": "JDL Auto Design UEL Header 2017 Subaru BRZ install review",
       "thumbnail": "https://i.ytimg.com/vi/UEgiE_jIbxc/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "UEgiE_jIbxc"
     },
     "outlet": "Kevin Vo",
     "part_id": "brz-header",
     "published_at": "2021-06-22T19:00:06Z",
-    "retrieved_at": "2026-09-20T02:01:06Z",
+    "retrieved_at": "2026-09-20T02:01:48Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "FTspeed UEL Catted Header Remark R1 Spec Titanium Catback Exhaust Current Setup Verus Engineering UCW Rear Wing ...",
     "title": "FRS UEL Header Install and Dyno",
     "url": "https://www.youtube.com/watch?v=UEgiE_jIbxc"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "a66d56e6f59f10b0521e",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "JDL Auto Design UEL Header 2017 Subaru BRZ install review",
       "thumbnail": "https://i.ytimg.com/vi/1gS2lUSIuVE/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "1gS2lUSIuVE"
     },
     "outlet": "Brian Tenaxity",
     "part_id": "brz-header",
     "published_at": "2021-06-14T21:08:44Z",
-    "retrieved_at": "2026-09-20T02:01:06Z",
+    "retrieved_at": "2026-09-20T02:01:48Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Hello Thank you for watching! instagram: @brianwduong Instagram: @brzanwduong music: Vintage Hip Hop Freestyle Beat ...",
     "title": "Installing JDL UEL for Subaru BRZ",
     "url": "https://www.youtube.com/watch?v=1gS2lUSIuVE"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "bd1625b16d75e080bc1d",
     "metadata": {
       "labels": [
         "install",
         "dyno"
       ],
+      "query": "JDL Auto Design UEL Header 2017 Subaru BRZ install review",
       "thumbnail": "https://i.ytimg.com/vi/gnxA4FCvMTk/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "gnxA4FCvMTk"
     },
     "outlet": "FTspeed",
     "part_id": "brz-header",
     "published_at": "2021-06-18T21:33:50Z",
-    "retrieved_at": "2026-09-20T02:01:06Z",
+    "retrieved_at": "2026-09-20T02:01:48Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "FTspeed UEL Catted Header Ceramic Coated Bronze: ...",
     "title": "FTspeed UEL Header Install and Dyno",
     "url": "https://www.youtube.com/watch?v=gnxA4FCvMTk"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "11d9b3be3dfceb8eccc9",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "BC Racing BR Series Coilovers BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/j0zv2SEZDh4/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "j0zv2SEZDh4"
     },
     "outlet": "CSOTB",
     "part_id": "coilover-z3",
     "published_at": "2022-04-10T19:05:14Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:38Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "This is the first part of a two part series for the suspension. In this video, I'm replacing the old suspension with new BC Coilovers.",
     "title": "BMW Z3 Suspension Refresh PT 1 | BC Coilover Install",
     "url": "https://www.youtube.com/watch?v=j0zv2SEZDh4"
   },
@@ -419,98 +441,108 @@
     "url": "https://www.youtube.com/watch?v=i229qb3lLMg"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "4ae7ce672fd47895fb81",
     "metadata": {
       "labels": [
         "review"
       ],
+      "query": "BC Racing BR Series Coilovers BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/e3Rw_iq0yvc/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "e3Rw_iq0yvc"
     },
     "outlet": "MartiniWorks",
     "part_id": "coilover-z3",
     "published_at": "2025-06-20T18:21:48Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:38Z",
     "source_type": "youtube",
     "summary": "YouTube result discovered by the ModPicker collector.",
     "title": "BC Racing Coilovers - An Honest Review",
     "url": "https://www.youtube.com/watch?v=e3Rw_iq0yvc"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "77b294fcdfb63b3416f1",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "BC Racing BR Series Coilovers BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/mRUMTDygNf0/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "mRUMTDygNf0"
     },
     "outlet": "chicoschopshop757",
     "part_id": "coilover-z3",
     "published_at": "2020-01-20T18:25:56Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:38Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Installed the bc coilovers and adjust everything to liking.",
     "title": "Bc coilovers installed  what u think?",
     "url": "https://www.youtube.com/watch?v=mRUMTDygNf0"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "b6e481edf9ffa3cf0295",
     "metadata": {
       "labels": [
         "review"
       ],
+      "query": "BC Racing BR Series Coilovers BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/PTtxiC4Ne7Q/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "PTtxiC4Ne7Q"
     },
     "outlet": "MartiniWorks Unboxed",
     "part_id": "coilover-z3",
     "published_at": "2023-10-06T17:00:25Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:38Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "BC Coilovers HERE! - https://bit.ly/3QK9X4e Gels dives deep into a fresh box of @BCRacingNorthAmerica BR Series Coilovers to ...",
     "title": "BC Racing BR Coilovers Review: Best Bang For Your Buck Coilovers?",
     "url": "https://www.youtube.com/watch?v=PTtxiC4Ne7Q"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "fed92c42c451710bbfdd",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "BC Racing BR Series Coilovers BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/zia8o7Y5JrE/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "zia8o7Y5JrE"
     },
     "outlet": "Vivid Racing",
     "part_id": "coilover-z3",
     "published_at": "2023-11-28T13:01:00Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:38Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "The BC Racing BR Series are some of the BEST entry level coilovers available on the market. These are an amazing value being ...",
     "title": "Everything You Need To Know About BC Racing BR Series Coilover + UNBOXING!",
     "url": "https://www.youtube.com/watch?v=zia8o7Y5JrE"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "2d9bf0d1a02a01f19ecb",
     "metadata": {
       "labels": [
         "install",
         "review"
       ],
+      "query": "H&R Sport Springs BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/VXabkSDl_FE/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "VXabkSDl_FE"
     },
     "outlet": "Kludge",
     "part_id": "hr-springs-z3",
     "published_at": "2019-08-10T17:00:04Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:34Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "This episode covers removing the stock springs on a BMW Z3, and replacing them with H&R lowing springs. This setup is ...",
     "title": "H&amp;R Lowering Springs + Koni Shocks BMW Z3 Install And Review",
     "url": "https://www.youtube.com/watch?v=VXabkSDl_FE"
   },
@@ -610,19 +642,21 @@
     "url": "https://www.youtube.com/watch?v=wWjq__NbHUs"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "cbe045034957fc62ed65",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "H&R Sport Springs BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/8NDWFYTMBXw/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "8NDWFYTMBXw"
     },
     "outlet": "karstgeo72",
     "part_id": "hr-springs-z3",
     "published_at": "2022-08-24T01:08:01Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:34Z",
     "source_type": "youtube",
     "summary": "YouTube result discovered by the ModPicker collector.",
     "title": "Bump travel testing Bilstein B8s and H&amp;R Sport springs",
@@ -640,7 +674,7 @@
     "outlet": "Koyorad",
     "part_id": "koyo-z3-rad",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "manufacturer",
     "summary": "Manufacturer radiator information hub.",
     "title": "Koyorad radiator information",
@@ -666,60 +700,66 @@
     "url": "https://www.youtube.com/watch?v=3lVI5CIQjIU"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "32ff6b9ffabea8c0e7a5",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "Koyorad HH422674 Aluminum Radiator 2000 BMW Z3 2.8 install review",
       "thumbnail": "https://i.ytimg.com/vi/76G7aYG6_d0/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "76G7aYG6_d0"
     },
     "outlet": "Coolcat's Alley",
     "part_id": "koyo-z3-rad",
     "published_at": "2023-10-06T14:00:08Z",
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "I finally upgraded the radiator in my 2001 BMW Z3. It took a long time to decide which brand was best for my needs as well as ...",
     "title": "Upgrading My BMW Z3 Radiator",
     "url": "https://www.youtube.com/watch?v=76G7aYG6_d0"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "3918eaa32568aa84add6",
     "metadata": {
       "labels": [
         "install",
         "comparison"
       ],
+      "query": "Koyorad HH422674 Aluminum Radiator 2000 BMW Z3 2.8 install review",
       "thumbnail": "https://i.ytimg.com/vi/6qEHw3U-8Ok/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "6qEHw3U-8Ok"
     },
     "outlet": "Race German",
     "part_id": "koyo-z3-rad",
     "published_at": "2019-06-21T20:20:01Z",
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "In this video I am installing a the radiator from the z3 m coupe with the s54, into my 24v swap E30. I go over not only the install, but ...",
     "title": "Z3 M Radiator Upgrade - Install &amp; Comparison",
     "url": "https://www.youtube.com/watch?v=6qEHw3U-8Ok"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "505e145c362e64fa18c6",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "Koyorad HH422674 Aluminum Radiator 2000 BMW Z3 2.8 install review",
       "thumbnail": "https://i.ytimg.com/vi/A2V39XIwX7o/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "A2V39XIwX7o"
     },
     "outlet": "Toran Drives!",
     "part_id": "koyo-z3-rad",
     "published_at": "2023-02-06T19:14:42Z",
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "HEY LONG TIME NO SEE! Blew my radiator, so I decided to record the replacement process. I replaced it with a nissens radiator.",
     "title": "How To: BMW Z3 RADIATOR CHANGE E36/E46",
     "url": "https://www.youtube.com/watch?v=A2V39XIwX7o"
   },
@@ -743,40 +783,44 @@
     "url": "https://www.youtube.com/watch?v=MzEmjK5BE1U"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "b28abc0f3eb293a8bfb3",
     "metadata": {
       "labels": [
         "review"
       ],
+      "query": "Koyorad HH422674 Aluminum Radiator 2000 BMW Z3 2.8 install review",
       "thumbnail": "https://i.ytimg.com/vi/_zAPwO0atqs/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "_zAPwO0atqs"
     },
     "outlet": "Kludge",
     "part_id": "koyo-z3-rad",
     "published_at": "2019-04-28T17:00:03Z",
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Unboxing, weighing, and otherwise examining the Mishimoto X-Line Performance Aluminum Radiator, MMRAD-CON-99X.",
     "title": "Mishimoto X-Line Aluminum Radiator Review for BMW Z3",
     "url": "https://www.youtube.com/watch?v=_zAPwO0atqs"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "cc2d0dc62519761cc493",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "Koyorad HH422674 Aluminum Radiator 2000 BMW Z3 2.8 install review",
       "thumbnail": "https://i.ytimg.com/vi/DaE3qqealCA/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "DaE3qqealCA"
     },
     "outlet": "Driven To Failure",
     "part_id": "koyo-z3-rad",
     "published_at": "2021-10-12T04:07:24Z",
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "My Z3 overheated on a hot day in heavy traffic after the common fan delete was done to it. In this video I replace the stock radiator ...",
     "title": "1998 BMW Z3 Radiator Replacement/Upgrade",
     "url": "https://www.youtube.com/watch?v=DaE3qqealCA"
   },
@@ -792,7 +836,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-xida",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "forum",
     "summary": "Detailed owner review covering street and autocross use.",
     "title": "949 Racing Xida coilover owner review",
@@ -810,7 +854,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-xida",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "forum",
     "summary": "Long-running product thread with configuration and owner discussion.",
     "title": "Xida Club Sport Coilovers discussion",
@@ -828,7 +872,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-xida",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "forum",
     "summary": "Community setup discussion covering Xida families, ride heights and intended use.",
     "title": "How to Xida",
@@ -854,97 +898,107 @@
     "url": "https://www.youtube.com/watch?v=yEePSL1WYAA"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "42a5e5fcdebcaa913cf3",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "949 Racing Xida Coilovers 1999 NB Miata install review",
       "thumbnail": "https://i.ytimg.com/vi/bHib2nRWLpk/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "bHib2nRWLpk"
     },
     "outlet": "949 Racing - SuperMiata",
     "part_id": "miata-xida",
     "published_at": "2022-10-14T22:05:23Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:48Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "New Tecna coilovers for 90-05 MX5 Miata. Visit Supermiata.com to learn more Product introduction: ...",
     "title": "Best Miata Coilovers?",
     "url": "https://www.youtube.com/watch?v=bHib2nRWLpk"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.7100000000000001,
     "id": "c34b02a825d366eee392",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "949 Racing Xida Coilovers 1999 NB Miata install review",
       "thumbnail": "https://i.ytimg.com/vi/INrwA0YsQK0/mqdefault.jpg",
+      "token_overlap": 3,
       "video_id": "INrwA0YsQK0"
     },
     "outlet": "Cars and S&*t",
     "part_id": "miata-xida",
     "published_at": "2016-04-30T18:23:11Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:48Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "949 Racing Xida Coilover: The Ultimate Miata Coilover. This is an unboxing showing changes for 2016. These are my own ...",
     "title": "949 Racing Xida Coilover Unboxing and First Look 2016",
     "url": "https://www.youtube.com/watch?v=INrwA0YsQK0"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "cbb81aa160d42cd34c83",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "949 Racing Xida Coilovers 1999 NB Miata install review",
       "thumbnail": "https://i.ytimg.com/vi/A1sIjPPWGzo/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "A1sIjPPWGzo"
     },
     "outlet": "949 Racing - SuperMiata",
     "part_id": "miata-xida",
     "published_at": "2016-05-12T23:23:41Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:48Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Installation procedure for Supermiata BCM on Xida coilover.",
     "title": "Billet Coaxial Mount Installation - Xida",
     "url": "https://www.youtube.com/watch?v=A1sIjPPWGzo"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "e3a31b904a37a994ad42",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "949 Racing Xida Coilovers 1999 NB Miata install review",
       "thumbnail": "https://i.ytimg.com/vi/ngLkmti3rX0/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "ngLkmti3rX0"
     },
     "outlet": "949 Racing - SuperMiata",
     "part_id": "miata-xida",
     "published_at": "2021-12-24T05:26:44Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:48Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "A short video explaining what coaxial shock mounts do and why they are used in motorsports. Also some information on NC Xidas ...",
     "title": "Coaxial shock mounts - Xida",
     "url": "https://www.youtube.com/watch?v=ngLkmti3rX0"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "ea76ae23703c3dcf8376",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "949 Racing Xida Coilovers 1999 NB Miata install review",
       "thumbnail": "https://i.ytimg.com/vi/denHn47PZtE/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "denHn47PZtE"
     },
     "outlet": "949 Racing - SuperMiata",
     "part_id": "miata-xida",
     "published_at": "2013-04-25T23:37:34Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:48Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Xida assembly instructions for the optional billet mounts.",
     "title": "Xida coaxial perch billet mount installation",
     "url": "https://www.youtube.com/watch?v=denHn47PZtE"
   },
@@ -961,7 +1015,7 @@
     "outlet": "Mustang6G",
     "part_id": "mustang-steeda-intake",
     "published_at": null,
-    "retrieved_at": "2026-09-20T02:01:03Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "forum",
     "summary": "Owner review with installation photos and driving impressions.",
     "title": "Steeda ProFlow intake + tune review",
@@ -1065,40 +1119,44 @@
     "url": "https://www.youtube.com/watch?v=S_y673Ari-k"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.7100000000000001,
     "id": "2bc2d95049843268eac4",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "Powerflex Rear Trailing Arm Bushings BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/3l5ooXRrd3s/mqdefault.jpg",
+      "token_overlap": 3,
       "video_id": "3l5ooXRrd3s"
     },
     "outlet": "Garagistic",
     "part_id": "powerflex-rtab-z3",
     "published_at": "2022-09-29T19:00:15Z",
-    "retrieved_at": "2026-09-20T01:59:57Z",
+    "retrieved_at": "2026-09-20T02:01:43Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Sometimes installing new parts is easier than removing the old ones. When it comes to bushings, this is a prevalent theme.",
     "title": "How to Install E36/E46 Rear Trailing Arm Bushings | INSTALLATION INSTRUCTIONS",
     "url": "https://www.youtube.com/watch?v=3l5ooXRrd3s"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "4d1095bab5f3422108a7",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "Powerflex Rear Trailing Arm Bushings BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/XJmcdVpCSP8/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "XJmcdVpCSP8"
     },
     "outlet": "Andrew H. Kim",
     "part_id": "powerflex-rtab-z3",
     "published_at": "2020-08-28T16:00:10Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:43Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Feeling generous? https://buymeacoffee.com/andrewhkim \u2615\ufe0f\u2615\ufe0f\u2615\ufe0f Time to do the dreaded subframe bushings & rear trailing ...",
     "title": "Easy E30 / E36 / Z3 Subframe Bushings &amp; RTABs // Part 1 - Disassembly",
     "url": "https://www.youtube.com/watch?v=XJmcdVpCSP8"
   },
@@ -1122,21 +1180,23 @@
     "url": "https://www.youtube.com/watch?v=OrVb7q8lldE"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "672b1414baf520e08b2e",
     "metadata": {
       "labels": [
-        "discussion"
+        "install"
       ],
+      "query": "Powerflex Rear Trailing Arm Bushings BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/YeYO9iUhNkg/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "YeYO9iUhNkg"
     },
     "outlet": "Coolcat's Alley",
     "part_id": "powerflex-rtab-z3",
     "published_at": "2025-07-09T22:31:56Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:43Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "BMW E30/E36/Z3 Rear Subframe Bushing Removal and Installation. Watch BMW E30/Z3 Diff Mount Bushing Replacement ...",
     "title": "How I Replaced the Rear Subframe Bushings on My BMW Z3 (NO BURNING/NO DRILLING)",
     "url": "https://www.youtube.com/watch?v=YeYO9iUhNkg"
   },
@@ -1160,21 +1220,23 @@
     "url": "https://www.youtube.com/watch?v=FAwhU2zq8QM"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.7100000000000001,
     "id": "935752266d1fab88ab08",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "Powerflex Rear Trailing Arm Bushings BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/mTnnzdNvstQ/mqdefault.jpg",
+      "token_overlap": 3,
       "video_id": "mTnnzdNvstQ"
     },
     "outlet": "Garagistic",
     "part_id": "powerflex-rtab-z3",
     "published_at": "2023-04-20T20:55:04Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:43Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "These are the Garagistic Rear Lower Control Arm Bearings that replace the factory RTAB bushings found on your E36, E36, and ...",
     "title": "Spherical Rear Trailing Arm Bushings for Your E36/E46! + BONUS INSTALL | Installation Instructions",
     "url": "https://www.youtube.com/watch?v=mTnnzdNvstQ"
   },
@@ -1198,21 +1260,23 @@
     "url": "https://www.youtube.com/watch?v=zsiXMlhBiAE"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "9fdf9144d2057fe0b626",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "Powerflex Rear Trailing Arm Bushings BMW Z3 install review",
       "thumbnail": "https://i.ytimg.com/vi/Qxk5Jts6K84/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "Qxk5Jts6K84"
     },
     "outlet": "Condor Speed Shop",
     "part_id": "powerflex-rtab-z3",
     "published_at": "2018-12-03T17:58:37Z",
-    "retrieved_at": "2026-09-20T01:59:57Z",
+    "retrieved_at": "2026-09-20T02:01:43Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Designed specifically for those of you who prefer not to weld in toe and camber adjustment plates. If you have a lowered or track ...",
     "title": "Condor Adjustable Rear Trailing Arm Bushing Install - E30 - Condor Speed Shop",
     "url": "https://www.youtube.com/watch?v=Qxk5Jts6K84"
   },
@@ -1236,78 +1300,86 @@
     "url": "https://www.youtube.com/watch?v=ifLpWCHVjSM"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.7100000000000001,
     "id": "2a4186cac1039eb5c14b",
     "metadata": {
       "labels": [
         "review"
       ],
+      "query": "Stewart Components High Performance Water Pump BMW Z3 M52TU install review",
       "thumbnail": "https://i.ytimg.com/vi/zTlFiE4u61I/mqdefault.jpg",
+      "token_overlap": 3,
       "video_id": "zTlFiE4u61I"
     },
     "outlet": "Kenna Booker",
     "part_id": "stewart-z3-pump",
     "published_at": "2022-05-25T23:02:33Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "BUY IT ON SALE https://amazon.com/dp/B06XNP8PXP?tag=shark00f-20 High Performance Water Pump EMP STEWART for ...",
     "title": "High Performance Water Pump EMP STEWART for BMW E36 E46 E39 X5 Z3 (6 Cyl.) revieww",
     "url": "https://www.youtube.com/watch?v=zTlFiE4u61I"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.6100000000000001,
     "id": "754870971c35cbe245bb",
     "metadata": {
       "labels": [
-        "discussion"
+        "install"
       ],
+      "query": "Stewart Components High Performance Water Pump BMW Z3 M52TU install review",
       "thumbnail": "https://i.ytimg.com/vi/lqGXU9DpoEQ/mqdefault.jpg",
+      "token_overlap": 1,
       "video_id": "lqGXU9DpoEQ"
     },
     "outlet": "Kludge",
     "part_id": "stewart-z3-pump",
     "published_at": "2019-05-05T17:00:05Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "I replace all the components in the front of the engine in this third installment of the M52TU cooling system rebuild series.",
     "title": "BMW Z3 Front Coolant System Rebuild",
     "url": "https://www.youtube.com/watch?v=lqGXU9DpoEQ"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "a122053f7be9a5db7895",
     "metadata": {
       "labels": [
         "install"
       ],
+      "query": "Stewart Components High Performance Water Pump BMW Z3 M52TU install review",
       "thumbnail": "https://i.ytimg.com/vi/ELu-5dIORSE/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "ELu-5dIORSE"
     },
     "outlet": "JD Cars",
     "part_id": "stewart-z3-pump",
     "published_at": "2021-12-24T20:15:00Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Merry Christmas Eve! Today on JD Cars we're replacing the water pump on our 2005 BMW X3 equipped with the M54 engine.",
     "title": "How to Replace a BMW Water Pump! // M54 Engine (2003-2006)",
     "url": "https://www.youtube.com/watch?v=ELu-5dIORSE"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "d75b74a0932359ddca39",
     "metadata": {
       "labels": [
         "review"
       ],
+      "query": "Stewart Components High Performance Water Pump BMW Z3 M52TU install review",
       "thumbnail": "https://i.ytimg.com/vi/6l6zo2pk9f4/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "6l6zo2pk9f4"
     },
     "outlet": "Kludge",
     "part_id": "stewart-z3-pump",
     "published_at": "2019-04-21T17:00:00Z",
-    "retrieved_at": "2026-09-20T02:01:04Z",
+    "retrieved_at": "2026-09-20T02:01:33Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "As part of the coolant system rebuild on the 2000 BMW Z3 2.3 roadster, I bought a water pump pulley kit made by Rein Automotive ...",
     "title": "Rein Aluminum Water Pump Pulley Kit Review for BMW",
     "url": "https://www.youtube.com/watch?v=6l6zo2pk9f4"
   },
@@ -1350,21 +1422,23 @@
     "url": "https://www.youtube.com/watch?v=JUNIloqYaS4"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.76,
     "id": "1741c5cfb8bdeb42e2fc",
     "metadata": {
       "labels": [
         "comparison"
       ],
+      "query": "Supersprint Performance Cat-Back Exhaust BMW Z3 2.8 install review",
       "thumbnail": "https://i.ytimg.com/vi/OuY3SnA1IrA/mqdefault.jpg",
+      "token_overlap": 4,
       "video_id": "OuY3SnA1IrA"
     },
     "outlet": "Pascal Perret",
     "part_id": "supersprint-z3-catback",
     "published_at": "2024-08-17T08:03:38Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:47Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Voici ma BMW Z3 2.8 de 1997 avec l'\u00e9chappement d'origine, puis un Supersprint homologu\u00e9 \"Cat.-Back\" silencieux arri\u00e8re OO ...",
     "title": "BMW Z3 2.8, OEM exhaust vs Supersprint",
     "url": "https://www.youtube.com/watch?v=OuY3SnA1IrA"
   },
@@ -1407,40 +1481,44 @@
     "url": "https://www.youtube.com/watch?v=4ACb4acWgdI"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "72f8c1793c5191877a5f",
     "metadata": {
       "labels": [
         "comparison"
       ],
+      "query": "Supersprint Performance Cat-Back Exhaust BMW Z3 2.8 install review",
       "thumbnail": "https://i.ytimg.com/vi/33YF2e87Ysg/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "33YF2e87Ysg"
     },
     "outlet": "Julie Marilyn",
     "part_id": "supersprint-z3-catback",
     "published_at": "2024-12-31T15:54:33Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:47Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "no other mods, just the rear silencer. ref: Supersprint 043506 Race rear silencer 2x70 with connecting pipe (786513) exhaust was ...",
     "title": "OEM vs SUPERSPRINT rear silencer - BMW Z3 Coup\u00e9 2.8",
     "url": "https://www.youtube.com/watch?v=33YF2e87Ysg"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.76,
     "id": "745d58152686dbd973d5",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "Supersprint Performance Cat-Back Exhaust BMW Z3 2.8 install review",
       "thumbnail": "https://i.ytimg.com/vi/dPWqw45WjnA/mqdefault.jpg",
+      "token_overlap": 4,
       "video_id": "dPWqw45WjnA"
     },
     "outlet": "Tuning",
     "part_id": "supersprint-z3-catback",
     "published_at": "2024-01-23T02:34:14Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:47Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "00:00 BMW Z3 1.9L Stock Exhaust : https://exhausts.pro/4vh187/ 00:50 Cobra Sport Cat-Back Performance Exhaust ...",
     "title": "BMW Z3 Exhaust Sound \ud83d\udd25 Magnaflow,Remus,Supersprint,Eisenmann,Bastuck,Cobra",
     "url": "https://www.youtube.com/watch?v=dPWqw45WjnA"
   },
@@ -1464,40 +1542,44 @@
     "url": "https://www.youtube.com/watch?v=WyBVzghFU9o"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "ba9381e816f0f2cb0a13",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "Supersprint Performance Cat-Back Exhaust BMW Z3 2.8 install review",
       "thumbnail": "https://i.ytimg.com/vi/uXClnG-XtPo/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "uXClnG-XtPo"
     },
     "outlet": "Techni4rt",
     "part_id": "supersprint-z3-catback",
     "published_at": "2025-02-09T13:32:41Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:47Z",
     "source_type": "youtube",
     "summary": "YouTube result discovered by the ModPicker collector.",
     "title": "\u201897 Z3 2.8 Supersprint Race Exhaust cold start and light revs #z3 #bmw",
     "url": "https://www.youtube.com/watch?v=uXClnG-XtPo"
   },
   {
-    "confidence": 0.62,
+    "confidence": 0.66,
     "id": "d5a60b7a813bf0b1e389",
     "metadata": {
       "labels": [
         "discussion"
       ],
+      "query": "Supersprint Performance Cat-Back Exhaust BMW Z3 2.8 install review",
       "thumbnail": "https://i.ytimg.com/vi/k7D8Ang1Qfk/mqdefault.jpg",
+      "token_overlap": 2,
       "video_id": "k7D8Ang1Qfk"
     },
     "outlet": "Supersprint Exhausts",
     "part_id": "supersprint-z3-catback",
     "published_at": "2024-12-13T16:19:00Z",
-    "retrieved_at": "2026-09-20T02:01:05Z",
+    "retrieved_at": "2026-09-20T02:01:47Z",
     "source_type": "youtube",
-    "summary": "YouTube result discovered by the ModPicker collector.",
+    "summary": "Thanks to #performancetechnic for the amazing video about the #BMW #E36 #Z3 #M #Roadster!!",
     "title": "Supersprint exhaust for BMW Z3 M Roadster",
     "url": "https://www.youtube.com/watch?v=k7D8Ang1Qfk"
   }

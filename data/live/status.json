@@ -26,10 +26,16 @@
       "warnings": []
     },
     "youtube": {
-      "count": 55,
+      "count": 41,
       "enabled": true,
-      "search_calls": 11,
-      "warnings": []
+      "fresh_parts_skipped": 0,
+      "max_searches": 85,
+      "refresh_days": 7,
+      "search_calls": 9,
+      "warnings": [
+        "afe-intake-z3: RuntimeError: 429 https://www.googleapis.com/youtube/v3/search",
+        "mustang-steeda-intake: RuntimeError: 429 https://www.googleapis.com/youtube/v3/search"
+      ]
     }
   },
   "credentials": {
@@ -41,7 +47,7 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T02:01:06Z",
+  "generated_at": "2026-09-20T02:01:52Z",
   "offer_count": 0,
   "ok": true,
   "price_history_count": 0,
