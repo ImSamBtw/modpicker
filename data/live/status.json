@@ -41,7 +41,13 @@
       "warnings": []
     },
     "web_product": {
-      "count": 0,
+      "enabled": true,
+      "fresh_pages_skipped": 0,
+      "offer_count": 0,
+      "pages_checked": 0,
+      "refresh_hours": 24,
+      "robots_origins_checked": 0,
+      "source_count": 0,
       "warnings": []
     },
     "youtube": {
@@ -68,7 +74,7 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T02:50:34Z",
+  "generated_at": "2026-09-20T02:50:57Z",
   "offer_count": 53,
   "ok": true,
   "price_history_count": 53,
