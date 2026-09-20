@@ -117,6 +117,7 @@ class VehicleCollector(BaseCollector):
             "requests": checked,
             "vehicle_count": len(ordered),
             "passenger_car_only": True,
+            "configured_makes": makes,
             "bootstrap": bootstrap,
             "pruned_invalid_nhtsa": pruned,
             "rejected_make_mismatch": rejected_make_mismatch,
