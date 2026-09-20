@@ -1,5 +1,17 @@
 {
+  "candidate_count": 157,
+  "catalog_part_count": 58,
   "collectors": {
+    "catalog_discovery": {
+      "candidate_count": 157,
+      "enabled": true,
+      "pages_checked": 5,
+      "robots_origins_checked": 4,
+      "timeout_seconds": 8,
+      "warnings": [
+        "robots denied/unavailable: https://www.turnermotorsport.com/BMW-Z3"
+      ]
+    },
     "cloudflare_ai": {
       "count": 0,
       "enabled": false,
@@ -21,20 +33,27 @@
         "Reddit OAuth secrets not configured"
       ]
     },
+    "seed_catalog": {
+      "count": 58,
+      "offer_count": 33,
+      "source_count": 47,
+      "warnings": []
+    },
     "web_product": {
       "count": 0,
       "warnings": []
     },
     "youtube": {
-      "count": 41,
+      "count": 0,
       "enabled": true,
-      "fresh_parts_skipped": 0,
-      "max_searches": 85,
+      "fresh_parts_skipped": 11,
+      "max_searches": 25,
+      "quota_stopped": true,
       "refresh_days": 7,
-      "search_calls": 9,
+      "search_calls": 1,
+      "search_state_entries": 0,
       "warnings": [
-        "afe-intake-z3: RuntimeError: 429 https://www.googleapis.com/youtube/v3/search",
-        "mustang-steeda-intake: RuntimeError: 429 https://www.googleapis.com/youtube/v3/search"
+        "brz-perrin-intake: RuntimeError: 429 https://www.googleapis.com/youtube/v3/search"
       ]
     }
   },
@@ -47,10 +66,10 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T02:01:52Z",
-  "offer_count": 0,
+  "generated_at": "2026-09-20T02:18:02Z",
+  "offer_count": 33,
   "ok": true,
-  "price_history_count": 0,
+  "price_history_count": 33,
   "review_queue_count": 0,
-  "source_count": 79
+  "source_count": 126
 }

@@ -1,0 +1,1877 @@
+[
+  {
+    "brand": "Koyorad",
+    "id": "koyo-z3-rad",
+    "name": "HH422674 Aluminum Radiator",
+    "vehicle_query": "2000 BMW Z3 2.8"
+  },
+  {
+    "brand": "Stewart Components",
+    "id": "stewart-z3-pump",
+    "name": "High Performance Water Pump",
+    "vehicle_query": "BMW Z3 M52TU"
+  },
+  {
+    "brand": "Bilstein",
+    "id": "bilstein-b8-z3",
+    "name": "B8 Performance Plus Dampers",
+    "vehicle_query": "BMW Z3"
+  },
+  {
+    "brand": "H&R",
+    "id": "hr-springs-z3",
+    "name": "Sport Springs",
+    "vehicle_query": "BMW Z3"
+  },
+  {
+    "brand": "BC Racing",
+    "id": "coilover-z3",
+    "name": "BR Series Coilovers",
+    "vehicle_query": "BMW Z3"
+  },
+  {
+    "brand": "Powerflex",
+    "id": "powerflex-rtab-z3",
+    "name": "Rear Trailing Arm Bushings",
+    "vehicle_query": "BMW Z3"
+  },
+  {
+    "brand": "aFe Power",
+    "id": "afe-intake-z3",
+    "name": "High-Flow Intake System",
+    "vehicle_query": "BMW Z3 2.8"
+  },
+  {
+    "brand": "Supersprint",
+    "id": "supersprint-z3-catback",
+    "name": "Performance Cat-Back Exhaust",
+    "vehicle_query": "BMW Z3 2.8"
+  },
+  {
+    "brand": "949 Racing",
+    "id": "miata-xida",
+    "name": "Xida Coilovers",
+    "vehicle_query": "1999 NB Miata"
+  },
+  {
+    "brand": "JDL Auto Design",
+    "id": "brz-header",
+    "name": "UEL Header",
+    "vehicle_query": "2017 Subaru BRZ"
+  },
+  {
+    "brand": "Steeda",
+    "id": "mustang-steeda-intake",
+    "name": "ProFlow Cold Air Intake",
+    "vehicle_query": "2015 Mustang GT"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Intake",
+    "description": "CARB-approved PERRIN cold-air intake explicitly listed for 2017-2020 BRZ/FR-S/86 manual applications. PERRIN publishes a 120-minute DIY installation estimate.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+    "fitment_status": "verified",
+    "goals": [
+      "power",
+      "balanced"
+    ],
+    "id": "brz-perrin-intake",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2
+    },
+    "manufacturer_part_number": "PSP-INT-333RD",
+    "name": "Cold Air Intake",
+    "official_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 399.5,
+      "url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 84,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.4,
+      "performance": 5.0,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 8.7,
+      "value": 7.8
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2017-2020 Subaru BRZ manual"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Chassis",
+    "description": "Rear subframe lockdown inserts intended to reduce drivetrain/subframe movement; explicitly listed for 2013-2020 BRZ and published with a 60-minute DIY install estimate.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/subframe-differential-lockdown",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "brz-perrin-subframe",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 1
+    },
+    "manufacturer_part_number": "PSP-SUS-532BK",
+    "name": "Rear Subframe Lockdown",
+    "official_url": "https://perrin.com/products/subframe-differential-lockdown",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 119.85,
+      "url": "https://perrin.com/products/subframe-differential-lockdown",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 88,
+      "handling": 8.5,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.8,
+      "performance": 2,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 9.0,
+      "value": 9.3
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2013-2020 Subaru BRZ"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Drivetrain",
+    "description": "6061-T6 transmission mount support for manual BRZ/FR-S/86 applications. PERRIN publishes a 30-minute install estimate and notes increased NVH.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+    "fitment_status": "verified",
+    "goals": [
+      "balanced",
+      "track"
+    ],
+    "id": "brz-perrin-trans-support",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 0.5
+    },
+    "manufacturer_part_number": "PSP-DRV-160",
+    "name": "Transmission Mount Support - Manual",
+    "official_url": "https://perrin.com/products/transmission-mount-support-for-manual",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 54.4,
+      "url": "https://perrin.com/products/transmission-mount-support-for-manual",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 90,
+      "handling": 3.5,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.7,
+      "performance": 3.5,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 9.1,
+      "value": 9.5
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2013-2026 BRZ manual"
+  },
+  {
+    "brand": "PERRIN",
+    "category": "Brakes",
+    "description": "Master-cylinder brace designed to reduce firewall/master-cylinder movement and improve pedal response; explicitly listed for BRZ/FR-S/86/GR86.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://perrin.com/products/master-cylinder-brace-for-brz-fr-s-86-gr86",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "brz-perrin-master-brace",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 1
+    },
+    "manufacturer_part_number": "PSP-BRK-406BK",
+    "name": "Master Cylinder Brace",
+    "official_url": "https://perrin.com/products/master-cylinder-brace-for-brz-fr-s-86-gr86",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 79.05,
+      "url": "https://perrin.com/products/master-cylinder-brace-for-brz-fr-s-86-gr86",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": 86,
+      "handling": 6.8,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.5,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 9.0,
+      "value": 9.1
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2013-2026 Subaru BRZ"
+  },
+  {
+    "brand": "Jackson Racing",
+    "category": "Cooling",
+    "description": "Track-focused thermostatic oil-cooler system for the FA20 platform. Jackson Racing states the kit is track/race tested and intended to maintain oil temperatures below 250\u00b0F in extreme conditions.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://jacksonracing.com/product/fr-sbrz-engine-oil-cooler-kit/",
+    "fitment_status": "verified",
+    "goals": [
+      "track",
+      "reliability"
+    ],
+    "id": "brz-jr-oilcooler",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 4
+    },
+    "name": "Track Engine Oil Cooler Kit",
+    "official_url": "https://jacksonracing.com/product/fr-sbrz-engine-oil-cooler-kit/",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 799,
+      "url": "https://jacksonracing.com/product/fr-sbrz-engine-oil-cooler-kit/",
+      "vendor": "Jackson Racing"
+    },
+    "ranking": {
+      "confidence": 90,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.0,
+      "performance": 4.0,
+      "provisional": true,
+      "quality": 9.2,
+      "reliability": 9.1,
+      "value": 8.3
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2013-2020 FR-S/86/BRZ"
+  },
+  {
+    "brand": "Jackson Racing",
+    "category": "Cooling",
+    "description": "Integrated all-aluminum radiator and liquid-to-oil cooler developed with CSF for street/track BRZ/86 applications.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://jacksonracing.com/product/fr-sbrz-dual-radiatoroil-cooler/",
+    "fitment_status": "verified",
+    "goals": [
+      "track",
+      "reliability",
+      "power"
+    ],
+    "id": "brz-jr-dual-cooler",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 5
+    },
+    "name": "Dual Radiator / Oil Cooler",
+    "official_url": "https://jacksonracing.com/product/fr-sbrz-dual-radiatoroil-cooler/",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 999,
+      "url": "https://jacksonracing.com/product/fr-sbrz-dual-radiatoroil-cooler/",
+      "vendor": "Jackson Racing"
+    },
+    "ranking": {
+      "confidence": 90,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.0,
+      "performance": 4.2,
+      "provisional": true,
+      "quality": 9.3,
+      "reliability": 9.1,
+      "value": 8.0
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2013-2020 FR-S/86/BRZ"
+  },
+  {
+    "brand": "CSG Spec / TEIN",
+    "category": "Suspension",
+    "description": "CSG-tuned TEIN RX-1 V3 coilover package listed for the first-generation BRZ/FR-S/86 platform.",
+    "fitment_confidence": 0.98,
+    "fitment_source_url": "https://www.counterspacegarage.com/csg-spec",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "brz-csg-rx1",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 5
+    },
+    "name": "RX-1 V3 Coilovers",
+    "official_url": "https://www.counterspacegarage.com/csg-spec",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 1995,
+      "url": "https://www.counterspacegarage.com/csg-spec",
+      "vendor": "CounterSpace Garage"
+    },
+    "ranking": {
+      "confidence": 86,
+      "handling": 9.7,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.2,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.4,
+      "reliability": 9.0,
+      "value": 8.3
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2012-2020 Subaru BRZ / FR-S / 86"
+  },
+  {
+    "brand": "CSG Spec",
+    "category": "Brakes",
+    "description": "CSG Spec motorsport pad compounds with explicit 2013-2020 BRZ front/rear applications; compound and axle selection materially affect price and use case.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://www.counterspacegarage.com/csg-spec-brake-pads",
+    "fitment_status": "verified",
+    "goals": [
+      "track",
+      "handling"
+    ],
+    "id": "brz-csg-pads",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2
+    },
+    "name": "Brake Pad Set",
+    "official_url": "https://www.counterspacegarage.com/csg-spec-brake-pads",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 360,
+      "url": "https://www.counterspacegarage.com/csg-spec-brake-pads",
+      "vendor": "CounterSpace Garage"
+    },
+    "ranking": {
+      "confidence": 88,
+      "handling": 9.1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.0,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.3,
+      "reliability": 8.9,
+      "value": 8.2
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2013-2020 Subaru BRZ"
+  },
+  {
+    "brand": "CSG Spec / Brembo",
+    "category": "Brakes",
+    "description": "CSG-listed Brembo GT four-piston front brake package for first-gen BRZ/86/FR-S track-oriented builds.",
+    "fitment_confidence": 0.98,
+    "fitment_source_url": "https://www.counterspacegarage.com/specials-toyota-86-subaru-brz-2012-2020-fa20",
+    "fitment_status": "verified",
+    "goals": [
+      "track",
+      "handling"
+    ],
+    "id": "brz-csg-brembo",
+    "install": {
+      "difficulty": "Professional",
+      "hours": 5
+    },
+    "name": "Brembo GT 4-Piston 326x30mm Brake Kit",
+    "official_url": "https://www.counterspacegarage.com/specials-toyota-86-subaru-brz-2012-2020-fa20",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 1995,
+      "url": "https://www.counterspacegarage.com/specials-toyota-86-subaru-brz-2012-2020-fa20",
+      "vendor": "CounterSpace Garage"
+    },
+    "ranking": {
+      "confidence": 86,
+      "handling": 9.4,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.1,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.5,
+      "reliability": 9.1,
+      "value": 7.4
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2013+ Subaru BRZ / FR-S / 86"
+  },
+  {
+    "brand": "CSG Spec / MXP",
+    "category": "Exhaust",
+    "description": "70mm CSG Spec/MXP cat-back exhaust listed for BRZ/FR-S/86 platforms.",
+    "fitment_confidence": 0.97,
+    "fitment_source_url": "https://www.counterspacegarage.com/products/exhaust",
+    "fitment_status": "verified",
+    "goals": [
+      "power",
+      "balanced"
+    ],
+    "id": "brz-csg-exhaust",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2
+    },
+    "name": "TOURING 86 Competition Exhaust - 70mm Catback",
+    "official_url": "https://www.counterspacegarage.com/products/exhaust",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 959,
+      "url": "https://www.counterspacegarage.com/products/exhaust",
+      "vendor": "CounterSpace Garage"
+    },
+    "ranking": {
+      "confidence": 80,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.8,
+      "performance": 6.2,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 8.9,
+      "value": 8.0
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "Subaru BRZ / FR-S / 86"
+  },
+  {
+    "brand": "CSG Spec / OS Giken",
+    "category": "Drivetrain",
+    "description": "Complete CSG Spec single-plate OS Giken clutch system listed for BRZ/FR-S/86/GT86/GR86 applications.",
+    "fitment_confidence": 0.97,
+    "fitment_source_url": "https://www.counterspacegarage.com/csg-spec",
+    "fitment_status": "verified",
+    "goals": [
+      "power",
+      "track"
+    ],
+    "id": "brz-csg-single-clutch",
+    "install": {
+      "difficulty": "Professional",
+      "hours": 7
+    },
+    "name": "Single Plate Clutch System",
+    "official_url": "https://www.counterspacegarage.com/csg-spec",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 1270,
+      "url": "https://www.counterspacegarage.com/csg-spec",
+      "vendor": "CounterSpace Garage"
+    },
+    "ranking": {
+      "confidence": 82,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.8,
+      "performance": 8.0,
+      "provisional": true,
+      "quality": 9.4,
+      "reliability": 8.8,
+      "value": 7.7
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "Subaru BRZ / FR-S / 86"
+  },
+  {
+    "brand": "CSG Spec / OS Giken",
+    "category": "Drivetrain",
+    "description": "Complete CSG Spec twin-plate OS Giken clutch package for high-torque BRZ/FR-S/86 builds.",
+    "fitment_confidence": 0.97,
+    "fitment_source_url": "https://www.counterspacegarage.com/csg-spec",
+    "fitment_status": "verified",
+    "goals": [
+      "power",
+      "track"
+    ],
+    "id": "brz-csg-twin-clutch",
+    "install": {
+      "difficulty": "Professional",
+      "hours": 7
+    },
+    "name": "Twin Plate Clutch System",
+    "official_url": "https://www.counterspacegarage.com/csg-spec",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 1740,
+      "url": "https://www.counterspacegarage.com/csg-spec",
+      "vendor": "CounterSpace Garage"
+    },
+    "ranking": {
+      "confidence": 80,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.7,
+      "performance": 9.0,
+      "provisional": true,
+      "quality": 9.5,
+      "reliability": 8.7,
+      "value": 6.8
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "Subaru BRZ / FR-S / 86"
+  },
+  {
+    "brand": "CSG Spec / EcuTek",
+    "category": "Tuning",
+    "description": "Custom EcuTek calibration service listed by CSG for FA20 first-generation BRZ/86 applications; final results depend on fuel and installed hardware.",
+    "fitment_confidence": 0.97,
+    "fitment_source_url": "https://www.counterspacegarage.com/specials-toyota-86-subaru-brz-2012-2020-fa20",
+    "fitment_status": "verified",
+    "goals": [
+      "power",
+      "balanced"
+    ],
+    "id": "brz-csg-ecutek",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 1
+    },
+    "name": "Custom EcuTek Tune",
+    "official_url": "https://www.counterspacegarage.com/specials-toyota-86-subaru-brz-2012-2020-fa20",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 399,
+      "url": "https://www.counterspacegarage.com/specials-toyota-86-subaru-brz-2012-2020-fa20",
+      "vendor": "CounterSpace Garage"
+    },
+    "ranking": {
+      "confidence": 82,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.8,
+      "performance": 8.6,
+      "provisional": true,
+      "quality": 9.2,
+      "reliability": 8.7,
+      "value": 8.7
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "FA20 Subaru BRZ / FR-S / 86"
+  },
+  {
+    "brand": "GReddy",
+    "category": "Cooling",
+    "description": "GReddy oil-cooler kit listed by CSG specifically for 2013-2020 BRZ/86/FR-S.",
+    "fitment_confidence": 0.97,
+    "fitment_source_url": "https://www.counterspacegarage.com/products/cooling?limit=all",
+    "fitment_status": "verified",
+    "goals": [
+      "track",
+      "reliability"
+    ],
+    "id": "brz-greddy-oilcooler",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 4
+    },
+    "name": "Oil Cooler Kit - 2013-2020",
+    "official_url": "https://www.counterspacegarage.com/products/cooling?limit=all",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 999,
+      "url": "https://www.counterspacegarage.com/products/cooling?limit=all",
+      "vendor": "CounterSpace Garage"
+    },
+    "ranking": {
+      "confidence": 82,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.8,
+      "performance": 3.5,
+      "provisional": true,
+      "quality": 9.0,
+      "reliability": 8.9,
+      "value": 7.9
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicle_query": "2013-2020 Subaru BRZ / FR-S / 86"
+  },
+  {
+    "brand": "Koni",
+    "category": "Suspension",
+    "description": "Adjustable-rebound Koni Sport dampers with polyurethane bumpstops; explicitly listed for 1999-2005 NB Miata.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/nb-koni-sport",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "miata-koni-sport",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 5
+    },
+    "manufacturer_part_number": "13-58018",
+    "name": "Sport Shock & Bump Stop Set",
+    "official_url": "https://flyinmiata.com/products/nb-koni-sport",
+    "ranking": {
+      "confidence": 88,
+      "handling": 9.2,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.0,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.2,
+      "reliability": 9.2,
+      "value": 8.7
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Koni",
+    "category": "Suspension",
+    "description": "Non-adjustable Koni replacement dampers with Flyin' Miata bumpstops; explicitly fits 1999-2005.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/koni-str-t-shock-and-bump-stop-set-nb",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "balanced",
+      "budget"
+    ],
+    "id": "miata-koni-strt",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 5
+    },
+    "manufacturer_part_number": "13-58319",
+    "name": "STR.T Shock & Bump Stop Set",
+    "official_url": "https://flyinmiata.com/products/koni-str-t-shock-and-bump-stop-set-nb",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 589,
+      "url": "https://flyinmiata.com/products/koni-str-t-shock-and-bump-stop-set-nb",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 86,
+      "handling": 8.4,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.9,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 9.1,
+      "value": 9.0
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Koni",
+    "category": "Suspension",
+    "description": "Frequency-selective dampers for improved street body control without a large ride penalty; explicitly fits 1999-2005.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/koni-special-active-shock-set-1999-2005",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "balanced"
+    ],
+    "id": "miata-koni-active",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 5
+    },
+    "manufacturer_part_number": "13-57220",
+    "name": "Special Active Shock Set with Bump Stops",
+    "official_url": "https://flyinmiata.com/products/koni-special-active-shock-set-1999-2005",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 899,
+      "url": "https://flyinmiata.com/products/koni-special-active-shock-set-1999-2005",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 86,
+      "handling": 8.7,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.9,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 9.1,
+      "value": 8.3
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Suspension",
+    "description": "Front anti-roll bar listed in Flyin' Miata's NB-specific handling catalog.",
+    "fitment_confidence": 0.98,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "miata-fm-front-sway",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2
+    },
+    "name": "Front Sway Bar",
+    "official_url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 219,
+      "url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 80,
+      "handling": 9.0,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.9,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 8.9,
+      "value": 8.8
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Suspension",
+    "description": "Rear anti-roll bar listed for NA/NB chassis in Flyin' Miata's NB handling catalog.",
+    "fitment_confidence": 0.97,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "miata-fm-rear-sway",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2
+    },
+    "name": "Rear Sway Bar",
+    "official_url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 169,
+      "url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 78,
+      "handling": 8.8,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.8,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 8.8,
+      "value": 8.8
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Suspension",
+    "description": "Matched front/rear Flyin' Miata sway-bar package for NB chassis.",
+    "fitment_confidence": 0.98,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-1999-05",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "miata-fm-sway-set",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 3
+    },
+    "name": "Sway Bar Set - NB Chassis",
+    "official_url": "https://flyinmiata.com/collections/nb-1999-05",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 369,
+      "url": "https://flyinmiata.com/collections/nb-1999-05",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 84,
+      "handling": 9.3,
+      "methodology_version": "curated_seed_v1",
+      "overall": 9.0,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.0,
+      "reliability": 8.9,
+      "value": 8.8
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Chassis",
+    "description": "Underbody frame-rail reinforcement for NA/NB chassis, listed in Flyin' Miata's NB catalog.",
+    "fitment_confidence": 0.98,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-1999-05",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "miata-frame-rails",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 4
+    },
+    "name": "Frame Rails v2.0",
+    "official_url": "https://flyinmiata.com/collections/nb-1999-05",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 259,
+      "url": "https://flyinmiata.com/collections/nb-1999-05",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 80,
+      "handling": 8.3,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.8,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 9.0,
+      "value": 8.8
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Chassis",
+    "description": "Complete high-performance rubber suspension bushing set listed for NA/NB Miata restoration and handling refresh.",
+    "fitment_confidence": 0.95,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-1999-05-restoration-oem",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "reliability"
+    ],
+    "id": "miata-rubber-bushings",
+    "install": {
+      "difficulty": "Professional",
+      "hours": 10
+    },
+    "name": "Complete High Performance Rubber Bushing Set",
+    "official_url": "https://flyinmiata.com/collections/nb-1999-05-restoration-oem",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 629,
+      "url": "https://flyinmiata.com/collections/nb-1999-05-restoration-oem",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 76,
+      "handling": 8.6,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.6,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 9.1,
+      "value": 7.8
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "NA/NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Brakes",
+    "description": "Stage 1 performance brake package whose listed 1994-2002 application includes the 1999 NB.",
+    "fitment_confidence": 0.95,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-1999-05-restoration-oem",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "miata-stage1-brakes",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 4
+    },
+    "name": "1994-02 Stage 1 Performance Brake Kit",
+    "official_url": "https://flyinmiata.com/collections/nb-1999-05-restoration-oem",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 637,
+      "url": "https://flyinmiata.com/collections/nb-1999-05-restoration-oem",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 78,
+      "handling": 8.6,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.8,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 8.9,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2002 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Cooling",
+    "description": "Crossflow aluminum radiator designed for 1990-2005 Miatas; NB-specific brackets are required as documented by Flyin' Miata.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/flyin-miata-crossflow-radiator",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "track"
+    ],
+    "id": "miata-crossflow-rad",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 3
+    },
+    "manufacturer_part_number": "09-10000",
+    "name": "Crossflow Radiator",
+    "official_url": "https://flyinmiata.com/products/flyin-miata-crossflow-radiator",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 499,
+      "url": "https://flyinmiata.com/collections/nb-1999-05",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 88,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.8,
+      "performance": 2,
+      "provisional": true,
+      "quality": 9.2,
+      "reliability": 9.2,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Maintenance",
+    "description": "Replacement water pump listed in the NB catalog for cooling-system maintenance.",
+    "fitment_confidence": 0.95,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-1999-05",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "budget"
+    ],
+    "id": "miata-water-pump",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 5
+    },
+    "name": "1.8L Water Pump",
+    "official_url": "https://flyinmiata.com/collections/nb-1999-05",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 84.99,
+      "url": "https://flyinmiata.com/collections/nb-1999-05",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 82,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.7,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 9.2,
+      "value": 9.1
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata 1.8"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Exhaust",
+    "description": "Flyin' Miata exhaust option listed for the NB platform.",
+    "fitment_confidence": 0.96,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-powertrain",
+    "fitment_status": "verified",
+    "goals": [
+      "power",
+      "balanced"
+    ],
+    "id": "miata-fm-exhaust",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 1.5
+    },
+    "name": "NB Exhaust",
+    "official_url": "https://flyinmiata.com/collections/nb-powertrain",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 529,
+      "url": "https://flyinmiata.com/collections/nb-powertrain",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 80,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.3,
+      "performance": 5.5,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 8.8,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Drivetrain",
+    "description": "Shifter wear-item refresh kit for NB manual transmissions.",
+    "fitment_confidence": 0.96,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-powertrain",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "balanced",
+      "budget"
+    ],
+    "id": "miata-shifter-rebuild",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2
+    },
+    "name": "Shifter Rebuild Kit",
+    "official_url": "https://flyinmiata.com/collections/nb-powertrain",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 71.99,
+      "url": "https://flyinmiata.com/collections/nb-powertrain",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 84,
+      "handling": 4.5,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.7,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 9.2,
+      "value": 9.4
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2005 NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Drivetrain",
+    "description": "Performance clutch package offered for NA/NB applications as a street-oriented supporting upgrade.",
+    "fitment_confidence": 0.94,
+    "fitment_source_url": "https://flyinmiata.com/collections/nb-powertrain",
+    "fitment_status": "verified",
+    "goals": [
+      "power",
+      "reliability",
+      "balanced"
+    ],
+    "id": "miata-fm-level1-clutch",
+    "install": {
+      "difficulty": "Professional",
+      "hours": 7
+    },
+    "name": "Level 1 Performance Clutch",
+    "official_url": "https://flyinmiata.com/collections/nb-powertrain",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 429,
+      "url": "https://flyinmiata.com/collections/nb-powertrain",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 78,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.4,
+      "performance": 6.5,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 8.8,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "NA/NB Miata"
+  },
+  {
+    "brand": "Flyin' Miata",
+    "category": "Forced Induction",
+    "description": "CARB-legal complete turbo system explicitly for 1999-2000; Flyin' Miata reports approximately 190 rear-wheel horsepower and documents clutch/cooling supporting requirements.",
+    "fitment_confidence": 0.99,
+    "fitment_source_url": "https://flyinmiata.com/products/flyin-miata-stage-1-turbo-system-1999-00",
+    "fitment_status": "verified",
+    "goals": [
+      "power",
+      "track"
+    ],
+    "id": "miata-stage1-turbo-9900",
+    "install": {
+      "difficulty": "Professional",
+      "hours": 12
+    },
+    "manufacturer_part_number": "22-13200",
+    "name": "Stage 1 Turbo System 1999-00",
+    "official_url": "https://flyinmiata.com/products/flyin-miata-stage-1-turbo-system-1999-00",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 4757.99,
+      "url": "https://flyinmiata.com/products/flyin-miata-stage-1-turbo-system-1999-00",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": 88,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.8,
+      "performance": 9.7,
+      "provisional": true,
+      "quality": 9.2,
+      "reliability": 8.4,
+      "value": 7.7
+    },
+    "status": "active",
+    "vehicle_id": "miata-1999",
+    "vehicle_query": "1999-2000 NB Miata"
+  },
+  {
+    "brand": "Mahle/Behr",
+    "category": "Maintenance",
+    "description": "Mahle/Behr Thermostat & Housing Refresh cataloged for BMW Z3 2.8 M52TU. Verify exact configuration before purchase.",
+    "fitment_confidence": 0.82,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "reliability",
+      "balanced",
+      "budget"
+    ],
+    "id": "mahle-z3-thermostat",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2
+    },
+    "name": "Thermostat & Housing Refresh",
+    "official_url": null,
+    "ranking": {
+      "confidence": 72,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.8,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 9.1,
+      "value": 9.2
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3 2.8 M52TU"
+  },
+  {
+    "brand": "Mishimoto",
+    "category": "Cooling",
+    "description": "Mishimoto Silicone Coolant Hose Kit cataloged as a Z3 cooling-system option. Exact engine/application must be verified.",
+    "fitment_confidence": 0.66,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "reliability",
+      "track"
+    ],
+    "id": "z3-silicone-hoses",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2.5
+    },
+    "name": "Silicone Coolant Hose Kit",
+    "official_url": null,
+    "ranking": {
+      "confidence": 62,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.4,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.4,
+      "reliability": 8.5,
+      "value": 8.1
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3 2.8"
+  },
+  {
+    "brand": "StopTech",
+    "category": "Brakes",
+    "description": "Street/track-oriented brake pad option for the Z3 catalog. Verify axle and caliper application before purchase.",
+    "fitment_confidence": 0.77,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "z3-stoptech-pads",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2
+    },
+    "name": "Sport Brake Pads",
+    "official_url": null,
+    "ranking": {
+      "confidence": 68,
+      "handling": 4.5,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.2,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.6,
+      "reliability": 8.4,
+      "value": 8.8
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3 2.8"
+  },
+  {
+    "brand": "Zimmermann",
+    "category": "Brakes",
+    "description": "Coated replacement rotor set for maintenance and braking refresh planning; exact front/rear SKU must be verified.",
+    "fitment_confidence": 0.8,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "reliability",
+      "balanced",
+      "track"
+    ],
+    "id": "z3-zimmerman-rotors",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 3
+    },
+    "name": "Coated Brake Rotor Set",
+    "official_url": null,
+    "ranking": {
+      "confidence": 72,
+      "handling": 4,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.7,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 9,
+      "value": 8.6
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3 2.8"
+  },
+  {
+    "brand": "Goodridge",
+    "category": "Brakes",
+    "description": "Stainless brake hose upgrade intended to improve pedal consistency. Exact hose count and chassis application must be verified.",
+    "fitment_confidence": 0.74,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "z3-goodridge-lines",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 3
+    },
+    "name": "Stainless Brake Line Kit",
+    "official_url": null,
+    "ranking": {
+      "confidence": 68,
+      "handling": 5.7,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.6,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.7,
+      "reliability": 8.8,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3 2.8"
+  },
+  {
+    "brand": "UUC Motorwerks",
+    "category": "Suspension",
+    "description": "Adjustable anti-roll bar option for handling-focused Z3 builds. Verify diameter and exact chassis fitment.",
+    "fitment_confidence": 0.66,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "z3-uuc-sway",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 3.5
+    },
+    "name": "Adjustable Sway Bar Set",
+    "official_url": null,
+    "ranking": {
+      "confidence": 61,
+      "handling": 9.1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.8,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 8.5,
+      "value": 7.7
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3"
+  },
+  {
+    "brand": "Ireland Engineering",
+    "category": "Chassis",
+    "description": "Rear subframe bushing option for reducing compliance and refreshing aging Z3 rear suspension mounting points.",
+    "fitment_confidence": 0.7,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "handling",
+      "reliability",
+      "track"
+    ],
+    "id": "z3-ie-subframe",
+    "install": {
+      "difficulty": "Professional",
+      "hours": 6
+    },
+    "name": "Rear Subframe Bushing Kit",
+    "official_url": null,
+    "ranking": {
+      "confidence": 67,
+      "handling": 8.6,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.1,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 8.9,
+      "value": 8.7
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3"
+  },
+  {
+    "brand": "Turner Motorsport",
+    "category": "Chassis",
+    "description": "Bolt-on front strut tower brace included as a chassis-stiffening option for Z3 build comparisons.",
+    "fitment_confidence": 0.61,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "handling",
+      "balanced"
+    ],
+    "id": "z3-strut-brace",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 0.5
+    },
+    "name": "Front Strut Tower Brace",
+    "official_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "ranking": {
+      "confidence": 60,
+      "handling": 6.8,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.2,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.5,
+      "reliability": 9,
+      "value": 7.4
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3"
+  },
+  {
+    "brand": "Rogue Engineering",
+    "category": "Drivetrain",
+    "description": "Short-shift solution for a more direct shift feel; exact transmission and selector-rod compatibility must be verified.",
+    "fitment_confidence": 0.68,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "balanced",
+      "track"
+    ],
+    "id": "z3-short-shifter",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 3
+    },
+    "name": "Short Shift Kit",
+    "official_url": null,
+    "ranking": {
+      "confidence": 66,
+      "handling": 4.8,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.6,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 8.7,
+      "value": 8
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3 2.8"
+  },
+  {
+    "brand": "APEX",
+    "category": "Wheels",
+    "description": "Lightweight ARC-8 wheel family commonly used on BMW fitments; width, diameter and offset must be selected for the specific Z3 setup.",
+    "fitment_confidence": 0.78,
+    "fitment_source_url": "https://apexwheels.com/fitment-guides/bmw/z3/bmw-z3-wheel-and-tire-fitment-guide",
+    "fitment_status": "probable",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "z3-apex-wheels",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 1
+    },
+    "name": "ARC-8 Wheel Set",
+    "official_url": "https://apexwheels.com/fitment-guides/bmw/z3/bmw-z3-wheel-and-tire-fitment-guide",
+    "ranking": {
+      "confidence": 76,
+      "handling": 8.9,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.3,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 8.8,
+      "value": 8.1
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3"
+  },
+  {
+    "brand": "Continental",
+    "category": "Tires",
+    "description": "Max-performance summer tire option; exact tire size must be matched to the selected wheel package and Z3 clearance.",
+    "fitment_confidence": 0.84,
+    "fitment_source_url": "https://continentaltire.com/tires/extremecontact-sport-02",
+    "fitment_status": "probable",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "z3-conti-ecs02",
+    "install": {
+      "difficulty": "Professional",
+      "hours": 1.5
+    },
+    "name": "ExtremeContact Sport 02 Tire Set",
+    "official_url": "https://continentaltire.com/tires/extremecontact-sport-02",
+    "ranking": {
+      "confidence": 82,
+      "handling": 9.4,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.5,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 8.8,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3"
+  },
+  {
+    "brand": "NGK",
+    "category": "Ignition",
+    "description": "Maintenance-oriented spark plug set for the M52TU catalog. Exact NGK part number should be checked against production date.",
+    "fitment_confidence": 0.85,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "reliability",
+      "budget",
+      "balanced"
+    ],
+    "id": "z3-ngk-plugs",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 1
+    },
+    "name": "Laser Platinum Spark Plug Set",
+    "official_url": null,
+    "ranking": {
+      "confidence": 81,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8,
+      "performance": 2,
+      "provisional": true,
+      "quality": 8.9,
+      "reliability": 9.2,
+      "value": 9.4
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3 2.8 M52TU"
+  },
+  {
+    "brand": "Bosch",
+    "category": "Ignition",
+    "description": "OEM-style ignition coil refresh option for the M52TU. Exact coil design and connector application must be verified.",
+    "fitment_confidence": 0.82,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3",
+    "fitment_status": "probable",
+    "goals": [
+      "reliability",
+      "balanced"
+    ],
+    "id": "z3-bosch-coils",
+    "install": {
+      "difficulty": "Easy",
+      "hours": 1
+    },
+    "name": "Ignition Coil Set",
+    "official_url": null,
+    "ranking": {
+      "confidence": 78,
+      "handling": 1,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.8,
+      "performance": 2,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 9,
+      "value": 8.7
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3 2.8 M52TU"
+  },
+  {
+    "brand": "H&R",
+    "category": "Suspension",
+    "description": "28mm adjustable H&R front anti-roll bar listed by Turner for BMW Z3 applications including the 2.8.",
+    "fitment_confidence": 0.94,
+    "fitment_source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "z3-hr-front-sway",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2.5
+    },
+    "name": "28mm Adjustable Front Sway Bar",
+    "official_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 332.99,
+      "url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 88,
+      "handling": 9.2,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.1,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9,
+      "reliability": 8.9,
+      "value": 8.1
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3 2.8"
+  },
+  {
+    "brand": "Turner Motorsport",
+    "category": "Drivetrain",
+    "description": "Turner double-shear selector rod listed for six-cylinder Z3 applications including the 2.8.",
+    "fitment_confidence": 0.93,
+    "fitment_source_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+    "fitment_status": "verified",
+    "goals": [
+      "balanced",
+      "track"
+    ],
+    "id": "z3-turner-dssr",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 2.5
+    },
+    "name": "DSSR 389mm Selector Rod",
+    "official_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 218.49,
+      "url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 87,
+      "handling": 4.8,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.8,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9,
+      "reliability": 9,
+      "value": 8.1
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3 2.8 six cylinder"
+  },
+  {
+    "brand": "Turner Motorsport",
+    "category": "Chassis",
+    "description": "Turner centered monoball front control-arm bushing solution listed for 1997-2002 Z3 applications including the 2.8.",
+    "fitment_confidence": 0.94,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track"
+    ],
+    "id": "z3-turner-monoball-fcab",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 3
+    },
+    "name": "Centered Monoball Front Control Arm Bushings",
+    "official_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 251.22,
+      "url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 88,
+      "handling": 9,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.1,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.1,
+      "reliability": 8.9,
+      "value": 8
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "1997-2002 BMW Z3 2.8"
+  },
+  {
+    "brand": "Turner Motorsport",
+    "category": "Drivetrain",
+    "description": "Refresh kit aimed at worn clutch-pedal components in E36/Z3 applications.",
+    "fitment_confidence": 0.91,
+    "fitment_source_url": "https://www.turnermotorsport.com/BMW-Z3/c-664-bmw-clutch-pedal-parts",
+    "fitment_status": "verified",
+    "goals": [
+      "reliability",
+      "balanced"
+    ],
+    "id": "z3-turner-clutch-pedal",
+    "install": {
+      "difficulty": "Moderate",
+      "hours": 2.5
+    },
+    "name": "Clutch Pedal Refresh Kit",
+    "official_url": "https://www.turnermotorsport.com/BMW-Z3/c-664-bmw-clutch-pedal-parts",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 206.6,
+      "url": "https://www.turnermotorsport.com/BMW-Z3/c-664-bmw-clutch-pedal-parts",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 84,
+      "handling": 2,
+      "methodology_version": "curated_seed_v1",
+      "overall": 7.9,
+      "performance": 1,
+      "provisional": true,
+      "quality": 8.8,
+      "reliability": 9.2,
+      "value": 8.5
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "BMW Z3"
+  },
+  {
+    "brand": "H&R / Bilstein",
+    "category": "Suspension",
+    "description": "Matched H&R Sport spring and Bilstein Sport/B8 damper package explicitly listed for non-M Z3 applications including 2.8.",
+    "fitment_confidence": 0.96,
+    "fitment_source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+    "fitment_status": "verified",
+    "goals": [
+      "handling",
+      "track",
+      "balanced"
+    ],
+    "id": "z3-bilstein-hr-package",
+    "install": {
+      "difficulty": "Advanced",
+      "hours": 6
+    },
+    "name": "H&R Sport Spring + Bilstein Sport/B8 Package",
+    "official_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+    "price_hint": {
+      "currency": "USD",
+      "observed_at": "2026-09-20",
+      "price": 1188.15,
+      "url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+      "vendor": "Turner Motorsport"
+    },
+    "ranking": {
+      "confidence": 91,
+      "handling": 9.2,
+      "methodology_version": "curated_seed_v1",
+      "overall": 8.5,
+      "performance": 1,
+      "provisional": true,
+      "quality": 9.2,
+      "reliability": 9.1,
+      "value": 8.2
+    },
+    "status": "active",
+    "vehicle_id": "z3-2000-28",
+    "vehicle_query": "1997-2002 BMW Z3 2.8"
+  }
+]
