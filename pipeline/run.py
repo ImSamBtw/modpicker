@@ -15,6 +15,7 @@ from curators.cloudflare_ai import CloudflareCurator
 
 ROOT=Path(__file__).resolve().parents[1]
 os.chdir(ROOT)
+SOURCE_PRIORITY={'manufacturer':100,'professional_review':90,'retailer':80,'forum':60,'youtube':55,'reddit':50}
 
 def load(path, default):
     p=Path(path); return json.loads(p.read_text()) if p.exists() else default
@@ -48,6 +49,26 @@ def dedupe(records):
     for r in records: seen[r.id]=r
     return list(seen.values())
 
+def dedupe_sources(records):
+    """Match the DB uniqueness rule: one canonical source per (part_id, URL).
+    Prefer primary/manufacturer evidence, then merge collector metadata into it.
+    """
+    groups={}
+    for r in records:
+        key=(r.part_id,r.url)
+        if key not in groups:
+            groups[key]=r; continue
+        current=groups[key]
+        current_rank=(SOURCE_PRIORITY.get(current.source_type,40),float(current.confidence or 0),bool(current.metadata.get('catalog_seed')))
+        incoming_rank=(SOURCE_PRIORITY.get(r.source_type,40),float(r.confidence or 0),bool(r.metadata.get('catalog_seed')))
+        keep,extra=(r,current) if incoming_rank>current_rank else (current,r)
+        keep.metadata={**(extra.metadata or {}),**(keep.metadata or {}),'merged_source_types':sorted(set([current.source_type,r.source_type]))}
+        keep.confidence=max(float(current.confidence or 0),float(r.confidence or 0))
+        if not keep.summary and extra.summary: keep.summary=extra.summary
+        if not keep.title and extra.title: keep.title=extra.title
+        groups[key]=keep
+    return list(groups.values())
+
 def validate_records(sources, offers):
     reviews=[]
     for r in sources:
@@ -68,7 +89,7 @@ def main():
     results=[CuratedCollector().run(),SeedCatalogCollector().run(parts),youtube_result,RedditCollector().run(parts),EbayCollector().run(parts),WebProductCollector().run(retailer_rows,existing_sources=existing_sources,refresh_hours=24)]
     candidates,candidate_warnings,candidate_meta=CatalogDiscoveryCollector(timeout=8).run()
     results.append(type('CatalogResult',(),{'name':'catalog_discovery','metadata':candidate_meta,'warnings':candidate_warnings})())
-    sources=dedupe([x for r in results if hasattr(r,'sources') for x in r.sources]); offers=dedupe([x for r in results if hasattr(r,'offers') for x in r.offers])
+    sources=dedupe_sources([x for r in results if hasattr(r,'sources') for x in r.sources]); offers=dedupe([x for r in results if hasattr(r,'offers') for x in r.offers])
     ai=CloudflareCurator(); ai_warnings=[]; ai_count=0
     if ai.enabled:
         for record in sources[:50]:
