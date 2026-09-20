@@ -1,10 +1,10 @@
 {
   "source_url": "https://www.fueleconomy.gov/feg/epadata/vehicles.csv.zip",
   "documentation_url": "https://www.fueleconomy.gov/feg/ws/index.shtml",
-  "retrieved_at": "2026-09-20T18:20:06.639336+00:00",
+  "retrieved_at": "2026-09-20T19:03:57.789410+00:00",
   "sha256": "c4979b13eeb97933a4d5e3ea6a3914639e5d7536b254af580b3661fb62d6d668",
   "upstream_rows": 50242,
-  "imported_rows": 91,
-  "scope": "Z3, NB Miata, first-generation BRZ/FR-S/86 US configurations",
+  "imported_rows": 206,
+  "scope": "Configured vehicle families in config/vehicle_families.json",
   "limits": "EPA configurations are not trim, engine-code, production-month or part-fitment evidence."
 }

@@ -1,7 +1,7 @@
 {
-  "application_count": 94,
+  "application_count": 209,
   "candidate_count": 26,
-  "catalog_part_count": 96,
+  "catalog_part_count": 102,
   "collectors": {
     "automatic_publication": {
       "attempted": 1,
@@ -32,9 +32,9 @@
       ]
     },
     "fitment_expansion": {
-      "expanded_fitment_count": 275,
-      "matched_rule_count": 18,
-      "rule_count": 18,
+      "expanded_fitment_count": 1577,
+      "matched_rule_count": 63,
+      "rule_count": 63,
       "warnings": []
     },
     "reddit": {
@@ -44,15 +44,15 @@
       ]
     },
     "seed_catalog": {
-      "count": 96,
+      "count": 102,
       "offer_count": 71,
-      "source_count": 85,
+      "source_count": 92,
       "warnings": []
     },
     "vehicles": {
       "enabled": true,
       "requests": 2,
-      "vehicle_count": 652,
+      "vehicle_count": 876,
       "warnings": []
     },
     "web_product": {
@@ -101,17 +101,17 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "expanded_fitment_count": 275,
-  "fitment_rule_count": 18,
+  "expanded_fitment_count": 1577,
+  "fitment_rule_count": 63,
   "fitment_warnings": [],
-  "generated_at": "2026-09-20T18:20:11Z",
-  "matched_fitment_rule_count": 18,
+  "generated_at": "2026-09-20T19:04:03Z",
+  "matched_fitment_rule_count": 63,
   "mode": "deterministic_no_ai",
   "offer_count": 71,
   "ok": false,
-  "platform_count": 4,
+  "platform_count": 7,
   "price_history_count": 71,
   "review_queue_count": 11,
-  "source_count": 359,
-  "vehicle_count": 652
+  "source_count": 366,
+  "vehicle_count": 876
 }

@@ -1,0 +1,1107 @@
+[
+  {
+    "confidence": 0.8,
+    "fitment_status": "probable",
+    "id": "miata-koni-active-1999-2005",
+    "notes": "Product lists 1999\u20132005. Incompatible with stock 2004\u201305 Mazdaspeed springs; EPA records do not establish spring configuration. Confirm springs and SKU 13-57220.",
+    "part_ids": [
+      "miata-koni-active"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "product_fitment_range",
+    "source_url": "https://flyinmiata.com/products/koni-special-active-shock-set-1999-2005"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "z3-turner-brake-lines-1997-2002",
+    "notes": "Turner's application table lists Z3 1.9, 2.3, 2.5/2.5i, 2.8 and 3.0i. EPA rows preserve each transmission and body configuration; confirm the final vehicle selector and no-mid-lines kit before ordering.",
+    "part_ids": [
+      "z3-turner-brake-lines"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains_any": [
+        "1.9",
+        "2.3",
+        "2.5",
+        "2.8",
+        "3.0"
+      ],
+      "year_from": 1997,
+      "year_to": 2002
+    },
+    "source_kind": "product_application_table",
+    "source_url": "https://www.turnermotorsport.com/p-583489-turner-motorsport-stainless-steel-brake-lines-complete-kit/"
+  },
+  {
+    "confidence": 0.66,
+    "fitment_status": "probable",
+    "id": "z3-turner-2-8-catalog-silicone-hoses",
+    "notes": "Catalog record is labeled BMW Z3 2.8. This category URL is not SKU-level evidence; show the part across the official 2.8 configurations, then confirm hose routing and exact kit.",
+    "part_ids": [
+      "z3-silicone-hoses"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1997,
+      "year_to": 2000
+    },
+    "source_kind": "category_fitment_range",
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.77,
+    "fitment_status": "probable",
+    "id": "z3-turner-2-8-catalog-stoptech-pads",
+    "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish axle, caliper or compound; confirm the exact StopTech SKU for the selected vehicle.",
+    "part_ids": [
+      "z3-stoptech-pads"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1997,
+      "year_to": 2000
+    },
+    "source_kind": "category_fitment_range",
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.8,
+    "fitment_status": "probable",
+    "id": "z3-turner-2-8-catalog-zimmerman-rotors",
+    "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish front/rear diameter or package; confirm the exact Zimmerman SKU for the selected vehicle.",
+    "part_ids": [
+      "z3-zimmerman-rotors"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1997,
+      "year_to": 2000
+    },
+    "source_kind": "category_fitment_range",
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.74,
+    "fitment_status": "probable",
+    "id": "z3-turner-2-8-catalog-goodridge-lines",
+    "notes": "Catalog record is labeled BMW Z3 2.8. Category evidence cannot establish hose count or axle coverage; confirm the exact Goodridge SKU for the selected vehicle.",
+    "part_ids": [
+      "z3-goodridge-lines"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1997,
+      "year_to": 2000
+    },
+    "source_kind": "category_fitment_range",
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.68,
+    "fitment_status": "probable",
+    "id": "z3-turner-short-shifter-2-8-manual",
+    "notes": "Catalog record is labeled BMW Z3 2.8. Short-shift parts require a manual gearbox and exact selector-rod/SKU confirmation; automatic applications are excluded.",
+    "part_ids": [
+      "z3-short-shifter"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "transmissions": [
+        "Manual 5-spd",
+        "5-speed manual"
+      ],
+      "trim_contains": "2.8",
+      "year_from": 1997,
+      "year_to": 2000
+    },
+    "source_kind": "category_fitment_range",
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.94,
+    "fitment_status": "verified",
+    "id": "z3-hr-front-sway-2-8",
+    "notes": "H&R 28 mm front bar is listed for Z3 2.8 applications. Preserve the year/engine selector and confirm non-M hardware before ordering.",
+    "part_ids": [
+      "z3-hr-front-sway"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1997,
+      "year_to": 2000
+    },
+    "source_kind": "product_application_table",
+    "source_url": "https://www.turnermotorsport.com/p-3674-hr-front-sway-bar-e36-z3/"
+  },
+  {
+    "confidence": 0.93,
+    "fitment_status": "verified",
+    "id": "z3-turner-dssr-2-8-manual",
+    "notes": "The 389 mm DSSR is a six-cylinder Z3 selector-rod application and requires the manual five-speed configuration. Confirm the current SKU and gearbox before purchase.",
+    "part_ids": [
+      "z3-turner-dssr"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "transmissions": [
+        "Manual 5-spd",
+        "5-speed manual"
+      ],
+      "trim_contains": "2.8",
+      "year_from": 1997,
+      "year_to": 2000
+    },
+    "source_kind": "product_application_table",
+    "source_url": "https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/"
+  },
+  {
+    "confidence": 0.94,
+    "fitment_status": "probable",
+    "id": "z3-turner-monoball-2-8-1997-2002",
+    "notes": "Turner catalog labels the centered monoball for 1997\u20132002 Z3 2.8 applications. Category evidence is range-level; confirm the exact bushing SKU and control-arm geometry.",
+    "part_ids": [
+      "z3-turner-monoball-fcab"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1997,
+      "year_to": 2002
+    },
+    "source_kind": "category_fitment_range",
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings"
+  },
+  {
+    "confidence": 0.96,
+    "fitment_status": "verified",
+    "id": "z3-bilstein-hr-2-8-1997-2002",
+    "notes": "Product title and application identify the non-M Z3 2.8 range. Confirm body, spring package and current Bilstein/H&R SKU before ordering.",
+    "part_ids": [
+      "z3-bilstein-hr-package"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1997,
+      "year_to": 2002
+    },
+    "source_kind": "product_fitment_range",
+    "source_url": "https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/"
+  },
+  {
+    "confidence": 1.0,
+    "fitment_status": "verified",
+    "id": "z3-cooling-overhaul-1999-2002-six-cylinder",
+    "notes": "Turner's application table lists 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. EPA rows do not establish production month; use the vehicle selector to confirm the current package and engine.",
+    "part_ids": [
+      "z3-turner-cooling-overhaul"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains_any": [
+        "2.3",
+        "2.5",
+        "2.8",
+        "3.0"
+      ],
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "product_application_table",
+    "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "z3-lower-radiator-hose-1999-2002-six-cylinder",
+    "notes": "Turner's product application lists the lower hose for 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i. Confirm the exact engine/production-date selector before ordering.",
+    "part_ids": [
+      "z3-genuine-lower-rad-hose"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains_any": [
+        "2.3",
+        "2.5",
+        "2.8",
+        "3.0"
+      ],
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "product_application_table",
+    "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "z3-upper-radiator-hose-1999-2002-six-cylinder",
+    "notes": "Turner's product title and application identify the 1999\u20132002 Z3 2.3, 2.5i, 2.8 and 3.0i range. Confirm the exact engine/production-date selector before ordering.",
+    "part_ids": [
+      "z3-genuine-upper-rad-hose"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains_any": [
+        "2.3",
+        "2.5",
+        "2.8",
+        "3.0"
+      ],
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "product_application_table",
+    "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/"
+  },
+  {
+    "confidence": 0.88,
+    "fitment_status": "probable",
+    "id": "z3-heater-inlet-pipe-1999-2002-2-8",
+    "notes": "Curated record identifies the M52TU/M54-era Z3 2.8 application. The shared product page spans several BMW chassis; confirm the current vehicle selector and production date.",
+    "part_ids": [
+      "z3-genuine-heater-inlet-pipe"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "product_fitment_range",
+    "source_url": "https://www.turnermotorsport.com/p-6939-heater-inlet-pipe-e46-e39-e53-e83-e85-z3/"
+  },
+  {
+    "confidence": 1.0,
+    "fitment_status": "verified",
+    "id": "z3-mahle-expansion-tank-1999-2002-six-cylinder",
+    "notes": "Turner's application text lists this tank for Z3 2.3, 2.5i, 2.8 and 3.0i from 1999\u20132002. Confirm the current vehicle selector and production-date break before ordering.",
+    "part_ids": [
+      "z3-mahle-expansion-tank"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains_any": [
+        "2.3",
+        "2.5",
+        "2.8",
+        "3.0"
+      ],
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "product_application_table",
+    "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/"
+  },
+  {
+    "confidence": 0.85,
+    "fitment_status": "probable",
+    "id": "z3-m52tu-ngk-plugs",
+    "notes": "Only manually reviewed applications with an explicit BMW M52TU engine-family ID match this rule; official EPA rows intentionally do not inherit engine codes. Confirm the exact NGK part number and production date.",
+    "part_ids": [
+      "z3-ngk-plugs"
+    ],
+    "selector": {
+      "engine_family_id": "bmw-m52tu",
+      "family_id": "bmw-z3",
+      "year_from": 1999,
+      "year_to": 2000
+    },
+    "source_kind": "engine_family_reference",
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "z3-m52tu-bosch-coils",
+    "notes": "Only manually reviewed applications with an explicit BMW M52TU engine-family ID match this rule; official EPA rows intentionally do not inherit engine codes. Confirm the exact Bosch coil design and connector.",
+    "part_ids": [
+      "z3-bosch-coils"
+    ],
+    "selector": {
+      "engine_family_id": "bmw-m52tu",
+      "family_id": "bmw-z3",
+      "year_from": 1999,
+      "year_to": 2000
+    },
+    "source_kind": "engine_family_reference",
+    "source_url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.98,
+    "fitment_status": "verified",
+    "id": "auto-range-mustang-steeda-intake-2015-2017",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "mustang-steeda-intake"
+    ],
+    "selector": {
+      "engine_family_id": "ford-coyote-50",
+      "family_id": "ford-mustang-s550",
+      "year_from": 2015,
+      "year_to": 2017
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.steeda.com/steeda-proflow-mustang-cold-air-intake-tune-required-2015-gt-555-3194.html"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-perrin-intake-2017-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-perrin-intake"
+    ],
+    "selector": {
+      "family_ids": [
+        "bmw-z3",
+        "mazda-nb",
+        "subaru-brz-zc6"
+      ],
+      "transmission_contains_any": [
+        "manual"
+      ],
+      "year_from": 2017,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2020-brz-fr-s-86-manual"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-perrin-subframe-2013-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-perrin-subframe"
+    ],
+    "selector": {
+      "family_id": "subaru-brz-zc6",
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/subframe-differential-lockdown"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-perrin-trans-support-2013-2026",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-perrin-trans-support"
+    ],
+    "selector": {
+      "family_ids": [
+        "bmw-z3",
+        "mazda-nb",
+        "subaru-brz-zc6"
+      ],
+      "transmission_contains_any": [
+        "manual"
+      ],
+      "year_from": 2013,
+      "year_to": 2026
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/transmission-mount-support-for-manual"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-perrin-master-brace-2013-2026",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-perrin-master-brace"
+    ],
+    "selector": {
+      "family_id": "subaru-brz-zc6",
+      "year_from": 2013,
+      "year_to": 2026
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/master-cylinder-brace-for-brz-fr-s-86-gr86"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-jr-oilcooler-2013-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-jr-oilcooler"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://jacksonracing.com/product/fr-sbrz-engine-oil-cooler-kit/"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-jr-dual-cooler-2013-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-jr-dual-cooler"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://jacksonracing.com/product/fr-sbrz-dual-radiatoroil-cooler/"
+  },
+  {
+    "confidence": 0.98,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-csg-rx1-2012-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-csg-rx1"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2012,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.counterspacegarage.com/csg-spec"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-csg-pads-2013-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-csg-pads"
+    ],
+    "selector": {
+      "family_id": "subaru-brz-zc6",
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.counterspacegarage.com/csg-spec-brake-pads"
+  },
+  {
+    "confidence": 0.97,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-greddy-oilcooler-2013-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-greddy-oilcooler"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.counterspacegarage.com/products/cooling?limit=all"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-koni-stage1-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-koni-stage1"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/nb-stage-1-suspension-kit"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-koni-stage2-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-koni-stage2"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/nb-koni-stage-2-suspension-kit"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-vmaxx-xxtreme-track-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-vmaxx-xxtreme-track"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-coilovers-track-pack"
+  },
+  {
+    "confidence": 1.0,
+    "fitment_status": "verified",
+    "id": "auto-range-z3-mahle-expansion-tank-1999-2002",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "z3-mahle-expansion-tank"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/"
+  },
+  {
+    "confidence": 1.0,
+    "fitment_status": "verified",
+    "id": "auto-range-z3-turner-cooling-overhaul-1999-2002",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "z3-turner-cooling-overhaul"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-koni-sport-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-koni-sport"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/nb-koni-sport"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-koni-strt-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-koni-strt"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/koni-str-t-shock-and-bump-stop-set-nb"
+  },
+  {
+    "confidence": 0.98,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-front-sway-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-front-sway"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars"
+  },
+  {
+    "confidence": 0.97,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-rear-sway-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-rear-sway"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars"
+  },
+  {
+    "confidence": 0.98,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-sway-set-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-sway-set"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/collections/nb-1999-05"
+  },
+  {
+    "confidence": 0.98,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-frame-rails-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-frame-rails"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/collections/nb-1999-05"
+  },
+  {
+    "confidence": 0.95,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-stage1-brakes-1999-2002",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-stage1-brakes"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/collections/nb-1999-05-restoration-oem"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-crossflow-rad-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-crossflow-rad"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/flyin-miata-crossflow-radiator"
+  },
+  {
+    "confidence": 0.95,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-water-pump-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-water-pump"
+    ],
+    "selector": {
+      "engine_family_id": "mazda-bp-4w",
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/collections/nb-1999-05"
+  },
+  {
+    "confidence": 0.96,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-exhaust-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-exhaust"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/collections/nb-powertrain"
+  },
+  {
+    "confidence": 0.96,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-shifter-rebuild-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-shifter-rebuild"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/collections/nb-powertrain"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-stage1-turbo-9900-1999-2000",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-stage1-turbo-9900"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2000
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/flyin-miata-stage-1-turbo-system-1999-00"
+  },
+  {
+    "confidence": 0.97,
+    "fitment_status": "verified",
+    "id": "auto-range-mustang-steeda-brake-lines-2015-2023",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "mustang-steeda-brake-lines"
+    ],
+    "selector": {
+      "engine_family_id": "ford-coyote-50",
+      "family_id": "ford-mustang-s550",
+      "year_from": 2015,
+      "year_to": 2023
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html"
+  },
+  {
+    "confidence": 0.93,
+    "fitment_status": "verified",
+    "id": "auto-range-mustang-steeda-progressive-springs-2015-2023",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "mustang-steeda-progressive-springs"
+    ],
+    "selector": {
+      "family_id": "ford-mustang-s550",
+      "year_from": 2015,
+      "year_to": 2023
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210"
+  },
+  {
+    "confidence": 0.88,
+    "fitment_status": "probable",
+    "id": "auto-range-mustang-whiteline-sway-kit-2015-2023",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "mustang-whiteline-sway-kit"
+    ],
+    "selector": {
+      "family_id": "ford-mustang-s550",
+      "year_from": 2015,
+      "year_to": 2023
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html"
+  },
+  {
+    "confidence": 0.86,
+    "fitment_status": "probable",
+    "id": "auto-range-mustang-steeda-handling-package-2015-2023",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "mustang-steeda-handling-package"
+    ],
+    "selector": {
+      "family_id": "ford-mustang-s550",
+      "year_from": 2015,
+      "year_to": 2023
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.steeda.com/Steeda-S550-Mustang-Handling-Suspension-Package-15-17-555-2408"
+  },
+  {
+    "confidence": 0.95,
+    "fitment_status": "verified",
+    "id": "auto-range-mustang-steeda-pp-rear-rotors-2015-2023",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "mustang-steeda-pp-rear-rotors"
+    ],
+    "selector": {
+      "engine_family_id": "ford-coyote-50",
+      "family_id": "ford-mustang-s550",
+      "trim_contains": "Performance Package",
+      "year_from": 2015,
+      "year_to": 2023
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033"
+  },
+  {
+    "confidence": 0.84,
+    "fitment_status": "probable",
+    "id": "auto-range-mustang-airlift-s550-front-kit-2015-2023",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "mustang-airlift-s550-front-kit"
+    ],
+    "selector": {
+      "family_id": "ford-mustang-s550",
+      "year_from": 2015,
+      "year_to": 2023
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-perrin-engine-mounts-2013-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-perrin-engine-mounts"
+    ],
+    "selector": {
+      "family_id": "subaru-brz-zc6",
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/engine-mount-kit-for-2002-2026-wrx-sti-brz-fr-s-86-legacy-forester-outback-impreza-ascent"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-brz-perrin-inlet-hose-manual-2017-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "brz-perrin-inlet-hose-manual"
+    ],
+    "selector": {
+      "family_ids": [
+        "bmw-z3",
+        "mazda-nb",
+        "subaru-brz-zc6"
+      ],
+      "transmission_contains_any": [
+        "manual"
+      ],
+      "year_from": 2017,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/inlet-hose-for-2013-2020-brz-fr-s-86-gr86"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-door-bushings-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-door-bushings"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/door-bushings"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-endlinks-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-endlinks"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/nb-and-nc-end-link"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-springs-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-springs"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/nb-flyin-miata-springs"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-heavy-sway-mounts-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-heavy-sway-mounts"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/na-nb-heavy-duty-sway-bar-mounts"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-billet-front-sway-brackets-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-billet-front-sway-brackets"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/front-billet-sway-bar-brackets"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-billet-rear-sway-brackets-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-billet-rear-sway-brackets"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/rear-billet-sway-bar-brackets"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-fm-fox-suspension-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-fm-fox-suspension"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/fox-suspension-for-nb-chassis"
+  },
+  {
+    "confidence": 0.99,
+    "fitment_status": "verified",
+    "id": "auto-range-miata-vmaxx-classic-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "miata-vmaxx-classic"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/collections/nb-handling-coilovers"
+  },
+  {
+    "confidence": 1.0,
+    "fitment_status": "verified",
+    "id": "auto-range-z3-genuine-lower-rad-hose-1999-2002",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "z3-genuine-lower-rad-hose"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.turnermotorsport.com/p-19210-11531716642-genuine-bmw-part/"
+  },
+  {
+    "confidence": 1.0,
+    "fitment_status": "verified",
+    "id": "auto-range-z3-genuine-upper-rad-hose-1999-2002",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "z3-genuine-upper-rad-hose"
+    ],
+    "selector": {
+      "family_id": "bmw-z3",
+      "trim_contains": "2.8",
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/"
+  }
+]
