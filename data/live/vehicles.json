@@ -31005,5 +31005,311 @@
     ],
     "trim": "Unspecified",
     "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-478-1904",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1904,
+      "retrieved_at": "2026-09-20T22:30:11.468606+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999?format=json"
+    },
+    "model": "Altima",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-478-1907",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1907,
+      "retrieved_at": "2026-09-20T22:30:11.468614+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999?format=json"
+    },
+    "model": "Sentra",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-478-1911",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1911,
+      "retrieved_at": "2026-09-20T22:30:11.468620+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999?format=json"
+    },
+    "model": "Pathfinder",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-478-1917",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1917,
+      "retrieved_at": "2026-09-20T22:30:11.468623+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999?format=json"
+    },
+    "model": "Quest",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-478-1919",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1919,
+      "retrieved_at": "2026-09-20T22:30:11.468625+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999?format=json"
+    },
+    "model": "Frontier",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-478-2302",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 2302,
+      "retrieved_at": "2026-09-20T22:30:11.468631+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999?format=json"
+    },
+    "model": "Maxima",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-478-5565",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 5565,
+      "retrieved_at": "2026-09-20T22:30:11.468637+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999?format=json"
+    },
+    "model": "240SX",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-478-5756",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 5756,
+      "retrieved_at": "2026-09-20T22:30:11.468643+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999?format=json"
+    },
+    "model": "Altra-EV",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-478-1904",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1904,
+      "retrieved_at": "2026-09-20T22:30:11.619303+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000?format=json"
+    },
+    "model": "Altima",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-478-1907",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1907,
+      "retrieved_at": "2026-09-20T22:30:11.619314+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000?format=json"
+    },
+    "model": "Sentra",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-478-1911",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1911,
+      "retrieved_at": "2026-09-20T22:30:11.619321+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000?format=json"
+    },
+    "model": "Pathfinder",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-478-1916",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1916,
+      "retrieved_at": "2026-09-20T22:30:11.619325+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000?format=json"
+    },
+    "model": "Xterra",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-478-1917",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1917,
+      "retrieved_at": "2026-09-20T22:30:11.619328+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000?format=json"
+    },
+    "model": "Quest",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-478-1919",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 1919,
+      "retrieved_at": "2026-09-20T22:30:11.619332+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000?format=json"
+    },
+    "model": "Frontier",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-478-2302",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 2302,
+      "retrieved_at": "2026-09-20T22:30:11.619339+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000?format=json"
+    },
+    "model": "Maxima",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-478-5565",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 5565,
+      "retrieved_at": "2026-09-20T22:30:11.619346+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000?format=json"
+    },
+    "model": "240SX",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-478-5756",
+    "make": "NISSAN",
+    "metadata": {
+      "model_id": 5756,
+      "retrieved_at": "2026-09-20T22:30:11.619353+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000?format=json"
+    },
+    "model": "Altra-EV",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
   }
 ]
