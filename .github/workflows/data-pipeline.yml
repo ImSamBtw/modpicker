@@ -68,7 +68,7 @@ jobs:
           OIDC_TOKEN="$(cat /tmp/oidc-token)"
           curl --fail-with-body -sS \
             -X POST \
-            -H "Authorization: Bearer ${OIDIDC_TOKEN:-${OIDC_TOKEN}}" \
+            -H "Authorization: Bearer ${OIDC_TOKEN}" \
             -H "Content-Type: application/json" \
             --data-binary @/tmp/modpicker-payload.json \
             https://pzxofwrdidvqhdlqbehk.supabase.co/functions/v1/ingest-github-pipeline
