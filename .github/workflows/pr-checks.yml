@@ -35,15 +35,19 @@ jobs:
           node --check garage.js
           node --check garage-planner.js
           node --check interchange.js
+          node --check maintenance-specs.js
           node --check ui-polish.js
           node --check research.js
           node --check trust-ui.js
+          node --check tests/browser-maintenance-a11y.cjs
       - name: Install browser test runtime
         run: |
           npm install --no-save playwright@1.55.0
           npx playwright install --with-deps chromium
       - name: Run browser smoke test
         run: node tests/browser-smoke.cjs
+      - name: Run maintenance and keyboard browser test
+        run: node tests/browser-maintenance-a11y.cjs
       - name: Upload browser screenshots
         if: always()
         uses: actions/upload-artifact@v4
