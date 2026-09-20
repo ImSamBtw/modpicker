@@ -30,3 +30,10 @@ script.addEventListener('load',()=>{
 });
 document.body.appendChild(script);
 })();
+
+(()=>{
+for(const [src,key] of [['garage-planner.js','garagePlanner'],['interchange.js','interchange']]){
+ if(document.querySelector(`script[data-${key}]`))continue;
+ const script=document.createElement('script');script.src=src;script.async=false;script.dataset[key]='1';document.body.appendChild(script);
+}
+})();
