@@ -6,6 +6,7 @@ from pipeline.models import SourceRecord, now_iso
 from pipeline.curation import classify
 
 STOP={'the','and','for','with','kit','set','system','performance','sport','series','high','front','rear'}
+QUOTA_STATE_KEY='__quota__'
 
 def dt(value):
     try: return datetime.fromisoformat(str(value).replace('Z','+00:00'))
@@ -22,22 +23,46 @@ def is_quota_error(exc):
 class YouTubeCollector(BaseCollector):
     name='youtube'
 
-    def run(self, parts, existing_sources=None, search_state=None, max_searches=25, refresh_days=7):
+    def run(self, parts, existing_sources=None, search_state=None, max_searches=25, refresh_days=7, quota_cooldown_hours=12):
         key=os.getenv('YOUTUBE_API_KEY')
+        state=dict(search_state or {})
         if not key:
-            self.search_state=search_state or {}
+            self.search_state=state
             return CollectorResult(self.name,[],[],['YOUTUBE_API_KEY not configured'],{'enabled':False})
 
+        now=datetime.now(timezone.utc)
+        quota_entry=state.get(QUOTA_STATE_KEY) or {}
+        quota_until=dt(quota_entry.get('last_quota_error'))+timedelta(hours=quota_cooldown_hours)
+        if quota_entry.get('last_quota_error') and quota_until>now:
+            self.search_state=state
+            return CollectorResult(
+                self.name,[],[],[],
+                {
+                    'enabled':True,
+                    'search_calls':0,
+                    'count':0,
+                    'fresh_parts_skipped':0,
+                    'refresh_days':refresh_days,
+                    'max_searches':max_searches,
+                    'search_state_entries':len([k for k in state if k!=QUOTA_STATE_KEY]),
+                    'quota_stopped':True,
+                    'quota_cooldown_active':True,
+                    'quota_cooldown_until':quota_until.replace(microsecond=0).isoformat().replace('+00:00','Z'),
+                    'quota_cooldown_hours':quota_cooldown_hours,
+                }
+            )
+        if QUOTA_STATE_KEY in state:
+            state.pop(QUOTA_STATE_KEY,None)
+
         existing_sources=existing_sources or []
-        state=dict(search_state or {})
-        cutoff=datetime.now(timezone.utc)-timedelta(days=refresh_days)
+        cutoff=now-timedelta(days=refresh_days)
         fresh_sources={
             s.get('part_id') for s in existing_sources
             if s.get('source_type')=='youtube' and dt(s.get('retrieved_at'))>=cutoff
         }
         fresh_attempts={
             part_id for part_id,entry in state.items()
-            if dt((entry or {}).get('last_attempt'))>=cutoff
+            if part_id!=QUOTA_STATE_KEY and dt((entry or {}).get('last_attempt'))>=cutoff
         }
 
         out=[]; warnings=[]; calls=0; skipped=0; quota_stopped=False
@@ -94,6 +119,11 @@ class YouTubeCollector(BaseCollector):
                 warnings.append(f"{part_id}: {type(e).__name__}: {e}")
                 if is_quota_error(e):
                     quota_stopped=True
+                    state[QUOTA_STATE_KEY]={
+                        'last_quota_error':now_iso(),
+                        'status':'quota',
+                        'cooldown_hours':quota_cooldown_hours,
+                    }
                     break
                 state[part_id]={
                     'last_attempt':now_iso(),
@@ -113,7 +143,9 @@ class YouTubeCollector(BaseCollector):
                 'fresh_parts_skipped':skipped,
                 'refresh_days':refresh_days,
                 'max_searches':max_searches,
-                'search_state_entries':len(state),
+                'search_state_entries':len([k for k in state if k!=QUOTA_STATE_KEY]),
                 'quota_stopped':quota_stopped,
+                'quota_cooldown_active':quota_stopped,
+                'quota_cooldown_hours':quota_cooldown_hours,
             }
         )
