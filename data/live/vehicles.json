@@ -28467,5 +28467,1517 @@
     ],
     "trim": "Unspecified",
     "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-1237-4563",
+    "make": "AFFORDABLE ALUMINUM",
+    "metadata": {
+      "model_id": 4563,
+      "retrieved_at": "2026-09-20T19:31:33.640197+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Affordable Aluminum",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-10240-26910",
+    "make": "AFFORDABLE TRAILERS",
+    "metadata": {
+      "model_id": 26910,
+      "retrieved_at": "2026-09-20T19:31:33.640214+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Affordable Trailers",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-5697-14916",
+    "make": "ASHFORD MFG",
+    "metadata": {
+      "model_id": 14916,
+      "retrieved_at": "2026-09-20T19:31:33.640218+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Travel Park",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-8578-22551",
+    "make": "BRADFORD #1",
+    "metadata": {
+      "model_id": 22551,
+      "retrieved_at": "2026-09-20T19:31:33.640221+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Bradford #1",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-6674-18064",
+    "make": "BRADFORD BUILT",
+    "metadata": {
+      "model_id": 18064,
+      "retrieved_at": "2026-09-20T19:31:33.640224+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Bradford Built",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-6579-17910",
+    "make": "CRANFORD RADIATOR INC.",
+    "metadata": {
+      "model_id": 17910,
+      "retrieved_at": "2026-09-20T19:31:33.640227+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "CRANFORD RADIATOR INC.",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-1298-4645",
+    "make": "EAGLE FORD TANKS & TRAILERS LLC",
+    "metadata": {
+      "model_id": 4645,
+      "retrieved_at": "2026-09-20T19:31:33.640230+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Eagle Ford Tanks & Trailers LLC",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1781",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1781,
+      "retrieved_at": "2026-09-20T19:31:33.640233+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Mustang",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1798",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1798,
+      "retrieved_at": "2026-09-20T19:31:33.640236+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Escape",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1799",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1799,
+      "retrieved_at": "2026-09-20T19:31:33.640239+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Expedition",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1800",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1800,
+      "retrieved_at": "2026-09-20T19:31:33.640242+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Explorer",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1801",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1801,
+      "retrieved_at": "2026-09-20T19:31:33.640245+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "F-150",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1803",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1803,
+      "retrieved_at": "2026-09-20T19:31:33.640248+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Ranger",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1805",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1805,
+      "retrieved_at": "2026-09-20T19:31:33.640253+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "F-250",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1806",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1806,
+      "retrieved_at": "2026-09-20T19:31:33.640258+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "F-350",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1807",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1807,
+      "retrieved_at": "2026-09-20T19:31:33.640263+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "F-450",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1808",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1808,
+      "retrieved_at": "2026-09-20T19:31:33.640268+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "F-550",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1809",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1809,
+      "retrieved_at": "2026-09-20T19:31:33.640271+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "F-650",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1810",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1810,
+      "retrieved_at": "2026-09-20T19:31:33.640273+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "F-750",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1818",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1818,
+      "retrieved_at": "2026-09-20T19:31:33.640277+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "E-350",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1819",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1819,
+      "retrieved_at": "2026-09-20T19:31:33.640280+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "E-450",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-1820",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1820,
+      "retrieved_at": "2026-09-20T19:31:33.640283+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Expedition MAX",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-2737",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 2737,
+      "retrieved_at": "2026-09-20T19:31:33.640285+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Motorhome Chassis",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-3410",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 3410,
+      "retrieved_at": "2026-09-20T19:31:33.640288+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Commercial Chassis",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-3608",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 3608,
+      "retrieved_at": "2026-09-20T19:31:33.640299+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Transit",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-6825",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 6825,
+      "retrieved_at": "2026-09-20T19:31:33.640301+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Bronco",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-13979",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 13979,
+      "retrieved_at": "2026-09-20T19:31:33.640306+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "F-600",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-14930",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 14930,
+      "retrieved_at": "2026-09-20T19:31:33.640309+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "'34",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-27411",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 27411,
+      "retrieved_at": "2026-09-20T19:31:33.640311+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Bronco Sport",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-27440",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 27440,
+      "retrieved_at": "2026-09-20T19:31:33.640314+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Mustang Mach-E",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-28967",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 28967,
+      "retrieved_at": "2026-09-20T19:31:33.640318+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Maverick",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-31551",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 31551,
+      "retrieved_at": "2026-09-20T19:31:33.640321+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "GT MKII",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-460-35300",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 35300,
+      "retrieved_at": "2026-09-20T19:31:33.640323+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Mustang GTD",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-4533-9637",
+    "make": "FORDS TRAILER SALES",
+    "metadata": {
+      "model_id": 9637,
+      "retrieved_at": "2026-09-20T19:31:33.640326+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Fords Trailer Sales",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-13538-36061",
+    "make": "LYFORD OVERLAND",
+    "metadata": {
+      "model_id": 36061,
+      "retrieved_at": "2026-09-20T19:31:33.640328+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Lyford Overland",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-9569-23878",
+    "make": "MEDFORD STEEL",
+    "metadata": {
+      "model_id": 23878,
+      "retrieved_at": "2026-09-20T19:31:33.640331+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Medford Steel",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-4265-9047",
+    "make": "MILFORD PIPE & SUPPLY",
+    "metadata": {
+      "model_id": 9047,
+      "retrieved_at": "2026-09-20T19:31:33.640333+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Milford Pipe & Supply",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-8948-23075",
+    "make": "STAFFORD'S TRAILERS",
+    "metadata": {
+      "model_id": 23075,
+      "retrieved_at": "2026-09-20T19:31:33.640336+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Stafford's Trailers",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-6792-18235",
+    "make": "STANFORD CUSTOMS",
+    "metadata": {
+      "model_id": 18235,
+      "retrieved_at": "2026-09-20T19:31:33.640338+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Malibu Sedan",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-6792-18236",
+    "make": "STANFORD CUSTOMS",
+    "metadata": {
+      "model_id": 18236,
+      "retrieved_at": "2026-09-20T19:31:33.640342+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Cordova Sedan",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-6792-18237",
+    "make": "STANFORD CUSTOMS",
+    "metadata": {
+      "model_id": 18237,
+      "retrieved_at": "2026-09-20T19:31:33.640345+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Classic Sedan",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-6163-16298",
+    "make": "SWINFORD MFG",
+    "metadata": {
+      "model_id": 16298,
+      "retrieved_at": "2026-09-20T19:31:33.640347+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025?format=json"
+    },
+    "model": "Swinford Mfg",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-1237-4563",
+    "make": "AFFORDABLE ALUMINUM",
+    "metadata": {
+      "model_id": 4563,
+      "retrieved_at": "2026-09-20T19:31:35.314172+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Affordable Aluminum",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-10240-26910",
+    "make": "AFFORDABLE TRAILERS",
+    "metadata": {
+      "model_id": 26910,
+      "retrieved_at": "2026-09-20T19:31:35.314192+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Affordable Trailers",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-5697-14916",
+    "make": "ASHFORD MFG",
+    "metadata": {
+      "model_id": 14916,
+      "retrieved_at": "2026-09-20T19:31:35.314196+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Travel Park",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-8578-22551",
+    "make": "BRADFORD #1",
+    "metadata": {
+      "model_id": 22551,
+      "retrieved_at": "2026-09-20T19:31:35.314199+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Bradford #1",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-6674-18064",
+    "make": "BRADFORD BUILT",
+    "metadata": {
+      "model_id": 18064,
+      "retrieved_at": "2026-09-20T19:31:35.314202+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Bradford Built",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-6579-17910",
+    "make": "CRANFORD RADIATOR INC.",
+    "metadata": {
+      "model_id": 17910,
+      "retrieved_at": "2026-09-20T19:31:35.314205+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "CRANFORD RADIATOR INC.",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-1298-4645",
+    "make": "EAGLE FORD TANKS & TRAILERS LLC",
+    "metadata": {
+      "model_id": 4645,
+      "retrieved_at": "2026-09-20T19:31:35.314207+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Eagle Ford Tanks & Trailers LLC",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1781",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1781,
+      "retrieved_at": "2026-09-20T19:31:35.314210+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Mustang",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1798",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1798,
+      "retrieved_at": "2026-09-20T19:31:35.314213+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Escape",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1799",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1799,
+      "retrieved_at": "2026-09-20T19:31:35.314241+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Expedition",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1800",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1800,
+      "retrieved_at": "2026-09-20T19:31:35.314244+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Explorer",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1801",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1801,
+      "retrieved_at": "2026-09-20T19:31:35.314246+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "F-150",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1803",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1803,
+      "retrieved_at": "2026-09-20T19:31:35.314249+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Ranger",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1805",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1805,
+      "retrieved_at": "2026-09-20T19:31:35.314253+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "F-250",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1806",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1806,
+      "retrieved_at": "2026-09-20T19:31:35.314259+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "F-350",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1807",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1807,
+      "retrieved_at": "2026-09-20T19:31:35.314267+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "F-450",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1808",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1808,
+      "retrieved_at": "2026-09-20T19:31:35.314272+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "F-550",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1809",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1809,
+      "retrieved_at": "2026-09-20T19:31:35.314278+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "F-650",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1810",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1810,
+      "retrieved_at": "2026-09-20T19:31:35.314281+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "F-750",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1818",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1818,
+      "retrieved_at": "2026-09-20T19:31:35.314285+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "E-350",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1819",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1819,
+      "retrieved_at": "2026-09-20T19:31:35.314287+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "E-450",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-1820",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 1820,
+      "retrieved_at": "2026-09-20T19:31:35.314290+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Expedition MAX",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-2737",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 2737,
+      "retrieved_at": "2026-09-20T19:31:35.314292+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Motorhome Chassis",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-3410",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 3410,
+      "retrieved_at": "2026-09-20T19:31:35.314294+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Commercial Chassis",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-3608",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 3608,
+      "retrieved_at": "2026-09-20T19:31:35.314304+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Transit",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-6825",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 6825,
+      "retrieved_at": "2026-09-20T19:31:35.314307+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Bronco",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-13979",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 13979,
+      "retrieved_at": "2026-09-20T19:31:35.314312+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "F-600",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-14930",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 14930,
+      "retrieved_at": "2026-09-20T19:31:35.314314+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "'34",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-27411",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 27411,
+      "retrieved_at": "2026-09-20T19:31:35.314317+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Bronco Sport",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-27440",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 27440,
+      "retrieved_at": "2026-09-20T19:31:35.314319+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Mustang Mach-E",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-28967",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 28967,
+      "retrieved_at": "2026-09-20T19:31:35.314322+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Maverick",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-31551",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 31551,
+      "retrieved_at": "2026-09-20T19:31:35.314324+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "GT MKII",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-460-35300",
+    "make": "FORD",
+    "metadata": {
+      "model_id": 35300,
+      "retrieved_at": "2026-09-20T19:31:35.314328+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Mustang GTD",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-4533-9637",
+    "make": "FORDS TRAILER SALES",
+    "metadata": {
+      "model_id": 9637,
+      "retrieved_at": "2026-09-20T19:31:35.314331+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Fords Trailer Sales",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-13538-36061",
+    "make": "LYFORD OVERLAND",
+    "metadata": {
+      "model_id": 36061,
+      "retrieved_at": "2026-09-20T19:31:35.314334+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Lyford Overland",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-9569-23878",
+    "make": "MEDFORD STEEL",
+    "metadata": {
+      "model_id": 23878,
+      "retrieved_at": "2026-09-20T19:31:35.314336+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Medford Steel",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-4265-9047",
+    "make": "MILFORD PIPE & SUPPLY",
+    "metadata": {
+      "model_id": 9047,
+      "retrieved_at": "2026-09-20T19:31:35.314340+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Milford Pipe & Supply",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-8948-23075",
+    "make": "STAFFORD'S TRAILERS",
+    "metadata": {
+      "model_id": 23075,
+      "retrieved_at": "2026-09-20T19:31:35.314343+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Stafford's Trailers",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-6792-18235",
+    "make": "STANFORD CUSTOMS",
+    "metadata": {
+      "model_id": 18235,
+      "retrieved_at": "2026-09-20T19:31:35.314345+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Malibu Sedan",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-6792-18236",
+    "make": "STANFORD CUSTOMS",
+    "metadata": {
+      "model_id": 18236,
+      "retrieved_at": "2026-09-20T19:31:35.314348+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Cordova Sedan",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-6792-18237",
+    "make": "STANFORD CUSTOMS",
+    "metadata": {
+      "model_id": 18237,
+      "retrieved_at": "2026-09-20T19:31:35.314350+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Classic Sedan",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-6163-16298",
+    "make": "SWINFORD MFG",
+    "metadata": {
+      "model_id": 16298,
+      "retrieved_at": "2026-09-20T19:31:35.314353+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026?format=json"
+    },
+    "model": "Swinford Mfg",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
   }
 ]
