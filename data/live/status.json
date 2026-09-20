@@ -45,7 +45,7 @@
     "vehicles": {
       "enabled": true,
       "requests": 2,
-      "vehicle_count": 394,
+      "vehicle_count": 408,
       "warnings": []
     },
     "web_product": {
@@ -94,7 +94,7 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T04:10:10Z",
+  "generated_at": "2026-09-20T11:26:55Z",
   "mode": "deterministic_no_ai",
   "offer_count": 71,
   "ok": false,
@@ -102,5 +102,5 @@
   "price_history_count": 71,
   "review_queue_count": 11,
   "source_count": 186,
-  "vehicle_count": 394
+  "vehicle_count": 408
 }

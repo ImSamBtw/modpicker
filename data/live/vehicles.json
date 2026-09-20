@@ -7099,5 +7099,257 @@
     ],
     "trim": "Unspecified",
     "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-473-2072",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2072,
+      "retrieved_at": "2026-09-20T11:26:55.288677+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2025?format=json"
+    },
+    "model": "MX-5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-473-2074",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2074,
+      "retrieved_at": "2026-09-20T11:26:55.288695+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2025?format=json"
+    },
+    "model": "Mazda3",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-473-2369",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2369,
+      "retrieved_at": "2026-09-20T11:26:55.288698+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2025?format=json"
+    },
+    "model": "CX-5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-473-26914",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 26914,
+      "retrieved_at": "2026-09-20T11:26:55.288701+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2025?format=json"
+    },
+    "model": "CX-30",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-473-30046",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 30046,
+      "retrieved_at": "2026-09-20T11:26:55.288704+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2025?format=json"
+    },
+    "model": "CX-50",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-473-31832",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 31832,
+      "retrieved_at": "2026-09-20T11:26:55.288706+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2025?format=json"
+    },
+    "model": "CX-90",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-473-33867",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 33867,
+      "retrieved_at": "2026-09-20T11:26:55.288708+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2025?format=json"
+    },
+    "model": "CX-70",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-473-2072",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2072,
+      "retrieved_at": "2026-09-20T11:26:55.537605+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2026?format=json"
+    },
+    "model": "MX-5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-473-2074",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2074,
+      "retrieved_at": "2026-09-20T11:26:55.537622+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2026?format=json"
+    },
+    "model": "Mazda3",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-473-2369",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 2369,
+      "retrieved_at": "2026-09-20T11:26:55.537626+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2026?format=json"
+    },
+    "model": "CX-5",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-473-26914",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 26914,
+      "retrieved_at": "2026-09-20T11:26:55.537629+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2026?format=json"
+    },
+    "model": "CX-30",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-473-30046",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 30046,
+      "retrieved_at": "2026-09-20T11:26:55.537632+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2026?format=json"
+    },
+    "model": "CX-50",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-473-31832",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 31832,
+      "retrieved_at": "2026-09-20T11:26:55.537634+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2026?format=json"
+    },
+    "model": "CX-90",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-473-33867",
+    "make": "MAZDA",
+    "metadata": {
+      "model_id": 33867,
+      "retrieved_at": "2026-09-20T11:26:55.537636+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Mazda/modelyear/2026?format=json"
+    },
+    "model": "CX-70",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
   }
 ]
