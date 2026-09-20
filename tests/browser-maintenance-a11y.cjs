@@ -12,7 +12,13 @@ const server=spawn('python',['-m','http.server','8124'],{cwd:path.join(__dirname
  await page.route('https://pzxofwrdidvqhdlqbehk.supabase.co/**',r=>r.abort());
  await page.goto('http://localhost:8124');
  await page.waitForSelector('[data-route="garage"]');
- await page.locator('[data-route="garage"]').focus();
+ let reachedGarage=false;
+ for(let i=0;i<12;i++){
+  await page.keyboard.press('Tab');
+  reachedGarage=await page.evaluate(()=>document.activeElement?.dataset?.route==='garage');
+  if(reachedGarage)break;
+ }
+ assert.equal(reachedGarage,true,'Garage navigation must be reachable with Tab');
  assert.equal(await page.locator('[data-route="garage"]').evaluate(el=>getComputedStyle(el).outlineStyle!=='none'),true,'Keyboard-focused navigation must expose a visible focus outline');
  await page.keyboard.press('Enter');
  await page.waitForSelector('#garageView.active-view');
@@ -58,5 +64,5 @@ const server=spawn('python',['-m','http.server','8124'],{cwd:path.join(__dirname
  await page.keyboard.press('Escape');assert.equal(await page.locator('#partDialog').isVisible(),false,'Escape must close the native details dialog');
  await page.screenshot({path:'/tmp/modpicker-maintenance-mobile.png',fullPage:true});
  assert.deepEqual(errors,[]);
- console.log('PASS: sourced maintenance specs, provenance, profile completeness, keyboard activation, dialog escape and mobile overflow.');
+ console.log('PASS: sourced maintenance specs, provenance, profile completeness, keyboard traversal, dialog escape and mobile overflow.');
 }finally{await browser?.close();server.kill()}})().catch(e=>{console.error(e);process.exitCode=1});
