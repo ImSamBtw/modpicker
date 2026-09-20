@@ -5,14 +5,15 @@ const snapshot=window.MODPICKER_PIPELINE_DATA||{};
 const text=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const url=s=>{try{const u=new URL(s);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}};
 window.MP_TEXT=text;window.MP_URL=url;
+// Fallback keeps the currently supported catalog working with older cached
+// snapshots. New makes are automatically added from the crawler configuration
+// published into snapshot status on every refreshed data run.
 const fallbackMakes=['BMW','Ford','Honda','Mazda','Nissan','Scion','Subaru','Toyota','Volkswagen'];
 const makeDisplay=new Map();
 function registerMake(value){const display=String(value??'').trim();if(display)makeDisplay.set(display.toLowerCase(),display)}
-// data.js/data-extra.js are curated, source-controlled vehicle records. Treat
-// their makes as trusted so manual additions do not require a second allowlist.
-for(const row of Array.isArray(data.vehicles)?data.vehicles:[])registerMake(row?.make);
+for(const make of fallbackMakes)registerMake(make);
 const configuredMakes=snapshot.status?.collectors?.vehicles?.configured_makes;
-for(const make of Array.isArray(configuredMakes)&&configuredMakes.length?configuredMakes:fallbackMakes)registerMake(make);
+for(const make of Array.isArray(configuredMakes)?configuredMakes:[])registerMake(make);
 function normalizeMake(value){return makeDisplay.get(String(value??'').trim().toLowerCase())||null}
 function normalizeVehicle(row){
  if(!row||typeof row!=='object'||!row.id||!row.model||!Number.isFinite(Number(row.year)))return null;
