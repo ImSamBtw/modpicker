@@ -30663,5 +30663,347 @@
     ],
     "trim": "Unspecified",
     "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-482-3137",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3137,
+      "retrieved_at": "2026-09-20T20:56:42.944587+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025?format=json"
+    },
+    "model": "Jetta",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-482-3140",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3140,
+      "retrieved_at": "2026-09-20T20:56:42.944605+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025?format=json"
+    },
+    "model": "GTI",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-482-8151",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 8151,
+      "retrieved_at": "2026-09-20T20:56:42.944611+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025?format=json"
+    },
+    "model": "Tiguan",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-482-13844",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 13844,
+      "retrieved_at": "2026-09-20T20:56:42.944615+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025?format=json"
+    },
+    "model": "Golf R",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-482-17618",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 17618,
+      "retrieved_at": "2026-09-20T20:56:42.944618+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025?format=json"
+    },
+    "model": "Atlas",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-482-27124",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 27124,
+      "retrieved_at": "2026-09-20T20:56:42.944621+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025?format=json"
+    },
+    "model": "Atlas Cross Sport",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-482-28219",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 28219,
+      "retrieved_at": "2026-09-20T20:56:42.944625+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025?format=json"
+    },
+    "model": "ID.4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-482-28652",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 28652,
+      "retrieved_at": "2026-09-20T20:56:42.944629+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025?format=json"
+    },
+    "model": "Taos",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-482-29681",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 29681,
+      "retrieved_at": "2026-09-20T20:56:42.944632+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025?format=json"
+    },
+    "model": "Jetta GLI",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-482-35143",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 35143,
+      "retrieved_at": "2026-09-20T20:56:42.944646+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025?format=json"
+    },
+    "model": "ID. Buzz",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-482-3137",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3137,
+      "retrieved_at": "2026-09-20T20:56:43.197564+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026?format=json"
+    },
+    "model": "Jetta",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-482-8151",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 8151,
+      "retrieved_at": "2026-09-20T20:56:43.197580+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026?format=json"
+    },
+    "model": "Tiguan",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-482-13670",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 13670,
+      "retrieved_at": "2026-09-20T20:56:43.197584+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026?format=json"
+    },
+    "model": "Golf GTI",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-482-13844",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 13844,
+      "retrieved_at": "2026-09-20T20:56:43.197587+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026?format=json"
+    },
+    "model": "Golf R",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-482-17618",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 17618,
+      "retrieved_at": "2026-09-20T20:56:43.197590+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026?format=json"
+    },
+    "model": "Atlas",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-482-27124",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 27124,
+      "retrieved_at": "2026-09-20T20:56:43.197593+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026?format=json"
+    },
+    "model": "Atlas Cross Sport",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-482-28219",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 28219,
+      "retrieved_at": "2026-09-20T20:56:43.197596+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026?format=json"
+    },
+    "model": "ID.4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-482-28652",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 28652,
+      "retrieved_at": "2026-09-20T20:56:43.197599+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026?format=json"
+    },
+    "model": "Taos",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-482-29681",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 29681,
+      "retrieved_at": "2026-09-20T20:56:43.197602+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026?format=json"
+    },
+    "model": "Jetta GLI",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
   }
 ]
