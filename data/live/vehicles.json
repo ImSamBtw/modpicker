@@ -12398,5 +12398,833 @@
     ],
     "trim": "Unspecified",
     "year": 2020
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2208",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2208,
+      "retrieved_at": "2026-09-20T18:20:11.347910+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Corolla",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2209",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2209,
+      "retrieved_at": "2026-09-20T18:20:11.347930+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Prius",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2211",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2211,
+      "retrieved_at": "2026-09-20T18:20:11.347936+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Land Cruiser",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2213",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2213,
+      "retrieved_at": "2026-09-20T18:20:11.347940+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Highlander",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2216",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2216,
+      "retrieved_at": "2026-09-20T18:20:11.347943+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "4Runner",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2217",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2217,
+      "retrieved_at": "2026-09-20T18:20:11.347947+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "RAV4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2223",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2223,
+      "retrieved_at": "2026-09-20T18:20:11.347950+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Tacoma",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2467",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2467,
+      "retrieved_at": "2026-09-20T18:20:11.347953+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Tundra",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2468",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2468,
+      "retrieved_at": "2026-09-20T18:20:11.347956+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Sienna",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2469",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2469,
+      "retrieved_at": "2026-09-20T18:20:11.347959+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Camry",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-2827",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2827,
+      "retrieved_at": "2026-09-20T18:20:11.347963+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Sequoia",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-3647",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 3647,
+      "retrieved_at": "2026-09-20T18:20:11.347967+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Supra",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-10198",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 10198,
+      "retrieved_at": "2026-09-20T18:20:11.347971+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Mirai",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-21950",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 21950,
+      "retrieved_at": "2026-09-20T18:20:11.347975+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Prius Prime (PHEV)",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-28070",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 28070,
+      "retrieved_at": "2026-09-20T18:20:11.347978+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "RAV4 Prime (PHEV)",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-29274",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 29274,
+      "retrieved_at": "2026-09-20T18:20:11.347995+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Corolla Cross",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-29364",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 29364,
+      "retrieved_at": "2026-09-20T18:20:11.347998+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "GR86",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-30041",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 30041,
+      "retrieved_at": "2026-09-20T18:20:11.348002+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "bZ4X",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-31077",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 31077,
+      "retrieved_at": "2026-09-20T18:20:11.348006+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Crown",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-31079",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 31079,
+      "retrieved_at": "2026-09-20T18:20:11.348009+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "GR Corolla",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-32304",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 32304,
+      "retrieved_at": "2026-09-20T18:20:11.348013+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Grand Highlander",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2025-448-34866",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 34866,
+      "retrieved_at": "2026-09-20T18:20:11.348016+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2025?format=json"
+    },
+    "model": "Crown Signia",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2025
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2208",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2208,
+      "retrieved_at": "2026-09-20T18:20:11.564442+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Corolla",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2209",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2209,
+      "retrieved_at": "2026-09-20T18:20:11.564461+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Prius",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2211",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2211,
+      "retrieved_at": "2026-09-20T18:20:11.564466+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Land Cruiser",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2213",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2213,
+      "retrieved_at": "2026-09-20T18:20:11.564470+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Highlander",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2216",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2216,
+      "retrieved_at": "2026-09-20T18:20:11.564474+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "4Runner",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2217",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2217,
+      "retrieved_at": "2026-09-20T18:20:11.564478+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "RAV4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2223",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2223,
+      "retrieved_at": "2026-09-20T18:20:11.564481+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Tacoma",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2467",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2467,
+      "retrieved_at": "2026-09-20T18:20:11.564485+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Tundra",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2468",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2468,
+      "retrieved_at": "2026-09-20T18:20:11.564488+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Sienna",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2469",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2469,
+      "retrieved_at": "2026-09-20T18:20:11.564491+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Camry",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-2827",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2827,
+      "retrieved_at": "2026-09-20T18:20:11.564494+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Sequoia",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-3647",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 3647,
+      "retrieved_at": "2026-09-20T18:20:11.564497+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Supra",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-10198",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 10198,
+      "retrieved_at": "2026-09-20T18:20:11.564501+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Mirai",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-17213",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 17213,
+      "retrieved_at": "2026-09-20T18:20:11.564505+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "C-HR",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-21950",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 21950,
+      "retrieved_at": "2026-09-20T18:20:11.564509+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Prius Prime (PHEV)",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-28070",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 28070,
+      "retrieved_at": "2026-09-20T18:20:11.564512+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "RAV4 Prime (PHEV)",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-29274",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 29274,
+      "retrieved_at": "2026-09-20T18:20:11.564516+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Corolla Cross",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-29364",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 29364,
+      "retrieved_at": "2026-09-20T18:20:11.564520+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "GR86",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-31077",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 31077,
+      "retrieved_at": "2026-09-20T18:20:11.564523+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Crown",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-31079",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 31079,
+      "retrieved_at": "2026-09-20T18:20:11.564527+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "GR Corolla",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-32304",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 32304,
+      "retrieved_at": "2026-09-20T18:20:11.564530+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Grand Highlander",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-34866",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 34866,
+      "retrieved_at": "2026-09-20T18:20:11.564534+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "Crown Signia",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-37150",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 37150,
+      "retrieved_at": "2026-09-20T18:20:11.564537+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "bZ",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2026-448-37355",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 37355,
+      "retrieved_at": "2026-09-20T18:20:11.564548+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2026?format=json"
+    },
+    "model": "bZ Woodland",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2026
   }
 ]
