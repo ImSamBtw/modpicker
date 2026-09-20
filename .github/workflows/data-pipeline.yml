@@ -3,6 +3,16 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 */6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'pipeline/**'
+      - 'collectors/**'
+      - 'curators/**'
+      - 'config/**'
+      - 'data/seed/**'
+      - 'requirements.txt'
+      - '.github/workflows/data-pipeline.yml'
 permissions:
   contents: write
 concurrency:
