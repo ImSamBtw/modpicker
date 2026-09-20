@@ -1,8 +1,8 @@
 [
-  {"vehicle_id":"miata-1999","vendor":"Flyin' Miata","url":"https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars","allow_scrape":true,"product_path_contains":"/products/"},
-  {"vehicle_id":"miata-1999","vendor":"Flyin' Miata","url":"https://flyinmiata.com/collections/nb-1999-05-restoration-oem","allow_scrape":true,"product_path_contains":"/products/"},
-  {"vehicle_id":"miata-1999","vendor":"Flyin' Miata","url":"https://flyinmiata.com/collections/nb-powertrain","allow_scrape":true,"product_path_contains":"/products/"},
-  {"vehicle_id":"brz-2017","vendor":"CounterSpace Garage","url":"https://www.counterspacegarage.com/specials-toyota-86-subaru-brz-2012-2020-fa20","allow_scrape":true,"product_path_contains":"/products/"},
-  {"vehicle_id":"brz-2017","vendor":"PERRIN","url":"https://perrin.com/collections/drivetrain","allow_scrape":true,"product_path_contains":"/products/"},
-  {"vehicle_id":"z3-2000-28","vendor":"Turner Motorsport","url":"https://www.turnermotorsport.com/BMW-Z3","allow_scrape":true,"product_path_contains":"/p-"}
+  {"vehicle_id":"miata-1999","vendor":"Flyin' Miata","url":"https://flyinmiata.com/collections/nb-handling-springs-shocks-swaybars","allow_scrape":true,"product_path_contains":"/products/","policy_name":"nb-handling","title_none":["Mazdaspeed","2001-05","2003-05","2001-02"],"max_candidates":60},
+  {"vehicle_id":"miata-1999","vendor":"Flyin' Miata","url":"https://flyinmiata.com/collections/nb-1999-05-restoration-oem","allow_scrape":true,"product_path_contains":"/products/","policy_name":"nb-restoration","title_none":["Mazdaspeed","2001-05","2003-05","2001-02"],"max_candidates":60},
+  {"vehicle_id":"miata-1999","vendor":"Flyin' Miata","url":"https://flyinmiata.com/collections/nb-powertrain","allow_scrape":true,"product_path_contains":"/products/","policy_name":"nb-powertrain-1999","title_none":["Mazdaspeed","2001-05","2003-05","2001-02"],"max_candidates":60},
+  {"vehicle_id":"brz-2017","vendor":"CounterSpace Garage","url":"https://www.counterspacegarage.com/specials-toyota-86-subaru-brz-2012-2020-fa20","allow_scrape":false,"product_path_contains":"/products/","policy_name":"disabled-category-navigation"},
+  {"vehicle_id":"brz-2017","vendor":"PERRIN","url":"https://perrin.com/collections/drivetrain","allow_scrape":true,"product_path_contains":"/products/","policy_name":"brz-title-fitment","title_any":["BRZ","FR-S","86","GR86"],"max_candidates":50},
+  {"vehicle_id":"z3-2000-28","vendor":"Turner Motorsport","url":"https://www.turnermotorsport.com/BMW-Z3","allow_scrape":true,"product_path_contains":"/p-","policy_name":"z3-turner","max_candidates":60}
 ]
