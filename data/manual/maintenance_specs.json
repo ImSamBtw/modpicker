@@ -1,0 +1,36 @@
+[
+  {
+    "id": "bmw-z3-2000-28-owner-manual",
+    "vehicle_ids": ["z3-2000-28"],
+    "source": {
+      "title": "BMW Z3 Owner's Manual",
+      "publisher": "BMW AG",
+      "document_part_number": "01 41 0 155 149",
+      "edition": "US English IX/99",
+      "source_kind": "owner_manual_archive",
+      "source_url": "https://manualzilla.com/doc/7402533/bmw-z3-roadster-owner-s-manual",
+      "retrieved_at": "2026-09-20",
+      "notes": "Archived copy of the BMW AG owner manual. Specifications below are limited to statements explicitly present in the manual."
+    },
+    "items": [
+      {
+        "name": "Engine oil & filter",
+        "fluid_spec": "BMW-approved engine oil; SAE 5W-40 or 5W-30. The manual permits API SH or higher synthetic oil only when approved BMW oils are unavailable for topping up.",
+        "capacity": "6.9 US qt (6.5 L) with filter",
+        "interval_miles": null,
+        "interval_months": null,
+        "source_pages": [126, 132, 185],
+        "notes": "BMW's Maintenance System determines oil service from actual vehicle loads. The owner manual does not state one universal fixed oil-change mileage interval."
+      },
+      {
+        "name": "Coolant",
+        "fluid_spec": "BMW-approved nitrite- and amino-free extended-duty antifreeze with corrosion inhibitor for aluminum radiator cores; maintain a 50:50 coolant/water mixture.",
+        "capacity": "11.1 US qt (10.5 L) including heater circuit",
+        "interval_miles": null,
+        "interval_months": null,
+        "source_pages": [128, 185],
+        "notes": "The owner manual says to replace coolant regularly and refers to the Service and Warranty Information booklet for the service interval; no fixed interval is inferred here."
+      }
+    ]
+  }
+]
