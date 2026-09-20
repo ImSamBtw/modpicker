@@ -41,7 +41,8 @@ const server=spawn('python',['-m','http.server','8124'],{cwd:path.join(__dirname
  ];
  for(const [selector,value] of inputs){await page.locator(selector).fill(value);await page.locator(selector).dispatchEvent('input')}
  assert.equal(await page.locator('#garageProfileCompleteness').textContent(),'100% context complete');
- assert.match(windowText=await page.locator('#garageContextPreview').textContent(),/Reliable street car/);
+ const contextPreview=await page.locator('#garageContextPreview').textContent();
+ assert.match(contextPreview,/Reliable street car/);
  assert.match(await page.evaluate(()=>window.ModPickerGarage.getMaintenanceReport()),/BMW Z3 Owner's Manual/);
  await page.screenshot({path:'/tmp/modpicker-maintenance-desktop.png',fullPage:true});
 
