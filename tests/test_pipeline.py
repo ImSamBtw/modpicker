@@ -1,7 +1,7 @@
 import unittest
 from pipeline.models import stable_id, SourceRecord
 from pipeline.curation import classify, source_weight
-from pipeline.run import dedupe_sources
+from pipeline.run import dedupe_sources, load_catalog
 from collectors.catalog_discovery import CatalogDiscoveryCollector
 
 class PipelineTests(unittest.TestCase):
@@ -46,6 +46,12 @@ class PipelineTests(unittest.TestCase):
         cfg={'title_none':['2001-05','Mazdaspeed']}
         self.assertFalse(c.candidate_allowed(cfg,'2001-05 Sport Stage 1 Performance Brake Kit','https://example.com/p',600))
         self.assertTrue(c.candidate_allowed(cfg,'1994-02 Stage 1 Performance Brake Kit','https://example.com/p2',600))
+
+    def test_catalog_assigns_explicit_unknown_category(self):
+        parts=load_catalog()
+        self.assertTrue(parts)
+        self.assertTrue(all(p.get('category') for p in parts))
+        self.assertIn('Uncategorized',{p['category'] for p in parts})
 
 if __name__=='__main__':
     unittest.main()

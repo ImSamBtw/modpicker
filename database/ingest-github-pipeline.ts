@@ -69,7 +69,7 @@ Deno.serve(async(req)=>{
     if(parts.length){
       const partRows=parts.map((p:any)=>({
         id:p.id,manufacturer:p.brand,name:p.name,manufacturer_part_number:p.manufacturer_part_number??null,
-        category:p.category,description:p.description??null,official_url:p.official_url??null,status:p.status||'active',
+        category:p.category||'Uncategorized',description:p.description??null,official_url:p.official_url??null,status:p.status||'active',
         metadata:{catalog_seed:!p.auto_discovered,auto_discovered:!!p.auto_discovered,install:p.install??null,goals:p.goals??[],vehicle_query:p.vehicle_query??null,fitment_status:p.fitment_status??'unknown'}
       }));
       await adminFetch('parts?on_conflict=id',{method:'POST',headers:{Prefer:'resolution=merge-duplicates'},body:JSON.stringify(partRows)});

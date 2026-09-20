@@ -36,7 +36,13 @@ def load_catalog():
     rows.extend(load('data/live/auto_parts.json',[]))
     by_id={}
     for row in rows:
-        if isinstance(row,dict) and row.get('id'): by_id[row['id']]=row
+        if isinstance(row,dict) and row.get('id'):
+            # Keep the catalog and database schemas total even when an older
+            # seed record omitted a category. The label is explicit unknown
+            # scope, never a guessed subsystem.
+            item=dict(row)
+            item['category']=item.get('category') or 'Uncategorized'
+            by_id[item['id']]=item
     return list(by_id.values())
 
 def product_page_rows(parts):
