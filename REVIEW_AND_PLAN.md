@@ -132,10 +132,11 @@ The previous rules were durable for Z3/Miata examples but did not generalize to 
 - Expanded the official FuelEconomy.gov import to 2015–2023 gasoline Mustang configurations, excluding Mustang Mach-E records and adding conservative EPA configuration families for 2.3L turbo, 3.7L V6, 5.0L V8 and 5.2L V8 rows.
 - Added Mustang S550 chassis, Coyote 5.0L and EcoBoost 2.3L browsing platforms.
 - Added six source-linked Mustang products and upgraded the existing Steeda intake record with its 2015–2017 5.0L application selector.
+- Added reviewed 2015–2023 GT Performance Package manual/automatic applications so the Steeda PP rear-rotor SKU is not limited to the one EPA row that explicitly labels the package.
 - Added deterministic `derive_fitment_rules()` logic. A source-backed explicit range in a catalog row generates one auditable rule, which is evaluated against every normalized application on every refresh. Single-year rows and unscoped model names do not expand.
 - Added `data/live/fitment_rules.json` so generated rules can be reviewed alongside the catalog and Supabase payload.
 - Added regression tests for future Mustang applications, family normalization, range expansion and dynamic platform resolution.
 
 ### Verification
 
-Local refresh produced 102 catalog parts, 209 normalized applications, 7 platforms, 63 total rules (18 reviewed plus 45 generated range rules), 1,577 rule expansions and no fitment warnings. The Steeda 2015–2017 5.0L intake expands to 11 EPA configurations across all three years; the S550 catalog ranges expand across every matching 2015–2023 application. Unit, catalog, publication and browser checks must pass before the refresh is published.
+Local refresh produced 102 catalog parts, 227 normalized applications (206 EPA rows, 3 curated targets, and 18 reviewed Mustang Performance Package applications), 7 platforms, 63 total rules (18 reviewed plus 45 generated range rules), 1,811 rule expansions and no fitment warnings. The Steeda 2015–2017 5.0L intake expands to 11 EPA configurations across all three years; the S550 catalog ranges expand across every matching 2015–2023 application; the Performance Package rotor now expands to 19 reviewed/official applications spanning 2015–2023. Unit, catalog, publication and browser checks must pass before the refresh is published.
