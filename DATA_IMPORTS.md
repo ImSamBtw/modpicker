@@ -33,5 +33,5 @@ For manual additions: add the product in `data/manual/parts.json`, add reviewed 
 - Add licensed/open manufacturer fitment feeds with production-month, market and equipment conditions.
 - Review existing legacy source-listed fitments that cite category pages rather than exact SKUs.
 - Establish primary-source engine mappings for imported Z3 variants before adding them to engine families.
-- Deploy and verify the updated database ingestion function before claiming database parity for expanded fitments. Bundled fitments currently take precedence in the browser.
+- The ingestion function is deployed as version 6 with one database row per expanded application. Verify rule counts after the first refresh using this version. Bundled fitments remain authoritative for the published catalog.
 - Add source removal/retraction reconciliation; the existing database ingest is upsert-only.

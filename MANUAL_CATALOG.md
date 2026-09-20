@@ -93,3 +93,5 @@ Every source keeps its URL, source type, retrieval timestamp, and confidence. Pr
 ## Official configuration import
 
 See [DATA_IMPORTS.md](DATA_IMPORTS.md) for the EPA database import, source manifest, constrained compatibility rules, manual additions and remaining accuracy gates.
+
+The multi-application ingestion function was deployed as version 6. A refresh following deployment verifies expanded fitments in the database; selectors and evidence remain available from the bundled snapshot during synchronization.
