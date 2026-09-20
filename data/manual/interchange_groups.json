@@ -1,0 +1,27 @@
+[
+  {
+    "id": "perrin-psp-brk-406bk",
+    "canonical_name": "PERRIN Master Cylinder Brace",
+    "component_type": "master-cylinder-brace",
+    "manufacturer": "PERRIN",
+    "manufacturer_part_numbers": ["PSP-BRK-406BK"],
+    "part_ids": ["brz-perrin-master-brace"],
+    "installation_class": "direct",
+    "applications": [
+      {"make": "Subaru", "model": "BRZ", "year_from": 2013, "year_to": 2026, "role": "donor_or_recipient"},
+      {"make": "Scion", "model": "FR-S", "year_from": 2013, "year_to": 2016, "role": "donor_or_recipient"},
+      {"make": "Toyota", "model": "86", "year_from": 2017, "year_to": 2020, "role": "donor_or_recipient"},
+      {"make": "Toyota", "model": "GR86", "year_from": 2022, "year_to": 2026, "role": "donor_or_recipient"}
+    ],
+    "required_adapters": [],
+    "constraints": ["Not compatible with right-hand-drive vehicles according to the manufacturer."],
+    "evidence": [
+      {
+        "source_kind": "manufacturer_application",
+        "source_url": "https://perrin.com/products/master-cylinder-brace-for-brz-fr-s-86-gr86",
+        "retrieved_at": "2026-09-20",
+        "notes": "PERRIN lists SKU PSP-BRK-406BK for 2013-2026 BRZ, FR-S, 86 and GR86 applications and publishes an application table by year/make/model."
+      }
+    ]
+  }
+]
