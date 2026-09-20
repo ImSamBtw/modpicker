@@ -1,0 +1,49 @@
+{
+  "collectors": {
+    "cloudflare_ai": {
+      "count": 0,
+      "enabled": false,
+      "warnings": []
+    },
+    "curated": {
+      "count": 7,
+      "warnings": []
+    },
+    "ebay": {
+      "enabled": false,
+      "warnings": [
+        "eBay credentials not configured"
+      ]
+    },
+    "reddit": {
+      "enabled": false,
+      "warnings": [
+        "Reddit OAuth secrets not configured"
+      ]
+    },
+    "web_product": {
+      "count": 0,
+      "warnings": []
+    },
+    "youtube": {
+      "enabled": false,
+      "warnings": [
+        "YOUTUBE_API_KEY not configured"
+      ]
+    }
+  },
+  "credentials": {
+    "CLOUDFLARE_ACCOUNT_ID": false,
+    "CLOUDFLARE_API_TOKEN": false,
+    "EBAY_CLIENT_ID": false,
+    "EBAY_CLIENT_SECRET": false,
+    "REDDIT_CLIENT_ID": false,
+    "REDDIT_CLIENT_SECRET": false,
+    "YOUTUBE_API_KEY": false
+  },
+  "generated_at": "2026-09-20T00:59:03Z",
+  "offer_count": 0,
+  "ok": true,
+  "review_queue_count": 0,
+  "source_count": 7
+}

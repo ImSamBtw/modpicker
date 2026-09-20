@@ -1,0 +1,130 @@
+[
+  {
+    "confidence": 0.62,
+    "id": "82bdb2fb922b02e144b6",
+    "metadata": {
+      "curated": true,
+      "labels": [
+        "comparison"
+      ]
+    },
+    "outlet": "FT86Club",
+    "part_id": "brz-header",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T00:59:03Z",
+    "source_type": "forum",
+    "summary": "Community discussion focused on header layout and long-term concerns.",
+    "title": "UEL vs EL and long-term use",
+    "url": "https://www.ft86club.com/forums/showthread.php?t=30928"
+  },
+  {
+    "confidence": 0.64,
+    "id": "ffeb4593e9ca894814bf",
+    "metadata": {
+      "curated": true,
+      "labels": [
+        "review",
+        "comparison"
+      ]
+    },
+    "outlet": "FT86Club",
+    "part_id": "brz-header",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T00:59:03Z",
+    "source_type": "forum",
+    "summary": "Owner discussion comparing header layouts and JDL options.",
+    "title": "EL vs UEL header discussion",
+    "url": "https://www.ft86club.com/forums/showthread.php?t=49638"
+  },
+  {
+    "confidence": 0.95,
+    "id": "69e55e775fa8bdb4fa0b",
+    "metadata": {
+      "curated": true,
+      "labels": [
+        "discussion"
+      ]
+    },
+    "outlet": "Koyorad",
+    "part_id": "koyo-z3-rad",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T00:59:03Z",
+    "source_type": "manufacturer",
+    "summary": "Manufacturer radiator information hub.",
+    "title": "Koyorad radiator information",
+    "url": "https://koyorad.com/radiators"
+  },
+  {
+    "confidence": 0.66,
+    "id": "6c30ed9373fcb70b2eed",
+    "metadata": {
+      "curated": true,
+      "labels": [
+        "review"
+      ]
+    },
+    "outlet": "MX-5 Miata Forum",
+    "part_id": "miata-xida",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T00:59:03Z",
+    "source_type": "forum",
+    "summary": "Detailed owner review covering street and autocross use.",
+    "title": "949 Racing Xida coilover owner review",
+    "url": "https://forum.miata.net/vb/showthread.php?t=699243"
+  },
+  {
+    "confidence": 0.68,
+    "id": "d827372abd9a00e4b35c",
+    "metadata": {
+      "curated": true,
+      "labels": [
+        "review"
+      ]
+    },
+    "outlet": "MX-5 Miata Forum",
+    "part_id": "miata-xida",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T00:59:03Z",
+    "source_type": "forum",
+    "summary": "Long-running product thread with configuration and owner discussion.",
+    "title": "Xida Club Sport Coilovers discussion",
+    "url": "https://forum.miata.net/vb/showthread.php?t=408977"
+  },
+  {
+    "confidence": 0.64,
+    "id": "fc3474fbbb23f7e00385",
+    "metadata": {
+      "curated": true,
+      "labels": [
+        "install"
+      ]
+    },
+    "outlet": "MX-5 Miata Forum",
+    "part_id": "miata-xida",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T00:59:03Z",
+    "source_type": "forum",
+    "summary": "Community setup discussion covering Xida families, ride heights and intended use.",
+    "title": "How to Xida",
+    "url": "https://forum.miata.net/vb/showthread.php?t=664199"
+  },
+  {
+    "confidence": 0.66,
+    "id": "c5b62322cf7abd1ba070",
+    "metadata": {
+      "curated": true,
+      "labels": [
+        "install",
+        "review"
+      ]
+    },
+    "outlet": "Mustang6G",
+    "part_id": "mustang-steeda-intake",
+    "published_at": null,
+    "retrieved_at": "2026-09-20T00:59:03Z",
+    "source_type": "forum",
+    "summary": "Owner review with installation photos and driving impressions.",
+    "title": "Steeda ProFlow intake + tune review",
+    "url": "https://www.mustang6g.com/forums/threads/steeda-proflow-mustang-cold-air-intake-w-sct-x4-review.22248/"
+  }
+]
