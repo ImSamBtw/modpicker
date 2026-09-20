@@ -14,5 +14,19 @@ const source=p.officialUrl;if(source)root.querySelector('.dialog-hero')?.insertA
 
 (()=>{
 if(document.querySelector('script[data-garage-ui]'))return;
-const script=document.createElement('script');script.src='garage-ui.js';script.async=false;script.dataset.garageUi='1';document.body.appendChild(script);
+const script=document.createElement('script');
+script.src='garage-ui.js';
+script.async=false;
+script.dataset.garageUi='1';
+script.addEventListener('load',()=>{
+ const garageLink=document.querySelector('[data-route="garage"]');
+ if(garageLink&&!garageLink.dataset.routeBound){
+  garageLink.dataset.routeBound='1';
+  garageLink.addEventListener('click',event=>{
+   event.preventDefault();
+   if(typeof window.route==='function')window.route('garage');
+  });
+ }
+});
+document.body.appendChild(script);
 })();
