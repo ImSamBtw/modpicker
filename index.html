@@ -3,15 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="ModPicker - automotive parts compatibility, rankings, pricing and build sheets." />
+  <meta name="description" content="ModPicker - automotive parts compatibility, rankings, pricing, research and build sheets." />
   <title>ModPicker — Build smarter</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="enhancements.css" />
 </head>
 <body>
   <header class="topbar">
     <a class="brand" href="#" data-route="catalog"><span>MOD</span>PICKER</a>
     <nav class="main-nav" aria-label="Primary navigation">
       <button class="nav-link active" data-route="catalog">Parts</button>
+      <button class="nav-link" data-route="prices">Price Finder <span id="priceNavCount" class="nav-count">0</span></button>
       <button class="nav-link" data-route="rankings">Rankings</button>
       <button class="nav-link" data-route="compare">Compare <span id="compareNavCount" class="nav-count">0</span></button>
       <button class="nav-link" data-route="build">Build Sheet <span id="buildNavCount" class="nav-count">0</span></button>
@@ -43,35 +45,42 @@
       </div>
     </section>
 
+    <div class="shell prototype-banner"><strong>Prototype data:</strong> prices and ratings are seeded snapshots for product testing. Every part page now includes links to current seller searches, forum discussions, Reddit, install videos, image searches and guide/manual searches so users can verify before buying or installing.</div>
+
     <section id="catalogView" class="view active-view">
       <div class="hero shell">
         <div>
           <span class="eyebrow">Automotive build planning</span>
-          <h1>Find parts that fit.<br>Build without guessing.</h1>
-          <p>Compare compatible upgrades, community-informed rankings, pricing, prerequisites, and complete build sheets in one place.</p>
+          <h1>Find parts that fit.<br>Research before you wrench.</h1>
+          <p>Compare compatible upgrades, rankings, seller pricing, owner discussions, install resources, prerequisites and complete build sheets in one place.</p>
         </div>
         <div class="hero-stats">
           <div><strong id="heroCompatible">0</strong><span>compatible parts</span></div>
           <div><strong id="heroCategories">0</strong><span>categories</span></div>
           <div><strong id="heroOffers">0</strong><span>price offers</span></div>
+          <div><strong id="heroWatched">0</strong><span>watched prices</span></div>
         </div>
       </div>
 
       <section class="shell filter-panel">
         <label class="search-label"><span>Search parts</span><input id="searchInput" type="search" placeholder="Search brand, part, category..." /></label>
         <label><span>Category</span><select id="categoryFilter"></select></label>
+        <label><span>Install</span><select id="difficultyFilter"><option>All</option><option>Easy</option><option>Moderate</option><option>Advanced</option><option>Professional</option></select></label>
+        <label><span>Max price</span><select id="maxPriceFilter"><option value="Any">Any</option><option value="250">$250</option><option value="500">$500</option><option value="1000">$1,000</option><option value="2000">$2,000</option></select></label>
         <label><span>Sort</span>
           <select id="sortSelect">
             <option value="recommended">Recommended</option>
             <option value="rating">Overall rating</option>
+            <option value="deal">Best price spread</option>
             <option value="price-low">Lowest price</option>
             <option value="price-high">Highest price</option>
             <option value="reliability">Reliability</option>
             <option value="power">Power impact</option>
             <option value="value">Value</option>
+            <option value="confidence">Confidence</option>
           </select>
         </label>
-        <label class="check-filter"><input id="hideUnverified" type="checkbox" /><span>Higher confidence only</span></label>
+        <label class="check-filter"><input id="hideUnverified" type="checkbox" /><span>70%+ confidence</span></label>
       </section>
 
       <section class="shell content-grid">
@@ -81,7 +90,12 @@
           <div class="sidebar-card">
             <span class="eyebrow">Fitment engine</span>
             <strong id="fitmentSummary">Exact vehicle selected</strong>
-            <p>Parts are filtered by chassis, engine, model year, drivetrain and required supporting mods.</p>
+            <p>Parts are filtered by the selected vehicle. Build rules add known dependencies, conflicts and goal-based coverage checks.</p>
+          </div>
+          <div class="sidebar-card">
+            <span class="eyebrow">Research</span>
+            <strong>Every part has a research center</strong>
+            <p>Open Details for forums, Reddit discussions, install videos, photos, PDF/manual searches, tools and install planning steps.</p>
           </div>
         </aside>
 
@@ -95,19 +109,31 @@
       </section>
     </section>
 
+    <section id="pricesView" class="view shell">
+      <div class="page-head">
+        <div><span class="eyebrow">Seller comparison</span><h1>Price finder.</h1></div>
+        <p>Compare the prototype seller snapshots, see the spread between sellers, watch parts, and jump out to verify current price, stock and shipping.</p>
+      </div>
+      <div id="priceSummary" class="price-summary"></div>
+      <div id="bestDealText" class="price-note"></div>
+      <div id="priceTable" class="ranking-table"></div>
+    </section>
+
     <section id="rankingsView" class="view shell">
       <div class="page-head">
-        <div><span class="eyebrow">Vehicle-specific rankings</span><h1>Best parts for your build.</h1></div>
-        <p>Rankings adapt to your selected goal. Reliability-focused builds weight reliability and confidence more heavily; power builds weight measured performance.</p>
+        <div><span class="eyebrow">Vehicle-specific rankings</span><h1>Best parts for your goal.</h1></div>
+        <p>Rankings adapt to the selected goal. Use the category filter to compare like-for-like parts instead of treating unrelated upgrades as direct competitors.</p>
       </div>
+      <div class="rank-controls"><label><span>Ranking category</span><select id="rankingCategoryFilter"></select></label></div>
       <div id="rankingSummary" class="ranking-summary"></div>
+      <div id="categoryTopPicks" class="top-picks"></div>
       <div id="rankingTable" class="ranking-table"></div>
     </section>
 
     <section id="compareView" class="view shell">
-      <div class="page-head">
-        <div><span class="eyebrow">Side-by-side</span><h1>Compare parts.</h1></div>
-        <p>Select up to four parts from the catalog. Compare pricing, fitment, ratings, tradeoffs and supporting-mod requirements.</p>
+      <div class="page-head build-page-head">
+        <div><span class="eyebrow">Side-by-side</span><h1>Compare parts.</h1><p>Select up to four parts and compare price, goal score, install effort, reliability, performance and build requirements.</p></div>
+        <button id="clearCompareButton" class="button secondary">Clear comparison</button>
       </div>
       <div id="compareEmpty" class="empty-state"></div>
       <div id="compareTableWrap" class="compare-wrap"></div>
@@ -123,22 +149,33 @@
         </div>
       </div>
 
+      <div class="build-controls">
+        <label><span>Build name</span><input id="buildNameInput" type="text" value="My build" /></label>
+        <label><span>Parts budget</span><input id="budgetInput" type="number" min="0" step="100" value="5000" /></label>
+        <label><span>Labor rate / hour</span><input id="laborRateInput" type="number" min="0" step="5" value="0" /></label>
+      </div>
+
       <div class="build-layout">
         <section>
           <div id="compatibilityPanel" class="compatibility-panel"></div>
+          <div id="coveragePanel" class="coverage-panel"></div>
           <div id="buildCategories" class="build-categories"></div>
+          <div class="suggestions"><span class="eyebrow">What to add next</span><h3>Build suggestions</h3><div id="buildSuggestions" class="suggestion-grid"></div></div>
         </section>
         <aside class="build-summary-card">
           <span class="eyebrow">Estimated build</span>
-          <div class="summary-big"><span>Total parts cost</span><strong id="buildTotal">$0</strong></div>
+          <div class="summary-big"><span>Total with estimated labor</span><strong id="buildTotal">$0</strong></div>
+          <div class="summary-breakdown"><div><span>Parts</span><strong id="buildPartsTotal">$0</strong></div><div><span>Estimated labor</span><strong id="buildLaborTotal">$0</strong></div></div>
           <div class="summary-grid">
             <div><span>Parts</span><strong id="buildPartCount">0</strong></div>
+            <div><span>Install time</span><strong id="buildHours">—</strong></div>
             <div><span>Avg. rating</span><strong id="buildAvgRating">—</strong></div>
             <div><span>Power impact</span><strong id="buildPowerImpact">—</strong></div>
             <div><span>Confidence</span><strong id="buildConfidence">—</strong></div>
           </div>
           <div id="buildGoalScore" class="goal-score"></div>
-          <p class="fine-print">Prices are prototype snapshots and may change. Always verify current price, availability and exact fitment before purchasing.</p>
+          <div id="budgetStatus" class="budget-status"></div>
+          <p class="fine-print">Parts pricing and labor time are prototype planning values. Verify exact SKU, fitment, seller price, service procedure and labor estimate before purchasing.</p>
         </aside>
       </div>
     </section>
@@ -152,10 +189,12 @@
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
   <footer>
-    <div class="shell footer-inner"><strong>ModPicker Prototype</strong><span>Compatibility + pricing + build sheets for automotive upgrades.</span></div>
+    <div class="shell footer-inner"><strong>ModPicker Prototype</strong><span>Compatibility + pricing + research + rankings + build sheets for automotive upgrades.</span></div>
   </footer>
 
   <script src="data.js"></script>
-  <script src="app.js"></script>
+  <script src="data-extra.js"></script>
+  <script src="app-v2.js"></script>
+  <script src="research.js"></script>
 </body>
 </html>
