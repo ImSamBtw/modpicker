@@ -11192,5 +11192,491 @@
     ],
     "trim": "Unspecified",
     "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-2208",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2208,
+      "retrieved_at": "2026-09-20T18:10:43.111012+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Corolla",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-2211",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2211,
+      "retrieved_at": "2026-09-20T18:10:43.111029+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Land Cruiser",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-2216",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2216,
+      "retrieved_at": "2026-09-20T18:10:43.111034+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "4Runner",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-2217",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2217,
+      "retrieved_at": "2026-09-20T18:10:43.111037+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "RAV4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-2223",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2223,
+      "retrieved_at": "2026-09-20T18:10:43.111040+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Tacoma",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-2465",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2465,
+      "retrieved_at": "2026-09-20T18:10:43.111043+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Avalon",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-2467",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2467,
+      "retrieved_at": "2026-09-20T18:10:43.111047+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Tundra",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-2468",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2468,
+      "retrieved_at": "2026-09-20T18:10:43.111050+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Sienna",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-2469",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2469,
+      "retrieved_at": "2026-09-20T18:10:43.111053+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Camry",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-2803",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2803,
+      "retrieved_at": "2026-09-20T18:10:43.111055+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Camry Solara",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-3644",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 3644,
+      "retrieved_at": "2026-09-20T18:10:43.111058+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Tercel",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-3645",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 3645,
+      "retrieved_at": "2026-09-20T18:10:43.111061+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Celica",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-448-3649",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 3649,
+      "retrieved_at": "2026-09-20T18:10:43.111065+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/1999?format=json"
+    },
+    "model": "Paseo",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2208",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2208,
+      "retrieved_at": "2026-09-20T18:10:43.324386+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Corolla",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2211",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2211,
+      "retrieved_at": "2026-09-20T18:10:43.324402+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Land Cruiser",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2216",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2216,
+      "retrieved_at": "2026-09-20T18:10:43.324406+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "4Runner",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2217",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2217,
+      "retrieved_at": "2026-09-20T18:10:43.324409+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "RAV4",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2223",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2223,
+      "retrieved_at": "2026-09-20T18:10:43.324412+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Tacoma",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2465",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2465,
+      "retrieved_at": "2026-09-20T18:10:43.324415+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Avalon",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2467",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2467,
+      "retrieved_at": "2026-09-20T18:10:43.324418+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Tundra",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2468",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2468,
+      "retrieved_at": "2026-09-20T18:10:43.324421+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Sienna",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2469",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2469,
+      "retrieved_at": "2026-09-20T18:10:43.324424+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Camry",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2803",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2803,
+      "retrieved_at": "2026-09-20T18:10:43.324434+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Camry Solara",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-2827",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 2827,
+      "retrieved_at": "2026-09-20T18:10:43.324436+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Sequoia",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-3645",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 3645,
+      "retrieved_at": "2026-09-20T18:10:43.324439+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Celica",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-3648",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 3648,
+      "retrieved_at": "2026-09-20T18:10:43.324441+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "MR2",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-448-3650",
+    "make": "TOYOTA",
+    "metadata": {
+      "model_id": 3650,
+      "retrieved_at": "2026-09-20T18:10:43.324445+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Toyota/modelyear/2000?format=json"
+    },
+    "model": "Echo",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
   }
 ]

@@ -52,7 +52,7 @@
     "vehicles": {
       "enabled": true,
       "requests": 2,
-      "vehicle_count": 539,
+      "vehicle_count": 566,
       "warnings": []
     },
     "web_product": {
@@ -78,19 +78,18 @@
       ]
     },
     "youtube": {
-      "count": 102,
+      "count": 0,
       "enabled": true,
-      "fresh_parts_skipped": 36,
+      "fresh_parts_skipped": 0,
       "max_searches": 25,
       "quota_cooldown_active": true,
       "quota_cooldown_hours": 12,
+      "quota_cooldown_until": "2026-09-21T06:06:58Z",
       "quota_stopped": true,
       "refresh_days": 7,
-      "search_calls": 25,
+      "search_calls": 0,
       "search_state_entries": 49,
-      "warnings": [
-        "miata-fm-billet-rear-sway-brackets: RuntimeError: 429 https://www.googleapis.com/youtube/v3/search"
-      ]
+      "warnings": []
     }
   },
   "credentials": {
@@ -105,7 +104,7 @@
   "expanded_fitment_count": 275,
   "fitment_rule_count": 18,
   "fitment_warnings": [],
-  "generated_at": "2026-09-20T18:07:02Z",
+  "generated_at": "2026-09-20T18:10:43Z",
   "matched_fitment_rule_count": 18,
   "mode": "deterministic_no_ai",
   "offer_count": 71,
@@ -114,5 +113,5 @@
   "price_history_count": 71,
   "review_queue_count": 11,
   "source_count": 359,
-  "vehicle_count": 539
+  "vehicle_count": 566
 }
