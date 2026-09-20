@@ -26,10 +26,10 @@
       "warnings": []
     },
     "youtube": {
-      "enabled": false,
-      "warnings": [
-        "YOUTUBE_API_KEY not configured"
-      ]
+      "count": 55,
+      "enabled": true,
+      "search_calls": 11,
+      "warnings": []
     }
   },
   "credentials": {
@@ -39,12 +39,12 @@
     "EBAY_CLIENT_SECRET": false,
     "REDDIT_CLIENT_ID": false,
     "REDDIT_CLIENT_SECRET": false,
-    "YOUTUBE_API_KEY": false
+    "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T01:26:42Z",
+  "generated_at": "2026-09-20T01:51:59Z",
   "offer_count": 0,
   "ok": true,
   "price_history_count": 0,
   "review_queue_count": 0,
-  "source_count": 7
+  "source_count": 62
 }
