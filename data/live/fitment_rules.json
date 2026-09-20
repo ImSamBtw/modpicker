@@ -1106,5 +1106,69 @@
     },
     "source_kind": "catalog_query_range",
     "source_url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-6e634b276e57e1e2aa0c-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-6e634b276e57e1e2aa0c"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/alignment-bolt-1990-05"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-9d42d4066f83ffc4709e-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-9d42d4066f83ffc4709e"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/r-package-tie-rod-ends"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-57e95e5fc4ad4d7b7cc2-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-57e95e5fc4ad4d7b7cc2"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/rear-wheel-bearing-1990-2005"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-957405e1c34a6589e9f4-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-957405e1c34a6589e9f4"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/rubber-boot-upper-ball-joint"
   }
 ]

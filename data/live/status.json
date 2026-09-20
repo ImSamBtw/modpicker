@@ -1,20 +1,22 @@
 {
   "application_count": 227,
-  "candidate_count": 26,
-  "catalog_part_count": 102,
+  "candidate_count": 199,
+  "catalog_part_count": 116,
   "collectors": {
     "automatic_publication": {
-      "attempted": 1,
+      "attempted": 24,
       "enabled": true,
-      "promoted": 0,
+      "promoted": 14,
+      "promotion_limit": 24,
       "warnings": []
     },
     "catalog_discovery": {
-      "candidate_count": 26,
+      "candidate_count": 173,
       "enabled": true,
-      "filtered_count": 27,
-      "pages_checked": 4,
-      "robots_origins_checked": 3,
+      "filtered_count": 142,
+      "pages_checked": 21,
+      "robots_origins_checked": 4,
+      "scoped_candidate_count": 82,
       "timeout_seconds": 8,
       "warnings": [
         "robots denied/unavailable: https://www.turnermotorsport.com/BMW-Z3"
@@ -32,9 +34,9 @@
       ]
     },
     "fitment_expansion": {
-      "expanded_fitment_count": 1808,
-      "matched_rule_count": 63,
-      "rule_count": 63,
+      "expanded_fitment_count": 1904,
+      "matched_rule_count": 67,
+      "rule_count": 67,
       "warnings": []
     },
     "reddit": {
@@ -44,25 +46,30 @@
       ]
     },
     "seed_catalog": {
-      "count": 102,
-      "offer_count": 71,
-      "source_count": 92,
+      "count": 116,
+      "offer_count": 85,
+      "source_count": 106,
       "warnings": []
     },
     "vehicles": {
+      "bootstrap": true,
       "enabled": true,
-      "requests": 2,
-      "vehicle_count": 1473,
+      "passenger_car_only": true,
+      "pruned_invalid_nhtsa": 1246,
+      "rejected_make_mismatch": 12,
+      "requests": 48,
+      "rows_seen": 382,
+      "vehicle_count": 609,
       "warnings": []
     },
     "web_product": {
       "enabled": true,
       "fresh_pages_skipped": 50,
-      "offer_count": 0,
-      "pages_checked": 0,
+      "offer_count": 14,
+      "pages_checked": 14,
       "refresh_hours": 24,
-      "robots_origins_checked": 1,
-      "source_count": 0,
+      "robots_origins_checked": 2,
+      "source_count": 14,
       "warnings": [
         "robots denied/unavailable: https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
         "robots denied/unavailable: https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
@@ -101,17 +108,17 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "expanded_fitment_count": 1808,
-  "fitment_rule_count": 63,
+  "expanded_fitment_count": 1904,
+  "fitment_rule_count": 67,
   "fitment_warnings": [],
-  "generated_at": "2026-09-20T22:30:11Z",
-  "matched_fitment_rule_count": 63,
+  "generated_at": "2026-09-20T22:57:43Z",
+  "matched_fitment_rule_count": 67,
   "mode": "deterministic_no_ai",
-  "offer_count": 71,
+  "offer_count": 85,
   "ok": false,
   "platform_count": 7,
-  "price_history_count": 71,
+  "price_history_count": 85,
   "review_queue_count": 11,
-  "source_count": 366,
-  "vehicle_count": 1473
+  "source_count": 386,
+  "vehicle_count": 609
 }
