@@ -1,14 +1,38 @@
 /* One canonical data adapter shared by the bundled snapshot and live database. */
 (()=>{
 const data=window.MODPICKER_DATA;
+const snapshot=window.MODPICKER_PIPELINE_DATA||{};
 const text=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const url=s=>{try{const u=new URL(s);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}};
 window.MP_TEXT=text;window.MP_URL=url;
+// Fallback keeps the currently supported catalog working with older cached
+// snapshots. New makes are automatically added from the crawler configuration
+// published into snapshot status on every refreshed data run.
+const fallbackMakes=['BMW','Ford','Honda','Mazda','Nissan','Scion','Subaru','Toyota','Volkswagen'];
+const makeDisplay=new Map();
+function registerMake(value){const display=String(value??'').trim();if(display)makeDisplay.set(display.toLowerCase(),display)}
+for(const make of fallbackMakes)registerMake(make);
+const configuredMakes=snapshot.status?.collectors?.vehicles?.configured_makes;
+for(const make of Array.isArray(configuredMakes)?configuredMakes:[])registerMake(make);
+function normalizeMake(value){return makeDisplay.get(String(value??'').trim().toLowerCase())||null}
+function normalizeVehicle(row){
+ if(!row||typeof row!=='object'||!row.id||!row.model||!Number.isFinite(Number(row.year)))return null;
+ const make=normalizeMake(row.make);if(!make)return null;
+ return {...row,id:String(row.id),year:Number(row.year),make,model:String(row.model)};
+}
+function filterVehicles(rows){
+ const byId=new Map();
+ for(const row of Array.isArray(rows)?rows:[]){const safe=normalizeVehicle(row);if(safe)byId.set(safe.id,safe)}
+ return [...byId.values()];
+}
+window.ModPickerVehicleTrust=Object.freeze({trustedMakes:Object.freeze([...makeDisplay.values()]),normalizeMake,isTrustedMake:value=>normalizeMake(value)!==null,normalizeVehicle,filterVehicles});
+data.vehicles=filterVehicles(data.vehicles||[]);
 const metrics=['overall','quality','reliability','power','handling','value'];
 function normalizePlatform(p){return {...p,id:String(p.id||''),make:String(p.make||''),name:String(p.name||''),display_name:String(p.display_name||p.name||''),type:String(p.type||'platform'),aliases:Array.isArray(p.aliases)?p.aliases.map(String):[],vehicle_ids:Array.isArray(p.vehicle_ids)?p.vehicle_ids.map(String):[],categories:Array.isArray(p.categories)?p.categories.map(String):[],description:String(p.description||''),source_urls:Array.isArray(p.source_urls)?p.source_urls.map(url).filter(Boolean):[]}}
 function apply(rows,vehicles=[],platforms=[]){
  data.platforms=(platforms.length?platforms:(data.platforms||[])).map(normalizePlatform).filter(p=>p.id);window.MODPICKER_PLATFORMS=data.platforms;
- for(const v of vehicles){if(!data.vehicles.some(x=>x.id===v.id))data.vehicles.push({...v,make:text(v.make),model:text(v.model),trim:text(v.trim||'Unspecified'),chassis:text(v.chassis||'Not specified'),engine:text(v.engine||'Not specified'),tags:(v.tags||['Model record · confirm exact trim']).map(text)});}
+ for(const v of filterVehicles(vehicles)){if(!data.vehicles.some(x=>x.id===v.id))data.vehicles.push({...v,make:v.make,model:text(v.model),trim:text(v.trim||'Unspecified'),chassis:text(v.chassis||'Not specified'),engine:text(v.engine||'Not specified'),tags:(v.tags||['Model record · confirm exact trim']).map(text)});}
+ data.vehicles=filterVehicles(data.vehicles);
  for(const row of rows){
   let p=data.parts.find(x=>x.id===row.id);
   if(!/^[a-zA-Z0-9_-]+$/.test(row.id))continue;
@@ -37,5 +61,5 @@ function apply(rows,vehicles=[],platforms=[]){
 // Remove all demonstration ratings, offers, performance claims and install estimates before first paint.
 for(const p of data.parts){p.rating=Object.fromEntries(metrics.map(m=>[m,null]));p.confidence=0;p.offers=[];p.powerImpact=null;p.install=null;p.pros=[];p.cons=[];p.evidence=[];p.tags=[p.category];}
 window.MP_APPLY=apply;
-const snapshot=window.MODPICKER_PIPELINE_DATA||{};apply(snapshot.parts||[],snapshot.vehicles||[],snapshot.platforms||[]);window.MODPICKER_PIPELINE_STATUS=snapshot.status||{};
+apply(snapshot.parts||[],snapshot.vehicles||[],snapshot.platforms||[]);window.MODPICKER_PIPELINE_STATUS=snapshot.status||{};
 })();
