@@ -81,5 +81,13 @@ class FitmentTests(unittest.TestCase):
         parts,_=expand_fitments([p],[],[])
         self.assertEqual(len(parts[0]['fitments']),1)
         self.assertEqual(parts[0]['fitments'][0]['confidence'],.7)
+    def test_fitment_stat_counts_published_rows_after_rule_deduplication(self):
+        parts,stats=expand_fitments(
+            [{'id':'x','vehicle_id':'anchor','fitment_status':'verified','fitment_confidence':.8}],
+            [{'id':'anchor','family_id':'example','year':2020,'trim':'Base'}],
+            [{'id':'range','part_ids':['x'],'selector':{'family_id':'example','year_from':2020,'year_to':2020},'fitment_status':'verified','confidence':.9,'source_url':'https://example.com'}],
+        )
+        self.assertEqual(stats['expanded_fitment_count'],len(parts[0]['fitments']))
+        self.assertEqual(stats['expanded_fitment_count'],1)
     def test_import_fails_on_empty_scope(self):
         with self.assertRaises(ValueError):normalize([])

@@ -343,6 +343,10 @@ def expand_fitments(parts: list[dict[str, Any]], applications: list[dict[str, An
         part_ids = rule.get("part_ids") or ([rule.get("part_id")] if rule.get("part_id") else [])
         for part_id in part_ids:
             rules_by_part.setdefault(str(part_id), []).append(rule)
+    # Count the unique fitment rows that will actually be published.  A
+    # curated anchor application can also match a generated range rule; the
+    # browser/database de-duplicate that vehicle ID, so the status metric must
+    # report the same final row count rather than counting rule attempts.
     total_expanded = 0
     matched_rules = 0
     warnings: list[str] = []
@@ -352,7 +356,6 @@ def expand_fitments(parts: list[dict[str, Any]], applications: list[dict[str, An
         by_vehicle: dict[str, dict[str, Any]] = {}
 
         def add_fitment(row: dict[str, Any], source: str) -> None:
-            nonlocal total_expanded
             vehicle_id = str(row.get("vehicle_id") or "")
             if not vehicle_id or (source == "rule" and vehicle_id not in app_ids):
                 return
@@ -411,8 +414,8 @@ def expand_fitments(parts: list[dict[str, Any]], applications: list[dict[str, An
                     "rule_id": rule.get("id"),
                     "notes": rule.get("notes"),
                 }, "rule")
-                total_expanded += 1
         fitments = sorted(by_vehicle.values(), key=lambda x: x["vehicle_id"])
+        total_expanded += len(fitments)
         part["fitments"] = fitments
         part["vehicles"] = [x["vehicle_id"] for x in fitments]
         if fitments:
