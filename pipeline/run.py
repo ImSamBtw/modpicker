@@ -24,12 +24,14 @@ def load_catalog():
         rows.extend(load(path,[]))
     by_id={}
     for row in rows:
-        if isinstance(row,dict) and row.get('id'): by_id[row['id']]=row
+        if isinstance(row,dict) and row.get('id'):
+            by_id[row['id']]=row
     return list(by_id.values())
 
 def dedupe(records):
     seen={}
-    for r in records: seen[r.id]=r
+    for r in records:
+        seen[r.id]=r
     return list(seen.values())
 
 def validate_records(sources, offers):
@@ -63,15 +65,20 @@ def main():
     retailer_rows=load('config/product_pages.json',[])
     store=JsonStore()
     existing_sources=store.read('sources.json',[])
+    youtube_state=store.read('youtube_search_state.json',{})
+
+    youtube=YouTubeCollector()
+    youtube_result=youtube.run(parts,existing_sources=existing_sources,search_state=youtube_state)
     results=[
         CuratedCollector().run(),
         SeedCatalogCollector().run(parts),
-        YouTubeCollector().run(parts,existing_sources=existing_sources),
+        youtube_result,
         RedditCollector().run(parts),
         EbayCollector().run(parts),
         WebProductCollector().run(retailer_rows)
     ]
-    candidates,candidate_warnings,candidate_meta=CatalogDiscoveryCollector().run()
+
+    candidates,candidate_warnings,candidate_meta=CatalogDiscoveryCollector(timeout=8).run()
     results.append(type('CatalogResult',(),{'name':'catalog_discovery','metadata':candidate_meta,'warnings':candidate_warnings})())
     sources=dedupe([x for r in results if hasattr(r,'sources') for x in r.sources])
     offers=dedupe([x for r in results if hasattr(r,'offers') for x in r.offers])
@@ -92,6 +99,7 @@ def main():
     offers_json=store.upsert('offers.json',offers)
     review_json=store.upsert('review_queue.json',reviews)
     candidates_json=store.upsert('catalog_candidates.json',candidates)
+    store.write('youtube_search_state.json',youtube.search_state)
 
     history=store.read('price_history.json',[])
     day=now_iso()[:10]
@@ -109,4 +117,5 @@ def main():
     export_js(parts,sources_json,offers_json,status)
     print(json.dumps(status,indent=2))
 
-if __name__=='__main__': main()
+if __name__=='__main__':
+    main()
