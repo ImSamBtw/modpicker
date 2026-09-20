@@ -45,7 +45,7 @@
     "vehicles": {
       "enabled": true,
       "requests": 2,
-      "vehicle_count": 408,
+      "vehicle_count": 414,
       "warnings": []
     },
     "web_product": {
@@ -71,17 +71,16 @@
       ]
     },
     "youtube": {
-      "count": 0,
+      "count": 71,
       "enabled": true,
-      "fresh_parts_skipped": 0,
+      "fresh_parts_skipped": 11,
       "max_searches": 25,
-      "quota_cooldown_active": true,
+      "quota_cooldown_active": false,
       "quota_cooldown_hours": 12,
-      "quota_cooldown_until": "2026-09-20T14:23:45Z",
-      "quota_stopped": true,
+      "quota_stopped": false,
       "refresh_days": 7,
-      "search_calls": 0,
-      "search_state_entries": 0,
+      "search_calls": 25,
+      "search_state_entries": 25,
       "warnings": []
     }
   },
@@ -94,13 +93,13 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "generated_at": "2026-09-20T11:26:55Z",
+  "generated_at": "2026-09-20T16:09:02Z",
   "mode": "deterministic_no_ai",
   "offer_count": 71,
   "ok": false,
   "platform_count": 3,
   "price_history_count": 71,
   "review_queue_count": 11,
-  "source_count": 186,
-  "vehicle_count": 408
+  "source_count": 257,
+  "vehicle_count": 414
 }

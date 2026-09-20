@@ -7351,5 +7351,113 @@
     ],
     "trim": "Unspecified",
     "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-523-2232",
+    "make": "SUBARU",
+    "metadata": {
+      "model_id": 2232,
+      "retrieved_at": "2026-09-20T16:09:02.455986+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/1999?format=json"
+    },
+    "model": "Legacy",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-523-2234",
+    "make": "SUBARU",
+    "metadata": {
+      "model_id": 2234,
+      "retrieved_at": "2026-09-20T16:09:02.456004+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/1999?format=json"
+    },
+    "model": "Forester",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-523-2235",
+    "make": "SUBARU",
+    "metadata": {
+      "model_id": 2235,
+      "retrieved_at": "2026-09-20T16:09:02.456008+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/1999?format=json"
+    },
+    "model": "Impreza",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-523-2232",
+    "make": "SUBARU",
+    "metadata": {
+      "model_id": 2232,
+      "retrieved_at": "2026-09-20T16:09:02.620074+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2000?format=json"
+    },
+    "model": "Legacy",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-523-2234",
+    "make": "SUBARU",
+    "metadata": {
+      "model_id": 2234,
+      "retrieved_at": "2026-09-20T16:09:02.620091+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2000?format=json"
+    },
+    "model": "Forester",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-523-2235",
+    "make": "SUBARU",
+    "metadata": {
+      "model_id": 2235,
+      "retrieved_at": "2026-09-20T16:09:02.620095+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Subaru/modelyear/2000?format=json"
+    },
+    "model": "Impreza",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
   }
 ]
