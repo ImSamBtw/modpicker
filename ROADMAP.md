@@ -54,6 +54,7 @@ Create a first-class **interchange group** separate from ordinary fitment. A sha
 - [x] Add a reviewable interchange-group data contract separate from fitment rules.
 - [x] Add automated validation that interchange part IDs and evidence are reviewable.
 - [x] Add the first cross-make pilot for PERRIN PSP-BRK-406BK across documented BRZ / FR-S / 86 / GR86 applications.
+- [x] Preserve manufacturer model-year gaps instead of flattening application ranges.
 - [x] Show reviewed shared applications and constraints in part details without mutating exact fitment.
 - [ ] Expand to OEM/shared components where donor pricing can materially differ by make/model listing.
 - [ ] Add normalized donor listing price comparison and a “cheaper donor application” view.
@@ -88,7 +89,7 @@ Extend the existing Engine / platform mode into a real swap/build workspace.
 
 ## Priority 5 — Goal-driven build generation
 
-**Status: deterministic starter planner implemented; evidence-aware optimizer remains future work.**
+**Status: dependency-aware deterministic starter planner implemented; evidence-aware optimizer remains future work.**
 
 Examples:
 
@@ -103,11 +104,11 @@ Implementation stages:
 
 1. [x] deterministic category/constraint planning using current catalog fields, exact source-listed fitment and observed price;
 2. [ ] evidence-backed performance ranges from dyno/manufacturer/test sources;
-3. [ ] prerequisite/conflict graph;
+3. [~] prerequisite/conflict graph — the starter planner now consumes recorded `requires` and `conflicts`; broader graph coverage remains to be authored and validated;
 4. [ ] optimizer that proposes multiple complete build sheets rather than one opaque answer;
 5. [ ] AI explanation layer that cites the underlying records and user preferences.
 
-The current starter planner preserves existing build items, uses the Garage budget and goal, selects at most one new part per category, and does not interpret the target-horsepower field as an additive power calculation.
+The current starter planner preserves existing build items, uses the Garage budget and goal, counts saved quantities and paid-price overrides, rejects recorded conflicts, adds recorded supporting requirements when they are source-listed/priced and fit the budget, and does not interpret the target-horsepower field as an additive power calculation.
 
 Do not resurrect unsupported additive horsepower totals. Power targets require measured or otherwise sourced configuration evidence.
 
@@ -191,7 +192,7 @@ Architecture goal: support ModPicker-hosted inference as an optional provider wh
 - [x] Keep deterministic Python catalog/unit tests.
 - [x] Add pull-request JavaScript syntax checks.
 - [x] Add pull-request Playwright smoke tests rather than relying only on manual browser checks.
-- [x] Cover Garage profile persistence, maintenance calculations, codes, receipts, starter planning and interchange UI in browser smoke tests.
+- [x] Cover Garage profile persistence, maintenance calculations, codes, receipts, starter planning, budget accounting, recorded dependencies/conflicts and interchange UI in browser smoke tests.
 - [ ] Add accessibility checks and keyboard-only regression tests.
 - [ ] Add screenshot artifacts for failed browser checks.
 
@@ -219,7 +220,7 @@ Before a rename, run domain, app-store, search-confusion and trademark screening
 
 1. Finish Garage/profile and maintenance UX, tests and data export. **Prototype coverage substantially complete; account/media work remains.**
 2. Add a reviewed interchange-group schema and one small real-world pilot family. **First pilot complete; expand donor-price use cases next.**
-3. Add goal/build-plan input and deterministic prerequisite planning. **Starter planner complete; prerequisite/conflict graph is next.**
+3. Add goal/build-plan input and deterministic prerequisite planning. **Starter planner now consumes current recorded dependency/conflict rules; broader rule coverage and multi-plan optimization remain.**
 4. Add sourced maintenance specifications for the first deep vehicle families.
 5. Add forum/community evidence normalization and cached consensus summaries.
 6. Add eBay/used-listing adapter.
