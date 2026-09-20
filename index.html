@@ -33,7 +33,7 @@
       </div>
     </section>
 
-    <div class="shell prototype-banner"><strong>Prototype data:</strong> prices and ratings are seeded snapshots for product testing. Every part page includes current seller searches, forum/Reddit research, install videos, photo searches, guide/manual searches and install planning.</div>
+    <div class="shell prototype-banner"><strong>Automated data prototype:</strong> curated sources work now; API collectors add YouTube, Reddit and marketplace data when credentials are configured. <a href="data-status.html">View pipeline health</a>.</div>
 
     <section id="catalogView" class="view active-view">
       <div class="hero shell">
@@ -61,7 +61,7 @@
     </section>
 
     <section id="pricesView" class="view shell">
-      <div class="page-head"><div><span class="eyebrow">Seller comparison</span><h1>Price finder.</h1></div><p>Compare prototype seller snapshots, see seller spread, watch parts, and jump out to verify current price, stock and shipping.</p></div>
+      <div class="page-head"><div><span class="eyebrow">Seller comparison</span><h1>Price finder.</h1></div><p>Compare seller snapshots, live API offers when available, seller spread, watch parts, and jump out to verify current price, stock and shipping.</p></div>
       <div id="priceSummary" class="price-summary"></div><div id="bestDealText" class="price-note"></div><div id="priceTable" class="ranking-table"></div>
     </section>
 
@@ -80,7 +80,7 @@
       <div class="build-controls"><label><span>Build name</span><input id="buildNameInput" type="text" value="My build" /></label><label><span>Parts budget</span><input id="budgetInput" type="number" min="0" step="100" value="5000" /></label><label><span>Labor rate / hour</span><input id="laborRateInput" type="number" min="0" step="5" value="0" /></label></div>
       <div class="build-layout">
         <section><div id="compatibilityPanel" class="compatibility-panel"></div><div id="coveragePanel" class="coverage-panel"></div><div id="buildCategories" class="build-categories"></div><div class="suggestions"><span class="eyebrow">What to add next</span><h3>Build suggestions</h3><div id="buildSuggestions" class="suggestion-grid"></div></div></section>
-        <aside class="build-summary-card"><span class="eyebrow">Estimated build</span><div class="summary-big"><span>Total with estimated labor</span><strong id="buildTotal">$0</strong></div><div class="summary-breakdown"><div><span>Parts</span><strong id="buildPartsTotal">$0</strong></div><div><span>Estimated labor</span><strong id="buildLaborTotal">$0</strong></div></div><div class="summary-grid"><div><span>Parts</span><strong id="buildPartCount">0</strong></div><div><span>Install time</span><strong id="buildHours">—</strong></div><div><span>Avg. rating</span><strong id="buildAvgRating">—</strong></div><div><span>Power impact</span><strong id="buildPowerImpact">—</strong></div><div><span>Confidence</span><strong id="buildConfidence">—</strong></div></div><div id="buildGoalScore" class="goal-score"></div><div id="budgetStatus" class="budget-status"></div><p class="fine-print">Parts pricing and labor time are prototype planning values. Verify exact SKU, fitment, seller price, service procedure and labor estimate before purchasing.</p></aside>
+        <aside class="build-summary-card"><span class="eyebrow">Estimated build</span><div class="summary-big"><span>Total with estimated labor</span><strong id="buildTotal">$0</strong></div><div class="summary-breakdown"><div><span>Parts</span><strong id="buildPartsTotal">$0</strong></div><div><span>Estimated labor</span><strong id="buildLaborTotal">$0</strong></div></div><div class="summary-grid"><div><span>Parts</span><strong id="buildPartCount">0</strong></div><div><span>Install time</span><strong id="buildHours">—</strong></div><div><span>Avg. rating</span><strong id="buildAvgRating">—</strong></div><div><span>Power impact</span><strong id="buildPowerImpact">—</strong></div><div><span>Confidence</span><strong id="buildConfidence">—</strong></div></div><div id="buildGoalScore" class="goal-score"></div><div id="budgetStatus" class="budget-status"></div><p class="fine-print">Parts pricing and labor time are planning values. Verify exact SKU, fitment, seller price, service procedure and labor estimate before purchasing.</p></aside>
       </div>
     </section>
   </main>
@@ -91,8 +91,11 @@
 
   <script src="data.js"></script>
   <script src="data-extra.js"></script>
+  <script src="pipeline-data.js"></script>
+  <script src="pipeline-bridge.js"></script>
   <script src="app-v2.js"></script>
   <script src="research.js"></script>
   <script src="curated-discussions.js"></script>
+  <script src="pipeline-ui.js"></script>
 </body>
 </html>
