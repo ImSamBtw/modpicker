@@ -53,5 +53,10 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(all(p.get('category') for p in parts))
         self.assertIn('Uncategorized',{p['category'] for p in parts})
 
+    def test_catalog_drops_legacy_seed_rankings_before_scoring(self):
+        parts=load_catalog()
+        self.assertTrue(parts)
+        self.assertTrue(all('ranking' not in p for p in parts))
+
 if __name__=='__main__':
     unittest.main()

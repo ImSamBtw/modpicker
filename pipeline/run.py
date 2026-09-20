@@ -43,6 +43,11 @@ def load_catalog():
             # scope, never a guessed subsystem.
             item=dict(row)
             item['category']=item.get('category') or 'Uncategorized'
+            # Legacy seed files may contain hand-entered ratings from before
+            # the published-review methodology. Never let those values reach
+            # the browser or database; scoring below must be derived only from
+            # current, identity-matched review evidence.
+            item.pop('ranking', None)
             by_id[item['id']]=item
     return list(by_id.values())
 
