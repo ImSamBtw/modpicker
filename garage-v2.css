@@ -1,0 +1,8 @@
+.garage-profile-meter #garageMaintenanceSummary{margin-top:10px;padding-top:10px;border-top:1px solid var(--line,#dfe3e8)}
+.maintenance-actions{display:flex;gap:4px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.plan-warning{margin-bottom:12px;padding:12px 14px;border-radius:12px;background:#fef3c7;color:#78350f;font-size:13px;line-height:1.45}
+.plan-summary{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:10px;padding:12px 14px;border-radius:12px;background:var(--soft,#f5f7f9)}
+.plan-summary span{font-size:13px;color:var(--muted,#6b7280)}
+.plan-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;padding:14px 2px;border-top:1px solid var(--line,#e5e7eb)}
+.plan-item>div{display:grid;gap:4px}.plan-item strong{line-height:1.3}.plan-item small{color:var(--muted,#6b7280);line-height:1.4}
+@media(max-width:720px){.maintenance-actions{grid-column:1/-1;justify-content:flex-start}.plan-summary{display:grid}.plan-item{grid-template-columns:1fr}.plan-item>span{font-weight:800}}

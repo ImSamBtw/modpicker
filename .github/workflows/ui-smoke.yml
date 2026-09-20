@@ -1,0 +1,39 @@
+name: UI smoke tests
+on:
+  pull_request:
+    paths:
+      - '*.html'
+      - '*.js'
+      - '*.css'
+      - 'tests/*.cjs'
+      - '.github/workflows/ui-smoke.yml'
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - '*.js'
+      - '*.css'
+      - 'tests/*.cjs'
+      - '.github/workflows/ui-smoke.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Install Playwright
+        run: |
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Existing application smoke test
+        run: node tests/browser-smoke.cjs
+      - name: Garage regression smoke test
+        run: node tests/garage-smoke.cjs
