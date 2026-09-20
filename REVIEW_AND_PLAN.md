@@ -64,8 +64,10 @@ The initial platform families are intentionally scoped to exact curated applicat
 
 ### Next review loop
 
-1. Confirm the first scheduled pipeline refresh exports platform and vehicle counts in status.
+1. **Completed:** the first scheduled refresh after this change exported 96 parts, 394 vehicles, and all three platform families; `data/live/status.json` reports 394 vehicles and 3 platforms.
 2. Add exact application records and platform mappings only when the source supports them.
 3. Expand structured product sources before expanding the platform list.
 4. Add a maintainer review-queue surface for ambiguous product candidates.
 5. Re-run this review after the next data refresh and record any source degradation or UI regression.
+
+The refresh was published by GitHub Actions in commit `7bce626` on 2026-09-20. Its generated export contains `bmw-m52tu`, `mazda-bp-4w`, and `subaru-fa20`; the manual application IDs are present in the live vehicle file.
