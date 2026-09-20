@@ -31,6 +31,7 @@ jobs:
       - name: Check JavaScript syntax
         run: |
           node --check app-v2.js
+          node --check pipeline-bridge.js
           node --check garage-ui.js
           node --check garage.js
           node --check garage-planner.js
@@ -38,6 +39,8 @@ jobs:
           node --check ui-polish.js
           node --check research.js
           node --check trust-ui.js
+      - name: Vehicle make trust regression
+        run: node tests/vehicle-make-trust.cjs
       - name: Install browser test runtime
         run: |
           npm install --no-save playwright@1.55.0
