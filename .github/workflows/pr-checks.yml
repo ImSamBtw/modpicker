@@ -1,7 +1,9 @@
-name: Validate ModPicker pull requests
+name: Validate ModPicker changes
 
 on:
   pull_request:
+  push:
+    branches-ignore: [main]
   workflow_dispatch:
 
 permissions:
