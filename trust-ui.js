@@ -25,3 +25,8 @@ appendInterchange(id,root);
 if(document.querySelector('script[data-garage-ui]'))return;
 const script=document.createElement('script');script.src='garage-ui.js';script.async=false;script.dataset.garageUi='1';script.addEventListener('load',()=>{const garageLink=document.querySelector('[data-route="garage"]');if(garageLink&&!garageLink.dataset.routeBound){garageLink.dataset.routeBound='1';garageLink.addEventListener('click',event=>{event.preventDefault();if(typeof window.route==='function')window.route('garage');});}});document.body.appendChild(script);
 })();
+
+(()=>{
+if(!document.querySelector('link[href="maintenance-specs.css"]')){const link=document.createElement('link');link.rel='stylesheet';link.href='maintenance-specs.css';document.head.appendChild(link)}
+if(!document.querySelector('script[src="maintenance-specs.js"]')){const script=document.createElement('script');script.src='maintenance-specs.js';script.async=false;document.body.appendChild(script)}
+})();
