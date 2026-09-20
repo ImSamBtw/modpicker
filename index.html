@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="ModPicker - automotive parts compatibility, rankings, pricing and build sheets." />
+  <title>ModPicker — Build smarter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" data-route="catalog"><span>MOD</span>PICKER</a>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <button class="nav-link active" data-route="catalog">Parts</button>
+      <button class="nav-link" data-route="rankings">Rankings</button>
+      <button class="nav-link" data-route="compare">Compare <span id="compareNavCount" class="nav-count">0</span></button>
+      <button class="nav-link" data-route="build">Build Sheet <span id="buildNavCount" class="nav-count">0</span></button>
+    </nav>
+    <button id="mobileMenuButton" class="mobile-menu">Menu</button>
+  </header>
+
+  <main>
+    <section class="vehicle-strip">
+      <div class="vehicle-strip-inner">
+        <div class="vehicle-title">
+          <span class="eyebrow">Your garage</span>
+          <strong id="vehicleName">Select a vehicle</strong>
+        </div>
+        <div class="vehicle-selectors">
+          <label><span>Vehicle</span><select id="vehicleSelect"></select></label>
+          <label><span>Goal</span>
+            <select id="goalSelect">
+              <option value="balanced">Balanced street</option>
+              <option value="reliability">Reliability</option>
+              <option value="power">Power</option>
+              <option value="handling">Handling</option>
+              <option value="track">Track</option>
+              <option value="budget">Budget</option>
+            </select>
+          </label>
+        </div>
+        <div id="vehicleBadges" class="vehicle-badges"></div>
+      </div>
+    </section>
+
+    <section id="catalogView" class="view active-view">
+      <div class="hero shell">
+        <div>
+          <span class="eyebrow">Automotive build planning</span>
+          <h1>Find parts that fit.<br>Build without guessing.</h1>
+          <p>Compare compatible upgrades, community-informed rankings, pricing, prerequisites, and complete build sheets in one place.</p>
+        </div>
+        <div class="hero-stats">
+          <div><strong id="heroCompatible">0</strong><span>compatible parts</span></div>
+          <div><strong id="heroCategories">0</strong><span>categories</span></div>
+          <div><strong id="heroOffers">0</strong><span>price offers</span></div>
+        </div>
+      </div>
+
+      <section class="shell filter-panel">
+        <label class="search-label"><span>Search parts</span><input id="searchInput" type="search" placeholder="Search brand, part, category..." /></label>
+        <label><span>Category</span><select id="categoryFilter"></select></label>
+        <label><span>Sort</span>
+          <select id="sortSelect">
+            <option value="recommended">Recommended</option>
+            <option value="rating">Overall rating</option>
+            <option value="price-low">Lowest price</option>
+            <option value="price-high">Highest price</option>
+            <option value="reliability">Reliability</option>
+            <option value="power">Power impact</option>
+            <option value="value">Value</option>
+          </select>
+        </label>
+        <label class="check-filter"><input id="hideUnverified" type="checkbox" /><span>Higher confidence only</span></label>
+      </section>
+
+      <section class="shell content-grid">
+        <aside class="category-sidebar">
+          <div class="sidebar-title">Categories</div>
+          <div id="categoryButtons"></div>
+          <div class="sidebar-card">
+            <span class="eyebrow">Fitment engine</span>
+            <strong id="fitmentSummary">Exact vehicle selected</strong>
+            <p>Parts are filtered by chassis, engine, model year, drivetrain and required supporting mods.</p>
+          </div>
+        </aside>
+
+        <section>
+          <div class="section-head">
+            <div><span class="eyebrow">Catalog</span><h2 id="catalogTitle">Compatible parts</h2></div>
+            <span id="resultCount" class="result-count"></span>
+          </div>
+          <div id="partGrid" class="part-grid"></div>
+        </section>
+      </section>
+    </section>
+
+    <section id="rankingsView" class="view shell">
+      <div class="page-head">
+        <div><span class="eyebrow">Vehicle-specific rankings</span><h1>Best parts for your build.</h1></div>
+        <p>Rankings adapt to your selected goal. Reliability-focused builds weight reliability and confidence more heavily; power builds weight measured performance.</p>
+      </div>
+      <div id="rankingSummary" class="ranking-summary"></div>
+      <div id="rankingTable" class="ranking-table"></div>
+    </section>
+
+    <section id="compareView" class="view shell">
+      <div class="page-head">
+        <div><span class="eyebrow">Side-by-side</span><h1>Compare parts.</h1></div>
+        <p>Select up to four parts from the catalog. Compare pricing, fitment, ratings, tradeoffs and supporting-mod requirements.</p>
+      </div>
+      <div id="compareEmpty" class="empty-state"></div>
+      <div id="compareTableWrap" class="compare-wrap"></div>
+    </section>
+
+    <section id="buildView" class="view shell">
+      <div class="page-head build-page-head">
+        <div><span class="eyebrow">Build sheet</span><h1 id="buildTitle">My build</h1></div>
+        <div class="build-actions">
+          <button id="copyBuildButton" class="button secondary">Copy summary</button>
+          <button id="shareBuildButton" class="button secondary">Copy share link</button>
+          <button id="clearBuildButton" class="button danger">Clear build</button>
+        </div>
+      </div>
+
+      <div class="build-layout">
+        <section>
+          <div id="compatibilityPanel" class="compatibility-panel"></div>
+          <div id="buildCategories" class="build-categories"></div>
+        </section>
+        <aside class="build-summary-card">
+          <span class="eyebrow">Estimated build</span>
+          <div class="summary-big"><span>Total parts cost</span><strong id="buildTotal">$0</strong></div>
+          <div class="summary-grid">
+            <div><span>Parts</span><strong id="buildPartCount">0</strong></div>
+            <div><span>Avg. rating</span><strong id="buildAvgRating">—</strong></div>
+            <div><span>Power impact</span><strong id="buildPowerImpact">—</strong></div>
+            <div><span>Confidence</span><strong id="buildConfidence">—</strong></div>
+          </div>
+          <div id="buildGoalScore" class="goal-score"></div>
+          <p class="fine-print">Prices are prototype snapshots and may change. Always verify current price, availability and exact fitment before purchasing.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="partDialog" class="part-dialog">
+    <button id="dialogClose" class="dialog-close" aria-label="Close">×</button>
+    <div id="partDialogContent"></div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <footer>
+    <div class="shell footer-inner"><strong>ModPicker Prototype</strong><span>Compatibility + pricing + build sheets for automotive upgrades.</span></div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
