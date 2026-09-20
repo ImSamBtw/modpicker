@@ -2,11 +2,13 @@
 'use strict';
 const PROFILE_KEY='modpicker-owner-garage-v1';
 const MAX_PHOTOS=4;
+const MAINTENANCE_DATA_URL='data/manual/maintenance_specs.json';
 const COMMON_MAINTENANCE=['Engine oil & filter','Engine air filter','Cabin air filter','Brake fluid','Coolant','Transmission fluid','Differential fluid','Spark plugs','Accessory belts','Brake inspection','Tire rotation / inspection'];
 const $=s=>document.querySelector(s);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const id=prefix=>`${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,8)}`;
 let profiles=readProfiles();
+let maintenanceSpecs=[];
 let lastVehicleId='';
 
 function readProfiles(){
@@ -35,6 +37,7 @@ function saveProfile(){const p=profileFor();p.updatedAt=new Date().toISOString()
 function vehicleLabel(v=selectedVehicle()){return v?`${v.year} ${v.make} ${v.model} ${v.trim||''}`.trim():'Selected vehicle'}
 function numberOrNull(v){const n=Number(v);return Number.isFinite(n)&&n>=0?n:null}
 function addMonths(dateString,months){if(!dateString||!months)return'';const d=new Date(`${dateString}T12:00:00`);if(Number.isNaN(d.getTime()))return'';d.setMonth(d.getMonth()+Number(months));return d.toISOString().slice(0,10)}
+function safeHttps(url){try{const parsed=new URL(url,location.href);return parsed.protocol==='https:'?parsed.href:''}catch{return''}}
 function maintenanceDue(item,p){
  const odo=numberOrNull(p.odometer),last=numberOrNull(item.lastMileage),miles=numberOrNull(item.intervalMiles);
  const dueMileage=last!=null&&miles?last+miles:null;
@@ -61,10 +64,9 @@ function render(){
 function renderSummary(){
  const p=profileFor(),v=selectedVehicle();if(!v)return;
  const context=recommendationContext();
- const missing=[];
- if(!p.odometer)missing.push('odometer');if(!p.currentMods)missing.push('current mods');if(!p.problems)missing.push('current problems');if(!p.buildGoals)missing.push('build goal');
- const completed=6-missing.length;
- $('#garageProfileCompleteness').textContent=`${Math.round(completed/6*100)}% context complete`;
+ const required=[p.odometer,p.currentMods,p.problems,p.buildGoals,p.likes,p.dislikes];
+ const completed=required.filter(value=>String(value??'').trim()).length;
+ $('#garageProfileCompleteness').textContent=`${Math.round(completed/required.length*100)}% context complete`;
  const goals=[];
  goals.push((p.primaryGoal||'balanced').replace(/^./,c=>c.toUpperCase()));
  if(p.budget)goals.push(`budget $${Number(p.budget).toLocaleString()}`);
@@ -98,9 +100,10 @@ function fieldInput(e){
  profileFor()[field]=e.target.value;saveProfile();
 }
 function maintenanceRow(item,p){
- const due=maintenanceDue(item,p),statusClass=due.status.toLowerCase().replaceAll(' ','-');
+ const due=maintenanceDue(item,p),statusClass=due.status.toLowerCase().replaceAll(' ','-'),sourceUrl=safeHttps(item.source?.url),sourcePages=(item.source?.pages||[]).join(', ');
  return `<article class="maintenance-card" data-maint-id="${esc(item.id)}">
   <div class="maintenance-card-head"><input class="maintenance-name" data-maint-field="name" value="${esc(item.name)}" placeholder="Service item"/><span class="maintenance-status ${statusClass}">${esc(due.status)}</span><button class="text-button danger-text" type="button" data-delete-maint="${esc(item.id)}">Remove</button></div>
+  ${item.source?`<div class="maintenance-source"><strong>Source-backed specification</strong><span>${sourceUrl?`<a href="${esc(sourceUrl)}" target="_blank" rel="noopener">${esc(item.source.title||'Source')}</a>`:esc(item.source.title||'Source')}${sourcePages?` · pages ${esc(sourcePages)}`:''}${item.source.documentPartNumber?` · ${esc(item.source.documentPartNumber)}`:''}</span></div>`:''}
   <div class="maintenance-grid">
    <label><span>Last service mileage</span><input data-maint-field="lastMileage" inputmode="numeric" type="number" min="0" value="${esc(item.lastMileage)}"></label>
    <label><span>Interval miles</span><input data-maint-field="intervalMiles" inputmode="numeric" type="number" min="0" value="${esc(item.intervalMiles)}"></label>
@@ -117,8 +120,30 @@ function maintenanceRow(item,p){
 }
 function renderMaintenance(){const p=profileFor(),root=$('#maintenanceList');root.innerHTML=p.maintenance.length?p.maintenance.map(x=>maintenanceRow(x,p)).join(''):'<div class="garage-empty">No maintenance records yet. Add an item or create the common-service starter list.</div>'}
 function newMaintenance(name=''){return{id:id('maint'),name,lastMileage:'',intervalMiles:'',lastDate:'',intervalMonths:'',fluidSpec:'',capacity:'',parts:'',notes:'',createdAt:new Date().toISOString()}}
+function maintenancePack(vehicleId=selectedVehicleId()){return maintenanceSpecs.find(pack=>(pack.vehicle_ids||[]).includes(vehicleId))||null}
+function applySourcedMaintenance({notifyUser=false}={}){
+ const pack=maintenancePack();if(!pack)return{applied:0,created:0,pack:null};
+ const p=profileFor(),existing=new Map(p.maintenance.map(item=>[String(item.name||'').trim().toLowerCase(),item]));let applied=0,created=0,changed=false;
+ for(const spec of pack.items||[]){
+  const key=String(spec.name||'').trim().toLowerCase();if(!key)continue;
+  let item=existing.get(key);if(!item){item=newMaintenance(spec.name);p.maintenance.push(item);existing.set(key,item);created++;changed=true}
+  const isNewSource=item.source?.id!==pack.id;
+  if(isNewSource){
+   for(const [field,value] of [['fluidSpec',spec.fluid_spec],['capacity',spec.capacity],['parts',spec.parts],['intervalMiles',spec.interval_miles],['intervalMonths',spec.interval_months]])if((item[field]===''||item[field]==null)&&value!=null&&value!==''){item[field]=String(value);applied++;changed=true}
+   if(!item.notes&&spec.notes){item.notes=spec.notes;changed=true}
+  }
+  const nextSource={id:pack.id,title:pack.source?.title||'Maintenance source',publisher:pack.source?.publisher||'',documentPartNumber:pack.source?.document_part_number||'',url:pack.source?.source_url||'',retrievedAt:pack.source?.retrieved_at||'',pages:Array.isArray(spec.source_pages)?spec.source_pages:[]};
+  if(JSON.stringify(item.source||{})!==JSON.stringify(nextSource)){item.source=nextSource;changed=true}
+ }
+ if(changed){saveProfile();renderMaintenance()}
+ if(notifyUser)notify(changed?'Source-backed maintenance specifications applied. Unsourced intervals remain blank.':'Maintenance specifications are already up to date.');
+ return{applied,created,pack:pack.id,changed};
+}
+async function loadMaintenanceSpecs(){
+ try{const response=await fetch(MAINTENANCE_DATA_URL,{cache:'no-cache'});if(!response.ok)throw new Error(`HTTP ${response.status}`);const data=await response.json();maintenanceSpecs=Array.isArray(data)?data:[];applySourcedMaintenance()}catch(error){console.warn('Maintenance specification load failed',error)}
+}
 function addMaintenance(name=''){profileFor().maintenance.push(newMaintenance(name));saveProfile();renderMaintenance()}
-function seedMaintenance(){const p=profileFor(),existing=new Set(p.maintenance.map(x=>x.name.toLowerCase()));for(const name of COMMON_MAINTENANCE)if(!existing.has(name.toLowerCase()))p.maintenance.push(newMaintenance(name));saveProfile();renderMaintenance();notify('Starter checklist added. Vehicle-specific intervals and fluids still need sources.')}
+function seedMaintenance(){const p=profileFor(),existing=new Set(p.maintenance.map(x=>x.name.toLowerCase()));for(const name of COMMON_MAINTENANCE)if(!existing.has(name.toLowerCase()))p.maintenance.push(newMaintenance(name));saveProfile();renderMaintenance();applySourcedMaintenance();notify('Starter checklist added. Source-backed values were applied where available; unsourced intervals and specifications remain blank.')}
 function updateMaintenance(e){const card=e.target.closest('[data-maint-id]'),field=e.target.dataset.maintField;if(!card||!field)return;const item=profileFor().maintenance.find(x=>x.id===card.dataset.maintId);if(!item)return;item[field]=e.target.value;saveProfile();if(['lastMileage','intervalMiles','lastDate','intervalMonths'].includes(field))renderMaintenance()}
 function deleteMaintenance(mid){const p=profileFor();p.maintenance=p.maintenance.filter(x=>x.id!==mid);saveProfile();renderMaintenance()}
 function addCode(){
@@ -139,7 +164,7 @@ function maintenanceReport(){
  const v=selectedVehicle(),p=profileFor(),lines=[`ModPicker maintenance record — ${p.nickname||vehicleLabel(v)}`,`Vehicle: ${vehicleLabel(v)}`,`Odometer: ${p.odometer?`${Number(p.odometer).toLocaleString()} mi`:'not recorded'}`,`Condition: ${p.condition||'not recorded'}`,`Generated: ${new Date().toLocaleDateString()}`,''];
  lines.push('MAINTENANCE');
  if(!p.maintenance.length)lines.push('No maintenance items recorded.');
- for(const item of p.maintenance){const due=maintenanceDue(item,p);lines.push(`- ${item.name||'Service item'} | last: ${item.lastMileage||'—'} mi / ${item.lastDate||'—'} | next: ${due.dueMileage??'—'} mi / ${due.dueDate||'—'} | ${due.status}`);if(item.fluidSpec||item.capacity||item.parts)lines.push(`  spec/capacity/parts: ${[item.fluidSpec,item.capacity,item.parts].filter(Boolean).join(' | ')}`);if(item.notes)lines.push(`  notes: ${item.notes}`)}
+ for(const item of p.maintenance){const due=maintenanceDue(item,p);lines.push(`- ${item.name||'Service item'} | last: ${item.lastMileage||'—'} mi / ${item.lastDate||'—'} | next: ${due.dueMileage??'—'} mi / ${due.dueDate||'—'} | ${due.status}`);if(item.fluidSpec||item.capacity||item.parts)lines.push(`  spec/capacity/parts: ${[item.fluidSpec,item.capacity,item.parts].filter(Boolean).join(' | ')}`);if(item.source)lines.push(`  source: ${item.source.title||'Source'}${item.source.documentPartNumber?` (${item.source.documentPartNumber})`:''}${item.source.pages?.length?` pp. ${item.source.pages.join(', ')}`:''}${item.source.url?` | ${item.source.url}`:''}`);if(item.notes)lines.push(`  notes: ${item.notes}`)}
  lines.push('','DIAGNOSTIC CODE HISTORY');for(const x of p.codes)lines.push(`- ${x.code} | ${x.date||'date unknown'} | ${x.mileage||'—'} mi | ${x.description||''} | ${x.resolution||''}`);if(!p.codes.length)lines.push('No codes recorded.');
  lines.push('','RECEIPTS / PURCHASES');for(const x of p.receipts)lines.push(`- ${x.date||'date unknown'} | ${x.vendor||'Receipt'} | ${x.amount?`$${Number(x.amount).toFixed(2)}`:'amount unknown'} | ${x.category||''} | ${x.notes||''}`);if(!p.receipts.length)lines.push('No receipts recorded.');
  return lines.join('\n');
@@ -162,9 +187,9 @@ function bind(){
  $('#addCodeButton')?.addEventListener('click',addCode);$('#codeHistory')?.addEventListener('click',e=>{const b=e.target.closest('[data-delete-code]');if(!b)return;const p=profileFor();p.codes=p.codes.filter(x=>x.id!==b.dataset.deleteCode);saveProfile();renderCodes()});
  $('#addReceiptButton')?.addEventListener('click',addReceipt);$('#receiptHistory')?.addEventListener('click',e=>{const b=e.target.closest('[data-delete-receipt]');if(!b)return;const p=profileFor();p.receipts=p.receipts.filter(x=>x.id!==b.dataset.deleteReceipt);saveProfile();renderReceipts()});
  $('#copyMaintenanceReport')?.addEventListener('click',copyReport);$('#applyGarageContext')?.addEventListener('click',applyRecommendationContext);$('#exportGarageData')?.addEventListener('click',exportGarage);
- document.querySelectorAll('[data-route="garage"]').forEach(el=>el.addEventListener('click',()=>setTimeout(render,0)));
- const vehicleName=$('#vehicleName');if(vehicleName)new MutationObserver(()=>{const current=selectedVehicleId();if(current!==lastVehicleId)render()}).observe(vehicleName,{childList:true,subtree:true,characterData:true});
+ document.querySelectorAll('[data-route="garage"]').forEach(el=>el.addEventListener('click',()=>setTimeout(()=>{render();applySourcedMaintenance()},0)));
+ const vehicleName=$('#vehicleName');if(vehicleName)new MutationObserver(()=>{const current=selectedVehicleId();if(current!==lastVehicleId){render();applySourcedMaintenance()}}).observe(vehicleName,{childList:true,subtree:true,characterData:true});
 }
-function init(){if(!$('#garageView'))return;bind();render();window.ModPickerGarage={getProfile:vehicleId=>structuredClone(profileFor(vehicleId)),getRecommendationContext:vehicleId=>structuredClone(recommendationContext(vehicleId)),getMaintenanceReport:maintenanceReport,exportData:()=>structuredClone(profiles)}}
+function init(){if(!$('#garageView'))return;bind();render();window.ModPickerGarage={getProfile:vehicleId=>structuredClone(profileFor(vehicleId)),getRecommendationContext:vehicleId=>structuredClone(recommendationContext(vehicleId)),getMaintenanceReport:maintenanceReport,exportData:()=>structuredClone(profiles),applySourcedMaintenance,getMaintenanceSpecs:()=>structuredClone(maintenanceSpecs)};loadMaintenanceSpecs()}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
