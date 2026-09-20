@@ -29979,5 +29979,257 @@
     ],
     "trim": "Unspecified",
     "year": 2026
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-482-3133",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3133,
+      "retrieved_at": "2026-09-20T20:41:17.614788+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999?format=json"
+    },
+    "model": "Golf",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-482-3134",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3134,
+      "retrieved_at": "2026-09-20T20:41:17.614805+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999?format=json"
+    },
+    "model": "Passat",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-482-3137",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3137,
+      "retrieved_at": "2026-09-20T20:41:17.614809+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999?format=json"
+    },
+    "model": "Jetta",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-482-3140",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3140,
+      "retrieved_at": "2026-09-20T20:41:17.614813+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999?format=json"
+    },
+    "model": "GTI",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-482-8055",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 8055,
+      "retrieved_at": "2026-09-20T20:41:17.614819+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999?format=json"
+    },
+    "model": "EuroVan",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-482-8119",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 8119,
+      "retrieved_at": "2026-09-20T20:41:17.614823+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999?format=json"
+    },
+    "model": "Beetle",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-1999-482-8460",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 8460,
+      "retrieved_at": "2026-09-20T20:41:17.614826+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999?format=json"
+    },
+    "model": "Cabrio",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 1999
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-482-3133",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3133,
+      "retrieved_at": "2026-09-20T20:41:17.830492+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000?format=json"
+    },
+    "model": "Golf",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-482-3134",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3134,
+      "retrieved_at": "2026-09-20T20:41:17.830504+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000?format=json"
+    },
+    "model": "Passat",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-482-3137",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3137,
+      "retrieved_at": "2026-09-20T20:41:17.830514+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000?format=json"
+    },
+    "model": "Jetta",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-482-3140",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 3140,
+      "retrieved_at": "2026-09-20T20:41:17.830523+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000?format=json"
+    },
+    "model": "GTI",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-482-8055",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 8055,
+      "retrieved_at": "2026-09-20T20:41:17.830533+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000?format=json"
+    },
+    "model": "EuroVan",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-482-8119",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 8119,
+      "retrieved_at": "2026-09-20T20:41:17.830543+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000?format=json"
+    },
+    "model": "Beetle",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
+  },
+  {
+    "chassis": "Not specified",
+    "engine": "Not specified",
+    "id": "nhtsa-2000-482-8460",
+    "make": "VOLKSWAGEN",
+    "metadata": {
+      "model_id": 8460,
+      "retrieved_at": "2026-09-20T20:41:17.830553+00:00",
+      "source": "NHTSA vPIC",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000?format=json"
+    },
+    "model": "Cabrio",
+    "tags": [
+      "Model record \u00b7 fitment not established"
+    ],
+    "trim": "Unspecified",
+    "year": 2000
   }
 ]

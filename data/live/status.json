@@ -52,7 +52,7 @@
     "vehicles": {
       "enabled": true,
       "requests": 2,
-      "vehicle_count": 1399,
+      "vehicle_count": 1413,
       "warnings": []
     },
     "web_product": {
@@ -104,7 +104,7 @@
   "expanded_fitment_count": 1808,
   "fitment_rule_count": 63,
   "fitment_warnings": [],
-  "generated_at": "2026-09-20T19:31:35Z",
+  "generated_at": "2026-09-20T20:41:17Z",
   "matched_fitment_rule_count": 63,
   "mode": "deterministic_no_ai",
   "offer_count": 71,
@@ -113,5 +113,5 @@
   "price_history_count": 71,
   "review_queue_count": 11,
   "source_count": 366,
-  "vehicle_count": 1399
+  "vehicle_count": 1413
 }
