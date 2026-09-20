@@ -28,5 +28,5 @@ const script=document.createElement('script');script.src='garage-ui.js';script.a
 
 (()=>{
 if(!document.querySelector('link[href="maintenance-specs.css"]')){const link=document.createElement('link');link.rel='stylesheet';link.href='maintenance-specs.css';document.head.appendChild(link)}
-if(!document.querySelector('script[src="maintenance-specs.js"]')){const script=document.createElement('script');script.src='maintenance-specs.js';script.async=false;document.body.appendChild(script)}
+for(const src of ['garage-planner.js','maintenance-specs.js'])if(!document.querySelector(`script[src="${src}"]`)){const script=document.createElement('script');script.src=src;script.async=false;document.body.appendChild(script)}
 })();
