@@ -30,6 +30,10 @@ class InterchangeDataTests(unittest.TestCase):
             self.assertIn(group.get('installation_class'), {'exact', 'direct', 'modification_required', 'unknown'})
             self.assertGreaterEqual(len(group.get('applications', [])), 2)
             self.assertTrue(group.get('evidence'))
+            for application in group.get('applications', []):
+                self.assertTrue(application.get('make'))
+                self.assertTrue(application.get('model'))
+                self.assertLessEqual(application['year_from'], application['year_to'])
 
     def test_interchange_links_to_known_parts_and_sources(self):
         for group in self.groups:
@@ -47,6 +51,12 @@ class InterchangeDataTests(unittest.TestCase):
         self.assertGreaterEqual(len(makes), 3)
         fitment_rules = json.loads((ROOT / 'data' / 'reference' / 'fitment_rules.json').read_text())
         self.assertFalse(any(r.get('id') == group['id'] for r in fitment_rules), 'interchange must stay separate from exact fitment rules')
+
+    def test_pilot_preserves_manufacturer_model_year_gap(self):
+        group = next(g for g in self.groups if g['id'] == 'perrin-psp-brk-406bk')
+        brz_ranges = [(a['year_from'], a['year_to']) for a in group['applications'] if a['make'] == 'Subaru' and a['model'] == 'BRZ']
+        self.assertEqual(brz_ranges, [(2013, 2020), (2022, 2026)])
+        self.assertFalse(any(start <= 2021 <= end for start, end in brz_ranges))
 
 
 if __name__ == '__main__':
