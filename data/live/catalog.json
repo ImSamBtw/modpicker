@@ -27178,5 +27178,2831 @@
     },
     "status": "active",
     "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Flyin' Miata",
+    "category": "Other",
+    "description": "Deleting the thermostat neck when you install a reroute is a great idea, but you're left with an unsightly hole that could let debris interfere with your timing belt. No more! This two-piece kit covers the hole that's left, and is nearly invisible once it's installed. Fits all 1990-2005 upper timing belt covers - it's a flexible design that works with both versions.",
+    "discovery_metadata": {
+      "candidate_id": "4ceda2efad0c4a75e9ba",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+    "fitment_status": "probable",
+    "fitment_summary": {
+      "application_count": 24,
+      "probable_count": 24,
+      "rule_ids": [
+        "auto-range-auto-8a1748554b1f1ba98580-1999-2005"
+      ],
+      "verified_count": 0
+    },
+    "fitments": [
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-14805"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-14806"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-15609"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-15610"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-15611"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-16451"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-16452"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-16453"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-17361"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-17362"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-17363"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-18320"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-18321"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-18322"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-19366"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-19367"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-19368"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-19369"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-20488"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-20489"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-20490"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-20491"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "epa-29166"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+        "vehicle_id": "miata-1999"
+      }
+    ],
+    "id": "auto-8a1748554b1f1ba98580",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/04-96300_timing_cover_blank_081820_1800x.jpg?v=1657922406",
+    "manufacturer_part_number": "04-96300",
+    "name": "Timing cover hole plate kit for reroute",
+    "official_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:52Z",
+      "price": 9.99,
+      "url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "epa-14805",
+    "vehicles": [
+      "epa-14805",
+      "epa-14806",
+      "epa-15609",
+      "epa-15610",
+      "epa-15611",
+      "epa-16451",
+      "epa-16452",
+      "epa-16453",
+      "epa-17361",
+      "epa-17362",
+      "epa-17363",
+      "epa-18320",
+      "epa-18321",
+      "epa-18322",
+      "epa-19366",
+      "epa-19367",
+      "epa-19368",
+      "epa-19369",
+      "epa-20488",
+      "epa-20489",
+      "epa-20490",
+      "epa-20491",
+      "epa-29166",
+      "miata-1999"
+    ]
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Circuit Sports",
+    "category": "Cooling",
+    "description": "Your stock overflow tank is nasty yellow plastic. This one is sexy cool aluminum, so it's not going to crack with high heat - and the stock tank in a 1999 Miata is over 20 years old by this point. There's always the risk it will crack on track.\nIncludes a sight tube so you can confirm your coolant level.\nUnlike other tanks (and, yes, previous versions of this tank), there's an internal tube to keep coolant from sloshing out during hard left turns.\u00a0\nExclusive to FM!\nFits NB Miatas.",
+    "discovery_metadata": {
+      "candidate_id": "0624004f3f0cf3dc3f8f",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/aluminum-coolant-overflow-tank-for-nb",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-e0d13362e7afd5a891bb",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/m09-16026_nb_coolant_overflow_033121-2_7ad596ce-22c9-44ef-8a38-8e4a98cc864f_1800x.jpg?v=1667853681",
+    "manufacturer_part_number": "09-16026",
+    "name": "Aluminum Coolant Overflow Tank for NB",
+    "official_url": "https://flyinmiata.com/products/aluminum-coolant-overflow-tank-for-nb",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:53Z",
+      "price": 149.0,
+      "url": "https://flyinmiata.com/products/aluminum-coolant-overflow-tank-for-nb",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "O' Reilly Auto Parts",
+    "category": "Cooling",
+    "description": "Our crossflow radiator makes a big difference to engine cooling. However, we had to move the inlet over a bit from the stock location so the stock upper hose doesn't fit anymore. This upper radiator hose is a perfect shape, although it typically needs to be trimmed on either end.\nReinforced rubber, made in the USA. The lower hoses are not affected.",
+    "discovery_metadata": {
+      "candidate_id": "3d12a33264a2f3ab8f89",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/upper-radiator-hose-for-crossflow-radiator",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-9d641b1d095d0f880e58",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/img_8565_1828x.jpg?v=1657921631",
+    "manufacturer_part_number": "09-35000 4 CYL",
+    "name": "Upper radiator hose for NA/NB crossflow radiator",
+    "official_url": "https://flyinmiata.com/products/upper-radiator-hose-for-crossflow-radiator",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:53Z",
+      "price": 29.99,
+      "url": "https://flyinmiata.com/products/upper-radiator-hose-for-crossflow-radiator",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Flyin' Miata",
+    "category": "Maintenance",
+    "description": "Reroutes are great, but the hose routing is a little clumsy. This 3D-printed bracket helps fix that by holding the hose in the ideal location. Very easy install, and it holds the hose securely without any need for hose clamps or zip-ties. Works with any hose that's roughly 1.5\" outside diameter. Works with or without the (unnecessary) stock intake manifold brace.\nIf you have an engine swap, match the hose bracket kit to your chassis and not your engine.",
+    "discovery_metadata": {
+      "candidate_id": "08e2c0c14fd3e4bf11ea",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/nb-reroute-hose-bracket-kit",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-7bd92f5f92c170bfa06f",
+    "image_url": "https://flyinmiata.com/cdn/shop/files/09-60032_NB_Reroute_Hose_Bracket_050123_1500x.jpg?v=1683059123",
+    "manufacturer_part_number": "09-60032",
+    "name": "NB FM reroute hose bracket kit",
+    "official_url": "https://flyinmiata.com/products/nb-reroute-hose-bracket-kit",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:54Z",
+      "price": 15.99,
+      "url": "https://flyinmiata.com/products/nb-reroute-hose-bracket-kit",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "World Pac",
+    "category": "Cooling",
+    "description": "Replacement o-ring for the heater core bypass pipe that runs underneath the exhaust manifold. Included with our water pumps.\nOEM replacement for Mazda part: E301-15-287. Fits all NAs and NBs.",
+    "discovery_metadata": {
+      "candidate_id": "5a583d5fe703aea16d02",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/water-pump-bypass-pipe-o-ring",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-a3b5cbb78b0ac019d7c3",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/m04-26110_water_pipe_o_ring_010721-3_1800x.jpg?v=1657922573",
+    "manufacturer_part_number": "04-26110",
+    "name": "Water Pump Bypass Pipe O-Ring",
+    "official_url": "https://flyinmiata.com/products/water-pump-bypass-pipe-o-ring",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:54Z",
+      "price": 2.69,
+      "url": "https://flyinmiata.com/products/water-pump-bypass-pipe-o-ring",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Flyin' Miata",
+    "category": "Cooling",
+    "description": "These are required to mount our new (August 2020 and later) crossflow radiator in an NB chassis Miata. Please note these are unnecessary with the old (non-Koyo) crossflow.",
+    "discovery_metadata": {
+      "candidate_id": "984ec0804a10618a080e",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/bracket-kit-upper-radiator-nb",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-240ce0d53bd26ac83084",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/09-59120_nb_upper_rad_brackets_081320-3_1800x.jpg?v=1657920829",
+    "manufacturer_part_number": "09-59120",
+    "name": "NB mounting bracket kit for FM crossflow radiator",
+    "official_url": "https://flyinmiata.com/products/bracket-kit-upper-radiator-nb",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:55Z",
+      "price": 19.99,
+      "url": "https://flyinmiata.com/products/bracket-kit-upper-radiator-nb",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Flyin' Miata",
+    "category": "Cooling",
+    "description": "Already have an FM reroute but you're adding a turbo that you want to connect the \"right\" way? Here's your kit. Includes high-quality multilayer silicone lines, heat shielding, hardware, and anchors. If you're upgrading a pre-existing turbo kit with hard lines, you'll need banjo fittings. If you're installing this reroute on a pre-existing turbo install with soft lines, you shouldn't need the banjo fittings. If you're not starting with an FM turbo kit (new or pre-existing), you might need banjo bolts as well - those below work with our turbos, please be sure they'll work with yours.\u00a0\nThis kit is to connect our FM reroute (not other reroutes) to a water-cooled turbo. It works as-is with FM kits (new and old), as well as stock Mazdaspeed Miatas, whether they have one of our Garrett turbos or the original IHI turbo. It will also work with IHI MSM turbos on non-MSM blocks. Basically, this kit should cover whatever your situation is, but the more unique your setup is, the more likely you'll need to do some problem-solving.",
+    "discovery_metadata": {
+      "candidate_id": "f773120dcc7297156b8d",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/hot-turbo",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-8ebb2dc4ffa2ed8e1066",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/09-61000_reroute_turbo_connection_kit_083120_1800x.jpg?v=1657922468",
+    "manufacturer_part_number": "09-61000",
+    "name": "Turbo connection kit for FM coolant reroute",
+    "official_url": "https://flyinmiata.com/products/hot-turbo",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:55Z",
+      "price": 87.99,
+      "url": "https://flyinmiata.com/products/hot-turbo",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Rock Auto LLC",
+    "category": "Cooling",
+    "description": "If you've cracked open the thermostat housing, you need a new gasket. Let's face it, goobering everything up with RTV really doesn't work. Do it right.\nFits all NA and NB Miatas. Also fits the coolant housing on the back of the head. Works with our reroute as well as stock cooling systems.\u00a0\nToy car for scale, not included with the gasket.",
+    "discovery_metadata": {
+      "candidate_id": "5ddb520f6d6b0892047f",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/thermostat-gasket",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-2ea2acbf623352936c2c",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/04-26010_thermostat_gasket_011519--2_1600x.jpg?v=1657921534",
+    "manufacturer_part_number": "04-26010",
+    "name": "Thermostat gasket",
+    "official_url": "https://flyinmiata.com/products/thermostat-gasket",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:56Z",
+      "price": 4.39,
+      "url": "https://flyinmiata.com/products/thermostat-gasket",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "World Pac",
+    "category": "Cooling",
+    "description": "We recommend changing this o-ring when doing a timing belt change to forestall any chance of leaks in the future. It's one of those little parts that's really hard to access. Included in our timing belt kits.\nReplacement for Mazda part B61P-15-106A. Fits all NA and NB engines.",
+    "discovery_metadata": {
+      "candidate_id": "0295461b2406af6052b2",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/o-ring-thermostat-housing",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-175863b948a9fbe60e48",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/oring2_144x.jpg?v=1657922019",
+    "manufacturer_part_number": "04-26015",
+    "name": "Thermostat housing o-ring",
+    "official_url": "https://flyinmiata.com/products/o-ring-thermostat-housing",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:56Z",
+      "price": 5.79,
+      "url": "https://flyinmiata.com/products/o-ring-thermostat-housing",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "KOYORAD Cooling Systems Inc.",
+    "category": "Cooling",
+    "description": "Sometimes you just need to fix a broken car. A good budget replacement for all NB radiators, with a little extra cooling capacity as it's built for automatics. Made by a known source - Koyo, the same company that builds our Crossflow radiators. It's definitely nowhere near as effective as our Crossflow radiators when it comes to cooling the car, so we recommend our Crossflow for track cars and turbocharged cars including the MSM. It is probably more efficient than a cheap aluminum unit built with a very open core, though.\nWill fit the MSM, but be aware that the MSM came from the factory with a more efficient radiator than other Miatas so this may be a downgrade.\nLike the factory unit, it has plastic end tanks so it will last roughly a decade. Once the tanks start to discolor and turn green, it's a good idea to replace your stock or any other factory radiator before the tanks crack.\n5/8\" thick core.\u00a02-year warranty. Cap not included. Plastic end tanks, so expect a lifespan of approximately a decade.",
+    "discovery_metadata": {
+      "candidate_id": "d1efc70b3b10cc936860",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-cooling",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/nb-stock-replacement-style-radiator",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-2f0362018f374c2334e1",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/m09-17200_nb_radiator_032020_1600x.jpg?v=1657922119",
+    "manufacturer_part_number": "09-17200",
+    "name": "NB stock replacement style radiator",
+    "official_url": "https://flyinmiata.com/products/nb-stock-replacement-style-radiator",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": false,
+      "observed_at": "2026-09-21T04:58:56Z",
+      "price": 129.0,
+      "url": "https://flyinmiata.com/products/nb-stock-replacement-style-radiator",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "All Wheel Engineering",
+    "category": "Exhaust",
+    "description": "Is your exhaust droopy? Do you have clanks and clunks under your car? The exhaust on your Miata is held up by 4-5 rubber hangers - and they're probably as old as your Miata. Make your exhaust all perky again with these polyurethane hangers. They're stiffer than the originals, so your exhaust will stay in place no matter how hard you drive. Great for cars with big exhausts and tight clearances. We think a lot of butterfly braces would fit better with a few of these.\u00a080a durometer.Available in two lengths. Sold individually. This short version (about 34mm / 1.34\" center to center is a good replacement for stock Miata hangers. Suitable for 1999 to current Miatas. 4 needed on NB models, 5 for NC, 5 for the ND. Sorry, we do not have exact numbers for the Fiat. 12mm holes.",
+    "discovery_metadata": {
+      "candidate_id": "1d7e09133c5778314666",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/polyurethane-exhaust-hanger-nb-chassis-standard-length",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-a1a811fec2347f33f498",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/img_0266_1_406x.jpg?v=1657922095",
+    "manufacturer_part_number": "06-97350 STANDARD",
+    "name": "Polyurethane exhaust hanger (NB, NC and ND chassis, standard length)",
+    "official_url": "https://flyinmiata.com/products/polyurethane-exhaust-hanger-nb-chassis-standard-length",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:57Z",
+      "price": 12.99,
+      "url": "https://flyinmiata.com/products/polyurethane-exhaust-hanger-nb-chassis-standard-length",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Mazda North American Operation",
+    "category": "Exhaust",
+    "description": "Factory stock multi-layer-steel exhaust manifold gasket. It`s not fancy, but if yours leaks then you want a new one. Fit all 1994-05 1.8 engines including the Mazdaspeed.\nBP05-13-460",
+    "discovery_metadata": {
+      "candidate_id": "94bd7851d30e39de1c2b",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+    "fitment_status": "probable",
+    "fitment_summary": {
+      "application_count": 24,
+      "probable_count": 24,
+      "rule_ids": [
+        "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005"
+      ],
+      "verified_count": 0
+    },
+    "fitments": [
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-14805"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-14806"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-15609"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-15610"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-15611"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-16451"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-16452"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-16453"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-17361"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-17362"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-17363"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-18320"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-18321"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-18322"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-19366"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-19367"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-19368"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-19369"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-20488"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-20489"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-20490"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-20491"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "epa-29166"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+        "vehicle_id": "miata-1999"
+      }
+    ],
+    "id": "auto-e3d4bd84545c9dc539fb",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/06-90300_94-05_exhaust_manifold_gasket_051321_1800x.jpg?v=1657921517",
+    "manufacturer_part_number": "06-90300 1994-05",
+    "name": "Exhaust manifold gasket (BP)",
+    "official_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:57Z",
+      "price": 25.49,
+      "url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "epa-14805",
+    "vehicles": [
+      "epa-14805",
+      "epa-14806",
+      "epa-15609",
+      "epa-15610",
+      "epa-15611",
+      "epa-16451",
+      "epa-16452",
+      "epa-16453",
+      "epa-17361",
+      "epa-17362",
+      "epa-17363",
+      "epa-18320",
+      "epa-18321",
+      "epa-18322",
+      "epa-19366",
+      "epa-19367",
+      "epa-19368",
+      "epa-19369",
+      "epa-20488",
+      "epa-20489",
+      "epa-20490",
+      "epa-20491",
+      "epa-29166",
+      "miata-1999"
+    ]
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Thermal Research & Development",
+    "category": "Exhaust",
+    "description": "For naturally aspirated, Stage 1 turbo, or supercharged Miatas. Full stainless construction 2.25\" muffler with a polished 3\" tip. Deep, mellow tone with no rasp.\n1999-00 automatic cars will need our midpipe as well in order for the parts to mate up. This muffler will bolt up to a stock Mazdaspeed midpipe, but we recommend our Mazdaspeed-specific exhaust on those cars for best fit, sound and power gains.As with all of our exhausts, it comes with a lifetime warranty. Details.\nMay not be compatible with some trailer hitch designs.",
+    "discovery_metadata": {
+      "candidate_id": "1d9514ea3674ec66ceab",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 1999,
+      "year_to": 2000
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust",
+    "fitment_status": "probable",
+    "fitment_summary": {
+      "application_count": 7,
+      "probable_count": 7,
+      "rule_ids": [
+        "auto-range-auto-634301fb3fdc67374fdb-1999-2000"
+      ],
+      "verified_count": 0
+    },
+    "fitments": [
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-634301fb3fdc67374fdb-1999-2000",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust",
+        "vehicle_id": "epa-14805"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-634301fb3fdc67374fdb-1999-2000",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust",
+        "vehicle_id": "epa-14806"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-634301fb3fdc67374fdb-1999-2000",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust",
+        "vehicle_id": "epa-15609"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-634301fb3fdc67374fdb-1999-2000",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust",
+        "vehicle_id": "epa-15610"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-634301fb3fdc67374fdb-1999-2000",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust",
+        "vehicle_id": "epa-15611"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-634301fb3fdc67374fdb-1999-2000",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust",
+        "vehicle_id": "epa-29166"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-634301fb3fdc67374fdb-1999-2000",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust",
+        "vehicle_id": "miata-1999"
+      }
+    ],
+    "id": "auto-634301fb3fdc67374fdb",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/m06-18000_nb_naturally_aspirated_exhaust_012121-4_1800x.jpg?v=1657921178",
+    "manufacturer_part_number": "06-18000",
+    "name": "NB Flyin' Miata exhaust",
+    "official_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:58Z",
+      "price": 529.0,
+      "url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "epa-14805",
+    "vehicles": [
+      "epa-14805",
+      "epa-14806",
+      "epa-15609",
+      "epa-15610",
+      "epa-15611",
+      "epa-29166",
+      "miata-1999"
+    ]
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Mazda North American Operation",
+    "category": "Exhaust",
+    "description": "Need to replace a broken or stripped exhaust manifold stud? Here is the ideal solution, the OEM stud straight from Mazda. Fits all 1990-2005s, including Mazdaspeeds. Sold individually. If you are looking to replace all of your studs, you will need a total of 9 studs.\nMazda part number BP8J-10-104",
+    "discovery_metadata": {
+      "candidate_id": "334c489a7adc6555152f",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+    "fitment_status": "probable",
+    "fitment_summary": {
+      "application_count": 24,
+      "probable_count": 24,
+      "rule_ids": [
+        "auto-range-auto-656e136277987594c1ea-1999-2005"
+      ],
+      "verified_count": 0
+    },
+    "fitments": [
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-14805"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-14806"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-15609"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-15610"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-15611"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-16451"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-16452"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-16453"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-17361"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-17362"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-17363"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-18320"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-18321"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-18322"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-19366"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-19367"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-19368"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-19369"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-20488"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-20489"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-20490"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-20491"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "epa-29166"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+        "vehicle_id": "miata-1999"
+      }
+    ],
+    "id": "auto-656e136277987594c1ea",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/36-10350_oem_exhaust_manifold_stud_040621-4_1800x.jpg?v=1657922313",
+    "manufacturer_part_number": "36-10350",
+    "name": "Mazda exhaust manifold stud, 1990-2005",
+    "official_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:58Z",
+      "price": 12.49,
+      "url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "epa-14805",
+    "vehicles": [
+      "epa-14805",
+      "epa-14806",
+      "epa-15609",
+      "epa-15610",
+      "epa-15611",
+      "epa-16451",
+      "epa-16452",
+      "epa-16453",
+      "epa-17361",
+      "epa-17362",
+      "epa-17363",
+      "epa-18320",
+      "epa-18321",
+      "epa-18322",
+      "epa-19366",
+      "epa-19367",
+      "epa-19368",
+      "epa-19369",
+      "epa-20488",
+      "epa-20489",
+      "epa-20490",
+      "epa-20491",
+      "epa-29166",
+      "miata-1999"
+    ]
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Design Engineering",
+    "category": "Other",
+    "description": "Want to cut down on heat in the footwell? There are a bunch of things you can do ranging from gold foil to ceramic coating to insulation on the tunnel, but the most effective thing you can do to control radiant heat is add an insulating pad with an air gap. \nDEI makes a wide range of heat control products, and this one is ideal for downpipes and other hot exhaust components. It'll protect up to 1350F - more common fiberglass shields will start to fail at 900F.\nIt's a two-layer material. The outer layer is woven lava rock with a very high silica material on the inner layer. Stand offs provide the air gap needed, and they're riveted in place. Clamps are included. No, we're not sure why they call it \"titanium\" either but it's got about the right color. Fits pipes up to 3\" in diameter.\n12\"x6\". Suitable for all sorts of cars including engine conversions. For turbo Miatas, we recommend two pieces for a 2.5\" downpipe so you can shield the area near the accelerator as well as further back. This works better than a single 24\" long piece due to the bend in the downpipe. 3\" downpipes have less room for shielding so there's really only room for one piece - check the clearances on your car.",
+    "discovery_metadata": {
+      "candidate_id": "d88cfaaf245952e0069d",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/dei-titanium-heat-shield",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-3055f9fdfc9b1387084a",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/010450-titaniumpipeshield12in-lifestyle__07922.1577121992_21b64e5e-9e2d-4c2b-9d39-484c0e66a75b_1280x.jpg?v=1657907016",
+    "manufacturer_part_number": "06-91100",
+    "name": "DEI Titanium heat shield for tubing",
+    "official_url": "https://flyinmiata.com/products/dei-titanium-heat-shield",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": false,
+      "observed_at": "2026-09-21T04:58:58Z",
+      "price": 44.99,
+      "url": "https://flyinmiata.com/products/dei-titanium-heat-shield",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Thermal Research & Development",
+    "category": "Other",
+    "description": "A full stainless replacement for the restrictive factory midpipe and catalytic converter. The 300-cell ceramic catalytic converter has a 5 yr/50,000 mile warranty on the housing and 25,000 miles on the internals (ability to pass an emissions test), everything else is covered for life. Details. Our midpipe includes a slip joint to make it easy to get the perfect fit and to cut down on your shipping costs. Works with all factory undercar bracing.\nThis resonated midpipe (2.25\" diameter) work great for both naturally aspirated and Stage 1 turbo Miatas. Not compatible with the stock rear muffler on automatic cars. We do not recommend using this midpipe with a supercharger and aftermarket header due to sound levels.\nThe FM midpipe flange and the factory muffler flange use a different gasket in order to seal the exhaust system. We are aware the seal is not perfect when used with factory parts and we found the best seal can be obtained by using the factory donut gasket. This imperfect seal will not be an issue with a Flyin' Miata muffler.\u00a0\nNot compatible with the 2004-05 Mazdaspeed turbo car.\nAs with all of our catalytic converters, this cat is emissions-certified. Specifically, it's EPA-approved for this application. Please note that these are not CARB legal and we cannot ship them to California. They're also not legal in states requiring CARB cats. That's California, Colorado, New York, and Maine for 2001+ cars.",
+    "discovery_metadata": {
+      "candidate_id": "4a825c9364474f8410ce",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 2004,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+    "fitment_status": "probable",
+    "fitment_summary": {
+      "application_count": 8,
+      "probable_count": 8,
+      "rule_ids": [
+        "auto-range-auto-038a46bb146a996aeb66-2004-2005"
+      ],
+      "verified_count": 0
+    },
+    "fitments": [
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-038a46bb146a996aeb66-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+        "vehicle_id": "epa-19366"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-038a46bb146a996aeb66-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+        "vehicle_id": "epa-19367"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-038a46bb146a996aeb66-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+        "vehicle_id": "epa-19368"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-038a46bb146a996aeb66-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+        "vehicle_id": "epa-19369"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-038a46bb146a996aeb66-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+        "vehicle_id": "epa-20488"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-038a46bb146a996aeb66-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+        "vehicle_id": "epa-20489"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-038a46bb146a996aeb66-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+        "vehicle_id": "epa-20490"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-038a46bb146a996aeb66-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+        "vehicle_id": "epa-20491"
+      }
+    ],
+    "id": "auto-038a46bb146a996aeb66",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/06-58100-resize_2048x.jpg?v=1657921194",
+    "manufacturer_part_number": "06-58100",
+    "name": "NB 2.25\" Flyin' Miata midpipe and catalytic converter",
+    "official_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:59Z",
+      "price": 679.0,
+      "url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "epa-19366",
+    "vehicles": [
+      "epa-19366",
+      "epa-19367",
+      "epa-19368",
+      "epa-19369",
+      "epa-20488",
+      "epa-20489",
+      "epa-20490",
+      "epa-20491"
+    ]
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Cometic Gasket",
+    "category": "Exhaust",
+    "description": "Replacement gasket for FM exhaust systems. These are the same premium metal gaskets included with the exhaust.\nUsed on our 2.5\" turbo exhaust for the NB as well as our naturally aspirated and supercharged NC mufflers. 2.5\" center hole, stud holes are 4.3\" across centers.",
+    "discovery_metadata": {
+      "candidate_id": "99dc3bcb4eb352e8280c",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/exhaust-gasket-turbo-nb-nc",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-ad0b9bba3adc8c157aa9",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/06-98230_1600x.jpg?v=1657921181",
+    "manufacturer_part_number": "06-98230",
+    "name": "Gasket for FM 2.5\" NB and NC exhaust system",
+    "official_url": "https://flyinmiata.com/products/exhaust-gasket-turbo-nb-nc",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:58:59Z",
+      "price": 7.59,
+      "url": "https://flyinmiata.com/products/exhaust-gasket-turbo-nb-nc",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Mazda North American Operation",
+    "category": "Exhaust",
+    "description": "Gasket used on both ends of the factory midpipe when used with the factory muffler and downpipe. Used on all NBs with both manual and automatic transmissions. Two per car.\nMSM fitment note: this gasket is not used between the factory downpipe and midpipe, it is only used between the midpipe and muffler on that car. One per car in this case.\nFactory Mazda part Z520-40-305A.",
+    "discovery_metadata": {
+      "candidate_id": "749bec72637646b78942",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/exhaust-donut-gasket-99-05",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-898747c028e3e6702bd6",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/06-98250_nb_exhaust_donut_gasket_021219--2_1600x.jpg?v=1657921167",
+    "manufacturer_part_number": "06-98250",
+    "name": "Exhaust donut gasket for NB",
+    "official_url": "https://flyinmiata.com/products/exhaust-donut-gasket-99-05",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": false,
+      "observed_at": "2026-09-21T04:59:00Z",
+      "price": 15.99,
+      "url": "https://flyinmiata.com/products/exhaust-donut-gasket-99-05",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Walker Products",
+    "category": "Other",
+    "description": "Our replacement O2 sensor is different than most aftermarket ones because it has a Mazda connector on the end. This means a super-easy installation, just unplug your old one and plug the new one in. Just like installing a factory sensor but without the price tag or the hassle of splicing in a generic aftermarket part. Plug-in replacement for 2001-05 (including MSM) rear sensor.",
+    "discovery_metadata": {
+      "candidate_id": "037751179764534879db",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 2001,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+    "fitment_status": "probable",
+    "fitment_summary": {
+      "application_count": 17,
+      "probable_count": 17,
+      "rule_ids": [
+        "auto-range-auto-99a94fed0c9d69def360-2001-2005"
+      ],
+      "verified_count": 0
+    },
+    "fitments": [
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-16451"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-16452"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-16453"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-17361"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-17362"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-17363"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-18320"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-18321"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-18322"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-19366"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-19367"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-19368"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-19369"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-20488"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-20489"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-20490"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+        "vehicle_id": "epa-20491"
+      }
+    ],
+    "id": "auto-99a94fed0c9d69def360",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/img_3582_1_1600x.jpg?v=1657922125",
+    "manufacturer_part_number": "06-99050 2001-05",
+    "name": "Plug-in four-wire rear oxygen sensor for 2001-05",
+    "official_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:59:00Z",
+      "price": 119.0,
+      "url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "epa-16451",
+    "vehicles": [
+      "epa-16451",
+      "epa-16452",
+      "epa-16453",
+      "epa-17361",
+      "epa-17362",
+      "epa-17363",
+      "epa-18320",
+      "epa-18321",
+      "epa-18322",
+      "epa-19366",
+      "epa-19367",
+      "epa-19368",
+      "epa-19369",
+      "epa-20488",
+      "epa-20489",
+      "epa-20490",
+      "epa-20491"
+    ]
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Med Center Mazda",
+    "category": "Exhaust",
+    "description": "We typically reuse these, but if your car is especially old and/or these nuts have been on and off many times it's a good idea to replace them. The harder you drive your car (e.g., track use), the more important it is to replace these. Better safe than sorry!\u00a0\nFactory part B6S7-13-465. From a 90-93, but works for all 90-05s, including the MSM. This is a heat-treated nut specifically for exhaust applications, the later part (9994-61-000 for 1994-05) is a generic lock nut. We don't typically see issues with either, but it's always best to use the best parts possible, especially with turbo applications - i.e., high exhaust heat / metal temperatures.\u00a0\nNine needed per engine, sold individually.",
+    "discovery_metadata": {
+      "candidate_id": "32d39d198086a3adc389",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+    "fitment_status": "probable",
+    "fitment_summary": {
+      "application_count": 24,
+      "probable_count": 24,
+      "rule_ids": [
+        "auto-range-auto-f5c201ea62284c6787dc-1999-2005"
+      ],
+      "verified_count": 0
+    },
+    "fitments": [
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-14805"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-14806"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-15609"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-15610"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-15611"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-16451"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-16452"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-16453"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-17361"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-17362"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-17363"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-18320"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-18321"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-18322"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-19366"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-19367"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-19368"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-19369"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-20488"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-20489"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-20490"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-20491"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "epa-29166"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+        "vehicle_id": "miata-1999"
+      }
+    ],
+    "id": "auto-f5c201ea62284c6787dc",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/36-20400_oem_exhaust_manifold_nut_042821_1800x.jpg?v=1657922006",
+    "manufacturer_part_number": "36-20400",
+    "name": "NUT, Mazda exhaust manifold, 1990-05",
+    "official_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:59:00Z",
+      "price": 11.99,
+      "url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "epa-14805",
+    "vehicles": [
+      "epa-14805",
+      "epa-14806",
+      "epa-15609",
+      "epa-15610",
+      "epa-15611",
+      "epa-16451",
+      "epa-16452",
+      "epa-16453",
+      "epa-17361",
+      "epa-17362",
+      "epa-17363",
+      "epa-18320",
+      "epa-18321",
+      "epa-18322",
+      "epa-19366",
+      "epa-19367",
+      "epa-19368",
+      "epa-19369",
+      "epa-20488",
+      "epa-20489",
+      "epa-20490",
+      "epa-20491",
+      "epa-29166",
+      "miata-1999"
+    ]
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Mazda North American Operation",
+    "category": "Exhaust",
+    "description": "Replacement Mazda gasket for MSM exhaust systems. This is the 3-bolt hole gasket that seals between the stock turbo outlet and the downpipe on MSMs.",
+    "discovery_metadata": {
+      "candidate_id": "b9eb714ec24c2d66a79a",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 2004,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+    "fitment_status": "probable",
+    "fitment_summary": {
+      "application_count": 8,
+      "probable_count": 8,
+      "rule_ids": [
+        "auto-range-auto-bb73ab5f41bc3884a4a0-2004-2005"
+      ],
+      "verified_count": 0
+    },
+    "fitments": [
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-bb73ab5f41bc3884a4a0-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+        "vehicle_id": "epa-19366"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-bb73ab5f41bc3884a4a0-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+        "vehicle_id": "epa-19367"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-bb73ab5f41bc3884a4a0-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+        "vehicle_id": "epa-19368"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-bb73ab5f41bc3884a4a0-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+        "vehicle_id": "epa-19369"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-bb73ab5f41bc3884a4a0-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+        "vehicle_id": "epa-20488"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-bb73ab5f41bc3884a4a0-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+        "vehicle_id": "epa-20489"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-bb73ab5f41bc3884a4a0-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+        "vehicle_id": "epa-20490"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-bb73ab5f41bc3884a4a0-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+        "vehicle_id": "epa-20491"
+      }
+    ],
+    "id": "auto-bb73ab5f41bc3884a4a0",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/06-98210_msm_downpipe_outlet_gasket_100920-2_1800x.jpg?v=1657921528",
+    "manufacturer_part_number": "06-98210",
+    "name": "Gasket, MSM outlet-downpipe, 2004-05",
+    "official_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": false,
+      "observed_at": "2026-09-21T04:59:01Z",
+      "price": 29.99,
+      "url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "epa-19366",
+    "vehicles": [
+      "epa-19366",
+      "epa-19367",
+      "epa-19368",
+      "epa-19369",
+      "epa-20488",
+      "epa-20489",
+      "epa-20490",
+      "epa-20491"
+    ]
+  },
+  {
+    "auto_discovered": true,
+    "brand": "All Wheel Engineering",
+    "category": "Exhaust",
+    "description": "Is your exhaust droopy? Do you have clanks and clunks under your car? The exhaust on your Miata is held up by 4-5 rubber hangers - and they're probably as old as your Miata. Make your exhaust all perky again with these polyurethane hangers. They're stiffer than the originals, so your exhaust will stay in place no matter how hard you drive. Great for cars with big exhausts and tight clearances. We think a lot of butterfly braces would fit better with a few of these.\u00a080a durometer.\nThis extended length one is approximately 1\" longer than the original design (so 60mm / 2.36\" center to center). It works well to install a non-Mazdaspeed FM exhaust on a Mazdaspeed Miata. Sold individually. Suitable for NB, NC, and ND. 4 needed on NB models, 5 for NC and ND. Be sure to check this hanger's length vs. your current hangers - it's possible that the longer length will let the exhaust run into other parts, that's up to you to check. 12mm holes.",
+    "discovery_metadata": {
+      "candidate_id": "47827c2dcdad6ae47c5a",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/polyurethane-exhaust-hanger-nb-chassis-extended-length",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-730f52bc50d11b5f0c17",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/img_0264_482x.jpg?v=1657922093",
+    "manufacturer_part_number": "06-97350 LONG",
+    "name": "Polyurethane exhaust hanger (NB, NC, and ND chassis, extended length)",
+    "official_url": "https://flyinmiata.com/products/polyurethane-exhaust-hanger-nb-chassis-extended-length",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:59:01Z",
+      "price": 13.99,
+      "url": "https://flyinmiata.com/products/polyurethane-exhaust-hanger-nb-chassis-extended-length",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Cometic Gasket",
+    "category": "Exhaust",
+    "description": "Replacement gasket for FM exhaust systems. These are the same premium metal gaskets included with the exhaust.\nUsed on our 2.25\" (naturally aspirated) exhaust for the NB. 2.25\" center hole, stud holes are 4.3\" across centers.",
+    "discovery_metadata": {
+      "candidate_id": "5d4c7d5c2394eaa9e088",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://flyinmiata.com/products/exhaust-gasket-99-2-25",
+    "fitment_status": "unknown",
+    "fitment_summary": {
+      "application_count": 0,
+      "probable_count": 0,
+      "rule_ids": [],
+      "verified_count": 0
+    },
+    "fitments": [],
+    "id": "auto-c0f2c9ecbb161aaa2932",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/06-98240_1600x.jpg?v=1657921183",
+    "manufacturer_part_number": "06-98240",
+    "name": "Gasket for FM 2.25\" NB exhaust system",
+    "official_url": "https://flyinmiata.com/products/exhaust-gasket-99-2-25",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:59:02Z",
+      "price": 7.59,
+      "url": "https://flyinmiata.com/products/exhaust-gasket-99-2-25",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicles": []
+  },
+  {
+    "auto_discovered": true,
+    "brand": "Thermal Research & Development",
+    "category": "Exhaust",
+    "description": "CNC bent out of stainless steel with a lifetime warranty, our downpipe will not contact the subframe or the chassis of the car. It's gorgeous, free flowing and robust. Designed to attach to our turbine outlet casting. Two O2 sensor bungs so you can run a wideband.\nNot compatible with the 2004-05 Mazdaspeed MX-5, for that car see our Mazdaspeed-specific downpipe. Note for automatic cars: the downpipe will need modification to clear the bellhousing on an NB automatic. You will also have to use one of our midpipes in this case.\nLifetime warranty. Details.",
+    "discovery_metadata": {
+      "candidate_id": "b40c7bac0b9c0c630c03",
+      "collection_url": "https://flyinmiata.com/collections/nb-powertrain-exhaust",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.82,
+    "fitment_family_id": "mazda-nb",
+    "fitment_range": {
+      "year_from": 2004,
+      "year_to": 2005
+    },
+    "fitment_source_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+    "fitment_status": "probable",
+    "fitment_summary": {
+      "application_count": 8,
+      "probable_count": 8,
+      "rule_ids": [
+        "auto-range-auto-6cf4ddacf06ad44c5888-2004-2005"
+      ],
+      "verified_count": 0
+    },
+    "fitments": [
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-6cf4ddacf06ad44c5888-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+        "vehicle_id": "epa-19366"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-6cf4ddacf06ad44c5888-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+        "vehicle_id": "epa-19367"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-6cf4ddacf06ad44c5888-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+        "vehicle_id": "epa-19368"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-6cf4ddacf06ad44c5888-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+        "vehicle_id": "epa-19369"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-6cf4ddacf06ad44c5888-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+        "vehicle_id": "epa-20488"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-6cf4ddacf06ad44c5888-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+        "vehicle_id": "epa-20489"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-6cf4ddacf06ad44c5888-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+        "vehicle_id": "epa-20490"
+      },
+      {
+        "confidence": 0.82,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-6cf4ddacf06ad44c5888-2004-2005",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+        "vehicle_id": "epa-20491"
+      }
+    ],
+    "id": "auto-6cf4ddacf06ad44c5888",
+    "image_url": "https://flyinmiata.com/cdn/shop/products/img_1973-isolated_1_5_1797x.jpg?v=1657921308",
+    "manufacturer_part_number": "22-46150",
+    "name": "NB Flyin' Miata turbo downpipe (lower section, 2.5\")",
+    "official_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-21T04:59:02Z",
+      "price": 369.0,
+      "url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section",
+      "vendor": "Flyin' Miata"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "epa-19366",
+    "vehicles": [
+      "epa-19366",
+      "epa-19367",
+      "epa-19368",
+      "epa-19369",
+      "epa-20488",
+      "epa-20489",
+      "epa-20490",
+      "epa-20491"
+    ]
   }
 ]

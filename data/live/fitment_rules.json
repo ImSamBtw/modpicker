@@ -1266,5 +1266,149 @@
     },
     "source_kind": "catalog_query_range",
     "source_url": "https://flyinmiata.com/products/porterfield-r4s-sport-brake-pads-front-1994-02"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-8a1748554b1f1ba98580-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-8a1748554b1f1ba98580"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-e3d4bd84545c9dc539fb-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-e3d4bd84545c9dc539fb"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-634301fb3fdc67374fdb-1999-2000",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-634301fb3fdc67374fdb"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2000
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-exhaust"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-656e136277987594c1ea-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-656e136277987594c1ea"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/mazda-exhaust-manifold-stud-1990-2005"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-038a46bb146a996aeb66-2004-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-038a46bb146a996aeb66"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 2004,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/nb-flyin-miata-naturally-aspirated-midpipe-and-catalytic-converter"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-99a94fed0c9d69def360-2001-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-99a94fed0c9d69def360"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 2001,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/plug-in-rear-2001-05-oxygen-sensor"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-f5c201ea62284c6787dc-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-f5c201ea62284c6787dc"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/nut-mazda-exhaust-manifold-1990-05"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-bb73ab5f41bc3884a4a0-2004-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-bb73ab5f41bc3884a4a0"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 2004,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/gasket-msm-outlet-downpipe-2004-05"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-6cf4ddacf06ad44c5888-2004-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-6cf4ddacf06ad44c5888"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 2004,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/nb-flyin-miata-turbo-downpipe-lower-section"
   }
 ]
