@@ -1554,5 +1554,69 @@
     },
     "source_kind": "catalog_query_range",
     "source_url": "https://flyinmiata.com/products/flyin-miata-vvt-tool-kit-2nd-gen"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-82efb93cff391e8cc7f0-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-82efb93cff391e8cc7f0"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/2003-05-5-speed-shifter-rebuild-kit"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-213541f1caacc0ecc876-1999-2002",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-213541f1caacc0ecc876"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2002
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/90-02-top-lock-cap"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-6c2ec18d9136e017c7ac-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-6c2ec18d9136e017c7ac"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/hard-dog-bolt-in-harness-bar"
+  },
+  {
+    "confidence": 0.82,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-802985de56819d3542e8-1999-2005",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-802985de56819d3542e8"
+    ],
+    "selector": {
+      "family_id": "mazda-nb",
+      "year_from": 1999,
+      "year_to": 2005
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://flyinmiata.com/products/1990-05-m2-hard-dog-hard-core"
   }
 ]

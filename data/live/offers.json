@@ -173,6 +173,25 @@
   {
     "condition": "new",
     "currency": "USD",
+    "id": "63251a900cccb388c2ee",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "Top lock cap (1990-02, sold individually)",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-213541f1caacc0ecc876",
+    "price": 4.99,
+    "retrieved_at": "2026-09-21T22:00:20Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/90-02-top-lock-cap",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
     "id": "91fcbc32b5f742b46eaf",
     "in_stock": true,
     "metadata": {
@@ -477,6 +496,25 @@
   {
     "condition": "new",
     "currency": "USD",
+    "id": "d3a54d1fb9bfdc2d82a4",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "NGK extended reach spark plugs, set of four",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-616a90c55cd8004f8ae4",
+    "price": 18.99,
+    "retrieved_at": "2026-09-21T22:00:20Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/ngk-extended-reach-spark-plugs",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
     "id": "179fb28d3f20ac0f48bd",
     "in_stock": true,
     "metadata": {
@@ -586,6 +624,25 @@
     "retrieved_at": "2026-09-21T04:59:22Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/front-fm-sway-bar-nb",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "cec171943a2b1ef582df",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "Hard Dog bolt-in harness bar",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-6c2ec18d9136e017c7ac",
+    "price": 330.0,
+    "retrieved_at": "2026-09-21T22:00:20Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/hard-dog-bolt-in-harness-bar",
     "vendor": "Flyin' Miata"
   },
   {
@@ -781,6 +838,25 @@
   {
     "condition": "new",
     "currency": "USD",
+    "id": "92ef3f7be58fc721aa8d",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "1990-05 \"M2\" Hard Dog Hard Core",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-802985de56819d3542e8",
+    "price": 1075.0,
+    "retrieved_at": "2026-09-21T22:00:21Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/1990-05-m2-hard-dog-hard-core",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
     "id": "573a93001714149c81e4",
     "in_stock": false,
     "metadata": {
@@ -795,6 +871,25 @@
     "retrieved_at": "2026-09-20T22:57:27Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/front-hub-dust-cover-1990-05",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "1746b6fea197aecaf155",
+    "in_stock": false,
+    "metadata": {
+      "identity_matched": true,
+      "name": "Shifter rebuild kit (1999-05 5-speed and 1999-01 6-speed)",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-82efb93cff391e8cc7f0",
+    "price": 71.99,
+    "retrieved_at": "2026-09-21T22:00:19Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/2003-05-5-speed-shifter-rebuild-kit",
     "vendor": "Flyin' Miata"
   },
   {
@@ -833,6 +928,25 @@
     "retrieved_at": "2026-09-21T04:59:23Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "9f2abf6f66b1a3237f69",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "Redline MTL synthetic gear oil",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-8ae7f8b2aacdac416421",
+    "price": 25.79,
+    "retrieved_at": "2026-09-21T22:00:17Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/redline-mtl-synthetic-gear-oil",
     "vendor": "Flyin' Miata"
   },
   {
@@ -1028,6 +1142,25 @@
   {
     "condition": "new",
     "currency": "USD",
+    "id": "13728ed59ba38e8a337e",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "Large Shifter Boot, NA/NB",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-9f3ed46d0db66724a22c",
+    "price": 24.99,
+    "retrieved_at": "2026-09-21T22:00:18Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/shifter-boot-large-na-nb",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
     "id": "0d3a251d58f7b822e628",
     "in_stock": true,
     "metadata": {
@@ -1080,6 +1213,25 @@
     "retrieved_at": "2026-09-21T12:52:14Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/flyin-miata-crank-bolt-tool",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "4c2abac7f1022f4a5724",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "14mm aluminum crush washer (single)",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-a7fa42b8d253e2f15b7f",
+    "price": 0.69,
+    "retrieved_at": "2026-09-21T22:00:16Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/nb-drain-plug-washer",
     "vendor": "Flyin' Miata"
   },
   {
@@ -1218,6 +1370,25 @@
   {
     "condition": "new",
     "currency": "USD",
+    "id": "acfb07bb0958c270d801",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "dip stick tube o-ring",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-bcf2620437abdf45f4d8",
+    "price": 6.99,
+    "retrieved_at": "2026-09-21T22:00:17Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/dip-stick-tube-o-ring",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
     "id": "c4b7b76dc3f7c037525c",
     "in_stock": true,
     "metadata": {
@@ -1256,6 +1427,25 @@
   {
     "condition": "new",
     "currency": "USD",
+    "id": "ee594d54f144adf60fb8",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "Shifter insulation kit, NA/NB",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-c170425b2051d72722ed",
+    "price": 31.99,
+    "retrieved_at": "2026-09-21T22:00:18Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/shifter-insulation-kit-na-nb",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
     "id": "cc4d6119f60a570f0427",
     "in_stock": true,
     "metadata": {
@@ -1270,6 +1460,25 @@
     "retrieved_at": "2026-09-21T12:52:16Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/fm-2nd-genfront-seal-installer",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "fcc3fcd082b4385103c8",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "Redline MT-90 synthetic gear oil",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-c6708b810af623b70fbb",
+    "price": 25.79,
+    "retrieved_at": "2026-09-21T22:00:17Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/redline-mt-90-synthetic-gear-oil",
     "vendor": "Flyin' Miata"
   },
   {
@@ -1294,6 +1503,25 @@
   {
     "condition": "new",
     "currency": "USD",
+    "id": "20774918837f157a86ec",
+    "in_stock": false,
+    "metadata": {
+      "identity_matched": true,
+      "name": "Upgraded PCV valve",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-c9f64ad607b86b1a6a4b",
+    "price": 34.99,
+    "retrieved_at": "2026-09-21T22:00:19Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/upgraded-pcv-valve",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
     "id": "838d5e17c26f32d66ef7",
     "in_stock": true,
     "metadata": {
@@ -1308,6 +1536,25 @@
     "retrieved_at": "2026-09-20T23:17:53Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/npt-to-metric-flare-adapter",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "acb4c33a9e55210cad04",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "Blackbird Fabworx fire extinguisher bracket for NA and NB",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-cd6a95afb234ce737f0e",
+    "price": 119.0,
+    "retrieved_at": "2026-09-21T22:00:21Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/fire-extinguisher-bracket",
     "vendor": "Flyin' Miata"
   },
   {
@@ -1555,6 +1802,25 @@
     "retrieved_at": "2026-09-21T04:59:23Z",
     "shipping": null,
     "url": "https://flyinmiata.com/products/replacement-v-maxx-xxtreme-shock-right-rear",
+    "vendor": "Flyin' Miata"
+  },
+  {
+    "condition": "new",
+    "currency": "USD",
+    "id": "ee2b75a31ec8aa617076",
+    "in_stock": true,
+    "metadata": {
+      "identity_matched": true,
+      "name": "Washer for magnetic oil plug",
+      "price_type": "structured_page",
+      "sku": null,
+      "source": "json-ld"
+    },
+    "part_id": "auto-fc654ab1c10b8db29275",
+    "price": 1.19,
+    "retrieved_at": "2026-09-21T22:00:18Z",
+    "shipping": null,
+    "url": "https://flyinmiata.com/products/washer-for-magnetic-oil-plug",
     "vendor": "Flyin' Miata"
   },
   {
