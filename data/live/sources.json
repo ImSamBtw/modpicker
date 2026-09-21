@@ -193,7 +193,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "auto-144258cfa1bf80baaa84",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "These grease packets will ensure that your polyurethane sway bar bushings are well lubricated and squeak free.\u00a0 Each packet is intended to be enough for two bushings.\nIncluded with FM sway bars.",
     "title": "Hellwig Grease packet for FM sway bars fitment/product source",
@@ -219,6 +219,71 @@
     "summary": "Permitted product page checked for structured product and offer data.",
     "title": "Hellwig Grease packet for FM sway bars product page",
     "url": "https://flyinmiata.com/products/grease-packet-for-fm-sway-bars"
+  },
+  {
+    "confidence": 0.82,
+    "id": "cd4f7eb589ddf641447c",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "fitment",
+        "problem"
+      ],
+      "manufacturer_part_number": "35-63000",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/m35-63000_valve_spring_compressor_tool_021820_1600x.jpg?v=1657922507"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-1530484c9438ccb483ce",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "This little tool will let you change out valve springs and valve seals without removing the head. It's a great way to deal with a set of leaky seals, for example. Oil smoke on idle and overrun? Easy fix.\nHow about a new set of valve springs? Now you can swap those out without pulling the head off as well.\nIt's designed specifically for the NA/NB Miata and bolts on to the head. The valve is held open by a screw so you have both hands to work.\nYou will need to prevent the valve from falling out of the head. You can use a leakdown tester to provide air pressure in the cylinder or you can feed rope down the spark plug hole so it piles up on the piston and supports the valve.\nPlease note that the valve keepers can get bonded to the valve spring seat, meaning that things won't come apart as intended if you simply compress the spring. If you force it, you'll damage the tool, which isn't covered under warranty. As long as you follow the included instructions, you'll be fine.\u00a0Seriously, please do this first.\u00a0\nFits all NA and NB Miatas as well as other Mazda B6 1.6L & BP 1.8L engines.",
+    "title": "Euroexport Inc Flyin' Miata valve spring compressor fitment/product source",
+    "url": "https://flyinmiata.com/products/valve-spring-compressor"
+  },
+  {
+    "confidence": 0.82,
+    "id": "b9d3440dba2b1e2291fb",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install"
+      ],
+      "manufacturer_part_number": "04-36200 FM-PROUD",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/m04-36200_3d_oil_dipstick_grip_012920_1600x.jpg?v=1657921120"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-16ca5c003f1e789950c8",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "The dipsticks on NA and NB Miatas have a plastic handle on top. That's good because it won't burn your hands when you go to check the oil, but they do break. Then you're either buying a new dipstick or you have to try to grab the little remaining stub every time you want to check the oil.\nUntil now! We have designed a clip-on replacement handle. It's made of carbon-fiber reinforced material so it's strong, it can handle high heat levels and it's easy to install. It also has nicely curved edges on it so it's comfortable to use, more so than the factory one! The hole in the middle is 1mm larger than stock for those with full-size fingers.\nNote that while it's fun to clip the handle on and off again dozens of times to play with it, this will eventually weaken the attachment.\nDesigned by Flyin' Miata. Printed on our in-house industrial 3D printers out of chemical resistant, carbon fiber infused material.",
+    "title": "Flyin' Miata Replacement dipstick handle fitment/product source",
+    "url": "https://flyinmiata.com/products/replacement-dipstick-handle"
   },
   {
     "confidence": 0.82,
@@ -301,7 +366,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "auto-1a095b2e615f87e52cd0",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Single replacement shock for V-Maxx XXtreme coilovers. The XXtreme shock has adjustable damping and a knob at the bottom, if yours doesn't have that you need the V-Maxx Classic. Shock and perch only, does not include the springs. This will be the latest design, so it may be slightly different than older production but it is fully compatible. These may be refurbished parts.\nFor owners of FM V-Maxx only. We cannot guarantee compatibility with V-Maxx suspension from overseas.\nMay or may not include spring slider, upper spring locator, bump stop, vent washer or top washer.",
     "title": "V-Maxx Replacement V-Maxx XXtreme shock (front) fitment/product source",
@@ -327,6 +392,40 @@
     "summary": "Permitted product page checked for structured product and offer data.",
     "title": "V-Maxx Replacement V-Maxx XXtreme shock (front) product page",
     "url": "https://flyinmiata.com/products/fm-v-maxx-xxtreme-shock-front"
+  },
+  {
+    "confidence": 0.82,
+    "id": "90f2df29998153c18c02",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "probable",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "review",
+        "dyno"
+      ],
+      "manufacturer_part_number": "35-69001 BIG NOSE",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/files/35-69001_REVISED_Big_Nose_Toolkit_092623-092523_2500x.jpg?v=1695763396"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-1f09b8128fc7bb3bd430",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "We've done hundreds and hundreds of timing belt changes at Flyin' Miata. And we know that just a few simple tools can make them much easier. These all started as tools we made for use in the shop, then made them available for every Miata owner. Buy them all together and save!\nThe second generation seal installers are made of carbon fiber reinforced nylon. This avoids any potential scratches to the metal surfaces of the engine. It's also less likely to get dented or gouged while bouncing around your toolbox, which minimizes the changes of damage to the rubber seal. Our new Ninja tool stays in place better than our original design, allows you to torque the cam gears (no goofy crescent wrench and C-clamp combination), and lines up with the marks on the cam gears to ensure you get the timing correct. The crank bolt tool remains laser cut steel because of the very high torque required.\nPrinted on our in-house industrial 3D printers out of chemical resistant, carbon fiber infused material. This new production method allows us to bring the price down while improving the parts at the same time!\nKit contains:\ncrank bolt holding tool cam gear ninja tool front seal installation tool cam seal installer tool for intake and exhaust cam\n1991 models with a VIN ending in 209446 or lower as well as all 1990 models will need the \"small nose\" version of this kit. All other 1991-00 Miatas will use this version. So will with Mazdaspeed Miata.\nNote: the video below shows a previous version of the ninja tool.",
+    "title": "Flyin' Miata Flyin Miata tool kit with 2nd gen tools (1991-00 and MSM engine) fitment/product source",
+    "url": "https://flyinmiata.com/products/flyin-miata-tool-kit-2nd-gen"
   },
   {
     "confidence": 0.82,
@@ -428,6 +527,39 @@
     "url": "https://flyinmiata.com/products/front-hub-nut-1990-05"
   },
   {
+    "confidence": 0.82,
+    "id": "eeccf8e5cf719b21167d",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "probable",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "problem"
+      ],
+      "manufacturer_part_number": "35-52000",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/35-52000_REVISED_Oil_Filter_Drain_Funnel_010223--4_2500x.jpg?v=1672703727"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-265fc5f515c7065c1234",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "The oil filter on NA and NB Miatas is a little bit of a headache to get to, but the bigger issue is the mess - you can slip a generic Tupperware under the filter, but it never catches all of the oil. Unless you look forward to the rust-proofing that oil on everything provides, you need a better solution. Fortunately, we have one!\nThis custom drain funnel clips onto the stock oil cooler / warmer and catches all of that oil and routes it to your drain pan. We include a hose for the funnel, so you can thread it down, past the oil pan, and into your drain pan. The funnel is big enough to catch the oil without overflowing, and it's extended (away from the block) so that it will work with or without an aftermarket oil thermostat. No more mess!\u00a0\nSince this clips onto the oil cooler / warmer that's missing from 1990-1993 Miatas, this will only work with 1994-2005 Miatas.\u00a0\nRecently updated for a tighter fit on the oil cooler and a more extended mouth to do an even better job of catching drips if your filter is farther away from the block than normal. Plus, there's a hole to hang it up!\u00a0\nThis is another part from our You Design program, which gives the DIY community an outlet for their designs and an opportunity to make money from their hard work and ingenuity. Do you have a polished design you think the Miata community could benefit from? Please reach out to us at printme@flyinmiata.com!",
+    "title": "Flyin' Miata 1.8 NA/NB oil filter drain funnel fitment/product source",
+    "url": "https://flyinmiata.com/products/1-8-na-nb-oil-filter-drain-funnel"
+  },
+  {
     "confidence": 0,
     "id": "86a92d98825fbb2dd580",
     "metadata": {
@@ -443,7 +575,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "auto-27dd7bcd83e0b681c200",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "If for some reason, you only want to replace your rear bar - here it is. Keep in mind that installing a larger rear sway bar without making any other changes will make the car more biased towards oversteer.Includes new polyurethane bushings. You will reuse your stock brackets. 5/8\" (15.9mm) solid with three different stiffness settings. Fits all NA and NB Miatas.",
     "title": "Hellwig Flyin' Miata rear sway bar (NA/NB chassis) fitment/product source",
@@ -469,6 +601,39 @@
     "summary": "Permitted product page checked for structured product and offer data.",
     "title": "Hellwig Flyin' Miata rear sway bar (NA/NB chassis) product page",
     "url": "https://flyinmiata.com/products/rear-fm-sway-bar-na-nb"
+  },
+  {
+    "confidence": 0.82,
+    "id": "783e141e61c6aa3464e6",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "review"
+      ],
+      "manufacturer_part_number": "46-86015",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/files/46-86015_2nd_edition_How_to_Build_Book_070225--2_2400x.jpg?v=1751477850"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-2bd9a72c64c629e81d1d",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "Do you enjoy knowing how your car works instead of just blindly buying parts for it? The newest book from Miata guru Keith Tanner is for you!\nThis one isn't a cookbook. It won't tell you what size wrenches you need to install a swaybar. What it does is teach you what you need to know to choose the right parts for your car.\nFor example, the suspension section starts off with the theory of weight transfer and how it affects your car. Then you'll learn what each part of the suspension does and how they all interact. Finally you'll learn what to adjust and how in order to reach your goals. All the systems of the car are addressed in this way, giving you a good solid technical understanding of what's going on instead of just a list of parts you need to buy. Like all of Keith's books, it's written in a very accessible style and well illustrated, making it easy to digest.\nEven better, this is the 2nd edition. It's been updated to reflect the current state of the art as well as how to deal with the ND. There's a new chapter on aerodynamics and every page has been reexamined.\nWant to peek inside? Chapter 7 - \"Handling theory\" - is available as a free download. Even if you don't buy the book, it's a good read. Note: this is from the first edition.Read it now (2.7 MB Adobe PDF)\nCovers all Miatas from NA to ND.\nWhat about the other books?Performance Projects covers the \"how to\" aspect of modifying your Miata, and makes an excellent companion to this book for NA and NB owners.Find It, Fix It, Trick It is a reference book, covering the history and evolution of the NA and NB. It includes a buyer's guide, yearly changes and data about specifications and performance numbers.\nTable of contents:\n\nthe philosophy of modification (how to build a successful modified car)\nengine (what's going on in there?)\nintake and exhaust (getting air in and out)\nforced induction (putting your Miata under pressure)\nfuel and engine management (modern hotrodding)\nclutch, transmission and rear end (getting the power to the wheels)\nhandling theory (so, just what's going on when you're cornering?)\u00a0\nsuspension (what do all these parts do?)\nsuspension tuning (how do I set all these parts up?)\nthe braking system (make it stop!)\nwheels and tires (make it stick)\nbody and chassis (chassis rigidity, weight loss)\naerodynamics (make the air work for you)\nsafety gear (protect yourself)\nengine swaps (from V8s to rotaries)",
+    "title": "Hachette Book Group How To Build a High Performance Mazda Miata (2nd edition) fitment/product source",
+    "url": "https://flyinmiata.com/products/how-to-build-a-high-performance-mazda-miata"
   },
   {
     "confidence": 0.82,
@@ -565,6 +730,104 @@
     "summary": "Want to cut down on heat in the footwell? There are a bunch of things you can do ranging from gold foil to ceramic coating to insulation on the tunnel, but the most effective thing you can do to control radiant heat is add an insulating pad with an air gap. \nDEI makes a wide range of heat control products, and this one is ideal for downpipes and other hot exhaust components. It'll protect up to 1350F - more common fiberglass shields will start to fail at 900F.\nIt's a two-layer material. The outer layer is woven lava rock with a very high silica material on the inner layer. Stand offs provide the air gap needed, and they're riveted in place. Clamps are included. No, we're not sure why they call it \"titanium\" either but it's got about the right color. Fits pipes up to 3\" in diameter.\n12\"x6\". Suitable for all sorts of cars including engine conversions. For turbo Miatas, we recommend two pieces for a 2.5\" downpipe so you can shield the area near the accelerator as well as further back. This works better than a single 24\" long piece due to the bend in the downpipe. 3\" downpipes have less room for shielding so there's really only room for one piece - check the clearances on your car.",
     "title": "Design Engineering DEI Titanium heat shield for tubing fitment/product source",
     "url": "https://flyinmiata.com/products/dei-titanium-heat-shield"
+  },
+  {
+    "confidence": 0.82,
+    "id": "e698ca030c676117a866",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "dyno"
+      ],
+      "manufacturer_part_number": "05-27090",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/files/05-27090_NA_NB_Randall_Block_off_Plate_073025--5_1800x.jpg?v=1753912662"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-433cac525d0beaad5432",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "Our Randall intake is a very effective cold air intake with proven dyno results. But it requires you to cut a hole in your firewall. What if you want to remove the Randall to install a turbo, for example? Or maybe you're changing Miatas and you don't want to buy another intake. Whatever the reason, we won't judge.\nThis delete plate covers up the hole cut for the Randall. It attaches to the same mounting points as the firewall plate that comes with the intake and even incorporates a mounting clip for the clutch line. Makes for a nice clean final result.\nNo hardware is included as it's assumed you'll reuse the mounting hardware for the firewall plate. If you do need new hardware, you need 2 M6x16mm bolts, 2 M6 locknuts and a 1/4\" fender washer.\nDesigned and manufactured by Flyin' Miata on our farm of 3D printers. Made from carbon-reinforced nylon.",
+    "title": "Flyin' Miata Randall intake blockoff plate, NA/NB fitment/product source",
+    "url": "https://flyinmiata.com/products/3d-randall-intake-blockoff-plate-na-nb"
+  },
+  {
+    "confidence": 0.82,
+    "id": "049d32c83d17c84846da",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install"
+      ],
+      "manufacturer_part_number": "35-49100",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/drilltap_1600x.jpg?v=1657921667"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-434e2173c50ce3bd0b6a",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "In order to install the Flyin' Miata NA and NB hood lift kit, you need to drill and tap one hole on each side. If you don't have a 6x1.0 tap, this is what you need. They're convenient to have around as half of the fasteners on the car seem to be 6x1.0.\nIncludes a 5mm drill bit and a 6x1.0 tap. These metric parts may be hard to find at your local hardware store.",
+    "title": "Drills and Cutters LLC Drill and tap for installing hood lifts fitment/product source",
+    "url": "https://flyinmiata.com/products/drill-and-tap-for-hood-lift"
+  },
+  {
+    "confidence": 0.82,
+    "id": "67fc0ef4d35ca4caa7f3",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "probable",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "review",
+        "dyno"
+      ],
+      "manufacturer_part_number": "35-62001",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/35-62001_new_2021_ninja_tool_082521_1800x.jpg?v=1657921270"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-54697e95e8a2d4dbbad5",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "From the time the Miata was introduced, NA and NB owners have complained about the difficulty of doing a timing belt change and getting the cam timing right. The intake cam is under a bit of pressure from a valve spring and wants to jump over to the next tooth. Solutions have included cutting belts in half, counting teeth and thousands of forum postings.\nThe introduction of the FM cam belt ninja tool (for 1990-2005 Miatas only) years ago changed all that. Simply slide it into place, remove the old belt, put on the new and everything is perfectly aligned. If you're going to remove the cam gears, the locked cams make it a lot easier to loosen and tighten the bolt holding the gears to the camshafts. You can also use the holes to zip-tie the tool to the two gears, keeping them aligned when you pull them off the cams. It'll make you into a timing belt ninja, quick and smooth.\nBut despite all the five star reviews, the original one wasn't perfect. It could sometimes slip sideways between the gears and let them slip. So when we decided to change production methods for the second generation, we redesigned it. This new version is significantly fatter so it stays well locked into the gears. The carbon-reinforced nylon construction is immune to all the various fluids it'll come across in the line of duty, but also will not mar your cam gears. Slides in smooooooooth as butter. It's also strong enough to allow you to torque the cam gear bolts to factory spec without needing to hold the cams stationary with a goofy combination of crescent wrenches and C-clamps.\nBear in mind that the tool will hold to factory spec, not necessarily more\u00a0- if you get it \"good and snug\" but accidentally go over factory torque spec, the tool could fail through no fault of its own. If you use it to loosen the bolts, which were over-torqued initially or are currently seized, the tool could fail through no fault of its own (we don't recommend using it to loosen bolts, just in case). Use it as instructed and it'll work great for years.\u00a0\nWe're now on the fourth generation of this tool. This includes the third gen update where we added timing marks to the tool that line up with the marks on the cam gears, so it's nearly impossible to get the timing wrong, and we've also increased the length of the upper arms and added in horizontal supports to make the tool even stronger. We also gave it a true ninja appearance because we felt it should look the part.\u00a0\nPlease note that the tool is very precisely made so there's no slop - if the cam gears aren't perfectly aligned, it will seem like it's the wrong size. Tweak the gears' rotations until it slides in smoothly as opposed to modifying the tool.\u00a0\nThey're produced in-house on our high-end Markforged printers. This has allowed us to drop the price while shortening our supply chain.\nExclusive to Flyin' Miata!\nNote: the image showing the tool and the video above shows the 3rd generation tool.",
+    "title": "Flyin' Miata Flyin' Miata cam gear ninja tool fitment/product source",
+    "url": "https://flyinmiata.com/products/flyin-miata-cam-gear-ninja-tool-2nd-generation"
   },
   {
     "confidence": 0.82,
@@ -666,6 +929,38 @@
   },
   {
     "confidence": 0.82,
+    "id": "9aaf364b6e14f3fa4f0a",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "fitment"
+      ],
+      "manufacturer_part_number": "04-36025",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/pcv-grommet_847x.jpg?v=1657922084"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-5a2c07efd26f0d46d333",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "Seals the PCV valve to the valve cover. Fits all NA and NB engines. Mazda factory part. Included in our engine rebuild kits.\nE301-13-338A",
+    "title": "Mazda North American Operation PCV valve grommet fitment/product source",
+    "url": "https://flyinmiata.com/products/pcv-valve-grommet"
+  },
+  {
+    "confidence": 0.82,
     "id": "932fa1445f3ae6f9ef1c",
     "metadata": {
       "aggregate_rating": null,
@@ -762,6 +1057,40 @@
     "url": "https://flyinmiata.com/products/nb-shock-bushing-set"
   },
   {
+    "confidence": 0.82,
+    "id": "57c39185d5c422e62b74",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "probable",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "review",
+        "dyno"
+      ],
+      "manufacturer_part_number": "35-69001 VVT",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/files/35-69001_REVISED_VVT_Toolkit_092623-092623_2500x.jpg?v=1695763379"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-684789efb2693a95e6d3",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "Please note that our printer farm is working around the clock to keep up with demand. We should be able to ship backorders within a few days.\nWe've done hundreds and hundreds of timing belt changes at Flyin' Miata. And we know that just a few simple tools can make them much easier. These all started as tools we made for use in the shop, then made them available for every Miata owner. Buy them all together and save!\nThe second generation seal installers are made of carbon fiber reinforced nylon. This avoids any potential scratches to the metal surfaces of the engine. It's also less likely to get dented or gouged while bouncing around your toolbox, which minimizes the chance of damage to the rubber seal. Our new Ninja tool stays in place better than our original design, allows you to torque the cam gears (no goofy crescent wrench and C-clamp combination), and lines up with the marks on the cam gears to ensure you get the timing correct. The crank bolt tool remains laser cut steel because of the very high torque required.\nPrinted on our in-house industrial 3D printers out of chemical resistant, carbon fiber infused material. This new production method allows us to bring the price down while improving the parts at the same time!\nKit contains:\ncrank bolt holding tool cam gear ninja tool front seal installation tool cam seal installer tool for exhaust cam cam seal installer tool for VVT intake cam\nFor 2001-05 cars with the VVT engine. Not for the Mazdaspeed, it will use the 1991-00 version.\nNote: the video below shows a previous version of the ninja tool.",
+    "title": "Flyin' Miata Flyin Miata tool kit with 2nd gen tools (2001-05 VVT engine) fitment/product source",
+    "url": "https://flyinmiata.com/products/flyin-miata-vvt-tool-kit-2nd-gen"
+  },
+  {
     "confidence": 0,
     "id": "bfc56ea775e5b1979808",
     "metadata": {
@@ -776,7 +1105,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "auto-69898cd15a88e5d1ee59",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Replacement set of bushings and brackets for our 1\" front sway bar (NA8 and NB). Polyurethane bushings. Included with FM bars. Won't work with stock sway bars.",
     "title": "Hellwig Bushings and brackets for NA8 and NB front sway bar fitment/product source",
@@ -818,7 +1147,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "auto-6ac79d0c08c369675830",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "For those who don't want (or aren't allowed) to run a rear bar. Keep in mind that installing a larger front sway bar without making any other changes will make the car more biased towards understeer.Includes brackets and polyurethane bushings. The bars have two holes for adjusting. 1\" solid. Note that the geometry of the 1990-93 and 1994-05 bars are different.",
     "title": "Hellwig Flyin' Miata front sway bar (NB chassis) fitment/product source",
@@ -911,6 +1240,107 @@
   },
   {
     "confidence": 0.82,
+    "id": "938f2d926b0785db0ab5",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "dyno",
+        "fitment"
+      ],
+      "manufacturer_part_number": "35-36510",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/35-36530_NA_NB_Flywheel_Lock_011823--2_2500x.jpg?v=1674145639"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-7030f6c8be5784a0b754",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "Having the right tool for the job can make all the difference.\u00a0This can be even more true when\u00a0you're removing or installing a\u00a0clutch or flywheel.\u00a0Our\u00a0simple-to-use flywheel locking tool holds the flywheel stationary, allowing the user to both break loose and torque flywheel or pressure plate hardware without the flywheel rotating. No more awkwardly holding things with a pry bar!\u00a0\nFits NA & NB engines. We have a separate version available for NC & ND engines.",
+    "title": "Flyin' Miata Flyin' Miata flywheel locking tool, NA/NB fitment/product source",
+    "url": "https://flyinmiata.com/products/fm-flywheel-locking-tool-na-nb"
+  },
+  {
+    "confidence": 0.82,
+    "id": "652c1307bb9925948da1",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "probable",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "fitment"
+      ],
+      "manufacturer_part_number": "35-60501",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/m35-60501_rear_main_installer_tool_032020_1600x.jpg?v=1657921417"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-70628cd3816063187c0b",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "Rear main seals are a pain to install. If you push them in just a bit too far, there's no way to pull them back out again and you usually end up trashing the seal. That's frustrating - especially if you don't have an extra seal on hand.\nEnter the FM rear crank seal installer. Simply slip the seal over the edge of the crank, put the installer over top and tighten it down using a few of the stock flywheel bolts. When the tool bottoms out, the seal is perfectly installed. A great addition to your tool box.\nOur new tool is made of carbon fiber reinforced nylon. This avoids any potential scratches to the metal surfaces of the engine. It's also less likely to get dented or gouged while bouncing around your toolbox, which minimizes the chance of damage to the rubber seal.\nPrinted on our in-house industrial 3D printers out of chemical resistant, carbon fiber infused material. This new production method allows us to bring the price down while improving the parts at the same time!\nFits all 1990-05 Miata engines.",
+    "title": "Flyin' Miata Flyin' Miata 2nd generation rear main seal installer tool fitment/product source",
+    "url": "https://flyinmiata.com/products/flyin-miata-2nd-gen-rear-crank-seal-installer-tool"
+  },
+  {
+    "confidence": 0.82,
+    "id": "ebe33b79ca4fec374cd2",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "fitment",
+        "problem"
+      ],
+      "manufacturer_part_number": "04-26020",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/img_3574_1600x.jpg?v=1657922197"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-7266a61ce7f2db733b2f",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "The classic example of an inexpensive part that's expensive to replace. If your rear main seal starts to leak, you can contaminate your clutch. You need to pull the transmission and flywheel to get to it, so we strongly recommend changing this seal whenever you have the clutch off. Fits all NA and NB Miatas and included in our engine rebuild kit.\nIt's a bit tricky to get into place just right, so we recommend using our special install tool.",
+    "title": "AutoZone Rear main/crankshaft seal for NA/NB fitment/product source",
+    "url": "https://flyinmiata.com/products/rear-crankshaft-oil-seal-1990-05"
+  },
+  {
+    "confidence": 0.82,
     "id": "718db7fb03b0ef0c6a1b",
     "metadata": {
       "aggregate_rating": null,
@@ -959,7 +1389,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "auto-73ca2473ad360a5c9ea9",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Want to make your Mazdaspeed into the car it should have been from the factory? Our Little Enchilada package includes everything you need to optimize the powertrain without getting into injectors or computer modifications. The end result does not cause check engine lights, provides more low-end torque and a smoother powerband with about 33% more power. All of our parts are designed to work as an integrated system, so you won't feel as if you're trying to patch together a bunch of unrelated bits.\nIf you want to take your stock Mazdaspeed up to right around 200 hp at the wheels, you'll follow the first four suggestions in our recommended upgrade path. We've taken these parts and bundled them together for you so you not only get a suite of products designed to work together, you also save money!\nThe Little Enchilada package includes the following:FM intakeFM throttle body inlet pipe recirculating Turbosmart bypass valve FM O2 signal modifier FM downpipeFM midpipe and exhaustFM intercoolercheck valve kitFM boost gauge kit and gauge pod\nThe Little Enchilada will happily pass an OBD-II check, but it cannot be shipped to California as it does not have an EO. The downpipe cannot be shipped to Colorado, New York, or Maine due to emissions requirements. Emissions will not be a problem in any other state or province, as the cat is EPA-approved for this application. The intake is not compatible with RHD cars that have air conditioning.",
     "title": "Flyin' Miata The Little Enchilada fitment/product source",
@@ -1180,6 +1610,41 @@
     "summary": "Deleting the thermostat neck when you install a reroute is a great idea, but you're left with an unsightly hole that could let debris interfere with your timing belt. No more! This two-piece kit covers the hole that's left, and is nearly invisible once it's installed. Fits all 1990-2005 upper timing belt covers - it's a flexible design that works with both versions.",
     "title": "Flyin' Miata Timing cover hole plate kit for reroute fitment/product source",
     "url": "https://flyinmiata.com/products/thermostat-neck-blanking-kit"
+  },
+  {
+    "confidence": 0.82,
+    "id": "35f3c63f7e07b5e7afc7",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "dyno",
+        "fitment",
+        "problem"
+      ],
+      "manufacturer_part_number": "05-27020",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/files/05-27020_UPDATED_NB_Randall_Cowl_intake_021624--2_2500x.jpg?v=1708380168"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-8cf708873d2f03a009ec",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "There are lots of intakes out there, but most of them make more noise than power. If you have an open air filter under the hood, especially if you don't have a heat shield, it's going to suck in hot air.\u00a0Even a heat shield won't help much if it isn't fully enclosed. Hot air is less dense - i.e., it has less oxygen - so it's going to make less power. That open air filter is great for making noise, which can make the car feel stronger, but if it's sucking in hot air it's probably making less power than the stock intake. But what if they have dyno results?! Was that dyno testing done with the hood closed? If not, it's not a valid test.\nWe solved this problem a long time ago with our Randall cowl induction intake. It reuses the stock intake and air box for simplicity and economy (the stock parts flow great for the power levels here), but it makes it so the air comes from the base of the windshield. The benefit is twofold. First, it sucks in truly cold air, from outside of the engine bay. Second, it's force-fed - the base of the windshield is a high-pressure area, so more speed = more air forced into the engine. This results in a dyno-proven - with the hood closed! - 5 hp, as measured at the wheels. It also adds a bit of intake growl, although it's more subtle than an open filter.\nThe Randall has been gone for a while - our original supplier retired - but we've brought it back better than ever. It's now silicone, which makes the install\u00a0dramatically\u00a0easier than the old rigid tube. It's also about half the price! It's more durable, and we now have a firewall plate to secure the end of the hose. The firewall plate also eases installation (it's ridiculously easy to locate the hole), visually cleans things up, secures your clutch line, and has a simple (and unintrusive, flow-wise) screen to keep the intake from sucking up leaves in the cowl.\nInstallation involves cutting a hole in the flange at the top of your\u00a0firewall\u00a0(the firewall plate is your template, so it's pretty easy). This may not be allowed in some race classes, so do your homework. 1 3/8\" (35mm) hole saw required, not included.\nWhile we recommend our Mazdaspeed intake package for Mazdaspeed Miatas, this will fit on MSMs and is an improvement over the stock setup. And is legal for our California friends!\nCARB approved (D-601-5) so it's fully legal everywhere in the US. Since it's pre-airbox, it's likely legal everywhere, but check your local rules to be sure.\nFits all NBs with left-hand drive, with no issues with cruise control or shock tower braces, though the cruise control actuator will have to be relocated slightly. Sorry, it doesn't fit with right-hand drive.\nNote that if you use this with a cowl washer bottle, like what we sell, the parts will physically fit, but the washer bottle will sit very close to the mouth of the intake. Check out the dyno chart - on our car installing the cowl washer bottle meant the car picked up about 3 hp instead of 5 - so still beneficial over the stock intake, but not as beneficial as the Randall with no obstructions.\u00a0\nPhotos shown are sample product. Final production items may vary slightly from what is shown.",
+    "title": "Flyin' Miata NB Randall Cowl Intake V2 fitment/product source",
+    "url": "https://flyinmiata.com/products/randall-cowl-nb-v2"
   },
   {
     "confidence": 0.82,
@@ -1540,6 +2005,71 @@
   },
   {
     "confidence": 0.82,
+    "id": "579785eeecf3528cc3d9",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "probable",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "dyno",
+        "fitment"
+      ],
+      "manufacturer_part_number": "35-61000",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/files/35-61000_Crank_tool_092623_2500x.jpg?v=1695763322"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-a712a371663e8f43e807",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "Looking for a way to hold the crank in place as you torque down the big crank bolt? Or maybe to hold the crank in place as you take the old one off? Here's your solution. It's a direct copy of the home-made one we've been using at the FM shop since the early 90s.\nOne end fits the short nose 1990-91 crank, the other fits the 1991-05 big nose. Simply attach with the bolts from your accessory pulley and lean on that center bolt all you want. Laser cut and cadmium plated for forever life without the sharp edges of stainless steel.\nPerfect for a club toolbox or at home. Will drastically reduce profanity usage during a timing belt change. Now compatible with our ATi damper!",
+    "title": "FastTrak Fabrication LP Flyin' Miata crankshaft bolt tool fitment/product source",
+    "url": "https://flyinmiata.com/products/flyin-miata-crank-bolt-tool"
+  },
+  {
+    "confidence": 0.82,
+    "id": "81b2eb530d034eb7ef70",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "04-37016",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/04-37016_drain_plug_washer_010322--2_1800x.jpg?v=1657922553"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-ad025f2e473d61764d35",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "These crush washers are the correct size for NA oil pans, all\u00a0transmission drain plugs, 6-speed fill plugs and all differential drain and fill plugs. Well, all generations of Miatas, anyway.\nThey do not fit NB oil pans. 5-speed fill plugs do not use a washer.\nSold individually.",
+    "title": "Moss Motors Drain plug crush washer, 18mm fitment/product source",
+    "url": "https://flyinmiata.com/products/washer-drain-plug-single-m1"
+  },
+  {
+    "confidence": 0.82,
     "id": "e592625eabcbc78b2e2c",
     "metadata": {
       "aggregate_rating": null,
@@ -1603,6 +2133,39 @@
     "url": "https://flyinmiata.com/products/porterfield-r4s-sport-brake-pads-front-1994-02"
   },
   {
+    "confidence": 0.82,
+    "id": "f5af57f9613ade371b0a",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "probable",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "problem"
+      ],
+      "manufacturer_part_number": "46-86000",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/9780760316207_1050x.jpg?v=1657921932"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-b2421f11ddfa53a56f99",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "Shipping note: When ordered by itself, this book will be mailed via USPS.\nA good addition to anyone's toolbox, Performance Projects walks through the most common jobs on a Miata. The book covers 41 projects for all levels of mechanic, from novice to experienced. Each project is clearly explained with large color photos to make it easy to understand. You'll also find out how difficult your particular project is, what parts you'll need, how much it's liable to cost and what else you should do while you're in there. Written by Flyin' Miata's own Keith Tanner.\nThere are a few sample pages available so you can get an idea of what the book is like. Click on the project names in the list below to see them.\nFor 1990-05 Miatas. The 2004-05 Mazdaspeed turbo car is not specifically covered, but most of the projects still apply.\u00a0\nSection 1 - Getting StartedGetting Ready Oil Change Shifter Boot Replacement Setting the Timing Preparing your Miata for the Track Replacing the Spark Plugs Changing the Fuel Filter Headlight Replacement and Upgrade\nSection 2 - Engine Changing the Accessory Drive Belts Changing the Valve Cover and Cam Angle Sensor Gaskets Replacing a Timing Belt Changing the Water Pump Fixing Noisy HLAs Repairing a Damaged Crank Removing and Replacing a Miata Head Retrofitting an NB Head on an NA Engine Engine Removal Installing an Engine Installing a 1.8l Engine in a 1.6l Car\nSection 3 - Cooling Changing the Coolant Replacing a Thermostat Replacing the Radiator\nSection 4 - Transmission Changing the Transmission and Differential Fluids Replacing or Repairing a Leaky Clutch Slave CylinderInstalling a New Clutch or Flywheel Installing a Torsen Limited Slip\nSection 5 - Exhaust Changing the Exhaust Installing a Header\nSection 6 - Brakes Bleeding and Flushing the Brakes and Clutch Lubricating the Slider Pins Changing Brake Rotors and Pads Installing Stainless Steel Brake Lines Fitting Bigger Brakes to your Miata\nSection 7 - Suspension Aligning a Miata Sway BarsShocks Replacing the Suspension Bushings\nSection 8 - Body and InteriorReplacing the Convertible Top Roll Bar Installation How to Stripe a Miata Installing New Gauge Faces",
+    "title": "Hachette Book Group Miata Performance Projects fitment/product source",
+    "url": "https://flyinmiata.com/products/miata-performance-projects"
+  },
+  {
     "confidence": 0,
     "id": "171b1550ade495a88919",
     "metadata": {
@@ -1617,7 +2180,7 @@
     "outlet": "perrin.com",
     "part_id": "auto-b574fdfa24c87933a1ed",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "The PERRIN Rear Subframe Lockdown Kit reduces drivetrain movement during hard acceleration, braking, and cornering, delivering a more responsive and connected driving experience.",
     "title": "PERRIN Rear Subframe Lockdown for 2015-2026 WRX, STI, BRZ fitment/product source",
@@ -1708,6 +2271,38 @@
   },
   {
     "confidence": 0.82,
+    "id": "576184559129f8aa2fa5",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "discussion"
+      ],
+      "manufacturer_part_number": "10-26010",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/57904_75w90_q_1600x.jpg?v=1657922051"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-bf624c22777b53526fdc",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "Redline synthetic gear oil. Perfect for all stock Miata differentials, including all types of factory limited slips as well as aftermarket clutch-style limited slips. Slightly thicker than the stock ND diff fluid, which should give better protection under hard use.Sold by the quart. Works well in all Miata differentials from standard to viscous (90-93) to Torsen limited slips (94+). One quart required. Not for use in the transmission, use either MTL or MT-90 there.\nWe can only ship Redline inside the US, for international orders please see your local distributor.",
+    "title": "Turn 14 Distribution Redline 75W90 differential gear oil (NA/NB/NC) fitment/product source",
+    "url": "https://flyinmiata.com/products/redline-75w90-differential-gear-oil"
+  },
+  {
+    "confidence": 0.82,
     "id": "5f28438c0262276e7ca4",
     "metadata": {
       "aggregate_rating": null,
@@ -1737,6 +2332,38 @@
     "summary": "Replacement gasket for FM exhaust systems. These are the same premium metal gaskets included with the exhaust.\nUsed on our 2.25\" (naturally aspirated) exhaust for the NB. 2.25\" center hole, stud holes are 4.3\" across centers.",
     "title": "Cometic Gasket Gasket for FM 2.25\" NB exhaust system fitment/product source",
     "url": "https://flyinmiata.com/products/exhaust-gasket-99-2-25"
+  },
+  {
+    "confidence": 0.82,
+    "id": "8824760bd257bd4d27b4",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "probable",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install"
+      ],
+      "manufacturer_part_number": "35-60001 BIG NOSE",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/35-60001_big_nose_seal_installer_tool_032320-3_1600x.jpg?v=1657921337"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-c282e9d3cc0f88aed76e",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "A slick little part designed by Flyin' Miata to ease maintenance. Slip the tool over the crank nose, install the crank bolt and tighten up. The crank bolt pulls the tool in. The design ensures the front seal slides perfectly into place, but cannot be pushed in too far. A perfect installation every time. This is important because a bad installation is only discovered after you've got the car running, and it's a lot of work to get back in there.\nOur new tool is made of carbon fiber reinforced nylon. This avoids any potential scratches to the metal surfaces of the engine. It's also less likely to get dented or gouged while bouncing around your toolbox, which minimizes the chance of damage to the rubber seal.\nPrinted on our in-house industrial 3D printers out of chemical resistant, carbon fiber infused material. This new production method allows us to bring the price down while improving the parts at the same time!\nA great part for anyone who does their own maintenance or for clubs.\nThis tool is for the 1991 \"long nose\" engines, with an eight-slot front crank pulley and a VIN higher than 209446. It also works on all 1992-05 engines.",
+    "title": "Flyin' Miata Flyin' Miata front main seal installer tool (2nd gen, big nose crank) fitment/product source",
+    "url": "https://flyinmiata.com/products/fm-2nd-genfront-seal-installer"
   },
   {
     "confidence": 0.82,
@@ -1850,7 +2477,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "auto-df07069285481c0d0ead",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "New polyurethane bushings for our NA and NB 5/8\" rear sway bars. Use your stock bracket with these. Included with FM sway bars. These won't work with stock sway bars, as they're not 5/8\" in diameter.",
     "title": "Hellwig Rear sway bar bushings for NA/NB fitment/product source",
@@ -1975,6 +2602,39 @@
     "url": "https://flyinmiata.com/products/bp-gasket-exhaust-manifold"
   },
   {
+    "confidence": 0.82,
+    "id": "f733124d2e276e9d8b31",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "fitment",
+        "problem"
+      ],
+      "manufacturer_part_number": "35-70000",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/35-7000_fm_poly_jack_adapter_012219--4_1600x.jpg?v=1657921350"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-ec5c700a20419c010c40",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "New and improved! Seriously. We've changed the material to make it easier on your car's finish and increased the versatility - while managing to cut the price by 20%.\nWant to lift up both wheels on one side of your Miata at once so you can put it on jackstands or quickly swap tires? We do this all the time. Slide the jack under the middle of the car for a quick lift. Too bad Mazda only reinforced the seam at the front and rear of the car!A customer asked us if we could do anything to solve this problem, and here's our answer. Our jack adapter sits on top of a typical floor jack and straddles that fragile seam, putting the load on the structure of the car instead. It's similar to the way the stock scissor jack is shaped, but offers significantly more surface area to prevent damage.\nThe new second generation design has two slots in it. One is a press fit on the pinch weld, which lets you stick the adapter on the frame rail before you slide the jack underneath. The other is wider, allowing the adapter to work with newer cars that have more plastic trim around the weld. Fits all Miatas and many other cars. One slot is 7mm (roughly 1/4\") wide, the other is 12mm (roughly 1/2'). Both are 1\" deep. May not fit all jacks - a particularly deep or very small platform on the jack could cause a problem. The adapter has a 76mm/3\" base.\nWe recommend you continue to use the factory lift locations on NC and ND Miatas due to some extra plastic trim. It will still make contact with some plastic parts, but we have not received any reports of damage since we started selling these parts back in 2010.",
+    "title": "PowerflexUSA FM jack adapter - second generation fitment/product source",
+    "url": "https://flyinmiata.com/products/fm-jack-adapter"
+  },
+  {
     "confidence": 0,
     "id": "4c99c61a77963cba9dbf",
     "metadata": {
@@ -1991,7 +2651,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "auto-edaae02f417c30e388eb",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Designed by IL Motorsports in Germany, this bushing set is just like the factory set but with rubber that's about 30-40% stiffer. Mazda Competition makes a set like this but it's very expensive. The magic of the IL Motorsports parts is that they're actually affordable.\nWhy rubber? Some people prefer it because it's easier to deal with over the long term. There's no need to ever regrease them and there's no chance they'll squeak. It's what Mazda used in the first place. A great choice for a street car - actually, we prefer them for any car that sees street use. They also look stock so you can pass tech inspection in a stock class. Not that you'd do that.\nThe suspension will keep the same feel as stock, right down to the variable durometers used in different locations and the addition of a \"bushing spring\" to your spring rate. The stiffer rubber will decrease the amount of deflection in your suspension, giving more precision than stock parts. They are a bit more difficult to install than poly, as they will have to be pressed in.\nA complete set for all eight control arms and the rear uprights. Fits 1990-05 models.",
     "title": "IL Motorsports Complete high performance rubber bushing set for NA and NB fitment/product source",
@@ -2017,6 +2677,39 @@
     "summary": "Permitted product page checked for structured product and offer data.",
     "title": "IL Motorsports Complete high performance rubber bushing set for NA and NB product page",
     "url": "https://flyinmiata.com/products/performance-rubber-bushing-kit"
+  },
+  {
+    "confidence": 0.82,
+    "id": "66784bb742ff1a1c7cdd",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "probable",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "fitment"
+      ],
+      "manufacturer_part_number": "04-37955",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/products/img_7710_1600x.jpg?v=1657921934"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-f1bc4470298c3337361b",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "Your crankcase is full of oil mist. If that gets into your intake via the PCV system, you'll find yourself burning oil. Not only is it uncool to have blue smoke coming out of your tailpipe, oil is also very low octane so it can mean a loss in power. Mazda knows this, it's why they put an oil separator on the 2004-05 Mazdaspeed. Unfortunately, it's harder to make a good oil separator than you might think and there's a lot of misinformation out there on how to plumb them in correctly. Moroso knows, though. Their separator - also known as a catch can - has a tight steel mesh to encourage the oil to drop out of suspension, and it collects in the lower half. The separator must be disassembled to be emptied, and has a nice knurled grip to make this easier. Includes all fittings to install on a Miata.\nThis kit uses a smaller canister than our other one to fit in smaller spaces - it measures approximately 4.5\" high by 2\" diameter. Fits all NA and NB Miatas, including those with ABS.",
+    "title": "Moroso Moroso air/oil separator kit (small body) fitment/product source",
+    "url": "https://flyinmiata.com/products/moroso-small-air-oil-separator-kit"
   },
   {
     "confidence": 0.82,
@@ -2084,6 +2777,39 @@
     "url": "https://flyinmiata.com/products/brake-duct-inlet-kit-2-5-nb-1999-2005"
   },
   {
+    "confidence": 0.82,
+    "id": "bf94092a499a41567c6f",
+    "metadata": {
+      "aggregate_rating": null,
+      "catalog_seed": true,
+      "collector": "web_product",
+      "fitment_status": "unknown",
+      "identity_matched": true,
+      "json_ld_product_found": true,
+      "labels": [
+        "install",
+        "fitment"
+      ],
+      "manufacturer_part_number": "04-36011",
+      "merged_source_types": [
+        "manufacturer",
+        "retailer"
+      ],
+      "product_image": [
+        "https://flyinmiata.com/cdn/shop/files/04-36011_ND_Magnetic_oil_drain_plug_061725--4_2400x.jpg?v=1750196618"
+      ],
+      "vehicle_id": null
+    },
+    "outlet": "flyinmiata.com",
+    "part_id": "auto-f7c2b56ae5b126e72301",
+    "published_at": null,
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "manufacturer",
+    "summary": "This magnetic oil drain plug helps protect the engine by collecting metallic particles before they get fed through the oil system. It's similar in concept to the ones that Mazda installed in the transmission and differential.\nComes with one washer, additional ones are\u00a0found here. Unlike some other options, fits all Miatas.Hotwheels car not included and is only shown for size reference.",
+    "title": "Pirngder Industry Co Ltd Magnetic oil drain plug, fits all Miatas fitment/product source",
+    "url": "https://flyinmiata.com/products/magnetic-oil-drain-plug-all-miatas"
+  },
+  {
     "confidence": 0,
     "id": "969fa61c6099fb62e4bc",
     "metadata": {
@@ -2098,7 +2824,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "auto-f886875cb64e0baa6ed7",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Sway bars are used to make your car corner flatter and react faster by keeping the body (and all the weight) under control. Ours are set up for neutral handling and are adjustable so you can tailor the handling of your Miata to your own driving style.Our swaybars are hot formed from 4140 CrMo spring steel. This means they're stronger than the cold-formed bars found elsewhere. We've designed them to keep the same handling balance as your stock sways, but they have two settings in the front and three in the rear for fine-tuning. Includes brackets and urethane bushings with waterproof grease. NB sizes are 1.0\" front and 0.625\" rear, and they're both solid. On their softest setting they're a little bit stiffer than the factory Mazdaspeed ones (and go up from there), but more importantly the factory ones are not adjustable.",
     "title": "Hellwig Flyin' Miata sway bars (NB chassis) fitment/product source",
@@ -2141,7 +2867,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "auto-fb1a11217b37d217ea8c",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Single replacement shock for V-Maxx XXtreme coilovers. The XXtreme shock has adjustable damping and a knob at the bottom, if yours doesn't have that you need the V-Maxx Classic. Shock and perch only, does not include the springs. This will be the latest design, so it may be slightly different than older production but it is fully compatible. These may be refurbished parts.\nFor owners of FM V-Maxx only. We cannot guarantee compatibility with V-Maxx suspension from overseas.\nMay or may not include spring slider, upper spring locator, bump stop, vent washer or top washer.",
     "title": "V-Maxx Replacement V-Maxx XXtreme shock (right rear) fitment/product source",
@@ -2307,7 +3033,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-brembo",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "CSG-listed Brembo GT four-piston front brake package for first-gen BRZ/86/FR-S track-oriented builds.",
     "title": "CSG Spec / Brembo Brembo GT 4-Piston 326x30mm Brake Kit fitment/product source",
@@ -2326,7 +3052,7 @@
     "outlet": "FT86Club",
     "part_id": "brz-csg-ecutek",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Track-user discussion about tuning, knock, temperature safeguards and the importance of oil cooling for sustained track sessions.",
     "title": "Custom tuning and track-safety discussion",
@@ -2347,7 +3073,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-ecutek",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Custom EcuTek calibration service listed by CSG for FA20 first-generation BRZ/86 applications; final results depend on fuel and installed hardware.",
     "title": "CSG Spec / EcuTek Custom EcuTek Tune fitment/product source",
@@ -2391,7 +3117,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-exhaust",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "70mm CSG Spec/MXP cat-back exhaust listed for BRZ/FR-S/86 platforms.",
     "title": "CSG Spec / MXP TOURING 86 Competition Exhaust - 70mm Catback fitment/product source",
@@ -2454,7 +3180,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-pads",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "CSG Spec motorsport pad compounds with explicit 2013-2020 BRZ front/rear applications; compound and axle selection materially affect price and use case.",
     "title": "CSG Spec Brake Pad Set fitment/product source",
@@ -2580,7 +3306,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-rx1",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "CSG-tuned TEIN RX-1 V3 coilover package listed for the first-generation BRZ/FR-S/86 platform.",
     "title": "CSG Spec / TEIN RX-1 V3 Coilovers fitment/product source",
@@ -2601,7 +3327,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-single-clutch",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Complete CSG Spec single-plate OS Giken clutch system listed for BRZ/FR-S/86/GT86/GR86 applications.",
     "title": "CSG Spec / OS Giken Single Plate Clutch System fitment/product source",
@@ -2622,7 +3348,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-csg-twin-clutch",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Complete CSG Spec twin-plate OS Giken clutch package for high-torque BRZ/FR-S/86 builds.",
     "title": "CSG Spec / OS Giken Twin Plate Clutch System fitment/product source",
@@ -2641,7 +3367,7 @@
     "outlet": "FT86Club",
     "part_id": "brz-greddy-oilcooler",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Documented 2017 BRZ track build listing a GReddy Circuit Spec oil cooler among the engine and track-support modifications.",
     "title": "2017 CSG Varis BRZ track build with GReddy oil cooler",
@@ -2662,7 +3388,7 @@
     "outlet": "counterspacegarage.com",
     "part_id": "brz-greddy-oilcooler",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "GReddy oil-cooler kit listed by CSG specifically for 2013-2020 BRZ/86/FR-S.",
     "title": "GReddy Oil Cooler Kit - 2013-2020 fitment/product source",
@@ -2786,7 +3512,7 @@
     "outlet": "FT86Club",
     "part_id": "brz-header",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Community discussion focused on header layout and long-term concerns.",
     "title": "UEL vs EL and long-term use",
@@ -2806,7 +3532,7 @@
     "outlet": "FT86Club",
     "part_id": "brz-header",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Owner discussion comparing header layouts and JDL options.",
     "title": "EL vs UEL header discussion",
@@ -2934,7 +3660,7 @@
     "outlet": "jacksonracing.com",
     "part_id": "brz-jr-dual-cooler",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Integrated all-aluminum radiator and liquid-to-oil cooler developed with CSF for street/track BRZ/86 applications.",
     "title": "Jackson Racing Dual Radiator / Oil Cooler fitment/product source",
@@ -3061,7 +3787,7 @@
     "outlet": "jacksonracing.com",
     "part_id": "brz-jr-oilcooler",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Track-focused thermostatic oil-cooler system for the FA20 platform. Jackson Racing states the kit is track/race tested and intended to maintain oil temperatures below 250\u00b0F in extreme conditions.",
     "title": "Jackson Racing Track Engine Oil Cooler Kit fitment/product source",
@@ -3923,7 +4649,7 @@
     "outlet": "FT86Club",
     "part_id": "brz-perrin-oilcooler-full",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Detailed first-generation BRZ installation walkthrough and owner review covering bumper removal, fittings, leak checks, fit/finish and track-oriented use.",
     "title": "PERRIN oil-cooler installation and owner review",
@@ -5030,7 +5756,7 @@
     "outlet": "Bimmerforums",
     "part_id": "koyo-z3-rad",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Detailed cooling review with initial track-temperature praise followed by later leak/failure reports and discussion of OEM alternatives. Useful conflicting long-term evidence.",
     "title": "Koyorad 48mm radiator long-term owner review",
@@ -5049,7 +5775,7 @@
     "outlet": "Koyorad",
     "part_id": "koyo-z3-rad",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Manufacturer radiator information hub.",
     "title": "Koyorad radiator information",
@@ -5214,7 +5940,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "mahle-z3-thermostat",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Mahle/Behr Thermostat & Housing Refresh cataloged for BMW Z3 2.8 M52TU. Verify exact configuration before purchase.",
     "title": "Mahle/Behr Thermostat & Housing Refresh fitment/product source",
@@ -5235,7 +5961,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-crossflow-rad",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Crossflow aluminum radiator designed for 1990-2005 Miatas; NB-specific brackets are required as documented by Flyin' Miata.",
     "title": "Flyin' Miata Crossflow Radiator fitment/product source",
@@ -5530,6 +6256,112 @@
     "summary": "Billet rear sway-bar brackets explicitly listed for 1999-2005 NB.",
     "title": "Flyin' Miata Billet Rear Sway Bar Brackets fitment/product source",
     "url": "https://flyinmiata.com/products/rear-billet-sway-bar-brackets"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "2cb6da6fb75419b1c27a",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Flyin' Miata Billet Rear Sway Bar Brackets 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/xKHt86Fw1-g/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "xKHt86Fw1-g"
+    },
+    "outlet": "WesleyDotCom",
+    "part_id": "miata-fm-billet-rear-sway-brackets",
+    "published_at": "2023-07-09T16:00:42Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Welcome back to the channel! I installed the Racing Beat sway bar brace kit on my Miata today. Overall, the install went very ...",
+    "title": "PROTECT YOUR FRAME RAILS!!!!! (RACING BEAT SWAY BAR MOUNT REINFORCING BLOCKS AND BOLTS INSTALL)",
+    "url": "https://www.youtube.com/watch?v=xKHt86Fw1-g"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "39b4274b408f4645312e",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Flyin' Miata Billet Rear Sway Bar Brackets 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/FkBXtZ5TM34/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "FkBXtZ5TM34"
+    },
+    "outlet": "DriveMX5",
+    "part_id": "miata-fm-billet-rear-sway-brackets",
+    "published_at": "2022-03-12T14:00:06Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Today, I want to show you guys how to install aftermarket sway bars on your ND MX-5! You've probably heard the horrors of ...",
+    "title": "Flyin&#39; Miata Sway Bar Installation: ND MX-5 Miata",
+    "url": "https://www.youtube.com/watch?v=FkBXtZ5TM34"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "4b517eff4299d2b18d78",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Flyin' Miata Billet Rear Sway Bar Brackets 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/8tSuHJr1xdc/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "8tSuHJr1xdc"
+    },
+    "outlet": "Flyin' Miata",
+    "part_id": "miata-fm-billet-rear-sway-brackets",
+    "published_at": "2023-06-05T15:23:23Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Sway Bars are our number #1 recommended mod for every Miata, and in this video our resident Miata Master Mechanic, Kyle ...",
+    "title": "Flyin&#39; Miata NA Miata Sway Bar Install",
+    "url": "https://www.youtube.com/watch?v=8tSuHJr1xdc"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "c9501eed027dcce7aca7",
+    "metadata": {
+      "labels": [
+        "install",
+        "dyno"
+      ],
+      "query": "Flyin' Miata Billet Rear Sway Bar Brackets 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/aEyQQHbZNFo/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "aEyQQHbZNFo"
+    },
+    "outlet": "Flyin' Miata",
+    "part_id": "miata-fm-billet-rear-sway-brackets",
+    "published_at": "2020-03-24T19:38:10Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "At 13:13, the correct torque spec for the sway bar bracket bolts is 15-18 lb-ft.) If you're only going to do one thing to your ND, this is ...",
+    "title": "ND MX-5 Flyin&#39; Miata Sway Bar Installation",
+    "url": "https://www.youtube.com/watch?v=aEyQQHbZNFo"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "d0936ef8a948f9c18644",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Flyin' Miata Billet Rear Sway Bar Brackets 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/_hua2jfmIkQ/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "_hua2jfmIkQ"
+    },
+    "outlet": "The Motorsport Story",
+    "part_id": "miata-fm-billet-rear-sway-brackets",
+    "published_at": "2022-11-26T17:43:19Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Sway bars (or anti roll bars) are one of the best, most cost effective handling mods for your car. We cover how they work, and how ...",
+    "title": "Sway Bars 101 | How They Work, How to Install, &amp; Why you need them! | (99 NB Miata)",
+    "url": "https://www.youtube.com/watch?v=_hua2jfmIkQ"
   },
   {
     "confidence": 0.99,
@@ -5972,6 +6804,111 @@
     "url": "https://flyinmiata.com/products/fox-suspension-for-nb-chassis"
   },
   {
+    "confidence": 0.76,
+    "id": "3e05c1ac0eff30132100",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Flyin' Miata / FOX FOX Suspension for NB 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/72LYrWGToso/mqdefault.jpg",
+      "token_overlap": 4,
+      "video_id": "72LYrWGToso"
+    },
+    "outlet": "TheDemonican",
+    "part_id": "miata-fm-fox-suspension",
+    "published_at": "2021-03-25T22:02:44Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Miaka my 2016 Turbocharged Miata is getting some new coil-overs. I partially unbox and show off the set-up from Flyin' Miata ...",
+    "title": "Flyin&#39; Miata&#39;s Fox Racing Suspension Unboxing",
+    "url": "https://www.youtube.com/watch?v=72LYrWGToso"
+  },
+  {
+    "confidence": 0.66,
+    "id": "c790f7ee8d0468c4fccd",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Flyin' Miata / FOX FOX Suspension for NB 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/wWtHgt_JLI0/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "wWtHgt_JLI0"
+    },
+    "outlet": "Formula Jake",
+    "part_id": "miata-fm-fox-suspension",
+    "published_at": "2023-01-30T14:00:36Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Are upgraded coilovers worth it? Definitely. And you get what you pay for. Check out the install and quick test of our new Flyin' ...",
+    "title": "Flyin&#39; Miata Coilover Install and Test",
+    "url": "https://www.youtube.com/watch?v=wWtHgt_JLI0"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "dbaf7040f0f5012e0db3",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Flyin' Miata / FOX FOX Suspension for NB 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/k187emmqyBc/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "k187emmqyBc"
+    },
+    "outlet": "Flyin' Miata",
+    "part_id": "miata-fm-fox-suspension",
+    "published_at": "2020-11-02T15:38:07Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "This week on FM Live, we wanted to show you a little behind the scenes peek at the suspension testing we do at Flyin' Miata.",
+    "title": "Miata Suspension Testing at the Track! (FM Live)",
+    "url": "https://www.youtube.com/watch?v=k187emmqyBc"
+  },
+  {
+    "confidence": 0.66,
+    "id": "ed418e30401aaae09e62",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Flyin' Miata / FOX FOX Suspension for NB 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/5Mm0EpcSpxA/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "5Mm0EpcSpxA"
+    },
+    "outlet": "Flyin' Miata",
+    "part_id": "miata-fm-fox-suspension",
+    "published_at": "2023-07-29T22:48:44Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Miatas have a reputation for outstanding handling, but after 20 years, time takes its toll. In this episode, we take the tired factory ...",
+    "title": "GOT HANDLING? Fox Racing Coilovers &amp; Sway Bars - Project Ron Episode 2",
+    "url": "https://www.youtube.com/watch?v=5Mm0EpcSpxA"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "ee94633066fce8848138",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Flyin' Miata / FOX FOX Suspension for NB 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/8QTKIeBcPqE/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "8QTKIeBcPqE"
+    },
+    "outlet": "Flyin' Miata",
+    "part_id": "miata-fm-fox-suspension",
+    "published_at": "2022-04-01T18:00:11Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Choosing the right suspension can be a little frustrating. What's best for your street car? What about track cars? Is comfortable ...",
+    "title": "How to Choose Your Suspension (FM Live)",
+    "url": "https://www.youtube.com/watch?v=8QTKIeBcPqE"
+  },
+  {
     "confidence": 0.98,
     "id": "d7fcedfc29ed362bee6a",
     "metadata": {
@@ -6120,7 +7057,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-fm-heavy-sway-mounts",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Same long-term 1999 NB report documents eventually damaging original sway mounts and replacing them with Flyin' Miata heavy-duty mounts.",
     "title": "Flyin' Miata sway-bar mount durability discussion",
@@ -6600,7 +7537,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-fm-sway-set",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Owner reports using Flyin' Miata front/rear sway bars on a 1999 Miata since 2007, improved handling, and later reinforcement of the sway-bar mounts.",
     "title": "Flyin' Miata sway bars on a 1999 NB - long-term owner discussion",
@@ -6945,7 +7882,7 @@
     "outlet": "flyinmiata.com",
     "part_id": "miata-koni-sport",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Adjustable-rebound Koni Sport dampers with polyurethane bumpstops; explicitly listed for 1999-2005 NB Miata.",
     "title": "Koni Sport Shock & Bump Stop Set fitment/product source",
@@ -6985,7 +7922,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-koni-stage1",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "NB owner discussion around Koni Sport dampers, Flyin' Miata springs, bump stops and suspension travel for HPDE/autocross use.",
     "title": "NB Koni Sport with Flyin' Miata spring setup discussion",
@@ -7766,7 +8703,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-vmaxx-classic",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Community comparison of standard V-Maxx and Flyin' Miata's version, including spring-package differences and ownership questions.",
     "title": "V-MAXX X-Street versus Flyin' Miata V-Maxx Classic",
@@ -7801,6 +8738,111 @@
     "summary": "Height-adjustable V-Maxx Classic coilover package listed specifically for the NB chassis.",
     "title": "Flyin' Miata / V-Maxx V-Maxx Classic Coilovers for NB fitment/product source",
     "url": "https://flyinmiata.com/collections/nb-handling-coilovers"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "8d6caaabe9a9290c47a4",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Flyin' Miata / V-Maxx V-Maxx Classic Coilovers for NB 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/fC6TMQllWUY/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "fC6TMQllWUY"
+    },
+    "outlet": "Joseph Stitt",
+    "part_id": "miata-vmaxx-classic",
+    "published_at": "2015-06-28T02:28:50Z",
+    "retrieved_at": "2026-09-21T12:52:04Z",
+    "source_type": "youtube",
+    "summary": "This is my fastest run from day 1 of the SEDIV autocross in Hoover with a 67.759. Mods: Flyin Miata Vmaxx Track Edition Coilovers ...",
+    "title": "1999 Mazda Miata June Hoover SEDIV Autocross Day 1 FTD",
+    "url": "https://www.youtube.com/watch?v=fC6TMQllWUY"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "9ac4751eeeeacdf40b3b",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Flyin' Miata / V-Maxx V-Maxx Classic Coilovers for NB 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/ZtZ5XeezFSk/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "ZtZ5XeezFSk"
+    },
+    "outlet": "Joseph Stitt",
+    "part_id": "miata-vmaxx-classic",
+    "published_at": "2015-04-12T23:00:28Z",
+    "retrieved_at": "2026-09-21T12:52:04Z",
+    "source_type": "youtube",
+    "summary": "This was my fastest run of the day with a 35.5s. Mods: Flyin Miata Vmaxx Track Edition Coilovers Kosei K4R 15x8 +38 Wheels ...",
+    "title": "1999 Mazda Miata Wiregrass AutoX 4/12/15",
+    "url": "https://www.youtube.com/watch?v=ZtZ5XeezFSk"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "a9fd0cabe81f37d0a77a",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Flyin' Miata / V-Maxx V-Maxx Classic Coilovers for NB 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/5pc4Z1Fpho4/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "5pc4Z1Fpho4"
+    },
+    "outlet": "220kwsnz",
+    "part_id": "miata-vmaxx-classic",
+    "published_at": "2019-05-09T08:55:56Z",
+    "retrieved_at": "2026-09-21T12:52:04Z",
+    "source_type": "youtube",
+    "summary": "Well, welcome to my channel and project mx-5. In this series watch me Forest Gump my way through trying to turn my stock NB ...",
+    "title": "Project MX-5 - Episode 3: Coilovers",
+    "url": "https://www.youtube.com/watch?v=5pc4Z1Fpho4"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "b19a809b04082f9cef4b",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Flyin' Miata / V-Maxx V-Maxx Classic Coilovers for NB 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/gtKA6Xp_L4I/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "gtKA6Xp_L4I"
+    },
+    "outlet": "Cody Cunningham",
+    "part_id": "miata-vmaxx-classic",
+    "published_at": "2020-05-02T19:38:22Z",
+    "retrieved_at": "2026-09-21T12:52:04Z",
+    "source_type": "youtube",
+    "summary": "EBC Green pads are no good, fade halfway through the session and STINK Tires 205/50 Conti ECS. Rubbing a little 15x8+20.",
+    "title": "NB Miata shakedown Pineview",
+    "url": "https://www.youtube.com/watch?v=gtKA6Xp_L4I"
+  },
+  {
+    "confidence": 0.66,
+    "id": "e7ed15e077b8bc3ff6cc",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Flyin' Miata / V-Maxx V-Maxx Classic Coilovers for NB 1999-2005 NB Miata install review",
+      "thumbnail": "https://i.ytimg.com/vi/oD_K73DYVao/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "oD_K73DYVao"
+    },
+    "outlet": "Miata-Focus",
+    "part_id": "miata-vmaxx-classic",
+    "published_at": "2018-11-11T17:34:52Z",
+    "retrieved_at": "2026-09-21T12:52:04Z",
+    "source_type": "youtube",
+    "summary": "Video walking through installing rear coilovers on my NB Miata.",
+    "title": "Miata Coilovers Rear",
+    "url": "https://www.youtube.com/watch?v=oD_K73DYVao"
   },
   {
     "confidence": 0.99,
@@ -8066,7 +9108,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-xida",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Detailed owner review covering street and autocross use.",
     "title": "949 Racing Xida coilover owner review",
@@ -8085,7 +9127,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-xida",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Long-running product thread with configuration and owner discussion.",
     "title": "Xida Club Sport Coilovers discussion",
@@ -8104,7 +9146,7 @@
     "outlet": "MX-5 Miata Forum",
     "part_id": "miata-xida",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Community setup discussion covering Xida families, ride heights and intended use.",
     "title": "How to Xida",
@@ -8249,7 +9291,7 @@
     "outlet": "steeda.com",
     "part_id": "mustang-airlift-s550-front-kit",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Air Lift Performance front suspension kit listed for S550 Mustang applications. Confirm body style, shock package and installation requirements before purchase.",
     "title": "Air Lift Performance S550 Front Suspension Kit fitment/product source",
@@ -8277,6 +9319,112 @@
     "url": "https://www.steeda.com/airliftperformance-78521-s550-front-suspension-kit"
   },
   {
+    "confidence": 0.7100000000000001,
+    "id": "4236e780dae82d65c95e",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Air Lift Performance S550 Front Suspension Kit 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/i8_Cyyh4hus/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "i8_Cyyh4hus"
+    },
+    "outlet": "CJ Pony Parts",
+    "part_id": "mustang-airlift-s550-front-kit",
+    "published_at": "2017-07-19T17:50:33Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Bill shows you how to install an Air Lift Performance Complete 3P Air Suspension Kit on your 2015-2023 Mustang. Purchase ...",
+    "title": "2015-2023 Mustang Air Lift Performance Air Suspension Kit 3P Complete Installation",
+    "url": "https://www.youtube.com/watch?v=i8_Cyyh4hus"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "7864cef70bb55790e518",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Air Lift Performance S550 Front Suspension Kit 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/JqnMXJeO_ow/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "JqnMXJeO_ow"
+    },
+    "outlet": "Jonathan Abrantes",
+    "part_id": "mustang-airlift-s550-front-kit",
+    "published_at": "2026-01-19T19:00:19Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Just a to the point video on how to do the air suspension install on the S550 Mustang.",
+    "title": "MaxLoadStance air suspension install on S550 Mustang | How to Install Air Suspension Quick",
+    "url": "https://www.youtube.com/watch?v=JqnMXJeO_ow"
+  },
+  {
+    "confidence": 0.66,
+    "id": "9c1048030580ad507479",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Air Lift Performance S550 Front Suspension Kit 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/ZZOli4F1OGA/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "ZZOli4F1OGA"
+    },
+    "outlet": "Lethal Performance",
+    "part_id": "mustang-airlift-s550-front-kit",
+    "published_at": "2024-03-20T16:00:24Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Today, we take the #teamlethal 2022 Mustang GT (that we're giving away!) on over to RSA Race Solutions in Boynton Beach, ...",
+    "title": "MUST HAVE S550 Mustang BMR Suspension Upgrades - We&#39;re GIVING THEM AWAY!",
+    "url": "https://www.youtube.com/watch?v=ZZOli4F1OGA"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "c81e0f3153e8a3f68180",
+    "metadata": {
+      "labels": [
+        "install",
+        "review"
+      ],
+      "query": "Air Lift Performance S550 Front Suspension Kit 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/lKLPCMJVilg/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "lKLPCMJVilg"
+    },
+    "outlet": "AmericanMuscle Mustang",
+    "part_id": "mustang-airlift-s550-front-kit",
+    "published_at": "2016-10-03T20:01:50Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "Shop Air Lift Performance Complete Suspension Kit: http://muscle.am/2i0odoq Subscribe for New Mustang & F-150 Videos Daily: ...",
+    "title": "2015-2017 Mustang Air Lift Performance Complete Suspension Kit - Digital Review &amp; Install",
+    "url": "https://www.youtube.com/watch?v=lKLPCMJVilg"
+  },
+  {
+    "confidence": 0.76,
+    "id": "eb67ffeb650933a4ef4f",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Air Lift Performance S550 Front Suspension Kit 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/y6sUf0kAYoM/mqdefault.jpg",
+      "token_overlap": 4,
+      "video_id": "y6sUf0kAYoM"
+    },
+    "outlet": "Chris Borges",
+    "part_id": "mustang-airlift-s550-front-kit",
+    "published_at": "2020-11-21T00:08:09Z",
+    "retrieved_at": "2026-09-21T12:52:03Z",
+    "source_type": "youtube",
+    "summary": "The Mustang GT is officially now bagged on Airlift v2 kit! I have always been a coilover(static) guy with the frs and now having ...",
+    "title": "Installing Air Bag Suspension On My S550 Mustang GT! (FIRST AIR OUT)",
+    "url": "https://www.youtube.com/watch?v=y6sUf0kAYoM"
+  },
+  {
     "confidence": 0.97,
     "id": "6ab29653e841fd1f3afc",
     "metadata": {
@@ -8291,7 +9439,7 @@
     "outlet": "steeda.com",
     "part_id": "mustang-steeda-brake-lines",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Steeda stainless braided front and rear brake-line set listed for 2015-2023 Mustang GT applications. Confirm Performance Pack, caliper and brake-line configuration before ordering.",
     "title": "Steeda Stainless Braided Brake Lines - Front and Rear fitment/product source",
@@ -8319,6 +9467,113 @@
     "url": "https://www.steeda.com/steeda-mustang-stainless-braided-brake-lines-2015-gt-555-6027.html"
   },
   {
+    "confidence": 0.76,
+    "id": "089bbaa91cdf267827ad",
+    "metadata": {
+      "labels": [
+        "install",
+        "dyno"
+      ],
+      "query": "Steeda Stainless Braided Brake Lines - Front and Rear 2015-2023 Ford Mustang GT S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/ab5JCF1yVyc/mqdefault.jpg",
+      "token_overlap": 4,
+      "video_id": "ab5JCF1yVyc"
+    },
+    "outlet": "Cole Hegwer",
+    "part_id": "mustang-steeda-brake-lines",
+    "published_at": "2018-08-01T21:09:29Z",
+    "retrieved_at": "2026-09-21T12:52:00Z",
+    "source_type": "youtube",
+    "summary": "In this video I'll be showing you how to install a set of stainless steel braided brake lines! Mine are from Fully Torqued Racing and ...",
+    "title": "EVERY CAR ENTHUSIAST MUST HAVE THIS $100 MOD!!",
+    "url": "https://www.youtube.com/watch?v=ab5JCF1yVyc"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "3713f048d780882a47c5",
+    "metadata": {
+      "labels": [
+        "install",
+        "review"
+      ],
+      "query": "Steeda Stainless Braided Brake Lines - Front and Rear 2015-2023 Ford Mustang GT S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/9hEVlABnFSk/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "9hEVlABnFSk"
+    },
+    "outlet": "Late Model Restoration (LMR)",
+    "part_id": "mustang-steeda-brake-lines",
+    "published_at": "2017-08-08T21:18:39Z",
+    "retrieved_at": "2026-09-21T12:52:00Z",
+    "source_type": "youtube",
+    "summary": "Buy Now: https://lmr.com/item/SVE-7512B/mustang-sve-clutch-fluid-line-upgrade-15-17 Upgrade your S550 clutch system with ...",
+    "title": "2015-2023 Mustang SVE Stainless Steel Clutch Fluid  Line Upgrade - Review &amp; Install",
+    "url": "https://www.youtube.com/watch?v=9hEVlABnFSk"
+  },
+  {
+    "confidence": 0.66,
+    "id": "9f51a14698e613720a64",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Steeda Stainless Braided Brake Lines - Front and Rear 2015-2023 Ford Mustang GT S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/2xrr2lk0I1A/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "2xrr2lk0I1A"
+    },
+    "outlet": "Steeda",
+    "part_id": "mustang-steeda-brake-lines",
+    "published_at": "2020-10-08T15:00:00Z",
+    "retrieved_at": "2026-09-21T12:52:00Z",
+    "source_type": "youtube",
+    "summary": "https://www.steeda.com/steeda-s550-heavy-duty-braided-clutch-line-2015-555-7016.html In this video, Team Steeda gives you a ...",
+    "title": "2015-2021 Mustang Steeda Heavy Duty Braided Hydraulic Clutch Line, 555 7016",
+    "url": "https://www.youtube.com/watch?v=2xrr2lk0I1A"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "c58d1279281bb724aa25",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Steeda Stainless Braided Brake Lines - Front and Rear 2015-2023 Ford Mustang GT S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/dkEw8Ohnsec/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "dkEw8Ohnsec"
+    },
+    "outlet": "Steeda",
+    "part_id": "mustang-steeda-brake-lines",
+    "published_at": "2025-04-24T16:00:57Z",
+    "retrieved_at": "2026-09-21T12:52:00Z",
+    "source_type": "youtube",
+    "summary": "While the factory rubber lines are necessary to allow for movement, they also allow for expansion. This gives your brake pedal a ...",
+    "title": "Fix Spongy Brakes with Stainless Steel Brake Lines!",
+    "url": "https://www.youtube.com/watch?v=dkEw8Ohnsec"
+  },
+  {
+    "confidence": 0.76,
+    "id": "e41ad30f7542fe7ed471",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Steeda Stainless Braided Brake Lines - Front and Rear 2015-2023 Ford Mustang GT S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/ho0V9eL7Pqw/mqdefault.jpg",
+      "token_overlap": 4,
+      "video_id": "ho0V9eL7Pqw"
+    },
+    "outlet": "Bobby",
+    "part_id": "mustang-steeda-brake-lines",
+    "published_at": "2023-04-05T18:43:03Z",
+    "retrieved_at": "2026-09-21T12:52:00Z",
+    "source_type": "youtube",
+    "summary": "YouTube result discovered by the ModPicker collector.",
+    "title": "Steeda\u2019s Steel braided brake lines. RTS\u2019n the Mach 1",
+    "url": "https://www.youtube.com/watch?v=ho0V9eL7Pqw"
+  },
+  {
     "confidence": 0.86,
     "id": "24e04b4745abde087241",
     "metadata": {
@@ -8333,7 +9588,7 @@
     "outlet": "steeda.com",
     "part_id": "mustang-steeda-handling-package",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Steeda S550 handling package combining chassis and suspension components. Verify the selected package contents, model-year revision and MagneRide compatibility.",
     "title": "Steeda S550 Handling Suspension Package fitment/product source",
@@ -8362,6 +9617,112 @@
   },
   {
     "confidence": 0.66,
+    "id": "21db0b44f3743716569f",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Steeda S550 Handling Suspension Package 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/ZZOli4F1OGA/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "ZZOli4F1OGA"
+    },
+    "outlet": "Lethal Performance",
+    "part_id": "mustang-steeda-handling-package",
+    "published_at": "2024-03-20T16:00:24Z",
+    "retrieved_at": "2026-09-21T12:52:02Z",
+    "source_type": "youtube",
+    "summary": "Today, we take the #teamlethal 2022 Mustang GT (that we're giving away!) on over to RSA Race Solutions in Boynton Beach, ...",
+    "title": "MUST HAVE S550 Mustang BMR Suspension Upgrades - We&#39;re GIVING THEM AWAY!",
+    "url": "https://www.youtube.com/watch?v=ZZOli4F1OGA"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "37fdf7c01779b964cd2a",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Steeda S550 Handling Suspension Package 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/mcggaxu8N8o/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "mcggaxu8N8o"
+    },
+    "outlet": "CJ Pony Parts",
+    "part_id": "mustang-steeda-handling-package",
+    "published_at": "2019-07-22T21:00:09Z",
+    "retrieved_at": "2026-09-21T12:52:02Z",
+    "source_type": "youtube",
+    "summary": "Bill and Brendan show you how to install Steeda Progressive Sport Lowering Springs on your 2015-2023 V6, GT or EcoBoost ...",
+    "title": "2015-2023 Ford Mustang Install: Steeda Progressive Sport Lowering Springs",
+    "url": "https://www.youtube.com/watch?v=mcggaxu8N8o"
+  },
+  {
+    "confidence": 0.66,
+    "id": "678ba118d2a4e7472cf0",
+    "metadata": {
+      "labels": [
+        "comparison"
+      ],
+      "query": "Steeda S550 Handling Suspension Package 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/ymgT9U2N_4Q/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "ymgT9U2N_4Q"
+    },
+    "outlet": "Steeda",
+    "part_id": "mustang-steeda-handling-package",
+    "published_at": "2023-01-01T20:00:14Z",
+    "retrieved_at": "2026-09-21T12:52:02Z",
+    "source_type": "youtube",
+    "summary": "When it comes to suspension, you are coming up short if you just buy lowering springs. Shocks and struts are designed to work in ...",
+    "title": "What Shocks &amp; Struts are Best for Your S550? Pro Active vs Pro Action vs Coilovers",
+    "url": "https://www.youtube.com/watch?v=ymgT9U2N_4Q"
+  },
+  {
+    "confidence": 0.66,
+    "id": "6e5dfd6f82964d4629a8",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Steeda S550 Handling Suspension Package 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/36V7e606kFA/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "36V7e606kFA"
+    },
+    "outlet": "Steeda",
+    "part_id": "mustang-steeda-handling-package",
+    "published_at": "2022-12-04T20:00:02Z",
+    "retrieved_at": "2026-09-21T12:52:02Z",
+    "source_type": "youtube",
+    "summary": "Take the Spring Quiz Now: https://www.steeda.com/s550-mustang-spring-guide When the S550 was announced with an ...",
+    "title": "Watch This BEFORE Buying Lowering Springs | S550 Mustang Spring Buying Guide",
+    "url": "https://www.youtube.com/watch?v=36V7e606kFA"
+  },
+  {
+    "confidence": 0.66,
+    "id": "cca4280f092011f7cccb",
+    "metadata": {
+      "labels": [
+        "install",
+        "review"
+      ],
+      "query": "Steeda S550 Handling Suspension Package 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/bnTniObWnWc/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "bnTniObWnWc"
+    },
+    "outlet": "Steeda",
+    "part_id": "mustang-steeda-handling-package",
+    "published_at": "2021-04-22T21:15:03Z",
+    "retrieved_at": "2026-09-21T12:52:02Z",
+    "source_type": "youtube",
+    "summary": "Taking your #GT350 to a new level can be a tall task considering how well this car performs from the factory, but Steeda was up to ...",
+    "title": "Reducing Wheel Hop &amp; Putting Power Down In Your S550 Mustang GT350 | Review &amp; Install",
+    "url": "https://www.youtube.com/watch?v=bnTniObWnWc"
+  },
+  {
+    "confidence": 0.66,
     "id": "c5b62322cf7abd1ba070",
     "metadata": {
       "curated": true,
@@ -8374,7 +9735,7 @@
     "outlet": "Mustang6G",
     "part_id": "mustang-steeda-intake",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Owner review with installation photos and driving impressions.",
     "title": "Steeda ProFlow intake + tune review",
@@ -8395,7 +9756,7 @@
     "outlet": "steeda.com",
     "part_id": "mustang-steeda-intake",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Steeda ProFlow cold-air intake for the 2015-2017 Mustang GT 5.0L. Steeda identifies the product as tune-required; confirm manifold, calibration and emissions requirements before purchase.",
     "title": "Steeda ProFlow Cold Air Intake - Tune Required fitment/product source",
@@ -8534,7 +9895,7 @@
     "outlet": "steeda.com",
     "part_id": "mustang-steeda-pp-rear-rotors",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Full-floating rear replacement rotors identified for Performance Pack-equipped 2015+ S550 Mustang GTs. The package restriction is preserved in the selector.",
     "title": "Steeda Performance Pack Rear Two-Piece Brake Rotors fitment/product source",
@@ -8562,6 +9923,111 @@
     "url": "https://www.steeda.com/steeda-performance-pack-rear-brake-rotor-s550-555-6033"
   },
   {
+    "confidence": 0.7100000000000001,
+    "id": "34c65a5707b2db785132",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Steeda Performance Pack Rear Two-Piece Brake Rotors 2015-2023 Ford Mustang GT Performance Package install review",
+      "thumbnail": "https://i.ytimg.com/vi/XS6EkJrexU0/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "XS6EkJrexU0"
+    },
+    "outlet": "R8CEHORSE",
+    "part_id": "mustang-steeda-pp-rear-rotors",
+    "published_at": "2019-08-26T00:32:54Z",
+    "retrieved_at": "2026-09-21T12:52:02Z",
+    "source_type": "youtube",
+    "summary": "This episode focuses on how-to upgrade the braking system of the late model Mustang. Several mods went into it including a ...",
+    "title": "Episode 18: Brake Upgrade. How-to install 2 piece rotors.",
+    "url": "https://www.youtube.com/watch?v=XS6EkJrexU0"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "36b946bebcfe72fa1a86",
+    "metadata": {
+      "labels": [
+        "review"
+      ],
+      "query": "Steeda Performance Pack Rear Two-Piece Brake Rotors 2015-2023 Ford Mustang GT Performance Package install review",
+      "thumbnail": "https://i.ytimg.com/vi/eRFXanZE-YA/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "eRFXanZE-YA"
+    },
+    "outlet": "Steeda",
+    "part_id": "mustang-steeda-pp-rear-rotors",
+    "published_at": "2021-02-25T22:47:50Z",
+    "retrieved_at": "2026-09-21T12:52:02Z",
+    "source_type": "youtube",
+    "summary": "Stopping your #Mustang is just as important as speeding it up on the road course. Steeda recognizes this, and this is why we ...",
+    "title": "Steeda S550 Mustang GT Front &amp; Rear Two-Piece Rotor Set | Review",
+    "url": "https://www.youtube.com/watch?v=eRFXanZE-YA"
+  },
+  {
+    "confidence": 0.76,
+    "id": "3ec126e0ced81e770ca7",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Steeda Performance Pack Rear Two-Piece Brake Rotors 2015-2023 Ford Mustang GT Performance Package install review",
+      "thumbnail": "https://i.ytimg.com/vi/zndzi19rtPo/mqdefault.jpg",
+      "token_overlap": 4,
+      "video_id": "zndzi19rtPo"
+    },
+    "outlet": "Steeda",
+    "part_id": "mustang-steeda-pp-rear-rotors",
+    "published_at": "2022-04-19T18:47:24Z",
+    "retrieved_at": "2026-09-21T12:52:02Z",
+    "source_type": "youtube",
+    "summary": "When it comes to stopping power, ensuring your brakes stay cool and breathable is incredibly important. Learn from Jamie and ...",
+    "title": "Steeda Two-Piece Rotor Orientation On S550 Mustang | Tech Tip",
+    "url": "https://www.youtube.com/watch?v=zndzi19rtPo"
+  },
+  {
+    "confidence": 0.66,
+    "id": "93ab479ef98d9495df5f",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Steeda Performance Pack Rear Two-Piece Brake Rotors 2015-2023 Ford Mustang GT Performance Package install review",
+      "thumbnail": "https://i.ytimg.com/vi/cDwjhn_D_O0/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "cDwjhn_D_O0"
+    },
+    "outlet": "Late Model Restoration (LMR)",
+    "part_id": "mustang-steeda-pp-rear-rotors",
+    "published_at": "2018-03-13T01:59:26Z",
+    "retrieved_at": "2026-09-21T12:52:02Z",
+    "source_type": "youtube",
+    "summary": "Upgrade the factory brake rotors on your 2015-2023 S550 Mustang with a set of drilled or slotted rotors. With a slotted or ...",
+    "title": "How To Change Mustang Brake Pads &amp; Rotors (2015-2023)",
+    "url": "https://www.youtube.com/watch?v=cDwjhn_D_O0"
+  },
+  {
+    "confidence": 0.81,
+    "id": "a4edbcc9edd20becf7d5",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Steeda Performance Pack Rear Two-Piece Brake Rotors 2015-2023 Ford Mustang GT Performance Package install review",
+      "thumbnail": "https://i.ytimg.com/vi/pgi3KWouLZ0/mqdefault.jpg",
+      "token_overlap": 5,
+      "video_id": "pgi3KWouLZ0"
+    },
+    "outlet": "DISS1DENT L1FE",
+    "part_id": "mustang-steeda-pp-rear-rotors",
+    "published_at": "2020-03-04T02:27:06Z",
+    "retrieved_at": "2026-09-21T12:52:02Z",
+    "source_type": "youtube",
+    "summary": "Upgrading the stock \u201cPerformance Package\u201d brake rotors with Eradispeed+ Rotors from Baer Brakes. These two piece rotors have ...",
+    "title": "Baer Rotors for S550 Mustangs!",
+    "url": "https://www.youtube.com/watch?v=pgi3KWouLZ0"
+  },
+  {
     "confidence": 0.93,
     "id": "54715cc8138254ba2225",
     "metadata": {
@@ -8576,7 +10042,7 @@
     "outlet": "steeda.com",
     "part_id": "mustang-steeda-progressive-springs",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Progressive-rate Steeda lowering springs listed for Mustang applications spanning the S550 model years. Confirm body, MagneRide, axle load and required alignment hardware.",
     "title": "Steeda Sport Lowering Springs - Progressive fitment/product source",
@@ -8604,6 +10070,111 @@
     "url": "https://www.steeda.com/steeda-mustang-progressive-sport-lowering-springs_555-8210"
   },
   {
+    "confidence": 0.76,
+    "id": "0740a73c2dd9093955e3",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Steeda Sport Lowering Springs - Progressive 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/chvSkZapDoY/mqdefault.jpg",
+      "token_overlap": 4,
+      "video_id": "chvSkZapDoY"
+    },
+    "outlet": "Steeda",
+    "part_id": "mustang-steeda-progressive-springs",
+    "published_at": "2019-01-29T21:31:19Z",
+    "retrieved_at": "2026-09-21T12:52:01Z",
+    "source_type": "youtube",
+    "summary": "https://www.steeda.com/steeda-mustang-sport-springs-progressive-2015-gt-v6-coupe-555-8210.html Springs are the foundation ...",
+    "title": "Steeda S550 Mustang Sport Lowering Springs Progressive",
+    "url": "https://www.youtube.com/watch?v=chvSkZapDoY"
+  },
+  {
+    "confidence": 0.76,
+    "id": "6f7171ff8ef27fe46c47",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Steeda Sport Lowering Springs - Progressive 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/mcggaxu8N8o/mqdefault.jpg",
+      "token_overlap": 4,
+      "video_id": "mcggaxu8N8o"
+    },
+    "outlet": "CJ Pony Parts",
+    "part_id": "mustang-steeda-progressive-springs",
+    "published_at": "2019-07-22T21:00:09Z",
+    "retrieved_at": "2026-09-21T12:52:01Z",
+    "source_type": "youtube",
+    "summary": "Bill and Brendan show you how to install Steeda Progressive Sport Lowering Springs on your 2015-2023 V6, GT or EcoBoost ...",
+    "title": "2015-2023 Ford Mustang Install: Steeda Progressive Sport Lowering Springs",
+    "url": "https://www.youtube.com/watch?v=mcggaxu8N8o"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "743291450e16e38d7eee",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Steeda Sport Lowering Springs - Progressive 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/O3f2xxVTMFE/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "O3f2xxVTMFE"
+    },
+    "outlet": "dv8aroldo",
+    "part_id": "mustang-steeda-progressive-springs",
+    "published_at": "2024-09-24T21:06:56Z",
+    "retrieved_at": "2026-09-21T12:52:01Z",
+    "source_type": "youtube",
+    "summary": "Thank you for Tuning in to this video\u2713 I hope that all of you enjoy this video and feel free to comment down below!!! DON'T ...",
+    "title": "2022 MUSTANG GT STEEDA LOWERING SPRINGS INSTALL\ud83e\udd18\ud83c\udffd\ud83d\udcaf **AKA CROWD CONTROL** #shorts",
+    "url": "https://www.youtube.com/watch?v=O3f2xxVTMFE"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "99af9802027318c716dc",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Steeda Sport Lowering Springs - Progressive 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/36V7e606kFA/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "36V7e606kFA"
+    },
+    "outlet": "Steeda",
+    "part_id": "mustang-steeda-progressive-springs",
+    "published_at": "2022-12-04T20:00:02Z",
+    "retrieved_at": "2026-09-21T12:52:01Z",
+    "source_type": "youtube",
+    "summary": "Take the Spring Quiz Now: https://www.steeda.com/s550-mustang-spring-guide When the S550 was announced with an ...",
+    "title": "Watch This BEFORE Buying Lowering Springs | S550 Mustang Spring Buying Guide",
+    "url": "https://www.youtube.com/watch?v=36V7e606kFA"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "9f56b370e976f77017cf",
+    "metadata": {
+      "labels": [
+        "review"
+      ],
+      "query": "Steeda Sport Lowering Springs - Progressive 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/ViQnlmnHSRY/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "ViQnlmnHSRY"
+    },
+    "outlet": "Red5oh",
+    "part_id": "mustang-steeda-progressive-springs",
+    "published_at": "2025-10-07T21:00:35Z",
+    "retrieved_at": "2026-09-21T12:52:01Z",
+    "source_type": "youtube",
+    "summary": "Today we review the Steeda lowering springs that I have had on my 2019 Mustang GT for 3 years. I daily drive my mustang with ...",
+    "title": "3 Year Review Of Steeda Springs | Daily Driving A LOWERED Mustang",
+    "url": "https://www.youtube.com/watch?v=ViQnlmnHSRY"
+  },
+  {
     "confidence": 0.88,
     "id": "3fd84af6afa6ee6ca524",
     "metadata": {
@@ -8618,11 +10189,117 @@
     "outlet": "whitelineperformance.com",
     "part_id": "mustang-whiteline-sway-kit",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Whiteline front and rear sway-bar vehicle kit for the Mustang S550/S650 chassis. Verify the exact bar package and electronic suspension options for the selected car.",
     "title": "Whiteline Front and Rear Sway Bar Vehicle Kit fitment/product source",
     "url": "https://whitelineperformance.com/us/front-and-rear-sway-bar-vehicle-kit-to-suit-ford-mustang-s550-and-s650-9986-bfk006.html"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "acebc9512d623a45d57e",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Whiteline Front and Rear Sway Bar Vehicle Kit 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/NEPhkEOnf0M/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "NEPhkEOnf0M"
+    },
+    "outlet": "Jager Racing",
+    "part_id": "mustang-whiteline-sway-kit",
+    "published_at": "2021-11-10T04:01:40Z",
+    "retrieved_at": "2026-09-21T12:52:01Z",
+    "source_type": "youtube",
+    "summary": "Mustang Episode 15 Whiteline Parts: On this episode I install a slew of Whiteline suspension parts onto the S550 Ford Mustang in ...",
+    "title": "S550 Ford Mustang Whiteline Suspension Parts Installation",
+    "url": "https://www.youtube.com/watch?v=NEPhkEOnf0M"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "c759979e038dcf66a7dd",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Whiteline Front and Rear Sway Bar Vehicle Kit 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/2XjflAYeDIM/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "2XjflAYeDIM"
+    },
+    "outlet": "FatGuyBuilds",
+    "part_id": "mustang-whiteline-sway-kit",
+    "published_at": "2020-12-25T10:00:01Z",
+    "retrieved_at": "2026-09-21T12:52:01Z",
+    "source_type": "youtube",
+    "summary": "https://www.patreon.com/FatGuyBuilds In this video I show you how to install new swaybars!!!",
+    "title": "2015-2026 Ford Mustang -Sway Bar Upgrade- Whiteline Performance Suspension",
+    "url": "https://www.youtube.com/watch?v=2XjflAYeDIM"
+  },
+  {
+    "confidence": 0.66,
+    "id": "e953cd6e71dae7e7d5c8",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Whiteline Front and Rear Sway Bar Vehicle Kit 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/0cnkGsT4qCI/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "0cnkGsT4qCI"
+    },
+    "outlet": "CJ Pony Parts",
+    "part_id": "mustang-whiteline-sway-kit",
+    "published_at": "2015-02-23T16:30:55Z",
+    "retrieved_at": "2026-09-21T12:52:01Z",
+    "source_type": "youtube",
+    "summary": "Bill shows you how to install a Steeda Front Sway Bar on your 2015-2023 Mustang. Purchase Product Here: Steeda Rear Sway ...",
+    "title": "2015-2023 Mustang Steeda Front and Rear Sway Bar Installation",
+    "url": "https://www.youtube.com/watch?v=0cnkGsT4qCI"
+  },
+  {
+    "confidence": 0.66,
+    "id": "eec1de543a305102e5be",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Whiteline Front and Rear Sway Bar Vehicle Kit 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/a8XgDKVqcyM/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "a8XgDKVqcyM"
+    },
+    "outlet": "CJ Pony Parts",
+    "part_id": "mustang-whiteline-sway-kit",
+    "published_at": "2017-08-25T15:31:07Z",
+    "retrieved_at": "2026-09-21T12:52:01Z",
+    "source_type": "youtube",
+    "summary": "Product Link: https://www.cjponyparts.com/pedders-rear-sway-bar-25mm-sportsryder-tubular-adjustable-2015-2019/p/42902425/ ...",
+    "title": "2015-2023 Mustang Pedders Rear Sway Bar 25MM SportsRyder Tubular Adjustable Installation",
+    "url": "https://www.youtube.com/watch?v=a8XgDKVqcyM"
+  },
+  {
+    "confidence": 0.66,
+    "id": "f3ff6f8afb4ea3c3b9c2",
+    "metadata": {
+      "labels": [
+        "install",
+        "review"
+      ],
+      "query": "Whiteline Front and Rear Sway Bar Vehicle Kit 2015-2023 Ford Mustang S550 install review",
+      "thumbnail": "https://i.ytimg.com/vi/CPkVoCOQV1I/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "CPkVoCOQV1I"
+    },
+    "outlet": "Late Model Restoration (LMR)",
+    "part_id": "mustang-whiteline-sway-kit",
+    "published_at": "2017-12-07T01:52:44Z",
+    "retrieved_at": "2026-09-21T12:52:01Z",
+    "source_type": "youtube",
+    "summary": "The item shown in this video has been discontinued. This video can still be used for technical and informational purposes. Sway ...",
+    "title": "2015-2023 Mustang Steeda Front Sway Bar - Review &amp; Install",
+    "url": "https://www.youtube.com/watch?v=CPkVoCOQV1I"
   },
   {
     "confidence": 0.7100000000000001,
@@ -9104,11 +10781,116 @@
     "outlet": "apexwheels.com",
     "part_id": "z3-apex-wheels",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Lightweight ARC-8 wheel family commonly used on BMW fitments; width, diameter and offset must be selected for the specific Z3 setup.",
     "title": "APEX ARC-8 Wheel Set fitment/product source",
     "url": "https://apexwheels.com/fitment-guides/bmw/z3/bmw-z3-wheel-and-tire-fitment-guide"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "2c44cdd8047a4f3aecec",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "APEX ARC-8 Wheel Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/DsG7P7tGgL4/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "DsG7P7tGgL4"
+    },
+    "outlet": "Chrys Gaines",
+    "part_id": "z3-apex-wheels",
+    "published_at": "2025-05-10T03:21:04Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "YouTube result discovered by the ModPicker collector.",
+    "title": "6 reasons wheel spacers will/wont ruin your car",
+    "url": "https://www.youtube.com/watch?v=DsG7P7tGgL4"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "43c2099815f61c1ded1f",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "APEX ARC-8 Wheel Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/_2njOJaZeTA/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "_2njOJaZeTA"
+    },
+    "outlet": "Alphonse Monthei",
+    "part_id": "z3-apex-wheels",
+    "published_at": "2019-02-18T00:53:55Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "YouTube result discovered by the ModPicker collector.",
+    "title": "Turner Spacer with Apex Arc 8 Wheel",
+    "url": "https://www.youtube.com/watch?v=_2njOJaZeTA"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "89440d54dee46d612767",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "APEX ARC-8 Wheel Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/TMGoRGFHdSE/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "TMGoRGFHdSE"
+    },
+    "outlet": "Blake's Garage",
+    "part_id": "z3-apex-wheels",
+    "published_at": "2019-08-16T21:54:53Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "New Apex Forged Wheels ARC-8r and EC-7r Sign up for the group buy to lock in the size and spec you want save up to $400 and ...",
+    "title": "NEW APEX ARC-8r FORGED WHEELS FOR THE BMW M4",
+    "url": "https://www.youtube.com/watch?v=TMGoRGFHdSE"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "ca46231350958ef6e698",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "APEX ARC-8 Wheel Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/7bKCD0kKf3A/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "7bKCD0kKf3A"
+    },
+    "outlet": "Blake's Garage",
+    "part_id": "z3-apex-wheels",
+    "published_at": "2019-04-12T12:00:00Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "Figured I post some cool BMW E30 Content for ya on my Birthday and what better thing than some new wheels from Apex Racing.",
+    "title": "BMW E30 GETS NEW APEX ARC-8 WHEELS",
+    "url": "https://www.youtube.com/watch?v=7bKCD0kKf3A"
+  },
+  {
+    "confidence": 0.66,
+    "id": "e782129b16132c5d0090",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "APEX ARC-8 Wheel Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/WMHrkgKbfd4/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "WMHrkgKbfd4"
+    },
+    "outlet": "David Turnipseed",
+    "part_id": "z3-apex-wheels",
+    "published_at": "2015-07-30T02:51:46Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "Before camber adjustment 18x9.5 et22 - 265/35-18 Square. E46 M3.",
+    "title": "Apex Arc-8 18x9.5 et22 square.  Scrub test.",
+    "url": "https://www.youtube.com/watch?v=WMHrkgKbfd4"
   },
   {
     "confidence": 0.67,
@@ -9123,7 +10905,7 @@
     "outlet": "Bimmerforums",
     "part_id": "z3-bilstein-hr-package",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Z3 owner discussion comparing Bilstein/H&R, Koni and other suspension choices, including ride-quality tradeoffs.",
     "title": "Z3 Bilstein and H&R ride-quality discussion",
@@ -9144,7 +10926,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-bilstein-hr-package",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Matched H&R Sport spring and Bilstein Sport/B8 damper package explicitly listed for non-M Z3 applications including 2.8.",
     "title": "H&R / Bilstein H&R Sport Spring + Bilstein Sport/B8 Package fitment/product source",
@@ -9165,7 +10947,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-bosch-coils",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "OEM-style ignition coil refresh option for the M52TU. Exact coil design and connector application must be verified.",
     "title": "Bosch Ignition Coil Set fitment/product source",
@@ -9186,11 +10968,116 @@
     "outlet": "continentaltire.com",
     "part_id": "z3-conti-ecs02",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "manufacturer",
     "summary": "Max-performance summer tire option; exact tire size must be matched to the selected wheel package and Z3 clearance.",
     "title": "Continental ExtremeContact Sport 02 Tire Set fitment/product source",
     "url": "https://continentaltire.com/tires/extremecontact-sport-02"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "0bdf49ca8949c3e8648d",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Continental ExtremeContact Sport 02 Tire Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/7mFrukzDl8M/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "7mFrukzDl8M"
+    },
+    "outlet": "Fitment Industries",
+    "part_id": "z3-conti-ecs02",
+    "published_at": "2023-03-27T22:34:18Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "youtube",
+    "summary": "YouTube result discovered by the ModPicker collector.",
+    "title": "Is this the best tire that money can buy? #shorts",
+    "url": "https://www.youtube.com/watch?v=7mFrukzDl8M"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "9542e27990ddaa093314",
+    "metadata": {
+      "labels": [
+        "review"
+      ],
+      "query": "Continental ExtremeContact Sport 02 Tire Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/0qBRSbsWV8o/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "0qBRSbsWV8o"
+    },
+    "outlet": "Review Infinite",
+    "part_id": "z3-conti-ecs02",
+    "published_at": "2021-07-04T17:00:01Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "youtube",
+    "summary": "Best BMW Tires featured in this video: 1 Michelin Premier A/S https://www.amazon.com/dp/B07CSXWLCV?tag=reviewinfinite1-20 ...",
+    "title": "Top 10 Best BMW Tires Review in 2025",
+    "url": "https://www.youtube.com/watch?v=0qBRSbsWV8o"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "b8879b9955f2fad8292e",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Continental ExtremeContact Sport 02 Tire Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/-2yuYUWWmBo/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "-2yuYUWWmBo"
+    },
+    "outlet": "Fitment Industries",
+    "part_id": "z3-conti-ecs02",
+    "published_at": "2021-05-11T22:00:01Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "youtube",
+    "summary": "Check out the Advan Apex V601 HERE: https://bit.ly/3oeVbDJ Today Sean does a quick overview of what makes the Yokohama ...",
+    "title": "The Best Performance Tire Under $900",
+    "url": "https://www.youtube.com/watch?v=-2yuYUWWmBo"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "dd6b57d27d15cfea8c1c",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Continental ExtremeContact Sport 02 Tire Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/FzYHbH4ZJtw/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "FzYHbH4ZJtw"
+    },
+    "outlet": "Consumer Reports",
+    "part_id": "z3-conti-ecs02",
+    "published_at": "2024-10-24T19:00:06Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "youtube",
+    "summary": "Consumer Reports tests dozens of tire models across various climates and conditions each year. Our comprehensive evaluations ...",
+    "title": "Consumer Reports 2025 Tire Top Picks",
+    "url": "https://www.youtube.com/watch?v=FzYHbH4ZJtw"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "f5a77ef5aa70f103c1ac",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Continental ExtremeContact Sport 02 Tire Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/_a8-gV8fq58/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "_a8-gV8fq58"
+    },
+    "outlet": "MartiniWorks",
+    "part_id": "z3-conti-ecs02",
+    "published_at": "2025-06-03T23:39:20Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
+    "source_type": "youtube",
+    "summary": "Shopping for new tires can feel overwhelming. With hundreds of options and confusing marketing buzzwords like \"ultra-high ...",
+    "title": "What Tires Are BEST For YOU?",
+    "url": "https://www.youtube.com/watch?v=_a8-gV8fq58"
   },
   {
     "confidence": 0.99,
@@ -9207,7 +11094,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-genuine-heater-inlet-pipe",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Genuine BMW heater inlet pipe listed for 1999-2002 Z3 2.8; an aging cooling-system hard part.",
     "title": "Genuine BMW Heater Inlet Pipe fitment/product source",
@@ -9228,7 +11115,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-genuine-lower-rad-hose",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Genuine BMW lower radiator hose explicitly listed for 1999-2002 Z3 2.8.",
     "title": "Genuine BMW Lower Radiator Hose - M52TU/M54 Z3 fitment/product source",
@@ -9249,11 +11136,32 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-genuine-upper-rad-hose",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Genuine BMW upper radiator hose explicitly listed for 1999-2002 Z3 2.8.",
     "title": "Genuine BMW Upper Radiator Hose - M52TU/M54 Z3 fitment/product source",
     "url": "https://www.turnermotorsport.com/p-19209-upper-radiator-hose-z3-23-25i-28-30i/"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "bc2a474f56b5c346c8d6",
+    "metadata": {
+      "labels": [
+        "problem"
+      ],
+      "query": "Genuine BMW Upper Radiator Hose - M52TU/M54 Z3 1999-2002 BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/d_oPL1M5Ge0/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "d_oPL1M5Ge0"
+    },
+    "outlet": "Repair Fanatic",
+    "part_id": "z3-genuine-upper-rad-hose",
+    "published_at": "2015-05-31T21:03:39Z",
+    "retrieved_at": "2026-09-21T12:52:05Z",
+    "source_type": "youtube",
+    "summary": "I Will Greatly Appreciate If You Can Give My Video Thumbs Up And Subscribe To See Future Videos Thank You Very Much ...",
+    "title": "Smoking Engine For Air/Oil Leak BMW 5 Series 3 Series E90 E39 528I 328I M5 M3",
+    "url": "https://www.youtube.com/watch?v=d_oPL1M5Ge0"
   },
   {
     "confidence": 0.74,
@@ -9270,11 +11178,32 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-goodridge-lines",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Stainless brake hose upgrade intended to improve pedal consistency. Exact hose count and chassis application must be verified.",
     "title": "Goodridge Stainless Brake Line Kit fitment/product source",
     "url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.66,
+    "id": "9d8f6ffd323987c89ad6",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Goodridge Stainless Brake Line Kit BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/U75hngHQXB0/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "U75hngHQXB0"
+    },
+    "outlet": "Craftsman Chris",
+    "part_id": "z3-goodridge-lines",
+    "published_at": "2023-03-29T17:57:58Z",
+    "retrieved_at": "2026-09-21T12:52:07Z",
+    "source_type": "youtube",
+    "summary": "YouTube result discovered by the ModPicker collector.",
+    "title": "Double flare on a brake line - How to #shorts  #mechanic #repair #diy",
+    "url": "https://www.youtube.com/watch?v=U75hngHQXB0"
   },
   {
     "confidence": 0.94,
@@ -9291,7 +11220,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-hr-front-sway",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "28mm adjustable H&R front anti-roll bar listed by Turner for BMW Z3 applications including the 2.8.",
     "title": "H&R 28mm Adjustable Front Sway Bar fitment/product source",
@@ -9312,11 +11241,116 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-ie-subframe",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Rear subframe bushing option for reducing compliance and refreshing aging Z3 rear suspension mounting points.",
     "title": "Ireland Engineering Rear Subframe Bushing Kit fitment/product source",
     "url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.66,
+    "id": "1f06b02a3c3522253e63",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Ireland Engineering Rear Subframe Bushing Kit BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/CWYPKGBFZkA/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "CWYPKGBFZkA"
+    },
+    "outlet": "Driven To Failure",
+    "part_id": "z3-ie-subframe",
+    "published_at": "2022-07-17T22:53:48Z",
+    "retrieved_at": "2026-09-21T12:52:07Z",
+    "source_type": "youtube",
+    "summary": "Follow along as I wrestle 20yr old rubber in the sauna while swimming in brake fluid. But really, I am replacing the Rear Trailing ...",
+    "title": "BMW Z3 - RTABS, Subframe Bushings, and Wheel Bearings(rear) Replacement",
+    "url": "https://www.youtube.com/watch?v=CWYPKGBFZkA"
+  },
+  {
+    "confidence": 0.66,
+    "id": "6c5aafb8176d7ee03047",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Ireland Engineering Rear Subframe Bushing Kit BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/XJmcdVpCSP8/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "XJmcdVpCSP8"
+    },
+    "outlet": "Andrew H. Kim",
+    "part_id": "z3-ie-subframe",
+    "published_at": "2020-08-28T16:00:10Z",
+    "retrieved_at": "2026-09-21T12:52:07Z",
+    "source_type": "youtube",
+    "summary": "Feeling generous? https://buymeacoffee.com/andrewhkim \u2615\ufe0f\u2615\ufe0f\u2615\ufe0f Time to do the dreaded subframe bushings & rear trailing ...",
+    "title": "Easy E30 / E36 / Z3 Subframe Bushings &amp; RTABs // Part 1 - Disassembly",
+    "url": "https://www.youtube.com/watch?v=XJmcdVpCSP8"
+  },
+  {
+    "confidence": 0.66,
+    "id": "c23fed41ec1a0b50e7fe",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Ireland Engineering Rear Subframe Bushing Kit BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/TSwlV0U7Zgs/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "TSwlV0U7Zgs"
+    },
+    "outlet": "Treats On The Streets",
+    "part_id": "z3-ie-subframe",
+    "published_at": "2019-02-17T01:15:01Z",
+    "retrieved_at": "2026-09-21T12:52:07Z",
+    "source_type": "youtube",
+    "summary": "Part 1: https://youtu.be/pixQ1Y9Thg4 Part 2: https://youtu.be/S6OMUSa1lzI \u25bbMake your car look like mine! Links on my website ...",
+    "title": "E36 M3 GETS NEW DIFF AND SUBFRAME BUSHINGS!",
+    "url": "https://www.youtube.com/watch?v=TSwlV0U7Zgs"
+  },
+  {
+    "confidence": 0.66,
+    "id": "f4f2c2898aba101c041d",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Ireland Engineering Rear Subframe Bushing Kit BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/mBc5ST5rBSU/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "mBc5ST5rBSU"
+    },
+    "outlet": "SV Mr P",
+    "part_id": "z3-ie-subframe",
+    "published_at": "2023-01-05T17:01:08Z",
+    "retrieved_at": "2026-09-21T12:52:07Z",
+    "source_type": "youtube",
+    "summary": "How to remove rear subframe bushings on a BMW Z3 with no special tools required.",
+    "title": "BMW Z3 Subframe Bushings Removal With No Special Tools Required",
+    "url": "https://www.youtube.com/watch?v=mBc5ST5rBSU"
+  },
+  {
+    "confidence": 0.66,
+    "id": "f816ce31d72d198f66da",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Ireland Engineering Rear Subframe Bushing Kit BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/YeYO9iUhNkg/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "YeYO9iUhNkg"
+    },
+    "outlet": "Coolcat's Alley",
+    "part_id": "z3-ie-subframe",
+    "published_at": "2025-07-09T22:31:56Z",
+    "retrieved_at": "2026-09-21T12:52:07Z",
+    "source_type": "youtube",
+    "summary": "BMW E30/E36/Z3 Rear Subframe Bushing Removal and Installation. Watch BMW E30/Z3 Diff Mount Bushing Replacement ...",
+    "title": "How I Replaced the Rear Subframe Bushings on My BMW Z3 (NO BURNING/NO DRILLING)",
+    "url": "https://www.youtube.com/watch?v=YeYO9iUhNkg"
   },
   {
     "confidence": 1,
@@ -9333,7 +11367,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-mahle-expansion-tank",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "OEM-supplier Mahle-Behr expansion tank explicitly listed for 1999-2002 Z3 2.8. This is an age-sensitive cooling-system maintenance component rather than a performance upgrade.",
     "title": "Mahle-Behr Coolant Expansion Tank fitment/product source",
@@ -9439,7 +11473,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-ngk-plugs",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Maintenance-oriented spark plug set for the M52TU catalog. Exact NGK part number should be checked against production date.",
     "title": "NGK Laser Platinum Spark Plug Set fitment/product source",
@@ -9460,11 +11494,95 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-short-shifter",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Short-shift solution for a more direct shift feel; exact transmission and selector-rod compatibility must be verified.",
     "title": "Rogue Engineering Short Shift Kit fitment/product source",
     "url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "6dc97ad4dc37db90922e",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Rogue Engineering Short Shift Kit BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/lSL0OXYXZf4/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "lSL0OXYXZf4"
+    },
+    "outlet": "Simon Roth",
+    "part_id": "z3-short-shifter",
+    "published_at": "2024-10-08T03:07:28Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "YouTube result discovered by the ModPicker collector.",
+    "title": "Quick install on the E46 \ud83c\udfc1 So excited to upgrade the whole feel of this car with this shifter #e46",
+    "url": "https://www.youtube.com/watch?v=lSL0OXYXZf4"
+  },
+  {
+    "confidence": 0.66,
+    "id": "6e0decbab30c549ffd37",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Rogue Engineering Short Shift Kit BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/jEDQcVQC6QE/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "jEDQcVQC6QE"
+    },
+    "outlet": "Paw X",
+    "part_id": "z3-short-shifter",
+    "published_at": "2010-10-31T22:51:52Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "short shifter M3 E36.",
+    "title": "short shifter M3 E36",
+    "url": "https://www.youtube.com/watch?v=jEDQcVQC6QE"
+  },
+  {
+    "confidence": 0.66,
+    "id": "8226b1a7089b4470b8a1",
+    "metadata": {
+      "labels": [
+        "comparison"
+      ],
+      "query": "Rogue Engineering Short Shift Kit BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/TfYrAgJaHDI/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "TfYrAgJaHDI"
+    },
+    "outlet": "CaseSensitive",
+    "part_id": "z3-short-shifter",
+    "published_at": "2024-07-12T09:04:32Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "just the Z3M Shifter and a new OEM plastic bushing part number 25117527254.",
+    "title": "BMW E36 Z3M Short Shifter comparison with Stock",
+    "url": "https://www.youtube.com/watch?v=TfYrAgJaHDI"
+  },
+  {
+    "confidence": 0.66,
+    "id": "d9907e3ac94f4fae2f75",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Rogue Engineering Short Shift Kit BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/aZV_MYxAUR4/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "aZV_MYxAUR4"
+    },
+    "outlet": "Saltgrain Racing",
+    "part_id": "z3-short-shifter",
+    "published_at": "2021-09-28T09:58:58Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "YouTube result discovered by the ModPicker collector.",
+    "title": "Shortshifter Travel Test #shorts #bmw #cars #technology",
+    "url": "https://www.youtube.com/watch?v=aZV_MYxAUR4"
   },
   {
     "confidence": 0.66,
@@ -9481,11 +11599,116 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-silicone-hoses",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Mishimoto Silicone Coolant Hose Kit cataloged as a Z3 cooling-system option. Exact engine/application must be verified.",
     "title": "Mishimoto Silicone Coolant Hose Kit fitment/product source",
     "url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "07e16f869632288ec4f5",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Mishimoto Silicone Coolant Hose Kit BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/bG6wfXJz34M/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "bG6wfXJz34M"
+    },
+    "outlet": "Mishimoto Automotive",
+    "part_id": "z3-silicone-hoses",
+    "published_at": "2015-06-04T19:14:11Z",
+    "retrieved_at": "2026-09-21T12:52:06Z",
+    "source_type": "youtube",
+    "summary": "Facebook: http://www.facebook.com/GoMishimoto Twitter: http://www.Twitter.com/Mishimoto Instagram: http://www.",
+    "title": "1992\u20131999 BMW E36 Performance Fan Shroud Kit Installation Guide By Mishimoto",
+    "url": "https://www.youtube.com/watch?v=bG6wfXJz34M"
+  },
+  {
+    "confidence": 0.66,
+    "id": "3e220b8984719e9ec24c",
+    "metadata": {
+      "labels": [
+        "review"
+      ],
+      "query": "Mishimoto Silicone Coolant Hose Kit BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/b8ef_4XoIr0/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "b8ef_4XoIr0"
+    },
+    "outlet": "E36Slide",
+    "part_id": "z3-silicone-hoses",
+    "published_at": "2021-08-17T20:14:45Z",
+    "retrieved_at": "2026-09-21T12:52:06Z",
+    "source_type": "youtube",
+    "summary": "Unboxing video from drdriftco.com Check them out. they send goodies for unboxing videos and reviews!",
+    "title": "Unboxing Mishimoto Radiator hoses for BMW E36 from Drdriftco.com Canada | Drdriftco.com Canada",
+    "url": "https://www.youtube.com/watch?v=b8ef_4XoIr0"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "76415feaaf17522a8377",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Mishimoto Silicone Coolant Hose Kit BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/ozPMwg4r7S0/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "ozPMwg4r7S0"
+    },
+    "outlet": "Drift HQ",
+    "part_id": "z3-silicone-hoses",
+    "published_at": "2020-02-05T02:49:18Z",
+    "retrieved_at": "2026-09-21T12:52:06Z",
+    "source_type": "youtube",
+    "summary": "E36 MISHIMOTO PARTS \u2b07\ufe0f http://bit.ly/E36MISHIMOTO BUILDING A DRIFT CAR? \u2b07\ufe0f https://www.drifthq.com/ Better late than ...",
+    "title": "HOW TO INSTALL: E36 MISHIMOTO RADIATOR &amp; METAL EXPANSION TANK",
+    "url": "https://www.youtube.com/watch?v=ozPMwg4r7S0"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "81d845f8e7caa5507785",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Mishimoto Silicone Coolant Hose Kit BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/lqGXU9DpoEQ/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "lqGXU9DpoEQ"
+    },
+    "outlet": "Kludge",
+    "part_id": "z3-silicone-hoses",
+    "published_at": "2019-05-05T17:00:05Z",
+    "retrieved_at": "2026-09-21T12:52:06Z",
+    "source_type": "youtube",
+    "summary": "I replace all the components in the front of the engine in this third installment of the M52TU cooling system rebuild series.",
+    "title": "BMW Z3 Front Coolant System Rebuild",
+    "url": "https://www.youtube.com/watch?v=lqGXU9DpoEQ"
+  },
+  {
+    "confidence": 0.66,
+    "id": "d13f211ecf5d08f4fb46",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Mishimoto Silicone Coolant Hose Kit BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/Gla080qu34g/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "Gla080qu34g"
+    },
+    "outlet": "Mishimoto Automotive",
+    "part_id": "z3-silicone-hoses",
+    "published_at": "2015-10-31T17:53:24Z",
+    "retrieved_at": "2026-09-21T12:52:06Z",
+    "source_type": "youtube",
+    "summary": "Product Page: https://www.mishimoto.com/bmw-e36-ai-coolant-expansion-tank-1992-1999.html Facebook: ...",
+    "title": "1992\u20131999 BMW E36 Expansion Tank Installation Guide By Mishimoto",
+    "url": "https://www.youtube.com/watch?v=Gla080qu34g"
   },
   {
     "confidence": 0.77,
@@ -9502,11 +11725,54 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-stoptech-pads",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Street/track-oriented brake pad option for the Z3 catalog. Verify axle and caliper application before purchase.",
     "title": "StopTech Sport Brake Pads fitment/product source",
     "url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "4df5138b842df5c6b38d",
+    "metadata": {
+      "labels": [
+        "dyno"
+      ],
+      "query": "StopTech Sport Brake Pads BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/oMC-DzHQEbw/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "oMC-DzHQEbw"
+    },
+    "outlet": "The Real Patch ",
+    "part_id": "z3-stoptech-pads",
+    "published_at": "2019-07-17T18:00:06Z",
+    "retrieved_at": "2026-09-21T12:52:06Z",
+    "source_type": "youtube",
+    "summary": "Welcome to Torque Chasers Another piece to the Project36 puzzle! SUPER excited to say that I've teamed up with EBC Brakes to ...",
+    "title": "UNBOXING EBC Big Brake Upgrade for BMW E36 328i / Project 36",
+    "url": "https://www.youtube.com/watch?v=oMC-DzHQEbw"
+  },
+  {
+    "confidence": 0.66,
+    "id": "de3d907a4f79a0edd8c9",
+    "metadata": {
+      "labels": [
+        "install",
+        "review"
+      ],
+      "query": "StopTech Sport Brake Pads BMW Z3 2.8 install review",
+      "thumbnail": "https://i.ytimg.com/vi/dlwyTcGu56M/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "dlwyTcGu56M"
+    },
+    "outlet": "Davin's Random",
+    "part_id": "z3-stoptech-pads",
+    "published_at": "2022-01-17T16:57:39Z",
+    "retrieved_at": "2026-09-21T12:52:06Z",
+    "source_type": "youtube",
+    "summary": "Here are the links to Amazon: Hart Brake Rotors - Black https://amzn.to/3GE2JIH Power Stop Brake Pads Front ...",
+    "title": "BMW 1997-2001 Z3 Brake Pads, Rotors, Lines - Hart Brake kit install DIY How to and review.",
+    "url": "https://www.youtube.com/watch?v=dlwyTcGu56M"
   },
   {
     "confidence": 0.61,
@@ -9523,11 +11789,116 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-strut-brace",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Bolt-on front strut tower brace included as a chassis-stiffening option for Z3 build comparisons.",
     "title": "Turner Motorsport Front Strut Tower Brace fitment/product source",
     "url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.66,
+    "id": "2105fbd556f396f619a8",
+    "metadata": {
+      "labels": [
+        "comparison"
+      ],
+      "query": "Turner Motorsport Front Strut Tower Brace BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/lyJA48YYMNo/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "lyJA48YYMNo"
+    },
+    "outlet": "6ixGarage",
+    "part_id": "z3-strut-brace",
+    "published_at": "2022-02-28T07:18:11Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "I purchased both the Garagistic and OEM BMW strut tower reinforcement plates a while back and thought it'll be useful to do a little ...",
+    "title": "Garagistic &amp; OEM BMW Strurt Tower Reinforcement Comparison",
+    "url": "https://www.youtube.com/watch?v=lyJA48YYMNo"
+  },
+  {
+    "confidence": 0.66,
+    "id": "41c082cb65cfe01cabdd",
+    "metadata": {
+      "labels": [
+        "discussion"
+      ],
+      "query": "Turner Motorsport Front Strut Tower Brace BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/iAQqVhoQUAM/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "iAQqVhoQUAM"
+    },
+    "outlet": "Josh Gresswell",
+    "part_id": "z3-strut-brace",
+    "published_at": "2022-11-08T16:26:08Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "YouTube result discovered by the ModPicker collector.",
+    "title": "Making sure strut towers are strong enough ~ E36 Coupe Street/ Drift build ~ Episode 13",
+    "url": "https://www.youtube.com/watch?v=iAQqVhoQUAM"
+  },
+  {
+    "confidence": 0.7100000000000001,
+    "id": "5855d0a4adf15671458c",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Turner Motorsport Front Strut Tower Brace BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/cM0qRSOsV2E/mqdefault.jpg",
+      "token_overlap": 3,
+      "video_id": "cM0qRSOsV2E"
+    },
+    "outlet": "Driven To Failure",
+    "part_id": "z3-strut-brace",
+    "published_at": "2023-02-12T17:49:39Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "Installation of a Whiteline Racing front shock tower brace for a BMW E36, it appears to fit the E36/7 with minor modification! Link to ...",
+    "title": "Whiteline Racing Strut Brace : BMW Z3",
+    "url": "https://www.youtube.com/watch?v=cM0qRSOsV2E"
+  },
+  {
+    "confidence": 0.66,
+    "id": "bc77e7d833ec4ea68d5e",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Turner Motorsport Front Strut Tower Brace BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/T6OrZ10c84M/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "T6OrZ10c84M"
+    },
+    "outlet": "Torvek Motors",
+    "part_id": "z3-strut-brace",
+    "published_at": "2021-06-20T10:00:11Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "On This video I install the Megan Racing strut brace into the rea of my e36 BMW. Enjoy the video. Follow Me on IG: ...",
+    "title": "Megan Racing Rear Strut Brace Installation on E36 M3",
+    "url": "https://www.youtube.com/watch?v=T6OrZ10c84M"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "f1675babdef83bc881b7",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "Turner Motorsport Front Strut Tower Brace BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/ZvfF44XNvIY/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "ZvfF44XNvIY"
+    },
+    "outlet": "Garagistic",
+    "part_id": "z3-strut-brace",
+    "published_at": "2019-02-14T22:57:48Z",
+    "retrieved_at": "2026-09-21T12:52:08Z",
+    "source_type": "youtube",
+    "summary": "Garagistic shows you how to install your BMW E30 Strut bar! Do you want an affordable way to dominating turns? Having a ...",
+    "title": "How To Install Your Garagistic E30 Strut Bar",
+    "url": "https://www.youtube.com/watch?v=ZvfF44XNvIY"
   },
   {
     "confidence": 0.99,
@@ -9544,7 +11915,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-turner-brake-lines",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "DOT-compliant stainless front/rear brake-line kit explicitly listed for Z3 2.8; excludes mid-lines.",
     "title": "Turner Motorsport Stainless Steel Brake Lines - Front and Rear fitment/product source",
@@ -9565,7 +11936,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-turner-clutch-pedal",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Refresh kit aimed at worn clutch-pedal components in E36/Z3 applications.",
     "title": "Turner Motorsport Clutch Pedal Refresh Kit fitment/product source",
@@ -9584,7 +11955,7 @@
     "outlet": "Bimmerforums",
     "part_id": "z3-turner-cooling-overhaul",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "forum",
     "summary": "Community discussion emphasizing age-based cooling maintenance and OEM-style component choices; useful context for a complete refresh package.",
     "title": "Z3 cooling-system maintenance and radiator discussion",
@@ -9605,7 +11976,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-turner-cooling-overhaul",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "M52TU/M54-era Z3 cooling overhaul bundle explicitly listed for 1999-2002 Z3 2.8. Base package includes radiator, OE BMW water pump, thermostat/housing, radiator cap, expansion tank, and hoses, with an optional Stewart pump upgrade.",
     "title": "Turner Motorsport Complete Cooling System Overhaul Package - 1999-2002 Z3 fitment/product source",
@@ -9626,7 +11997,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-turner-dssr",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Turner double-shear selector rod listed for six-cylinder Z3 applications including the 2.8.",
     "title": "Turner Motorsport DSSR 389mm Selector Rod fitment/product source",
@@ -9647,7 +12018,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-turner-monoball-fcab",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Turner centered monoball front control-arm bushing solution listed for 1997-2002 Z3 applications including the 2.8.",
     "title": "Turner Motorsport Centered Monoball Front Control Arm Bushings fitment/product source",
@@ -9668,11 +12039,74 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-uuc-sway",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Adjustable anti-roll bar option for handling-focused Z3 builds. Verify diameter and exact chassis fitment.",
     "title": "UUC Motorwerks Adjustable Sway Bar Set fitment/product source",
     "url": "https://www.turnermotorsport.com/BMW-Z3"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "54d05417e1a8ed5ba738",
+    "metadata": {
+      "labels": [
+        "comparison"
+      ],
+      "query": "UUC Motorwerks Adjustable Sway Bar Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/CLUMPx-OITU/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "CLUMPx-OITU"
+    },
+    "outlet": "Sixty4motorsport",
+    "part_id": "z3-uuc-sway",
+    "published_at": "2020-08-03T20:16:53Z",
+    "retrieved_at": "2026-09-21T12:52:07Z",
+    "source_type": "youtube",
+    "summary": "BMW E46, Short Shifter versus UUC EVO3 Short Shifter with Dual Shear Selector Rod. If you own a BMW E46 with a manual ...",
+    "title": "BMW E46// BMW SHORT SHIFTER VS UUC EVO3 SHORT SHIFTER WITH DSSR",
+    "url": "https://www.youtube.com/watch?v=CLUMPx-OITU"
+  },
+  {
+    "confidence": 0.6100000000000001,
+    "id": "8d86a5039e598e4c38bd",
+    "metadata": {
+      "labels": [
+        "install"
+      ],
+      "query": "UUC Motorwerks Adjustable Sway Bar Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/FzK535oQE_s/mqdefault.jpg",
+      "token_overlap": 1,
+      "video_id": "FzK535oQE_s"
+    },
+    "outlet": "Garagistic",
+    "part_id": "z3-uuc-sway",
+    "published_at": "2017-11-07T18:58:39Z",
+    "retrieved_at": "2026-09-21T12:52:07Z",
+    "source_type": "youtube",
+    "summary": "Bert is extremely paws on. He can install Garagistic BMW E30 strut braces for fun, all day, every day. Blake and Bert show you ...",
+    "title": "Garagistic BMW E30 Front/Rear Strut Bar Install",
+    "url": "https://www.youtube.com/watch?v=FzK535oQE_s"
+  },
+  {
+    "confidence": 0.66,
+    "id": "b1d7c00496dcbed32f3c",
+    "metadata": {
+      "labels": [
+        "review"
+      ],
+      "query": "UUC Motorwerks Adjustable Sway Bar Set BMW Z3 install review",
+      "thumbnail": "https://i.ytimg.com/vi/QcZNGQDlhVQ/mqdefault.jpg",
+      "token_overlap": 2,
+      "video_id": "QcZNGQDlhVQ"
+    },
+    "outlet": "Throttle House",
+    "part_id": "z3-uuc-sway",
+    "published_at": "2016-05-18T08:49:08Z",
+    "retrieved_at": "2026-09-21T12:52:07Z",
+    "source_type": "youtube",
+    "summary": "A review of a lightweight flywheel and clutch kit from UUC Motorwerks. This flywheel changed how my car shifts through the gears ...",
+    "title": "Lightweight Flywheel Review: UUC Motorwerks - E46 BMW 325i",
+    "url": "https://www.youtube.com/watch?v=QcZNGQDlhVQ"
   },
   {
     "confidence": 0.8,
@@ -9689,7 +12123,7 @@
     "outlet": "turnermotorsport.com",
     "part_id": "z3-zimmerman-rotors",
     "published_at": null,
-    "retrieved_at": "2026-09-21T04:59:02Z",
+    "retrieved_at": "2026-09-21T12:52:09Z",
     "source_type": "retailer",
     "summary": "Coated replacement rotor set for maintenance and braking refresh planning; exact front/rear SKU must be verified.",
     "title": "Zimmermann Coated Brake Rotor Set fitment/product source",

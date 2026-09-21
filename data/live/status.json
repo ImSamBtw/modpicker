@@ -1,12 +1,12 @@
 {
   "application_count": 227,
   "candidate_count": 199,
-  "catalog_part_count": 151,
+  "catalog_part_count": 173,
   "collectors": {
     "automatic_publication": {
       "attempted": 24,
       "enabled": true,
-      "promoted": 24,
+      "promoted": 22,
       "promotion_limit": 24,
       "warnings": []
     },
@@ -34,9 +34,9 @@
       ]
     },
     "fitment_expansion": {
-      "expanded_fitment_count": 2156,
-      "matched_rule_count": 82,
-      "rule_count": 82,
+      "expanded_fitment_count": 2332,
+      "matched_rule_count": 91,
+      "rule_count": 91,
       "warnings": []
     },
     "reddit": {
@@ -46,9 +46,9 @@
       ]
     },
     "seed_catalog": {
-      "count": 151,
-      "offer_count": 120,
-      "source_count": 141,
+      "count": 173,
+      "offer_count": 142,
+      "source_count": 163,
       "warnings": []
     },
     "vehicles": {
@@ -68,18 +68,18 @@
       "pruned_invalid_nhtsa": 0,
       "rejected_make_mismatch": 0,
       "requests": 12,
-      "rows_seen": 49,
+      "rows_seen": 89,
       "vehicle_count": 609,
       "warnings": []
     },
     "web_product": {
       "enabled": true,
-      "fresh_pages_skipped": 25,
-      "offer_count": 50,
-      "pages_checked": 74,
+      "fresh_pages_skipped": 99,
+      "offer_count": 22,
+      "pages_checked": 22,
       "refresh_hours": 24,
-      "robots_origins_checked": 3,
-      "source_count": 74,
+      "robots_origins_checked": 2,
+      "source_count": 22,
       "warnings": [
         "robots denied/unavailable: https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
         "robots denied/unavailable: https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
@@ -95,17 +95,16 @@
       ]
     },
     "youtube": {
-      "count": 0,
+      "count": 81,
       "enabled": true,
-      "fresh_parts_skipped": 0,
+      "fresh_parts_skipped": 60,
       "max_searches": 25,
-      "quota_cooldown_active": true,
+      "quota_cooldown_active": false,
       "quota_cooldown_hours": 12,
-      "quota_cooldown_until": "2026-09-21T06:06:58Z",
-      "quota_stopped": true,
+      "quota_stopped": false,
       "refresh_days": 7,
-      "search_calls": 0,
-      "search_state_entries": 49,
+      "search_calls": 25,
+      "search_state_entries": 74,
       "warnings": []
     }
   },
@@ -118,17 +117,17 @@
     "REDDIT_CLIENT_SECRET": false,
     "YOUTUBE_API_KEY": true
   },
-  "expanded_fitment_count": 2156,
-  "fitment_rule_count": 82,
+  "expanded_fitment_count": 2332,
+  "fitment_rule_count": 91,
   "fitment_warnings": [],
-  "generated_at": "2026-09-21T05:00:09Z",
-  "matched_fitment_rule_count": 82,
+  "generated_at": "2026-09-21T12:52:20Z",
+  "matched_fitment_rule_count": 91,
   "mode": "deterministic_no_ai",
-  "offer_count": 120,
+  "offer_count": 142,
   "ok": false,
   "platform_count": 7,
-  "price_history_count": 146,
-  "review_queue_count": 26,
-  "source_count": 421,
+  "price_history_count": 168,
+  "review_queue_count": 41,
+  "source_count": 524,
   "vehicle_count": 609
 }
