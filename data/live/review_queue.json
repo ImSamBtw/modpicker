@@ -1,6 +1,6 @@
 [
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "171b1550ade495a88919",
     "entity_type": "source",
     "id": "011aa4baea7d5f9a7423",
@@ -12,7 +12,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "d07706a9bf811308f572",
     "entity_type": "source",
     "id": "0494bbab6d47b81d2df2",
@@ -24,7 +24,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "568f401ffd3d18863d09",
     "entity_type": "source",
     "id": "0ba614b4e3200f6f865c",
@@ -36,7 +36,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "a2e94865a64d5cb5bec3",
     "entity_type": "source",
     "id": "0d839308708de7c737d8",
@@ -48,7 +48,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "86a92d98825fbb2dd580",
     "entity_type": "source",
     "id": "0e452a0dd210fd190e6a",
@@ -60,7 +60,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "bf94092a499a41567c6f",
     "entity_type": "source",
     "id": "1278499ed7caefad9573",
@@ -72,7 +72,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "e0c62b42b5abaa22edaf",
     "entity_type": "source",
     "id": "12c4e083c0d542235f23",
@@ -84,7 +84,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "5f28438c0262276e7ca4",
     "entity_type": "source",
     "id": "1dbfffe629b489bbc688",
@@ -96,7 +96,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "576184559129f8aa2fa5",
     "entity_type": "source",
     "id": "255b074c869870615bbb",
@@ -108,7 +108,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "e26bc351f6e023d83d06",
     "entity_type": "source",
     "id": "2632993da81d26f010e0",
@@ -120,7 +120,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "876876ec2ec46fc46b34",
     "entity_type": "source",
     "id": "26b83310d4f82cd23974",
@@ -132,7 +132,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "072a3a741ea2a148cd80",
     "entity_type": "source",
     "id": "27f8d90f5fdfb734f7e1",
@@ -144,7 +144,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "b2738d3dad09ca3b7c07",
     "entity_type": "source",
     "id": "2a274a435d4b1dfe4cc7",
@@ -156,7 +156,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "ebe33b79ca4fec374cd2",
     "entity_type": "source",
     "id": "357853a802a37ef84a6b",
@@ -168,7 +168,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "718db7fb03b0ef0c6a1b",
     "entity_type": "source",
     "id": "3a3a5983202f21a693bc",
@@ -180,7 +180,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "cbaba2dea85e59513960",
     "entity_type": "source",
     "id": "3c134cd6340bf5388280",
@@ -192,7 +192,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "e2dfba535f53934ef492",
     "entity_type": "source",
     "id": "414c0bb2df10c8562453",
@@ -204,7 +204,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "4178a1a54a4ddf383ca2",
     "entity_type": "source",
     "id": "4378d3c114e0e4e1c5af",
@@ -216,7 +216,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "8a7c8859d4cad5e4e541",
     "entity_type": "source",
     "id": "48d748af26f95be1084a",
@@ -228,7 +228,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "bc86434a78ceb268c2b7",
     "entity_type": "source",
     "id": "4ccd2e46519ac34ecb10",
@@ -240,7 +240,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "6beee5977d4dba6af515",
     "entity_type": "source",
     "id": "557df6551e59fb0fa2cc",
@@ -252,7 +252,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "e698ca030c676117a866",
     "entity_type": "source",
     "id": "5ad15bf086b43e6f6345",
@@ -264,7 +264,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "fe9e52b06eeefd76ccc7",
     "entity_type": "source",
     "id": "5c95aa368211ba613ace",
@@ -276,7 +276,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "9aaf364b6e14f3fa4f0a",
     "entity_type": "source",
     "id": "5d4d3e40ad58b83fd792",
@@ -288,7 +288,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "17818a77a70421c26fa8",
     "entity_type": "source",
     "id": "5d9419512bcaab338e9c",
@@ -300,7 +300,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "cd4f7eb589ddf641447c",
     "entity_type": "source",
     "id": "62fde4166e76e439dda9",
@@ -312,7 +312,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "81b2eb530d034eb7ef70",
     "entity_type": "source",
     "id": "640c26bb6306e10320a3",
@@ -324,7 +324,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "b34f03b301317746bd03",
     "entity_type": "source",
     "id": "686d57035dac4bc7d8a9",
@@ -336,7 +336,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "0cecf7d0fe7428eea233",
     "entity_type": "source",
     "id": "687cac475d386b45bc4f",
@@ -348,7 +348,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "049d32c83d17c84846da",
     "entity_type": "source",
     "id": "70a35e3cf932d26bea76",
@@ -360,7 +360,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "40b78a7cba47a8a4f12f",
     "entity_type": "source",
     "id": "7153d007785a78dce879",
@@ -372,7 +372,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "d20454863a46741bee84",
     "entity_type": "source",
     "id": "7185de8608505b3c95db",
@@ -384,7 +384,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "4c99c61a77963cba9dbf",
     "entity_type": "source",
     "id": "771835c926d4fb7a3af4",
@@ -396,7 +396,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "ae913ad006726bfaea94",
     "entity_type": "source",
     "id": "7bb043b1dc8edbb1ebe4",
@@ -408,7 +408,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "bfc56ea775e5b1979808",
     "entity_type": "source",
     "id": "7c19edbb35d530ceea8d",
@@ -420,7 +420,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "9deeb2f304c873d78cba",
     "entity_type": "source",
     "id": "7cb81ac51322460ff347",
@@ -432,7 +432,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "9e9d904f23ee28840c43",
     "entity_type": "source",
     "id": "806d664192becfb1f93e",
@@ -444,7 +444,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "962c54cc306f1c52ec77",
     "entity_type": "source",
     "id": "96014390a5a32508da6a",
@@ -456,7 +456,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "09a8913a531145c011f1",
     "entity_type": "source",
     "id": "9bcdb5ef0a22b189e9ec",
@@ -468,7 +468,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "619baac6f9c135813ebc",
     "entity_type": "source",
     "id": "9c24b68f2b7ef775dd61",
@@ -480,7 +480,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "71201ca87c59d6cc180c",
     "entity_type": "source",
     "id": "9caf6f25dc96b631ef2a",
@@ -492,7 +492,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "f733124d2e276e9d8b31",
     "entity_type": "source",
     "id": "9f2d3ba46c2c8a640310",
@@ -504,7 +504,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "1a1fe08aa6a64d52220c",
     "entity_type": "source",
     "id": "b14eb2f7a712e912e1e1",
@@ -516,7 +516,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "783e141e61c6aa3464e6",
     "entity_type": "source",
     "id": "b3ddfc7b55983e96f676",
@@ -528,7 +528,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "f5b3cb4879d442c8e3da",
     "entity_type": "source",
     "id": "b5b4f066eb868d5066b0",
@@ -540,7 +540,19 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
+    "entity_id": "49a55ebf0d7082d48b21",
+    "entity_type": "source",
+    "id": "bba48034411188b6c399",
+    "payload": {
+      "confidence": 0,
+      "title": "PERRIN Rear Endlinks with Spherical Bearings for WRX, STI BRZ, FR-S, 86, Outback, Forester, Legacy, Impreza fitment/product source"
+    },
+    "reason": "low source confidence",
+    "severity": "low"
+  },
+  {
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "33e5fe04fff28f030d5c",
     "entity_type": "source",
     "id": "c9cdc5461c49efedb167",
@@ -552,7 +564,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "3a1113bcb867ab619967",
     "entity_type": "source",
     "id": "cb3f71cb266bf3f7c82d",
@@ -564,7 +576,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "a05835fb8f0fdb1d83d4",
     "entity_type": "source",
     "id": "cd69258dee0746fe213b",
@@ -576,7 +588,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "0b447bfecdb8bb535082",
     "entity_type": "source",
     "id": "cf41a3aff0ef67c9df8f",
@@ -588,7 +600,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "a14556c808e19c0e2f68",
     "entity_type": "source",
     "id": "d31da713cb4164cbfbb5",
@@ -600,7 +612,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "069773289ea39901786b",
     "entity_type": "source",
     "id": "d540d5ebb1313b8f0c84",
@@ -612,7 +624,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "fd3c10f2b1d54086f73a",
     "entity_type": "source",
     "id": "d73cd1dd44278a594b2b",
@@ -624,7 +636,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "b91800f868ae2f2b31b4",
     "entity_type": "source",
     "id": "da8c92968b58ce253610",
@@ -636,7 +648,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "969fa61c6099fb62e4bc",
     "entity_type": "source",
     "id": "dbc2dac2e74e95f4c755",
@@ -648,7 +660,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "b9d3440dba2b1e2291fb",
     "entity_type": "source",
     "id": "dc1006043498702823cf",
@@ -660,7 +672,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "36b168e36c0e830a2da5",
     "entity_type": "source",
     "id": "dd70c10860f5c9fdde80",
@@ -672,7 +684,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "35f3c63f7e07b5e7afc7",
     "entity_type": "source",
     "id": "e0380058424159c341f1",
@@ -684,7 +696,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "acbbe2daf87b0fb0564c",
     "entity_type": "source",
     "id": "e23e353999f44b8fe950",
@@ -696,7 +708,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "2a7dfb31ea0ba6e626bc",
     "entity_type": "source",
     "id": "e24af67c8cecdf800c5b",
@@ -708,7 +720,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "e592625eabcbc78b2e2c",
     "entity_type": "source",
     "id": "e3732b5f657596b96a6d",
@@ -720,7 +732,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-21T22:00:25Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "0e1ebcecdd416a6be5cd",
     "entity_type": "source",
     "id": "e60929c39dff17474d62",
@@ -732,7 +744,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "fd0ab8dbc9cd81926703",
     "entity_type": "source",
     "id": "ef5bd95d134682939d78",
@@ -744,7 +756,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "938f2d926b0785db0ab5",
     "entity_type": "source",
     "id": "f01f4df7631d7c5169ed",
@@ -756,7 +768,7 @@
     "severity": "low"
   },
   {
-    "created_at": "2026-09-22T05:01:15Z",
+    "created_at": "2026-09-22T11:42:10Z",
     "entity_id": "89dd2305c44fcc447be9",
     "entity_type": "source",
     "id": "f41d7a5873f12422590c",
