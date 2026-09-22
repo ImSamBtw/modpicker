@@ -1618,5 +1618,125 @@
     },
     "source_kind": "catalog_query_range",
     "source_url": "https://flyinmiata.com/products/1990-05-m2-hard-dog-hard-core"
+  },
+  {
+    "confidence": 0.9,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-246b6cfd4d2571091b63-2013-2017",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-246b6cfd4d2571091b63"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2013,
+      "year_to": 2017
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/license-plate-delete-for-2006-2017-wrx-sti"
+  },
+  {
+    "confidence": 0.9,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-6f23a3f47e661a887f80-2013-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-6f23a3f47e661a887f80"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/reverse-lockout-lever-for-2013-2020-brz-fr-s-86"
+  },
+  {
+    "confidence": 0.9,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-38e00e0844d8631ab63f-2013-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-38e00e0844d8631ab63f"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/frz-brz-foam-air-filter"
+  },
+  {
+    "confidence": 0.9,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-d83b2936f933ffcf0447-2013-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-d83b2936f933ffcf0447"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/panel-filter-for-brz-fr-s-86"
+  },
+  {
+    "confidence": 0.9,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-06fefb6313ed06ba3f48-2013-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-06fefb6313ed06ba3f48"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/rear-endlinks-with-polyurethane-bushings-for-wrx-sti"
+  },
+  {
+    "confidence": 0.9,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-c25fcfe5972ec8532a41-2015-2020",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-c25fcfe5972ec8532a41"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2015,
+      "year_to": 2020
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/clutch-line"
   }
 ]

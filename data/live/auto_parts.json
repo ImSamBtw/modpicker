@@ -2802,5 +2802,255 @@
       "vendor": "Flyin' Miata"
     },
     "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "PERRIN",
+    "category": "Other",
+    "description": "Cover up the unsightly holes left by the factory in your front bumper with the PERRIN License Plate Delete.",
+    "discovery_metadata": {
+      "candidate_id": "ca6432d6aa327e86ad43",
+      "collection_url": "https://perrin.com/collections/brz",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.9,
+    "fitment_family_ids": [
+      "subaru-brz-zc6",
+      "scion-frs",
+      "toyota-86"
+    ],
+    "fitment_range": {
+      "year_from": 2013,
+      "year_to": 2017
+    },
+    "fitment_source_url": "https://perrin.com/products/license-plate-delete-for-2006-2017-wrx-sti",
+    "fitment_status": "probable",
+    "id": "auto-246b6cfd4d2571091b63",
+    "image_url": "https://perrin.com/cdn/shop/files/PSP-BDY-115_01.jpg?v=1759427483&width=1920",
+    "manufacturer_part_number": "PSP-BDY-115BK",
+    "name": "License Plate Delete For 2006-2017 WRX, STI, Forester, Impreza, BRZ, FR-S, 86",
+    "official_url": "https://perrin.com/products/license-plate-delete-for-2006-2017-wrx-sti",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-22T04:59:13Z",
+      "price": 52.7,
+      "url": "https://perrin.com/products/license-plate-delete-for-2006-2017-wrx-sti",
+      "vendor": "PERRIN"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "PERRIN",
+    "category": "Other",
+    "description": "The PERRIN Reverse Lockout Lever uses two O-rings to eliminate shifter rattle with a tight, noise-free fit. Made from 6061 aluminum with an anodized finish, it's easy to install and built to last.",
+    "discovery_metadata": {
+      "candidate_id": "0184695a855666711eb9",
+      "collection_url": "https://perrin.com/collections/brz",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.9,
+    "fitment_family_ids": [
+      "subaru-brz-zc6",
+      "scion-frs",
+      "toyota-86"
+    ],
+    "fitment_range": {
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "fitment_source_url": "https://perrin.com/products/reverse-lockout-lever-for-2013-2020-brz-fr-s-86",
+    "fitment_status": "probable",
+    "id": "auto-6f23a3f47e661a887f80",
+    "image_url": "https://perrin.com/cdn/shop/files/PSP-INR-251-01.jpg?v=1759856129&width=1920",
+    "manufacturer_part_number": "PSP-INR-251BK",
+    "name": "Reverse Lockout Lever For 2013-2020 BRZ, FR-S, 86",
+    "official_url": "https://perrin.com/products/reverse-lockout-lever-for-2013-2020-brz-fr-s-86",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-22T04:59:15Z",
+      "price": 59.5,
+      "url": "https://perrin.com/products/reverse-lockout-lever-for-2013-2020-brz-fr-s-86",
+      "vendor": "PERRIN"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "PERRIN",
+    "category": "Maintenance",
+    "description": "This filter is a direct replacement for PERRIN Performance BRZ/FR-S/86/GR86 intake systems.",
+    "discovery_metadata": {
+      "candidate_id": "47ec4b263c655a2d4ca5",
+      "collection_url": "https://perrin.com/collections/brz-frs-86-intakes",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.9,
+    "fitment_family_ids": [
+      "subaru-brz-zc6",
+      "scion-frs",
+      "toyota-86"
+    ],
+    "fitment_range": {
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "fitment_source_url": "https://perrin.com/products/frz-brz-foam-air-filter",
+    "fitment_status": "probable",
+    "id": "auto-38e00e0844d8631ab63f",
+    "image_url": "https://perrin.com/cdn/shop/files/X-PSP-INT-332_01.jpg?v=1788306625&width=1920",
+    "manufacturer_part_number": "X-PSP-INT-332",
+    "name": "Replacement Foam Filter for 2013-2026 BRZ, FR-S, 86, GR86",
+    "official_url": "https://perrin.com/products/frz-brz-foam-air-filter",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-22T04:59:22Z",
+      "price": 79.05,
+      "url": "https://perrin.com/products/frz-brz-foam-air-filter",
+      "vendor": "PERRIN"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "PERRIN",
+    "category": "Intake",
+    "description": "The PERRIN High-Flow Replacement Air Filter is a reusable, panel-style filter that fits directly into your airbox. It boosts horsepower for a durable, cost-effective performance upgrade.",
+    "discovery_metadata": {
+      "candidate_id": "3d0015cf9f5e2b88544d",
+      "collection_url": "https://perrin.com/collections/brz-frs-86-intakes",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.9,
+    "fitment_family_ids": [
+      "subaru-brz-zc6",
+      "scion-frs",
+      "toyota-86"
+    ],
+    "fitment_range": {
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "fitment_source_url": "https://perrin.com/products/panel-filter-for-brz-fr-s-86",
+    "fitment_status": "probable",
+    "id": "auto-d83b2936f933ffcf0447",
+    "image_url": "https://perrin.com/cdn/shop/files/PSP-INT-112_01.jpg?v=1759877069&width=1920",
+    "manufacturer_part_number": "PSP-INT-112",
+    "name": "High Flow Replacement Air Filter for 2013-2020 BRZ, FR-S, 86",
+    "official_url": "https://perrin.com/products/panel-filter-for-brz-fr-s-86",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-22T04:59:23Z",
+      "price": 64.6,
+      "url": "https://perrin.com/products/panel-filter-for-brz-fr-s-86",
+      "vendor": "PERRIN"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "PERRIN",
+    "category": "Chassis",
+    "description": "Improve a known failure point with a set of high-grade PERRIN Endlinks featuring polyurethane bushings.",
+    "discovery_metadata": {
+      "candidate_id": "b033673a62b7587b23d0",
+      "collection_url": "https://perrin.com/collections/suspension",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.9,
+    "fitment_family_ids": [
+      "subaru-brz-zc6",
+      "scion-frs",
+      "toyota-86"
+    ],
+    "fitment_range": {
+      "year_from": 2013,
+      "year_to": 2020
+    },
+    "fitment_source_url": "https://perrin.com/products/rear-endlinks-with-polyurethane-bushings-for-wrx-sti",
+    "fitment_status": "probable",
+    "id": "auto-06fefb6313ed06ba3f48",
+    "image_url": "https://perrin.com/cdn/shop/files/PSP-SUS-236_01.jpg?v=1761587931&width=1920",
+    "manufacturer_part_number": "PSP-SUS-237",
+    "name": "Rear Endlinks with Urethane Bushings for 2008-2026 WRX, STI, BRZ, FR-S, 86, Forester, Legacy, Impreza",
+    "official_url": "https://perrin.com/products/rear-endlinks-with-polyurethane-bushings-for-wrx-sti",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-22T04:59:23Z",
+      "price": 216.75,
+      "url": "https://perrin.com/products/rear-endlinks-with-polyurethane-bushings-for-wrx-sti",
+      "vendor": "PERRIN"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "PERRIN",
+    "category": "Other",
+    "description": "PERRIN Endlinks use durable steel spherical bearings for a solid, track-capable connection. Built for aggressive driving, they deliver higher NVH than polyurethane or OEM options.",
+    "discovery_metadata": {
+      "candidate_id": "677d6f3f710cdf1a51a2",
+      "collection_url": "https://perrin.com/collections/suspension",
+      "fitment_scope_source": "not established"
+    },
+    "fitment_confidence": 0,
+    "fitment_source_url": "https://perrin.com/products/spherical-bearing-rear-endlinks",
+    "fitment_status": "unknown",
+    "id": "auto-8096bca9f268c1f4c2d7",
+    "image_url": "https://perrin.com/cdn/shop/files/PSP-SUS-235_01.jpg?v=1761582164&width=1920",
+    "manufacturer_part_number": "PSP-SUS-235",
+    "name": "Rear Endlinks with Spherical Bearings for WRX, STI BRZ, FR-S, 86, Outback, Forester, Legacy, Impreza",
+    "official_url": "https://perrin.com/products/spherical-bearing-rear-endlinks",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-22T04:59:24Z",
+      "price": 248.2,
+      "url": "https://perrin.com/products/spherical-bearing-rear-endlinks",
+      "vendor": "PERRIN"
+    },
+    "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "PERRIN",
+    "category": "Drivetrain",
+    "description": "The PERRIN Clutch Line improves driving performance with an excellent pedal feel and quicker clutch response.",
+    "discovery_metadata": {
+      "candidate_id": "ad52b8f3c7a0d20236e0",
+      "collection_url": "https://perrin.com/collections/brakes",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.9,
+    "fitment_family_ids": [
+      "subaru-brz-zc6",
+      "scion-frs",
+      "toyota-86"
+    ],
+    "fitment_range": {
+      "year_from": 2015,
+      "year_to": 2020
+    },
+    "fitment_source_url": "https://perrin.com/products/clutch-line",
+    "fitment_status": "probable",
+    "id": "auto-c25fcfe5972ec8532a41",
+    "image_url": "https://perrin.com/cdn/shop/files/PSP-BRK-305_01.jpg?v=1751589706&width=1920",
+    "manufacturer_part_number": "PSP-BRK-305",
+    "name": "Clutch Line for 2015-2021 WRX, STI, BRZ, FR-S, 86",
+    "official_url": "https://perrin.com/products/clutch-line",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-09-22T04:59:25Z",
+      "price": 61.2,
+      "url": "https://perrin.com/products/clutch-line",
+      "vendor": "PERRIN"
+    },
+    "status": "active"
   }
 ]
