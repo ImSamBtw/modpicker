@@ -76,5 +76,6 @@ const section=document.createElement('section');section.id='garageView';section.
     </aside>
   </div>`;
 main.appendChild(section);
+if(typeof state!=='undefined'&&state.route==='garage')section.classList.add('active-view');
 const script=document.createElement('script');script.src='garage.js';script.async=false;document.body.appendChild(script);
 })();

@@ -1,10 +1,10 @@
 const DATA=window.MODPICKER_DATA;
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
-const state={vehicleId:"z3-2000-28",goal:"balanced",category:"All",query:"",sort:"recommended",hideUnverified:false,difficulty:"All",maxPrice:"Any",rankingCategory:"All",build:[],compare:[],watches:[],buildMeta:{},route:"catalog",budget:5000,laborRate:0,buildName:"My build"};
+const state={vehicleId:"z3-2000-28",goal:"balanced",category:"All",query:"",sort:"recommended",hideUnverified:false,difficulty:"All",maxPrice:"Any",rankingCategory:"All",build:[],compare:[],watches:[],buildMeta:{},route:"home",budget:5000,laborRate:0,buildName:"My build"};
 const goalWeights={balanced:{overall:.32,reliability:.2,quality:.14,power:.12,handling:.1,value:.12},reliability:{overall:.12,reliability:.36,quality:.2,power:.03,handling:.02,value:.17,confidence:.1},power:{overall:.12,reliability:.11,quality:.09,power:.42,handling:.02,value:.14,confidence:.1},handling:{overall:.13,reliability:.08,quality:.11,power:.02,handling:.44,value:.14,confidence:.08},track:{overall:.14,reliability:.18,quality:.14,power:.2,handling:.22,value:.06,confidence:.06},budget:{overall:.13,reliability:.16,quality:.08,power:.08,handling:.08,value:.42,confidence:.05}};
 const goalNames={balanced:"Balanced street",reliability:"Reliability",power:"Power",handling:"Handling",track:"Track",budget:"Budget"};
 const difficultyOrder={Easy:1,Moderate:2,Advanced:3,Professional:4};
-function boot(){loadState();parseShare();bind();renderAll();route(state.route||"catalog",false)}
+function boot(){loadState();parseShare();bind();renderAll();route(state.route||"home",false)}
 function loadState(){try{const raw=localStorage.getItem("modpicker-state-v2")||localStorage.getItem("modpicker-state");if(raw)Object.assign(state,JSON.parse(raw))}catch(e){console.warn("State load failed",e)}state.buildMeta=state.buildMeta||{};state.watches=state.watches||[];state.compare=state.compare||[];state.build=Array.isArray(state.build)?state.build:[];state.garage=state.garage||{};if(!DATA.vehicles.some(v=>v.id===state.vehicleId))state.vehicleId=DATA.vehicles[0].id}
 function saveState(){persistGarage();try{localStorage.setItem("modpicker-state-v2",JSON.stringify({garage:state.garage,vehicleId:state.vehicleId,goal:state.goal,build:state.build,compare:state.compare,watches:state.watches,buildMeta:state.buildMeta,budget:state.budget,laborRate:state.laborRate,buildName:state.buildName,route:state.route}))}catch(e){toast("Browser storage unavailable. Export your build to keep it.")}}
 function parseShare(){const token=new URLSearchParams(location.search).get("build");if(!token)return;try{const payload=JSON.parse(atob(token));if(payload.vehicleId&&DATA.vehicles.some(v=>v.id===payload.vehicleId))state.vehicleId=payload.vehicleId;if(payload.goal&&goalNames[payload.goal])state.goal=payload.goal;if(Array.isArray(payload.build))state.build=payload.build.filter(id=>part(id)?.vehicles.includes(state.vehicleId));toast("Shared build loaded") }catch(e){console.warn("Invalid shared build",e)}}
@@ -48,7 +48,31 @@ function bind(){
  $("#copyBuildButton").addEventListener("click",copyBuild);$("#shareBuildButton").addEventListener("click",shareBuild);
  $("#clearCompareButton").addEventListener("click",()=>{state.compare=[];saveState();renderAll();toast("Comparison cleared")});
 }
-function route(name,scroll=true){state.route=name;saveState();$$('.view').forEach(v=>v.classList.remove('active-view'));const target=$(`#${name}View`);if(target)target.classList.add('active-view');$$('.nav-link').forEach(n=>n.classList.toggle('active',n.dataset.route===name));$('.main-nav').classList.remove('open');if(name==='prices')renderPrices();if(name==='rankings')renderRankings();if(name==='compare')renderCompare();if(name==='build')renderBuild();if(scroll)window.scrollTo({top:0,behavior:'smooth'})}
+function route(name,scroll=true){
+ if(!['home','catalog','garage','prices','rankings','compare','build'].includes(name))name='home';
+ document.body.dataset.view=name;
+ document.querySelector('.research-nav')?.removeAttribute('open');
+ document.querySelector('#mobileMenuButton')?.setAttribute('aria-expanded','false');
+ state.route=name;saveState();
+ $$('.view').forEach(v=>v.classList.remove('active-view'));
+ const target=$(`#${name}View`);
+ if(target)target.classList.add('active-view');
+ $$('.nav-link').forEach(n=>{
+  n.classList.toggle('active',n.dataset.route===name);
+  if(n.dataset.route===name)n.setAttribute('aria-current','page');
+  else n.removeAttribute('aria-current');
+ });
+ $('.main-nav').classList.remove('open');
+ if(name==='prices')renderPrices();
+ if(name==='rankings')renderRankings();
+ if(name==='compare')renderCompare();
+ if(name==='build')renderBuild();
+ if(scroll){
+  target?.setAttribute('tabindex','-1');
+  target?.focus({preventScroll:true});
+  window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+ }
+}
 function renderAll(){renderVehicle();renderCatalog();renderCounts();renderPrices();renderRankings();renderCompare();renderBuild()}
 function renderVehicle(){const v=vehicle();const count=id=>DATA.parts.filter(p=>p.vehicles.includes(id)).length;const ordered=[...DATA.vehicles].sort((a,b)=>Number(count(b.id)>0)-Number(count(a.id)>0)||a.make.localeCompare(b.make)||a.year-b.year);$("#vehicleSelect").innerHTML=ordered.map(x=>`<option value="${x.id}" ${x.id===v.id?'selected':''}>${x.year} ${x.make} ${x.model} ${x.trim} · ${count(x.id)} parts</option>`).join('');$("#goalSelect").value=state.goal;$("#vehicleName").textContent=`${v.year} ${v.make} ${v.model} ${v.trim}`;$("#vehicleBadges").innerHTML=(v.tags||[]).map(t=>`<span class="badge">${t}</span>`).join('');$("#fitmentSummary").textContent=`${v.chassis} · ${v.engine}`;const cp=compatibleParts();$("#heroCompatible").textContent=cp.length;$("#heroCategories").textContent=new Set(cp.map(p=>p.category)).size;$("#heroOffers").textContent=cp.reduce((s,p)=>s+sortedOffers(p).length,0);$("#heroWatched").textContent=state.watches.length}
 function categories(){return["All",...new Set(compatibleParts().map(p=>p.category))].sort((a,b)=>a==='All'?-1:b==='All'?1:a.localeCompare(b))}

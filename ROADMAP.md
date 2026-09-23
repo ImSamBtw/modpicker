@@ -179,10 +179,11 @@ Architecture goal: support ModPicker-hosted inference as an optional provider wh
 
 **Ongoing.**
 
-- [ ] simplify the home page and reduce simultaneous controls;
+- [x] simplify the home page and reduce simultaneous controls; dedicated landing page, three task paths and secondary Research navigation.
 - [x] elevate Garage and build planning into primary navigation/workflows;
 - [x] move advanced filters behind a secondary control on small screens;
-- [ ] use vehicle graphics and opt-in community-submitted images;
+- [x] use original car/truck concept graphics on the home page, clearly labeled.
+- [ ] add an opt-in, moderated rotating showcase of community-submitted vehicles; attribution, approval, pause controls and reduced-motion support required.
 - [x] keep exact vehicle / platform / build context persistent and obvious;
 - [x] keep evidence and fitment warnings visible without allowing uncertainty to silently become compatibility;
 - [x] continue mobile overflow checks in automated browser testing.

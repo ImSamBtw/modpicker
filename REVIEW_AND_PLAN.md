@@ -140,3 +140,13 @@ The previous rules were durable for Z3/Miata examples but did not generalize to 
 ### Verification
 
 Local refresh produced 102 catalog parts, 227 normalized applications (206 EPA rows, 3 curated targets, and 18 reviewed Mustang Performance Package applications), 7 platforms, 63 total rules (18 reviewed plus 45 generated range rules), 1,808 unique published fitment rows and no fitment warnings. The Steeda 2015–2017 5.0L intake expands to 11 EPA configurations across all three years; the S550 catalog ranges expand across every matching 2015–2023 application; the Performance Package rotor now expands to 19 reviewed/official applications spanning 2015–2023. Unit, catalog, publication and browser checks must pass before the refresh is published.
+
+
+## Homepage simplification — September 23, 2026
+
+- New Home route replaces the full catalog as the first-visit entry point. Returning sessions retain their current workspace; shared build links still open the build sheet.
+- Three clear paths lead to parts, Garage and the build sheet. Vehicle selection and all catalog filters remain in the workspaces.
+- Prices, Ratings and Compare sit under a keyboard-accessible Research disclosure. Mobile menu exposes its expanded state and closes with Escape.
+- Added a locally hosted, compressed car/truck concept image. Future community showcase is explicitly upcoming, with no fake submission action or private-photo reuse.
+- Kept existing fitment and price evidence in the catalog; compacted its heading and removed landing-page action duplication.
+- Extended UI smoke coverage for home routes, image loading, responsive widths, mobile navigation, keyboard disclosure and reduced motion.
