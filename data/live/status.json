@@ -68,18 +68,18 @@
       "pruned_invalid_nhtsa": 0,
       "rejected_make_mismatch": 0,
       "requests": 12,
-      "rows_seen": 174,
+      "rows_seen": 49,
       "vehicle_count": 609,
       "warnings": []
     },
     "web_product": {
       "enabled": true,
-      "fresh_pages_skipped": 128,
-      "offer_count": 14,
-      "pages_checked": 14,
+      "fresh_pages_skipped": 36,
+      "offer_count": 80,
+      "pages_checked": 104,
       "refresh_hours": 24,
-      "robots_origins_checked": 2,
-      "source_count": 14,
+      "robots_origins_checked": 3,
+      "source_count": 104,
       "warnings": [
         "robots denied/unavailable: https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
         "robots denied/unavailable: https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
@@ -91,7 +91,9 @@
         "robots denied/unavailable: https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
         "robots denied/unavailable: https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
         "robots denied/unavailable: https://www.turnermotorsport.com/BMW-Z3/c-664-bmw-clutch-pedal-parts",
-        "robots denied/unavailable: https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/"
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
+        "https://flyinmiata.com/products/bushings-brackets-for-na8-and-nb-front-sway-bars: RuntimeError: 429 https://flyinmiata.com/products/bushings-brackets-for-na8-and-nb-front-sway-bars",
+        "https://flyinmiata.com/products/rear-na-nb-sway-bar-bushings: RuntimeError: 429 https://flyinmiata.com/products/rear-na-nb-sway-bar-bushings"
       ]
     },
     "youtube": {
@@ -120,13 +122,13 @@
   "expanded_fitment_count": 2605,
   "fitment_rule_count": 101,
   "fitment_warnings": [],
-  "generated_at": "2026-09-23T04:47:44Z",
+  "generated_at": "2026-09-23T11:42:00Z",
   "matched_fitment_rule_count": 101,
   "mode": "deterministic_no_ai",
   "offer_count": 163,
   "ok": false,
   "platform_count": 7,
-  "price_history_count": 300,
+  "price_history_count": 380,
   "review_queue_count": 65,
   "source_count": 801,
   "vehicle_count": 609
