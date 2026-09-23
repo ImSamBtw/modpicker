@@ -11,7 +11,7 @@ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
 page.on('pageerror',e=>errors.push(e.message));
 await page.route('https://pzxofwrdidvqhdlqbehk.supabase.co/**',r=>r.abort());
 await page.goto('http://localhost:8123');assert.equal(await page.locator('#vehicleSelect').count(),0);assert.ok(await page.locator('#makeSelect').count());assert.ok(await page.locator('#modelSelect').count());assert.ok(await page.locator('#yearSelect').count());assert.ok(await page.locator('#variantSelect').count());const makeLabels=await page.locator('#makeSelect option').allTextContents();assert.equal(new Set(makeLabels.map(x=>x.toLowerCase())).size,makeLabels.length);assert.ok(await page.locator('.part-card').count()>0);
-await page.locator('.part-card .button.primary').first().click();await page.locator('[data-route="build"]').click();
+await page.locator('.main-nav [data-route="catalog"]').click();await page.locator('.part-card .button.primary').first().click();await page.locator('[data-route="build"]').click();
 await page.locator('.item-note input').fill('Manual torque spec — α <test>');await page.locator('.item-note input').dispatchEvent('change');
 await page.locator('[aria-label^="Quantity"]').fill('2');await page.locator('[aria-label^="Quantity"]').dispatchEvent('change');
 await page.locator('.item-fields input[step="0.01"]').fill('125');await page.locator('.item-fields input[step="0.01"]').dispatchEvent('change');

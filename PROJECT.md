@@ -60,6 +60,8 @@ flowchart TD
 
 ### Completed in the current release
 
+- Separated a quiet Home entry point from the full parts workspace, with three task paths, original car/truck concept imagery and a future community showcase area.
+
 - Replaced the single long vehicle list with hierarchical car selectors and a dedicated platform mode.
 - Added platform records for BMW M52TU, Mazda BP-4W, and Subaru FA20 with scoped applications.
 - Added manual catalog validation and documented automated/manual contribution paths.

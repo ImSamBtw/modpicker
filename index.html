@@ -7,21 +7,48 @@
   <title>ModPicker — Build smarter</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="enhancements.css" /><link rel="stylesheet" href="polish.css" />
+  <link rel="stylesheet" href="home.css" />
 </head>
-<body>
+<body data-view="home">
+  <a class="skip-link" href="#mainContent">Skip to content</a>
   <header class="topbar">
-    <a class="brand" href="#" data-route="catalog"><span>MOD</span>PICKER</a>
-    <nav class="main-nav" aria-label="Primary navigation">
-      <button class="nav-link active" data-route="catalog">Parts</button>
+    <a class="brand" href="#" data-route="home" aria-label="ModPicker home"><span>MOD</span>PICKER</a>
+    <nav id="mainNav" class="main-nav" aria-label="Primary navigation">
+      <button class="nav-link active" data-route="home">Home</button>
+      <button class="nav-link" data-route="catalog">Find parts</button>
+      <button class="nav-link" data-route="garage" data-route-bound="1">My garage</button>
+      <button class="nav-link" data-route="build">Build sheet <span id="buildNavCount" class="nav-count">0</span></button>
+      <details class="research-nav"><summary>Research <span aria-hidden="true">⌄</span></summary><div class="research-menu">
       <button class="nav-link" data-route="prices">Price Finder <span id="priceNavCount" class="nav-count">0</span></button>
       <button class="nav-link" data-route="rankings">Rankings</button>
       <button class="nav-link" data-route="compare">Compare <span id="compareNavCount" class="nav-count">0</span></button>
-      <button class="nav-link" data-route="build">Build Sheet <span id="buildNavCount" class="nav-count">0</span></button>
+      </div></details>
     </nav>
-    <button id="mobileMenuButton" class="mobile-menu">Menu</button>
+    <button id="mobileMenuButton" class="mobile-menu" aria-controls="mainNav" aria-expanded="false">Menu</button>
   </header>
 
-  <main>
+  <main id="mainContent" tabindex="-1">
+    <section id="homeView" class="view active-view shell" aria-labelledby="homeTitle">
+      <div class="home-intro"><span class="eyebrow">For the love of the build</span><span class="home-edition">Your next chapter starts here <span aria-hidden="true">↗</span></span></div>
+      <div class="home-hero">
+        <div class="home-copy">
+          <h1 id="homeTitle">Your ride.<br>Your vision.<br><em>Build it here.</em></h1>
+          <p>Find the right parts. Plan your next upgrade. Keep your whole project in one place.</p>
+          <button class="button primary home-cta" data-home-go="catalog">Find parts for my vehicle <span aria-hidden="true">↗</span></button>
+          <span class="home-small-note">From daily drivers to weekend projects.</span>
+        </div>
+        <figure class="vehicle-showcase">
+          <img src="assets/garage-showcase.webp" width="1536" height="1024" fetchpriority="high" alt="A silver sports coupe and a green classic pickup at a mountain overlook at dusk." />
+          <figcaption><div><span class="showcase-kicker">The inspiration board</span><strong>Different rides. Same passion.</strong></div><span class="concept-label">AI concept image</span></figcaption>
+        </figure>
+      </div>
+      <div class="home-paths" aria-label="Start your project">
+        <button class="home-path" data-home-go="catalog"><span class="path-number">01 / DISCOVER</span><span class="path-title">Find your next upgrade <span aria-hidden="true">↗</span></span><span class="path-description">Browse parts and check fitment for your vehicle.</span></button>
+        <button class="home-path" data-home-go="garage"><span class="path-number">02 / YOUR GARAGE</span><span class="path-title">Make it yours <span aria-hidden="true">↗</span></span><span class="path-description">Keep your mods, maintenance and vehicle history together.</span></button>
+        <button class="home-path" data-home-go="build"><span class="path-number">03 / THE PLAN</span><span class="path-title">Bring your build to life <span aria-hidden="true">↗</span></span><span class="path-description">Save your shortlist and keep an eye on your budget.</span></button>
+      </div>
+      <aside class="community-preview" aria-label="Upcoming community showcase"><span class="coming-label">Down the road</span><p><strong>Your build belongs here.</strong> A rotating spotlight for community cars and trucks is coming.</p><span class="community-mark" aria-hidden="true">↗</span></aside>
+    </section>
     <section class="vehicle-strip">
       <div class="vehicle-strip-inner">
         <div class="vehicle-title"><span class="eyebrow">Your garage</span><strong id="vehicleName">Select a vehicle</strong><div class="browse-mode" role="tablist" aria-label="Catalog scope"><button id="vehicleModeButton" class="mode-button active" role="tab" aria-selected="true">Car</button><button id="platformModeButton" class="mode-button" role="tab" aria-selected="false">Engine / platform</button></div></div>
@@ -46,7 +73,7 @@
 
     <div class="shell prototype-banner"><strong>Evidence-first catalog:</strong> automated product and vehicle updates. Ratings require published review data. <a href="data-status.html">View pipeline health</a>.</div>
 
-    <section id="catalogView" class="view active-view">
+    <section id="catalogView" class="view">
       <div class="hero shell">
         <div><span class="eyebrow">Automotive build planning</span><h1>Find parts that fit.<br>Research before you wrench.</h1><p>Compare compatible upgrades, rankings, seller pricing, owner discussions, install resources, prerequisites and complete build sheets in one place.</p></div>
         <div class="hero-stats"><div><strong id="heroCompatible">0</strong><span>catalog parts</span></div><div><strong id="heroCategories">0</strong><span>categories</span></div><div><strong id="heroOffers">0</strong><span>price offers</span></div><div><strong id="heroWatched">0</strong><span>watched prices</span></div></div>
@@ -98,7 +125,7 @@
 
   <dialog id="partDialog" class="part-dialog"><button id="dialogClose" class="dialog-close" aria-label="Close">×</button><div id="partDialogContent"></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <footer><div class="shell footer-inner"><strong>ModPicker</strong><span>Compatibility + pricing + research + rankings + build sheets for automotive upgrades.</span></div></footer>
+  <footer><div class="shell footer-inner"><strong>ModPicker</strong><span>A place for your next project.</span><a href="data-status.html">Data status</a></div></footer>
 
   <script src="data.js"></script>
   <script src="data-extra.js"></script>

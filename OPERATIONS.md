@@ -24,3 +24,8 @@ Inspect `/data-status.html` and the Actions run. A degraded source retains its o
 ## Data addition runbook
 
 For a manual vehicle, platform, or part, follow `MANUAL_CATALOG.md`. Add the JSON, run `python scripts/validate_catalog.py`, run the unit tests, then inspect the pipeline output and review queue. For automated sources, update the allow-listed config and domain policy, verify robots and terms, and let the scheduled job collect structured records. The same publication gate handles both paths.
+
+
+## Homepage assets and verification
+
+Run `node tests/ui-cleanup-smoke.cjs` after changing Home, header navigation or `home.css`; run the existing browser and Garage smoke tests for routing changes. Desktop/mobile captures are written to `/tmp/modpicker-home-*.png`. The showcase asset and its provenance/future submission requirements live in `assets/README.md`. The page uses a static concept image until an opt-in moderation and attribution workflow exists.
