@@ -1,7 +1,7 @@
 {
   "source_url": "https://www.fueleconomy.gov/feg/epadata/vehicles.csv.zip",
   "documentation_url": "https://www.fueleconomy.gov/feg/ws/index.shtml",
-  "retrieved_at": "2026-09-22T21:21:08.381771+00:00",
+  "retrieved_at": "2026-09-23T04:47:09.656921+00:00",
   "sha256": "fd9132961f2aff95464b9671aec025ecd886092521aa8855e79f77717a45ec0f",
   "upstream_rows": 50409,
   "imported_rows": 206,
