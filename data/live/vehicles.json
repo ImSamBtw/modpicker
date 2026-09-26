@@ -4325,7 +4325,7 @@
       "make_id": 460,
       "model_id": 14930,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:33.988448+00:00",
+      "retrieved_at": "2026-09-26T16:26:39.889859+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4346,7 +4346,7 @@
       "make_id": 460,
       "model_id": 14930,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:34.328216+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.112861+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4367,7 +4367,7 @@
       "make_id": 460,
       "model_id": 14930,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:34.926839+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.398013+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4388,7 +4388,7 @@
       "make_id": 460,
       "model_id": 14930,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:35.155004+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.678357+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4409,7 +4409,7 @@
       "make_id": 460,
       "model_id": 3462,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:33.988444+00:00",
+      "retrieved_at": "2026-09-26T16:26:39.889856+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4556,7 +4556,7 @@
       "make_id": 460,
       "model_id": 3267,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:33.988441+00:00",
+      "retrieved_at": "2026-09-26T16:26:39.889853+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4598,7 +4598,7 @@
       "make_id": 460,
       "model_id": 1779,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:33.988404+00:00",
+      "retrieved_at": "2026-09-26T16:26:39.889816+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4619,7 +4619,7 @@
       "make_id": 460,
       "model_id": 1780,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:33.988426+00:00",
+      "retrieved_at": "2026-09-26T16:26:39.889839+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4640,7 +4640,7 @@
       "make_id": 460,
       "model_id": 1780,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:34.328187+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.112830+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4661,7 +4661,7 @@
       "make_id": 460,
       "model_id": 2346,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:33.988438+00:00",
+      "retrieved_at": "2026-09-26T16:26:39.889851+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4682,7 +4682,7 @@
       "make_id": 460,
       "model_id": 2346,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:34.328213+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.112857+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4703,7 +4703,7 @@
       "make_id": 460,
       "model_id": 31551,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:34.926843+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.398017+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -4724,7 +4724,7 @@
       "make_id": 460,
       "model_id": 31551,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:35.155008+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.678361+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -6255,7 +6255,7 @@
       "make_id": 460,
       "model_id": 1781,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:33.988431+00:00",
+      "retrieved_at": "2026-09-26T16:26:39.889844+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -7904,7 +7904,7 @@
       "make_id": 460,
       "model_id": 1781,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:34.328208+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.112853+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -10033,7 +10033,7 @@
       "make_id": 460,
       "model_id": 1781,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:34.926818+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.397993+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -10054,7 +10054,7 @@
       "make_id": 460,
       "model_id": 1781,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:35.154981+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.678337+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -10075,7 +10075,7 @@
       "make_id": 460,
       "model_id": 35300,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:34.926846+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.398020+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -10096,7 +10096,7 @@
       "make_id": 460,
       "model_id": 35300,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:35.155012+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.678365+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -10159,7 +10159,7 @@
       "make_id": 460,
       "model_id": 1782,
       "requested_make": "Ford",
-      "retrieved_at": "2026-09-25T17:14:33.988435+00:00",
+      "retrieved_at": "2026-09-26T16:26:39.889847+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Ford/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12262,7 +12262,7 @@
       "make_id": 478,
       "model_id": 5565,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-25T17:14:36.875615+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.429099+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12283,7 +12283,7 @@
       "make_id": 478,
       "model_id": 5565,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-25T17:14:37.177790+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.670528+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12346,7 +12346,7 @@
       "make_id": 478,
       "model_id": 1904,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-25T17:14:36.875587+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.429071+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12367,7 +12367,7 @@
       "make_id": 478,
       "model_id": 1904,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-25T17:14:37.177762+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.670501+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12472,7 +12472,7 @@
       "make_id": 478,
       "model_id": 5756,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-25T17:14:36.875618+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.429102+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12493,7 +12493,7 @@
       "make_id": 478,
       "model_id": 5756,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-25T17:14:37.177793+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.670531+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12682,7 +12682,7 @@
       "make_id": 478,
       "model_id": 2302,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-25T17:14:36.875611+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.429095+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12703,7 +12703,7 @@
       "make_id": 478,
       "model_id": 2302,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-25T17:14:37.177786+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.670525+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12850,7 +12850,7 @@
       "make_id": 478,
       "model_id": 1907,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-25T17:14:36.875608+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.429091+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -12871,7 +12871,7 @@
       "make_id": 478,
       "model_id": 1907,
       "requested_make": "Nissan",
-      "retrieved_at": "2026-09-25T17:14:37.177782+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.670521+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Nissan/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16075,7 +16075,7 @@
       "make_id": 482,
       "model_id": 25871,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.136326+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.671034+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16096,7 +16096,7 @@
       "make_id": 482,
       "model_id": 8119,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.432230+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.943360+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16117,7 +16117,7 @@
       "make_id": 482,
       "model_id": 8119,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.704737+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.249763+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16138,7 +16138,7 @@
       "make_id": 482,
       "model_id": 8119,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.914830+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.463599+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16159,7 +16159,7 @@
       "make_id": 482,
       "model_id": 8460,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.432233+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.943365+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16180,7 +16180,7 @@
       "make_id": 482,
       "model_id": 8460,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.704740+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.249767+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16201,7 +16201,7 @@
       "make_id": 482,
       "model_id": 8121,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.914834+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.463602+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16222,7 +16222,7 @@
       "make_id": 482,
       "model_id": 8118,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.914827+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.463595+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16243,7 +16243,7 @@
       "make_id": 482,
       "model_id": 8118,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.136313+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.671021+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16264,7 +16264,7 @@
       "make_id": 482,
       "model_id": 8055,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.704733+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.249760+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16285,7 +16285,7 @@
       "make_id": 482,
       "model_id": 3133,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.432197+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.943330+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16306,7 +16306,7 @@
       "make_id": 482,
       "model_id": 3133,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.704702+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.249727+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16327,7 +16327,7 @@
       "make_id": 482,
       "model_id": 3133,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.914795+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.463563+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16348,7 +16348,7 @@
       "make_id": 482,
       "model_id": 3133,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.136280+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.670988+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16369,7 +16369,7 @@
       "make_id": 482,
       "model_id": 24230,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.914844+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.463611+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16390,7 +16390,7 @@
       "make_id": 482,
       "model_id": 24230,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.136322+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.671031+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16411,7 +16411,7 @@
       "make_id": 482,
       "model_id": 13670,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.914838+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.463605+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16432,7 +16432,7 @@
       "make_id": 482,
       "model_id": 13670,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.136316+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.671024+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16453,7 +16453,7 @@
       "make_id": 482,
       "model_id": 13670,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.653828+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.205760+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16474,7 +16474,7 @@
       "make_id": 482,
       "model_id": 13844,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.914841+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.463608+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16495,7 +16495,7 @@
       "make_id": 482,
       "model_id": 13844,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.136319+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.671027+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16516,7 +16516,7 @@
       "make_id": 482,
       "model_id": 13844,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.326610+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.933878+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16537,7 +16537,7 @@
       "make_id": 482,
       "model_id": 13844,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.653832+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.205763+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16558,7 +16558,7 @@
       "make_id": 482,
       "model_id": 5059,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.914823+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.463592+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16579,7 +16579,7 @@
       "make_id": 482,
       "model_id": 5059,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.136310+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.671017+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16600,7 +16600,7 @@
       "make_id": 482,
       "model_id": 3140,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.432227+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.943357+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16621,7 +16621,7 @@
       "make_id": 482,
       "model_id": 3140,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.704730+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.249757+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16642,7 +16642,7 @@
       "make_id": 482,
       "model_id": 3140,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.326606+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.933873+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16663,7 +16663,7 @@
       "make_id": 482,
       "model_id": 3137,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.432223+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.943353+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16684,7 +16684,7 @@
       "make_id": 482,
       "model_id": 3137,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.704727+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.249753+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16705,7 +16705,7 @@
       "make_id": 482,
       "model_id": 3137,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.914820+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.463589+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16726,7 +16726,7 @@
       "make_id": 482,
       "model_id": 3137,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.136307+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.671014+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16747,7 +16747,7 @@
       "make_id": 482,
       "model_id": 3137,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.326585+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.933851+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16768,7 +16768,7 @@
       "make_id": 482,
       "model_id": 3137,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.653807+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.205738+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16789,7 +16789,7 @@
       "make_id": 482,
       "model_id": 29681,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.326613+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.933881+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2025/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16810,7 +16810,7 @@
       "make_id": 482,
       "model_id": 29681,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.653835+00:00",
+      "retrieved_at": "2026-09-26T16:26:42.205766+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2026/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16831,7 +16831,7 @@
       "make_id": 482,
       "model_id": 3134,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.432219+00:00",
+      "retrieved_at": "2026-09-26T16:26:40.943349+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/1999/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16852,7 +16852,7 @@
       "make_id": 482,
       "model_id": 3134,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.704722+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.249749+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2000/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16873,7 +16873,7 @@
       "make_id": 482,
       "model_id": 3134,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:35.914816+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.463586+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2017/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
@@ -16894,7 +16894,7 @@
       "make_id": 482,
       "model_id": 3134,
       "requested_make": "Volkswagen",
-      "retrieved_at": "2026-09-25T17:14:36.136302+00:00",
+      "retrieved_at": "2026-09-26T16:26:41.671009+00:00",
       "source": "NHTSA vPIC",
       "source_url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/Volkswagen/modelyear/2020/vehicletype/Passenger%20Car?format=json",
       "vehicle_type": "Passenger Car"
