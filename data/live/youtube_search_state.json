@@ -1,4 +1,10 @@
 {
+  "afe-intake-z3": {
+    "last_attempt": "2026-09-27T05:21:30Z",
+    "query": "aFe Power High-Flow Intake System BMW Z3 2.8 install review",
+    "result_count": 5,
+    "status": "ok"
+  },
   "auto-038a46bb146a996aeb66": {
     "last_attempt": "2026-09-22T11:42:02Z",
     "query": "Thermal Research & Development NB 2.25\" Flyin' Miata midpipe and catalytic converter  install review",
@@ -617,6 +623,12 @@
     "result_count": 0,
     "status": "ok"
   },
+  "bilstein-b8-z3": {
+    "last_attempt": "2026-09-27T05:21:29Z",
+    "query": "Bilstein B8 Performance Plus Dampers BMW Z3 install review",
+    "result_count": 5,
+    "status": "ok"
+  },
   "brz-csg-brembo": {
     "last_attempt": "2026-09-20T16:08:53Z",
     "query": "CSG Spec / Brembo Brembo GT 4-Piston 326x30mm Brake Kit 2013+ Subaru BRZ / FR-S / 86 install review",
@@ -662,6 +674,12 @@
   "brz-greddy-oilcooler": {
     "last_attempt": "2026-09-20T16:08:54Z",
     "query": "GReddy Oil Cooler Kit - 2013-2020 2013-2020 Subaru BRZ / FR-S / 86 install review",
+    "result_count": 5,
+    "status": "ok"
+  },
+  "brz-header": {
+    "last_attempt": "2026-09-27T05:21:31Z",
+    "query": "JDL Auto Design UEL Header 2017 Subaru BRZ install review",
     "result_count": 5,
     "status": "ok"
   },
@@ -758,6 +776,24 @@
   "brz-perrin-trans-support": {
     "last_attempt": "2026-09-20T16:08:51Z",
     "query": "PERRIN Transmission Mount Support - Manual 2013-2026 BRZ manual install review",
+    "result_count": 5,
+    "status": "ok"
+  },
+  "coilover-z3": {
+    "last_attempt": "2026-09-27T05:21:30Z",
+    "query": "BC Racing BR Series Coilovers BMW Z3 install review",
+    "result_count": 5,
+    "status": "ok"
+  },
+  "hr-springs-z3": {
+    "last_attempt": "2026-09-27T05:21:29Z",
+    "query": "H&R Sport Springs BMW Z3 install review",
+    "result_count": 2,
+    "status": "ok"
+  },
+  "koyo-z3-rad": {
+    "last_attempt": "2026-09-27T05:21:29Z",
+    "query": "Koyorad HH422674 Aluminum Radiator 2000 BMW Z3 2.8 install review",
     "result_count": 5,
     "status": "ok"
   },
@@ -923,6 +959,12 @@
     "result_count": 5,
     "status": "ok"
   },
+  "miata-xida": {
+    "last_attempt": "2026-09-27T05:21:31Z",
+    "query": "949 Racing Xida Coilovers 1999 NB Miata install review",
+    "result_count": 5,
+    "status": "ok"
+  },
   "mustang-airlift-s550-front-kit": {
     "last_attempt": "2026-09-21T12:52:03Z",
     "query": "Air Lift Performance S550 Front Suspension Kit 2015-2023 Ford Mustang S550 install review",
@@ -941,6 +983,12 @@
     "result_count": 5,
     "status": "ok"
   },
+  "mustang-steeda-intake": {
+    "last_attempt": "2026-09-27T05:21:32Z",
+    "query": "Steeda ProFlow Cold Air Intake - Tune Required 2015-2017 Ford Mustang GT 5.0 install review",
+    "result_count": 5,
+    "status": "ok"
+  },
   "mustang-steeda-pp-rear-rotors": {
     "last_attempt": "2026-09-21T12:52:02Z",
     "query": "Steeda Performance Pack Rear Two-Piece Brake Rotors 2015-2023 Ford Mustang GT Performance Package install review",
@@ -956,6 +1004,24 @@
   "mustang-whiteline-sway-kit": {
     "last_attempt": "2026-09-21T12:52:01Z",
     "query": "Whiteline Front and Rear Sway Bar Vehicle Kit 2015-2023 Ford Mustang S550 install review",
+    "result_count": 5,
+    "status": "ok"
+  },
+  "powerflex-rtab-z3": {
+    "last_attempt": "2026-09-27T05:21:30Z",
+    "query": "Powerflex Rear Trailing Arm Bushings BMW Z3 install review",
+    "result_count": 5,
+    "status": "ok"
+  },
+  "stewart-z3-pump": {
+    "last_attempt": "2026-09-27T05:21:29Z",
+    "query": "Stewart Components High Performance Water Pump BMW Z3 M52TU install review",
+    "result_count": 5,
+    "status": "ok"
+  },
+  "supersprint-z3-catback": {
+    "last_attempt": "2026-09-27T05:21:31Z",
+    "query": "Supersprint Performance Cat-Back Exhaust BMW Z3 2.8 install review",
     "result_count": 5,
     "status": "ok"
   },
