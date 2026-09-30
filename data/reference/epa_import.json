@@ -1,9 +1,9 @@
 {
   "source_url": "https://www.fueleconomy.gov/feg/epadata/vehicles.csv.zip",
   "documentation_url": "https://www.fueleconomy.gov/feg/ws/index.shtml",
-  "retrieved_at": "2026-09-30T05:34:57.291570+00:00",
-  "sha256": "fd9132961f2aff95464b9671aec025ecd886092521aa8855e79f77717a45ec0f",
-  "upstream_rows": 50409,
+  "retrieved_at": "2026-09-30T12:37:38.225447+00:00",
+  "sha256": "33d32caa0343cdb11c47be631e8a80b7ed7c351ee8503646a4e96485bd67b22f",
+  "upstream_rows": 50407,
   "imported_rows": 206,
   "scope": "Configured vehicle families in config/vehicle_families.json",
   "limits": "EPA configurations are not trim, engine-code, production-month or part-fitment evidence."
