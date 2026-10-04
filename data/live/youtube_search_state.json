@@ -1,6 +1,6 @@
 {
   "afe-intake-z3": {
-    "last_attempt": "2026-09-27T05:21:30Z",
+    "last_attempt": "2026-10-04T05:56:40Z",
     "query": "aFe Power High-Flow Intake System BMW Z3 2.8 install review",
     "result_count": 5,
     "status": "ok"
@@ -624,7 +624,7 @@
     "status": "ok"
   },
   "bilstein-b8-z3": {
-    "last_attempt": "2026-09-27T05:21:29Z",
+    "last_attempt": "2026-10-04T05:56:39Z",
     "query": "Bilstein B8 Performance Plus Dampers BMW Z3 install review",
     "result_count": 5,
     "status": "ok"
@@ -678,7 +678,7 @@
     "status": "ok"
   },
   "brz-header": {
-    "last_attempt": "2026-09-27T05:21:31Z",
+    "last_attempt": "2026-10-04T05:56:41Z",
     "query": "JDL Auto Design UEL Header 2017 Subaru BRZ install review",
     "result_count": 5,
     "status": "ok"
@@ -780,19 +780,19 @@
     "status": "ok"
   },
   "coilover-z3": {
-    "last_attempt": "2026-09-27T05:21:30Z",
+    "last_attempt": "2026-10-04T05:56:39Z",
     "query": "BC Racing BR Series Coilovers BMW Z3 install review",
     "result_count": 5,
     "status": "ok"
   },
   "hr-springs-z3": {
-    "last_attempt": "2026-09-27T05:21:29Z",
+    "last_attempt": "2026-10-04T05:56:39Z",
     "query": "H&R Sport Springs BMW Z3 install review",
-    "result_count": 2,
+    "result_count": 3,
     "status": "ok"
   },
   "koyo-z3-rad": {
-    "last_attempt": "2026-09-27T05:21:29Z",
+    "last_attempt": "2026-10-04T05:56:38Z",
     "query": "Koyorad HH422674 Aluminum Radiator 2000 BMW Z3 2.8 install review",
     "result_count": 5,
     "status": "ok"
@@ -960,7 +960,7 @@
     "status": "ok"
   },
   "miata-xida": {
-    "last_attempt": "2026-09-27T05:21:31Z",
+    "last_attempt": "2026-10-04T05:56:40Z",
     "query": "949 Racing Xida Coilovers 1999 NB Miata install review",
     "result_count": 5,
     "status": "ok"
@@ -984,7 +984,7 @@
     "status": "ok"
   },
   "mustang-steeda-intake": {
-    "last_attempt": "2026-09-27T05:21:32Z",
+    "last_attempt": "2026-10-04T05:56:41Z",
     "query": "Steeda ProFlow Cold Air Intake - Tune Required 2015-2017 Ford Mustang GT 5.0 install review",
     "result_count": 5,
     "status": "ok"
@@ -1008,21 +1008,21 @@
     "status": "ok"
   },
   "powerflex-rtab-z3": {
-    "last_attempt": "2026-09-27T05:21:30Z",
+    "last_attempt": "2026-10-04T05:56:40Z",
     "query": "Powerflex Rear Trailing Arm Bushings BMW Z3 install review",
     "result_count": 5,
     "status": "ok"
   },
   "stewart-z3-pump": {
-    "last_attempt": "2026-09-27T05:21:29Z",
+    "last_attempt": "2026-10-04T05:56:39Z",
     "query": "Stewart Components High Performance Water Pump BMW Z3 M52TU install review",
-    "result_count": 5,
+    "result_count": 4,
     "status": "ok"
   },
   "supersprint-z3-catback": {
-    "last_attempt": "2026-09-27T05:21:31Z",
+    "last_attempt": "2026-10-04T05:56:40Z",
     "query": "Supersprint Performance Cat-Back Exhaust BMW Z3 2.8 install review",
-    "result_count": 5,
+    "result_count": 4,
     "status": "ok"
   },
   "z3-apex-wheels": {
