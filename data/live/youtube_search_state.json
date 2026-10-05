@@ -798,9 +798,9 @@
     "status": "ok"
   },
   "mahle-z3-thermostat": {
-    "last_attempt": "2026-09-28T14:00:06Z",
+    "last_attempt": "2026-10-05T14:44:16Z",
     "query": "Mahle/Behr Thermostat & Housing Refresh BMW Z3 2.8 M52TU install review",
-    "result_count": 4,
+    "result_count": 0,
     "status": "ok"
   },
   "miata-crossflow-rad": {
@@ -816,7 +816,7 @@
     "status": "ok"
   },
   "miata-fm-billet-rear-sway-brackets": {
-    "last_attempt": "2026-09-28T14:00:04Z",
+    "last_attempt": "2026-10-05T14:44:14Z",
     "query": "Flyin' Miata Billet Rear Sway Bar Brackets 1999-2005 NB Miata install review",
     "result_count": 5,
     "status": "ok"
@@ -840,7 +840,7 @@
     "status": "ok"
   },
   "miata-fm-fox-suspension": {
-    "last_attempt": "2026-09-28T14:00:04Z",
+    "last_attempt": "2026-10-05T14:44:15Z",
     "query": "Flyin' Miata / FOX FOX Suspension for NB 1999-2005 NB Miata install review",
     "result_count": 5,
     "status": "ok"
@@ -942,7 +942,7 @@
     "status": "ok"
   },
   "miata-vmaxx-classic": {
-    "last_attempt": "2026-09-28T14:00:04Z",
+    "last_attempt": "2026-10-05T14:44:15Z",
     "query": "Flyin' Miata / V-Maxx V-Maxx Classic Coilovers for NB 1999-2005 NB Miata install review",
     "result_count": 5,
     "status": "ok"
@@ -966,19 +966,19 @@
     "status": "ok"
   },
   "mustang-airlift-s550-front-kit": {
-    "last_attempt": "2026-09-28T14:00:04Z",
+    "last_attempt": "2026-10-05T14:44:14Z",
     "query": "Air Lift Performance S550 Front Suspension Kit 2015-2023 Ford Mustang S550 install review",
     "result_count": 5,
     "status": "ok"
   },
   "mustang-steeda-brake-lines": {
-    "last_attempt": "2026-09-28T14:00:02Z",
+    "last_attempt": "2026-10-05T14:44:12Z",
     "query": "Steeda Stainless Braided Brake Lines - Front and Rear 2015-2023 Ford Mustang GT S550 install review",
     "result_count": 5,
     "status": "ok"
   },
   "mustang-steeda-handling-package": {
-    "last_attempt": "2026-09-28T14:00:03Z",
+    "last_attempt": "2026-10-05T14:44:13Z",
     "query": "Steeda S550 Handling Suspension Package 2015-2023 Ford Mustang S550 install review",
     "result_count": 5,
     "status": "ok"
@@ -990,19 +990,19 @@
     "status": "ok"
   },
   "mustang-steeda-pp-rear-rotors": {
-    "last_attempt": "2026-09-28T14:00:03Z",
+    "last_attempt": "2026-10-05T14:44:14Z",
     "query": "Steeda Performance Pack Rear Two-Piece Brake Rotors 2015-2023 Ford Mustang GT Performance Package install review",
     "result_count": 5,
     "status": "ok"
   },
   "mustang-steeda-progressive-springs": {
-    "last_attempt": "2026-09-28T14:00:02Z",
+    "last_attempt": "2026-10-05T14:44:13Z",
     "query": "Steeda Sport Lowering Springs - Progressive 2015-2023 Ford Mustang S550 install review",
     "result_count": 5,
     "status": "ok"
   },
   "mustang-whiteline-sway-kit": {
-    "last_attempt": "2026-09-28T14:00:02Z",
+    "last_attempt": "2026-10-05T14:44:13Z",
     "query": "Whiteline Front and Rear Sway Bar Vehicle Kit 2015-2023 Ford Mustang S550 install review",
     "result_count": 5,
     "status": "ok"
@@ -1026,7 +1026,7 @@
     "status": "ok"
   },
   "z3-apex-wheels": {
-    "last_attempt": "2026-09-28T14:00:08Z",
+    "last_attempt": "2026-10-05T14:44:18Z",
     "query": "APEX ARC-8 Wheel Set BMW Z3 install review",
     "result_count": 5,
     "status": "ok"
@@ -1044,31 +1044,31 @@
     "status": "ok"
   },
   "z3-conti-ecs02": {
-    "last_attempt": "2026-09-28T14:00:08Z",
+    "last_attempt": "2026-10-05T14:44:18Z",
     "query": "Continental ExtremeContact Sport 02 Tire Set BMW Z3 install review",
     "result_count": 5,
     "status": "ok"
   },
   "z3-genuine-heater-inlet-pipe": {
-    "last_attempt": "2026-09-28T14:00:06Z",
+    "last_attempt": "2026-10-05T14:44:16Z",
     "query": "Genuine BMW Heater Inlet Pipe 1999-2002 BMW Z3 2.8 install review",
     "result_count": 0,
     "status": "ok"
   },
   "z3-genuine-lower-rad-hose": {
-    "last_attempt": "2026-09-28T14:00:05Z",
+    "last_attempt": "2026-10-05T14:44:15Z",
     "query": "Genuine BMW Lower Radiator Hose - M52TU/M54 Z3 1999-2002 BMW Z3 2.8 install review",
     "result_count": 0,
     "status": "ok"
   },
   "z3-genuine-upper-rad-hose": {
-    "last_attempt": "2026-09-28T14:00:05Z",
+    "last_attempt": "2026-10-05T14:44:16Z",
     "query": "Genuine BMW Upper Radiator Hose - M52TU/M54 Z3 1999-2002 BMW Z3 2.8 install review",
     "result_count": 1,
     "status": "ok"
   },
   "z3-goodridge-lines": {
-    "last_attempt": "2026-09-28T14:00:07Z",
+    "last_attempt": "2026-10-05T14:44:17Z",
     "query": "Goodridge Stainless Brake Line Kit BMW Z3 2.8 install review",
     "result_count": 2,
     "status": "ok"
@@ -1080,7 +1080,7 @@
     "status": "ok"
   },
   "z3-ie-subframe": {
-    "last_attempt": "2026-09-28T14:00:07Z",
+    "last_attempt": "2026-10-05T14:44:17Z",
     "query": "Ireland Engineering Rear Subframe Bushing Kit BMW Z3 install review",
     "result_count": 5,
     "status": "ok"
@@ -1092,37 +1092,37 @@
     "status": "ok"
   },
   "z3-ngk-plugs": {
-    "last_attempt": "2026-09-28T14:00:09Z",
+    "last_attempt": "2026-10-05T14:44:19Z",
     "query": "NGK Laser Platinum Spark Plug Set BMW Z3 2.8 M52TU install review",
     "result_count": 5,
     "status": "ok"
   },
   "z3-short-shifter": {
-    "last_attempt": "2026-09-28T14:00:08Z",
+    "last_attempt": "2026-10-05T14:44:18Z",
     "query": "Rogue Engineering Short Shift Kit BMW Z3 2.8 install review",
     "result_count": 4,
     "status": "ok"
   },
   "z3-silicone-hoses": {
-    "last_attempt": "2026-09-28T14:00:06Z",
+    "last_attempt": "2026-10-05T14:44:16Z",
     "query": "Mishimoto Silicone Coolant Hose Kit BMW Z3 2.8 install review",
     "result_count": 5,
     "status": "ok"
   },
   "z3-stoptech-pads": {
-    "last_attempt": "2026-09-28T14:00:06Z",
+    "last_attempt": "2026-10-05T14:44:16Z",
     "query": "StopTech Sport Brake Pads BMW Z3 2.8 install review",
     "result_count": 3,
     "status": "ok"
   },
   "z3-strut-brace": {
-    "last_attempt": "2026-09-28T14:00:08Z",
+    "last_attempt": "2026-10-05T14:44:18Z",
     "query": "Turner Motorsport Front Strut Tower Brace BMW Z3 install review",
-    "result_count": 5,
+    "result_count": 4,
     "status": "ok"
   },
   "z3-turner-brake-lines": {
-    "last_attempt": "2026-09-28T14:00:05Z",
+    "last_attempt": "2026-10-05T14:44:15Z",
     "query": "Turner Motorsport Stainless Steel Brake Lines - Front and Rear 2000 BMW Z3 2.8 install review",
     "result_count": 0,
     "status": "ok"
@@ -1152,13 +1152,13 @@
     "status": "ok"
   },
   "z3-uuc-sway": {
-    "last_attempt": "2026-09-28T14:00:07Z",
+    "last_attempt": "2026-10-05T14:44:17Z",
     "query": "UUC Motorwerks Adjustable Sway Bar Set BMW Z3 install review",
     "result_count": 3,
     "status": "ok"
   },
   "z3-zimmerman-rotors": {
-    "last_attempt": "2026-09-28T14:00:07Z",
+    "last_attempt": "2026-10-05T14:44:17Z",
     "query": "Zimmermann Coated Brake Rotor Set BMW Z3 2.8 install review",
     "result_count": 0,
     "status": "ok"
