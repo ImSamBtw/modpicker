@@ -66,20 +66,20 @@
       "enabled": true,
       "passenger_car_only": true,
       "pruned_invalid_nhtsa": 0,
-      "rejected_make_mismatch": 0,
+      "rejected_make_mismatch": 12,
       "requests": 12,
-      "rows_seen": 89,
+      "rows_seen": 70,
       "vehicle_count": 609,
       "warnings": []
     },
     "web_product": {
       "enabled": true,
-      "fresh_pages_skipped": 15,
-      "offer_count": 100,
-      "pages_checked": 124,
+      "fresh_pages_skipped": 139,
+      "offer_count": 3,
+      "pages_checked": 3,
       "refresh_hours": 24,
-      "robots_origins_checked": 3,
-      "source_count": 124,
+      "robots_origins_checked": 2,
+      "source_count": 3,
       "warnings": [
         "robots denied/unavailable: https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
         "robots denied/unavailable: https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
@@ -91,22 +91,19 @@
         "robots denied/unavailable: https://www.turnermotorsport.com/p-338371-double-shear-selector-rod-dssr-389mm/",
         "robots denied/unavailable: https://www.turnermotorsport.com/BMW-Z3/c-827-bmw-control-arm-bushings",
         "robots denied/unavailable: https://www.turnermotorsport.com/BMW-Z3/c-664-bmw-clutch-pedal-parts",
-        "robots denied/unavailable: https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/",
-        "https://flyinmiata.com/products/fm-jack-adapter: RuntimeError: 429 https://flyinmiata.com/products/fm-jack-adapter",
-        "https://flyinmiata.com/products/1-8-na-nb-oil-filter-drain-funnel: RuntimeError: 429 https://flyinmiata.com/products/1-8-na-nb-oil-filter-drain-funnel",
-        "https://flyinmiata.com/products/flyin-miata-vvt-tool-kit-2nd-gen: RuntimeError: 429 https://flyinmiata.com/products/flyin-miata-vvt-tool-kit-2nd-gen"
+        "robots denied/unavailable: https://www.turnermotorsport.com/p-338909-hr-sport-spring-bilstein-sport-shock-package-z3-non-m/"
       ]
     },
     "youtube": {
-      "count": 68,
+      "count": 103,
       "enabled": true,
-      "fresh_parts_skipped": 11,
+      "fresh_parts_skipped": 170,
       "max_searches": 25,
       "quota_cooldown_active": false,
       "quota_cooldown_hours": 12,
       "quota_stopped": false,
       "refresh_days": 7,
-      "search_calls": 25,
+      "search_calls": 24,
       "search_state_entries": 194,
       "warnings": []
     }
@@ -123,14 +120,14 @@
   "expanded_fitment_count": 2605,
   "fitment_rule_count": 101,
   "fitment_warnings": [],
-  "generated_at": "2026-10-04T21:30:13Z",
+  "generated_at": "2026-10-05T05:44:41Z",
   "matched_fitment_rule_count": 101,
   "mode": "deterministic_no_ai",
   "offer_count": 163,
   "ok": false,
   "platform_count": 7,
-  "price_history_count": 1580,
+  "price_history_count": 1583,
   "review_queue_count": 65,
-  "source_count": 931,
+  "source_count": 941,
   "vehicle_count": 609
 }
