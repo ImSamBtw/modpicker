@@ -8,29 +8,7 @@
       "enabled": true,
       "promoted": 0,
       "promotion_limit": 24,
-      "warnings": [
-        "robots denied/unavailable: https://flyinmiata.com/products/rgr-radiator-bracket-kit-nb-upper",
-        "robots denied/unavailable: https://flyinmiata.com/products/na-nb-stage-5-big-mama-jama-brake-kit",
-        "robots denied/unavailable: https://flyinmiata.com/products/na-nb-rear-parking-brake-big-brake-kit",
-        "robots denied/unavailable: https://flyinmiata.com/products/flyin-miata-little-big-brake-kit-front-only",
-        "robots denied/unavailable: https://flyinmiata.com/products/stage-2-four-piston-rear-brake-upgrade-1",
-        "robots denied/unavailable: https://flyinmiata.com/products/na-nb-rear-drift-caliper-kit",
-        "robots denied/unavailable: https://flyinmiata.com/products/stage-2-four-piston-rear-brake-upgrade",
-        "robots denied/unavailable: https://flyinmiata.com/products/speed-bleeders",
-        "robots denied/unavailable: https://flyinmiata.com/products/caliper-rebuild-kit-rear",
-        "robots denied/unavailable: https://flyinmiata.com/products/caliper-rebuild-kit-front",
-        "robots denied/unavailable: https://flyinmiata.com/products/brake-pads-for-powerlite-calipers",
-        "robots denied/unavailable: https://flyinmiata.com/products/brake-rotors-for-nb-sport-miatas-rear",
-        "robots denied/unavailable: https://flyinmiata.com/products/fm-radiator-cap",
-        "robots denied/unavailable: https://flyinmiata.com/products/flyin-miata-coolant-reroute",
-        "robots denied/unavailable: https://flyinmiata.com/products/variant-non-marring-lug-nut-socket",
-        "robots denied/unavailable: https://flyinmiata.com/products/oil-filter-bosch-premium-na-nb-nd",
-        "robots denied/unavailable: https://flyinmiata.com/products/redline-oil",
-        "robots denied/unavailable: https://flyinmiata.com/products/clutch-hydraulics-refresh-bundle",
-        "robots denied/unavailable: https://flyinmiata.com/products/oil-change-bundle-for-1999-05-miata",
-        "robots denied/unavailable: https://flyinmiata.com/products/1990-05-hard-dog-sport",
-        "robots denied/unavailable: https://flyinmiata.com/products/roll-bar-trim-kit"
-      ]
+      "warnings": []
     },
     "catalog_discovery": {
       "candidate_count": 173,
@@ -90,18 +68,18 @@
       "pruned_invalid_nhtsa": 0,
       "rejected_make_mismatch": 0,
       "requests": 12,
-      "rows_seen": 49,
+      "rows_seen": 89,
       "vehicle_count": 609,
       "warnings": []
     },
     "web_product": {
       "enabled": true,
-      "fresh_pages_skipped": 142,
-      "offer_count": 0,
-      "pages_checked": 0,
+      "fresh_pages_skipped": 136,
+      "offer_count": 6,
+      "pages_checked": 6,
       "refresh_hours": 24,
-      "robots_origins_checked": 1,
-      "source_count": 0,
+      "robots_origins_checked": 2,
+      "source_count": 6,
       "warnings": [
         "robots denied/unavailable: https://www.turnermotorsport.com/p-2765-coolant-expansion-tank-e53-x5-z3/",
         "robots denied/unavailable: https://www.turnermotorsport.com/p-339093-complete-cooling-system-overhaul-package-1999-2002-z3-23-25i-28-30/",
@@ -117,15 +95,15 @@
       ]
     },
     "youtube": {
-      "count": 34,
+      "count": 12,
       "enabled": true,
-      "fresh_parts_skipped": 169,
+      "fresh_parts_skipped": 185,
       "max_searches": 25,
       "quota_cooldown_active": false,
       "quota_cooldown_hours": 12,
       "quota_stopped": false,
       "refresh_days": 7,
-      "search_calls": 25,
+      "search_calls": 9,
       "search_state_entries": 194,
       "warnings": []
     }
@@ -142,14 +120,14 @@
   "expanded_fitment_count": 2605,
   "fitment_rule_count": 101,
   "fitment_warnings": [],
-  "generated_at": "2026-10-14T11:56:12Z",
+  "generated_at": "2026-10-14T17:13:36Z",
   "matched_fitment_rule_count": 101,
   "mode": "deterministic_no_ai",
   "offer_count": 163,
   "ok": false,
   "platform_count": 7,
-  "price_history_count": 2521,
+  "price_history_count": 2527,
   "review_queue_count": 65,
-  "source_count": 1013,
+  "source_count": 1015,
   "vehicle_count": 609
 }
