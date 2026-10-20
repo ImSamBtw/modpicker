@@ -29,3 +29,8 @@ For a manual vehicle, platform, or part, follow `MANUAL_CATALOG.md`. Add the JSO
 ## Homepage assets and verification
 
 Run `node tests/ui-cleanup-smoke.cjs` after changing Home, header navigation or `home.css`; run the existing browser and Garage smoke tests for routing changes. Desktop/mobile captures are written to `/tmp/modpicker-home-*.png`. The showcase asset and its provenance/future submission requirements live in `assets/README.md`. The page uses a static concept image until an opt-in moderation and attribution workflow exists.
+
+
+## Dream Spec account and diagnostic services
+
+See [DREAM_SPEC.md](docs/DREAM_SPEC.md) for the private-data migration, email-auth configuration, BYOK-only diagnostic function, appearance rollback and regression checks. Do not configure host AI credentials for the diagnostic function.

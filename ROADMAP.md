@@ -1,10 +1,10 @@
-# ModPicker product roadmap
+# Dream Spec product roadmap
 
 This roadmap extends the evidence-first catalog into a complete virtual garage, build planner, ownership record, research assistant and automotive community. Accuracy rules in `PROJECT.md` remain binding: fitment, specifications, maintenance data, ratings, prices and interchange claims must retain provenance and uncertainty instead of being guessed.
 
 ## Product direction
 
-ModPicker should become a vehicle-centered workspace rather than only a parts catalog. A user should be able to describe the exact car they own, record what has happened to it, explain what they want from it, research compatible parts and swaps, build a plan, find local help, track maintenance and document the finished vehicle.
+Dream Spec should become a vehicle-centered workspace rather than only a parts catalog. A user should be able to describe the exact car they own, record what has happened to it, explain what they want from it, research compatible parts and swaps, build a plan, find local help, track maintenance and document the finished vehicle.
 
 The long-term recommendation input is:
 
@@ -173,7 +173,7 @@ Generate a visual preview from the selected car, current photos and proposed bui
 - colors/wrap
 - lighting and trim changes
 
-Architecture goal: support ModPicker-hosted inference as an optional provider while allowing advanced users to connect a compatible external/local diffusion service. Treat generated images as visual concepts, not dimensional fitment proof.
+Architecture goal: support Dream Spec-hosted inference as an optional provider while allowing advanced users to connect a compatible external/local diffusion service. Treat generated images as visual concepts, not dimensional fitment proof.
 
 ## UI improvements
 
@@ -201,7 +201,7 @@ Architecture goal: support ModPicker-hosted inference as an optional provider wh
 
 Working candidates from product planning:
 
-- ModPicker — current project/working name
+- Dream Spec — current project/working name
 - VOSS — Virtual One Stop Shop
 - MVG — My Virtual Garage
 - a short name built around “virtual garage” remains an open naming direction

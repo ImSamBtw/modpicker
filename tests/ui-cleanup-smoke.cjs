@@ -1,4 +1,5 @@
 const assert=require('node:assert/strict');
+const fixture=require('./dreamspec-fixture.cjs');
 const {spawn}=require('node:child_process');
 const path=require('node:path');
 const {chromium}=require('playwright');
@@ -9,21 +10,22 @@ const server=spawn('python',['-m','http.server','8125'],{cwd:path.join(__dirname
   const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
   page.on('pageerror',e=>errors.push(e.message));
   await page.route('https://pzxofwrdidvqhdlqbehk.supabase.co/**',r=>r.abort());
+  await fixture.install(page);
   await page.goto('http://localhost:8125',{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>document.documentElement.dataset.modpickerUi==='refresh-v1');
   await page.waitForSelector('#homeView.active-view');
   assert.equal(await page.locator('.vehicle-strip').isVisible(),false);
   assert.equal(await page.locator('.prototype-banner').isVisible(),false);
   assert.equal(await page.locator('#partGrid').isVisible(),false);
-  assert.equal(await page.locator('.home-path').count(),3);
+  assert.equal(await page.locator('.home-path').count(),4);
   assert.ok(await page.locator('.vehicle-showcase img').evaluate(img=>img.complete&&img.naturalWidth>0));
   await page.screenshot({path:'/tmp/modpicker-home-desktop.png',fullPage:true});
 
   // Every landing-page path works, and the logo gets users home again.
-  for(const route of ['garage','build','catalog']){
+  for(const route of ['garage','goals','catalog','diagnose']){
     await page.locator(`.home-path[data-home-go="${route}"]`).click();
-    await page.waitForSelector(`#${route}View.active-view`);
-    assert.ok(await page.locator('.vehicle-strip').isVisible());
+    await page.waitForSelector('#'+(['garage','diagnose'].includes(route)?'account':route)+'View.active-view');
+    assert.equal(await page.locator('.vehicle-strip').isVisible(),!['garage','diagnose'].includes(route));
     await page.locator('.brand').click();
     await page.waitForSelector('#homeView.active-view');
   }
@@ -32,7 +34,7 @@ const server=spawn('python',['-m','http.server','8125'],{cwd:path.join(__dirname
   await page.waitForSelector('#pricesView.active-view');
   assert.equal(await page.locator('.research-nav').getAttribute('open'),null);
   await page.locator('.brand').click();
-  await page.locator('.home-cta').click();
+  await page.locator('.home-path[data-home-go="catalog"]').click();
   assert.ok(await page.locator('#applicationSearch').evaluate(el=>el===document.activeElement));
   assert.match(await page.locator('#catalogView .hero h1').innerText(),/Find your next upgrade/);
   assert.equal(await page.locator('.hero-stats').isVisible(),false);
@@ -61,7 +63,8 @@ const server=spawn('python',['-m','http.server','8125'],{cwd:path.join(__dirname
   }
 
   await page.evaluate(()=>window.route('home',false));
-  await page.locator('.home-path[data-home-go="garage"]').click();
+  await fixture.signIn(page);
+  await page.evaluate(()=>route('garage',false));
   await page.waitForSelector('#garageView.active-view');
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Garage should fit desktop viewport');
 

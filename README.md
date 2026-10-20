@@ -1,6 +1,6 @@
-# ModPicker
+# Dream Spec
 
-Automotive parts research and build planning at https://imsambtw.github.io/modpicker/.
+Automotive parts research, guided build planning and a private vehicle garage at https://imsambtw.github.io/modpicker/.
 
 - Source-linked product catalog, fitment labels, recent USD seller observations. Browse cars with Make → Model → Year → Variant, or browse engine/platform families such as BMW M52TU, FA20 and Mustang S550.
 - Published owner-review ratings where evidence exists; never synthetic performance scores.
@@ -15,3 +15,6 @@ Read [project goals and roadmap](PROJECT.md), [review and improvement plan](REVI
 Tests: `python -m unittest discover -s tests -v`. Pipeline: `python -m pipeline.run`. Publication gate: `python -m pipeline.validate`.
 
 Catalog contribution rules are documented in [MANUAL_CATALOG.md](MANUAL_CATALOG.md).
+
+
+Dream Spec adds a reversible Racing/Classic appearance, Light/Dark mode, public Build by Goal and Find Parts paths, authenticated Garage, and a BYOK Diagnoser. See [deployment, compatibility and verification](docs/DREAM_SPEC.md). Backend features require the additive Supabase migration and diagnostic function to be deployed.

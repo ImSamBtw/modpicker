@@ -1,6 +1,6 @@
-# ModPicker project guide
+# Dream Spec project guide
 
-ModPicker helps someone choose automotive parts for a specific car or an engine/platform family, understand the evidence behind each result, compare current seller observations, and turn a shortlist into a practical build sheet.
+Dream Spec helps someone choose automotive parts for a specific car or an engine/platform family, understand the evidence behind each result, compare current seller observations, and turn a shortlist into a practical build sheet.
 
 This document is the durable product brief. The implementation review and dated changes live in [REVIEW_AND_PLAN.md](REVIEW_AND_PLAN.md). The operational runbook lives in [OPERATIONS.md](OPERATIONS.md), and the complete catalog contribution procedure lives in [MANUAL_CATALOG.md](MANUAL_CATALOG.md).
 
@@ -97,3 +97,8 @@ For UI changes, also run the browser smoke test described in `tests/browser-smok
 ## Official configuration import
 
 See [DATA_IMPORTS.md](DATA_IMPORTS.md) for the EPA database import, source manifest, constrained compatibility rules, manual additions and remaining accuracy gates.
+
+
+## Dream Spec hub and private ownership
+
+The public entry points are Build by Goal and Find Parts. My Garage and Diagnoser require verified Supabase login; Diagnoser additionally requires a per-tab user API key. Each owned vehicle has its own UUID independent of catalog application. Diagnostic sessions are automatically logged as unconfirmed, with user-entered resolution notes required to mark them resolved. Architecture, deployment and compatibility are documented in docs/DREAM_SPEC.md.

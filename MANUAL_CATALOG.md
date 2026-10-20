@@ -1,6 +1,6 @@
-# ModPicker catalog contribution process
+# Dream Spec catalog contribution process
 
-ModPicker has two data paths. The automated path collects from permitted APIs and explicitly allow-listed product pages. The manual path is a pull-request-style JSON change in `data/manual/`. Both paths end at the same validation, provenance, and static-export pipeline.
+Dream Spec has two data paths. The automated path collects from permitted APIs and explicitly allow-listed product pages. The manual path is a pull-request-style JSON change in `data/manual/`. Both paths end at the same validation, provenance, and static-export pipeline.
 
 ## Add a vehicle
 

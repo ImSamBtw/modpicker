@@ -1,4 +1,5 @@
 const assert=require('node:assert/strict');
+const fixture=require('./dreamspec-fixture.cjs');
 const {spawn}=require('node:child_process');
 const path=require('node:path');
 const {chromium}=require('playwright');
@@ -9,6 +10,7 @@ const server=spawn('python',['-m','http.server','8124'],{cwd:path.join(__dirname
   const page=await browser.newPage({viewport:{width:1280,height:900}}),errors=[];
   page.on('pageerror',e=>errors.push(e.message));
   await page.route('https://pzxofwrdidvqhdlqbehk.supabase.co/**',r=>r.abort());
+  await fixture.install(page);
   await page.goto('http://localhost:8124',{waitUntil:'domcontentloaded'});
   await page.waitForSelector('[data-route="garage"]');
 
@@ -19,7 +21,8 @@ const server=spawn('python',['-m','http.server','8124'],{cwd:path.join(__dirname
   await page.locator('#dialogClose').click();
 
   await page.evaluate(()=>{state.browseMode='vehicle';switchVehicle('z3-2000-28')});
-  await page.locator('[data-route="garage"]').click();
+  await fixture.signIn(page);
+  await page.evaluate(()=>route('garage',false));
   await page.waitForSelector('#garageView.active-view');
   assert.equal(await page.locator('#garageProfileCompleteness').textContent(),'25% context complete');
   await page.locator('#garageOdometer').fill('100000');
@@ -45,8 +48,9 @@ const server=spawn('python',['-m','http.server','8124'],{cwd:path.join(__dirname
   const audit=await page.evaluate(()=>{const plan=window.ModPickerPlanner.choosePlan(),ids=new Set([...state.build,...plan.picks.map(p=>p.id)]);let missing=0,conflicts=0;for(const p of plan.picks){missing+=(p.requires||[]).filter(id=>!ids.has(id)).length;conflicts+=(p.conflicts||[]).filter(id=>ids.has(id)).length}return{missing,conflicts,count:plan.picks.length}});
   assert.equal(audit.missing,0);assert.equal(audit.conflicts,0);
 
+  await page.evaluate(()=>DSOwned.flush());
   await page.reload({waitUntil:'domcontentloaded'});
-  await page.waitForSelector('[data-route="garage"]');await page.locator('[data-route="garage"]').click();
+  await page.waitForFunction(()=>window.DSOwned?.active&&window.ModPickerGarage);await page.evaluate(()=>route('garage',false));
   assert.equal(await page.locator('#garageOdometer').inputValue(),'100000','Garage profile should persist across reloads');
   await page.setViewportSize({width:390,height:844});
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Garage should not overflow on mobile');
