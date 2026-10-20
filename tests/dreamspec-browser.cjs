@@ -47,6 +47,38 @@ const server=spawn('python',['-m','http.server','8126'],{cwd:require('node:path'
  assert.match(await page.locator('#guidedPlan').innerText(),/coverage|No additional/);
  await page.screenshot({path:'/tmp/dreamspec-goals.png',fullPage:true});
 
+ // Recovery must survive an asynchronous password update and allow a failed update to be retried.
+ const recoveryPage=await browser.newPage();
+ recoveryPage.on('pageerror',e=>errors.push(e.message));
+ await recoveryPage.route('https://pzxofwrdidvqhdlqbehk.supabase.co/**',r=>r.abort());
+ await fixture.install(recoveryPage);
+ let passwordUpdates=0;
+ await recoveryPage.route('**/auth/v1/user',async r=>{
+  if(r.request().method()!=='PUT')return r.fallback();
+  passwordUpdates++;
+  assert.equal(r.request().postDataJSON().password,'Replacement-test-password-12345');
+  if(passwordUpdates===1)return r.fulfill({status:422,json:{msg:'Try a different password.'}});
+  return r.fulfill({json:{id:mock.A,email:'owner@example.test'}});
+ });
+ await recoveryPage.goto('http://localhost:8126/#access_token=test-'+mock.A+'&refresh_token=refresh-'+mock.A+'&expires_in=3600&type=recovery',{waitUntil:'networkidle'});
+ await recoveryPage.waitForSelector('#passwordRecoveryForm:visible');
+ assert.equal(new URL(recoveryPage.url()).hash,'','recovery tokens must be removed from the URL');
+ assert.equal(await recoveryPage.locator('#accountForm').isVisible(),false);
+ await recoveryPage.locator('#passwordRecoveryForm input').fill('Replacement-test-password-12345');
+ await recoveryPage.locator('#passwordRecoveryForm button').click();
+ await recoveryPage.waitForFunction(()=>document.querySelector('#accountStatus').textContent==='Try a different password.');
+ assert.ok(await recoveryPage.locator('#passwordRecoveryForm').isVisible(),'a rejected password must leave recovery available');
+ assert.equal(await recoveryPage.evaluate(()=>window.DreamSpecPasswordRecovery),true);
+ await recoveryPage.locator('#passwordRecoveryForm button').click();
+ await recoveryPage.waitForFunction(()=>document.querySelector('#accountStatus').textContent!=='Try a different password.',{},{timeout:5000});
+ assert.equal(await recoveryPage.locator('#accountStatus').innerText(),'Password updated.');
+ assert.equal(passwordUpdates,2);
+ assert.equal(await recoveryPage.locator('#passwordRecoveryForm input').inputValue(),'','successful recovery must clear the password field');
+ assert.equal(await recoveryPage.locator('#passwordRecoveryForm').isVisible(),false);
+ assert.equal(await recoveryPage.evaluate(()=>window.DreamSpecPasswordRecovery),false);
+ assert.ok(await recoveryPage.locator('#signedInAccount').isVisible());
+ await recoveryPage.close();
+
  await fixture.signIn(page);
  await page.evaluate(()=>route('garage',false));
  await page.locator('#garageNickname').fill('My first Z3');
@@ -114,5 +146,5 @@ const server=spawn('python',['-m','http.server','8126'],{cwd:require('node:path'
  await page.emulateMedia({reducedMotion:'reduce'});
  assert.equal(await page.locator('.home-path').first().evaluate(x=>getComputedStyle(x).transitionDuration),'0s');
  assert.deepEqual(errors,[]);
- console.log('PASS: four paths, light default, persistent/reversible appearance, login guards, independent owned vehicles, private account isolation, BYOK reset, diagnostic logging and responsive layouts.');
+ console.log('PASS: four paths, light default, persistent/reversible appearance, login guards, password recovery and retry, independent owned vehicles, private account isolation, BYOK reset, diagnostic logging and responsive layouts.');
 }finally{await browser?.close();server.kill()}})().catch(e=>{console.error(e);process.exitCode=1});

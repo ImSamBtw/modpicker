@@ -105,7 +105,11 @@ function init(){
  document.querySelector('#accountForm').addEventListener('submit',accountSubmit);
  document.querySelector('#signOutButton').addEventListener('click',()=>DSAuth.signOut());
  document.querySelector('#forgotPassword').addEventListener('click',async()=>{const email=document.querySelector('#accountForm').elements.email.value.trim();if(!email)return message('accountStatus','Enter your email first.');try{await DSAuth.recover(email);message('accountStatus','If an account matches, a reset link will arrive by email.')}catch(e){message('accountStatus',e.message)}});
- document.querySelector('#passwordRecoveryForm').addEventListener('submit',async e=>{e.preventDefault();try{await DSAuth.updatePassword(e.currentTarget.elements.password.value);window.DreamSpecPasswordRecovery=false;e.currentTarget.reset();renderAccount();message('accountStatus','Password updated.')}catch(err){message('accountStatus',err.message)}});
+ document.querySelector('#passwordRecoveryForm').addEventListener('submit',async e=>{
+  e.preventDefault();const form=e.currentTarget;
+  try{await DSAuth.updatePassword(form.elements.password.value);form.reset();window.DreamSpecPasswordRecovery=false;renderAccount();message('accountStatus','Password updated.')}
+  catch(err){message('accountStatus',err.message)}
+ });
  document.querySelector('#diagnosisKeyForm').addEventListener('submit',e=>{e.preventDefault();const input=document.querySelector('#diagnosisApiKey'),value=input.value.trim();if(!/^sk-[A-Za-z0-9_-]{20,}$/.test(value))return message('aiConnectionStatus','Enter a valid OpenAI API key.');apiKey=value;input.value='';renderAI()});
  document.querySelector('#disconnectAI').addEventListener('click',()=>{diagnoseRequest?.abort();clearKey();renderAI()});
  document.querySelector('#diagnosisForm').addEventListener('submit',runDiagnosis);
