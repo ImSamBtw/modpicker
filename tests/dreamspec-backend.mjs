@@ -7,11 +7,21 @@ const ai={status:'completed',model:'gpt-5-mini',output:[{type:'web_search_call',
 function fixture(options={}){
  const calls=[],dbBodies=[];
  const env={SUPABASE_URL:'https://test.supabase.co',SUPABASE_PUBLISHABLE_KEY:'public',OPENAI_API_KEY:'host-credits-must-never-be-used'};
+ if(options.splitCatalog){env.DREAMSPEC_CATALOG_URL='https://catalog.supabase.co';env.DREAMSPEC_CATALOG_KEY='catalog-public-key'}
  const fetcher=async(url,init={})=>{
   calls.push({url,init});
   if(url.includes('/auth/v1/user'))return Response.json(options.invalidToken?{}:{id:uid},{status:options.invalidToken?401:200});
   const body=init.body?JSON.parse(init.body):null;
-  if(url.includes('/rest/v1/'))dbBodies.push(body);
+  if(url.includes('/rest/v1/')){
+   dbBodies.push(body);
+   const publicRead=/\/(vehicles|part_fitments|parts)\?/.test(url);
+   assert.equal(new URL(url).origin,publicRead&&options.splitCatalog?'https://catalog.supabase.co':'https://test.supabase.co');
+   if(publicRead){
+    assert.equal(init.headers.Authorization,undefined,'never send a private JWT to the public catalog');
+    assert.equal(init.headers.apikey,options.splitCatalog?'catalog-public-key':'public');
+    if(options.catalogUnavailable)return Response.json({message:'unavailable'},{status:503});
+   }else assert.equal(init.headers.Authorization,'Bearer user-jwt');
+  }
   if(url.includes('owned_vehicles?'))return Response.json(options.otherOwner?[{id:vid,owner_id:'other'}]:[{id:vid,owner_id:uid,catalog_vehicle_id:'car',profile:{currentMods:'Stock',maintenance:[]}}]);
   if(url.includes('/vehicles?'))return Response.json([{id:'car',year:2007,make:'Chevrolet',model:'Corvette',engine:'LS2'}]);
   if(url.includes('begin_diagnostic_run'))return options.rateLimit?Response.json({message:'diagnostic_rate_limit'},{status:400}):Response.json({id:runid,status:options.completed?'completed':'pending',result:raw,event_id:'event',reused:!!options.reused});
@@ -34,7 +44,7 @@ function fixture(options={}){
 function request({token=true,byok=true,origin='https://imsambtw.github.io',body={}}={}){
  return new Request('https://test.supabase.co/functions/v1/dreamspec-diagnose',{method:'POST',headers:{...(token?{Authorization:'Bearer user-jwt'}:{}),...(byok?{'X-DreamSpec-AI-Key':key}:{}),Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({vehicle_id:vid,request_id:rid,symptoms:'Lean code after a rough idle',codes:['P0171'],...body})});
 }
-for(const [setup,input,status] of [[{}, {token:false},401],[{invalidToken:true},{},401],[{}, {byok:false},402],[{otherOwner:true},{},404],[{}, {origin:'https://evil.example'},403],[{}, {body:{codes:['INVALID']}},400],[{rateLimit:true},{},429]]){
+for(const [setup,input,status] of [[{}, {token:false},401],[{invalidToken:true},{},401],[{}, {byok:false},402],[{otherOwner:true},{},404],[{}, {origin:'https://evil.example'},403],[{}, {body:{codes:['INVALID']}},400],[{rateLimit:true},{},429],[{catalogUnavailable:true},{},503]]){
  const f=fixture(setup),response=await f.handler(request(input));assert.equal(response.status,status);
  assert.equal(f.calls.filter(x=>x.url.includes('api.openai.com')).length,0,'rejected calls must never spend AI tokens');
 }
@@ -48,6 +58,9 @@ assert.equal(f.calls.filter(x=>x.url.includes('finish_diagnostic_run')).length,1
 for(const opt of [{completed:true},{reused:true}]){
  const retry=fixture(opt),res=await retry.handler(request());assert.equal(res.status,opt.completed?200:409);assert.equal(retry.calls.filter(x=>x.url.includes('api.openai.com')).length,0,'retries must not bill twice');
 }
+const split=fixture({splitCatalog:true});
+assert.equal((await split.handler(request())).status,200);
+assert.equal(split.calls.filter(x=>x.url.startsWith('https://catalog.supabase.co/')).length,3);
 const failed=fixture({providerFails:true});assert.equal((await failed.handler(request())).status,429);
 assert.ok(failed.calls.some(x=>x.url.includes('diagnostic_runs?')),'failed inference is recorded without credentials');
 const saving=fixture({saveFails:true});const unsaved=await (await saving.handler(request())).json();assert.equal(unsaved.saved,false);assert.equal(unsaved.run_id,runid);assert.ok(unsaved.result,'allow saving the result again without another AI call');

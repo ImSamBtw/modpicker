@@ -51,6 +51,7 @@ export function validateResult(raw,response,catalog,key){
 }
 export function createHandler({env,fetcher=fetch}){
  const base=env.SUPABASE_URL,publishable=env.SUPABASE_PUBLISHABLE_KEY||env.SUPABASE_ANON_KEY;
+ const catalogBase=env.DREAMSPEC_CATALOG_URL||base,catalogKey=env.DREAMSPEC_CATALOG_KEY||publishable;
  const origins=(env.DREAMSPEC_ALLOWED_ORIGINS||'https://imsambtw.github.io').split(',').map(x=>x.trim()).filter(Boolean);
  const model=env.DREAMSPEC_DIAGNOSIS_MODEL||'gpt-5-mini';
  return async function handle(request){
@@ -81,22 +82,29 @@ export function createHandler({env,fetcher=fetch}){
     if(!response.ok){if(String(value?.message||'').includes('diagnostic_rate_limit'))throw error('Too many diagnostic requests. Please wait before trying again.',429);throw error('The selected vehicle or diagnostic history is unavailable.',response.status===401?401:503)}
     return value;
    };
+   // Public catalog reads never receive a private account token or vehicle profile.
+   const catalogGet=async path=>{
+    const response=await fetcher(catalogBase+'/rest/v1/'+path,{headers:{apikey:catalogKey},signal:AbortSignal.timeout(15000)});
+    const value=await response.json().catch(()=>null);
+    if(!response.ok||!Array.isArray(value))throw error('The vehicle catalog is temporarily unavailable. Please try again.',503);
+    return value;
+   };
    const vehicles=await rest('owned_vehicles?id=eq.'+input.vehicle_id+'&select=id,owner_id,catalog_vehicle_id,profile');
    const owned=vehicles?.[0];if(!owned||owned.owner_id!==user.id)throw error('That saved vehicle is unavailable.',404);
    if(!/^[A-Za-z0-9_.:-]{1,120}$/.test(owned.catalog_vehicle_id))throw error('The vehicle application is invalid.',422);
-   const canonical=(await rest('vehicles?id=eq.'+encodeURIComponent(owned.catalog_vehicle_id)+'&select=id,year,make,model,engine,trim'))?.[0];
+   const canonical=(await catalogGet('vehicles?id=eq.'+encodeURIComponent(owned.catalog_vehicle_id)+'&select=id,year,make,model,engine,trim'))?.[0];
    if(!canonical)throw error('This vehicle application could not be verified. Update the saved vehicle first.',422);
    run=await rest('rpc/begin_diagnostic_run',{method:'POST',body:JSON.stringify({p_vehicle_id:input.vehicle_id,p_request_id:input.request_id,p_symptoms:input.symptoms,p_codes:input.codes})});
    if(run.status==='completed')return reply({result:run.result,run_id:run.id,saved:true,event_id:run.event_id});
    if(run.status!=='pending')throw error('This diagnostic request has already ended. Start a new request.',409);
    // Only the reserving request may invoke inference. The DB returns its insertion marker.
    if(run.reused)throw error('This diagnostic request is already running. Check history before retrying.',409);
-   const fits=await rest('part_fitments?vehicle_id=eq.'+encodeURIComponent(canonical.id)+'&fitment_status=eq.verified&select=part_id,source_url&limit=100');
+   const fits=await catalogGet('part_fitments?vehicle_id=eq.'+encodeURIComponent(canonical.id)+'&fitment_status=eq.verified&select=part_id,source_url&limit=100');
    const verifiedFits=(fits||[]).filter(f=>/^https:\/\//.test(f.source_url||'')&&/^[A-Za-z0-9_.:-]{1,120}$/.test(f.part_id));
    let catalog=[];
    if(verifiedFits.length){
     const ids=verifiedFits.map(f=>f.part_id);
-    const values=await rest('parts?id=in.('+ids.map(encodeURIComponent).join(',')+')&select=id,manufacturer,name,manufacturer_part_number,official_url,category&limit=100');
+    const values=await catalogGet('parts?id=in.('+ids.map(encodeURIComponent).join(',')+')&select=id,manufacturer,name,manufacturer_part_number,official_url,category&limit=100');
     catalog=(values||[]).map(p=>({...p,fitment_source_url:verifiedFits.find(f=>f.part_id===p.id).source_url}));
    }
    const profile=owned.profile||{};

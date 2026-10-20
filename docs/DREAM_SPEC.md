@@ -16,16 +16,27 @@ The explicit "Import my previous browser garage" action copies legacy profiles/b
 
 ## Supabase deployment
 
-Target project: pzxofwrdidvqhdlqbehk (the existing public catalog project).
+Private account project: kpbhtjllscadpigxyhpj (Dream Spec, in Dream Spec Org).
+Public catalog project: pzxofwrdidvqhdlqbehk (the existing read-only catalog and its unchanged ingestion pipeline).
+
+The private project owns Auth, owned_vehicles, diagnostic_runs, vehicle_events, and the private vehicle-photos bucket. The browser's account configuration points only to this private project. The diagnosis function reads canonical vehicle/part fitment through the existing catalog's public key; it never forwards an account JWT, symptoms, profile, or AI key to that catalog project. Public browsing still uses supabase-bridge.js and its bundled-data fallback.
 
 1. Review and apply supabase/migrations/20261020170000_dream_spec_private_garage.sql. It only adds owned-vehicle, diagnostic-run/event tables, policies, RPCs and a private photo bucket. It does not alter catalog ingestion tables.
-2. Enable email/password authentication and email confirmations. Set Site URL to https://imsambtw.github.io/modpicker/ and allow the same redirect URL for confirmation/recovery. Configure production mail delivery as appropriate.
+2. Enable email/password authentication and email confirmations. Set Site URL to https://imsambtw.github.io/modpicker/ and allow the same redirect URL for confirmation/recovery. Keep email confirmations enabled. Configure custom SMTP before allowing public signups: Supabase's default mail delivery is limited to project-team email addresses.
 3. Deploy supabase/functions/dreamspec-diagnose with verify_jwt=true.
-4. Set DREAMSPEC_PUBLISHABLE_KEY to the same public key in dreamspec-config.js if the function does not have SUPABASE_ANON_KEY available.
+4. Optional overrides: DREAMSPEC_PUBLISHABLE_KEY for the private project, DREAMSPEC_CATALOG_URL / DREAMSPEC_CATALOG_KEY for the read-only catalog. Safe public-key defaults and the platform's SUPABASE_ANON_KEY keep deployment independent of custom secret setup.
 5. Set DREAMSPEC_ALLOWED_ORIGINS=https://imsambtw.github.io and DREAMSPEC_DIAGNOSIS_MODEL=gpt-5-mini. Add explicit localhost origins only for local development. Do not add OPENAI_API_KEY: there is deliberately no host-credential fallback.
-6. Verify an anonymous request is rejected, then check owned-row/photo isolation between two real test accounts.
+6. Run node tests/dreamspec-live.mjs for read-only endpoint checks and verify owned-row/photo isolation between two accounts. No provider key is needed for these checks. Never run the bootstrap SQL test directly against a hosted project; its live isolation equivalent must use a transaction with rollback.
 
 The publishable key is public configuration. Supabase secrets and provider credentials must never be committed. The add-on UI fails closed if user verification, the private tables or the function are unavailable.
+
+## Hosted deployment status
+
+On 2026-10-20 the private schema and JWT-protected dreamspec-diagnose Edge Function were deployed to kpbhtjllscadpigxyhpj. A hosted PostgreSQL transaction verified account separation, rejected foreign writes and photo access, enforced cross-owner diagnostic references, and proved idempotent unconfirmed history; all synthetic rows were rolled back.
+
+The Supabase connector cannot edit hosted Auth URL or SMTP settings. Before releasing account creation, confirm Site URL and the allowed redirect are both https://imsambtw.github.io/modpicker/ in Authentication → URL Configuration. Add SMTP credentials directly in Authentication → Email → SMTP settings when enabling non-team signups.
+
+Appearance rollback requires no database deletion. To pause diagnosis independently, disable the function or stop routing to it; retain private data. Catalog ingestion remains unchanged.
 
 ## Diagnosis flow
 
@@ -49,6 +60,7 @@ Off-road/weight-reduction recommendations require explicit matching catalog tags
 
 - node tests/dreamspec-core.cjs
 - node tests/dreamspec-backend.mjs
+- node tests/dreamspec-live.mjs (read-only hosted checks; no account creation or AI inference)
 - node tests/browser-smoke.cjs
 - node tests/garage-smoke.cjs
 - node tests/ui-cleanup-smoke.cjs

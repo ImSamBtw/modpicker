@@ -45,6 +45,7 @@ create table public.vehicle_events (
 );
 create index owned_vehicles_owner on public.owned_vehicles(owner_id);
 create index vehicle_events_vehicle on public.vehicle_events(owner_id,vehicle_id,created_at desc);
+create index diagnostic_runs_vehicle on public.diagnostic_runs(vehicle_id,owner_id);
 create index diagnostic_runs_owner_time on public.diagnostic_runs(owner_id,created_at desc);
 
 create function public.dreamspec_touch_vehicle() returns trigger language plpgsql set search_path='' as $$
