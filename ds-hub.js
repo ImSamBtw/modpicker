@@ -42,7 +42,7 @@ async function accountSubmit(event){
  button.disabled=true;message('accountStatus','Connecting…');
  try{
   const email=form.elements.email.value.trim(),password=form.elements.password.value;
-  if(action==='signup'){const r=await DSAuth.signUp(email,password);if(r.confirmationRequired){message('accountStatus','Check your email to confirm your account, then log in.');return}}
+  if(action==='signup'){if(password.length<12)throw new Error('Use at least 12 characters for a new password.');const r=await DSAuth.signUp(email,password);if(r.confirmationRequired){message('accountStatus','Check your email to confirm your account, then log in.');return}}
   else await DSAuth.signIn(email,password);
   form.elements.password.value='';message('accountStatus','Signed in.');route(DSAuth.next);
  }catch(e){message('accountStatus',e.message)}
@@ -78,7 +78,7 @@ async function runDiagnosis(event){
  if(!vehicleId)return message('diagnosisStatus','Save a vehicle in My Garage first.');
  if(codes.some(code=>!/^([PBCU][0-3][0-9A-F]{3})$/.test(code)))return message('diagnosisStatus','Use five-character OBD-II codes, such as P0171.');
  if(codes.length>15)return message('diagnosisStatus','Enter at most 15 trouble codes.');
- busy=true;form.querySelector('button[type="submit"]').disabled=true;message('diagnosisStatus','Researching sources and building a diagnostic plan…');
+ busy=true;form.elements.vehicle.disabled=true;form.querySelector('button[type="submit"]').disabled=true;message('diagnosisStatus','Researching sources and building a diagnostic plan…');
  const owner=DSAuth.user.id;diagnoseRequest=new AbortController();const timeout=setTimeout(()=>diagnoseRequest?.abort(),120000);
  try{
   await DSOwned.flush();const token=await DSAuth.token(),cfg=window.DREAM_SPEC_CONFIG;
@@ -88,7 +88,7 @@ async function runDiagnosis(event){
   diagnosis={...data,vehicleId};showDiagnosis();message('diagnosisStatus','Diagnostic plan ready.');
   if(DSOwned.active?.id===vehicleId)await DSOwned.loadEvents();
  }catch(e){if(DSAuth.user?.id===owner)message('diagnosisStatus',e.name==='AbortError'?'The request timed out or was cancelled. Check service history before starting a new diagnosis.':e.message)}
- finally{clearTimeout(timeout);busy=false;form.querySelector('button[type="submit"]').disabled=false}
+ finally{clearTimeout(timeout);busy=false;form.elements.vehicle.disabled=false;form.querySelector('button[type="submit"]').disabled=false}
 }
 async function retrySave(){
  if(!diagnosis||diagnosis.saved)return;
@@ -110,7 +110,7 @@ function init(){
  document.querySelector('#disconnectAI').addEventListener('click',()=>{diagnoseRequest?.abort();clearKey();renderAI()});
  document.querySelector('#diagnosisForm').addEventListener('submit',runDiagnosis);
  document.querySelector('#diagnosisResult').addEventListener('click',e=>{if(e.target.closest('#retryDiagnosisSave'))retrySave()});
- document.querySelector('#diagnoseVehicle').addEventListener('change',()=>{diagnosis=null;showDiagnosis();message('diagnosisStatus','')});
+ document.querySelector('#diagnoseVehicle').addEventListener('change',async e=>{diagnosis=null;showDiagnosis();message('diagnosisStatus','');try{await DSOwned.select(e.target.value)}catch(err){message('diagnosisStatus',err.message)}});
  DSAuth.ready.then(()=>{renderAccount();if(window.DreamSpecPasswordRecovery)route('account');else if(DSAuth.user&&state.route==='account')route(DSAuth.next)});
 }
 document.addEventListener('ds:auth',()=>{

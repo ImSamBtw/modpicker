@@ -81,6 +81,8 @@ const server=spawn('python',['-m','http.server','8126'],{cwd:require('node:path'
  assert.ok(await page.locator('#diagnosisResult a[href*="corvetteforum.com"]').count());
  assert.equal(mock.calls.filter(c=>c.url.includes('/functions/')).length,1);
  await page.evaluate(()=>route('garage',false));
+ await page.waitForFunction(()=>document.querySelector('#diagnosisHistory').textContent.includes('intake leak'));
+ assert.equal(mock.events[0].vehicle_id,second,'log to the vehicle selected for diagnosis');
  assert.match(await page.locator('#diagnosisHistory').innerText(),/Rough idle|Inspect for an intake leak/);
  await page.evaluate(()=>route('diagnose',false));await page.reload({waitUntil:'networkidle'});
  assert.equal(await page.locator('#diagnosisForm').isVisible(),false,'AI key must be cleared on reload');

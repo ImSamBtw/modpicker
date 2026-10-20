@@ -48,6 +48,7 @@ begin
  if (select status from public.vehicle_events)<>'unconfirmed' then raise exception 'diagnostic session was marked repaired';end if;
 end $$;
 
+select set_config('test.dreamspec_run_id',(select id::text from public.diagnostic_runs limit 1),true);
 select set_config('request.jwt.claim.sub','aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa',true);
 do $$
 declare n integer;
@@ -72,9 +73,8 @@ do $$
 begin
  begin
   insert into public.vehicle_events(vehicle_id,diagnostic_run_id,title)
-  select 'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb',id,'Foreign diagnostic run' from public.diagnostic_runs;
-  -- RLS hides every foreign diagnostic run, so no row can be attached.
-  if exists(select 1 from public.vehicle_events) then raise exception 'foreign diagnostic attachment succeeded';end if;
+  values('bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb',current_setting('test.dreamspec_run_id')::uuid,'Foreign diagnostic run');
+  raise exception 'foreign diagnostic attachment succeeded';
  exception when foreign_key_violation then null;end;
 end $$;
 set local role anon;

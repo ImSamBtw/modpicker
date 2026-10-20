@@ -113,8 +113,7 @@ grant execute on function public.begin_diagnostic_run(uuid,uuid,text,jsonb),publ
 
 -- Photos are private and scoped to owner/owned-vehicle, including two identical applications.
 insert into storage.buckets(id,name,public,file_size_limit,allowed_mime_types)
- values('vehicle-photos','vehicle-photos',false,700000,array['image/jpeg'])
- on conflict(id) do nothing;
+ values('vehicle-photos','vehicle-photos',false,700000,array['image/jpeg']);
 create policy dreamspec_private_photos on storage.objects for all to authenticated
  using(bucket_id='vehicle-photos' and (storage.foldername(name))[1]=(select auth.uid())::text
  and exists(select 1 from public.owned_vehicles v where v.id::text=(storage.foldername(name))[2] and v.owner_id=(select auth.uid())))

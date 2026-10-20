@@ -124,7 +124,7 @@ async function importProfile(payload){
 async function load(){
  const expected=++epoch;clearTimeout(timer);dirty=false;activeId=null;rows=[];events=[];owner=DSAuth.user?.id||null;
  window.ModPickerGarage?.clear?.();render();
- if(!owner){try{sessionStorage.removeItem('dreamspec-private-route')}catch{}if(publicState){switching=true;Object.assign(state,publicState);publicState=null;switching=false;renderAll()}emit();return}
+ if(!owner){try{sessionStorage.removeItem('dreamspec-private-route')}catch{}if(publicState){switching=true;Object.assign(state,publicState);publicState=null;loadState();switching=false;renderAll()}emit();return}
  try{const values=await DSAuth.request('owned_vehicles?order=created_at.asc');if(epoch!==expected)return;rows=(values||[]).map(r=>({...r,profile:{...empty(),...r.profile}}));for(const row of rows)await signPhotos(row);if(rows.length)await select(rows[0].id);else render();emit()}
  catch(e){if(epoch===expected){notify(e.message);render()}}
 }
@@ -144,7 +144,7 @@ window.DSOwned={get active(){return active()},get vehicles(){return rows},get ev
 };
 document.addEventListener('ds:auth',load);
 document.addEventListener('ds:garage-ready',()=>{bind();load()});
-document.addEventListener('ds:route',()=>render());
+document.addEventListener('ds:route',event=>{render();if(event.detail==='diagnose'&&activeId){const select=document.querySelector('#diagnoseVehicle');if(select)select.value=activeId}if(event.detail==='garage'&&active())loadEvents().catch(e=>notify(e.message))});
 document.addEventListener('ds:catalog-change',()=>render());
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flush().catch(()=>{})});
 window.addEventListener('beforeunload',event=>{if(dirty){event.preventDefault();event.returnValue=''}});

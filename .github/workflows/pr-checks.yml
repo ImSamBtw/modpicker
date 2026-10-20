@@ -63,6 +63,11 @@ jobs:
         run: node tests/ui-cleanup-smoke.cjs
       - name: Dream Spec account, theme and hub regression
         run: node tests/dreamspec-browser.cjs
+      - name: Visual review sheet
+        if: always()
+        run: |
+          python -m pip install --quiet pillow
+          python scripts/ci_visual_preview.py
       - name: Upload browser screenshots
         if: always()
         uses: actions/upload-artifact@v4
