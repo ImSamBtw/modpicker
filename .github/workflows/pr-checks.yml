@@ -1,4 +1,4 @@
-name: Validate ModPicker changes
+name: Validate Dream Spec changes
 
 on:
   pull_request:
@@ -39,6 +39,19 @@ jobs:
           node --check ui-polish.js
           node --check research.js
           node --check trust-ui.js
+      - name: Dream Spec syntax and backend/core regression
+        run: |
+          node --check ds-auth.js
+          node --check ds-owned.js
+          node --check ds-hub.js
+          node --check ds-core.js
+          node --check ds-appearance.js
+          node --check supabase/functions/dreamspec-diagnose/handler.mjs
+          node tests/dreamspec-core.cjs
+          node tests/dreamspec-backend.mjs
+          node tests/github-ingestion-auth.mjs
+      - name: Check deployed Supabase connection without inference
+        run: node tests/dreamspec-live.mjs
       - name: Vehicle make trust regression
         run: node tests/vehicle-make-trust.cjs
       - name: Install browser test runtime
@@ -47,10 +60,23 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Run browser smoke test
         run: node tests/browser-smoke.cjs
+      - name: Garage regression smoke test
+        run: node tests/garage-smoke.cjs
+      - name: Home and progressive-disclosure regression
+        run: node tests/ui-cleanup-smoke.cjs
+      - name: Dream Spec account, theme and hub regression
+        run: node tests/dreamspec-browser.cjs
+      - name: Visual review sheet
+        if: always()
+        run: |
+          python -m pip install --quiet pillow
+          python scripts/ci_visual_preview.py
       - name: Upload browser screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: browser-smoke-${{ github.run_id }}
-          path: /tmp/modpicker-*.png
+          path: |
+            /tmp/modpicker-*.png
+            /tmp/dreamspec-*.png
           if-no-files-found: ignore

@@ -3,7 +3,7 @@ import { createRemoteJWKSet, jwtVerify } from 'npm:jose@6.2.12';
 const JWKS=createRemoteJWKSet(new URL('https://token.actions.githubusercontent.com/.well-known/jwks'));
 const ISSUER='https://token.actions.githubusercontent.com';
 const AUDIENCE='modpicker-supabase';
-const REPOSITORY='ImSamBtw/modpicker';
+const REPOSITORY='jakehenry076-cmd/modpicker';
 const REF='refs/heads/main';
 const WORKFLOW_SUFFIX='/.github/workflows/data-pipeline.yml@refs/heads/main';
 const SOURCE_PRIORITY:Record<string,number>={manufacturer:100,professional_review:90,retailer:80,forum:60,youtube:55,reddit:50};

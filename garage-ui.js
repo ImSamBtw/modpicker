@@ -11,6 +11,12 @@ const section=document.createElement('section');section.id='garageView';section.
     <div><span class="eyebrow">Virtual garage</span><h1>Your car, not just the catalog.</h1><p>Record the actual condition, modifications, preferences, maintenance and history that should shape future recommendations.</p></div>
     <div class="garage-page-actions"><button id="copyMaintenanceReport" class="button secondary" type="button">Copy maintenance report</button><button id="exportGarageData" class="button secondary" type="button">Export garage JSON</button></div>
   </div>
+  <section class="ds-card ds-owned-controls">
+    <div class="ds-form-grid"><label>My saved vehicles<select id="ownedVehicleSelect"></select></label><label>New vehicle nickname<input id="newVehicleNickname" maxlength="100" placeholder="Weekend project"></label><button id="addOwnedVehicle" class="button primary" type="button">Add vehicle selected above</button></div>
+    <div class="ds-actions"><button id="importLegacyGarage" class="button secondary small" type="button">Import my previous browser garage</button><button id="reloadOwnedGarage" class="button secondary small" type="button">Reload saved vehicles</button></div>
+    <p id="garageSelectionHint"></p><p id="garageSyncStatus" role="status"></p>
+  </section>
+  <div id="garageEditor" hidden>
   <div class="garage-hero-card">
     <div class="garage-hero-main"><div class="garage-vehicle-icon">MY CAR</div><div class="garage-hero-copy"><span class="eyebrow">Current vehicle</span><h2 id="garageVehicleTitle">Selected vehicle</h2><p id="garageVehicleMeta"></p></div></div>
     <div class="garage-profile-meter"><span class="eyebrow">Recommendation context</span><strong id="garageProfileCompleteness">0% context complete</strong><p>More context lets recommendations avoid parts that conflict with your real car, preferences or maintenance needs.</p></div>
@@ -24,7 +30,7 @@ const section=document.createElement('section');section.id='garageView';section.
           <label><span>Current odometer (miles)</span><input id="garageOdometer" data-profile-field="odometer" type="number" min="0" placeholder="98500"></label>
           <label><span>Condition</span><select id="garageCondition" data-profile-field="condition"><option>Project</option><option>Driver</option><option>Good</option><option>Excellent</option><option>Track / competition</option></select></label>
           <label><span>Build budget ($)</span><input id="garageBudget" data-profile-field="budget" type="number" min="0" placeholder="3000"></label>
-          <label><span>Primary goal</span><select id="garagePrimaryGoal" data-profile-field="primaryGoal"><option value="balanced">Balanced street</option><option value="reliability">Reliability / restore</option><option value="power">Power</option><option value="handling">Handling</option><option value="track">Track</option><option value="budget">Budget</option></select></label>
+          <label><span>Primary goal</span><select id="garagePrimaryGoal" data-profile-field="primaryGoal"><option value="balanced">Balanced street</option><option value="reliability">Reliability / restore</option><option value="power">Power</option><option value="handling">Handling</option><option value="track">Track</option><option value="budget">Budget</option><option value="offroad">Off-road</option><option value="lightweight">Weight reduction</option><option value="safety">Safety</option></select></label>
           <label><span>Target power increase (hp)</span><input id="garageTargetPower" data-profile-field="targetPower" type="number" min="0" placeholder="100"></label>
           <label class="full"><span>Current modifications</span><textarea id="garageCurrentMods" data-profile-field="currentMods" rows="3" placeholder="Suspension, wheels, intake, tune, brakes, engine swap, coding…"></textarea></label>
           <label class="full"><span>History</span><textarea id="garageHistory" data-profile-field="history" rows="3" placeholder="Ownership history, previous repairs, accidents, known work…"></textarea></label>
@@ -43,6 +49,7 @@ const section=document.createElement('section');section.id='garageView';section.
         <div class="garage-card-head"><div><span class="eyebrow">Maintenance tracker</span><h2>Service plan and history</h2><p>Intervals, fluids and capacities are intentionally blank until sourced for the exact application.</p></div><div class="garage-page-actions"><button id="seedMaintenanceButton" class="button secondary small" type="button">Add common checklist</button><button id="addMaintenanceButton" class="button primary small" type="button">Add item</button></div></div>
         <div id="maintenanceList" class="maintenance-list"></div>
       </section>
+      <section class="garage-card"><span class="eyebrow">Diagnoser sessions</span><h2>Diagnostic and repair history</h2><p>AI sessions are logged automatically as unconfirmed. Add verification notes when you resolve an issue.</p><div id="diagnosisHistory"></div></section>
       <section class="garage-card">
         <div class="garage-card-head"><div><span class="eyebrow">Diagnostics</span><h2>Code history bank</h2><p>Keep recurring and resolved codes tied to mileage and repair history.</p></div></div>
         <div class="garage-inline-form">
@@ -63,19 +70,20 @@ const section=document.createElement('section');section.id='garageView';section.
         <div class="garage-card-head"><div><span class="eyebrow">Vehicle photos</span><h3>Actual car</h3></div></div>
         <div id="garagePhotos" class="garage-photos"></div>
         <label class="garage-upload"><input id="garagePhotoInput" type="file" accept="image/*" multiple></label>
-        <p class="garage-note">Prototype storage is browser-local, so images are compressed and limited to four. Account-backed media storage comes later.</p>
+        <p class="garage-note">Images are compressed and limited to four per saved vehicle. Photos are private and saved with your account.</p>
       </section>
       <section class="garage-card garage-context-card">
         <span class="eyebrow">Build planner input</span><h3>Recommendation context</h3><div id="garageRecommendationSummary" class="garage-context-summary"></div>
-        <div class="garage-context-actions"><button id="generateBuildPlan" class="button primary" type="button">Generate starter build</button><button id="applyGarageContext" class="button secondary" type="button">Apply goal to parts catalog</button></div>
+        <div class="garage-context-actions"><button id="generateBuildPlan" class="button primary" type="button">Preview a build plan</button><button id="applyGarageContext" class="button secondary" type="button">Apply goal to parts catalog</button></div>
         <div id="garagePlanResult"></div>
         <p class="garage-note">Starter builds use deterministic catalog rules: source-listed fitment, current observed prices, one part per category and the Garage budget/goal. Existing build items are kept. Power targets are not treated as additive horsepower claims.</p>
         <details><summary>Developer context preview</summary><pre id="garageContextPreview" class="garage-context-preview"></pre></details>
       </section>
       <section class="garage-card"><span class="eyebrow">Next garage stages</span><h3>Already in the roadmap</h3><ul class="garage-roadmap-list"><li>sourced OEM intervals, fluids and capacities</li><li>receipt image/PDF + email imports</li><li>expanded cross-make interchange groups</li><li>prerequisite/conflict-aware build optimization</li><li>community/forum consensus</li><li>used listings and local shops</li></ul></section>
     </aside>
-  </div>`;
+  </div></div>`;
 main.appendChild(section);
 if(typeof state!=='undefined'&&state.route==='garage')section.classList.add('active-view');
 const script=document.createElement('script');script.src='garage.js';script.async=false;document.body.appendChild(script);
+script.addEventListener('load',()=>document.dispatchEvent(new CustomEvent('ds:garage-ready')));
 })();

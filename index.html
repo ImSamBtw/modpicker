@@ -3,38 +3,45 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="ModPicker - automotive parts compatibility, rankings, pricing, research and build sheets." />
-  <title>ModPicker — Build smarter</title>
+  <meta name="description" content="Dream Spec - automotive parts compatibility, rankings, pricing, research and build sheets." />
+  <title>Dream Spec — Build smarter</title>
+  <script src="dreamspec-config.js"></script>
+  <script src="ds-appearance.js"></script>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="enhancements.css" /><link rel="stylesheet" href="polish.css" />
   <link rel="stylesheet" href="home.css" />
+  <link rel="stylesheet" href="dreamspec-theme.css" />
 </head>
-<body data-view="home">
+<body data-view="home" class="ui-refresh">
   <a class="skip-link" href="#mainContent">Skip to content</a>
   <header class="topbar">
-    <a class="brand" href="#" data-route="home" aria-label="ModPicker home"><span>MOD</span>PICKER</a>
+    <a class="brand" href="#" data-route="home" aria-label="Dream Spec home">Dream <span>Spec</span></a>
     <nav id="mainNav" class="main-nav" aria-label="Primary navigation">
       <button class="nav-link active" data-route="home">Home</button>
+      <button class="nav-link" data-route="goals">Build by goal</button>
       <button class="nav-link" data-route="catalog">Find parts</button>
       <button class="nav-link" data-route="garage" data-route-bound="1">My garage</button>
+      <button class="nav-link" data-route="diagnose">Diagnoser</button>
       <button class="nav-link" data-route="build">Build sheet <span id="buildNavCount" class="nav-count">0</span></button>
       <details class="research-nav"><summary>Research <span aria-hidden="true">⌄</span></summary><div class="research-menu">
       <button class="nav-link" data-route="prices">Price Finder <span id="priceNavCount" class="nav-count">0</span></button>
       <button class="nav-link" data-route="rankings">Rankings</button>
       <button class="nav-link" data-route="compare">Compare <span id="compareNavCount" class="nav-count">0</span></button>
       </div></details>
+      <button id="accountButton" class="nav-link" data-route="account">Log in</button>
     </nav>
+    <button id="colorModeToggle" class="ds-color-toggle" aria-label="Toggle dark mode" aria-pressed="false">Dark mode</button>
     <button id="mobileMenuButton" class="mobile-menu" aria-controls="mainNav" aria-expanded="false">Menu</button>
   </header>
 
   <main id="mainContent" tabindex="-1">
     <section id="homeView" class="view active-view shell" aria-labelledby="homeTitle">
-      <div class="home-intro"><span class="eyebrow">For the love of the build</span><span class="home-edition">Your next chapter starts here <span aria-hidden="true">↗</span></span></div>
+      <div class="home-intro"><span class="eyebrow">Dream Spec / Your garage starts here</span><span class="home-edition">Choose your next move <span aria-hidden="true">↗</span></span></div>
       <div class="home-hero">
         <div class="home-copy">
-          <h1 id="homeTitle">Your ride.<br>Your vision.<br><em>Build it here.</em></h1>
-          <p>Find the right parts. Plan your next upgrade. Keep your whole project in one place.</p>
-          <button class="button primary home-cta" data-home-go="catalog">Find parts for my vehicle <span aria-hidden="true">↗</span></button>
+          <h1 id="homeTitle">Dream it.<br>Spec it.<br><em>Build it.</em></h1>
+          <p>From the first idea to the next drive. Choose a goal, find your parts and keep your project moving.</p>
+          <button class="button primary home-cta" data-home-go="goals">Start with a build goal <span aria-hidden="true">↗</span></button>
           <span class="home-small-note">From daily drivers to weekend projects.</span>
         </div>
         <figure class="vehicle-showcase">
@@ -42,10 +49,11 @@
           <figcaption><div><span class="showcase-kicker">The inspiration board</span><strong>Different rides. Same passion.</strong></div><span class="concept-label">AI concept image</span></figcaption>
         </figure>
       </div>
-      <div class="home-paths" aria-label="Start your project">
-        <button class="home-path" data-home-go="catalog"><span class="path-number">01 / DISCOVER</span><span class="path-title">Find your next upgrade <span aria-hidden="true">↗</span></span><span class="path-description">Browse parts and check fitment for your vehicle.</span></button>
-        <button class="home-path" data-home-go="garage"><span class="path-number">02 / YOUR GARAGE</span><span class="path-title">Make it yours <span aria-hidden="true">↗</span></span><span class="path-description">Keep your mods, maintenance and vehicle history together.</span></button>
-        <button class="home-path" data-home-go="build"><span class="path-number">03 / THE PLAN</span><span class="path-title">Bring your build to life <span aria-hidden="true">↗</span></span><span class="path-description">Save your shortlist and keep an eye on your budget.</span></button>
+      <div class="home-paths ds-hub-paths" aria-label="Choose your next move">
+        <button class="home-path" data-home-go="goals"><span class="path-number">01 / GUIDED UPGRADES</span><span class="path-title">Build by goal <span aria-hidden="true">↗</span></span><span class="path-description">Power, reliability, handling and more. See the parts and work behind your plan.</span><span class="ds-path-access">Open to everyone</span></button>
+        <button class="home-path" data-home-go="catalog"><span class="path-number">02 / MANUAL SEARCH</span><span class="path-title">Find parts <span aria-hidden="true">↗</span></span><span class="path-description">Choose your vehicle and engine, then search for the exact upgrade you have in mind.</span><span class="ds-path-access">Open to everyone</span></button>
+        <button class="home-path" data-home-go="garage"><span class="path-number">03 / YOUR VEHICLES</span><span class="path-title">My garage <span aria-hidden="true">↗</span></span><span class="path-description">Your saved vehicles, build sheets, modifications and maintenance history.</span><span class="ds-path-access">Log in to enter</span></button>
+        <button class="home-path" data-home-go="diagnose"><span class="path-number">04 / TROUBLESHOOT</span><span class="path-title">Diagnoser <span aria-hidden="true">↗</span></span><span class="path-description">Work through symptoms with AI guidance, diagnostic tests and community references.</span><span class="ds-path-access">Login + your AI key</span></button>
       </div>
       <aside class="community-preview" aria-label="Upcoming community showcase"><span class="coming-label">Down the road</span><p><strong>Your build belongs here.</strong> A rotating spotlight for community cars and trucks is coming.</p><span class="community-mark" aria-hidden="true">↗</span></aside>
     </section>
@@ -59,7 +67,7 @@
             <label><span>Make</span><select id="makeSelect"></select></label>
             <label><span>Model</span><select id="modelSelect"></select></label>
             <label><span>Year</span><select id="yearSelect"></select></label>
-            <label><span>Variant</span><select id="variantSelect"></select></label>
+            <label><span>Engine / variant</span><select id="variantSelect"></select></label>
           </div>
           <div id="platformSelectors" class="vehicle-selectors platform-selectors" hidden>
             <label><span>Make</span><select id="platformMakeSelect"></select></label>
@@ -67,7 +75,7 @@
             <label><span>Application</span><select id="platformApplicationSelect"></select></label>
           </div>
         </div>
-        <div class="vehicle-side"><label><span>Goal</span><select id="goalSelect"><option value="balanced">Balanced street</option><option value="reliability">Reliability</option><option value="power">Power</option><option value="handling">Handling</option><option value="track">Track</option><option value="budget">Budget</option></select></label><div id="vehicleBadges" class="vehicle-badges"></div></div>
+        <div class="vehicle-side"><label><span>Goal</span><select id="goalSelect"><option value="balanced">Balanced street</option><option value="reliability">Reliability</option><option value="power">Power</option><option value="handling">Handling</option><option value="track">Track</option><option value="budget">Budget</option><option value="offroad">Off-road</option><option value="lightweight">Weight reduction</option><option value="safety">Safety</option></select></label><div id="vehicleBadges" class="vehicle-badges"></div></div>
       </div>
     </section>
 
@@ -98,6 +106,49 @@
       </section>
     </section>
 
+
+    <section id="goalsView" class="view shell ds-workspace" aria-labelledby="goalsTitle">
+      <div class="page-head"><div><span class="eyebrow">01 / Guided upgrades</span><h1 id="goalsTitle">What’s your next goal?</h1><p>Select a vehicle above, then choose a direction for your build.</p></div></div>
+      <div id="goalCards" class="ds-goal-grid"></div>
+      <form id="guidedPlanForm" class="ds-card ds-form-grid">
+        <label>Build goal<select id="guidedGoal"><option value="power">Make more power</option><option value="reliability">Make it more reliable</option><option value="handling">Make it handle better</option><option value="offroad">Make it more off-road capable</option><option value="lightweight">Make it lighter</option><option value="safety">Make it safer</option><option value="balanced">Balanced street build</option><option value="track">Get it ready for the track</option><option value="budget">Build on a budget</option></select></label>
+        <label>Total build budget ($)<input id="guidedBudget" type="number" min="0" max="10000000" step="100" placeholder="Optional"></label>
+        <label>Labor rate / hour ($)<input id="guidedLabor" type="number" min="0" max="10000" step="5" placeholder="Optional"></label>
+        <button class="button primary" type="submit">Preview my plan ↗</button>
+      </form>
+      <div id="guidedPlan" aria-live="polite"></div>
+    </section>
+    <section id="accountView" class="view shell ds-workspace" aria-labelledby="accountTitle">
+      <div class="page-head"><div><span class="eyebrow">Your Dream Spec account</span><h1 id="accountTitle">Your garage. Your progress.</h1><p>Log in to save your vehicles and service history or use the Diagnoser.</p></div></div>
+      <div class="ds-account-grid"><div class="ds-card">
+        <form id="accountForm" class="ds-stack">
+          <label>Email<input name="email" type="email" autocomplete="email" required maxlength="254"></label>
+          <label>Password<input name="password" type="password" autocomplete="current-password" minlength="6" maxlength="256" required></label>
+          <div class="ds-actions"><button class="button primary" type="submit" value="login">Log in</button><button class="button secondary" type="submit" value="signup">Create account</button><button id="forgotPassword" type="button" class="button secondary">Reset password</button></div>
+          <p class="ds-muted">Use at least 12 characters for a new password.</p>
+        </form>
+        <form id="passwordRecoveryForm" class="ds-stack" hidden><label>New password<input name="password" type="password" autocomplete="new-password" minlength="12" maxlength="256" required></label><button class="button primary" type="submit">Save new password</button></form>
+        <div id="signedInAccount" hidden><p>Signed in as <strong id="accountEmail"></strong></p><button id="signOutButton" class="button secondary">Log out</button></div>
+        <p id="accountStatus" role="status"></p>
+      </div><aside class="ds-card"><span class="eyebrow">Make it feel like your garage</span><h2>Appearance</h2><label>Menu style<select id="appearanceSelect"><option value="racing">Racing</option><option value="classic">Classic</option></select></label><p>Use the header toggle for light or dark mode. Classic + Dark restores the previous visual style.</p><p class="ds-muted">These preferences stay in this browser.</p></aside></div>
+    </section>
+    <section id="diagnoseView" class="view shell ds-workspace" aria-labelledby="diagnoseTitle">
+      <div class="page-head"><div><span class="eyebrow">04 / Troubleshoot</span><h1 id="diagnoseTitle">Get to the root of it.</h1><p>Describe the symptoms. Build a test plan. Verify the fault before replacing parts.</p></div></div>
+      <section class="ds-card">
+        <h2>Your AI connection</h2><p>Use your OpenAI API key. Diagnostic and web-search calls are billed to your API account. Your key stays in this tab’s memory and is cleared when you log out or reload.</p>
+        <form id="diagnosisKeyForm" class="ds-form-grid"><label>OpenAI API key<input id="diagnosisApiKey" type="password" autocomplete="off" spellcheck="false" required placeholder="sk-…"></label><button type="submit" class="button primary">Connect my key</button></form>
+        <p id="aiConnectionStatus" role="status"></p><button id="disconnectAI" class="button secondary" hidden>Disconnect AI key</button>
+      </section>
+      <form id="diagnosisForm" class="ds-card ds-stack" hidden>
+        <label>Saved vehicle<select id="diagnoseVehicle" name="vehicle" required></select></label>
+        <p class="ds-muted">Add your vehicle in My Garage first. The selected vehicle, symptoms and relevant maintenance context will be sent to OpenAI.</p>
+        <label>Symptoms<textarea name="symptoms" minlength="8" maxlength="4000" rows="5" required placeholder="When does it happen? What do you hear, feel or see? What have you tested?"></textarea></label>
+        <label>Trouble codes<input name="codes" maxlength="120" placeholder="P0171, P0300" autocomplete="off"></label>
+        <button type="submit" class="button primary">Research and diagnose ↗</button>
+      </form>
+      <p id="diagnosisStatus" role="status"></p><div id="diagnosisResult" aria-live="polite"></div>
+    </section>
+
     <section id="pricesView" class="view shell">
       <div class="page-head"><div><span class="eyebrow">Seller comparison</span><h1>Price finder.</h1></div><p>Compare seller snapshots, live API offers when available, seller spread, watch parts, and jump out to verify current price, stock and shipping.</p></div>
       <div id="priceSummary" class="price-summary"></div><div id="bestDealText" class="price-note"></div><div id="priceTable" class="ranking-table"></div>
@@ -125,16 +176,20 @@
 
   <dialog id="partDialog" class="part-dialog"><button id="dialogClose" class="dialog-close" aria-label="Close">×</button><div id="partDialogContent"></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <footer><div class="shell footer-inner"><strong>ModPicker</strong><span>A place for your next project.</span><a href="data-status.html">Data status</a></div></footer>
+  <footer><div class="shell footer-inner"><strong>Dream Spec</strong><span>A place for your next project.</span><a href="data-status.html">Data status</a></div></footer>
 
   <script src="data.js"></script>
   <script src="data-extra.js"></script>
   <script src="pipeline-data.js"></script>
   <script src="pipeline-bridge.js"></script>
+  <script src="ds-core.js"></script>
+  <script src="ds-auth.js"></script>
+  <script src="ds-owned.js"></script>
   <script src="app-v2.js"></script>
   <script src="research.js"></script>
   <script src="curated-discussions.js"></script>
   <script src="trust-ui.js"></script>
   <script src="supabase-bridge.js"></script>
+  <script src="ds-hub.js"></script>
 </body>
 </html>

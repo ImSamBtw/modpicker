@@ -1,6 +1,6 @@
 (()=>{
 'use strict';
-function loadCss(){if(document.querySelector('link[href="site-refresh.css"]'))return;const link=document.createElement('link');link.rel='stylesheet';link.href='site-refresh.css';document.head.appendChild(link)}
+function loadCss(){if(document.querySelector('link[href="site-refresh.css"]'))return;const link=document.createElement('link');link.rel='stylesheet';link.href='site-refresh.css';document.head.appendChild(link);const theme=document.querySelector('link[href="dreamspec-theme.css"]');if(theme)document.head.appendChild(theme)}
 function setNavLabel(route,label){const el=document.querySelector(`.main-nav [data-route="${route}"]`);if(!el)return;const nodes=[...el.childNodes];const text=nodes.find(n=>n.nodeType===Node.TEXT_NODE);if(text)text.nodeValue=`${label} `;else el.prepend(document.createTextNode(`${label} `))}
 function simplifyHero(){const hero=document.querySelector('#catalogView .hero');if(!hero||hero.dataset.cleaned)return;hero.dataset.cleaned='1';const copy=hero.firstElementChild;copy.querySelector('.eyebrow').textContent='The parts workspace';copy.querySelector('h1').textContent='Find your next upgrade.';copy.querySelector('p').textContent='Choose your vehicle above, then explore parts and compare your options.';hero.querySelector('.hero-stats').hidden=true}
 function bindHome(){

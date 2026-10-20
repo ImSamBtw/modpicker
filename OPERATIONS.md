@@ -1,6 +1,8 @@
 # Operations
 
-GitHub Pages publishes `main` root. GitHub Actions refreshes every six hours. Supabase ingestion function source is `database/ingest-github-pipeline.ts`; deployed function changes must be deployed separately from GitHub commits. Its custom GitHub OIDC validation requires this repository, main branch and workflow; no service secret is shipped to browsers.
+The repository is now `jakehenry076-cmd/modpicker`. GitHub Pages is configured to publish `main` root at `https://jakehenry076-cmd.github.io/modpicker/`; the former owner's Pages URL returns 404. The Dream Spec release preview at `https://dream-spec-git-preview.pages.dev/` is connected to `refactor/dream-spec-hub` in Cloudflare Pages.
+
+GitHub Actions refreshes every six hours. Supabase ingestion function source is `database/ingest-github-pipeline.ts`; deployed function changes must be deployed separately from GitHub commits. Its custom GitHub OIDC validation requires repository `jakehenry076-cmd/modpicker`, the main branch and the data-pipeline workflow; no service secret is shipped to browsers. After the ownership transfer, update the deployed `ingest-github-pipeline` function in the public catalog project `pzxofwrdidvqhdlqbehk` to match the new repository identity, retaining its existing JWT signature, issuer, audience, branch and workflow checks. The audience remains `modpicker-supabase`. Run `node tests/github-ingestion-auth.mjs` to verify the source authorization rules without calling the hosted service.
 
 Public data tables are read-only under RLS. Build edits are local to the browser; export JSON for a portable backup.
 
@@ -29,3 +31,8 @@ For a manual vehicle, platform, or part, follow `MANUAL_CATALOG.md`. Add the JSO
 ## Homepage assets and verification
 
 Run `node tests/ui-cleanup-smoke.cjs` after changing Home, header navigation or `home.css`; run the existing browser and Garage smoke tests for routing changes. Desktop/mobile captures are written to `/tmp/modpicker-home-*.png`. The showcase asset and its provenance/future submission requirements live in `assets/README.md`. The page uses a static concept image until an opt-in moderation and attribution workflow exists.
+
+
+## Dream Spec account and diagnostic services
+
+See [DREAM_SPEC.md](docs/DREAM_SPEC.md) for the private-data migration, email-auth configuration, BYOK-only diagnostic function, appearance rollback and regression checks. Do not configure host AI credentials for the diagnostic function.

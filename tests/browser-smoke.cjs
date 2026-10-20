@@ -1,5 +1,6 @@
 /* Run with Playwright installed; CHROME_PATH optionally selects a local Chromium. */
 const assert=require('node:assert/strict');
+const fixture=require('./dreamspec-fixture.cjs');
 const {spawn}=require('node:child_process');
 const path=require('node:path');
 const {chromium}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES?path.join(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES,'playwright'):'playwright');
@@ -10,6 +11,7 @@ browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{execut
 const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
 page.on('pageerror',e=>errors.push(e.message));
 await page.route('https://pzxofwrdidvqhdlqbehk.supabase.co/**',r=>r.abort());
+const mock=await fixture.install(page);
 await page.goto('http://localhost:8123');assert.equal(await page.locator('#vehicleSelect').count(),0);assert.ok(await page.locator('#makeSelect').count());assert.ok(await page.locator('#modelSelect').count());assert.ok(await page.locator('#yearSelect').count());assert.ok(await page.locator('#variantSelect').count());const makeLabels=await page.locator('#makeSelect option').allTextContents();assert.equal(new Set(makeLabels.map(x=>x.toLowerCase())).size,makeLabels.length);assert.ok(await page.locator('.part-card').count()>0);
 await page.locator('.main-nav [data-route="catalog"]').click();await page.locator('.part-card .button.primary').first().click();await page.locator('[data-route="build"]').click();
 await page.locator('.item-note input').fill('Manual torque spec — α <test>');await page.locator('.item-note input').dispatchEvent('change');
@@ -29,7 +31,7 @@ for(const route of ['catalog','prices','rankings','compare','build'])await page.
 await page.locator('#applicationSearch').fill('M52TU');assert.ok(await page.locator('#applicationResults button').count()>0);await page.locator('#applicationSearch').fill('Z3 2000');assert.ok(await page.locator('#applicationResults button').count()>1);await page.locator('#applicationSearch').fill('');
 await page.evaluate(()=>{const p=part('miata-koni-active');const f=p.fitments.find(f=>f.vehicle_id.startsWith('epa-'));state.browseMode='vehicle';switchVehicle(f.vehicle_id);window.showPart(p.id)});assert.ok(await page.getByText(/Incompatible with stock|Incompatible|incompatible|Mazdaspeed/, {exact:false}).count()>0);await page.locator('#dialogClose').click();await page.evaluate(async p=>importBuild(new File([JSON.stringify(p)],'build.json',{type:'application/json'})),payload);
 
-await page.waitForSelector('[data-route="garage"]');await page.locator('[data-route="garage"]').click();await page.waitForSelector('#garageView.active-view');
+mock.rows[0].build=await page.evaluate(()=>buildPayload());await fixture.signIn(page);await page.evaluate(()=>route('garage',false));await page.waitForSelector('#garageView.active-view');
 await page.locator('#garageNickname').fill('Smoke Test Z3');await page.locator('#garageNickname').dispatchEvent('input');
 await page.locator('#garageOdometer').fill('100000');await page.locator('#garageOdometer').dispatchEvent('input');
 await page.locator('#garageBudget').fill('1800');await page.locator('#garageBudget').dispatchEvent('input');
@@ -41,8 +43,9 @@ await page.locator('#codeValue').fill('P0171');await page.locator('#codeDescript
 await page.locator('#receiptVendor').fill('Test Parts');await page.locator('#receiptAmount').fill('42.50');await page.locator('#receiptNotes').fill('Oil and filter');await page.locator('#addReceiptButton').click();assert.match(await page.locator('#receiptHistory').textContent(),/Test Parts/);
 await page.waitForFunction(()=>window.ModPickerPlanner&&window.ModPickerGarage);
 const plannerAudit=await page.evaluate(()=>{const plan=window.ModPickerPlanner.choosePlan(),ids=new Set([...state.build,...plan.picks.map(p=>p.id)]);let missing=0,conflicts=0;for(const p of plan.picks){missing+=(p.requires||[]).filter(id=>!ids.has(id)).length;conflicts+=(p.conflicts||[]).filter(id=>ids.has(id)).length;for(const id of ids)if(part(id)?.conflicts?.includes(p.id))conflicts++}return{missing,conflicts,count:plan.picks.length}});assert.equal(plannerAudit.missing,0);assert.equal(plannerAudit.conflicts,0);
-const prePlanCount=await page.evaluate(()=>state.build.length);await page.locator('#generateBuildPlan').click();await page.waitForFunction(n=>state.build.length>=n,prePlanCount);assert.ok(await page.locator('#buildView.active-view').count());assert.equal(await page.inputValue('#budgetInput'),'1800');assert.ok(await page.evaluate(()=>buildTotals().subtotal<=state.budget),'Starter plan must respect parts budget including existing quantities and paid overrides');
-await page.reload();await page.waitForSelector('[data-route="garage"]');await page.locator('[data-route="garage"]').click();assert.equal(await page.inputValue('#garageNickname'),'Smoke Test Z3');assert.match(await page.locator('#codeHistory').textContent(),/P0171/);assert.match(await page.locator('#receiptHistory').textContent(),/Test Parts/);
+const prePlanCount=await page.evaluate(()=>state.build.length);await page.locator('#generateBuildPlan').click();await page.waitForSelector('#goalsView.active-view');assert.equal(await page.evaluate(()=>state.build.length),prePlanCount,'Preview must preserve existing build items');if(await page.locator('#applyGuidedPlan').count()){await page.locator('#applyGuidedPlan').click();assert.equal(await page.inputValue('#budgetInput'),'1800')}await page.evaluate(()=>DSOwned.flush());
+
+await page.reload();await page.waitForFunction(()=>window.DSOwned?.active&&window.ModPickerGarage);await page.evaluate(()=>route('garage',false));assert.equal(await page.inputValue('#garageNickname'),'Smoke Test Z3');assert.match(await page.locator('#codeHistory').textContent(),/P0171/);assert.match(await page.locator('#receiptHistory').textContent(),/Test Parts/);
 
 await page.evaluate(()=>{state.browseMode='vehicle';switchVehicle('brz-2017');window.showPart('brz-perrin-master-brace')});await page.waitForSelector('#interchangeSection');assert.match(await page.locator('#interchangeSection').textContent(),/Scion FR-S/);assert.match(await page.locator('#interchangeSection').textContent(),/Toyota 86/);assert.match(await page.locator('#interchangeSection').textContent(),/GR86/);await page.locator('#dialogClose').click();
 await page.evaluate(()=>{state.browseMode='vehicle';switchVehicle('z3-2000-28')});

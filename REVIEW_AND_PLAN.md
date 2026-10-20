@@ -1,4 +1,4 @@
-# ModPicker review and implementation
+# Dream Spec review and implementation
 
 ## Findings and completed changes
 
@@ -150,3 +150,8 @@ Local refresh produced 102 catalog parts, 227 normalized applications (206 EPA r
 - Added a locally hosted, compressed car/truck concept image. Future community showcase is explicitly upcoming, with no fake submission action or private-photo reuse.
 - Kept existing fitment and price evidence in the catalog; compacted its heading and removed landing-page action duplication.
 - Extended UI smoke coverage for home routes, image loading, responsive widths, mobile navigation, keyboard disclosure and reduced motion.
+
+
+## Dream Spec hub — October 20, 2026
+
+Rebrand visible app text, add isolated Racing/Classic and Light/Dark appearance, route four home paths, share an exact-fitment goal planner, and add authenticated owned vehicles with private photo storage. The BYOK-only backend retrieves sources and records unconfirmed diagnostic sessions transactionally. See docs/DREAM_SPEC.md for setup, rollback and tests.

@@ -1,0 +1,137 @@
+/* Removable appearance layer. Classic + Dark leaves the previous screen styling intact. */
+html[data-ds-color="light"]{
+ --bg:#f5f6f8;--panel:#fff;--panel2:#edf0f4;--panel3:#e2e7ee;--soft:#f6f8fb;
+ --text:#141c29;--muted:#596776;--line:#d5dce5;--accent:#1264e4;--accent2:#157450;
+ --warn:#9b6200;--danger:#b52936;--blue:#1264e4;--shadow:0 12px 32px #1e334414;
+ color-scheme:light;
+}
+html[data-ds-color="dark"]{color-scheme:dark}
+html[data-ds-color="light"] body.ui-refresh{background:var(--bg);color:var(--text)}
+html[data-ds-color="light"] body.ui-refresh :is(.topbar,.vehicle-strip,footer){background:var(--panel);border-color:var(--line)}
+html[data-ds-color="light"] body.ui-refresh :is(.part-card,.filter-panel,.garage-card,.garage-hero-card,.maintenance-card,.build-category,.build-summary-card,.compat-card,.coverage-panel,.price-note,.research-menu,.part-dialog,.ranking-row,.price-row,.build-controls,.empty-state,.dialog-box,.dialog-grid>div,.price-summary>div,.ranking-summary>div,.top-pick-card,.suggestion-card,.alternative-card,.dialog-callout,.rank-controls,.compare-cell,.research-link,.install-step,.ds-card){background:var(--panel);border-color:var(--line);color:var(--text)}
+html[data-ds-color="light"] body.ui-refresh :is(input,select,textarea,.summary-grid div,.garage-context-summary,.garage-profile-meter,.research-warning,.tools-list .tool-chip,.planner-summary,.build-category-head,.compare-label,.ranking-row.header,.price-row.header,.tag,.badge,.category-button,.ds-empty,.result-count,.nav-count){background:var(--panel2);color:var(--text);border-color:var(--line)}
+html[data-ds-color="light"] body.ui-refresh :is(.button.secondary,.icon-button,.mobile-menu,.nav-link,.research-nav,.home-path,.mode-button){color:var(--text);border-color:var(--line)}
+html[data-ds-color="light"] body.ui-refresh .button.secondary,
+html[data-ds-color="light"] body.ui-refresh .icon-button{background:var(--panel2)}
+html[data-ds-color="light"] body.ui-refresh :is(.nav-link.active,.category-button.active,.research-nav[open] summary){background:#e5edff;color:#16499b;border-color:#afc8f4}
+html[data-ds-color="light"] body.ui-refresh :is(.hero h1,.home-copy h1,.page-head h1,.path-title,.home-path,.community-preview strong){color:var(--text)}
+html[data-ds-color="light"] body.ui-refresh :is(.hero p,.home-copy p,.path-description,.home-small-note,.path-number,.home-edition,.community-preview p,.footer-inner,.footer-inner a,.prototype-banner,.prototype-banner strong){color:var(--muted)}
+html[data-ds-color="light"] body.ui-refresh :is(.home-copy h1 em,.home-intro .eyebrow,.eyebrow,.path-title>span){color:var(--accent)}
+html[data-ds-color="light"] body.ui-refresh .button.primary{background:var(--accent);color:white}
+html[data-ds-color="light"] body.ui-refresh :is(.home-paths,.home-path){border-color:var(--line)}
+html[data-ds-color="light"] body.ui-refresh .coming-label{background:#e5edff;color:#245391}
+html[data-ds-color="light"] body.ui-refresh .fitment-line{color:#176b4f}
+html[data-ds-color="light"] body.ui-refresh .button.danger{background:#fff0f0;color:#a72a37;border-color:#e5bac0}
+html[data-ds-color="light"] body.ui-refresh .score-chip{background:#d9f45b;color:#17200a}
+html[data-ds-color="light"] body.ui-refresh a{color:var(--accent)}
+html[data-ds-color="light"] body.ui-refresh .vehicle-showcase :is(strong,.concept-label,.showcase-kicker){color:white}
+html[data-ds-color="light"] body.ui-refresh .main-nav{border-color:var(--line)}
+/* New feature layouts work with both the classic and racing appearance. */
+[hidden]{display:none!important}
+.ds-workspace{padding-bottom:70px}
+.ds-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:24px;margin-bottom:18px;min-width:0}
+.ds-card>h2:first-child,.ds-card>h3:first-child{margin-top:0}
+.ds-card p{line-height:1.7;color:var(--muted)}
+.ds-stack{display:grid;gap:18px}
+.ds-form-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:end}
+.ds-form-grid>.button{min-height:44px}
+.ds-actions{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 0}
+.ds-account-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:24px;align-items:start}
+.ds-muted{font-size:.85rem;color:var(--muted);line-height:1.6}
+.ds-notice{border-left:3px solid var(--accent);padding:10px 14px;background:var(--panel2);color:var(--muted);font-size:.86rem;line-height:1.65}
+.ds-empty{border:1px dashed var(--line);border-radius:12px;padding:36px 24px;color:var(--muted);margin-bottom:20px}
+.ds-color-toggle{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:8px;padding:9px 12px;min-height:40px;white-space:nowrap;font-size:.72rem;cursor:pointer}
+.ds-goal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:24px}
+.ds-goal-tile{position:relative;display:grid;gap:10px;text-align:left;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);padding:20px;cursor:pointer;font:inherit;min-height:115px}
+.ds-goal-tile>span:last-child{position:absolute;right:15px;top:15px;color:var(--accent)}
+.ds-goal-tile[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 3px 0 var(--accent)}
+.ds-telemetry{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.65rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.ds-plan-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:24px 0}
+.ds-plan-summary>div{padding:20px;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+.ds-plan-summary span{display:block;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.09em;margin-bottom:10px}
+.ds-plan-summary strong{font-size:1.5rem;font-family:ui-monospace,Consolas,monospace}
+.ds-plan-part{display:grid;grid-template-columns:1fr auto;align-items:center;gap:18px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px;margin-bottom:12px}
+.ds-plan-part h3{margin:8px 0}
+.ds-plan-part p{font-size:.83rem;color:var(--muted);line-height:1.65}
+.ds-plan-part>div:last-child{display:grid;gap:15px;justify-items:end}
+.ds-source,.ds-diagnostic-item{padding:16px 0;border-bottom:1px solid var(--line)}
+.ds-source:last-child,.ds-diagnostic-item:last-child{border:0}
+.ds-source a{font-weight:650;line-height:1.5}
+.ds-source p{margin-bottom:0;font-size:.85rem}
+.ds-steps{padding-left:22px}
+.ds-steps li{padding:10px 0 14px 8px}
+.ds-steps p{margin:8px 0}
+.ds-steps small{color:var(--warn)}
+.ds-event{padding:20px 0;border-bottom:1px solid var(--line)}
+.ds-event-top{display:flex;justify-content:space-between;gap:12px;align-items:start}
+.ds-event>p{font-size:.85rem;line-height:1.7}
+.ds-event-payload{white-space:pre-wrap;overflow-wrap:anywhere;max-height:400px;overflow:auto;font-size:.75rem;line-height:1.7}
+.ds-path-access{display:block;margin-top:14px;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+body.ui-refresh .home-paths.ds-hub-paths{grid-template-columns:repeat(4,minmax(0,1fr))}
+body.ui-refresh .ds-hub-paths .home-path{padding:24px 20px}
+body.ui-refresh .ds-hub-paths .home-path:first-child{padding-left:0}
+body.ui-refresh .ds-hub-paths .home-path:last-child{padding-right:0}
+body[data-view="account"] .vehicle-strip,body[data-view="account"] .prototype-banner,
+body[data-view="diagnose"] .vehicle-strip,body[data-view="diagnose"] .prototype-banner,
+body[data-view="goals"] .prototype-banner{display:none}
+html[data-ds-color="light"] :is(button,a,input,select,textarea,summary):focus-visible{outline:2px solid #165ed4;outline-offset:4px}
+/* Racing is scoped: remove this attribute or choose Classic to disable geometry and motion. */
+html[data-ds-ui="racing"] body.ui-refresh{--ds-speed:160ms}
+html[data-ds-ui="racing"] body.ui-refresh .brand{font-style:italic;letter-spacing:-.07em;font-size:1.55rem;font-weight:900;white-space:nowrap}
+html[data-ds-ui="racing"] body.ui-refresh .brand span{color:var(--accent)}
+html[data-ds-ui="racing"] body.ui-refresh .topbar{min-height:72px;height:auto;gap:15px}
+html[data-ds-ui="racing"] body.ui-refresh .main-nav{gap:0}
+html[data-ds-ui="racing"] body.ui-refresh .nav-link{padding:10px 9px;font-size:.72rem}
+html[data-ds-ui="racing"] body.ui-refresh :is(.page-head h1,.home-copy h1){font-weight:850;letter-spacing:-.065em;line-height:1.02}
+html[data-ds-ui="racing"] body.ui-refresh :is(.eyebrow,.path-number,.ds-plan-summary span){font-family:ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.14em;font-weight:650}
+html[data-ds-ui="racing"] body.ui-refresh :is(.part-card,.ds-card,.ds-plan-part,.garage-card,.garage-hero-card,.filter-panel,.build-summary-card,.compat-card,.coverage-panel,.build-category){border-radius:4px}
+html[data-ds-ui="racing"] body.ui-refresh .home-hero{grid-template-columns:.76fr 1.24fr;gap:40px;min-height:420px}
+html[data-ds-ui="racing"] body.ui-refresh .vehicle-showcase{height:420px;border-radius:4px}
+html[data-ds-ui="racing"] body.ui-refresh .home-copy h1{font-size:clamp(3.3rem,5.7vw,5.1rem)}
+html[data-ds-ui="racing"] body.ui-refresh .home-copy h1 em{font-style:italic;color:var(--accent)}
+html[data-ds-ui="racing"] body.ui-refresh .home-copy p{max-width:350px}
+html[data-ds-ui="racing"] body.ui-refresh :is(.button,.ds-color-toggle,.nav-link,.research-nav summary){border-radius:3px}
+html[data-ds-ui="racing"] body.ui-refresh .button.primary{background:var(--accent);color:#10120b;border:1px solid var(--accent);padding-left:18px;padding-right:18px}
+html[data-ds-ui="racing"][data-ds-color="light"] body.ui-refresh .button.primary{color:white}
+html[data-ds-ui="racing"] body.ui-refresh .home-path{position:relative;transition:background var(--ds-speed),transform var(--ds-speed)}
+html[data-ds-ui="racing"] body.ui-refresh .home-path:hover{background:var(--panel2)}
+html[data-ds-ui="racing"] body.ui-refresh .home-path::before{content:'';position:absolute;left:20px;top:0;width:32px;height:3px;background:var(--accent);transform:skewX(-25deg);opacity:0;transition:opacity var(--ds-speed)}
+html[data-ds-ui="racing"] body.ui-refresh .home-path:hover::before{opacity:1}
+html[data-ds-ui="racing"] body.ui-refresh .ds-goal-tile{border-radius:3px;transition:transform var(--ds-speed),border-color var(--ds-speed)}
+html[data-ds-ui="racing"] body.ui-refresh .ds-goal-tile:hover{transform:translateY(-2px);border-color:var(--accent)}
+@media(max-width:1150px){
+ html[data-ds-ui] body.ui-refresh .topbar{padding:0 18px;height:66px;gap:12px}
+ html[data-ds-ui] body.ui-refresh .main-nav{position:absolute;left:12px;right:12px;top:62px;display:none;grid-template-columns:repeat(2,minmax(0,1fr));padding:10px;background:var(--panel);border:1px solid var(--line);border-radius:8px;box-shadow:var(--shadow)}
+ html[data-ds-ui] body.ui-refresh .main-nav.open{display:grid}
+ html[data-ds-ui] body.ui-refresh .main-nav .nav-link{text-align:left;padding:12px;min-height:44px}
+ html[data-ds-ui] body.ui-refresh .mobile-menu{display:block;margin-left:0}
+ html[data-ds-ui] body.ui-refresh .ds-color-toggle{margin-left:auto}
+ html[data-ds-ui] body.ui-refresh .research-nav{grid-column:1/-1}
+ html[data-ds-ui] body.ui-refresh .research-menu{position:static;width:100%;box-shadow:none}
+ body.ui-refresh .home-paths.ds-hub-paths{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body.ui-refresh .ds-hub-paths .home-path{padding:24px!important;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+ body.ui-refresh .ds-hub-paths .home-path:nth-child(2n){border-right:0}
+}
+@media(max-width:760px){
+ html[data-ds-ui="racing"] body.ui-refresh .home-hero{grid-template-columns:1fr;gap:25px}
+ html[data-ds-ui="racing"] body.ui-refresh .home-copy h1{font-size:clamp(3.4rem,13vw,4.5rem)}
+ html[data-ds-ui="racing"] body.ui-refresh .vehicle-showcase{height:auto;aspect-ratio:1.45}
+ .ds-form-grid,.ds-account-grid{grid-template-columns:1fr}
+ .ds-goal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .ds-plan-summary{grid-template-columns:1fr}
+ .ds-plan-part{grid-template-columns:1fr}
+ .ds-plan-part>div:last-child{justify-items:start}
+ .ds-card{padding:19px}
+ html[data-ds-ui] body.ui-refresh .ds-color-toggle{font-size:.63rem;padding:8px;max-width:80px}
+ html[data-ds-ui] body.ui-refresh .brand{font-size:1.2rem}
+ html[data-ds-ui] body.ui-refresh .mobile-menu{font-size:.75rem;padding:8px}
+ .ds-event-top{display:block}
+ body.ui-refresh .home-paths.ds-hub-paths{grid-template-columns:1fr}
+ body.ui-refresh .ds-hub-paths .home-path{padding:22px 0!important;border-right:0}
+ .ds-hub-paths .path-description{max-width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+ html[data-ds-ui] *,html[data-ds-ui] *::before,html[data-ds-ui] *::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
+}
+
+html[data-ds-color="light"] body.ui-refresh .toast{background:#141c29;color:#fff}
