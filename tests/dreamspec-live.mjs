@@ -9,7 +9,7 @@ const cfg=context.window.DREAM_SPEC_CONFIG;
 const entry=fs.readFileSync('supabase/functions/dreamspec-diagnose/index.ts','utf8');
 const catalogUrl=entry.match(/DREAMSPEC_CATALOG_URL:.*?\|\|'([^']+)'/)?.[1]||cfg.supabaseUrl;
 const catalogKey=entry.match(/DREAMSPEC_CATALOG_KEY:.*?\|\|'([^']+)'/)?.[1]||cfg.publishableKey;
-const origin='https://imsambtw.github.io';
+const origin=process.env.DREAMSPEC_TEST_ORIGIN||'https://imsambtw.github.io';
 const get=(url,headers={})=>fetch(url,{headers,signal:AbortSignal.timeout(20000)});
 
 const settingsResponse=await get(cfg.supabaseUrl+'/auth/v1/settings',{apikey:cfg.publishableKey});

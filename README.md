@@ -1,6 +1,6 @@
 # Dream Spec
 
-Automotive parts research, guided build planning and a private vehicle garage at https://imsambtw.github.io/modpicker/.
+Automotive parts research, guided build planning and a private vehicle garage. Release preview: https://dream-spec-git-preview.pages.dev/.
 
 - Source-linked product catalog, fitment labels, recent USD seller observations. Browse cars with Make → Model → Year → Variant, or browse engine/platform families such as BMW M52TU, FA20 and Mustang S550.
 - Published owner-review ratings where evidence exists; never synthetic performance scores.

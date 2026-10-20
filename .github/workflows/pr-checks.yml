@@ -49,6 +49,7 @@ jobs:
           node --check supabase/functions/dreamspec-diagnose/handler.mjs
           node tests/dreamspec-core.cjs
           node tests/dreamspec-backend.mjs
+          node tests/github-ingestion-auth.mjs
       - name: Check deployed Supabase connection without inference
         run: node tests/dreamspec-live.mjs
       - name: Vehicle make trust regression
