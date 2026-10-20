@@ -2,7 +2,12 @@
 const crypto=require('node:crypto');
 const A='11111111-1111-4111-8111-111111111111',B='aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa';
 const first='22222222-2222-4222-8222-222222222222';
-const BASE='https://pzxofwrdidvqhdlqbehk.supabase.co';
+const configContext={window:{}};
+require('node:vm').runInNewContext(
+ require('node:fs').readFileSync(require('node:path').join(__dirname,'..','dreamspec-config.js'),'utf8'),
+ configContext
+);
+const BASE=configContext.window.DREAM_SPEC_CONFIG.supabaseUrl;
 async function install(page){
  const rows=[{id:first,owner_id:A,catalog_vehicle_id:'z3-2000-28',year:2000,make:'BMW',model:'Z3',engine:'M52TU B28',variant:'2.8 Roadster',nickname:'',profile:{photos:[],maintenance:[],codes:[],receipts:[]},build:{},version:1,created_at:new Date().toISOString()},{id:'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb',owner_id:B,catalog_vehicle_id:'z3-2000-28',year:2000,make:'BMW',model:'Z3',engine:'M52TU B28',variant:'2.8 Roadster',nickname:'Other account project',profile:{nickname:'Other account project',photos:[],maintenance:[],codes:[],receipts:[]},build:{},version:1}];
  const events=[],calls=[],photos=new Map();
