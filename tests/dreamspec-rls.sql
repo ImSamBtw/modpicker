@@ -48,7 +48,8 @@ begin
  if (select status from public.vehicle_events)<>'unconfirmed' then raise exception 'diagnostic session was marked repaired';end if;
 end $$;
 
-select set_config('test.dreamspec_run_id',(select id::text from public.diagnostic_runs limit 1),true);
+select public.begin_diagnostic_run('22222222-2222-4222-8222-222222222222','55555555-5555-4555-8555-555555555555','Pending foreign diagnostic request','[]'::jsonb);
+select set_config('test.dreamspec_run_id',(select id::text from public.diagnostic_runs where status='pending' limit 1),true);
 select set_config('request.jwt.claim.sub','aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa',true);
 do $$
 declare n integer;

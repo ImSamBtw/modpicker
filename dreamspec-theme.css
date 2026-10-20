@@ -133,3 +133,5 @@ html[data-ds-ui="racing"] body.ui-refresh .ds-goal-tile:hover{transform:translat
 @media(prefers-reduced-motion:reduce){
  html[data-ds-ui] *,html[data-ds-ui] *::before,html[data-ds-ui] *::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
 }
+
+html[data-ds-color="light"] body.ui-refresh .toast{background:#141c29;color:#fff}

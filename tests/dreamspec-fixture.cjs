@@ -5,7 +5,16 @@ const first='22222222-2222-4222-8222-222222222222';
 const BASE='https://pzxofwrdidvqhdlqbehk.supabase.co';
 async function install(page){
  const rows=[{id:first,owner_id:A,catalog_vehicle_id:'z3-2000-28',year:2000,make:'BMW',model:'Z3',engine:'M52TU B28',variant:'2.8 Roadster',nickname:'',profile:{photos:[],maintenance:[],codes:[],receipts:[]},build:{},version:1,created_at:new Date().toISOString()},{id:'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb',owner_id:B,catalog_vehicle_id:'z3-2000-28',year:2000,make:'BMW',model:'Z3',engine:'M52TU B28',variant:'2.8 Roadster',nickname:'Other account project',profile:{nickname:'Other account project',photos:[],maintenance:[],codes:[],receipts:[]},build:{},version:1}];
- const events=[],calls=[];
+ const events=[],calls=[],photos=new Map();
+ await page.route(BASE+'/storage/v1/**',async route=>{
+  const request=route.request(),url=new URL(request.url());
+  if(url.pathname.includes('/object/sign/')&&request.method()==='POST')return route.fulfill({json:{signedURL:url.pathname.replace('/storage/v1','')+'?token=test'}});
+  const path=url.pathname.split('/vehicle-photos/')[1];
+  if(request.method()==='POST'&&path){photos.set(path,request.postDataBuffer());return route.fulfill({json:{Key:path}})}
+  if(request.method()==='DELETE'){for(const p of request.postDataJSON().prefixes)photos.delete(p);return route.fulfill({json:{}})}
+  if(request.method()==='GET'&&photos.has(path))return route.fulfill({body:photos.get(path),contentType:'image/jpeg'});
+  return route.fulfill({status:404,json:{}});
+ });
  await page.route(BASE+'/auth/v1/**',async route=>{
   const request=route.request(),url=new URL(request.url()),body=request.postDataJSON?.()||{};
   if(url.pathname.endsWith('/token')){

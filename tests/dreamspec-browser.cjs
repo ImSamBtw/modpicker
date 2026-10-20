@@ -64,6 +64,11 @@ const server=spawn('python',['-m','http.server','8126'],{cwd:require('node:path'
  await page.locator('#ownedVehicleSelect').selectOption(second);
  await page.waitForFunction(()=>document.querySelector('#garageNickname').value==='Separate vehicle profile');
  assert.equal(await page.evaluate(()=>localStorage.getItem('modpicker-owner-garage-v1')),null,'cloud profiles must not leak into legacy storage');
+ const imageData=await page.evaluate(()=>{const canvas=document.createElement('canvas');canvas.width=32;canvas.height=32;const context=canvas.getContext('2d');context.fillStyle='#164fb0';context.fillRect(0,0,32,32);return canvas.toDataURL('image/png').split(',')[1]});
+ await page.locator('#garagePhotoInput').setInputFiles({name:'private-test-car.png',mimeType:'image/png',buffer:Buffer.from(imageData,'base64')});
+ await page.waitForFunction(()=>DSOwned.active.profile.photos.length===1);await page.evaluate(()=>DSOwned.flush());
+ const cloudPhoto=mock.rows.find(r=>r.id===second).profile.photos[0];
+ assert.ok(cloudPhoto.path.startsWith(mock.A+'/'+second+'/'));assert.equal(cloudPhoto.data,undefined,'signed URLs/data must not be persisted in profile JSON');
  await page.screenshot({path:'/tmp/dreamspec-garage.png',fullPage:true});
 
  await page.evaluate(()=>route('diagnose',false));
@@ -102,6 +107,7 @@ const server=spawn('python',['-m','http.server','8126'],{cwd:require('node:path'
   }
  }
  await page.setViewportSize({width:390,height:844});await page.evaluate(()=>route('home',false));
+ await page.waitForFunction(()=>getComputedStyle(document.querySelector('#toast')).opacity==='0');
  await page.screenshot({path:'/tmp/dreamspec-home-mobile.png',fullPage:true});
  await page.locator('#mobileMenuButton').click();assert.equal(await page.locator('#mobileMenuButton').getAttribute('aria-expanded'),'true');
  await page.keyboard.press('Escape');assert.equal(await page.locator('#mobileMenuButton').getAttribute('aria-expanded'),'false');

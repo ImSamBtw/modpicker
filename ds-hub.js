@@ -44,7 +44,7 @@ async function accountSubmit(event){
   const email=form.elements.email.value.trim(),password=form.elements.password.value;
   if(action==='signup'){if(password.length<12)throw new Error('Use at least 12 characters for a new password.');const r=await DSAuth.signUp(email,password);if(r.confirmationRequired){message('accountStatus','Check your email to confirm your account, then log in.');return}}
   else await DSAuth.signIn(email,password);
-  form.elements.password.value='';message('accountStatus','Signed in.');route(DSAuth.next);
+  form.elements.password.value='';message('accountStatus','Signed in.');route(DSAuth.consumeNext());
  }catch(e){message('accountStatus',e.message)}
  finally{button.disabled=false;renderAccount()}
 }
@@ -111,7 +111,7 @@ function init(){
  document.querySelector('#diagnosisForm').addEventListener('submit',runDiagnosis);
  document.querySelector('#diagnosisResult').addEventListener('click',e=>{if(e.target.closest('#retryDiagnosisSave'))retrySave()});
  document.querySelector('#diagnoseVehicle').addEventListener('change',async e=>{diagnosis=null;showDiagnosis();message('diagnosisStatus','');try{await DSOwned.select(e.target.value)}catch(err){message('diagnosisStatus',err.message)}});
- DSAuth.ready.then(()=>{renderAccount();if(window.DreamSpecPasswordRecovery)route('account');else if(DSAuth.user&&state.route==='account')route(DSAuth.next)});
+ DSAuth.ready.then(()=>{renderAccount();if(window.DreamSpecPasswordRecovery)route('account');else if(DSAuth.user&&DSAuth.hasPendingRoute&&state.route==='account')route(DSAuth.consumeNext())});
 }
 document.addEventListener('ds:auth',()=>{
  renderAccount();if(!DSAuth.user){clearKey();diagnoseRequest?.abort();diagnosis=null;showDiagnosis();renderAI();if(['garage','diagnose'].includes(state.route))route(state.route)}

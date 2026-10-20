@@ -2,7 +2,7 @@
 (()=>{
 'use strict';
 const cfg=window.DREAM_SPEC_CONFIG,SESSION_KEY='dreamspec-auth-v1';
-let session=null,user=null,refreshing=null,epoch=0,next='garage';
+let session=null,user=null,refreshing=null,epoch=0,next='garage',pendingRoute=false;
 const listeners=new Set();
 const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 function emit(){
@@ -93,7 +93,7 @@ const ready=(async()=>{
  finally{emit()}
 })();
 window.DSAuth={get user(){return uuid.test(user?.id||'')?user:null},ready,token,request,signIn,signUp,signOut,recover,updatePassword,
- get next(){return next},setNext(value){next=['garage','diagnose'].includes(value)?value:'garage'},
+ get next(){return next},get hasPendingRoute(){return pendingRoute},consumeNext(){pendingRoute=false;return next},setNext(value){next=['garage','diagnose'].includes(value)?value:'garage';pendingRoute=true},
  onChange(fn){listeners.add(fn);return()=>listeners.delete(fn)}
 };
 })();

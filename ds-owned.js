@@ -68,14 +68,14 @@ async function flush(){
 async function select(id){
  await flush();const row=rows.find(r=>r.id===id);if(!row)throw new Error('Choose a saved vehicle.');
  if(!publicState)publicState=structuredClone(state);
- window.ModPickerGarage?.clear?.();switching=true;activeId=id;
+ window.ModPickerGarage?.clear?.();switching=true;activeId=id;try{sessionStorage.setItem('dreamspec-selected-vehicle-'+owner,id)}catch{}
  try{
   const view=state.route;switchVehicle(row.catalog_vehicle_id);
   if(Array.isArray(row.build?.build)){acceptBuild({...row.build,vehicleId:row.catalog_vehicle_id});state.route=view}
   else Object.assign(state,{build:[],buildMeta:{},buildName:row.nickname||'My build',budget:5000,laborRate:0,goal:'balanced'});
   renderAll();
  }finally{switching=false}
- window.ModPickerGarage?.refresh?.();await loadEvents();render();emit();
+ window.ModPickerGarage?.refresh?.();await signPhotos(row);if(activeId!==row.id)return;window.ModPickerGarage?.refresh?.();await loadEvents();render();emit();
 }
 async function loadEvents(){
  const row=active(),expected=epoch;if(!row)return;
@@ -125,7 +125,7 @@ async function load(){
  const expected=++epoch;clearTimeout(timer);dirty=false;activeId=null;rows=[];events=[];owner=DSAuth.user?.id||null;
  window.ModPickerGarage?.clear?.();render();
  if(!owner){try{sessionStorage.removeItem('dreamspec-private-route')}catch{}if(publicState){switching=true;Object.assign(state,publicState);publicState=null;loadState();switching=false;renderAll()}emit();return}
- try{const values=await DSAuth.request('owned_vehicles?order=created_at.asc');if(epoch!==expected)return;rows=(values||[]).map(r=>({...r,profile:{...empty(),...r.profile}}));for(const row of rows)await signPhotos(row);if(rows.length)await select(rows[0].id);else render();emit()}
+ try{const values=await DSAuth.request('owned_vehicles?order=created_at.asc');if(epoch!==expected)return;rows=(values||[]).map(r=>({...r,profile:{...empty(),...r.profile}}));let remembered=null;try{remembered=sessionStorage.getItem('dreamspec-selected-vehicle-'+owner)}catch{}if(rows.length)await select(rows.some(r=>r.id===remembered)?remembered:rows[0].id);else render();emit()}
  catch(e){if(epoch===expected){notify(e.message);render()}}
 }
 function bind(){
