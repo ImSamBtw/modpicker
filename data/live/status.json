@@ -68,7 +68,7 @@
       "pruned_invalid_nhtsa": 0,
       "rejected_make_mismatch": 0,
       "requests": 12,
-      "rows_seen": 49,
+      "rows_seen": 89,
       "vehicle_count": 609,
       "warnings": []
     },
@@ -95,15 +95,15 @@
       ]
     },
     "youtube": {
-      "count": 33,
+      "count": 12,
       "enabled": true,
-      "fresh_parts_skipped": 160,
+      "fresh_parts_skipped": 186,
       "max_searches": 25,
       "quota_cooldown_active": false,
       "quota_cooldown_hours": 12,
       "quota_stopped": false,
       "refresh_days": 7,
-      "search_calls": 25,
+      "search_calls": 9,
       "search_state_entries": 195,
       "warnings": []
     }
@@ -120,7 +120,7 @@
   "expanded_fitment_count": 2619,
   "fitment_rule_count": 102,
   "fitment_warnings": [],
-  "generated_at": "2026-10-21T17:15:00Z",
+  "generated_at": "2026-10-21T21:45:10Z",
   "matched_fitment_rule_count": 102,
   "mode": "deterministic_no_ai",
   "offer_count": 164,
@@ -128,6 +128,6 @@
   "platform_count": 7,
   "price_history_count": 3235,
   "review_queue_count": 65,
-  "source_count": 1085,
+  "source_count": 1086,
   "vehicle_count": 609
 }
