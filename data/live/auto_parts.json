@@ -3052,5 +3052,42 @@
       "vendor": "PERRIN"
     },
     "status": "active"
+  },
+  {
+    "auto_discovered": true,
+    "brand": "PERRIN",
+    "category": "Intake",
+    "description": "Increase horsepower and add under-hood style with the PERRIN Cold Air Intake. It features correct MAF alignment and tubing size to maintain proper air-fuel ratios and avoid check engine lights.",
+    "discovery_metadata": {
+      "candidate_id": "5d37d751c711df8e7504",
+      "collection_url": "https://perrin.com/collections/brz",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.9,
+    "fitment_family_ids": [
+      "subaru-brz-zc6",
+      "scion-frs",
+      "toyota-86"
+    ],
+    "fitment_range": {
+      "year_from": 2017,
+      "year_to": 2019
+    },
+    "fitment_source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+    "fitment_status": "probable",
+    "id": "auto-b2e9d70985f5e500916b",
+    "image_url": "https://perrin.com/cdn/shop/files/PSP-INT-333RD_carb.jpg?v=1792534604&width=1920",
+    "manufacturer_part_number": "PSP-INT-333RD",
+    "name": "Intake, Cold Air CARB Approved for 2017-2019 BRZ, FR-S, 86 Manual",
+    "official_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-10-21T04:51:31Z",
+      "price": 399.5,
+      "url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+      "vendor": "PERRIN"
+    },
+    "status": "active"
   }
 ]

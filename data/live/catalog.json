@@ -37030,5 +37030,213 @@
       "epa-41949",
       "epa-41950"
     ]
+  },
+  {
+    "auto_discovered": true,
+    "brand": "PERRIN",
+    "category": "Intake",
+    "description": "Increase horsepower and add under-hood style with the PERRIN Cold Air Intake. It features correct MAF alignment and tubing size to maintain proper air-fuel ratios and avoid check engine lights.",
+    "discovery_metadata": {
+      "candidate_id": "5d37d751c711df8e7504",
+      "collection_url": "https://perrin.com/collections/brz",
+      "fitment_scope_source": "explicit product/collection year evidence"
+    },
+    "fitment_confidence": 0.9,
+    "fitment_family_ids": [
+      "subaru-brz-zc6",
+      "scion-frs",
+      "toyota-86"
+    ],
+    "fitment_range": {
+      "year_from": 2017,
+      "year_to": 2019
+    },
+    "fitment_source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+    "fitment_status": "probable",
+    "fitment_summary": {
+      "application_count": 14,
+      "probable_count": 14,
+      "rule_ids": [
+        "auto-range-auto-b2e9d70985f5e500916b-2017-2019"
+      ],
+      "verified_count": 0
+    },
+    "fitments": [
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "brz-2017"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37478"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37529"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37609"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-37610"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-39705"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-39706"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-39707"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-39813"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-39814"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-40525"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-40526"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-40559"
+      },
+      {
+        "confidence": 0.9,
+        "fitment_status": "probable",
+        "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+        "rule_id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+        "source_kind": "catalog_query_range",
+        "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+        "vehicle_id": "epa-40560"
+      }
+    ],
+    "id": "auto-b2e9d70985f5e500916b",
+    "image_url": "https://perrin.com/cdn/shop/files/PSP-INT-333RD_carb.jpg?v=1792534604&width=1920",
+    "manufacturer_part_number": "PSP-INT-333RD",
+    "name": "Intake, Cold Air CARB Approved for 2017-2019 BRZ, FR-S, 86 Manual",
+    "official_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+    "price_hint": {
+      "currency": "USD",
+      "in_stock": true,
+      "observed_at": "2026-10-21T04:51:31Z",
+      "price": 399.5,
+      "url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual",
+      "vendor": "PERRIN"
+    },
+    "ranking": {
+      "confidence": null,
+      "handling": null,
+      "metadata": {
+        "evidence": [],
+        "label": "Published owner rating",
+        "limitations": "Retailer-reported reviews; buyers and independence across retailers are not verified. No inferred quality, reliability or performance metrics.",
+        "provisional": true,
+        "review_count": 0
+      },
+      "methodology_version": "published_reviews_v2",
+      "overall": null,
+      "performance": null,
+      "quality": null,
+      "reliability": null,
+      "source_count": 0,
+      "value": null
+    },
+    "status": "active",
+    "vehicle_id": "brz-2017",
+    "vehicles": [
+      "brz-2017",
+      "epa-37478",
+      "epa-37529",
+      "epa-37609",
+      "epa-37610",
+      "epa-39705",
+      "epa-39706",
+      "epa-39707",
+      "epa-39813",
+      "epa-39814",
+      "epa-40525",
+      "epa-40526",
+      "epa-40559",
+      "epa-40560"
+    ]
   }
 ]

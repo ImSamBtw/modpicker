@@ -1738,5 +1738,25 @@
     },
     "source_kind": "catalog_query_range",
     "source_url": "https://perrin.com/products/clutch-line"
+  },
+  {
+    "confidence": 0.9,
+    "fitment_status": "probable",
+    "id": "auto-range-auto-b2e9d70985f5e500916b-2017-2019",
+    "notes": "Generated from an explicit year range in the source-backed catalog record; exact SKU restrictions remain in the source notes.",
+    "part_ids": [
+      "auto-b2e9d70985f5e500916b"
+    ],
+    "selector": {
+      "family_ids": [
+        "scion-frs",
+        "subaru-brz-zc6",
+        "toyota-86"
+      ],
+      "year_from": 2017,
+      "year_to": 2019
+    },
+    "source_kind": "catalog_query_range",
+    "source_url": "https://perrin.com/products/intake-cold-air-carb-approved-for-2017-2019-brz-fr-s-86-manual"
   }
 ]
